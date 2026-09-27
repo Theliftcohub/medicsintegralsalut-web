@@ -1,0 +1,10 @@
+/* Tokens de marca: valores del CSS real (migracion/brand_tokens.json). Nunca hex fuera de este archivo. */
+:root {
+  /* Sistema B · landings de unidad */
+  --accent: #F3983F; --accent-d: #c9741c; --accent-deep: #a85e12; --accent-soft: #fbeede;
+  --crema: #fdf0e6; --ink: #2b2723; --banda: #4b443c; --ink-soft: #5c534a; --bg: #ffffff;
+  /* Sistema A · plantilla Elementor */
+  --a-accent: #f7b84d; --a-text: #000000; --a-text-soft: #595959; --a-grey: #797979; --a-light: #f0f0f0;
+  --sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --radius: 12px; --wrap: 1180px;
+}
