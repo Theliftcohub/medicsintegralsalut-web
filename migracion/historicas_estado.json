@@ -1,0 +1,3266 @@
+{
+ "/1583-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/solucion-mamas-tuberosas/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/5268/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/author/infomedicstetics/page/4/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/author/infomedicstetics/page/6/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/author/infomedicstetics/page/7/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/ca/author/infomedicstetics/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/autor/infomedicsestetics/pagina/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/author/infomedicstetics/page/3/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/autor/infomedicsestetics/pagina/3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/author/infomedicstetics/page/4/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/autor/infomedicsestetics/pagina/4/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/beauty-days/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/dies-de-bellesa/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/blog/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/bloc/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/categoria/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-de-mames/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/categoria/cirugia-estetica-mamas/pagina/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-de-mames/pagina/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/categoria/cirugia-estetica-mamas/pagina/3/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-de-mames/pagina/3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-corporal/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-facial/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-facial/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-facial/pagina/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-mames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-pits/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-masculina-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-masculina-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/cirurgia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/cirurgia-estetica-masculina/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/gabinet-destetica-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/gabinet-destetica-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/gabinet-destetica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/gabinet-destetica/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/medicina-estetica-corporal-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/medicina-estetica-corporal-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/medicina-estetica-corporal-ca/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/medicina-estetica-corporal-ca/pagina/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/medicina-estetica-facial-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/medicina-estetica-facial-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/sobrepes-i-obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/sobrepes-i-obesitat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/category/uncategorized-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/categoria/uncategorized-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/cirugia-plastica-girona-equipo-medico/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/cirurgia-plastica-girona-equip-medic/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/como-cuidarse-despues-de-una-rinoplastia-los-mejores-consejos-para-un-rapido-postoperatorio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/com-cuidar-se-despres-duna-rinoplastia-els-millors-consells-per-a-un-postoperatori-rapid/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/como-eliminar-la-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/com-eliminar-la-cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/como-mejorar-la-estetica-de-las-cicatrices/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/com-millorar-lestetica-de-les-cicatrius/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/cuanto-cuesta-rinoplastia-espana/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/quant-val-una-rinoplastia-a-espanya/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/la-reduccion-de-mamas-mas-que-un-cambio-de-volumen-un-cambio-de-vida/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/la-reduccio-de-pits-mes-que-un-canvi-de-volum-un-canvi-de-vida/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/lipofilling-resultados-permanentes-solo-con-grasa/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/lipofilling-resultats-permanents-nomes-amb-greix-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/medicina-estetica-corporal/cellulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-corporal/cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/ca/medicina-estetica-corporal/liposuccio-sense-cirurgia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-corporal/llipoescultura-no-invasiva/",
+  "status_final": 200,
+  "saltos": 3
+ },
+ "/ca/mis-tratamientos-preferidos-resultados-inmediatos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/els-meus-tractaments-preferits-resultats-immediats-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/novedad-hilos-360o-efecto-lifting/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/novetat-fils-360o-efecte-lifting-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/nuestra-experiencia-con-la-rinoplastia-ultrasonica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/la-nostra-experiencia-amb-la-rinoplastia-ultrasonica-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/otoplastia-orejas-de-soplillo-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/otoplastia-orelles-de-punxa-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfoli_pagina/pagina/2/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/ca/portfolio_page/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/augment-de-llavis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/augment-de-llavis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/augment-pit-mike-eli/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/augment-pit-mike-eli/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/augment-pit/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/augmentar-forat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/botoox-mike-lidia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/botoox-mike-lidia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/bypass-gastric-amador-emili/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/bypass-gastric-amador-emili/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/liposuccio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/lipoescultura/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/obesitat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/rinoplastia-sergio-judith/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/rinoplastia-sergio-judith/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/portfolio_page/rinoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/portfoli_pagina/rinoplastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/que-es-faci-la-llum-al-rostre/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/fes-llum-al-rostre/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/rinoplastia-o-septoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/rinoplastia-o-setoplastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/rinoplastia-ultrasonica-o-rinomodelacio-quines-son-les-diferencies/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/rinoplastia-ultrasonica-o-rinomodulacio-quines-son-les-diferencies/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/sk-10-el-tractament-amb-una-injeccio-que-aprima/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/sk-10-el-tractament-amb-una-injeccio-que-aprimat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/solucio-per-mames-tuberoses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/solucio-per-pits-tuberosos/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/abans-i-despres-otoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/abans-i-despres-otoplastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/alimentacio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/alimentacio/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/augment-de-pit/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/augment-de-pit/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/bellesa/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/bellesa/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/cirurgia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/cirurgia-bariatrica/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/contractura-capsular-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/contractura-capsular-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/cures-per-la-pell/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/cures-per-a-la-pell/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/el-que-has-saber-sobre-laugment-de-pit/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/el-que-has-de-saber-sobre-laugment-de-pit/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/estetica-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/estetica-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/evaluacio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/avaluacio/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/glutis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/glutis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/greix/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/greix/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/lifting-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/lifting-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/lipofilling-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/lipofilling-de-calci/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/mames-tuberoses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/mamelles-tuberoses/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/mida-de-protesi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/mida-de-protesi/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/obesitat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/pell/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/pell/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/resultats/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/resultats/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/rinoplastia-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/rinoplastia-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/rinoplastia-sense-cirurgia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/rinoplastia-sense-cirurgia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/rinoplastia-ultrasonica-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/rinoplastia-ultrasonica-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/rostre/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/cara/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/tecnica-quirurgica-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/tecnica-quirurgica-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/tecniques/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/tecniques/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/tipus-de-protesi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/tipus-de-protesi/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/tractaments/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/tractaments/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/ulls/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/ulls/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tag/vida-saludable-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/etiqueta/vida-saludable-catala/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/team/dr-amador-garcia-ruiz-de-gordejuela/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/equip/dr-amador-garcia-ruiz-de-gordejuela/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/team/dr-david-perez-asensio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/equip/dr-david-perez-asensio/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/team/dr-valenti-puig-divi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/equip/dr-valenti-puig-divi/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/team/dra-ainitze-ibarzabal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/equip/dra-ainitze-ibarzabal/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/tecnicas-de-medicina-estetica-que-ens-fan-rejovenir/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/tecniques-de-medicina-estetica-que-ens-fan-rejovenir/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unidades/cirugia-estetica-masculina/blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-masculina-2/blefaroplastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitaas/medicina-estetica-facial/arrugues-expresion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-corporal/aumento-de-gluteos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/augment-de-glutis-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-corporal/lifting-brazos-y-piernas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/aixecament-de-bracos-i-cames-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-corporal/liposuccio-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/liposuccio-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-corporal/liposuccion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/liposuccio-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/blefaroplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/blefaroplastia-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/lifting-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/lifting-facial/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/otoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/otoplastia-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/otoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/otoplastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-facial/relleno-de-arrugas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-facial-2/farciment-darrugues-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-mamas/aumento-de-pecho-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pits-tecnica-ami/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirugia-estetica-mamas/elevacion-de-pecho-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-de-mames/elevacio-de-pit-pexia-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirurgia-estetica-corporal-2/cirugia-genital-femenina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-corporal-2/cirurgia-genital-femenina-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirurgia-estetica-masculina-2/aumento-de-pectoral/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-masculina-2/augment-de-pectoral-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/cirurgia-estetica-masculina-2/liftting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/cirurgia-estetica-masculina-2/estirament-de-coll-i-papada/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/gabinet-destetica-2/reduccion-de-volumen-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/gabinet-destetica-2/reduccio-de-volum-girona-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-corporal/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-corporal/cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-corporal/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-corporal/liposuccio-sense-cirurgia-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/arrugas-de-expresion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/arrugues-dexpressio-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/aumento-labios/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/augmentacio-de-llavis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/flacidez-hilos-tensores/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/flacidesa-fils-tensors/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/hidratacion-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/hidratacio-i-nutricio-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/ojeras/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/ulleres-fosques/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/medicina-estetica-facial/rinomodelacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-facial/rinomodelacio/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepes-i-obesitat-2/balon-12-meses-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/balo-12-mesos-reajustable-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepes-i-obesitat-2/balon-6-meses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/bota-6-mesos/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/bypass-gastric-2/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/creu-duodenal-2/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/balon-12-meses-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/balo-12-mesos-reajustable-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/balon-ingerible-elipse/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/pilota-ingerible-el%c2%b7lipse/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/cirugia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/cirugia-bariatrica/cruce-duodenal-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/creu-duodenal-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/ca/unitats-2/sobrepeso-y-obesidad/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/sobrepes-i-obesitat-2/endomanga/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-corporal/lifting-bra%C3%A7os-i-cames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-corporal/aixecament-de-bracos-i-cames/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/ca/unitats/cirurgia-estetica-corporal/lifting-bracos-i-cames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-corporal/aixecament-de-bracos-i-cames/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-corporal/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-corporal/lipofilling-corporal/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-corporal/liposuccio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-corporal/lipoescultura/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-facial/cirurgia-mento-i-pomuls/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-facial/mento-i-pomuls-cirurgia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-facial/farciment-darrugues/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-facial/farciment-darros/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-facial/perforacio-de-lenva-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-facial/perforacio-del-tabic-nasal-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-mames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-pits/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-mames/elevacio-de-pit-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-pits/elevacio-de-pit-i-pexia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/cirurgia-estetica-mames/reduccio-de-pit/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-pits/reduccio-de-pit/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/gabinet-destetica/antiedat-mc-110/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/mc110-antiedat/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/ca/unitats/gabinet-destetica/antiedat-mc110/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/mc110-antiedat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/gabinet-destetica/eliminar-cellulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/eliminar-cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/ca/unitats/gabinet-destetica/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/eliminar-cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/gabinet-destetica/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/hidroclorat/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/gabinet-destetica/p50-visage/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/p50-rostre/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/gabinet-destetica/radiofrequencia-facial-y-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/gabinet-destetica/radiofrequencia-facial-i-corporal-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats-2/medicina-estetica-girona/",
+  "status_final": 200,
+  "saltos": 3
+ },
+ "/ca/unitats/medicina-estetica-corporal/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-corporal/cel%c2%b7lulitis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/medicina-estetica-corporal/liposuccio-sense-cirurgia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-corporal/llipoescultura-no-invasiva/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/medicina-estetica-facial/augment-llavis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-facial/augment-de-llavis/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/medicina-estetica-facial/farciment-darrugues/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/cirurgia-estetica-facial/farciment-darros/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/ca/unitats/medicina-estetica-facial/flacidesa-fils-tensors/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-facial/flacciditat-fils-tensors/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/medicina-estetica-facial/peeling/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/medicina-estetica-facial/pela/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/sobrepes-i-obesitat/balo-12-mesos-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/sobrepes-i-obesitat/12-mesos-reajustable/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/sobrepes-i-obesitat/balo-6-mesos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/sobrepes-i-obesitat/6-mesos/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ca/unitats/sobrepes-i-obesitat/balo-ingerible-elipse/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ca/unitats/sobrepes-i-obesitat/balo-ingerible-el%c2%b7lipse/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/capilar": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/cuanto-cuesta-una-rinoplastia-espana/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/en/aumento-mamario-con-protesis-motiva/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/breast-augmentation-with-implants-motivations/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/beauty-days-blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/beauty-days-blepharoplasty/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/beneficios-de-la-cirugia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/benefits-of-bariatric-surgery/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/category/sobrepes-i-obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/category/overweight-and-obesity/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/cirugia-plastica-girona-equipo-medico/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/plastic-surgery-girona-medical-team/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/com-cuidar-la-pell-als-50/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/how-to-care-for-your-skin-at-50/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/cosmetic-body-medicine/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-body-medicine/non-surgical-liposuction/",
+  "status_final": 200,
+  "saltos": 3
+ },
+ "/en/equip-quadre-medic/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/medical-unit/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/financament/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/funding/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/la-belleza-del-rostro-el-triangulo-invertido/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/the-beauty-of-the-face-the-inverted-triangle/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/la-importante-ayuda-de-los-farmacos-en-la-perdida-de-peso-ozempic-y-mounjaro-en-nuestra-clinica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/the-significant-help-of-ozempic-and-mounjaro-drugs-in-weight-loss-at-our-clinic/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/los-casinos-online-mas-populares-de-argentina/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/en/mostbet-casino-online-e-casa-de-apostas-em-portugal/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/en/novetat-fils-360o-efecte-lifting/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/360-novelty-lifting-effect/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/page/2/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/en/por-que-envejecemos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/why-do-we-age/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/protesis-redondas-vs-protesis-ergonomicas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/round-prostheses-vs-ergonomic-prostheses/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/ranking-de-cassinos-online-no-brasil-os-mais-populares-em-2026/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/en/solucion-mamas-tuberosas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/tubular-breast-correction/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/unidades/cirugia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/unidades/cirugia-estetica-facial/blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/eyelid-surgery/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/unidades/medicina-estetica-facial/flacidez-hilos-tensores/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/facial-aesthetic-medicine/sagging-and-thread-lifts/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/unidades/sobrepeso-y-obesidad/dietetica-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/dietetics-and-nutrition-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/aesthetic-cabinet/desintoxicant/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/aesthetic-cabinet/detoxifying-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/aesthetic-cabinet/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/aesthetic-cabinet/get-rid-of-cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/body-contouring-surgery/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/body-contouring-surgery/body-fat-transfer/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/cosmetic-body-medicine/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/cosmetic-body-medicine/cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/cosmetic-facial-surgery/minilifting-de-coll-i-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/cosmetic-facial-surgery/neck-and-jowl-lift/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/cosmetic-facial-surgery/perforacio-de-lenva-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/cosmetic-facial-surgery/nasal-septum-piercing-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/cosmetic-facial-surgery/rinoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/cosmetic-facial-surgery/rhinoplasty/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/male-cosmetic-surgery-2/augment-de-pectoral/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/male-cosmetic-surgery-2/chest-augmentation-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/male-cosmetic-surgery-2/ginecomastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/male-cosmetic-surgery-2/gynaecomastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/overweight-and-obesity/balo-12-mesos-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/overweight-and-obesity/12-month-adjustable-backpack/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/overweight-and-obesity/balo-6-mesos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/overweight-and-obesity/six-months-old/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/overweight-and-obesity/bariatric-surgery/encreuament-duodenal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/overweight-and-obesity/bariatric-surgery/duodenal-crossing-3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/overweight-and-obesity/dietetica-i-nutricio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/overweight-and-obesity/dietetics-and-nutrition/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units-2/unitat-de-medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units-2/cosmetic-medicine-unit-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/acido-de-frutas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/fruit-acid-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/antiedad-mc-110/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/anti-ageing-mc-110/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/desintoxicante/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/detoxifying/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/get-rid-of-cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/clearance/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/beauty-salon/p50-visage/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/p50-face/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-corporal/abdominoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-surgery-3/abdominoplasty/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-corporal/abdominoplasty/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-surgery-3/abdominoplasty/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-corporal/cirugia-genital-femenina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-surgery-3/female-genital-surgery-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-corporal/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-surgery-3/body-fat-transfer/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-corporal/liposuction-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-surgery-3/liposuction-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-facial/eyelid-surgery/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/eyelid-surgery/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-facial/facial-lift/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/facial-lift/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-facial/rinoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-mamas/aumento-de-pecho-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-breast-surgery-2/breast-augmentation-ami-technique/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cirugia-estetica-mamas/recambiodeprotesis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-breast-surgery-2/prosthetic-replacement-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cosmetic-body-medicine/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-body-medicine/non-surgical-liposuction/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/cosmetic-facial-surgery-2/perforacion-tabique-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-facial-surgery-2/nasal-septum-piercing/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/facial-aesthetic-medicine/hidratacion-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/facial-aesthetic-medicine/hydration-and-nutrition-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/facial-aesthetic-medicine/ojeras/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/facial-aesthetic-medicine/dark-circles/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/facial-aesthetic-medicine/rinomodelacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/facial-aesthetic-medicine/rhinomodelling/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/gabinete-de-estetica/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/clearance/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/gabinete-de-estetica/reduccion-de-volumen-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/beauty-salon/volume-reduction-girona-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/male-cosmetic-surgery/ginecomastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/male-cosmetic-surgery/gynaecomastia/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/cosmetic-medicine-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/sobrepeso-y-obesidad/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/sobrepeso-y-obesidad/balon-6-meses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/balloon-6-months/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/sobrepeso-y-obesidad/balon-gastrico-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/gastric-balloon-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/sobrepeso-y-obesidad/cirugia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/bariatric-surgery-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/en/units/sobrepeso-y-obesidad/dietetica-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/en/units/overweight-and-obesity-2/dietetics-and-nutrition-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/equipo-cuadro-medico/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/cirugia-plastica-girona-equipo-medico/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/equipo/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/cirugia-plastica-girona-equipo-medico/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/algunas-razones-por-las-que-no-perdemos-peso/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/voici-quelques-raisons-pour-lesquelles-on-ne-perd-pas-de-poids/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/augment-mamari-amb-protesi-motiva/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/augmentation-mammaire-avec-protheses-motivation/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/author/infomedicstetics/page/11/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/auteur/infomedicestetique/page/11/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/benvingut-dr-langdon/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/bienvenue-dr-langdon/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/chirurgie-esthetique-corporelle/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/chirurgie-esthetique-corporelle/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/chirurgie-esthetique-des-seins-2/page/3/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/chirurgie-esthetique-des-seins-2/page/3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/cirugia-estetica-facial/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/chirurgie-esthetique-faciale/page/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/chirurgie-esthetique-des-seins-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/cirurgia-estetica-mames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/chirurgie-esthetique-des-seins/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/gabinete-de-estetica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/institut-de-beaute/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/medecine-esthetique-corporelle/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/medecine-esthetique-corporelle/page/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/sobrepes-i-obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/surpoids-et-obesite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/category/sobrepeso-obesidad/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/categorie/sobrepeso-obesidad/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/cirugia-plastica-girona-equipo-medico/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/chirurgie-plastique-gerone-equipe-medicale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/cuales-son-las-mejores-protesis-de-mama/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/quelles-sont-les-meilleures-protheses-mammaires/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/cuales-son-los-mejores-implantes-de-protesis-de-pechos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/quels-sont-les-meilleurs-implants-de-protheses-mammaires/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/el-unico-balon-que-puede-estar-implantado-un-ano/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/le-seul-ballonnet-qui-peut-etre-implante-une-annee/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/equip-quadre-medic/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/equipement-du-cadre-medical/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/factores-de-crecimiento-obtenidos-de-las-plaquetas-prp/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/facteurs-de-croissance-obtenus-a-partir-de-plaquettes-prp/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/financiacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/financement/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/home/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/maison/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/la-importancia-de-seleccionar-el-tratamiento-adecuado-para-la-perdida-de-peso/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/limportance-de-selectionner-le-traitement-approprie-pour-la-perte-de-poids/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/los-casinos-online-mas-populares-de-argentina/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/fr/medicina-estetica-corporal/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/liposuccion-sans-chirurgie/",
+  "status_final": 200,
+  "saltos": 3
+ },
+ "/fr/pinko-kazino-oficialnyy-sayt-pinco-casino-vhod-na-zerkalo/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/fr/politica-de-cookies/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/politique-de-cookies/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/r7-onlayn-kazino-akcii-rozygryshi-i-specialnye-predlozheniya-dlya-igrokov/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/r7-casino-en-ligne-promotions-loteries-et-offres-speciales-pour-les-joueurs/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/fr/solucion-mamas-tuberosas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/solution-pour-seins-tubereux/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/team/dr-amador-garcia-ruiz-de-gordejuela/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/equipe/dr-amador-garcia-ruiz-de-gordejuela/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/team/dr-mike-dewever-3/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/equipe/dr-mike-dewever-3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/team/dr-mike-dewever/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/equipe/dr-mike-dewever/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/team/dr-valenti-puig-divi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/equipe/dr-valenti-puig-divi/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-facial/lifting-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-facial/otoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/otoplastie-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-facial/otoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/otoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-masculina/aumento-de-pectoral/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/aumento-de-pectoral/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-masculina/blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/blepharoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-masculina/ginecomastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/gynecomastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/cirugia-estetica-masculina/liftting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/lifting-du-cou-et-du-menton/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/medicina-estetica-corporal/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/medicina-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/medicina-estetica-facial/peeling/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/epluchage/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/bypass-gastrico-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/bypass-gastrique-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/fr/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/cruce-duodenal-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/croisement-duodenal-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/fr/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/gastrectomia-vertical/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/gastrectomie-verticale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unidades/sobrepeso-y-obesidad/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/endomanga/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/cabinet-desthetique/desintoxicant/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/cabinet-desthetique/detoxifiant/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/chirurgie-esthetique-du-visage/otoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/chirurgie-esthetique-du-visage/otoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/chirurgie-esthetique-masculine-2/lifting-de-coll-i-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/chirurgie-esthetique-masculine-2/lifting-du-cou-et-du-menton-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/medecine-esthetique-corporelle/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/medecine-esthetique-corporelle/cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/medecine-esthetique-faciale/arrugues-dexpressio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/medecine-esthetique-faciale/rides-dexpression-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/surpoids-et-obesite/balo-12-mesos-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/surpoids-et-obesite/12-mois-reajustables/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites-2/surpoids-et-obesite/chirurgie-bariatrique/gastrectomia-vertical/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites-2/surpoids-et-obesite/chirurgie-bariatrique/gastrectomie-verticale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/chirurgie-esthetique-corporelle-2/aumento-de-gluteos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/augmentation-des-fessiers/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/chirurgie-esthetique-des-seins-2/elevacion-de-pecho-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/lifting-des-seins-pexie-mammaire/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/chirurgie-esthetique-faciale/rinoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/chirurgie-esthetique-masculine/liftting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-masculine/lifting-du-cou-et-du-menton/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/abdominoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/abdominoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/abdominoplastie/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/abdominoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/aumento-de-gluteos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/augmentation-des-fessiers/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/cirugia-genital-femenina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/chirurgie-genitale-feminine-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/lifting-brazos-y-piernas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/soulever-les-bras-et-les-jambes/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/lipofilling-corporel/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/liposuccion-vaser/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion-vaser/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-corporal/liposuccion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/blefaroplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/blepharoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/cirugia-menton-y-pomulos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/chirurgie-du-menton-et-des-pommettes-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/lifting-du-visage/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/lifting-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/minilifting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/mini-lifting-du-cou-et-du-double-menton/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/otoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/otoplastie-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/otoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/otoplastie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/perforacion-tabique-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/perforation-de-la-cloison-nasale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/relleno-de-arrugas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/remplissage-de-rides/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-facial/rinoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-mamas/aumento-de-pecho-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-technique-ami/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-mamas/recambiodeprotesis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/remplacement-de-prothese/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/cirugia-estetica-mamas/reduccion-de-pecho/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/chirurgie-esthetique-des-seins-2/reduction-mammaire/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/gabinete-de-estetica/desintoxicante/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/detoxifiante/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/gabinete-de-estetica/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/eliminer-la-cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/gabinete-de-estetica/recuperador/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/recuperateur/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/gabinete-de-estetica/reduccion-de-volumen-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/reduccion-de-volumen-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/institut-de-beaute/acido-de-frutas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/acide-de-fruits/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/institut-de-beaute/antiedad-mc-110/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/anti-age-mc-110/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/institut-de-beaute/desintoxicante/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/detoxifiante/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/institut-de-beaute/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/institut-de-beaute/eliminer-la-cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medecine-esthetique-corporelle/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/liposuccion-sans-chirurgie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medecine-esthetique-faciale/ojeras/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/cernes/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-corporal/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/cellulite/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-corporal/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-corporelle/liposuccion-sans-chirurgie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/aumento-labios/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/augmentation-des-levres/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/flacidez-hilos-tensores/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/flaccidite-fils-tenseurs/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/hidratacion-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/hydratation-et-nutrition-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/ojeras/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/cernes/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/peeling/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/epluchage/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/medicina-estetica-facial/rinomodelacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/medecine-esthetique-faciale/rinomodelisation/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/balon-12-meses-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/boule-12-mois-ajustable/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/balon-6-meses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/ballon-6-mois/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/balon-gastrico-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/balon-ingerible-elipse/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/balle-comestible-ellipse/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/cirugia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/cirugia-bariatrica/bypass-gastrico-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/bypass-gastrique-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/cirugia-bariatrica/cruce-duodenal-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/croisement-duodenal-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/cirugia-bariatrica/gastrectomia-vertical/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/gastrectomie-verticale/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/cirugia-postbariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/cirugia-postbariatrica/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/dietetica-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/dietetique-et-nutrition/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/sobrepeso-y-obesidad/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/endomanga/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/surpoids-et-obesite-2/balon-gastrico-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/bypass-gastrique-2/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/croisement-duodenal-2/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/fr/vavada-kazino-oficialnyy-sayt-vhod-na-rabochee-zerkalo-vavada-2026/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/fr/vavada-casino-site-officiel-connexion-miroir-vavada-2026/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/ice-casino-polska-najlepsze-kasyno-online-na-prawdziwe-pieniadze-w-polsce/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/los-casinos-online-mas-populares-de-argentina/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/portfolio-category/servicios/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/portfolio-category/videos/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/portfolio_page/page/2/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/que-es-una-rinoplastia/feed/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/ranking-de-cassinos-online-no-brasil-os-mais-populares-em-2026/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-2/balon-12-meses-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d0%b1%d0%b0%d0%bb%d0%be%d0%bd-12-%d0%bc%d0%b5%d1%81%d1%8f%d1%86%d0%b5%d0%b2-%d1%80%d0%b5%d0%b3%d1%83%d0%bb%d0%b8%d1%80%d1%83%d0%b5%d0%bc%d1%8b%d0%b9/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-2/balon-6-meses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/balon-6-%d0%bc%d0%b5%d1%81%d1%8f%d1%86%d0%b5%d0%b2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-2/dietetica-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d0%b4%d0%b8%d0%b5%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f-%d0%b8-%d0%bf%d0%b8%d1%82%d0%b0%d0%bd%d0%b8%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-2/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d1%8d%d0%bd%d0%b4%d0%be%d0%bc%d0%b0%d0%bd%d0%b3%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D0%BA%D0%B8/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/%d1%85%d0%b8%d0%b4%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F/liftting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d0%be%d1%81%d0%bc%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/%d0%bf%d0%be%d0%b4%d1%82%d1%8f%d0%b6%d0%ba%d0%b0-%d1%88%d0%b5%d0%b8-%d0%b8-%d0%b2%d1%82%d0%be%d1%80%d0%be%d0%b3%d0%be-%d0%bf%d0%be%d0%b4%d0%b1%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D0%B3%D1%80%D1%83%D0%B4%D0%B8/aumento-de-pecho-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d1%83%d0%b4%d0%b8-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D0%B3%D1%80%D1%83%D0%B4%D0%B8/elevacion-de-pecho-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d0%bc%d0%b0%d0%bc%d0%bc%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D0%BB%D0%B8%D1%86%D0%B0/cirugia-menton-y-pomulos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%bf%d0%be%d0%b4%d0%b1%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b5-%d0%b8-%d1%81%d0%ba%d1%83%d0%bb%d0%b0%d1%85/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D0%BB%D0%B8%D1%86%D0%B0/otoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%be%d1%82%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D0%BB%D0%B8%D1%86%D0%B0/perforacion-tabique-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%bf%d1%80%d0%be%d0%ba%d0%be%d0%bb-%d0%bd%d0%be%d1%81%d0%be%d0%b2%d0%be%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d0%b3%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D1%82%D0%B5%D0%BB%D0%B0/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/%d1%86%d0%b5%d0%bb%d0%bb%d1%8e%d0%bb%d0%b8%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D1%82%D0%B5%D0%BB%D0%B0/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/%d0%bb%d0%b8%d0%bf%d0%be%d1%81%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-%d0%b1%d0%b5%d0%b7-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d0%b8-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-corporal/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d1%82%d0%b5%d0%bb%d0%b0/%d0%bb%d0%b8%d0%bf%d0%be%d1%84%d0%b8%d0%bb%d0%b8%d0%bd%d0%b3-%d1%82%d0%b5%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/%D0%B1%D0%BB%D0%B5%D1%84%D0%B0%D1%80%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0-%D0%B6%D0%B8%D1%80%D0%BE%D0%BD%D0%B0/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%b1%d0%bb%d0%b5%d1%84%d0%b0%d1%80%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/%D0%B1%D0%BB%D0%B5%D1%84%D0%B0%D1%80%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%b1%d0%bb%d0%b5%d1%84%d0%b0%d1%80%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/blefaroplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%b1%d0%bb%d0%b5%d1%84%d0%b0%d1%80%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/minilifting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d0%bf%d0%be%d0%b4%d1%82%d1%8f%d0%b6%d0%ba%d0%b0-%d1%88%d0%b5%d0%b8-%d0%b8-%d0%bf%d0%be%d0%b4%d0%b1%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/relleno-de-arrugas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d1%84%d0%b8%d0%bb%d0%bb%d0%b5%d1%80-%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2-%d0%bc%d0%be%d1%80%d1%89%d0%b8%d0%bd/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/rinoplastia-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-facial/rinoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%bb%d0%b8%d1%86%d0%b0/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d1%83%d0%b4%d0%b8-%d1%82%d0%b5%d1%85%d0%bd%d0%b8%d0%ba%d0%b0-ami/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-mamas/elevacion-de-pecho-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d0%bc%d0%b0%d0%bc%d0%bc%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/cirugia-estetica-mamas/reduccion-de-pecho/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d1%80%d0%b5%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/gabinete-de-estetica/acido-de-frutas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/acido-de-frutas/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/gabinete-de-estetica/eliminar-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/%d1%83%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%82%d1%8c-%d1%86%d0%b5%d0%bb%d0%bb%d1%8e%d0%bb%d0%b8%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/medicina-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/medicina-estetica-corporal/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/%d0%bb%d0%b8%d0%bf%d0%be%d1%81%d0%b0%d0%ba%d1%86%d0%b8%d1%8f-%d0%b1%d0%b5%d0%b7-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d0%b8-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/sobrepeso-y-obesidad/balon-gastrico-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d0%b3%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b1%d0%b0%d0%bb%d0%bb%d0%be%d0%bd-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/sobrepeso-y-obesidad/cirugia-bariatrica/cruce-duodenal-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d0%b1%d0%b0%d1%80%d0%b8%d0%b0%d1%82%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-2/%d0%b4%d1%83%d0%be%d0%b4%d0%b5%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%ba%d1%80%d0%b5%d1%81%d1%82-2/",
+  "status_final": 404,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/sobrepeso-y-obesidad/cirugia-postbariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/cirugia-postbariatrica/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B/sobrepeso-y-obesidad/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5-2/%d1%8d%d0%bd%d0%b4%d0%be%d0%bc%d0%b0%d0%bd%d0%b3%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F/medicina-estetica-corporal-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0/2/": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5/%D0%B1%D0%B0%D1%80%D0%B8%D0%B0%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F/gastrectomia-vertical/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5/%d0%b1%d0%b0%d1%80%d0%b8%d0%b0%d1%82%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/%d0%b2%d0%b5%d1%80%d1%82%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%b3%d0%b0%d1%81%d1%82%d1%80%d1%8d%d0%ba%d1%82%d0%be%d0%bc%d0%b8%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%B8%D0%B7%D0%B1%D1%8B%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D0%B2%D0%B5%D1%81-%D0%B8-%D0%BE%D0%B6%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5/balo-12-mesos-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5/%d0%b1%d0%b0%d0%bb%d0%be-12-%d0%bc%d0%b5%d1%81%d1%8f%d1%86%d0%b5%d0%b2-%d1%80%d0%b5%d0%b3%d1%83%d0%bb%d0%b8%d1%80%d1%83%d0%b5%d0%bc%d0%be%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D0%BA%D0%B8-2/desintoxicant/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8-2/%d0%b4%d0%b5%d1%82%d0%be%d0%ba%d1%81%d0%b8%d0%ba%d0%b0%d0%bd%d1%82-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D0%BA%D0%B8-2/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8-2/%d1%85%d0%b8%d0%b4%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F/augment-de-pectoral/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d1%83%d0%b4%d0%bd%d1%8b%d1%85-%d0%bc%d1%8b%d1%88%d1%86/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F/ginecomastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/%d0%b3%d0%b8%d0%bd%d0%b5%d0%ba%d0%be%d0%bc%d0%b0%d1%81%d1%82%d0%b8%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BC%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F/lifting-de-coll-i-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/%d0%bf%d0%be%d0%b4%d1%82%d1%8f%d0%b6%d0%ba%d0%b0-%d1%88%d0%b5%d0%b8-%d0%b8-%d0%bf%d0%be%d0%b4%d0%b1%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%86%D0%B5/perforacio-de-lenva-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%bb%d0%b8%d1%86%d0%b5/%d0%bf%d0%b5%d1%80%d1%84%d0%be%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%be%d1%81%d0%be%d0%b2%d0%be%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d0%b3%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%86%D0%B5/rinoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%bb%d0%b8%d1%86%d0%b5/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D1%82%D0%B5%D0%BB%D0%B0/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/%d1%86%d0%b5%d0%bb%d0%bb%d1%8e%d0%bb%d0%b8%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/%D1%8E%D0%BD%D0%B8%D1%82%D0%B0%D1%86/%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%8F-%D1%82%D0%B5%D0%BB%D0%B0/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%8e%d0%bd%d0%b8%d1%82%d0%b0%d1%86/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d1%82%d0%b5%d0%bb%d0%b0/%d0%bb%d0%b8%d0%bf%d0%be%d1%84%d0%b8%d0%bb%d0%b8%d0%bd%d0%b3-%d1%82%d0%b5%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/author/infomedicstetics/page/10/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b0%d0%b2%d1%82%d0%be%d1%80/%d0%b8%d0%bd%d1%84%d0%be%d0%bc%d0%b5%d0%b4%d0%b8%d0%ba%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d1%81/%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0/10/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/author/infomedicstetics/page/4/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b0%d0%b2%d1%82%d0%be%d1%80/%d0%b8%d0%bd%d1%84%d0%be%d0%bc%d0%b5%d0%b4%d0%b8%d0%ba%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d1%81/%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0/4/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/author/infomedicstetics/page/8/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b0%d0%b2%d1%82%d0%be%d1%80/%d0%b8%d0%bd%d1%84%d0%be%d0%bc%d0%b5%d0%b4%d0%b8%d0%ba%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d1%81/%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0/8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/bienvenido-dr-langdon/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b4%d0%be%d0%b1%d1%80%d0%be-%d0%bf%d0%be%d0%b6%d0%b0%d0%bb%d0%be%d0%b2%d0%b0%d1%82%d1%8c-%d0%b4%d0%be%d0%ba%d1%82%d0%be%d1%80-%d0%bb%d1%8d%d0%bd%d0%b3%d0%b4%d0%be%d0%bd-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/blog-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b1%d0%bb%d0%be%d0%b3-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/blog/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b1%d0%bb%d0%be%d0%b3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/canvi-dimatge-i-estil-de-vida-amb-la-cirurgia-bariatrica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%b0-%d0%b6%d0%b8%d0%b7%d0%bd%d0%b8-%d0%b8-%d0%b1%d0%b0%d1%80%d0%b8%d0%b0%d1%82%d1%80%d0%b8%d1%87%d0%b5%d1%81/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/%D1%8D%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D1%82%D0%B5%D0%BB%D0%B0/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0/%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirugia-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d1%82%d0%b5%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirugia-estetica-mamas/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%86%d0%b0/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirugia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d0%be%d1%81%d0%bc%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirurgia-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d1%82%d0%b5%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirurgia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%bb%d0%b8%d1%86%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirurgia-estetica-mames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/cirurgia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/gabinete-de-estetica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/medicina-estetica-corporal-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d1%82%d0%b5%d0%bb%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/medicina-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%bb%d0%b8%d1%86%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/category/sobrepes-i-obesitat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d0%b8%d1%8f/%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b5%d1%81-%d0%b8-%d0%be%d0%b6%d0%b8%d1%80%d0%b5%d0%bd%d0%b8%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/como-cuidarse-despues-de-una-rinoplastia-los-mejores-consejos-para-un-rapido-postoperatorio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d0%ba-%d1%83%d1%85%d0%b0%d0%b6%d0%b8%d0%b2%d0%b0%d1%82%d1%8c-%d0%b7%d0%b0-%d1%81%d0%be%d0%b1%d0%be%d0%b9-%d0%bf%d0%be%d1%81%d0%bb%d0%b5-%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/como-eliminar-la-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d0%ba-%d0%b8%d0%b7%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%d1%81%d1%8f-%d0%be%d1%82-%d1%86%d0%b5%d0%bb%d0%bb%d1%8e%d0%bb%d0%b8%d1%82%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/cuales-son-los-mejores-implantes-de-protesis-de-pechos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d0%b0%d0%ba%d0%b8%d0%b5-%d0%bb%d1%83%d1%87%d1%88%d0%b8%d0%b5-%d0%b8%d0%bc%d0%bf%d0%bb%d0%b0%d0%bd%d1%82%d1%8b-%d0%b4%d0%bb%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%bd%d1%8b%d1%85-%d0%bf%d1%80%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/el-unico-balon-que-puede-estar-implantado-un-ano/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9-%d0%bc%d1%8f%d1%87-%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b%d0%b9-%d0%bc%d0%be%d0%b6%d0%b5%d1%82-%d0%b1%d1%8b%d1%82%d1%8c-%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/factores-de-crecimiento-obtenidos-de-las-plaquetas-prp/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%84%d0%b0%d0%ba%d1%82%d0%be%d1%80%d1%8b-%d1%80%d0%be%d1%81%d1%82%d0%b0-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d0%b8%d0%b7-%d1%82%d1%80%d0%be%d0%bc%d0%b1%d0%be%d1%86%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/financiacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%84%d0%b8%d0%bd%d0%b0%d0%bd%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/la-gigantomastia-solucion-reduccion-de-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b3%d0%b8%d0%b3%d0%b0%d0%bd%d1%82%d0%be%d0%bc%d0%b0%d1%81%d1%82%d0%b8%d1%8f-%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d1%80%d0%b5%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d0%be%d0%bd/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/la-ginecomastia-tiene-solucion-definitiva/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%83-%d0%b3%d0%b8%d0%bd%d0%b5%d0%ba%d0%be%d0%bc%d0%b0%d1%81%d1%82%d0%b8%d0%b8-%d0%b5%d1%81%d1%82%d1%8c-%d0%be%d0%ba%d0%be%d0%bd%d1%87%d0%b0%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d1%80%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/la-reduccion-de-mamas-mas-que-un-cambio-de-volumen-un-cambio-de-vida/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%80%d0%b5%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8-%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b5-%d1%87%d0%b5%d0%bc-%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/novetat-fils-360o-efecte-lifting/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%ba%d0%b8-%d1%8d%d1%84%d1%84%d0%b5%d0%ba%d1%82-%d0%bb%d0%b8%d1%84%d1%82%d0%b8%d0%bd%d0%b3-360/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/pinko-kazino-oficialnyy-sayt-pinco-casino-vhod-na-zerkalo/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/ru/politica-de-cookies/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%bf%d0%be%d0%bb%d0%b8%d1%82%d0%b8%d0%ba%d0%b0-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d1%84%d0%b0%d0%b9%d0%bb%d0%be%d0%b2-cookie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/protesis-redondas-vs-protesis-ergonomicas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%ba%d1%80%d1%83%d0%b3%d0%bb%d1%8b%d0%b5-%d0%bf%d1%80%d0%be%d1%82%d0%b5%d0%b7%d1%8b-%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2-%d1%8d%d1%80%d0%b3%d0%be%d0%bd%d0%be%d0%bc%d0%b8%d1%87%d0%bd%d1%8b%d1%85/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/que-es-faci-la-llum-al-rostre/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%87%d1%82%d0%be-%d0%be%d1%81%d0%b2%d0%b5%d1%89%d0%b0%d0%b5%d1%82-%d0%bb%d0%b8%d1%86%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/reconstruccio-despres-dun-cancer-de-mama/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%80%d0%b5%d0%ba%d0%be%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%86%d0%b8%d1%8f-%d0%bf%d0%be%d1%81%d0%bb%d0%b5-%d1%80%d0%b0%d0%ba%d0%b0-%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be%d0%b9-%d0%b6%d0%b5/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/rinoplastia-sin-cirugia-rinoplastia-ultrasonica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b1%d0%b5%d0%b7-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d0%b8-%d1%83%d0%bb%d1%8c%d1%82%d1%80%d0%b0%d0%b7%d0%b2%d1%83/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/rinoseptoplastia-que-es/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%80%d0%b8%d0%bd%d0%be%d1%81%d0%b5%d0%bf%d1%82%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d1%87%d1%82%d0%be-%d1%8d%d1%82%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/siente-el-poder-del-bienestar-con-una-cirugia-estetica-para-los-pechos-separados/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%bf%d0%be%d1%87%d1%83%d0%b2%d1%81%d1%82%d0%b2%d1%83%d0%b9%d1%82%d0%b5-%d1%81%d0%b8%d0%bb%d1%83-%d0%b1%d0%bb%d0%b0%d0%b3%d0%be%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d1%8f-%d1%81-%d0%bf%d0%be%d0%bc/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/solucion-mamas-tuberosas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d1%8b-%d1%82%d1%83%d0%b1%d1%83%d0%bb%d1%8f%d1%80%d0%bd%d1%8b%d1%85-%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d1%8b/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/tecnicas-de-medicina-estetica-que-ens-fan-rejovenir/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%bc%d0%b5%d1%82%d0%be%d0%b4%d1%8b-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%be%d0%b9-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d1%8b-%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/transforma-tu-figura-con-la-elevacion-de-pecho-todo-lo-que-necesitas-saber/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%b8%d1%82%d0%b5-%d1%81%d0%b2%d0%be%d1%8e-%d1%84%d0%b8%d0%b3%d1%83%d1%80%d1%83-%d1%81-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c%d1%8e-%d0%bf%d0%be%d0%b4/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/unidades/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d0%b8%d1%80%d1%83%d1%80%d0%b3%d0%b8%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/unidades/gabinete-de-estetica/antiedad-mc-110/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/antiedad-mc-110/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/unidades/gabinete-de-estetica/p50-visage/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/ru/%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b/%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82-%d1%8d%d1%81%d1%82%d0%b5%d1%82%d0%b8%d0%ba%d0%b8/p50-%d0%b2%d0%b8%d0%b7%d0%b0%d0%b6/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/ru/vavada-kazino-oficialnyy-sayt-vhod-na-rabochee-zerkalo-vavada-2026/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/arrugues-dexpressio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/%d0%bc%d1%96%d0%bc%d1%96%d1%87%d0%bd%d1%96-%d0%b7%d0%bc%d0%be%d1%80%d1%88%d0%ba%d0%b8-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%96%D0%BB%D0%B0/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d1%96%d0%bb%d0%b0/%d1%86%d0%b5%d0%bb%d1%8e%d0%bb%d1%96%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/minilifting-de-coll-i-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/%d0%bc%d1%96%d0%bd%d1%96%d0%bb%d1%96%d1%84%d1%82%d0%b8%d0%bd%d0%b3-%d1%88%d0%b8%d1%97-%d1%82%d0%b0-%d0%bf%d0%be%d0%b4%d0%b2%d1%96%d0%b9%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d1%96%d0%b4%d0%b1%d0%be%d1%80-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/perforacio-de-lenva-nasal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/%d0%bf%d0%b5%d1%80%d1%84%d0%be%d1%80%d0%b0%d1%86%d1%96%d1%8f-%d0%bd%d0%be%d1%81%d0%be%d0%b2%d0%be%d1%97-%d0%bf%d0%b5%d1%80%d0%b5%d0%b3%d0%be%d1%80%d0%be%d0%b4%d0%ba%d0%b8-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F/%D0%B1%D0%B0%D1%80%D1%96%D0%B0%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F/gastrectomia-vertical/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/%d0%b1%d0%b0%d1%80%d1%96%d0%b0%d1%82%d1%80%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f/%d0%b2%d0%b5%d1%80%d1%82%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0-%d0%b3%d0%b0%d1%81%d1%82%d1%80%d0%b5%d0%ba%d1%82%d0%be%d0%bc%d1%96%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F/balo-12-mesos-reajustable/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/12-%d0%bc%d1%96%d1%81%d1%8f%d1%86%d1%96%d0%b2-%d0%b7-%d0%bc%d0%be%d0%b6%d0%bb%d0%b8%d0%b2%d1%96%d1%81%d1%82%d1%8e-%d0%bf%d0%b5%d1%80%d0%b5%d0%b3%d0%bb%d1%8f%d0%b4%d1%83/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F/balo-ingerible-elipse/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/%d0%ba%d0%be%d0%b2%d1%82%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0-%d0%ba%d0%b0%d0%bf%d1%81%d1%83%d0%bb%d0%b0-%d1%83-%d1%84%d0%be%d1%80%d0%bc%d1%96-%d0%b5%d0%bb%d1%96%d0%bf%d1%81%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F/dietetica-i-nutricio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/%d0%b4%d1%96%d1%94%d1%82%d0%be%d0%bb%d0%be%d0%b3%d1%96%d1%8f-%d1%82%d0%b0-%d1%85%d0%b0%d1%80%d1%87%d1%83%d0%b2%d0%b0%d0%bd%d0%bd%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/%d0%b2%d0%bd%d1%83%d1%82%d1%80%d1%96%d1%88%d0%bd%d1%8f-%d1%87%d0%b0%d1%81%d1%82%d0%b8%d0%bd%d0%b0-%d1%80%d1%83%d0%ba%d0%b0%d0%b2%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BA%D1%80%D0%B0%D1%81%D0%B8-2/desintoxicant/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%80%d0%b0%d1%81%d0%b8-2/%d0%b4%d0%b5%d1%82%d0%be%d0%ba%d1%81%d0%b8%d0%ba%d0%b0%d0%bd%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D1%87%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D1%87%D0%B0-%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-2/augment-de-pectoral/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d1%87%d0%be%d0%bb%d0%be%d0%b2%d1%96%d1%87%d0%b0-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-2/%d0%b7%d0%b1%d1%96%d0%bb%d1%8c%d1%88%d0%b5%d0%bd%d0%bd%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%bd%d0%b8%d1%85-%d0%bc%d1%8f%d0%b7%d1%96%d0%b2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D1%87%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D1%87%D0%B0-%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-2/ginecomastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d1%87%d0%be%d0%bb%d0%be%d0%b2%d1%96%d1%87%d0%b0-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-2/%d0%b3%d1%96%d0%bd%d0%b5%d0%ba%d0%be%d0%bc%d0%b0%d1%81%d1%82%d1%96%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/%D1%87%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D1%87%D0%B0-%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-2/lifting-de-coll-i-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d1%87%d0%be%d0%bb%d0%be%d0%b2%d1%96%d1%87%d0%b0-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-2/%d0%bf%d1%96%d0%b4%d1%82%d1%8f%d0%b6%d0%ba%d0%b0-%d1%88%d0%b8%d1%97-%d1%82%d0%b0-%d0%bf%d0%be%d0%b4%d0%b2%d1%96%d0%b9%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d1%96%d0%b4%d0%b1%d0%be%d1%80%d1%96%d0%b4%d0%b4/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96-2/unitat-de-medicina-cosmetica-girona/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96-2/%d0%b2%d1%96%d0%b4%d0%b4%d1%96%d0%bb%d0%b5%d0%bd%d0%bd%d1%8f-%d0%ba%d0%be%d1%81%d0%bc%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%be%d1%97-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b8-%d0%b2-%d0%b6%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/hidratacion-y-nutricion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/%d0%b7%d0%b2%d0%be%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%bd%d1%8f-%d1%82%d0%b0-%d0%b6%d0%b8%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/ojeras/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/%d1%82%d0%b5%d0%bc%d0%bd%d1%96-%d0%ba%d0%be%d0%bb%d0%b0-%d0%bf%d1%96%d0%b4-%d0%be%d1%87%d0%b8%d0%bc%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%96%D0%BB%D0%B0/liposuccion-sin-cirugia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d1%96%d0%bb%d0%b0/%d0%bb%d1%96%d0%bf%d0%be%d1%81%d0%b0%d0%ba%d1%86%d1%96%d1%8f-%d0%b1%d0%b5%d0%b7-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%b2%d1%82%d1%80%d1%83%d1%87%d0%b0%d0%bd-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F-2/cirugia-menton-y-pomulos/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f-2/%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%bf%d1%96%d0%b4%d0%b1%d0%be%d1%80%d1%96%d0%b4%d0%b4%d1%8f-%d1%82%d0%b0-%d0%b2%d0%b8%d0%bb%d0%b8%d1%86%d1%8c/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F-2/minilifting-de-cuello-y-papada/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f-2/%d0%bc%d1%96%d0%bd%d1%96%d0%bb%d1%96%d1%84%d1%82%d0%b8%d0%bd%d0%b3-%d1%88%d0%b8%d1%97-%d1%82%d0%b0-%d0%bf%d0%be%d0%b4%d0%b2%d1%96%d0%b9%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d1%96%d0%b4%d0%b1%d0%be%d1%80/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D1%82%D1%96%D0%BB%D0%B0-2/cirugia-genital-femenina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d1%82%d1%96%d0%bb%d0%b0-2/%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b6%d1%96%d0%bd%d0%be%d1%87%d0%b8%d1%85-%d1%81%d1%82%d0%b0%d1%82%d0%b5%d0%b2%d0%b8%d1%85-%d0%be%d1%80%d0%b3%d0%b0%d0%bd%d1%96%d0%b2-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-%D1%82%D1%96%D0%BB%D0%B0-2/lipofiling-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d1%82%d1%96%d0%bb%d0%b0-2/%d0%bb%d1%96%d0%bf%d0%be%d1%84%d1%96%d0%bb%d1%96%d0%bd%d0%b3-%d1%82%d1%96%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F-2/%D0%B1%D0%B0%D1%80%D1%96%D0%B0%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-2/%D0%B4%D1%83%D0%BE%D0%B4%D0%B5%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D1%80%D0%B5%D1%81%D1%82-2/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F-2/balon-6-meses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f-2/%d0%bc%d1%8f%d1%87-6-%d0%bc%d1%96%d1%81%d1%8f%d1%86%d1%96%d0%b2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D0%BD%D0%B0%D0%B4%D0%BC%D1%96%D1%80%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B3%D0%B0-%D1%82%D0%B0-%D0%BE%D0%B6%D0%B8%D1%80%D1%96%D0%BD%D0%BD%D1%8F-2/endomanga/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f-2/%d0%b2%d0%bd%d1%83%d1%82%d1%80%d1%96%d1%88%d0%bd%d1%8f-%d1%87%d0%b0%d1%81%d1%82%d0%b8%d0%bd%d0%b0-%d1%80%d1%83%d0%ba%d0%b0%d0%b2%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BA%D1%80%D0%B0%D1%81%D0%B8/acido-de-frutas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%80%d0%b0%d1%81%d0%b8/%d1%84%d1%80%d1%83%d0%ba%d1%82%d0%be%d0%b2%d0%b0-%d0%ba%d0%b8%d1%81%d0%bb%d0%be%d1%82%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BA%D1%80%D0%B0%D1%81%D0%B8/hidreclat/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%80%d0%b0%d1%81%d0%b8/%d0%b3%d1%96%d0%b4%d1%80%d0%b5%d0%ba%d0%bb%d0%b0%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/cirugia-estetica-corporal/%D0%BB%D1%96%D0%BF%D0%BE%D1%81%D0%B0%D0%BA%D1%86%D1%96%D1%8F-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d1%82%d1%96%d0%bb%d0%b0-2/%d0%bb%d1%96%d0%bf%d0%be%d1%81%d0%b0%d0%ba%d1%86%d1%96%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/cirugia-estetica-facial/%D1%80%D0%B8%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%B6%D0%B8%D1%80%D0%BE%D0%BD%D1%96/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f-2/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b2-%d0%b6%d0%b8%d1%80%d0%be%d0%bd%d1%96/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/cirugia-estetica-facial/rinoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f-2/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/cirugia-estetica-mamas/elevacion-de-pecho-pexia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9-2/%d0%bf%d1%96%d0%b4%d1%82%d1%8f%d0%b6%d0%ba%d0%b0-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9-%d0%bf%d0%b5%d0%ba%d1%81%d1%96%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/medicina-estetica-corporal/celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d1%96%d0%bb%d0%b0/%d1%86%d0%b5%d0%bb%d1%8e%d0%bb%d1%96%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%96/sobrepeso-y-obesidad/%D0%B1%D0%B0%D1%80%D1%96%D0%B0%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0-%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%8F-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d1%82%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f-2/%d0%b1%d0%b0%d1%80%d1%96%d0%b0%d1%82%d1%80%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/author/infomedicstetics/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b0%d0%b2%d1%82%d0%be%d1%80/infomedicstetics/%d1%81%d1%82%d0%be%d1%80%d1%96%d0%bd%d0%ba%d0%b0/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/author/infomedicstetics/page/7/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b0%d0%b2%d1%82%d0%be%d1%80/infomedicstetics/%d1%81%d1%82%d0%be%d1%80%d1%96%d0%bd%d0%ba%d0%b0/7/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/author/infomedicstetics/page/8/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b0%d0%b2%d1%82%d0%be%d1%80/infomedicstetics/%d1%81%d1%82%d0%be%d1%80%d1%96%d0%bd%d0%ba%d0%b0/8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/%D0%B5%D1%81%D1%82%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirugia-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d1%82%d1%96%d0%bb%d0%b0-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirugia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirugia-estetica-mamas/page/2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9-2/%d1%81%d1%82%d0%be%d1%80%d1%96%d0%bd%d0%ba%d0%b0/2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirugia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d1%87%d0%be%d0%bb%d0%be%d0%b2%d1%96%d1%87%d0%b0-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirurgia-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirurgia-estetica-mames/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/cirurgia-estetica-masculina/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d1%87%d0%be%d0%bb%d0%be%d0%b2%d1%96%d1%87%d0%b0-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/gabinet-destetica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%80%d0%b0%d1%81%d0%b8-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/gabinete-de-estetica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d1%81%d0%b0%d0%bb%d0%be%d0%bd-%d0%ba%d1%80%d0%b0%d1%81%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/medicina-estetica-corporal-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d1%96%d0%bb%d0%b0-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/medicina-estetica-corporal/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%82%d1%96%d0%bb%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/medicina-estetica-facial-ca/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/medicina-estetica-facial-ca/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/medicina-estetica-facial/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%be%d0%b1%d0%bb%d0%b8%d1%87%d1%87%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/category/sobrepeso-obesidad/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%b0%d1%82%d0%b5%d0%b3%d0%be%d1%80%d1%96%d1%8f/%d0%bd%d0%b0%d0%b4%d0%bc%d1%96%d1%80%d0%bd%d0%b0-%d0%b2%d0%b0%d0%b3%d0%b0-%d0%be%d0%b6%d0%b8%d1%80%d1%96%d0%bd%d0%bd%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/como-cuidarse-despues-de-una-rinoplastia-los-mejores-consejos-para-un-rapido-postoperatorio/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%8f%d0%ba-%d0%b4%d0%be%d0%b3%d0%bb%d1%8f%d0%b4%d0%b0%d1%82%d0%b8-%d0%b7%d0%b0-%d1%81%d0%be%d0%b1%d0%be%d1%8e-%d0%bf%d1%96%d1%81%d0%bb%d1%8f-%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/como-eliminar-la-celulitis/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%8f%d0%ba-%d0%bf%d0%be%d0%b7%d0%b1%d1%83%d1%82%d0%b8%d1%81%d1%8f-%d1%86%d0%b5%d0%bb%d1%8e%d0%bb%d1%96%d1%82%d1%83/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/congela-el-tiempo/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b7%d0%b0%d0%bc%d0%be%d1%80%d0%be%d0%b6%d1%83%d1%94-%d1%87%d0%b0%d1%81/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/cuales-son-las-mejores-protesis-de-mama/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%8f%d0%ba%d1%96-%d0%b3%d1%80%d1%83%d0%b4%d0%bd%d1%96-%d0%bf%d1%80%d0%be%d1%82%d0%b5%d0%b7%d0%b8-%d0%bd%d0%b0%d0%b9%d0%ba%d1%80%d0%b0%d1%89%d1%96/",
+  "status_final": 403,
+  "saltos": 1
+ },
+ "/uk/deberia-reducirme-el-pecho/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%bc%d0%b5%d0%bd%d1%96-%d1%81%d0%bb%d1%96%d0%b4-%d0%b7%d0%bc%d0%b5%d0%bd%d1%88%d0%b8%d1%82%d0%b8-%d0%b3%d1%80%d1%83%d0%b4%d0%b8/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/el-unico-balon-que-puede-estar-implantado-un-ano/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%94%d0%b4%d0%b8%d0%bd%d0%b8%d0%b9-%d0%b1%d0%b0%d0%bb%d0%be%d0%bd-%d1%8f%d0%ba%d0%b8%d0%b9-%d0%bc%d0%be%d0%b6%d0%bd%d0%b0-%d1%96%d0%bc%d0%bf%d0%bb%d0%b0%d0%bd%d1%82%d1%83%d0%b2%d0%b0%d1%82%d0%b8/",
+  "status_final": 403,
+  "saltos": 1
+ },
+ "/uk/equip-quadre-medic/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%bc%d0%b5%d0%b4%d0%b8%d1%87%d0%bd%d0%b8%d0%b9-%d0%ba%d0%be%d0%bb%d0%b5%d0%ba%d1%82%d0%b8%d0%b2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/equip/dr-valenti-puig-divi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/team/dr-valenti-puig-divi/",
+  "status_final": 403,
+  "saltos": 1
+ },
+ "/uk/financiacion/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%84%d1%96%d0%bd%d0%b0%d0%bd%d1%81%d1%83%d0%b2%d0%b0%d0%bd%d0%bd%d1%8f/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/ice-casino-polska-najlepsze-kasyno-online-na-prawdziwe-pieniadze-w-polsce/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/uk/la-belleza-del-rostro-el-triangulo-invertido/": {
+  "status_inicial": 403,
+  "final": null,
+  "status_final": 403,
+  "saltos": 0
+ },
+ "/uk/la-radiofrecuencia-la-mejor-solucion-a-la-flacidez/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%80%d0%b0%d0%b4%d1%96%d0%be%d1%87%d0%b0%d1%81%d1%82%d0%be%d1%82%d0%bd%d0%b0-%d1%82%d0%b5%d1%80%d0%b0%d0%bf%d1%96%d1%8f-%d0%bd%d0%b0%d0%b9%d0%ba%d1%80%d0%b0%d1%89%d0%b5-%d1%80%d1%96%d1%88/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/lo-que-quieres-saber-del-aumento-de-pecho-paso-a-paso/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b2%d1%81%d0%b5-%d1%89%d0%be-%d0%b2%d0%b8-%d1%85%d0%be%d1%87%d0%b5%d1%82%d0%b5-%d0%b7%d0%bd%d0%b0%d1%82%d0%b8-%d0%bf%d1%80%d0%be-%d0%b7%d0%b1%d1%96%d0%bb%d1%8c%d1%88%d0%b5%d0%bd%d0%bd%d1%8f-%d0%b3/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/nuestra-experiencia-con-la-rinoplastia-ultrasonica/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%bd%d0%b0%d1%88-%d0%b4%d0%be%d1%81%d0%b2%d1%96%d0%b4-%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%bd%d1%8f-%d1%83%d0%bb%d1%8c%d1%82%d1%80%d0%b0%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/pinko-kazino-oficialnyy-sayt-pinco-casino-vhod-na-zerkalo/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/uk/politica-de-cookies/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%bf%d0%be%d0%bb%d1%96%d1%82%d0%b8%d0%ba%d0%b0-%d1%89%d0%be%d0%b4%d0%be-%d1%84%d0%b0%d0%b9%d0%bb%d1%96%d0%b2-cookie/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/reconstruccion-tras-cancer-de-mama/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b2%d1%96%d0%b4%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%bd%d1%8f-%d0%bf%d1%96%d1%81%d0%bb%d1%8f-%d1%80%d0%b0%d0%ba%d1%83-%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be%d1%97-%d0%b7%d0%b0%d0%bb%d0%be-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/rinoplastia-o-septoplastia/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d1%80%d0%b8%d0%bd%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d0%b0%d0%b1%d0%be-%d1%81%d0%b5%d0%bf%d1%82%d0%be%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b0/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/solucio-per-mames-tuberoses/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%b7%d0%b0%d1%81%d1%96%d0%b1-%d0%b2%d1%96%d0%b4-%d0%b1%d1%83%d0%bb%d1%8c%d0%b1%d0%be%d0%b2%d0%b8%d1%85-%d0%b1%d0%be%d0%bb%d1%8f%d1%87%d0%be%d0%ba/",
+  "status_final": 403,
+  "saltos": 1
+ },
+ "/uk/team/dr-valenti-puig-divi/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%ba%d0%be%d0%bc%d0%b0%d0%bd%d0%b4%d0%b0/dr-valenti-puig-divi/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/tecnicas-de-medicina-estetica-que-nos-rejuvenecen/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%bc%d0%b5%d1%82%d0%be%d0%b4%d0%b8-%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%be%d1%97-%d0%bc%d0%b5%d0%b4%d0%b8%d1%86%d0%b8%d0%bd%d0%b8-%d1%8f%d0%ba%d1%96-%d0%be%d0%bc%d0%be%d0%bb%d0%be/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/unidades/cirugia-estetica-mamas/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/uk/%d0%be%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%96/%d0%b5%d1%81%d1%82%d0%b5%d1%82%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d1%96%d1%80%d1%83%d1%80%d0%b3%d1%96%d1%8f-%d0%b3%d1%80%d1%83%d0%b4%d0%b5%d0%b9-2/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/uk/vavada-kazino-oficialnyy-sayt-vavada-casino-2026/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/unidades/cirugia-estetica-facial/blefaroplastia-new/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/cirugia-estetica-facial/blefaroplastia-girona/",
+  "status_final": 200,
+  "saltos": 2
+ },
+ "/unidades/cirugia-estetica-facial/otoplastia-new/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/cirugia-estetica-facial/otoplastia-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/unidades/cirugia-estetica-facial/rinoplastia-new/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/cirugia-estetica-facial/rinoplastia-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/unidades/cirugia-estetica-mamas/aumento-de-pecho-new-2/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/unidades/cirugia-estetica-mamas/aumento-de-pecho-new/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/unidades/sobrepeso-y-obesidad/balon-12-meses-reajustable-new/": {
+  "status_inicial": 301,
+  "final": "https://www.medicsintegralsalut.com/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/",
+  "status_final": 200,
+  "saltos": 1
+ },
+ "/vavada-online-kasiino-eestis-kasutajate-arvustused-ja-mangijate-kogemused/": {
+  "status_inicial": 404,
+  "final": null,
+  "status_final": 404,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2019/10/DR.Valenti%CC%81-Puig.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2019/10/antes-despues-ojeras.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2019/10/perfil-izquierdo-antes-1.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2019/11/image-e1582104761984.png": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2019/11/marca-del-cansancio-bajo-los-ojos-e1582104641732.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2022/05/dr_perez.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2023/04/rino-fanlo.jpg.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2025/10/dewever-300x300.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2025/10/otoplastia.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2025/12/blefaroplastia-comienza-ahora.jpg": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2025/12/blefaroplastia-en-girona-medic.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/uploads/2025/12/rinoplastia-en-medic-girona.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/w3-webp/uploads/2019/11/Como-cuidar-la-piel-a-los-50-e1582104350780.jpgw3.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/w3-webp/uploads/2019/12/ab2.jpgw3.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/w3-webp/uploads/2021/03/Celulitis_girona.jpgw3.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ },
+ "/wp-content/w3-webp/uploads/2023/04/rino-fanlo.jpg.jpgw3.webp": {
+  "status_inicial": 200,
+  "final": null,
+  "status_final": 200,
+  "saltos": 0
+ }
+}
