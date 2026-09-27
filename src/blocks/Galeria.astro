@@ -1,0 +1,6 @@
+---
+const { images = [] } = Astro.props;
+---
+<section class="b-galeria"><div class="wrap grid" style="--cols:3">
+  {images.map((i: any) => <img src={i.src} alt={i.alt ?? ''} loading="lazy" />)}
+</div></section>

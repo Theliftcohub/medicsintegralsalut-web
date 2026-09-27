@@ -1,0 +1,15 @@
+---
+// ÚNICO punto donde se conectan tipos de bloque y componentes.
+import Hero from './Hero.astro';
+import Texto from './Texto.astro';
+import Tarjetas from './Tarjetas.astro';
+import Faq from './Faq.astro';
+import Cta from './Cta.astro';
+import Galeria from './Galeria.astro';
+import Formulario from './Formulario.astro';
+const { block, lang } = Astro.props;
+const map: Record<string, any> = { hero: Hero, texto: Texto, tarjetas: Tarjetas, faq: Faq, cta: Cta, galeria: Galeria, formulario: Formulario };
+const C = map[block.type];
+if (!C) throw new Error(`Bloque desconocido: ${block.type}`);
+---
+<C {...block} lang={lang} />

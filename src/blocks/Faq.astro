@@ -1,0 +1,11 @@
+---
+// HTML real (no JS) con <details>. FAQPage solo si ya existía en WordPress (flag `schema`).
+const { title, items = [], schema = false } = Astro.props;
+const ld = schema ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map((i: any) => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: i.a } })) } : null;
+---
+<section class="b-faq"><div class="wrap">
+  {title && <h2 set:html={title} />}
+  {items.map((i: any) => <details><summary set:html={i.q} /><div set:html={i.a} /></details>)}
+</div>
+{ld && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}
+</section>
