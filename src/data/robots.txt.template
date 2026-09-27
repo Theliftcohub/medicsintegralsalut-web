@@ -1,0 +1,61 @@
+# Plantilla de robots.txt de producción — The Lift Co
+# Generada por src/pages/robots.txt.ts. Ver references/funciones-google-y-llm.md
+# para la verificación de cada bot (fecha, fuente) antes de tocar esta plantilla.
+#
+# Regla de la agencia: nunca bloquear un bot de BÚSQUEDA/CITACIÓN sin que el cliente
+# lo haya decidido por escrito en CLAUDE.md ("Política de bots de IA: ..."). Bloquear
+# uno de estos saca a la web de esa respuesta en tiempo real (no es lo mismo que
+# entrenamiento). validate_migration.py falla el build si alguno está bloqueado sin
+# esa decisión documentada.
+
+User-agent: Googlebot
+Allow: /
+
+# --- Bots de búsqueda / citación de IA (recomendación por defecto: PERMITIR) ---
+# Estos no entrenan modelos: responden en tiempo real a una búsqueda o a una
+# pregunta de un usuario. Bloquearlos saca a la web de esas respuestas.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# --- Bots de ENTRENAMIENTO de modelos de IA (decisión del cliente) ---
+# Bloquearlos o permitirlos NO cambia si la web aparece en ChatGPT Search,
+# Perplexity o Google AI Overviews/AI Mode: eso lo controlan Googlebot y los bots
+# de búsqueda de arriba, no estos. Es una decisión de propiedad intelectual del
+# cliente sobre si su contenido se usa para entrenar modelos.
+# Por defecto la agencia los deja permitidos salvo que el cliente diga lo
+# contrario (documentarlo en CLAUDE.md, sección "Política de bots de IA").
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+# Nota: Google-Extended NO controla AI Overviews ni AI Mode de Google Search
+# (eso depende solo de Googlebot + robots meta/noindex). Solo controla el uso
+# del contenido en otros productos de IA de Google (Gemini app, Vertex AI, etc.).
+
+User-agent: CCBot
+Allow: /
+
+# --- Resto de bots: comportamiento estándar ---
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+
+Sitemap: {{SITEMAP_URL}}

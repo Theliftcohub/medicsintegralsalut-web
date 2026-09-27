@@ -1,0 +1,18 @@
+{
+  "url": "https://www.medicsintegralsalut.com",
+  "name": "Médics Integral Salut",
+  "alternateName": "Medics Integral Salut",
+  "type": "MedicalClinic",
+  "logo": "/images/logo-medics.png",
+  "telephone": "+34 972 20 90 86",
+  "address": { "streetAddress": "Plaça Poeta Marquina 3", "postalCode": "17002", "addressLocality": "Girona", "addressRegion": "Girona", "addressCountry": "ES" },
+  "openingHours": [
+    { "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "10:00", "closes": "20:00" },
+    { "dayOfWeek": ["Friday"], "opens": "10:00", "closes": "16:00" }
+  ],
+  "sameAs": [],
+  "gtm": "GTM-K63QVGT",
+  "languages": ["es", "ca", "en", "fr", "ru", "uk"],
+  "defaultLang": "es",
+  "_nota": "NAP desde Google Business Profile 27/09/2026 (migracion/gbp.json). sameAs y logo: confirmar desde el HTML/schema actual en la fase 3."
+}
