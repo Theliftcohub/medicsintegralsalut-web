@@ -1,0 +1,38 @@
+---
+import SeoHead from '../components/SeoHead.astro';
+import Consent from '../components/Consent.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import site from '../data/site.json';
+import '../styles/tokens.css';
+import '../styles/base.css';
+const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [] } = Astro.props;
+const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
+const crumbs = breadcrumbs.length > 1 ? [{
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbs.map((b: any, i: number) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: new URL(b.path, site.url).href })),
+}] : [];
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <SeoHead seo={seo} lang={lang} alternates={alternates} graph={[...graph, ...crumbs]} />
+  <Consent lang={lang} />
+  {entorno !== 'preview' && site.gtm && (
+    <script is:inline define:vars={{ id: site.gtm }}>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',id);
+    </script>
+  )}
+</head>
+<body>
+  <Header lang={lang} alternates={alternates} />
+  <main>
+    <Breadcrumbs items={breadcrumbs} />
+    <slot />
+  </main>
+  <Footer lang={lang} />
+</body>
+</html>
