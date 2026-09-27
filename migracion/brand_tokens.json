@@ -1,0 +1,4 @@
+{"fuente":"CSS real de / y /unidades/cirugia-estetica-facial/rinoplastia-girona/ · 27/09/2026",
+ "nota":"Conviven DOS sistemas visuales: (A) plantilla Elementor antigua (portada, blog, legales) y (B) landings de unidad nuevas con CSS propio. Se replican ambos tal cual; unificarlos es rediseño (fase posterior).",
+ "A_elementor":{"acento":"#f7b84d","texto":"#000000","texto_suave":"#595959","gris":"#797979","fondo_claro":"#f0f0f0","fuentes":["Raleway","Inter","Lora"]},
+ "B_unidades":{"--accent":"#F3983F","--accent-d":"#c9741c","--accent-deep":"#a85e12","--accent-soft":"#fbeede","fondo_crema":"#fdf0e6","--ink":"#2b2723","banda_oscura":"#4b443c","texto_suave":["#5c534a","#544b42"],"--bg":"#ffffff","fuentes":{"--sans":"Lato","--serif":"Lato"}}}
