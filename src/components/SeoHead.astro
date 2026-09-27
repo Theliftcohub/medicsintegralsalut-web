@@ -1,0 +1,38 @@
+---
+// Emite, en orden: title, description, canonical, robots, iconos, OG/Twitter, hreflang, JSON-LD.
+import site from '../data/site.json';
+import JsonLd from './JsonLd.astro';
+interface Props {
+  seo: { title: string; description?: string; canonical?: string; robots?: string; ogImage?: string; ogTitle?: string; ogDescription?: string };
+  lang: string;
+  alternates?: Record<string, string>; // lang -> path
+  graph?: Record<string, any>[];
+}
+const { seo, lang, alternates = {}, graph = [] } = Astro.props;
+const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
+const abs = (p?: string) => (p ? new URL(p, site.url).href : undefined);
+const canonical = seo.canonical ?? abs(Astro.url.pathname);
+let robots = seo.robots ?? 'index, follow';
+if (entorno !== 'produccion') robots = 'noindex, nofollow';
+else if (!robots.includes('noindex')) robots += ', max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+const og = abs(seo.ogImage);
+const alts = Object.entries(alternates);
+---
+<title>{seo.title}</title>
+{seo.description && <meta name="description" content={seo.description} />}
+<link rel="canonical" href={canonical} />
+<meta name="robots" content={robots} />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content={lang} />
+<meta property="og:title" content={seo.ogTitle ?? seo.title} />
+{(seo.ogDescription ?? seo.description) && <meta property="og:description" content={seo.ogDescription ?? seo.description} />}
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content={site.name} />
+{og && <meta property="og:image" content={og} />}
+<meta name="twitter:card" content="summary_large_image" />
+{alts.length > 1 && alts.map(([l, p]) => <link rel="alternate" hreflang={l} href={abs(p)} />)}
+{alts.length > 1 && alternates[site.defaultLang] && <link rel="alternate" hreflang="x-default" href={abs(alternates[site.defaultLang])} />}
+<JsonLd graph={graph} />

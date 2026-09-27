@@ -1,0 +1,8 @@
+---
+const { items = [] } = Astro.props;
+---
+{items.length > 1 && (
+  <nav class="crumbs" aria-label="breadcrumb"><ol>
+    {items.map((b: any, i: number) => <li>{i < items.length - 1 ? <a href={b.path}>{b.name}</a> : <span aria-current="page">{b.name}</span>}</li>)}
+  </ol></nav>
+)}

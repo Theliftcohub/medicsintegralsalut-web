@@ -1,0 +1,13 @@
+---
+// Menú y selector de idioma: se rellenan en la fase 3 con el menú REAL de WordPress (src/data/menu.json).
+import menu from '../data/menu.json';
+const { lang = 'es', alternates = {} } = Astro.props;
+const items = (menu as any)[lang] ?? [];
+---
+<header class="site-header">
+  <a href={lang === 'es' ? '/' : `/${lang}/`} class="logo"><img src="/images/logo-medics.png" alt="Médics Integral Salut" width="180" height="60" /></a>
+  <nav><ul>{items.map((i: any) => <li><a href={i.href}>{i.text}</a></li>)}</ul></nav>
+  {Object.keys(alternates).length > 1 && (
+    <ul class="langs">{Object.entries(alternates).map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l}>{l.toUpperCase()}</a></li>)}</ul>
+  )}
+</header>

@@ -1,0 +1,18 @@
+---
+import site from '../data/site.json';
+interface Props { graph?: Record<string, any>[]; }
+const { graph = [] } = Astro.props;
+const base = [
+  { '@type': 'WebSite', '@id': `${site.url}/#website`, url: `${site.url}/`, name: site.name, alternateName: site.alternateName, publisher: { '@id': `${site.url}/#org` } },
+  {
+    '@type': site.type, '@id': `${site.url}/#org`, name: site.name, url: `${site.url}/`,
+    logo: new URL(site.logo, site.url).href, image: new URL(site.logo, site.url).href,
+    telephone: site.telephone,
+    address: { '@type': 'PostalAddress', ...site.address },
+    openingHoursSpecification: site.openingHours.map((h) => ({ '@type': 'OpeningHoursSpecification', ...h })),
+    ...(site.sameAs.length ? { sameAs: site.sameAs } : {}),
+  },
+];
+const data = { '@context': 'https://schema.org', '@graph': [...base, ...graph] };
+---
+<script type="application/ld+json" set:html={JSON.stringify(data)} />

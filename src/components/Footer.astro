@@ -1,0 +1,10 @@
+---
+import site from '../data/site.json';
+import menu from '../data/menu.json';
+const { lang = 'es' } = Astro.props;
+const legal = (menu as any)[`footer_${lang}`] ?? [];
+---
+<footer class="site-footer">
+  <p><strong>{site.name}</strong> · {site.address.streetAddress}, {site.address.postalCode} {site.address.addressLocality} · <a href={`tel:${site.telephone.replace(/\s/g, '')}`}>{site.telephone.replace('+34 ', '')}</a></p>
+  <ul>{legal.map((i: any) => <li><a href={i.href}>{i.text}</a></li>)}</ul>
+</footer>

@@ -1,0 +1,28 @@
+---
+// Consent Mode v2 con defaults denegados. Se carga ANTES que GTM (ver Base.astro).
+// Banner propio mínimo: Aceptar y Rechazar al mismo nivel (guía AEPD). Textos en ui.json.
+import ui from '../i18n/ui.json';
+const { lang = 'es' } = Astro.props;
+const t = (ui as any)[lang] ?? ui.es;
+---
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+  try { if (localStorage.getItem('mis-consent') === 'granted') gtag('consent', 'update', { ad_storage: 'granted', analytics_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted' }); } catch (e) {}
+</script>
+<div id="cmp" class="cmp" hidden>
+  <p>{t.cookies_text} <a href={t.cookies_href}>{t.cookies_link}</a></p>
+  <div class="cmp-btns">
+    <button type="button" data-consent="denied">{t.cookies_reject}</button>
+    <button type="button" data-consent="granted">{t.cookies_accept}</button>
+  </div>
+</div>
+<script is:inline>
+  (function(){var el=document.getElementById('cmp');var v=null;try{v=localStorage.getItem('mis-consent')}catch(e){}
+  if(!v&&el)el.hidden=false;
+  el&&el.addEventListener('click',function(e){var b=e.target.closest('[data-consent]');if(!b)return;var c=b.getAttribute('data-consent');
+  try{localStorage.setItem('mis-consent',c)}catch(e){}
+  if(c==='granted')gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});
+  el.hidden=true;});})();
+</script>
