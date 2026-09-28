@@ -126,6 +126,20 @@ def img_attrs(el, path):
         return True  # ya local (miniaturas de vídeo)
     if src.startswith("data:"):
         src = el.get("data-src") or el.get("data-lazy-src") or ""
+    if src and re.search(r"(medicstetics|medicsintegralsalut)\.com/wp-content/uploads/.+\.svg$", src):
+        # SVG propios (algunos enlazados desde el dominio antiguo medicstetics.com, que redirige al actual)
+        rel_ = re.search(r"/wp-content/uploads/(.+)$", src).group(1)
+        out = f"public/images/wp/{unquote(rel_)}"
+        if not os.path.exists(out):
+            data = fetch_bytes(BASE + "/wp-content/uploads/" + rel_)
+            if data and data.lstrip()[:5] in (b"<svg ", b"<?xml"):
+                os.makedirs(os.path.dirname(out), exist_ok=True)
+                open(out, "wb").write(data)
+        if os.path.exists(out):
+            keep = {k: el.get(k) for k in ("alt", "class", "title", "width", "height") if el.get(k) is not None}
+            el.attrs = {**keep, "src": out[len("public"):], "loading": "lazy", "decoding": "async"}
+            el.attrs.setdefault("alt", "")
+            return True
     li = local_image(src) if src and "/wp-content/" in src else None
     if not li:
         if src and not src.startswith(("/images/", "data:")):
@@ -301,6 +315,10 @@ def sanitize(node, path):
         if el.name == "div":
             if "vc-embed" in cls:
                 el.attrs = {"class": "vc-embed vc-embed--mapa", "data-embed": el.get("data-embed"), "data-title": el.get("data-title")}
+            elif "vc-in" in cls:
+                el.attrs = {"class": "vc-in", "style": el.get("style")}
+            elif "vc-in-c" in cls:
+                el.attrs = {"class": "vc-in-c"}
             else:
                 el.unwrap()
             continue
@@ -370,6 +388,58 @@ def contact_form(path):
     return f
 
 
+def landing_hero(frag):
+    """Antes de clean_common (que quita los style)."""
+    # landings propias (troo-*): la foto del hero es un fondo CSS en línea -> <img> decorativa al principio de la sección
+    for sec in frag.select("section.troo-banner-sec[style*=url]"):
+        m = re.search(r"url\(['\"]?([^'\")]+)", sec["style"])
+        li = local_image(m.group(1)) if m else None
+        if li:
+            sec.insert(0, BeautifulSoup('<img src="%s" alt="" width="%s" height="%s" loading="eager" decoding="async"/>' % (li["src"], li["w"], li["h"]), "html.parser"))
+
+
+def structure_widgets(frag):
+    """Conserva la estructura visible del WordPress que sanitize aplanaría:
+    - acordeones/toggles de Bridge (qode-accordion-holder: h4 título + contenido) -> <details><summary> cerrados, como en el original;
+    - filas internas de WPBakery (.vc_row.vc_inner con columnas vc_col-sm-N) -> rejilla .vc-in con las mismas proporciones."""
+    # numeritos sueltos de carruseles/pasos (1 2 3 4) sin contenido asociado: fuera
+    for x in frag.select(".rounded-circle, .carousel-indicators, .owl-dots, .slick-dots"):
+        if re.fullmatch(r"[\d\s]*", x.get_text()):
+            x.decompose()
+    for hold in frag.select(".qode-accordion-holder"):
+        out = []
+        for t in hold.find_all(class_="qode-title-holder"):
+            c = t.find_next_sibling(class_="qode-accordion-content")
+            for m in t.select(".qode-accordion-mark"):
+                m.decompose()
+            d = frag.new_tag("details")
+            sm = frag.new_tag("summary")
+            sm.string = t.get_text(" ", strip=True)
+            d.append(sm)
+            if c:
+                inner = c.select_one(".qode-accordion-content-inner") or c
+                d.append(BeautifulSoup(wrap_loose_text(BeautifulSoup(inner.decode_contents(), "html.parser")), "html.parser"))
+            out.append(d)
+        for d in reversed(out):
+            hold.insert_after(d)
+        hold.decompose()
+    for row in reversed(frag.select(".vc_row.vc_inner, .vc_row_inner")):
+        cols = [c for c in row.select(".wpb_column") if c.find_parent(class_="wpb_column") in (None, row.find_parent(class_="wpb_column"))]
+        cols = [c for c in cols if c.get_text(strip=True) or c.find("img")]
+        if len(cols) < 2:
+            continue
+        grid = frag.new_tag("div", attrs={"class": "vc-in"})
+        spans = []
+        for c in cols:
+            m = re.search(r"vc_col-sm-(\d+)", " ".join(c.get("class") or []))
+            spans.append(m.group(1) if m else "1")
+            cell = frag.new_tag("div", attrs={"class": "vc-in-c"})
+            cell.append(BeautifulSoup(wrap_loose_text(BeautifulSoup(c.decode_contents(), "html.parser")), "html.parser"))
+            grid.append(cell)
+        grid["style"] = "--g:" + " ".join(f"{s}fr" for s in spans)
+        row.replace_with(grid)
+
+
 def prose_html(el, path, s):
     frag = BeautifulSoup(str(el), "html.parser")
     for tf in frag.select("[data-tf-widget], [data-tf-popup], [data-tf-live]"):
@@ -379,15 +449,20 @@ def prose_html(el, path, s):
     for sel in DROP_SEL:
         for x in frag.select(sel):
             x.decompose()
+    landing_hero(frag)
     clean_common(frag, path, s)
-    for f in frag.find_all("form"):
-        f.decompose()
+    for f in frag.find_all("form"):  # el formulario propio va en el MISMO sitio que el CF7 (antes/después del texto como en el original)
+        f.replace_with(BeautifulSoup("<p>{{CF7}}</p>", "html.parser"))
+    structure_widgets(frag)
     sanitize(frag, path)
     html = wrap_loose_text(frag)
     # shortcodes de WPBakery que el WordPress deja VISIBLES como texto (fallo del sitio actual): fuera
     html = re.sub(r"\[vc_raw_html\][A-Za-z0-9+/=%\s]*\[/vc_raw_html\]", "", html)
     html = re.sub(r"\[/?(vc_|qode_|mkd_|rev_slider)[^\]]*\]", "", html)
     html = re.sub(r"(<p>\s*</p>|<p>(\s|&nbsp;|<br/?>|\.\.\.)*</p>)", "", html)
+    # <p> que envuelve un bloque (tabla, lista, rejilla…): HTML inválido, el navegador lo parte y deja párrafos vacíos
+    html = re.sub(r"<p>\s*(<(?:table|ul|ol|h[1-6]|div|blockquote|details|figure)[\s>])", r"\1", html)
+    html = re.sub(r"(</(?:table|ul|ol|h[1-6]|div|blockquote|details|figure)>)\s*</p>", r"\1", html)
     return html.strip()
 
 
@@ -424,23 +499,19 @@ def prosa_blocks(s, path):
         cols = [c for c in cols if c.find_parent(class_="wpb_column") is None] or [r]
         out = []
         for c in cols:
-            forms = c.select("form.wpcf7-form, .wpcf7 form, form")
-            for f in forms:
-                if "typeform" in str(f):
-                    REPORT["typeform"].append(path)
-                out.append({"form": cf7_form(f, path)})
+            forms = [cf7_form(f, path) for f in c.select("form")]
             if "typeform" in str(c):
                 REPORT["typeform"].append(path)
             h = prose_html(c, path, s)
-            if "{{FORM}}" in h:  # Typeform -> formulario propio en el mismo sitio
-                parts = h.split("<p>{{FORM}}</p>")
-                for k, part in enumerate(parts):
-                    if part.strip():
-                        out.append({"html": part.strip()})
-                    if k < len(parts) - 1:
-                        out.append({"form": contact_form(path)})
-            elif h:
-                out.insert(0 if forms else len(out), {"html": h})
+            # CF7 ({{CF7}}) y Typeform ({{FORM}}) -> formulario propio en el mismo sitio del original
+            parts = re.split(r"<p>\{\{(CF7|FORM)\}\}</p>", h)
+            for k in range(0, len(parts), 2):
+                if parts[k].strip():
+                    out.append({"html": parts[k].strip()})
+                if k + 1 < len(parts):
+                    out.append({"form": forms.pop(0) if parts[k + 1] == "CF7" and forms else contact_form(path)})
+            for f in forms:  # formularios cuyo marcador se perdió (no debería): al final
+                out.append({"form": f})
         if out:
             b = {"type": "vc-prosa", "cols": out, "bg": "crema" if i % 2 else None}
             if len(cols) == 1 and len(out) > 1:
