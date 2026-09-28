@@ -1,0 +1,4 @@
+---
+const { image, eager = false, class: cls = '', sizes } = Astro.props;
+---
+{image && <img src={image.src} alt={image.alt ?? ''} width={image.w} height={image.h} class={cls} loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : undefined} sizes={sizes} />}

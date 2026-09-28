@@ -1,10 +1,43 @@
 ---
+// Pie LITERAL de la web actual (src/data/footer.json), con el diseño nuevo.
+import footer from '../data/footer.json';
 import site from '../data/site.json';
-import menu from '../data/menu.json';
 const { lang = 'es' } = Astro.props;
-const legal = (menu as any)[`footer_${lang}`] ?? [];
+const f = (footer as any)[lang] ?? (footer as any).es;
+const L = (t: string) => f.links.find((l: any) => l.text === t);
+const legal = ['Aviso legal', 'Política de privacidad', 'Política de cookies', 'Política de privacidad redes sociales'].map(L).filter(Boolean);
+const destacados = f.links.filter((l: any) => l.href.startsWith('/unidades/'));
+const social = f.links.filter((l: any) => /facebook|instagram|youtube/.test(l.href));
+const fin = f.links.find((l: any) => /financiacion/.test(l.href));
+const cta = f.links.find((l: any) => /#info$/.test(l.href));
+const logos = f.logos.filter((l: any) => !/financiera/.test(l.src));
+const finImg = f.logos.find((l: any) => /financiera/.test(l.src));
+const s = f.strings;
 ---
-<footer class="site-footer">
-  <p><strong>{site.name}</strong> · {site.address.streetAddress}, {site.address.postalCode} {site.address.addressLocality} · <a href={`tel:${site.telephone.replace(/\s/g, '')}`}>{site.telephone.replace('+34 ', '')}</a></p>
-  <ul>{legal.map((i: any) => <li><a href={i.href}>{i.text}</a></li>)}</ul>
+<footer class="mp-footer">
+  <div class="mpost-wrap mp-footer-grid">
+    <div>
+      <img src={site.logo} alt={site.name} width="200" height="79" class="mp-footer-logo" />
+      <p><strong>{s[0]}</strong><br>{s[1]}</p>
+      <ul class="mp-footer-legal">{legal.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+    </div>
+    <div>
+      <p class="mp-footer-title">{s[7]}</p>
+      <p><a href={`tel:${site.telephone.replace(/\s/g, '')}`}>{s[8]}</a><br>
+      <a href="https://wa.me/34620892236">{s[9]}</a><br>
+      <a href={`mailto:${site.email}`}>{s[10]}</a></p>
+    </div>
+    <div>
+      <p class="mp-footer-title">{s[11]}</p>
+      <ul>{destacados.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+    </div>
+    <div>
+      <p class="mp-footer-title">{s[17]}</p>
+      <ul class="mp-footer-social">{social.map((l: any) => <li><a href={l.href} rel="noopener" target="_blank">{/facebook/.test(l.href) ? 'Facebook' : /instagram/.test(l.href) ? 'Instagram' : 'YouTube'}</a></li>)}</ul>
+      {fin && <p class="mp-footer-title"><a href={fin.href}>{s[18]}</a></p>}
+      {finImg && <img src={finImg.src} alt={finImg.alt} width={finImg.w} height={finImg.h} loading="lazy" />}
+      {cta && <p><a class="mpost-btn b-primary" href={cta.href}>{cta.text}</a></p>}
+    </div>
+  </div>
+  <div class="mpost-wrap mp-footer-logos">{logos.map((l: any) => <img src={l.src} alt={l.alt} width={l.w} height={l.h} loading="lazy" />)}</div>
 </footer>
