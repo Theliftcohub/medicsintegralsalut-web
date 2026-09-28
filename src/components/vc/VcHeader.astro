@@ -1,0 +1,50 @@
+---
+// Cabecera de la portada «Versión C» (maqueta The Lift Co). Menú simplificado + selector de idioma.
+import menu from '../../data/menu.json';
+import site from '../../data/site.json';
+import ui from '../../i18n/ui.json';
+const { lang = 'es', alternates = {} } = Astro.props;
+const M: any = menu;
+const items = M[`vc_${lang}`] ?? M.vc_es;
+const cta = M[`vc_cta_${lang}`] ?? M.vc_cta_es;
+const wa = M[`vc_wa_${lang}`] ?? M.vc_wa_es;
+const t = (ui as any)[lang] ?? ui.es;
+const home = lang === 'es' ? '/' : `/${lang}/`;
+const langs = Object.entries(alternates);
+---
+<header id="hdr">
+  <div class="wrap-wide bar">
+    <a href={home}><img class="logo" src={site.logo} alt="clinica estetica girona" width="200" height="79" /></a>
+    <nav aria-label={t.menu}>{items.map((i: any) => <a href={i.href}>{i.text}</a>)}</nav>
+    {langs.length > 1 && <ul class="vc-langs">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{l}</a></li>)}</ul>}
+    <a class="btn" href={cta.href}><span>{cta.text}</span></a>
+    <button class="burger" id="burger" aria-label={t.menu_open} aria-controls="panel" aria-expanded="false"><i></i><i></i><i></i></button>
+  </div>
+</header>
+<div class="velo" id="velo"></div>
+<nav class="panel" id="panel" aria-label={t.menu}>
+  {items.map((i: any) => <a href={i.href}>{i.text}</a>)}
+  <a class="btn" href={cta.href}><span>{cta.text}</span></a>
+  <a class="btn linea" href={wa.href}><span>{wa.text}</span></a>
+  {langs.length > 1 && <ul class="vc-langs vc-langs--panel">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{l}</a></li>)}</ul>}
+</nav>
+<script is:inline>
+(function(){
+  var hdr=document.getElementById('hdr');
+  var onScroll=function(){ if(window.scrollY>120){hdr.classList.add('stuck');}else{hdr.classList.remove('stuck');} };
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  var burger=document.getElementById('burger'),velo=document.getElementById('velo'),panel=document.getElementById('panel');
+  var cerrar=function(){document.body.classList.remove('menu-open');burger.setAttribute('aria-expanded','false');};
+  burger.addEventListener('click',function(){var a=document.body.classList.toggle('menu-open');burger.setAttribute('aria-expanded',a?'true':'false');});
+  velo.addEventListener('click',cerrar);
+  panel.addEventListener('click',function(e){ if(e.target.closest('a')){cerrar();} });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){cerrar();} });
+  window.addEventListener('resize',function(){ if(window.innerWidth>1080){cerrar();} });
+  document.addEventListener('DOMContentLoaded',function(){
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});},{threshold:0.12,rootMargin:'0px 0px -60px 0px'});
+      document.querySelectorAll('.rv:not(.on)').forEach(function(el){io.observe(el);});
+    } else { document.querySelectorAll('.rv').forEach(function(el){el.classList.add('on');}); }
+  });
+})();
+</script>

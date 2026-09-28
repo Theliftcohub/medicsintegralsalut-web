@@ -1,0 +1,41 @@
+---
+// Pie de la portada «Versión C». Textos y enlaces literales del pie actual (src/data/footer.json).
+import footer from '../../data/footer.json';
+import menu from '../../data/menu.json';
+const { lang = 'es' } = Astro.props;
+const F: any = (footer as any)[lang] ?? (footer as any).es;
+const L = (t: string) => (F.links.find((l: any) => l.text === t) ?? {}).href;
+const legal = ['Aviso legal', 'Política de privacidad', 'Política de cookies', 'Política de privacidad redes sociales'];
+const trat = ['Rinoplastia', 'Balón gástrico', 'Aumento de pecho', 'Blefaroplastia', 'Otoplastia'];
+const bar = (menu as any)[`vc_bar_${lang}`] ?? (menu as any).vc_bar_es;
+const year = new Date().getFullYear();
+---
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="marca-n">Médics<br />Integral Salut</div>
+      Plaça Poeta Marquina, 3<br />17002 Girona, España
+      <div style="margin-top:22px">{legal.map((t) => <a href={L(t)}>{t}</a>)}</div>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <a href="tel:+34972209086">+34 972 20 90 86</a>
+      <a href={L('+34 620 892 236')}>+34 620 892 236</a>
+      <a href={L('info@medicsintegralsalut.com')}>info@medicsintegralsalut.com</a>
+    </div>
+    <div>
+      <h4>Tratamientos destacados</h4>
+      {trat.map((t) => <a href={L(t)}>{t}</a>)}
+    </div>
+    <div>
+      <h4>Redes sociales</h4>
+      <a href="https://www.facebook.com/MedicsIntegralSalut" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/medicsintegralsalut/" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/channel/UChnKZOQRgevEvqw-NTaDHpw/videos" rel="noopener">YouTube</a>
+      <h4 style="margin-top:30px">Financiación</h4>
+      <a href="/financiacion/">Tu medicina financiada</a>
+    </div>
+  </div>
+  <div class="wrap foot-legal">© {year} Clínica Cirugía Estética | Médics Integral Salut</div>
+</footer>
+<div class="barra-movil">{bar.map((b: any) => <a href={b.href}>{b.text}</a>)}</div>
