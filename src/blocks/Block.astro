@@ -14,13 +14,13 @@ import MpUnits from './mp/Units.astro';
 import MpVideos from './mp/Videos.astro';
 import MpBenefits from './mp/Benefits.astro';
 import MpTeam from './mp/Team.astro';
-import MpTypeform from './mp/Typeform.astro';
+import MpContact from './mp/Contact.astro';
 import MpReviews from './mp/Reviews.astro';
 import MpNap from './mp/Nap.astro';
 const { block, lang } = Astro.props;
 const map: Record<string, any> = { hero: Hero, texto: Texto, tarjetas: Tarjetas, faq: Faq, cta: Cta, galeria: Galeria, formulario: Formulario,
   'mp-hero': MpHero, 'mp-split': MpSplit, 'mp-cards': MpCards, 'mp-units': MpUnits, 'mp-videos': MpVideos,
-  'mp-benefits': MpBenefits, 'mp-team': MpTeam, 'mp-typeform': MpTypeform, 'mp-reviews': MpReviews, 'mp-nap': MpNap };
+  'mp-benefits': MpBenefits, 'mp-team': MpTeam, 'mp-contact': MpContact, 'mp-reviews': MpReviews, 'mp-nap': MpNap };
 const C = map[block.type];
 if (!C) throw new Error(`Bloque desconocido: ${block.type}`);
 ---
