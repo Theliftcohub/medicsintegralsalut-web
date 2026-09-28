@@ -130,3 +130,7 @@
 /* entradas .mpost: peso base del WordPress (400). Con el 300 de la maqueta, <b>/<strong> («bolder») quedaban en 400 y no se veían en negrita */
 .vc .vc-post-mpost .mpp{font-weight:400}
 .vc .vc-post-mpost .mpp b,.vc .vc-post-mpost .mpp strong{font-weight:700}
+/* visibilidad por dispositivo heredada de WPBakery (vc_hidden-*): mismos cortes que el WordPress */
+@media(min-width:1000px){.vc .vc-solo-movil{display:none}}
+@media(max-width:767px){.vc .vc-solo-escritorio{display:none}}
+@media(max-width:999px){.vc .vc-solo-escritorio-sm{display:none}}
