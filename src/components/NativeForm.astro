@@ -14,7 +14,11 @@ const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
   <input type="hidden" name="_lang" value={lang} />
   <input type="hidden" name="_gracias" value={form.thanks} />
   {['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid','referrer'].map((k) => <input type="hidden" name={k} data-attr={k} />)}
-  {form.fields.map((f: any) => f.type === 'textarea'
+  {form.fields.map((f: any) => f.type === 'select'
+    ? <label class="mp-field"><span class="sr">{f.name}</span><select name={f.name} required={f.required}>{f.options.map((o: string) => <option>{o}</option>)}</select></label>
+    : f.type === 'radio'
+    ? <fieldset class="mp-radio">{f.options.map((o: string, i: number) => <label><input type="radio" name={f.name} value={o} required={f.required && i === 0} />{o}</label>)}</fieldset>
+    : f.type === 'textarea'
     ? <label class="mp-field"><span class="sr">{f.placeholder}</span><textarea name={f.name} placeholder={f.placeholder} rows="3" required={f.required} maxlength="2000"></textarea></label>
     : f.type === 'checkbox'
       ? <label class="mp-check"><input type="checkbox" name={f.name} value="1" required={f.required} /><span set:html={f.labelHtml} /></label>
