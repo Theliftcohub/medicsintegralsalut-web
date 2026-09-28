@@ -7,4 +7,4 @@ Para reconstruirlos en local, desde la raíz del repo:
 
     cat _datos/contenido-web.tgz.part* | tar -xz
 
-Fecha del paquete: 28/09/2026 (commit local 3fc7a1c).
+Fecha del paquete: 28/09/2026 (commit local 98e2899).
