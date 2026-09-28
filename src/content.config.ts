@@ -18,6 +18,7 @@ const pages = defineCollection({
     path: z.string().regex(/^\/.*\/$|^\/$/, 'path con barra final'),
     lang: z.enum(['es', 'ca', 'en', 'fr', 'ru', 'uk']).default('es'),
     i18nGroup: z.string().optional(),
+    theme: z.enum(['mpost', 'vc']).default('mpost'),
     seo,
     schema: z.array(z.record(z.string(), z.any())).default([]),
     breadcrumbs: z.array(z.object({ name: z.string(), path: z.string() })).optional(),
