@@ -1,0 +1,20 @@
+---
+// Mismo Typeform que la web actual (01J3GWRH78BRMG20DQVDE7JP7F): ya alimenta Kommo; no se sustituye.
+import Img from '../../components/Img.astro';
+const { heading, text = [], typeform, image, id } = Astro.props;
+---
+<section id={id} class="mpost-sec mpost-sec--tint mpost-bleed"><div class="mpost-wrap">
+  <div class="mp-split">
+    <div class="mp-split-body">
+      <h3 class="mp-h2like">{heading}</h3>
+      {text.map((p: string) => <p set:html={p} />)}
+      {typeform && <div class="mp-typeform" data-tf-live={typeform}></div>}
+    </div>
+    {image && <div class="mp-split-media"><Img image={image} class="mp-rounded" /></div>}
+  </div>
+</div>
+{typeform && <script is:inline>
+  (function(){var l=false;function go(){if(l)return;l=true;var s=document.createElement('script');s.src='https://embed.typeform.com/next/embed.js';s.async=true;document.body.appendChild(s);}
+  var el=document.querySelector('[data-tf-live]');if('IntersectionObserver' in window&&el){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){go();o.disconnect();}},{rootMargin:'400px'}).observe(el);}else{go();}})();
+</script>}
+</section>

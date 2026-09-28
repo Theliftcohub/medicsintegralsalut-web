@@ -1,0 +1,16 @@
+---
+import Icon from '../../components/Icon.astro';
+const { heading, text = [], groups = [], cta } = Astro.props;
+---
+<section class="mpost-sec mpost-bleed"><div class="mpost-wrap">
+  <div class="mpost-head center"><h2>{heading}</h2>{text.map((p: string) => <p class="mpost-sub" set:html={p} />)}</div>
+  <div class="mp-units">
+    {groups.map((g: any) => (
+      <div class="mp-unit">
+        <h3>{g.title}</h3>
+        <ul>{g.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+      </div>
+    ))}
+  </div>
+  {cta && <div class="mpost-cta mp-center"><a class="mpost-btn b-primary" href={cta.href}><Icon name="calendar" />{cta.text}</a></div>}
+</div></section>

@@ -1,0 +1,17 @@
+---
+import Img from '../../components/Img.astro';
+const { heading, text = [], members = [], alt = false, id } = Astro.props;
+---
+<section id={id} class:list={['mpost-sec mpost-bleed', alt && 'mpost-sec--alt']}><div class="mpost-wrap">
+  <div class="mpost-head center"><h2>{heading}</h2>{text.map((p: string) => <p class="mpost-sub" set:html={p} />)}</div>
+  <div class="mp-team">
+    {members.map((m: any) => (
+      <article class="mp-member">
+        <Img image={m.image} class="mp-member-img" />
+        <h3>{m.name}</h3>
+        {m.role && <p class="mp-member-role">{m.role}</p>}
+        {m.bio && <p class="mp-member-bio" set:html={m.bio} />}
+      </article>
+    ))}
+  </div>
+</div></section>

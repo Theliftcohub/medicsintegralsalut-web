@@ -1,0 +1,10 @@
+---
+import Icon from '../../components/Icon.astro';
+const { heading, items = [], text = [], cta } = Astro.props;
+---
+<section class="mpost-sec mpost-bleed"><div class="mpost-wrap">
+  <div class="mpost-head center"><h2>{heading}</h2></div>
+  <div class="mp-benefits">{items.map((t: string) => <div class="mpost-bene"><span class="mpost-bene-ic"><Icon name="check" /></span><h3>{t}</h3></div>)}</div>
+  {text.map((p: string) => <p class="mp-center mp-narrow" set:html={p} />)}
+  {cta && <div class="mpost-cta mp-center"><a class="mpost-btn b-primary" href={cta.href}><Icon name="calendar" />{cta.text}</a></div>}
+</div></section>

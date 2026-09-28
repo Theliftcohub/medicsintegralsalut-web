@@ -1,0 +1,16 @@
+---
+import Icon from '../../components/Icon.astro';
+import Img from '../../components/Img.astro';
+const { heading, headingTag = 'h2', paras = [], cta, image, media = 'right', alt = false, id } = Astro.props;
+const H = headingTag;
+---
+<section id={id} class:list={['mpost-sec mpost-bleed', alt && 'mpost-sec--alt']}><div class="mpost-wrap">
+  <div class:list={['mp-split', media === 'left' && 'mp-split--left']}>
+    <div class="mp-split-body">
+      <H>{heading}</H>
+      {paras.map((p: string) => <p set:html={p} />)}
+      {cta && <div class="mpost-cta"><a class="mpost-btn b-primary" href={cta.href}><Icon name="calendar" />{cta.text}</a></div>}
+    </div>
+    {image && <div class="mp-split-media"><Img image={image} class="mp-rounded" /></div>}
+  </div>
+</div></section>

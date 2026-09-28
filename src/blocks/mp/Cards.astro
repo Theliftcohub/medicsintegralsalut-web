@@ -1,0 +1,21 @@
+---
+import Icon from '../../components/Icon.astro';
+const { heading, sub, text = [], cards = [], alt = false } = Astro.props;
+const icons = ['sparkle', 'drop', 'shield', 'eye', 'check', 'card'];
+---
+<section class:list={['mpost-sec mpost-bleed', alt && 'mpost-sec--alt']}><div class="mpost-wrap">
+  <div class="mpost-head center">
+    <h2>{heading}</h2>
+    {sub && <h3 class="mp-subh">{sub}</h3>}
+    {text.map((p: string) => <p class="mpost-sub" set:html={p} />)}
+  </div>
+  <div class="mpost-grid">
+    {cards.map((c: any, i: number) => (
+      <a class="mp-card" href={c.href}>
+        <span class="mpost-eb-ic"><Icon name={icons[i % icons.length]} /></span>
+        <h3>{c.title}</h3>
+        <span class="mp-card-cta">{c.cta} <Icon name="arrow" size={16} /></span>
+      </a>
+    ))}
+  </div>
+</div></section>

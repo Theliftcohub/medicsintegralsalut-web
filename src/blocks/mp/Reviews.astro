@@ -1,0 +1,12 @@
+---
+// Reseñas reales de Google tal como las muestra hoy la web (widget Trustindex). Sin schema AggregateRating.
+const { heading, reviews = [], source = 'Google', id } = Astro.props;
+---
+<section id={id} class="mpost-sec mpost-sec--alt mpost-bleed"><div class="mpost-wrap">
+  <div class="mpost-head center"><h2>{heading}</h2></div>
+  <div class="mp-reviews">
+    {reviews.map((r: any) => (
+      <figure class="mp-review"><blockquote>{r.text}</blockquote><figcaption>{r.name} · {source}</figcaption></figure>
+    ))}
+  </div>
+</div></section>

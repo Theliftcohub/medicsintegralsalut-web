@@ -1,0 +1,17 @@
+---
+import Icon from '../../components/Icon.astro';
+import Img from '../../components/Img.astro';
+const { kicker, title, titleTag = 'h1', cta, note, image } = Astro.props;
+const T = titleTag;
+---
+<section class="mpost-hero mpost-bleed"><div class="mpost-wrap"><div class="mpost-hero-inner">
+  <div class="mpost-hero-body">
+    {kicker && <span class="mpost-kicker"><Icon name="sparkle" />{kicker}</span>}
+    <T class="mpost-title">{title}</T>
+    <div class="mpost-cta">
+      {cta && <a class="mpost-btn b-primary" href={cta.href}><Icon name="calendar" />{cta.text}</a>}
+    </div>
+    {note && <p class="mpost-trustline"><span class="tl"><Icon name="check" />{note}</span></p>}
+  </div>
+  <div class="mpost-hero-media"><Img image={image} eager class="mpost-hero-img" /></div>
+</div></div></section>

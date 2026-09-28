@@ -1,0 +1,16 @@
+---
+import Icon from '../../components/Icon.astro';
+import Img from '../../components/Img.astro';
+const { heading, sub, items = [] } = Astro.props;
+---
+<section class="mpost-sec mpost-sec--alt mpost-bleed"><div class="mpost-wrap">
+  <div class="mpost-head center"><h2>{heading}</h2>{sub && <p class="mpost-sub">{sub}</p>}</div>
+  <div class="mp-videos">
+    {items.map((v: any) => (
+      <article class="mp-video">
+        <a href={v.video} class="mp-video-thumb" target="_blank" rel="noopener"><Img image={v.image} /><span class="mp-play"><Icon name="play" size={44} /></span></a>
+        <h3><a href={v.href}>{v.title}</a></h3>
+      </article>
+    ))}
+  </div>
+</div></section>
