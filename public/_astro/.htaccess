@@ -1,0 +1,5 @@
+# Generado por build_redirects.py · cache larga solo para assets con hash (Astro los
+# renombra si cambian, así que 1 año + immutable es seguro)
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</IfModule>
