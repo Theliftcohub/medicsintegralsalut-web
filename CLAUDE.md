@@ -19,6 +19,8 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - Repositorio: GitHub de la agencia (URL pendiente). Item de Monday en el grupo "Otros" del board Medicsalut.
 - Fecha de lanzamiento prevista: pendiente. Orden: primero preview en Netlify (noindex) para validar todo; después staging en Plesk.
 - Páginas Elementor (portada, blog, legales, antiguas): se RENUEVAN con la línea visual de las páginas de tratamiento nuevas (decisión Oscar 27/09/2026). Contenido, H1/H2, enlaces, imágenes/alt, URL y metadatos literales; solo cambia la plantilla. Empieza por la portada y se valida antes de extender. Se factura aparte: item Monday 13145210372.
+- Portada con el diseño «Versión C» (maqueta de The Lift que pasó Oscar el 28/09/2026, guardada en `migracion/diseno/home-version-c.html`): `theme: "vc"` en `home.json`, bloques `vc-*` (`src/blocks/vc/`), cabecera y pie propios (`src/components/vc/`), Raleway 200/300/500/600. `src/styles/vc.css` es copia LITERAL del CSS de la maqueta acotada a `body.vc` y se regenera con `scripts/build_vc_css.py`; los ajustes van en `vc-extra.css`. Contenido: `build_home.py` (literal) → `build_home_vc.py` (reordena en vc-*). Las demás páginas siguen con .mpost hasta que Oscar decida si «Versión C» se extiende a toda la web.
+- Nota y nº de reseñas de Google se muestran desde `site.json → rating` (dato de GBP con fecha). Refrescar antes de lanzar. Nunca AggregateRating.
 - Portfolio de antes/después: la clínica tiene el consentimiento de los pacientes (confirmado por Oscar 27/09/2026); se mantiene publicado.
 
 ## Formularios: TODOS nativos (decisión Oscar 28/09/2026)
@@ -78,6 +80,8 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
 
 ## Errores ya cometidos y sus reglas
+- 28/09/2026 · Al filtrar las notas del diseñador (`.nota`) se cayeron también las reglas de `.nota-g` · filtrar clases por palabra completa (`\.nota(?![\w-])`), nunca por subcadena.
+- 28/09/2026 · La maqueta atribuía un testimonio a "Amador", que es el médico (Dr. Amador García) · contrastar nombres de pacientes con la fuente (miniatura/vídeo) antes de publicar un título.
 - 27/09/2026 · El export de GSC incluía subdominios y sus rutas colisionaban con las del www · filtrar siempre `gsc.csv` al host www antes de construir el contrato.
 
 ## Modelos
