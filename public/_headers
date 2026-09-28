@@ -1,0 +1,3 @@
+# Preview de Netlify: NUNCA indexable (la producción es Plesk, con .htaccess)
+/*
+  X-Robots-Tag: noindex, nofollow
