@@ -114,3 +114,19 @@
 @media(max-width:900px){.vc .vc-in{grid-template-columns:1fr;gap:20px}}
 .vc .vc-texto-rico details[open] summary{margin-bottom:.6em}
 .vc .vc-texto-rico summary::marker{color:var(--marca)}
+/* listado del blog (plugin mega post del WordPress): rejilla de 3 tarjetas */
+.vc .vc-bloglist{display:grid;grid-template-columns:repeat(3,1fr);gap:40px 28px;margin:1em 0}
+.vc .vc-bcard img{width:100%;height:220px;object-fit:cover;margin:0 0 16px}
+.vc .vc-bcard h3{font-size:19px;line-height:1.35;margin:0 0 .5em;font-weight:500}
+.vc .vc-bcard h3 a{color:var(--tinta)!important;text-decoration:none!important}
+.vc .vc-bcard h3 a:hover{color:var(--marca-txt)!important}
+.vc .vc-bcard p{font-size:14.5px;line-height:1.6;margin:0 0 .6em}
+.vc .vc-bcard .vc-bcard-meta{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gris-cl)}
+.vc .vc-cols .vc-bloglist{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:1fr}}
+/* entradas .mpost: ancho de lectura como en el original */
+.vc .vc-post-mpost{max-width:820px;margin:0 auto}
+/* entradas .mpost: peso base del WordPress (400). Con el 300 de la maqueta, <b>/<strong> («bolder») quedaban en 400 y no se veían en negrita */
+.vc .vc-post-mpost .mpp{font-weight:400}
+.vc .vc-post-mpost .mpp b,.vc .vc-post-mpost .mpp strong{font-weight:700}
