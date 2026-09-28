@@ -1,8 +1,16 @@
-{"fuente":"Windsor google_my_business locations/14536626448257152064 · 27/09/2026",
- "titulo_ficha":"Clínica Cirugía Estética | Girona | Médics Integral Salut ✅",
- "categoria":"Clínica de cirugía plástica",
- "direccion":"Plaça Poeta Marquina 3, 17002 Girona",
- "telefono":"972 20 90 86",
- "horario":{"lun-jue":"10:00-20:00","vie":"10:00-16:00","sab-dom":"cerrado"},
- "web":"https://www.medicsintegralsalut.com/",
- "maps":"https://maps.google.com/maps?cid=4878100397339283721"}
+{
+ "fuente": "Windsor google_my_business locations/14536626448257152064 · 27/09/2026",
+ "titulo_ficha": "Clínica Cirugía Estética | Girona | Médics Integral Salut ✅",
+ "categoria": "Clínica de cirugía plástica",
+ "direccion": "Plaça Poeta Marquina 3, 17002 Girona",
+ "telefono": "972 20 90 86",
+ "horario": {
+  "lun-vie": "10:00-20:00",
+  "sab-dom": "cerrado"
+ },
+ "web": "https://www.medicsintegralsalut.com/",
+ "maps": "https://maps.google.com/maps?cid=4878100397339283721",
+ "_cambios": [
+  "2026-09-28: viernes corregido de 10:00-16:00 a 10:00-20:00 (OK Oscar), vía Windsor set_regular_hours; verificado leyendo la ficha"
+ ]
+}
