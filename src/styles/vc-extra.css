@@ -1,0 +1,65 @@
+/* Ajustes propios sobre la maqueta «Versión C» (vc.css es copia literal generada). Solo variables de la maqueta. */
+/* estilos que en la maqueta iban en línea */
+.vc .vc-subh{font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--marca-txt);margin-top:18px}
+.vc .vc-mt{margin-top:30px}
+.vc .vc-center{text-align:center;margin-top:48px}
+.vc .unidades--ancha{margin-top:1px;grid-template-columns:1fr}
+.vc .vc-ul4{display:grid;grid-template-columns:repeat(4,1fr);gap:0 28px}
+@media(max-width:760px){.vc .vc-ul4{grid-template-columns:1fr}}
+.vc .vc-texto{text-align:center;margin:40px auto 28px;max-width:720px;font-size:17px}
+.vc .vc-cardcta{display:flex;flex-direction:column;justify-content:center;background:var(--marca-suave);border:1px solid var(--marca-linea);padding:40px 30px;text-align:center}
+.vc .vc-cardcta h3{margin-bottom:10px}
+.vc .vc-cardcta p{margin-bottom:24px;color:#8A7550}
+.vc .vc-cardcta .btn{padding:14px 26px}
+.vc .vc-distin{padding:66px 0}
+.vc .vc-nota{color:var(--gris-cl);font-size:14px}
+.vc .vc-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+/* el logo va dentro de un enlace */
+.vc header .bar>a:first-child{display:block;line-height:0}
+/* sección editorial invertida (imagen a la derecha) */
+.vc .editorial--inv{grid-template-columns:1.08fr .92fr}
+.vc .editorial--inv .img{order:2}
+.vc .editorial--inv .img .marco{inset:28px 28px -28px -28px}
+@media(max-width:940px){.vc .editorial--inv{grid-template-columns:1fr}.vc .editorial--inv .img{order:0}}
+/* reseñas: figure/blockquote sin márgenes del navegador */
+.vc .resena{margin:0}
+.vc .resena blockquote{margin:0}
+.vc .resena p{font-size:15.5px}
+/* selector de idioma */
+.vc .vc-langs{list-style:none;display:flex;gap:10px;margin:0;padding:0;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase}
+.vc .vc-langs a{text-decoration:none;color:var(--gris-cl)}
+.vc .vc-langs a[aria-current]{color:var(--marca-txt);font-weight:600}
+.vc .vc-langs--panel{margin-top:22px;flex-wrap:wrap}
+.vc .vc-langs--panel a{border:0;padding:6px 0;font-size:13px}
+@media(max-width:1080px){.vc header .bar>.vc-langs{display:none}}
+/* formulario propio dentro de la caja de contacto (sustituye al mapa de la maqueta; el mapa pasa debajo) */
+.vc .vc-formbox{padding:56px 48px;border-left:1px solid var(--linea);background:var(--crema)}
+.vc .vc-formbox h3{margin-bottom:8px}
+.vc .vc-formbox>p{margin:0 0 22px}
+.vc .vc-form{display:flex;flex-direction:column;gap:12px}
+.vc .vc-form .mp-field input,.vc .vc-form .mp-field textarea{width:100%;font:inherit;font-size:15.5px;font-weight:400;padding:14px 16px;border:1px solid var(--linea);border-radius:0;background:#fff;color:var(--tinta)}
+.vc .vc-form .mp-field input:focus,.vc .vc-form .mp-field textarea:focus{outline:1px solid var(--marca);border-color:var(--marca)}
+.vc .vc-form .mp-check{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--gris)}
+.vc .vc-form .mp-check input{margin-top:6px;accent-color:var(--marca)}
+.vc .vc-form .btn{align-self:flex-start;cursor:pointer}
+.vc .vc-form .btn[disabled]{opacity:.6;cursor:not-allowed}
+.vc .vc-form .aviso{font-size:12.5px;color:#8A6A2E;background:var(--marca-suave);border-left:3px solid var(--marca);padding:10px 14px;margin:0}
+@media(max-width:900px){.vc .vc-formbox{border-left:0;border-top:1px solid var(--linea);padding:42px 30px}}
+@media(max-width:760px){.vc .vc-formbox{padding:34px 24px}}
+/* mapa: se carga al pulsar */
+.vc .vc-mapa{min-height:360px;margin-top:1px;border:1px solid var(--linea);border-top:0;background:var(--crema-2)}
+.vc .vc-mapa-fac{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:24px}
+.vc .vc-mapa-fac small{color:var(--gris-cl);font-size:12px}
+.vc .vc-mapa-fac a{font-size:13px;color:var(--marca-txt)}
+@media(max-width:760px){.vc .vc-mapa{min-height:260px}}
+/* banner de cookies por encima de la barra móvil */
+.vc .cmp{z-index:400}
+/* base.css redondea .btn: la maqueta es de esquinas rectas */
+.vc .btn{border-radius:0;font-weight:500}
+.vc .editorial .img img{object-position:center 30%}
+.vc .resenas{align-items:start}
+/* las miniaturas de los vídeos son apaisadas y llevan texto: no se recortan a 4:5 */
+.vc .video .thumb{aspect-ratio:16/9}
+@media(max-width:760px){.vc .video .thumb{aspect-ratio:16/9}}
+.vc .video .play{align-items:flex-end;justify-content:flex-end;padding:12px}
+.vc .play span{width:46px;height:46px}
