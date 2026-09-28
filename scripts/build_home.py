@@ -103,11 +103,20 @@ for h3 in r.find_all("h3"):
 intro = r.find("h2").find_next("p")
 blocks.append({"type": "mp-team", "id": "equipo", "heading": text(r.find("h2")), "text": [inline(intro)],
                "members": members, "alt": True})
-# 13 · contacto (Typeform: se conserva el MISMO formulario, que ya alimenta Kommo)
+# 13 · contacto: se ELIMINA Typeform (decisión Oscar 28/09/2026) y se usa el formulario propio con los
+#      campos y textos literales del formulario de contacto de la web (CF7 de /contacto/) -> n8n -> Kommo
 r = rows[13]
-tf = r.find(attrs={"data-tf-live": True})
-blocks.append({"type": "mp-typeform", "id": "info", "heading": text(r.find("h3")), "text": paras(r),
-               "typeform": tf.get("data-tf-live") if tf else "", "image": img_of(r)})
+cf = soup("https://www.medicsintegralsalut.com/contacto/").select_one("form.wpcf7-form")
+ph = lambda n: (cf.find(attrs={"name": n}) or {}).get("placeholder", "")
+acc = cf.find(attrs={"name": "acceptance-904"}).find_parent("label").find("span", class_="wpcf7-list-item-label")
+sub = cf.find("input", attrs={"type": "submit"}).get("value")
+blocks.append({"type": "mp-contact", "id": "info", "heading": text(r.find("h3")), "text": paras(r), "image": img_of(r),
+               "form": {"name": "contacto-portada", "thanks": "/gracias/", "submit": sub, "fields": [
+                   {"name": "nombre", "type": "text", "placeholder": ph("your-name"), "required": True, "autocomplete": "name"},
+                   {"name": "telefono", "type": "tel", "placeholder": ph("your-tel"), "required": True, "autocomplete": "tel"},
+                   {"name": "email", "type": "email", "placeholder": ph("your-email"), "required": True, "autocomplete": "email"},
+                   {"name": "mensaje", "type": "textarea", "placeholder": ph("your-message"), "required": True},
+                   {"name": "privacidad", "type": "checkbox", "required": True, "labelHtml": inline(acc)}]}})
 # 14 · opiniones (Trustindex: reseñas reales de Google, sin AggregateRating)
 r = rows[14]
 reviews = []
