@@ -63,7 +63,9 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
   - Informe de incidencias: `migracion/vc_pages_report.json` (imágenes sin copia local, Typeform, formularios, páginas vacías).
 - Portadas: `build_home.py <url> <lang> <out>` (literal) → `build_home_vc.py <lang>` (textos nuevos de la maqueta por idioma en `scripts/home_vc_textos.json`).
 - Cabecera y pie por idioma: `scripts/build_chrome_vc.py` → `src/data/vc-chrome.json` (etiquetas y enlaces literales de cada portada).
-- Redirecciones: `scripts/resolver_revisar.py` (cerró las 69 REVISAR con criterios escritos en `notas`) → `scripts/redirects_contract.py` (url-map.csv + gone.txt) → `build_redirects.py`.
+- Redirecciones: `scripts/resolver_revisar.py` (cerró las 69 REVISAR con criterios escritos en `notas`) → `scripts/redirects_contract.py` (url-map.csv + gone.txt, cadenas resueltas) → `build_redirects.py … --con-www --contract migracion/urls.csv --sin-rss` → `scripts/redirects_post.py` (OBLIGATORIO: Netlify compara en %MAYÚSCULAS y Apache con la ruta decodificada; quita reglas de solo barra final, que en Netlify hacen bucle).
+- Enlaces internos: `scripts/enlaces_finales.py` (tras construir `dist/`) reescribe cada enlace a su URL final y quita los que van a 410/404.
+- Validación: `scripts/validar_rapido.py <base>` (paralelo: estado de las 3.063 URLs del contrato + title/H1/restos/imágenes/enlaces en dist/). Probado contra Netlify y contra un Apache local con el `.htaccess` (sin el bloque https): 0 fallos de estado. `validate_migration.py` completo tarda horas en serie: usarlo solo en staging.
 - Descargas: `wp_lib.fetch_bytes` recuerda las URL que fallan en `migracion/fetch_fallidos.txt`.
 
 ## Bloques disponibles
