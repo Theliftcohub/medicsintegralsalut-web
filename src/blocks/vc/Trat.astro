@@ -1,0 +1,16 @@
+---
+import Cabecera from './Cabecera.astro';
+const { num, kicker, heading, sub, text = [], cards = [] } = Astro.props;
+const d = (i: number) => `d${(i % 3) + 1}`;
+---
+<section class="crema"><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} sub={sub} text={text} />
+  <div class="trat">
+    {cards.map((c: any, i: number) => (
+      <a class:list={['tcard rv', d(i)]} href={c.href}>
+        <div class="foto">{c.image && <img src={c.image.src} alt={c.image.alt} width={c.image.w} height={c.image.h} loading="lazy" />}<span class="idx">{String(i + 1).padStart(2, '0')}</span></div>
+        <h3>{c.title}</h3><div class="sub">{c.cta} <i aria-hidden="true">→</i></div>
+      </a>
+    ))}
+  </div>
+</div></section>

@@ -1,0 +1,10 @@
+---
+import Btn from './Btn.astro';
+const { num, heading, items = [], text = [], cta, bg } = Astro.props;
+---
+<section class={bg}><div class="wrap">
+  <div class="cabecera" style="margin-bottom:50px">{num && <span class="num rv">{num}</span>}<h2 class="rv d1">{heading}</h2></div>
+  <div class="ventajas rv">{items.map((t: string, i: number) => <div class="ventaja"><span class="n">{String(i + 1).padStart(2, '0')}</span><h3>{t}</h3></div>)}</div>
+  {text.map((p: string) => <p class="rv vc-texto" set:html={p} />)}
+  {cta && <div class="rv" style="text-align:center"><Btn cta={cta} /></div>}
+</div></section>

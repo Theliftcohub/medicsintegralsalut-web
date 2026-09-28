@@ -1,0 +1,17 @@
+---
+import Cabecera from './Cabecera.astro';
+import Btn from './Btn.astro';
+const { id, num, kicker, heading, text = [], members = [], card } = Astro.props;
+---
+<section id={id}><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} text={text} />
+  <div class="equipo">
+    {members.map((m: any, i: number) => (
+      <div class:list={['medico rv', `d${(i % 4) + 1}`]}>
+        <div class="foto">{m.image && <img src={m.image.src} alt={m.image.alt} width={m.image.w} height={m.image.h} loading="lazy" />}</div>
+        <h3>{m.name}</h3><div class="esp">{m.role}</div><p set:html={m.bio} />
+      </div>
+    ))}
+    {card && <div class="medico rv d4 vc-cardcta"><h3>{card.title}</h3><p>{card.text}</p><div><Btn cta={card.cta} /></div></div>}
+  </div>
+</div></section>

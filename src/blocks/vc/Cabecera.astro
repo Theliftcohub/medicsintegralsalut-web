@@ -1,0 +1,11 @@
+---
+const { num, kicker, heading, headingTag = 'h2', sub, text = [], style } = Astro.props;
+const H = headingTag;
+---
+<div class="cabecera" style={style}>
+  {num && <span class="num rv">{num}</span>}
+  {kicker && <div class="kicker centro rv">{kicker}</div>}
+  <H class="rv d1">{heading}</H>
+  {sub && <h3 class="rv d2 vc-subh">{sub}</h3>}
+  {text.map((p: string) => <p class="rv d2" set:html={p} />)}
+</div>

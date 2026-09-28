@@ -1,0 +1,26 @@
+---
+// Reseñas reales de Google (widget Trustindex de la web actual). Sin estrellas por reseña ni AggregateRating.
+import Cabecera from './Cabecera.astro';
+import Btn from './Btn.astro';
+import { fill, ratingText, ext } from '../../lib/vc';
+const { num, kicker, heading, sub, reviews = [], source, summary = [], more, lang = 'es' } = Astro.props;
+const d = (i: number) => `d${(i % 3) + 1}`;
+---
+<section class="crema-2"><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} sub={sub} />
+  <div class="resumen rv">
+    {summary.map((s: any) => s.rating
+      ? <div><div class="nota-g">{ratingText(lang)}</div><div class="estrellas" aria-hidden="true">★★★★★</div><div class="lbl">{fill(s.lbl, lang)}</div></div>
+      : <div><div class="cifra">{fill(s.big, lang)}</div><div class="lbl">{fill(s.lbl, lang)}</div></div>)}
+  </div>
+  <div class="resenas">
+    {reviews.map((r: any, i: number) => (
+      <figure class:list={['resena rv', d(i)]}>
+        <span class="comilla"></span>
+        <blockquote><p>{r.text}</p></blockquote>
+        <figcaption class="autor"><div class="avatar" aria-hidden="true">{r.name.trim().charAt(0).toUpperCase()}</div><div><div class="n">{r.name}</div><small>{source}</small></div></figcaption>
+      </figure>
+    ))}
+  </div>
+  {more && <div class="rv vc-center"><Btn cta={{ ...more, text: fill(more.text, lang) }} {...ext(more.href)} /></div>}
+</div></section>

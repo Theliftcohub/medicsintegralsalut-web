@@ -1,0 +1,5 @@
+---
+import { btnClass } from '../../lib/vc';
+const { cta, cls = '', ...rest } = Astro.props;
+---
+{cta && <a class:list={[btnClass(cta.style), cls]} href={cta.href} {...rest}><span>{cta.text}</span></a>}

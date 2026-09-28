@@ -1,0 +1,6 @@
+---
+const { logos = [] } = Astro.props;
+---
+<section class="crema vc-distin"><div class="wrap distintivos rv">
+  {logos.map((l: any) => <img src={l.src} alt={l.alt} width={l.w} height={l.h} loading="lazy" />)}
+</div></section>

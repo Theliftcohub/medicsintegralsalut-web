@@ -1,0 +1,10 @@
+---
+import Btn from './Btn.astro';
+const { kicker, heading, html, ctas = [] } = Astro.props;
+---
+<section class="cierre"><div class="wrap">
+  <div class="kicker centro rv">{kicker}</div>
+  <h2 class="rv d1">{heading}</h2>
+  <p class="rv d2" set:html={html} />
+  <div class="cta rv d3">{ctas.map((c: any) => <Btn cta={c} />)}</div>
+</div></section>

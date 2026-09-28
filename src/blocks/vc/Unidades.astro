@@ -1,0 +1,20 @@
+---
+import Cabecera from './Cabecera.astro';
+import Btn from './Btn.astro';
+const { id, num, kicker, heading, text = [], columns = [], wide = [], cta } = Astro.props;
+---
+<section id={id}><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} text={text} />
+  <div class="unidades rv">
+    {columns.map((col: any[]) => (
+      <div class="unidad">{col.map((g: any, i: number) => <>
+        <h3 class={i ? 'vc-mt' : undefined}>{g.title}</h3>
+        <ul>{g.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+      </>)}</div>
+    ))}
+  </div>
+  {wide.length > 0 && <div class="unidades unidades--ancha rv">
+    {wide.map((g: any) => <div class="unidad"><h3>{g.title}</h3><ul class="vc-ul4">{g.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul></div>)}
+  </div>}
+  {cta && <div class="rv vc-center"><Btn cta={cta} /></div>}
+</div></section>

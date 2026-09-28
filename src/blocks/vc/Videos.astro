@@ -1,0 +1,15 @@
+---
+import Cabecera from './Cabecera.astro';
+const { num, kicker, heading, sub, items = [] } = Astro.props;
+---
+<section><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} text={sub ? [sub] : []} />
+  <div class="videos">
+    {items.map((v: any, i: number) => (
+      <a class:list={['video rv', `d${(i % 4) + 1}`]} href={v.video} rel="noopener" target="_blank">
+        <div class="thumb"><img src={v.image.src} alt={v.image.alt} width={v.image.w} height={v.image.h} loading="lazy" /><div class="play"><span aria-hidden="true">▶</span></div></div>
+        <div class="meta"><h3>{v.title}</h3><small>{v.label}</small></div>
+      </a>
+    ))}
+  </div>
+</div></section>

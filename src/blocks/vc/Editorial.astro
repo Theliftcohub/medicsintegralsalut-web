@@ -1,0 +1,17 @@
+---
+import Btn from './Btn.astro';
+const { num, kicker, headingTag = 'h2', heading, paras = [], cta, image, reverse = false, bg } = Astro.props;
+const H = headingTag;
+---
+<section class={bg}>
+  <div class:list={['wrap editorial', reverse && 'editorial--inv']}>
+    <div class="img rv"><img src={image.src} alt={image.alt} width={image.w} height={image.h} loading="lazy" /><div class="marco"></div></div>
+    <div>
+      {num && <span class="num rv">{num}</span>}
+      {kicker && <div class="kicker rv d1">{kicker}</div>}
+      <H class="rv d1">{heading}</H>
+      {paras.map((p: string, i: number) => <p class:list={['rv', i === 0 ? 'lead d2' : 'd3']} style={i === 0 ? 'margin-top:26px' : undefined} set:html={p} />)}
+      {cta && <div class="rv d4" style="margin-top:20px"><Btn cta={cta} /></div>}
+    </div>
+  </div>
+</section>

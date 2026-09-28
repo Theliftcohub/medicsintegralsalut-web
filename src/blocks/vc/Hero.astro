@@ -1,0 +1,32 @@
+---
+import Btn from './Btn.astro';
+import { fill, ratingText } from '../../lib/vc';
+const { kicker, titleHtml, sub, ctas = [], micro, image, ratingLabel, stats = [], lang = 'es' } = Astro.props;
+---
+<div class="hero">
+  <div class="wrap-wide hero-grid">
+    <div>
+      <div class="kicker rv on">{kicker}</div>
+      <h2 class="rv on d1" set:html={titleHtml} />
+      {sub && <p class="sub rv on d2">{sub}</p>}
+      <div class="cta rv on d3">{ctas.map((c: any) => <Btn cta={c} />)}</div>
+      {micro && <div class="micro rv on d4">{micro}</div>}
+    </div>
+    <div class="hero-media rv on d2">
+      <div class="principal"><img src={image.src} alt={image.alt} width={image.w} height={image.h} fetchpriority="high" /></div>
+      <div class="marco"></div>
+      <div class="flotante">
+        <div class="g">{ratingText(lang)}</div>
+        <div><div class="est" aria-hidden="true">★★★★★</div><div class="lbl">{fill(ratingLabel, lang)}</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="confianza"><div class="wrap-wide confianza-in">
+    {stats.map((s: any) => (
+      <div class="conf">
+        <div class="big">{s.rating ? <>{ratingText(lang)} <span class="estrellas" aria-hidden="true">★★★★★</span></> : fill(s.big, lang)}</div>
+        <div class="lbl">{fill(s.lbl, lang)}</div>
+      </div>
+    ))}
+  </div></div>
+</div>

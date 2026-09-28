@@ -1,0 +1,41 @@
+---
+// Contacto: datos + formulario propio (→ n8n → Kommo). El mapa de Google solo se carga al pulsar (privacidad/cookies).
+import Cabecera from './Cabecera.astro';
+import Btn from './Btn.astro';
+import NativeForm from '../../components/NativeForm.astro';
+import ui from '../../i18n/ui.json';
+const { id, num, kicker, heading, sub, rows = [], ctas = [], formTitle, formText, form, map, lang = 'es' } = Astro.props;
+const t = (ui as any)[lang] ?? ui.es;
+const src = map ? `https://www.google.com/maps?q=${encodeURIComponent(map.q)}&output=embed` : '';
+---
+<section id={id}><div class="wrap">
+  <Cabecera num={num} kicker={kicker} heading={heading} text={sub ? [sub] : []} />
+  <div class="contacto rv">
+    <div class="datos">
+      {rows.map((r: any) => (
+        <div class="fila"><span class="ic" aria-hidden="true">{r.ic}</span><div><div class="k">{r.k}</div>
+          <div class="v"><span set:html={r.v} />{r.note && <><br /><span class="vc-nota">{r.note}</span></>}</div></div></div>
+      ))}
+      <div class="vc-ctas">{ctas.map((c: any) => <Btn cta={c} />)}</div>
+    </div>
+    <div class="vc-formbox">
+      {formTitle && <h3>{formTitle}</h3>}
+      {formText && <p>{formText}</p>}
+      {form && <NativeForm form={form} lang={lang} cls="vc-form" btnClass="btn" btnSpan />}
+    </div>
+  </div>
+  {map && (
+    <div class="mapa vc-mapa rv" data-src={src} data-title={map.title}>
+      <div class="vc-mapa-fac">
+        <button type="button" class="btn linea"><span>{t.map_load}</span></button>
+        <small>{t.map_note}</small>
+        {map.href && <a href={map.href} rel="noopener" target="_blank">{map.title}</a>}
+      </div>
+    </div>
+  )}
+</div>
+<script is:inline>
+  document.querySelectorAll('.vc-mapa').forEach(function(m){var b=m.querySelector('button');b&&b.addEventListener('click',function(){
+    var f=document.createElement('iframe');f.src=m.dataset.src;f.title=m.dataset.title;f.loading='lazy';m.innerHTML='';m.appendChild(f);});});
+</script>
+</section>
