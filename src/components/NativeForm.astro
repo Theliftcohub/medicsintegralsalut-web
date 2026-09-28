@@ -1,0 +1,34 @@
+---
+// Formulario PROPIO (Typeform se elimina en todas las webs: decisión Oscar 28/09/2026).
+// Envía a /form-handler.php (Plesk) → n8n → Kommo. En la preview de Netlify el envío está desactivado.
+// Guarda UTM/click-id/referrer de la visita (sessionStorage) y hace dataLayer.push form_submit al enviar.
+import Icon from './Icon.astro';
+import ui from '../i18n/ui.json';
+const { form, lang = 'es', cls = 'mp-form', btnClass = 'mpost-btn b-primary', btnSpan = false } = Astro.props;
+const t = (ui as any)[lang] ?? ui.es;
+const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
+---
+<form class={cls} action={preview ? '#' : '/form-handler.php'} method="post" data-form={form.name}>
+  {preview && <p class="aviso">{t.form_preview}</p>}
+  <input type="hidden" name="_form" value={form.name} />
+  <input type="hidden" name="_lang" value={lang} />
+  <input type="hidden" name="_gracias" value={form.thanks} />
+  {['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid','referrer'].map((k) => <input type="hidden" name={k} data-attr={k} />)}
+  {form.fields.map((f: any) => f.type === 'textarea'
+    ? <label class="mp-field"><span class="sr">{f.placeholder}</span><textarea name={f.name} placeholder={f.placeholder} rows="3" required={f.required} maxlength="2000"></textarea></label>
+    : f.type === 'checkbox'
+      ? <label class="mp-check"><input type="checkbox" name={f.name} value="1" required={f.required} /><span set:html={f.labelHtml} /></label>
+      : <label class="mp-field"><span class="sr">{f.placeholder}</span><input type={f.type} name={f.name} placeholder={f.placeholder} required={f.required} maxlength="400" autocomplete={f.autocomplete} /></label>)}
+  <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
+  <button type="submit" class={btnClass} disabled={preview}>{btnSpan ? <span>{form.submit}</span> : <><Icon name="calendar" />{form.submit}</>}</button>
+</form>
+<script is:inline>
+  (function(){var K=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid'];
+  var q=new URLSearchParams(location.search),s={};try{s=JSON.parse(sessionStorage.getItem('mis-attr')||'{}')}catch(e){}
+  if(K.some(function(k){return q.get(k)})){K.forEach(function(k){if(q.get(k))s[k]=q.get(k)});}
+  if(!s.referrer&&document.referrer&&document.referrer.indexOf(location.host)<0)s.referrer=document.referrer;
+  try{sessionStorage.setItem('mis-attr',JSON.stringify(s))}catch(e){}
+  document.querySelectorAll('input[data-attr]').forEach(function(i){if(s[i.dataset.attr])i.value=s[i.dataset.attr]});
+  document.querySelectorAll('form[data-form]').forEach(function(f){if(f.dataset.dl)return;f.dataset.dl=1;f.addEventListener('submit',function(){
+    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'form_submit',form_name:f.dataset.form,page_path:location.pathname});});});})();
+</script>
