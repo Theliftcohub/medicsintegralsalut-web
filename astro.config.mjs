@@ -14,11 +14,19 @@ function rutasNoindex() {
       if (f.isDirectory()) walk(p);
       else if (f.name.endsWith('.json')) {
         const j = JSON.parse(fs.readFileSync(p, 'utf8'));
-        if ((j.seo?.robots || '').includes('noindex')) out.add(j.path);
+        const canon = j.seo?.canonical ? new URL(j.seo.canonical).pathname : null;
+        if ((j.seo?.robots || '').includes('noindex') || (canon && decodeURI(canon) !== j.path)) out.add(j.path);
+      } else if (f.name.endsWith('.md')) {
+        // entradas: frontmatter con path/robots/canonical en JSON por línea
+        const fm = fs.readFileSync(p, 'utf8').split('---')[1] || '';
+        const get = (k) => { const m = fm.match(new RegExp('^' + k + ': (.*)$', 'm')); return m ? JSON.parse(m[1]) : null; };
+        const pth = get('path'), rob = get('robots') || '', can = get('canonical');
+        if (pth && (rob.includes('noindex') || (can && decodeURI(new URL(can).pathname) !== pth))) out.add(pth);
       }
     }
   };
   walk('src/content/pages');
+  walk('src/content/posts');
   return out;
 }
 const NOINDEX = rutasNoindex();
@@ -33,7 +41,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const p = new URL(page).pathname;
-        return !NOINDEX.has(p) && p !== '/404/' && p !== '/410/';
+        return !NOINDEX.has(decodeURI(p)) && p !== '/404/' && p !== '/410/';
       },
     }),
   ],

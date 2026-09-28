@@ -55,6 +55,17 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - `PUBLIC_ENTORNO`: `preview` (por defecto: noindex, sin GTM, formularios desactivados) · `staging` (noindex, GTM) · `produccion`.
 - Los componentes no contienen textos de negocio.
 
+## Construcción de páginas «Versión C» (28/09/2026)
+- `scripts/vc_pages.py <ruta…> | --todas`: genera TODAS las páginas y entradas desde el HTML cacheado (6 idiomas).
+  - Con componentes `.mpost` (tratamientos): bloque `vc-mpost` con el marcado literal limpio + piel `src/styles/vc-mpost.css`.
+  - Resto (WPBakery/Bridge, fichas, legales, landings): bloques `vc-prosa` (HTML semántico literal por fila; columnas en rejilla). CF7 y Typeform → formulario propio (`NativeForm`).
+  - Entradas: `src/content/posts/<lang>/*.md` (frontmatter completo; `mpost: true` si la entrada está maquetada con .mpost, CSS literal en `src/styles/mpost-posts.css` generado por `scripts/build_mpost_posts_css.py`).
+  - Informe de incidencias: `migracion/vc_pages_report.json` (imágenes sin copia local, Typeform, formularios, páginas vacías).
+- Portadas: `build_home.py <url> <lang> <out>` (literal) → `build_home_vc.py <lang>` (textos nuevos de la maqueta por idioma en `scripts/home_vc_textos.json`).
+- Cabecera y pie por idioma: `scripts/build_chrome_vc.py` → `src/data/vc-chrome.json` (etiquetas y enlaces literales de cada portada).
+- Redirecciones: `scripts/resolver_revisar.py` (cerró las 69 REVISAR con criterios escritos en `notas`) → `scripts/redirects_contract.py` (url-map.csv + gone.txt) → `build_redirects.py`.
+- Descargas: `wp_lib.fetch_bytes` recuerda las URL que fallan en `migracion/fetch_fallidos.txt`.
+
 ## Bloques disponibles
 | Tipo | Campos | Variantes |
 |---|---|---|
@@ -80,6 +91,10 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
 
 ## Errores ya cometidos y sus reglas
+- 28/09/2026 · El detector de spam de build_redirects marcaba 410 una página "mantener" (cirurgia-de-barbeta, "bet") · el contrato manda: `gone -= contract_mantener`.
+- 28/09/2026 · `pkill -f <patrón>` mató la propia shell porque el patrón aparecía en su línea de comandos · lanzar procesos largos con `setsid nohup` y no usar pkill con patrones que estén en el mismo comando.
+- 28/09/2026 · Las rutas de ru/uk están codificadas (%d0…) en urls.csv: el `path` de las páginas va DECODIFICADO (Astro lo exige) y los archivos se nombran decodificados (hash si >150 bytes).
+- 28/09/2026 · `find_parent(class_=…)` llega hasta `<body>`, cuyas clases incluyen "sticky"/"header": excluir body/html al filtrar contenedores de cabecera.
 - 28/09/2026 · Al filtrar las notas del diseñador (`.nota`) se cayeron también las reglas de `.nota-g` · filtrar clases por palabra completa (`\.nota(?![\w-])`), nunca por subcadena.
 - 28/09/2026 · La maqueta atribuía un testimonio a "Amador", que es el médico (Dr. Amador García) · contrastar nombres de pacientes con la fuente (miniatura/vídeo) antes de publicar un título.
 - 27/09/2026 · El export de GSC incluía subdominios y sus rutas colisionaban con las del www · filtrar siempre `gsc.csv` al host www antes de construir el contrato.

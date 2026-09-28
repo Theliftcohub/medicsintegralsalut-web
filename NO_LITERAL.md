@@ -28,6 +28,17 @@ Cada fila: URL · campo · texto original · texto nuevo · motivo. El cliente l
 | / | contacto · mapa | enlace a Google Maps | mapa incrustado que se carga al pulsar "Ver el mapa" + aviso "Al cargar el mapa, Google puede instalar cookies." | maqueta con iframe; se carga bajo demanda por privacidad |
 | / | cierre | — | H2 "Clínica de cirugía y medicina estética para toda la provincia de Girona" + párrafo con municipios + botones "Solicitar valoración" / "Ver financiación" | sección nueva de la maqueta (SEO local) — **validar** "financiación disponible y primera valoración gratuita" |
 | / | cabecera | menú WordPress completo (mega menú) | menú corto: Clínica, Equipo, Unidades (#unidades), Financiación, Blog, Contacto + "Solicitar valoración"; menú móvil con WhatsApp; selector de idioma | maqueta |
-| / | pie | pie actual | mismo contenido ordenado según la maqueta; "Tu medicina financiada" (antes alt del logo de financiación) como texto; línea "© año Clínica Cirugía Estética \| Médics Integral Salut" | maqueta |
+| (todas) | pie | pie actual | mismo contenido y enlaces literales de cada idioma ordenados según la maqueta (logo de financiación incluido); línea "© año" + nombre literal del pie | maqueta |
 | / | barra móvil | — | "Pedir valoración" / "WhatsApp" fija abajo en móvil | maqueta |
 | / | imagen de la sección «La clínica» | clinica-estetica-Girona (maqueta) | mejor-clinica-estetica-girona.webp (imagen de la portada actual) | la de la maqueta es de 580 px con fondo negro y no aguanta el formato 3:4 |
+| (todas) | cabecera | menú WordPress con mega menú | menú corto de la maqueta con las etiquetas literales del menú de cada idioma; "Medics Integral Salut" pasa a "Clínica" (ca Clínica, en Clinic, fr Clinique, ru Клиника, uk Клініка) | maqueta |
+| /ca/ /en/ /fr/ /ru/ /uk/ | portada · textos nuevos de la maqueta | — | traducción propia de los textos nuevos de la maqueta (subtítulo, etiquetas, cifras, contacto, sección de cierre, títulos de vídeo) en `scripts/home_vc_textos.json` | **revisar por nativo** antes de lanzar |
+| (entradas del blog) | H1 | "21 Mar ¿Cómo elegir…" (fecha dentro del H1 en Bridge) | H1 = título; la fecha va en la línea "Publicado … · Actualizado … · por …" | la fecha no es parte del título |
+| (varias páginas) | shortcodes visibles | texto "[vc_row …][vc_raw_html]…" que el WordPress muestra por error | eliminado | fallo del sitio actual, no es contenido |
+| (38 páginas) | imagen | `<img src="Sorry, I cannot process image files.">` (texto de una IA pegado como imagen) | eliminada | imagen rota en el sitio actual |
+| (varias) | imágenes externas | enlazadas desde clinicarinos.com y medicstetics.com | no se muestran | no se copian imágenes de otras webs; revisar si alguna era propia |
+| /portfolio_page/* | contenido | ficha vacía (solo navegación) | H1 con el título de la ficha | la página está vacía en el WordPress; propuesta: 301 al tratamiento |
+| /w-lp-ginecomastia/, /w-lp-mamaria/ (6 idiomas) | formulario | Typeform ZTDKPHl5 | formulario propio con los campos del CF7 de /contacto/ del idioma | decisión Oscar: Typeform fuera siempre |
+| (todas) | vídeos y mapas | iframe de YouTube / Google Maps cargado al abrir | fachada que carga el vídeo o el mapa al pulsar | privacidad (sin cookies de terceros antes del clic) |
+| (páginas de tratamiento) | diseño | componentes .mpost | mismo marcado y textos con la piel «Versión C» (`vc-mpost.css`) | decisión Oscar: Versión C en toda la web |
+| /unidades/ (6 idiomas) | contenido | página vacía en el WordPress (solo el botón flotante de WhatsApp) | índice de unidades literal de la portada del idioma, con su título como H1 | la página es destino del menú; vacía no sirve ni a usuarios ni a SEO |
