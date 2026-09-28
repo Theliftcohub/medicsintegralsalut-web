@@ -50,8 +50,8 @@ for r in rows:
             cands = [f"public/images/wp/{os.path.splitext(rel)[0]}.webp", f"public/media/{os.path.basename(rel)}"]
             hit = next((c for c in cands if os.path.exists(c)), None)
             (mp.append((u, hit[len("public"):])) if hit else falta.append(u))
-        elif u and not u.endswith("/"):
-            mp.append((u, u + "/"))
+        # "mantener" sin barra final: NO se genera regla. Netlify (pretty URLs) y Apache (mod_dir) ya hacen
+        # /x -> /x/ solos, y en Netlify una regla /x -> /x/ casa también con /x/ (coincidencia laxa) = bucle.
 with open("migracion/url-map.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerows(mp)
 open("migracion/gone.txt", "w").write("\n".join(gone) + "\n")
