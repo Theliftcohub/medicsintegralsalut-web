@@ -22,16 +22,16 @@ html{scroll-behavior:smooth}
 body.vc{margin:0;background:var(--blanco);color:var(--tinta);
   font-family:var(--sans);font-size:16.5px;line-height:1.78;font-weight:300;
   -webkit-font-smoothing:antialiased;overflow-x:hidden;}
-.vc img{max-width:100%;display:block}
-.vc a{color:inherit}
+:where(.vc) img{max-width:100%;display:block}
+:where(.vc) a{color:inherit}
 .vc .wrap{max-width:var(--max);margin:0 auto;padding:0 32px}
 .vc .wrap-wide{max-width:1520px;margin:0 auto;padding:0 32px}
-.vc h1,.vc h2,.vc h3,.vc h4{margin:0;font-family:var(--display);line-height:1.18;letter-spacing:-.018em}
-.vc h1{font-size:clamp(34px,4.4vw,56px);font-weight:200}
-.vc h2{font-size:clamp(29px,3.7vw,47px);font-weight:200}
-.vc h3{font-size:22px;font-weight:500;letter-spacing:-.008em}
-.vc h1 b,.vc h2 b,.vc h1 strong,.vc h2 strong{font-weight:600}
-.vc p{color:var(--gris)}
+:where(.vc) h1,:where(.vc) h2,:where(.vc) h3,:where(.vc) h4{margin:0;font-family:var(--display);line-height:1.18;letter-spacing:-.018em}
+:where(.vc) h1{font-size:clamp(34px,4.4vw,56px);font-weight:200}
+:where(.vc) h2{font-size:clamp(29px,3.7vw,47px);font-weight:200}
+:where(.vc) h3{font-size:22px;font-weight:500;letter-spacing:-.008em}
+:where(.vc) h1 b,:where(.vc) h2 b,:where(.vc) h1 strong,:where(.vc) h2 strong{font-weight:600}
+:where(.vc) p{color:var(--gris)}
 .vc .kicker{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.28em;
   text-transform:uppercase;color:var(--marca-txt);display:flex;align-items:center;gap:14px;margin-bottom:26px}
 .vc .kicker::before{content:"";width:42px;height:1px;background:var(--marca);display:block;flex-shrink:0}
@@ -40,7 +40,7 @@ body.vc{margin:0;background:var(--blanco);color:var(--tinta);
 .vc .lead{font-size:18.5px;line-height:1.82;color:var(--gris);font-weight:300}
 .vc .num{font-family:var(--sans);font-size:11px;font-weight:600;color:var(--marca);
   letter-spacing:.32em;display:block;margin-bottom:14px}
-.vc section{padding:120px 0;position:relative}
+:where(.vc) section{padding:120px 0;position:relative}
 .vc .crema{background:var(--crema)}
 .vc .crema-2{background:var(--crema-2)}
 .vc .cabecera{max-width:770px;margin:0 auto 68px;text-align:center}
@@ -67,19 +67,19 @@ html.vc-js .vc .rv.d2{transition-delay:.2s}
 html.vc-js .vc .rv.d3{transition-delay:.3s}
 html.vc-js .vc .rv.d4{transition-delay:.4s}
 @media(prefers-reduced-motion:reduce){html.vc-js .vc .rv{opacity:1;transform:none;transition:none}}
-.vc header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);
+body.vc>header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.94);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--linea);transition:.4s}
-.vc header .bar{display:flex;align-items:center;gap:36px;height:92px;transition:.4s}
-.vc header.stuck .bar{height:72px}
+body.vc>header .bar{display:flex;align-items:center;gap:36px;height:92px;transition:.4s}
+body.vc>header.stuck .bar{height:72px}
 .vc .logo{height:44px;width:auto;transition:.4s}
-.vc header.stuck .logo{height:36px}
-.vc header nav{display:flex;gap:30px;margin-left:auto;font-size:11.5px;letter-spacing:.15em;
+body.vc>header.stuck .logo{height:36px}
+body.vc>header nav{display:flex;gap:30px;margin-left:auto;font-size:11.5px;letter-spacing:.15em;
   text-transform:uppercase;color:var(--gris)}
-.vc header nav a{text-decoration:none;position:relative;padding-bottom:4px}
-.vc header nav a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--marca);transition:.3s}
-.vc header nav a:hover{color:var(--tinta)}
-.vc header nav a:hover::after{width:100%}
-.vc header .btn{padding:13px 24px;font-size:10.5px}
+body.vc>header nav a{text-decoration:none;position:relative;padding-bottom:4px}
+body.vc>header nav a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--marca);transition:.3s}
+body.vc>header nav a:hover{color:var(--tinta)}
+body.vc>header nav a:hover::after{width:100%}
+body.vc>header .btn{padding:13px 24px;font-size:10.5px}
 .vc .burger{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--linea);
   background:#fff;cursor:pointer;position:relative;flex-shrink:0;padding:0}
 .vc .burger i{position:absolute;left:13px;width:20px;height:1.5px;background:var(--tinta);
@@ -103,8 +103,8 @@ body.vc.menu-open .panel{transform:none}
   transition:.42s;z-index:290}
 body.vc.menu-open .velo{opacity:1;visibility:visible}
 body.vc.menu-open{overflow:hidden}
-@media(max-width:1080px){.vc header nav{display:none}
-.vc header .bar>.btn{display:none}
+@media(max-width:1080px){body.vc>header nav{display:none}
+body.vc>header .bar>.btn{display:none}
 .vc .burger{display:block}}
 @media(min-width:1081px){.vc .panel,.vc .velo{display:none}}
 .vc .hero{background:var(--blanco);padding:76px 0 0;position:relative;overflow:hidden}
@@ -274,16 +274,16 @@ body.vc.menu-open{overflow:hidden}
 .vc .cierre h2{max-width:900px;margin:0 auto}
 .vc .cierre p{max-width:700px;margin:26px auto 40px;font-size:17px;color:#7C6A4E}
 .vc .cierre .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-.vc footer{background:var(--crema-2);color:var(--gris);padding:78px 0 30px;font-size:14px;
+body.vc>footer{background:var(--crema-2);color:var(--gris);padding:78px 0 30px;font-size:14px;
   border-top:1px solid var(--linea)}
 .vc .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:44px}
-.vc footer .marca-n{font-family:var(--display);font-size:22px;font-weight:200;letter-spacing:-.02em;
+body.vc>footer .marca-n{font-family:var(--display);font-size:22px;font-weight:200;letter-spacing:-.02em;
   color:var(--tinta);margin-bottom:18px;line-height:1.35}
-.vc footer h4{font-family:var(--sans);color:var(--tinta);font-size:10px;letter-spacing:.2em;
+body.vc>footer h4{font-family:var(--sans);color:var(--tinta);font-size:10px;letter-spacing:.2em;
   text-transform:uppercase;margin-bottom:20px;font-weight:500;
   padding-bottom:9px;border-bottom:1px solid var(--marca);display:inline-block}
-.vc footer a{color:var(--gris);text-decoration:none;display:block;margin-bottom:10px;transition:.25s}
-.vc footer a:hover{color:var(--marca-txt)}
+body.vc>footer a{color:var(--gris);text-decoration:none;display:block;margin-bottom:10px;transition:.25s}
+body.vc>footer a:hover{color:var(--marca-txt)}
 .vc .foot-legal{border-top:1px solid var(--linea);margin-top:54px;padding-top:24px;
   text-align:center;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gris-cl)}
 @media(max-width:900px){.vc .foot-grid{grid-template-columns:repeat(2,1fr)}}
@@ -298,22 +298,22 @@ body.vc.menu-open{overflow:hidden}
 .vc .barra-movil a:last-child{border-left:1px solid var(--linea)}
 body.vc{padding-bottom:58px}}
 @media(max-width:1080px){.vc .wrap,.vc .wrap-wide{padding:0 26px}
-.vc section{padding:92px 0}
+:where(.vc) section{padding:92px 0}
 .vc .cabecera{margin-bottom:52px}}
 @media(max-width:760px){body.vc{font-size:15.5px;line-height:1.72}
 .vc .wrap,.vc .wrap-wide{padding:0 20px}
-.vc section{padding:68px 0}
+:where(.vc) section{padding:68px 0}
 .vc .cabecera{margin-bottom:40px;max-width:none}
-.vc h1{font-size:clamp(28px,8vw,36px)}
-.vc h2{font-size:clamp(26px,7.4vw,34px)}
+:where(.vc) h1{font-size:clamp(28px,8vw,36px)}
+:where(.vc) h2{font-size:clamp(26px,7.4vw,34px)}
 .vc .lead{font-size:16.5px;line-height:1.75}
 .vc .kicker{font-size:10px;letter-spacing:.22em;margin-bottom:18px}
 .vc .kicker::before,.vc .kicker.centro::after{width:26px}
 .vc .num{font-size:10px;margin-bottom:11px}
 .vc .btn{padding:17px 26px;font-size:11px;justify-content:center;width:100%}
 .vc .hero .cta .btn,.vc .cierre .cta .btn,.vc .datos .btn{width:100%}
-.vc header .bar{height:70px;gap:14px}
-.vc header.stuck .bar{height:64px}
+body.vc>header .bar{height:70px;gap:14px}
+body.vc>header.stuck .bar{height:64px}
 .vc .logo{height:34px}
 .vc .hero{padding:34px 0 0}
 .vc .hero::before{width:340px;height:340px;top:-90px;left:-110px}
@@ -373,7 +373,7 @@ body.vc{padding-bottom:58px}}
 .vc .mapa{min-height:280px}
 .vc .cierre p{font-size:16px;margin:22px auto 30px}
 .vc .cierre .cta{gap:10px}
-.vc footer{padding:56px 0 24px}
+body.vc>footer{padding:56px 0 24px}
 .vc .foot-grid{grid-template-columns:1fr;gap:34px}
 .vc .foot-legal{margin-top:38px}}
 @media(max-width:420px){.vc .trat,.vc .videos,.vc .equipo{grid-template-columns:1fr}
