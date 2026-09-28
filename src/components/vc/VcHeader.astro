@@ -1,32 +1,33 @@
 ---
-// Cabecera de la portada «Versión C» (maqueta The Lift Co). Menú simplificado + selector de idioma.
-import menu from '../../data/menu.json';
+// Cabecera «Versión C». Etiquetas y enlaces por idioma en src/data/vc-chrome.json (literales del menú del WordPress).
+import chrome from '../../data/vc-chrome.json';
 import site from '../../data/site.json';
 import ui from '../../i18n/ui.json';
 const { lang = 'es', alternates = {} } = Astro.props;
-const M: any = menu;
-const items = M[`vc_${lang}`] ?? M.vc_es;
-const cta = M[`vc_cta_${lang}`] ?? M.vc_cta_es;
-const wa = M[`vc_wa_${lang}`] ?? M.vc_wa_es;
+const C: any = (chrome as any)[lang] ?? (chrome as any).es;
+const isHome = Astro.url.pathname === C.home;
+// las anclas de la portada (#info, #unidades) fuera de ella apuntan a sus páginas
+const fx = (h: string) => (isHome || !h?.startsWith('#') ? h : C.anchors[h] ?? C.home + h);
 const t = (ui as any)[lang] ?? ui.es;
-const home = lang === 'es' ? '/' : `/${lang}/`;
+const names: Record<string, string> = { es: 'ES', ca: 'CA', en: 'EN', fr: 'FR', ru: 'RU', uk: 'UK' };
 const langs = Object.entries(alternates);
+const wa = { text: 'WhatsApp 620 892 236', href: 'https://api.whatsapp.com/send?phone=34620892236' };
 ---
 <header id="hdr">
   <div class="wrap-wide bar">
-    <a href={home}><img class="logo" src={site.logo} alt="clinica estetica girona" width="200" height="79" /></a>
-    <nav aria-label={t.menu}>{items.map((i: any) => <a href={i.href}>{i.text}</a>)}</nav>
-    {langs.length > 1 && <ul class="vc-langs">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{l}</a></li>)}</ul>}
-    <a class="btn" href={cta.href}><span>{cta.text}</span></a>
+    <a href={C.home}><img class="logo" src={site.logo} alt="clinica estetica girona" width="200" height="79" /></a>
+    <nav aria-label={t.menu}>{C.menu.map((i: any) => <a href={fx(i.href)}>{i.text}</a>)}</nav>
+    {langs.length > 1 && <ul class="vc-langs">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{names[l] ?? l}</a></li>)}</ul>}
+    <a class="btn" href={fx(C.cta.href)}><span>{C.cta.text}</span></a>
     <button class="burger" id="burger" aria-label={t.menu_open} aria-controls="panel" aria-expanded="false"><i></i><i></i><i></i></button>
   </div>
 </header>
 <div class="velo" id="velo"></div>
 <nav class="panel" id="panel" aria-label={t.menu}>
-  {items.map((i: any) => <a href={i.href}>{i.text}</a>)}
-  <a class="btn" href={cta.href}><span>{cta.text}</span></a>
+  {C.menu.map((i: any) => <a href={fx(i.href)}>{i.text}</a>)}
+  <a class="btn" href={fx(C.cta.href)}><span>{C.cta.text}</span></a>
   <a class="btn linea" href={wa.href}><span>{wa.text}</span></a>
-  {langs.length > 1 && <ul class="vc-langs vc-langs--panel">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{l}</a></li>)}</ul>}
+  {langs.length > 1 && <ul class="vc-langs vc-langs--panel">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{names[l] ?? l}</a></li>)}</ul>}
 </nav>
 <script is:inline>
 (function(){

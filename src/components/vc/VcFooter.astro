@@ -1,41 +1,50 @@
 ---
-// Pie de la portada «Versión C». Textos y enlaces literales del pie actual (src/data/footer.json).
-import footer from '../../data/footer.json';
-import menu from '../../data/menu.json';
+// Pie «Versión C». Textos y enlaces literales del pie de cada idioma (src/data/vc-chrome.json).
+import chrome from '../../data/vc-chrome.json';
 const { lang = 'es' } = Astro.props;
-const F: any = (footer as any)[lang] ?? (footer as any).es;
-const L = (t: string) => (F.links.find((l: any) => l.text === t) ?? {}).href;
-const legal = ['Aviso legal', 'Política de privacidad', 'Política de cookies', 'Política de privacidad redes sociales'];
-const trat = ['Rinoplastia', 'Balón gástrico', 'Aumento de pecho', 'Blefaroplastia', 'Otoplastia'];
-const bar = (menu as any)[`vc_bar_${lang}`] ?? (menu as any).vc_bar_es;
+const C: any = (chrome as any)[lang] ?? (chrome as any).es;
+const F = C.footer;
+const isHome = Astro.url.pathname === C.home;
+const fx = (h: string) => (isHome || !h?.startsWith('#') ? h : C.anchors[h] ?? C.home + h);
+const [a1, a2] = F.addr.split(/,\s*(?=\d{5})/);
 const year = new Date().getFullYear();
 ---
 <footer>
   <div class="wrap foot-grid">
     <div>
       <div class="marca-n">Médics<br />Integral Salut</div>
-      Plaça Poeta Marquina, 3<br />17002 Girona, España
-      <div style="margin-top:22px">{legal.map((t) => <a href={L(t)}>{t}</a>)}</div>
+      {a1}<br />{a2}
+      <div style="margin-top:22px">{F.legal.map((l: any) => <a href={l.href}>{l.text}</a>)}</div>
     </div>
     <div>
-      <h4>Contacto</h4>
-      <a href="tel:+34972209086">+34 972 20 90 86</a>
-      <a href={L('+34 620 892 236')}>+34 620 892 236</a>
-      <a href={L('info@medicsintegralsalut.com')}>info@medicsintegralsalut.com</a>
+      <h4>{F.contactTitle}</h4>
+      <a href="tel:+34972209086">{F.phone}</a>
+      <a href="https://wa.me/34620892236">{F.wa}</a>
+      <a href="mailto:info@medicsintegralsalut.com">{F.email}</a>
     </div>
     <div>
-      <h4>Tratamientos destacados</h4>
-      {trat.map((t) => <a href={L(t)}>{t}</a>)}
+      <h4>{F.tratTitle}</h4>
+      {F.trat.map((l: any) => <a href={l.href}>{l.text}</a>)}
     </div>
     <div>
-      <h4>Redes sociales</h4>
+      <h4>{F.socialTitle}</h4>
       <a href="https://www.facebook.com/MedicsIntegralSalut" rel="noopener">Facebook</a>
       <a href="https://www.instagram.com/medicsintegralsalut/" rel="noopener">Instagram</a>
       <a href="https://www.youtube.com/channel/UChnKZOQRgevEvqw-NTaDHpw/videos" rel="noopener">YouTube</a>
-      <h4 style="margin-top:30px">Financiación</h4>
-      <a href="/financiacion/">Tu medicina financiada</a>
+      <h4 style="margin-top:30px">{F.finTitle}</h4>
+      <a href={F.fin}><img src="/images/wp/2019/10/financiera.webp" alt="tu medicina financiada" width="179" height="47" loading="lazy" style="height:auto" /></a>
     </div>
   </div>
-  <div class="wrap foot-legal">© {year} Clínica Cirugía Estética | Médics Integral Salut</div>
+  <div class="wrap foot-legal">© {year} {F.brand}</div>
 </footer>
-<div class="barra-movil">{bar.map((b: any) => <a href={b.href}>{b.text}</a>)}</div>
+<div class="barra-movil"><a href={fx('#info')}>{C.cta.text}</a><a href="https://api.whatsapp.com/send?phone=34620892236">WhatsApp</a></div>
+<script is:inline>
+// Vídeos y mapas de terceros: solo se cargan al pulsar (sin cookies de Google/YouTube antes del clic)
+document.addEventListener('click',function(e){
+  var y=e.target.closest('.vc-yt');
+  if(y){var f=document.createElement('iframe');f.className='vc-yt-frame';f.src='https://www.youtube-nocookie.com/embed/'+y.dataset.yt+'?autoplay=1&rel=0';
+    f.allow='autoplay; encrypted-media; picture-in-picture';f.allowFullscreen=true;f.title=y.getAttribute('aria-label')||'';y.replaceWith(f);return;}
+  var m=e.target.closest('.vc-embed');
+  if(m&&m.dataset.embed){var g=document.createElement('iframe');g.src=m.dataset.embed;g.title=m.dataset.title||'';g.loading='lazy';m.innerHTML='';m.appendChild(g);}
+});
+</script>
