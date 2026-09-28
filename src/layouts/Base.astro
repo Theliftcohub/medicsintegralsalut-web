@@ -7,6 +7,10 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import site from '../data/site.json';
 import '../styles/tokens.css';
 import '../styles/base.css';
+import '@fontsource/lato/400.css';
+import '@fontsource/lato/700.css';
+import '../styles/mpost.css';
+import '../styles/mp-extra.css';
 const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [] } = Astro.props;
 const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
 const crumbs = breadcrumbs.length > 1 ? [{
@@ -29,7 +33,7 @@ const crumbs = breadcrumbs.length > 1 ? [{
 </head>
 <body>
   <Header lang={lang} alternates={alternates} />
-  <main>
+  <main class="mpost">
     <Breadcrumbs items={breadcrumbs} />
     <slot />
   </main>
