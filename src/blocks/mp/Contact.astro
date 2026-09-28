@@ -1,49 +1,15 @@
 ---
-// Formulario propio (sustituye a Typeform: decisión Oscar 28/09/2026, Typeform se elimina en todas las webs).
-// Envía a /form-handler.php (Plesk) → n8n → Kommo. En la preview de Netlify el envío está desactivado.
 import Img from '../../components/Img.astro';
-import Icon from '../../components/Icon.astro';
-import ui from '../../i18n/ui.json';
+import NativeForm from '../../components/NativeForm.astro';
 const { heading, text = [], form, image, id, lang = 'es' } = Astro.props;
-const t = (ui as any)[lang] ?? ui.es;
-const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
 ---
 <section id={id} class="mpost-sec mpost-sec--tint mpost-bleed"><div class="mpost-wrap">
   <div class="mp-split">
     <div class="mp-split-body">
       <h3 class="mp-h2like">{heading}</h3>
       {text.map((p: string) => <p set:html={p} />)}
-      {form && (
-        <form class="mp-form" action={preview ? '#' : '/form-handler.php'} method="post" data-form={form.name}>
-          {preview && <p class="aviso">{t.form_preview}</p>}
-          <input type="hidden" name="_form" value={form.name} />
-          <input type="hidden" name="_lang" value={lang} />
-          <input type="hidden" name="_gracias" value={form.thanks} />
-          {['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid','referrer'].map((k) => <input type="hidden" name={k} data-attr={k} />)}
-          {form.fields.map((f: any) => f.type === 'textarea'
-            ? <label class="mp-field"><span class="sr">{f.placeholder}</span><textarea name={f.name} placeholder={f.placeholder} rows="3" required={f.required} maxlength="2000"></textarea></label>
-            : f.type === 'checkbox'
-              ? <label class="mp-check"><input type="checkbox" name={f.name} value="1" required={f.required} /><span set:html={f.labelHtml} /></label>
-              : <label class="mp-field"><span class="sr">{f.placeholder}</span><input type={f.type} name={f.name} placeholder={f.placeholder} required={f.required} maxlength="400" autocomplete={f.autocomplete} /></label>)}
-          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px" />
-          <button type="submit" class="mpost-btn b-primary" disabled={preview}><Icon name="calendar" />{form.submit}</button>
-        </form>
-      )}
+      {form && <NativeForm form={form} lang={lang} />}
     </div>
     {image && <div class="mp-split-media"><Img image={image} class="mp-rounded" /></div>}
   </div>
-</div>
-<script is:inline>
-  (function(){var K=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid'];
-  var q=new URLSearchParams(location.search),s={};try{s=JSON.parse(sessionStorage.getItem('mis-attr')||'{}')}catch(e){}
-  if(K.some(function(k){return q.get(k)})){K.forEach(function(k){if(q.get(k))s[k]=q.get(k)});}
-  if(!s.referrer&&document.referrer&&document.referrer.indexOf(location.host)<0)s.referrer=document.referrer;
-  try{sessionStorage.setItem('mis-attr',JSON.stringify(s))}catch(e){}
-  document.querySelectorAll('input[data-attr]').forEach(function(i){if(s[i.dataset.attr])i.value=s[i.dataset.attr]});})();
-</script>
-</section>
-<script is:inline>
-  // Medición orgánica: evento para GA4/Ads vía GTM al enviar (la conversión definitiva es la página /gracias/).
-  document.querySelectorAll('form[data-form]').forEach(function(f){f.addEventListener('submit',function(){
-    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'form_submit',form_name:f.dataset.form,page_path:location.pathname});});});
-</script>
+</div></section>
