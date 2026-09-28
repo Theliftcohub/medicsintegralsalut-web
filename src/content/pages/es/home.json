@@ -512,18 +512,57 @@
    "alt": true
   },
   {
-   "type": "mp-typeform",
+   "type": "mp-contact",
    "id": "info",
    "heading": "Te orientamos personalmente",
    "text": [
     "Respuesta en el mismo día laborable"
    ],
-   "typeform": "01J3GWRH78BRMG20DQVDE7JP7F",
    "image": {
     "src": "/images/wp/2025/12/mejor-clinica-estetica-girona.webp",
     "w": 1200,
     "h": 800,
     "alt": "mejor clinica estetica girona"
+   },
+   "form": {
+    "name": "contacto-portada",
+    "thanks": "/gracias/",
+    "submit": "Enviar",
+    "fields": [
+     {
+      "name": "nombre",
+      "type": "text",
+      "placeholder": "Nombre y apellidos",
+      "required": true,
+      "autocomplete": "name"
+     },
+     {
+      "name": "telefono",
+      "type": "tel",
+      "placeholder": "Teléfono",
+      "required": true,
+      "autocomplete": "tel"
+     },
+     {
+      "name": "email",
+      "type": "email",
+      "placeholder": "Correo electrónico",
+      "required": true,
+      "autocomplete": "email"
+     },
+     {
+      "name": "mensaje",
+      "type": "textarea",
+      "placeholder": "Motivo de la consulta",
+      "required": true
+     },
+     {
+      "name": "privacidad",
+      "type": "checkbox",
+      "required": true,
+      "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
+     }
+    ]
    }
   },
   {
