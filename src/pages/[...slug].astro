@@ -33,18 +33,25 @@ if (kind === 'post') {
 } else {
   graph = d.schema.map((s: any) => ({ '@type': s.type, ...s, type: undefined }));
 }
-const seo = kind === 'post' ? { title: d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
+const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
-<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []} theme={kind === 'page' ? d.theme : 'mpost'}>
+<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []} theme={kind === 'page' ? d.theme : 'vc'}>
   {kind === 'page' && d.blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
-    <article class="wrap prose post">
-      <h1>{d.h1 ?? d.title}</h1>
-      <p class="meta">{t.published} <time datetime={d.date.toISOString().slice(0, 10)}>{fmt(d.date)}</time>
-        {d.modified && <> · {t.updated} <time datetime={d.modified.toISOString().slice(0, 10)}>{fmt(d.modified)}</time></>}
-        · {t.by} {d.authorUrl ? <a href={d.authorUrl} rel="author">{d.author}</a> : d.author}</p>
-      {d.image && <img src={d.image} alt={d.imageAlt} />}
-      <Content />
-    </article>
+    <>
+    <section class="vc-prosa vc-post-head"><div class="wrap">
+      <header class="vc-texto-rico vc-post">
+        {d.category && <div class="kicker">{d.category}</div>}
+        <h1>{d.h1 ?? d.title}</h1>
+        <p class="vc-post-meta">{t.published} <time datetime={d.date.toISOString().slice(0, 10)}>{fmt(d.date)}</time>
+          {d.modified && d.modified.getTime() !== d.date.getTime() && <> · {t.updated} <time datetime={d.modified.toISOString().slice(0, 10)}>{fmt(d.modified)}</time></>}
+          · {t.by} {d.authorUrl ? <a href={d.authorUrl} rel="author">{d.author}</a> : d.author}</p>
+        {d.image && !d.mpost && <img class="vc-post-img" src={d.image} alt={d.imageAlt} />}
+      </header>
+    </div></section>
+    {d.mpost ? <div class="vc-post-mpost"><Content /></div> : (
+      <section class="vc-prosa vc-post-body"><div class="wrap"><article class="vc-texto-rico vc-post"><Content /></article></div></section>
+    )}
+    </>
   )}
 </Base>
