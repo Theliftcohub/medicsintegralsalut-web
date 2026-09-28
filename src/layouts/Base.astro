@@ -19,6 +19,8 @@ import '@fontsource/raleway/500.css';
 import '@fontsource/raleway/600.css';
 import '../styles/vc.css';
 import '../styles/vc-extra.css';
+import '../styles/mpost-posts.css';
+import '../styles/vc-mpost.css';
 const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [], theme = 'mpost' } = Astro.props;
 const vc = theme === 'vc';
 const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
@@ -45,6 +47,7 @@ const crumbs = breadcrumbs.length > 1 ? [{
   {vc ? <VcHeader lang={lang} alternates={alternates} /> : <Header lang={lang} alternates={alternates} />}
   <main class:list={[!vc && 'mpost']}>
     {!vc && <Breadcrumbs items={breadcrumbs} />}
+    {vc && breadcrumbs.length > 1 && <nav class="vc-crumbs" aria-label="Breadcrumb"><ol>{breadcrumbs.map((b: any, i: number) => <li>{i < breadcrumbs.length - 1 ? <a href={b.path}>{b.name}</a> : <span aria-current="page">{b.name}</span>}</li>)}</ol></nav>}
     <slot />
   </main>
   {vc ? <VcFooter lang={lang} /> : <Footer lang={lang} />}
