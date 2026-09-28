@@ -317,6 +317,8 @@ def sanitize(node, path):
                 el.attrs = {"class": "vc-embed vc-embed--mapa", "data-embed": el.get("data-embed"), "data-title": el.get("data-title")}
             elif "vc-in" in cls:
                 el.attrs = {"class": "vc-in", "style": el.get("style")}
+            elif "vc-bloglist" in cls or "vc-bcard" in cls:
+                el.attrs = {"class": cls[0]}
             elif "vc-in-c" in cls:
                 el.attrs = {"class": "vc-in-c"}
             else:
@@ -347,6 +349,8 @@ def sanitize(node, path):
             else:
                 el.unwrap()
                 continue
+        elif el.name == "p" and "vc-bcard-meta" in cls:
+            keep = {"class": "vc-bcard-meta"}
         elif el.name == "details" and el.has_attr("open"):
             keep = {"open": ""}
         el.attrs = keep
@@ -406,6 +410,40 @@ def structure_widgets(frag):
     for x in frag.select(".rounded-circle, .carousel-indicators, .owl-dots, .slick-dots"):
         if re.fullmatch(r"[\d\s]*", x.get_text()):
             x.decompose()
+    # listado de entradas (plugin «mega post» de Bridge: .grid > .mason-item) -> rejilla de tarjetas como el original
+    for grid in frag.select(".grid"):
+        items = grid.select(":scope > .mason-item")
+        if not items:
+            continue
+        box = frag.new_tag("div", attrs={"class": "vc-bloglist"})
+        for it in items:
+            t = it.select_one(".mega-post-title a")
+            if not t:
+                continue
+            card = frag.new_tag("div", attrs={"class": "vc-bcard"})
+            im = it.select_one(".mega-post-image img")
+            if im:
+                a = frag.new_tag("a", href=t.get("href"))
+                a.append(im.extract())
+                card.append(a)
+            h = frag.new_tag("h3")
+            h.append(t.extract())
+            card.append(h)
+            ex = it.select_one(".mega-post-para")
+            txt = re.sub(r"\s+", " ", ex.get_text(" ", strip=True)) if ex else ""
+            # el WordPress mete en el extracto el CSS de las entradas .mpost ("mpost{--accent…", "body{margin…"): se corta ahí
+            txt = re.split(r"\s*(?:\.?mpost\S*\{|body\{|\S+\{[-\w]+:)", txt)[0].strip()
+            if txt:
+                p_ = frag.new_tag("p")
+                p_.string = txt
+                card.append(p_)
+            au = it.select_one(".mega-post-meta")
+            if au and au.get_text(strip=True):
+                m = frag.new_tag("p", attrs={"class": "vc-bcard-meta"})
+                m.string = au.get_text(" ", strip=True)
+                card.append(m)
+            box.append(card)
+        grid.replace_with(box)
     for hold in frag.select(".qode-accordion-holder"):
         out = []
         for t in hold.find_all(class_="qode-title-holder"):
@@ -552,9 +590,13 @@ def build_post(path, s, seo, it):
     for x in body_el.select("h1.entry_title, .post_info"):
         x.decompose()
     mp = body_el.select_one(".mpost")
-    if mp:  # entrada maquetada con componentes .mpost: se conserva el marcado (piel «Versión C»)
+    if mp:  # entrada maquetada con componentes .mpost: se conserva el marcado y SU CSS literal (mpost-posts.css, por variante)
+        vid = hashlib.md5("".join(st.get_text() for st in mp.find_all("style")).encode()).hexdigest()[:8]
         blk, _ = mpost_block(BeautifulSoup(str(mp), "html.parser"), path)
-        html = '<div class="mpost">' + re.sub(r"\n\s*\n", "\n", blk["html"]) + "</div>"
+        html = f'<div class="mpv-{vid}"><div class="mpost">' + re.sub(r"\n\s*\n", "\n", blk["html"]) + "</div></div>"
+        # las entradas comparten nombres de clase con las páginas de tratamiento (mpost.css, piel vc-mpost.css) pero su
+        # CSS literal es otro: se renombran mpost* -> mpp* para que SOLO les aplique mpost-posts.css (se ven como el original)
+        html = re.sub(r'class="([^"]*)"', lambda m: 'class="' + re.sub(r"(?<![\w-])mpost", "mpp", m.group(1)) + '"', html)
     else:
         html = prose_html(body_el, path, s)
     meta = lambda prop: (s.find("meta", property=prop) or {}).get("content")
