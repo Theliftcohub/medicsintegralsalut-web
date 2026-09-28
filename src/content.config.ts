@@ -34,6 +34,8 @@ const posts = defineCollection({
     lang: z.enum(['es', 'ca', 'en', 'fr', 'ru', 'uk']).default('es'),
     i18nGroup: z.string().optional(),
     title: z.string(),
+    seoTitle: z.string().optional(),
+    mpost: z.boolean().default(false),
     description: z.string().default(''),
     date: z.coerce.date(),
     modified: z.coerce.date().optional(),
