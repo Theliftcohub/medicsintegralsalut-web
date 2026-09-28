@@ -14,24 +14,52 @@
  "schema": [],
  "blocks": [
   {
-   "type": "mp-hero",
+   "type": "vc-hero",
    "kicker": "Centro de referencia en medicina y cirugía estética en Girona",
-   "titleTag": "h2",
-   "title": "Nuestros pacientes son nuestra mejor carta de presentación",
-   "cta": {
-    "text": "Solicitar valoración",
-    "href": "#info"
-   },
-   "note": "Sin compromiso · Atención médica",
+   "titleHtml": "Nuestros pacientes<br>son nuestra mejor<br><em>carta de presentación</em>",
+   "sub": "Cirugía plástica y medicina estética en el centro de Girona. Resultados naturales, criterio médico y acompañamiento en cada paso.",
+   "ctas": [
+    {
+     "text": "Solicitar valoración",
+     "href": "#info"
+    },
+    {
+     "text": "WhatsApp 620 892 236",
+     "href": "https://api.whatsapp.com/send?phone=34620892236",
+     "style": "linea"
+    }
+   ],
+   "micro": "Sin compromiso · Atención médica · Respuesta el mismo día laborable",
    "image": {
-    "src": "/images/wp/2025/12/clinica-estetica-Girona.webp",
-    "w": 580,
-    "h": 374,
-    "alt": ""
-   }
+    "src": "/images/wp/2025/11/recepcion-medic-salut.webp",
+    "w": 922,
+    "h": 618,
+    "alt": "medicina estética Girona"
+   },
+   "ratingLabel": "{count} reseñas en Google",
+   "stats": [
+    {
+     "rating": true,
+     "lbl": "{count} reseñas en Google"
+    },
+    {
+     "big": "{since}",
+     "lbl": "Atendiendo en Girona"
+    },
+    {
+     "big": "SECPRE",
+     "lbl": "Cirujanos colegiados"
+    },
+    {
+     "big": "Gratuita",
+     "lbl": "Primera valoración"
+    }
+   ]
   },
   {
-   "type": "mp-split",
+   "type": "vc-editorial",
+   "num": "I",
+   "kicker": "La clínica",
    "headingTag": "h1",
    "heading": "Clínica Estética en Girona",
    "paras": [
@@ -40,18 +68,20 @@
    ],
    "cta": {
     "text": "Hablar con el equipo médico",
-    "href": "#info"
+    "href": "#info",
+    "style": "linea"
    },
    "image": {
-    "src": "/images/wp/2025/11/recepcion-medic-salut.webp",
-    "w": 922,
-    "h": 618,
-    "alt": "medicina estética Girona"
-   },
-   "media": "left"
+    "src": "/images/wp/2025/12/mejor-clinica-estetica-girona.webp",
+    "w": 1200,
+    "h": 800,
+    "alt": "mejor clinica estetica girona"
+   }
   },
   {
-   "type": "mp-cards",
+   "type": "vc-trat",
+   "num": "II",
+   "kicker": "Tratamientos",
    "heading": "Cirugía estética Girona",
    "sub": "Las intervenciones más solicitadas",
    "text": [
@@ -61,221 +91,290 @@
     {
      "title": "Aumento de pecho",
      "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+      "w": 900,
+      "h": 600,
+      "alt": "Aumento de pecho"
+     }
     },
     {
      "title": "Liposucción",
      "href": "/unidades/cirugia-estetica-corporal/liposuccion/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2021/10/LIPOWEB.webp",
+      "w": 600,
+      "h": 598,
+      "alt": "Liposucción"
+     }
     },
     {
      "title": "Ginecomastia",
      "href": "/unidades/cirugia-estetica-masculina/ginecomastia/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2019/10/Ginecomastia.webp",
+      "w": 570,
+      "h": 570,
+      "alt": "Ginecomastia"
+     }
     },
     {
      "title": "Rinoplastia",
      "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2025/10/rinoplastia.webp",
+      "w": 800,
+      "h": 666,
+      "alt": "Rinoplastia"
+     }
     },
     {
      "title": "Obesidad",
      "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+      "w": 1000,
+      "h": 1000,
+      "alt": "Obesidad"
+     }
     },
     {
      "title": "Blefaroplastia",
      "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/",
-     "cta": "Resolver dudas sobre este tratamiento"
+     "cta": "Resolver dudas sobre este tratamiento",
+     "image": {
+      "src": "/images/wp/2026/07/Blefaroplastia.webp",
+      "w": 1000,
+      "h": 1000,
+      "alt": "Blefaroplastia"
+     }
     }
-   ],
-   "alt": true
+   ]
   },
   {
-   "type": "mp-units",
+   "type": "vc-unidades",
+   "id": "unidades",
+   "num": "III",
+   "kicker": "Especialidades",
    "heading": "Unidades Medics Integral Salut",
    "text": [
     "Especialistas en cada una de las diferentes técnicas de <strong>cirugía estética en Girona</strong>."
    ],
-   "groups": [
-    {
-     "title": "Medicina estética facial",
-     "links": [
-      {
-       "text": "Ojeras",
-       "href": "/unidades/medicina-estetica-facial/ojeras/"
-      },
-      {
-       "text": "Aumento de labios",
-       "href": "/unidades/medicina-estetica-facial/aumento-labios/"
-      },
-      {
-       "text": "Arrugas de expresión",
-       "href": "/unidades/medicina-estetica-facial/arrugas-de-expresion/"
-      },
-      {
-       "text": "Flacidez: hilos tensores",
-       "href": "/unidades/medicina-estetica-facial/flacidez-hilos-tensores/"
-      },
-      {
-       "text": "Hidratación y nutrición",
-       "href": "/unidades/medicina-estetica-facial/hidratacion-y-nutricion/"
-      },
-      {
-       "text": "Peeling",
-       "href": "/unidades/medicina-estetica-facial/peeling/"
-      },
-      {
-       "text": "Relleno arrugas",
-       "href": "/unidades/medicina-estetica-facial/relleno-de-arrugas/"
-      },
-      {
-       "text": "Rinomodelación",
-       "href": "/unidades/medicina-estetica-facial/rinomodelacion/"
-      }
-     ]
-    },
-    {
-     "title": "Medicina estética corporal",
-     "links": [
-      {
-       "text": "Liposucción sin cirugía",
-       "href": "/unidades/medicina-estetica-corporal/liposuccion-sin-cirugia/"
-      },
-      {
-       "text": "Celulitis",
-       "href": "/unidades/medicina-estetica-corporal/celulitis/"
-      }
-     ]
-    },
-    {
-     "title": "Medicina cosmética",
-     "links": [
-      {
-       "text": "Reducción de Volumen",
-       "href": "/unidades/gabinete-de-estetica/reduccion-de-volumen-girona/"
-      },
-      {
-       "text": "Eliminar Celulitis",
-       "href": "/unidades/gabinete-de-estetica/eliminar-celulitis/"
-      },
-      {
-       "text": "P50 Visage",
-       "href": "/unidades/gabinete-de-estetica/p50-visage/"
-      },
-      {
-       "text": "Ácido de frutas",
-       "href": "/unidades/gabinete-de-estetica/acido-de-frutas/"
-      },
-      {
-       "text": "Antiedad MC110",
-       "href": "/unidades/gabinete-de-estetica/antiedad-mc-110/"
-      },
-      {
-       "text": "Recuperador",
-       "href": "/unidades/gabinete-de-estetica/recuperador/"
-      },
-      {
-       "text": "Desintoxicante",
-       "href": "/unidades/gabinete-de-estetica/desintoxicante/"
-      },
-      {
-       "text": "Hidreclat",
-       "href": "/unidades/gabinete-de-estetica/hidreclat/"
-      }
-     ]
-    },
-    {
-     "title": "Sobrepeso y obesidad",
-     "links": [
-      {
-       "text": "Balón ingerible elipse",
-       "href": "/unidades/sobrepeso-y-obesidad/balon-ingerible-elipse/"
-      },
-      {
-       "text": "Balón 6 meses",
-       "href": "/unidades/sobrepeso-y-obesidad/balon-6-meses/"
-      },
-      {
-       "text": "Balón Gástrico 12 meses reajustable",
-       "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/"
-      },
-      {
-       "text": "Endomanga MEGA",
-       "href": "/unidades/sobrepeso-y-obesidad/endomanga/"
-      },
-      {
-       "text": "Dietética y nutrición",
-       "href": "/unidades/sobrepeso-y-obesidad/dietetica-y-nutricion/"
-      },
-      {
-       "text": "Cirugía bariátrica",
-       "href": "/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/"
-      },
-      {
-       "text": "Cirugía Postbariátrica",
-       "href": "/unidades/sobrepeso-y-obesidad/cirugia-postbariatrica/"
-      }
-     ]
-    },
-    {
-     "title": "Cirugía estética mamas",
-     "links": [
-      {
-       "text": "Aumento de pecho",
-       "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/"
-      },
-      {
-       "text": "Aumento de pecho con la técnica AMI",
-       "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/"
-      },
-      {
-       "text": "Elevación de pecho: pexia",
-       "href": "/unidades/cirugia-estetica-mamas/elevacion-de-pecho-pexia/"
-      },
-      {
-       "text": "Reducción de pecho",
-       "href": "/unidades/cirugia-estetica-mamas/reduccion-de-pecho/"
-      },
-      {
-       "text": "Recambio de prótesis",
-       "href": "/unidades/cirugia-estetica-mamas/recambiodeprotesis/"
-      }
-     ]
-    },
-    {
-     "title": "Cirugía estética facial",
-     "links": [
-      {
-       "text": "Rinoplastia",
-       "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/"
-      },
-      {
-       "text": "Perforación tabique nasal",
-       "href": "/unidades/cirugia-estetica-facial/perforacion-tabique-nasal/"
-      },
-      {
-       "text": "Blefaroplastia",
-       "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/"
-      },
-      {
-       "text": "Minilifting de cuello y papada",
-       "href": "/unidades/cirugia-estetica-facial/minilifting-de-cuello-y-papada/"
-      },
-      {
-       "text": "Lifting facial",
-       "href": "/unidades/cirugia-estetica-facial/lifting-facial/"
-      },
-      {
-       "text": "Otoplastia",
-       "href": "/unidades/cirugia-estetica-facial/otoplastia-girona/"
-      },
-      {
-       "text": "Cirugía de mentón y pómulos",
-       "href": "/unidades/cirugia-estetica-facial/cirugia-menton-y-pomulos/"
-      }
-     ]
-    },
+   "columns": [
+    [
+     {
+      "title": "Medicina estética facial",
+      "links": [
+       {
+        "text": "Ojeras",
+        "href": "/unidades/medicina-estetica-facial/ojeras/"
+       },
+       {
+        "text": "Aumento de labios",
+        "href": "/unidades/medicina-estetica-facial/aumento-labios/"
+       },
+       {
+        "text": "Arrugas de expresión",
+        "href": "/unidades/medicina-estetica-facial/arrugas-de-expresion/"
+       },
+       {
+        "text": "Flacidez: hilos tensores",
+        "href": "/unidades/medicina-estetica-facial/flacidez-hilos-tensores/"
+       },
+       {
+        "text": "Hidratación y nutrición",
+        "href": "/unidades/medicina-estetica-facial/hidratacion-y-nutricion/"
+       },
+       {
+        "text": "Peeling",
+        "href": "/unidades/medicina-estetica-facial/peeling/"
+       },
+       {
+        "text": "Relleno arrugas",
+        "href": "/unidades/medicina-estetica-facial/relleno-de-arrugas/"
+       },
+       {
+        "text": "Rinomodelación",
+        "href": "/unidades/medicina-estetica-facial/rinomodelacion/"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "title": "Medicina estética corporal",
+      "links": [
+       {
+        "text": "Liposucción sin cirugía",
+        "href": "/unidades/medicina-estetica-corporal/liposuccion-sin-cirugia/"
+       },
+       {
+        "text": "Celulitis",
+        "href": "/unidades/medicina-estetica-corporal/celulitis/"
+       }
+      ]
+     },
+     {
+      "title": "Medicina cosmética",
+      "links": [
+       {
+        "text": "Reducción de Volumen",
+        "href": "/unidades/gabinete-de-estetica/reduccion-de-volumen-girona/"
+       },
+       {
+        "text": "Eliminar Celulitis",
+        "href": "/unidades/gabinete-de-estetica/eliminar-celulitis/"
+       },
+       {
+        "text": "P50 Visage",
+        "href": "/unidades/gabinete-de-estetica/p50-visage/"
+       },
+       {
+        "text": "Ácido de frutas",
+        "href": "/unidades/gabinete-de-estetica/acido-de-frutas/"
+       },
+       {
+        "text": "Antiedad MC110",
+        "href": "/unidades/gabinete-de-estetica/antiedad-mc-110/"
+       },
+       {
+        "text": "Recuperador",
+        "href": "/unidades/gabinete-de-estetica/recuperador/"
+       },
+       {
+        "text": "Desintoxicante",
+        "href": "/unidades/gabinete-de-estetica/desintoxicante/"
+       },
+       {
+        "text": "Hidreclat",
+        "href": "/unidades/gabinete-de-estetica/hidreclat/"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "title": "Sobrepeso y obesidad",
+      "links": [
+       {
+        "text": "Balón ingerible elipse",
+        "href": "/unidades/sobrepeso-y-obesidad/balon-ingerible-elipse/"
+       },
+       {
+        "text": "Balón 6 meses",
+        "href": "/unidades/sobrepeso-y-obesidad/balon-6-meses/"
+       },
+       {
+        "text": "Balón Gástrico 12 meses reajustable",
+        "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/"
+       },
+       {
+        "text": "Endomanga MEGA",
+        "href": "/unidades/sobrepeso-y-obesidad/endomanga/"
+       },
+       {
+        "text": "Dietética y nutrición",
+        "href": "/unidades/sobrepeso-y-obesidad/dietetica-y-nutricion/"
+       },
+       {
+        "text": "Cirugía bariátrica",
+        "href": "/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/"
+       },
+       {
+        "text": "Cirugía Postbariátrica",
+        "href": "/unidades/sobrepeso-y-obesidad/cirugia-postbariatrica/"
+       }
+      ]
+     },
+     {
+      "title": "Cirugía estética masculina",
+      "links": [
+       {
+        "text": "Ginecomastia",
+        "href": "/unidades/cirugia-estetica-masculina/ginecomastia/"
+       },
+       {
+        "text": "Blefaroplastia",
+        "href": "/unidades/cirugia-estetica-masculina/blefaroplastia/"
+       },
+       {
+        "text": "Aumento de pectoral",
+        "href": "/unidades/cirugia-estetica-masculina/aumento-de-pectoral/"
+       },
+       {
+        "text": "Lifting de cuello y papada",
+        "href": "/unidades/cirugia-estetica-masculina/liftting-de-cuello-y-papada/"
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "title": "Cirugía estética mamas",
+      "links": [
+       {
+        "text": "Aumento de pecho",
+        "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/"
+       },
+       {
+        "text": "Aumento de pecho con la técnica AMI",
+        "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/"
+       },
+       {
+        "text": "Elevación de pecho: pexia",
+        "href": "/unidades/cirugia-estetica-mamas/elevacion-de-pecho-pexia/"
+       },
+       {
+        "text": "Reducción de pecho",
+        "href": "/unidades/cirugia-estetica-mamas/reduccion-de-pecho/"
+       },
+       {
+        "text": "Recambio de prótesis",
+        "href": "/unidades/cirugia-estetica-mamas/recambiodeprotesis/"
+       }
+      ]
+     },
+     {
+      "title": "Cirugía estética facial",
+      "links": [
+       {
+        "text": "Rinoplastia",
+        "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/"
+       },
+       {
+        "text": "Perforación tabique nasal",
+        "href": "/unidades/cirugia-estetica-facial/perforacion-tabique-nasal/"
+       },
+       {
+        "text": "Blefaroplastia",
+        "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/"
+       },
+       {
+        "text": "Minilifting de cuello y papada",
+        "href": "/unidades/cirugia-estetica-facial/minilifting-de-cuello-y-papada/"
+       },
+       {
+        "text": "Lifting facial",
+        "href": "/unidades/cirugia-estetica-facial/lifting-facial/"
+       },
+       {
+        "text": "Otoplastia",
+        "href": "/unidades/cirugia-estetica-facial/otoplastia-girona/"
+       },
+       {
+        "text": "Cirugía de mentón y pómulos",
+        "href": "/unidades/cirugia-estetica-facial/cirugia-menton-y-pomulos/"
+       }
+      ]
+     }
+    ]
+   ],
+   "wide": [
     {
      "title": "Cirugía estética corporal",
      "links": [
@@ -308,27 +407,6 @@
        "href": "/unidades/cirugia-estetica-corporal/abdominoplastia/"
       }
      ]
-    },
-    {
-     "title": "Cirugía estética masculina",
-     "links": [
-      {
-       "text": "Ginecomastia",
-       "href": "/unidades/cirugia-estetica-masculina/ginecomastia/"
-      },
-      {
-       "text": "Blefaroplastia",
-       "href": "/unidades/cirugia-estetica-masculina/blefaroplastia/"
-      },
-      {
-       "text": "Aumento de pectoral",
-       "href": "/unidades/cirugia-estetica-masculina/aumento-de-pectoral/"
-      },
-      {
-       "text": "Lifting de cuello y papada",
-       "href": "/unidades/cirugia-estetica-masculina/liftting-de-cuello-y-papada/"
-      }
-     ]
     }
    ],
    "cta": {
@@ -337,58 +415,115 @@
    }
   },
   {
-   "type": "mp-videos",
+   "type": "vc-resenas",
+   "num": "IV",
+   "kicker": "Opiniones",
+   "heading": "Nuestros pacientes opinan",
+   "sub": "Elige estar en las mejores manos",
+   "reviews": [
+    {
+     "name": "Camila Constanza Vélez Silva",
+     "text": "Excelente clínica! Desde el primer día con la mejor predisposición para brindarme la mejor atención y los tratamientos más convenientes según mis necesidades. Todos los profesionales de primer nivel. Las máquinas que utilizan son de última generación, desde las primeras sesiones se ven los resultados. La máquina TShape es para destacar! Super completa y efectiva! Estoy muy contenta y agradecida! Queda poquito para llegar a mi objetivo! Super recomiendo!"
+    },
+    {
+     "name": "Silviaarely Zunigaalvarado",
+     "text": "Hola muy contenta con la operación quee hice y la atención"
+    },
+    {
+     "name": "Beth Serra",
+     "text": "Atenció excelent per part de tot l'equip, especialment la Laia que ha respós tots els meus dubtes."
+    },
+    {
+     "name": "NATALIA MARTINEZ",
+     "text": "Hecho tratamiento para adelgazar combinando tratamiento cabina y endocrino y he alcanzado objetivos sin pasarlo mal. El trato excelente!"
+    },
+    {
+     "name": "alejandra martin",
+     "text": "Estoy muy contenta con el trato que es excelente y sobre todo mi tratamiento se puede ver los resultados es muy bueno clinica y son muy profesionales"
+    },
+    {
+     "name": "Alisson Mijas",
+     "text": "Estoy encantada con la clínica. Un trato excepcional, en todo momento me he sentido acogida, en confianza y con total sinceridad en todo. Me he hecho la rinoplastia con ellos y no podría haber elegido mejor, han sido unos grandes profesionales, tanto como el Dr. Langdon como el equipo de Médic, sobre todo con Laia, que me ha acompañado en todo el proceso y gracias a ello decidí decantarme con la clínica. No podría haber elegido mejor, sin duda en cualquier otro procedimiento no dudaré en ponerme en sus manos"
+    }
+   ],
+   "source": "Reseña en Google",
+   "summary": [
+    {
+     "rating": true,
+     "lbl": "Valoración media"
+    },
+    {
+     "big": "{count}",
+     "lbl": "Reseñas verificadas"
+    },
+    {
+     "big": "{since}",
+     "lbl": "Atendiendo en Girona"
+    }
+   ],
+   "more": {
+    "text": "Ver las {count} reseñas en Google",
+    "href": "https://maps.google.com/maps?cid=4878100397339283721",
+    "style": "linea"
+   }
+  },
+  {
+   "type": "vc-videos",
+   "num": "V",
+   "kicker": "Testimonios",
    "heading": "Lo que cuentan de nosotros",
-   "sub": "Los buenos resultados nuestra principal motivación",
+   "sub": "Los buenos resultados, nuestra principal motivación",
    "items": [
     {
-     "title": "Bypass gastrico-Amador-Emili",
-     "href": "/portfolio_page/video-prueba-1/",
-     "video": "https://www.youtube.com/watch?v=AD2F_1nMRvY&feature=youtu.be",
+     "title": "Bypass gástrico: el testimonio de Emili",
+     "video": "https://www.youtube.com/watch?v=AD2F_1nMRvY",
      "image": {
       "src": "/images/wp/2019/10/bypass-operacion-1.webp",
       "w": 1295,
       "h": 742,
-      "alt": ""
-     }
+      "alt": "Testimonio bypass gástrico"
+     },
+     "label": "Testimonio"
     },
     {
-     "title": "Aumento pecho- mike-eli",
-     "href": "/portfolio_page/video-prueba-2/",
+     "title": "Aumento de pecho: el testimonio de Elizabeth",
      "video": "https://www.youtube.com/watch?v=gKfqSRLzb8o",
      "image": {
       "src": "/images/wp/2019/10/aumento-pecho-operacion.webp",
       "w": 1295,
       "h": 742,
-      "alt": ""
-     }
+      "alt": "Testimonio aumento de pecho"
+     },
+     "label": "Testimonio"
     },
     {
-     "title": "Rinoplastia-sergio-judith",
-     "href": "/portfolio_page/video-prueba-3/",
+     "title": "Rinoplastia: el testimonio de Judith",
      "video": "https://www.youtube.com/watch?v=ytuluT_sVg8",
      "image": {
       "src": "/images/wp/2019/10/rinoplastia-ok-operacion.webp",
       "w": 1295,
       "h": 742,
-      "alt": ""
-     }
+      "alt": "Testimonio rinoplastia"
+     },
+     "label": "Testimonio"
     },
     {
-     "title": "botoox-mike-lidia",
-     "href": "/portfolio_page/video-prueba-4/",
+     "title": "Arrugas de expresión: el testimonio de Lidia",
      "video": "https://www.youtube.com/watch?v=5tMvNB00PSI",
      "image": {
       "src": "/images/wp/2019/10/botox-ok-operacion.webp",
       "w": 1295,
       "h": 742,
-      "alt": ""
-     }
+      "alt": "Testimonio arrugas de expresión"
+     },
+     "label": "Testimonio"
     }
    ]
   },
   {
-   "type": "mp-split",
+   "type": "vc-editorial",
+   "num": "VI",
+   "kicker": "Medicina estética",
    "headingTag": "h2",
    "heading": "Medicina Estética Girona",
    "paras": [
@@ -403,11 +538,12 @@
     "h": 600,
     "alt": "aumento de pecho precios girona"
    },
-   "media": "right",
-   "alt": true
+   "reverse": true,
+   "bg": "crema-2"
   },
   {
-   "type": "mp-benefits",
+   "type": "vc-ventajas",
+   "num": "VII",
    "heading": "Al elegir Medics Integral Salut en Girona para tu medicina estética, obtienes:",
    "items": [
     "Valoración médica gratuita y personalizada.",
@@ -421,11 +557,14 @@
    "cta": {
     "text": "Hablar con el equipo médico",
     "href": "#info"
-   }
+   },
+   "bg": "crema"
   },
   {
-   "type": "mp-team",
+   "type": "vc-equipo",
    "id": "equipo",
+   "num": "VIII",
+   "kicker": "El equipo",
    "heading": "Mejor Clínica Estética Girona: El Equipo",
    "text": [
     "<em>Si buscas la <strong>mejor clínica estética en Girona</strong>, en Medics Integral Salut encontrarás un <strong>equipo comprometido con tu bienestar</strong>, resultados armónicos y un trato cercano.</em>"
@@ -436,9 +575,9 @@
      "role": "Cirujano Plástico Girona",
      "bio": "Médico Especialista en Cirugía Plástica Reparadora y Estética Nº Col. 47127. Licenciado en Medicina y Cirugía en 2010 por la Universidad de Barcelona. Especialista en Cirugía Plástica Reparadora y Estética, realizando la residencia (M.I.R.) durante el período de 2011-2016, en el servicio de Cirugía plástica, reconstructiva y Estética Hospital Universitario de Bellvitge, Barcelona.",
      "image": {
-      "src": "/images/wp/2025/10/dewever-300x300.webp",
-      "w": 300,
-      "h": 300,
+      "src": "/images/wp/2025/10/dewever.webp",
+      "w": 500,
+      "h": 500,
       "alt": "Dr Mike Dewever"
      }
     },
@@ -447,21 +586,21 @@
      "role": "Cirugía General Y Del Aparato Digestivo",
      "bio": "Desde 2007 es especialista en cirugía gastrointestinal, con especial dedicación a la cirugía bariátrica, habiendo realizado más de 500 procedimientos (tanto de cirugía primaria como de revisión), siendo considerada actualmente referente en dicha técnica.",
      "image": {
-      "src": "/images/wp/2025/10/Dra.-Ainitze-Ibarzaba-300x300.webp",
-      "w": 300,
-      "h": 300,
+      "src": "/images/wp/2025/10/Dra.-Ainitze-Ibarzaba.webp",
+      "w": 500,
+      "h": 500,
       "alt": "Dra. Ainitze Ibarzabal"
      }
     },
     {
-     "name": "Dr. Valenti Puig Divi",
+     "name": "Dr. Valentí Puig Divi",
      "role": "Cirugía General Y Del Aparato Digestivo",
      "bio": "Licenciado en Medicina y Cirugía por la Universidad Central de Barcelona con premio extraordinario de licenciatura, se especializó en Aparato Digestivo en 1994.",
      "image": {
       "src": "/images/wp/2025/10/Dr._Valenti_Puig-Divi.webp",
       "w": 275,
       "h": 275,
-      "alt": "Dr. Valenti Puig Divi"
+      "alt": "Dr. Valentí Puig Divi"
      }
     },
     {
@@ -469,9 +608,9 @@
      "role": "Endocrinología Y Nutrición",
      "bio": "Su labor asistencial es profesor asociado en el Grado de Medicina de la Universidad de Girona y miembro de la Sociedad Catalana de Endocrinología y Nutrición y del Grupo de Obesidad de la Sociedad Española de Endocrinología.",
      "image": {
-      "src": "/images/wp/2025/10/dr_perez-300x300.webp",
-      "w": 300,
-      "h": 300,
+      "src": "/images/wp/2025/10/dr_perez.webp",
+      "w": 500,
+      "h": 500,
       "alt": "Dr. David Pérez Asensio"
      }
     },
@@ -480,21 +619,21 @@
      "role": "Medicina Estética",
      "bio": "Cuento con un Máster en Medicina Estética con reconocimiento internacional en la Esneca Business School y me especialicé en Medicina Intensiva en el Hospital Universitario Josep Trueta de Girona.",
      "image": {
-      "src": "/images/wp/2025/10/vera-300x300.webp",
-      "w": 300,
-      "h": 300,
+      "src": "/images/wp/2025/10/vera.webp",
+      "w": 500,
+      "h": 500,
       "alt": "Dra. Claudia Vera Ching"
      }
     },
     {
-     "name": "Dr. Alberto Gonzalez",
+     "name": "Dr. Alberto González",
      "role": "Médico Tricólogo y Cirujano Capilar",
      "bio": "Con una sólida formación en medicina y especialización en tratamientos capilares avanzados. Se licenció en Medicina General en 2020 por la Universidad de Ciencias Médicas de Villa Clara, Cuba, y posteriormente se especializó en Medicina Estética con un máster en el Centro de Educación Superior a Distancia TECH de España (2022), completando un Máster de Formación Permanente en la Universidad Europea Miguel de Cervantes (2024).",
      "image": {
-      "src": "/images/wp/2025/10/alberto-gonzales-300x300.webp",
-      "w": 300,
-      "h": 300,
-      "alt": "Dr. Alberto Gonzalez"
+      "src": "/images/wp/2025/10/alberto-gonzales.webp",
+      "w": 500,
+      "h": 500,
+      "alt": "Dr. Alberto González"
      }
     },
     {
@@ -502,28 +641,101 @@
      "role": "Técnica en Medicina Estética",
      "bio": "Técnica en Medicina Estética ESSAE Barcelona. Certificada Diplomada en Técnicas faciales y Diagnóstico de la piel Esthetic School Cristina Sorli método de enseñanza denominado M.E.B.I. (Método de Estética Biológica) Barcelona",
      "image": {
-      "src": "/images/wp/2025/10/ursula-ramirez-300x300.webp",
-      "w": 300,
-      "h": 300,
+      "src": "/images/wp/2025/10/ursula-ramirez.webp",
+      "w": 500,
+      "h": 500,
       "alt": "Dra. Úrsula Ramírez"
      }
     }
    ],
-   "alt": true
+   "card": {
+    "title": "Te orientamos personalmente",
+    "text": "Respuesta en el mismo día laborable",
+    "cta": {
+     "text": "Solicitar valoración",
+     "href": "#info"
+    }
+   }
   },
   {
-   "type": "mp-contact",
+   "type": "vc-distintivos",
+   "logos": [
+    {
+     "src": "/images/wp/2025/11/secpre.webp",
+     "w": 200,
+     "h": 100,
+     "alt": "SECPRE"
+    },
+    {
+     "src": "/images/wp/2025/11/clinica-diagonal.webp",
+     "w": 200,
+     "h": 100,
+     "alt": "Clínica Diagonal"
+    },
+    {
+     "src": "/images/wp/2026/03/clinica-tres-torres.webp",
+     "w": 200,
+     "h": 100,
+     "alt": "Clínica Tres Torres"
+    },
+    {
+     "src": "/images/wp/2026/03/centro-teknon.webp",
+     "w": 200,
+     "h": 100,
+     "alt": "Centro Médico Teknon"
+    },
+    {
+     "src": "/images/wp/2026/03/sccpre.webp",
+     "w": 200,
+     "h": 100,
+     "alt": "SCCPRE"
+    }
+   ]
+  },
+  {
+   "type": "vc-contacto",
    "id": "info",
-   "heading": "Te orientamos personalmente",
-   "text": [
-    "Respuesta en el mismo día laborable"
+   "num": "IX",
+   "kicker": "Contacto",
+   "heading": "Elige estar en las mejores manos",
+   "sub": "Clínica Cirugía Estética | Médics Integral Salut",
+   "rows": [
+    {
+     "ic": "◈",
+     "k": "Dirección",
+     "v": "Plaça Poeta Marquina, 3<br>17002 Girona, España",
+     "note": "A 5 minutos de la estación del AVE"
+    },
+    {
+     "ic": "✆",
+     "k": "Teléfono",
+     "v": "<a href=\"tel:+34972209086\">+34 972 20 90 86</a>"
+    },
+    {
+     "ic": "✆",
+     "k": "WhatsApp",
+     "v": "<a href=\"https://wa.me/34620892236\">620 892 236</a>"
+    },
+    {
+     "ic": "✉",
+     "k": "Email",
+     "v": "<a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+    },
+    {
+     "ic": "◷",
+     "k": "Horario",
+     "v": "Lunes a viernes: 10:00h a 20:00h<br>Sábado y domingo: cerrado"
+    }
    ],
-   "image": {
-    "src": "/images/wp/2025/12/mejor-clinica-estetica-girona.webp",
-    "w": 1200,
-    "h": 800,
-    "alt": "mejor clinica estetica girona"
-   },
+   "ctas": [
+    {
+     "text": "WhatsApp",
+     "href": "https://api.whatsapp.com/send?phone=34620892236",
+     "style": "linea"
+    }
+   ],
+   "formTitle": "Te orientamos personalmente",
+   "formText": "Respuesta en el mismo día laborable",
    "form": {
     "name": "contacto-portada",
     "thanks": "/gracias/",
@@ -563,66 +775,31 @@
       "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
      }
     ]
+   },
+   "map": {
+    "q": "Plaça Poeta Marquina 3, 17002 Girona",
+    "title": "Medics Integral Salut en Girona",
+    "href": "https://www.google.com.ar/maps/place/Cl%C3%ADnica+Cirug%C3%ADa+Est%C3%A9tica+%7C+M%C3%A9dics+Integral+Salut/@41.9811814,2.8156612,17z/data=!3m1!4b1!4m6!3m5!1s0x12bae6df333f1fb3:0x43b27e7752199109!8m2!3d41.9811774!4d2.8182361!16s%2Fg%2F11cmzmg12b!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
    }
   },
   {
-   "type": "mp-reviews",
-   "id": "opiniones",
-   "heading": "Nuestros pacientes opinan",
-   "source": "Google",
-   "reviews": [
+   "type": "vc-cierre",
+   "kicker": "Girona y Costa Brava",
+   "heading": "Clínica de cirugía y medicina estética para toda la provincia de Girona",
+   "html": "Recibimos pacientes de <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> y toda la <strong>Costa Brava</strong>. Estamos en el centro de Girona (Plaça Poeta Marquina, 3), a 5 minutos de la estación del AVE, con financiación disponible y primera valoración gratuita.",
+   "ctas": [
     {
-     "name": "Camila Constanza Vélez Silva",
-     "text": "Excelente clínica! Desde el primer día con la mejor predisposición para brindarme la mejor atención y los tratamientos más convenientes según mis necesidades. Todos los profesionales de primer nivel. Las máquinas que utilizan son de última generación, desde las primeras sesiones se ven los resultados. La máquina TShape es para destacar! Super completa y efectiva! Estoy muy contenta y agradecida! Queda poquito para llegar a mi objetivo! Super recomiendo!"
+     "text": "Solicitar valoración",
+     "href": "#info",
+     "style": "oscuro"
     },
     {
-     "name": "Silviaarely Zunigaalvarado",
-     "text": "Hola muy contenta con la operación quee hice y la atención"
-    },
-    {
-     "name": "Beth Serra",
-     "text": "Atenció excelent per part de tot l'equip, especialment la Laia que ha respós tots els meus dubtes."
-    },
-    {
-     "name": "NATALIA MARTINEZ",
-     "text": "Hecho tratamiento para adelgazar combinando tratamiento cabina y endocrino y he alcanzado objetivos sin pasarlo mal. El trato excelente!"
-    },
-    {
-     "name": "alejandra martin",
-     "text": "Estoy muy contenta con el trato que es excelente y sobre todo mi tratamiento se puede ver los resultados es muy bueno clinica y son muy profesionales"
-    },
-    {
-     "name": "Alisson Mijas",
-     "text": "Estoy encantada con la clínica. Un trato excepcional, en todo momento me he sentido acogida, en confianza y con total sinceridad en todo. Me he hecho la rinoplastia con ellos y no podría haber elegido mejor, han sido unos grandes profesionales, tanto como el Dr. Langdon como el equipo de Médic, sobre todo con Laia, que me ha acompañado en todo el proceso y gracias a ello decidí decantarme con la clínica. No podría haber elegido mejor, sin duda en cualquier otro procedimiento no dudaré en ponerme en sus manos"
-    },
-    {
-     "name": "Sonia Cano",
-     "text": "Professionals i amb una qualitat humana enorme"
-    },
-    {
-     "name": "Laura Torres",
-     "text": "Fue la primera clínica a la que fui a pedir información y con ellas me quedé. Trato excelente de todo el personal. Me explicaron todo super bien, me resolvieron todas las dudas. Me operé con el Dr. Langdon y estoy muy contenta. Los masajes de Úrsula, los mejores, van súper bien para la inflamación, me han ayudado muchísimo. Las recomendaría sin dudarlo, son las mejores!"
-    },
-    {
-     "name": "Pilar Vela Guerrero",
-     "text": "Es un centro muy profesional y el personal es un encanto. Úrsula tuvo un trato maravilloso,súper cuidadosa y atenta. Laia un 10, junto al Dr Dewever. Sin duda lo recomiendo."
-    },
-    {
-     "name": "Mercè Portas Bosch",
-     "text": "Encantada amb ells, molt professionals i properes al mateix moment. Vaig entrar per baixar de pes i tot molt ben explicat. Una meravella els massatges de la Úrsula."
+     "text": "Ver financiación",
+     "href": "/financiacion/",
+     "style": "linea"
     }
    ]
-  },
-  {
-   "type": "mp-nap",
-   "heading": "Elige estar en las mejores manos",
-   "lines": [
-    "Clínica Cirugía Estética | Médics Integral Salut",
-    "<a href=\"https://www.google.com.ar/maps/place/Cl%C3%ADnica+Cirug%C3%ADa+Est%C3%A9tica+%7C+M%C3%A9dics+Integral+Salut/@41.9811814,2.8156612,17z/data=!3m1!4b1!4m6!3m5!1s0x12bae6df333f1fb3:0x43b27e7752199109!8m2!3d41.9811774!4d2.8182361!16s%2Fg%2F11cmzmg12b!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D\">Plaça Poeta Marquina, 3, 17002 Girona, España</a>",
-    "T: +34972209086<br> W:620 892 236<br> Mail: info@medicsintegralsalut.com",
-    "Horario:<br> Lunes a viernes: 10:00h a 20:00h<br> Sábado y domingo: Cerrado"
-   ],
-   "mapsHref": "https://www.google.com.ar/maps/place/Cl%C3%ADnica+Cirug%C3%ADa+Est%C3%A9tica+%7C+M%C3%A9dics+Integral+Salut/@41.9811814,2.8156612,17z/data=!3m1!4b1!4m6!3m5!1s0x12bae6df333f1fb3:0x43b27e7752199109!8m2!3d41.9811774!4d2.8182361!16s%2Fg%2F11cmzmg12b!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
   }
- ]
+ ],
+ "theme": "vc"
 }
