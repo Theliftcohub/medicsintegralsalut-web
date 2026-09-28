@@ -42,3 +42,8 @@ const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
   document.querySelectorAll('input[data-attr]').forEach(function(i){if(s[i.dataset.attr])i.value=s[i.dataset.attr]});})();
 </script>
 </section>
+<script is:inline>
+  // Medición orgánica: evento para GA4/Ads vía GTM al enviar (la conversión definitiva es la página /gracias/).
+  document.querySelectorAll('form[data-form]').forEach(function(f){f.addEventListener('submit',function(){
+    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'form_submit',form_name:f.dataset.form,page_path:location.pathname});});});
+</script>
