@@ -28,11 +28,13 @@ import VcEquipo from './vc/Equipo.astro';
 import VcDistintivos from './vc/Distintivos.astro';
 import VcContacto from './vc/Contacto.astro';
 import VcCierre from './vc/Cierre.astro';
+import VcMpost from './vc/Mpost.astro';
+import VcProsa from './vc/Prosa.astro';
 const { block, lang } = Astro.props;
 const map: Record<string, any> = { hero: Hero, texto: Texto, tarjetas: Tarjetas, faq: Faq, cta: Cta, galeria: Galeria, formulario: Formulario,
   'mp-hero': MpHero, 'mp-split': MpSplit, 'mp-cards': MpCards, 'mp-units': MpUnits, 'mp-videos': MpVideos,
   'mp-benefits': MpBenefits, 'mp-team': MpTeam, 'mp-contact': MpContact, 'mp-reviews': MpReviews, 'mp-nap': MpNap,
-  'vc-hero': VcHero, 'vc-editorial': VcEditorial, 'vc-trat': VcTrat, 'vc-unidades': VcUnidades, 'vc-resenas': VcResenas, 'vc-videos': VcVideos, 'vc-ventajas': VcVentajas, 'vc-equipo': VcEquipo, 'vc-distintivos': VcDistintivos, 'vc-contacto': VcContacto, 'vc-cierre': VcCierre };
+  'vc-hero': VcHero, 'vc-editorial': VcEditorial, 'vc-trat': VcTrat, 'vc-unidades': VcUnidades, 'vc-resenas': VcResenas, 'vc-videos': VcVideos, 'vc-ventajas': VcVentajas, 'vc-equipo': VcEquipo, 'vc-distintivos': VcDistintivos, 'vc-contacto': VcContacto, 'vc-cierre': VcCierre, 'vc-mpost': VcMpost, 'vc-prosa': VcProsa };
 const C = map[block.type];
 if (!C) throw new Error(`Bloque desconocido: ${block.type}`);
 ---
