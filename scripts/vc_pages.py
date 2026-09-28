@@ -317,6 +317,8 @@ def sanitize(node, path):
                 el.attrs = {"class": "vc-embed vc-embed--mapa", "data-embed": el.get("data-embed"), "data-title": el.get("data-title")}
             elif "vc-in" in cls:
                 el.attrs = {"class": "vc-in", "style": el.get("style")}
+            elif cls and cls[0] in ("vc-solo-movil", "vc-solo-escritorio", "vc-solo-escritorio-sm"):
+                el.attrs = {"class": cls[0]}
             elif "vc-bloglist" in cls or "vc-bcard" in cls:
                 el.attrs = {"class": cls[0]}
             elif "vc-in-c" in cls:
@@ -402,10 +404,29 @@ def landing_hero(frag):
             sec.insert(0, BeautifulSoup('<img src="%s" alt="" width="%s" height="%s" loading="eager" decoding="async"/>' % (li["src"], li["w"], li["h"]), "html.parser"))
 
 
+def hidden_filter(frag, path):
+    """Visibilidad por dispositivo de WPBakery (vc_hidden-lg/md/sm/xs):
+    - oculto en los 4 tamaños = invisible en el WordPress -> no se migra (se anota en el informe);
+    - oculto solo en móvil o solo en escritorio -> se envuelve en .vc-solo-escritorio / .vc-solo-movil (mismos cortes)."""
+    for el in list(frag.select('[class*="vc_hidden-"]')):
+        if el.parent is None:
+            continue
+        hs = set(re.findall(r"vc_hidden-(lg|md|sm|xs)", " ".join(el.get("class") or [])))
+        if hs >= {"lg", "md", "sm", "xs"}:
+            REPORT.setdefault("ocultos_eliminados", []).append(path)
+            el.decompose()
+            continue
+        cls = "vc-solo-movil" if hs >= {"lg", "md"} else "vc-solo-escritorio-sm" if "sm" in hs else "vc-solo-escritorio"
+        w = frag.new_tag("div", attrs={"class": cls})
+        el.wrap(w)
+
+
 def structure_widgets(frag):
     """Conserva la estructura visible del WordPress que sanitize aplanaría:
     - acordeones/toggles de Bridge (qode-accordion-holder: h4 título + contenido) -> <details><summary> cerrados, como en el original;
     - filas internas de WPBakery (.vc_row.vc_inner con columnas vc_col-sm-N) -> rejilla .vc-in con las mismas proporciones."""
+    for a in frag.select(".visitabuttonp a"):  # columna de texto con clase de botón del tema: el enlace se ve como botón
+        a["class"] = (a.get("class") or []) + ["qbutton"]
     # numeritos sueltos de carruseles/pasos (1 2 3 4) sin contenido asociado: fuera
     for x in frag.select(".rounded-circle, .carousel-indicators, .owl-dots, .slick-dots"):
         if re.fullmatch(r"[\d\s]*", x.get_text()):
@@ -487,6 +508,7 @@ def prose_html(el, path, s):
     for sel in DROP_SEL:
         for x in frag.select(sel):
             x.decompose()
+    hidden_filter(frag, path)
     landing_hero(frag)
     clean_common(frag, path, s)
     for f in frag.find_all("form"):  # el formulario propio va en el MISMO sitio que el CF7 (antes/después del texto como en el original)
