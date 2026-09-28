@@ -1,0 +1,18 @@
+---
+// Contenido .mpost literal del WordPress (páginas de tratamiento) con la piel «Versión C» (vc-mpost.css).
+const { html } = Astro.props;
+---
+<div class="mpost" set:html={html} />
+<script is:inline>
+(function(){
+  document.querySelectorAll('.mpost').forEach(function(root){
+    var btns=root.querySelectorAll('.mpost-filters button'),cards=root.querySelectorAll('.mpost-grid .card');
+    btns.forEach(function(b){b.addEventListener('click',function(){
+      btns.forEach(function(x){x.classList.remove('is-active')});b.classList.add('is-active');
+      var f=b.getAttribute('data-f');
+      cards.forEach(function(c){c.classList.toggle('is-hidden',!(f==='all'||c.getAttribute('data-cat')===f));});
+    });});
+  });
+
+})();
+</script>

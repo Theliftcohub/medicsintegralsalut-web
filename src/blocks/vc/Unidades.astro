@@ -1,10 +1,10 @@
 ---
 import Cabecera from './Cabecera.astro';
 import Btn from './Btn.astro';
-const { id, num, kicker, heading, text = [], columns = [], wide = [], cta } = Astro.props;
+const { id, num, kicker, heading, headingTag = 'h2', text = [], columns = [], wide = [], cta } = Astro.props;
 ---
 <section id={id}><div class="wrap">
-  <Cabecera num={num} kicker={kicker} heading={heading} text={text} />
+  <Cabecera num={num} kicker={kicker} heading={heading} headingTag={headingTag} text={text} />
   <div class="unidades rv">
     {columns.map((col: any[]) => (
       <div class="unidad">{col.map((g: any, i: number) => <>
