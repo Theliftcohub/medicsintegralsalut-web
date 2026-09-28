@@ -54,8 +54,14 @@ body { margin: 0; background: #fff; }
 .mp-member-role { color: var(--accent-deep); font-weight: 600; margin: 4px 0 8px; font-size: .95rem; }
 .mp-member-bio { font-size: .92rem; line-height: 1.6; margin: 0; }
 
-/* typeform */
-.mp-typeform { min-height: 520px; margin-top: 16px; border-radius: var(--rad); overflow: hidden; background: #fff; border: 1px solid var(--line); }
+/* formulario propio */
+.mp-form { display: flex; flex-direction: column; gap: 12px; margin-top: 18px; background: #fff; border: 1px solid var(--line); border-radius: var(--rad); padding: 24px; }
+.mp-field input, .mp-field textarea { width: 100%; font: inherit; font-size: 1rem; padding: 13px 14px; border: 1px solid var(--line-2); border-radius: 10px; background: #fff; color: var(--ink); }
+.mp-field input:focus, .mp-field textarea:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+.mp-check { display: flex; gap: 10px; align-items: flex-start; font-size: .92rem; }
+.mp-check input { margin-top: 5px; accent-color: var(--accent); }
+.mp-form .mpost-btn { align-self: flex-start; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 /* reseñas */
 .mp-reviews { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; align-items: start; }
