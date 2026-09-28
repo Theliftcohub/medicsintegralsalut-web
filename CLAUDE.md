@@ -59,6 +59,11 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - Credenciales solo en `.env` / `secrets/` (ignorados por git). Nunca leerlas en el chat.
 - El servidor WordPress corta conexiones (firewall): extraer siempre con `--delay` ≥0.6; `fetch` reintenta 5 veces.
 
+## Despliegue de la preview (Netlify)
+- Proyecto Netlify `medicsintegralsalut-preview` (id ce4301a0-b2c3-4f26-bd12-1c08c88b90ee, equipo Belba). URL: https://medicsintegralsalut-preview.netlify.app — siempre con `X-Robots-Tag: noindex` (`public/_headers`) y `PUBLIC_ENTORNO=preview` (`netlify.toml`).
+- Cómo desplegar: herramienta MCP de Netlify `deploy-site` con ese siteId → devuelve un comando `npx @netlify/mcp ... --proxy-path` de un solo uso. Ejecutarlo desde una copia limpia (`git archive HEAD`), SIN `migracion/` (530 MB de html_cache), nunca desde el repo de trabajo.
+- GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
+
 ## Errores ya cometidos y sus reglas
 - 27/09/2026 · El export de GSC incluía subdominios y sus rutas colisionaban con las del www · filtrar siempre `gsc.csv` al host www antes de construir el contrato.
 

@@ -1,0 +1,7 @@
+# Solo para la PREVIEW de aprobación. Producción = Plesk.
+[build]
+  command = "npm run build"
+  publish = "dist"
+[build.environment]
+  PUBLIC_ENTORNO = "preview"
+  NODE_VERSION = "22"
