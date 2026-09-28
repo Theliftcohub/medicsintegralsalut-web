@@ -1,0 +1,536 @@
+{
+ "es": {
+  "home": "/",
+  "menu": [
+   {
+    "text": "Clínica",
+    "href": "/medics-integral-salut/"
+   },
+   {
+    "text": "equipo",
+    "href": "/cirugia-plastica-girona-equipo-medico/"
+   },
+   {
+    "text": "unidades",
+    "href": "#unidades"
+   },
+   {
+    "text": "financiación",
+    "href": "/financiacion/"
+   },
+   {
+    "text": "blog",
+    "href": "/blog-2/"
+   },
+   {
+    "text": "contacto",
+    "href": "/contacto/"
+   }
+  ],
+  "cta": {
+   "text": "Solicitar valoración",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/contacto/#form",
+   "#unidades": "/unidades/"
+  },
+  "footer": {
+   "brand": "Clínica Cirugía Estética | Médics Integral Salut",
+   "addr": "Plaça Poeta Marquina, 3, 17002 Girona, España",
+   "legal": [
+    {
+     "text": "Aviso legal",
+     "href": "/aviso-legal/"
+    },
+    {
+     "text": "Política de privacidad",
+     "href": "/politica-de-privacidad/"
+    },
+    {
+     "text": "Política de cookies",
+     "href": "/politica-de-cookies/"
+    },
+    {
+     "text": "Política de privacidad redes sociales",
+     "href": "/politica-de-privacidad-en-redes-sociales/"
+    }
+   ],
+   "contactTitle": "Contacto",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Tratamientos destacados",
+   "trat": [
+    {
+     "text": "Rinoplastia",
+     "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/"
+    },
+    {
+     "text": "Balón gástrico",
+     "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/"
+    },
+    {
+     "text": "Aumento de pecho",
+     "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/"
+    },
+    {
+     "text": "Blefaroplastia",
+     "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/"
+    },
+    {
+     "text": "Otoplastia",
+     "href": "/unidades/cirugia-estetica-facial/otoplastia-girona/"
+    }
+   ],
+   "socialTitle": "Redes sociales",
+   "finTitle": "Financiación",
+   "fin": "/financiacion/"
+  }
+ },
+ "ca": {
+  "home": "/ca/",
+  "menu": [
+   {
+    "text": "Clínica",
+    "href": "/ca/medics-integral-salut/"
+   },
+   {
+    "text": "equip",
+    "href": "/ca/cirurgia-plastica-girona-equip-medic/"
+   },
+   {
+    "text": "unitats",
+    "href": "#unidades"
+   },
+   {
+    "text": "finançament",
+    "href": "/ca/financament-2/"
+   },
+   {
+    "text": "bloc",
+    "href": "/ca/blog-2/"
+   },
+   {
+    "text": "contacte",
+    "href": "/ca/contacte-2/"
+   }
+  ],
+  "cta": {
+   "text": "Sol·licitar valoració",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/ca/contacte-2/#form",
+   "#unidades": "/ca/unitats-2/"
+  },
+  "footer": {
+   "brand": "Clínica Cirurgia Estètica | Metges Integrals Salut",
+   "addr": "Plaça Poeta Marquina, 3, 17002 Girona, Espanya",
+   "legal": [
+    {
+     "text": "Avís legal",
+     "href": "/ca/avis-legal-2/"
+    },
+    {
+     "text": "Política de privacitat",
+     "href": "/ca/politica-de-privadesa-2/"
+    },
+    {
+     "text": "Política de galetes",
+     "href": "/ca/politica-de-cookies/"
+    },
+    {
+     "text": "Política de privacitat xarxes socials",
+     "href": "/ca/politica-de-privacitat-a-les-xarxes-socials/"
+    }
+   ],
+   "contactTitle": "Contacte",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Tractaments destacats",
+   "trat": [
+    {
+     "text": "Rinoplàstia",
+     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/rinoplastia-girona/"
+    },
+    {
+     "text": "Balla gàstrica",
+     "href": "/ca/unitats-2/sobrepes-i-obesitat-2/bandol-gastric-girona/"
+    },
+    {
+     "text": "Augmentació de pit",
+     "href": "/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/"
+    },
+    {
+     "text": "Blefaroplàstia",
+     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/blefaroplastia-girona/"
+    },
+    {
+     "text": "Otoplàstia",
+     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/otoplastia-girona/"
+    }
+   ],
+   "socialTitle": "Xarxes socials",
+   "finTitle": "Finançament",
+   "fin": "/ca/financament-2/"
+  }
+ },
+ "en": {
+  "home": "/en/",
+  "menu": [
+   {
+    "text": "Clinic",
+    "href": "/en/medical-supplies/"
+   },
+   {
+    "text": "team",
+    "href": "/en/plastic-surgery-girona-medical-team/"
+   },
+   {
+    "text": "units",
+    "href": "#unidades"
+   },
+   {
+    "text": "funding",
+    "href": "/en/financing/"
+   },
+   {
+    "text": "Blog",
+    "href": "/en/blog-2/"
+   },
+   {
+    "text": "Contact",
+    "href": "/en/contact/"
+   }
+  ],
+  "cta": {
+   "text": "Request valuation",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/en/contact/#form",
+   "#unidades": "/en/units/"
+  },
+  "footer": {
+   "brand": "Aesthetic Surgery Clinic | Médics Integral Salut",
+   "addr": "Plaça Poeta Marquina, 3, 17002 Girona, Spain",
+   "legal": [
+    {
+     "text": "Legal notice",
+     "href": "/en/legal-notice/"
+    },
+    {
+     "text": "Privacy Policy",
+     "href": "/en/privacy-policy/"
+    },
+    {
+     "text": "Cookie policy",
+     "href": "/en/cookie-policy/"
+    },
+    {
+     "text": "Social media privacy policy",
+     "href": "/en/privacy-policy-on-social-media/"
+    }
+   ],
+   "contactTitle": "Contact",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Featured Treatments",
+   "trat": [
+    {
+     "text": "Rhinoplasty",
+     "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/"
+    },
+    {
+     "text": "Gastric balloon",
+     "href": "/en/units/overweight-and-obesity-2/gastric-balloon-girona/"
+    },
+    {
+     "text": "Breast augmentation",
+     "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/"
+    },
+    {
+     "text": "Eyelid surgery",
+     "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery-girona/"
+    },
+    {
+     "text": "Otoplasty",
+     "href": "/en/units/cosmetic-facial-surgery-2/ear-surgery-girona/"
+    }
+   ],
+   "socialTitle": "Social media",
+   "finTitle": "Financing",
+   "fin": "/en/financing/"
+  }
+ },
+ "fr": {
+  "home": "/fr/",
+  "menu": [
+   {
+    "text": "Clinique",
+    "href": "/fr/medecins-integres-salut/"
+   },
+   {
+    "text": "équipe",
+    "href": "/fr/chirurgie-plastique-gerone-equipe-medicale/"
+   },
+   {
+    "text": "unités",
+    "href": "#unidades"
+   },
+   {
+    "text": "financement",
+    "href": "/fr/financement/"
+   },
+   {
+    "text": "blog",
+    "href": "/fr/blog-2/"
+   },
+   {
+    "text": "contact",
+    "href": "/fr/contact/"
+   }
+  ],
+  "cta": {
+   "text": "Demande d'évaluation",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/fr/contact/#form",
+   "#unidades": "/fr/unites/"
+  },
+  "footer": {
+   "brand": "Clinique Chirurgie Esthétique | Médics Integral Salut",
+   "addr": "Plaça Poeta Marquina, 3, 17002 Gérone, Espagne",
+   "legal": [
+    {
+     "text": "Mentions légales",
+     "href": "/fr/mentions-legales/"
+    },
+    {
+     "text": "Politique de confidentialité",
+     "href": "/fr/politique-de-confidentialite/"
+    },
+    {
+     "text": "Politique de cookies",
+     "href": "/fr/politique-de-cookies/"
+    },
+    {
+     "text": "Politique de confidentialité des réseaux sociaux",
+     "href": "/fr/politique-de-confidentialite-sur-les-reseaux-sociaux-2/"
+    }
+   ],
+   "contactTitle": "Contact",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Traitements en vedette",
+   "trat": [
+    {
+     "text": "Rhinoplastie",
+     "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/"
+    },
+    {
+     "text": "Ballon gastrique",
+     "href": "/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/"
+    },
+    {
+     "text": "Augmentation mammaire",
+     "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/"
+    },
+    {
+     "text": "Blépharoplastie",
+     "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/"
+    },
+    {
+     "text": "Otoplastie",
+     "href": "/fr/unites/chirurgie-esthetique-faciale/otoplastie-gerone/"
+    }
+   ],
+   "socialTitle": "Réseaux sociaux",
+   "finTitle": "Financement",
+   "fin": "/fr/financement/"
+  }
+ },
+ "ru": {
+  "home": "/ru/",
+  "menu": [
+   {
+    "text": "Клиника",
+    "href": "/ru/медицинский-интеграл-привет/"
+   },
+   {
+    "text": "команда",
+    "href": "/ru/пластическая-хирургия-жирона-медици/"
+   },
+   {
+    "text": "единицы",
+    "href": "#unidades"
+   },
+   {
+    "text": "финансирование",
+    "href": "/ru/финансирование/"
+   },
+   {
+    "text": "блог",
+    "href": "/ru/блог-2/"
+   },
+   {
+    "text": "контакто",
+    "href": "/ru/контакто/"
+   }
+  ],
+  "cta": {
+   "text": "Запросить оценку",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/ru/контакто/#form",
+   "#unidades": "/ru/единицы/"
+  },
+  "footer": {
+   "brand": "Клиника Эстетической Хирургии | Медикс Интеграл Салют",
+   "addr": "Площа Поэта Маркины, 3, 17002 Жирона, Испания",
+   "legal": [
+    {
+     "text": "Правовая информация",
+     "href": "/ru/правовая-оговорка/"
+    },
+    {
+     "text": "Политика конфиденциальности",
+     "href": "/ru/политика-конфиденциальности/"
+    },
+    {
+     "text": "Политика использования файлов cookie",
+     "href": "/ru/политика-использования-файлов-cookie/"
+    },
+    {
+     "text": "Политика конфиденциальности в социальных сетях",
+     "href": "/ru/политика-конфиденциальности-в-социа-2/"
+    }
+   ],
+   "contactTitle": "Контакт",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Выделенные процедуры",
+   "trat": [
+    {
+     "text": "Ринопластика",
+     "href": "/ru/единицы/пластическая-хирургия-лица/ринопластика-жирона/"
+    },
+    {
+     "text": "Гастробалон",
+     "href": "/ru/единицы/избыточный-вес-и-ожирение-2/гастробаллон-жирона/"
+    },
+    {
+     "text": "Увеличение груди",
+     "href": "/ru/единицы/пластическая-хирургия-груди/увеличение-груди-жирона-2/"
+    },
+    {
+     "text": "Блефаропластика",
+     "href": "/ru/единицы/пластическая-хирургия-лица/блефаропластика-жирона/"
+    },
+    {
+     "text": "Отопластика",
+     "href": "/ru/единицы/пластическая-хирургия-лица/отопластика-жирона/"
+    }
+   ],
+   "socialTitle": "Социальные сети",
+   "finTitle": "Финансирование",
+   "fin": "/ru/финансирование/"
+  }
+ },
+ "uk": {
+  "home": "/uk/",
+  "menu": [
+   {
+    "text": "Клініка",
+    "href": "/uk/medics-integral-salut/"
+   },
+   {
+    "text": "команда",
+    "href": "/uk/пластична-хірургія-в-жироні-медичний/"
+   },
+   {
+    "text": "одиниці",
+    "href": "#unidades"
+   },
+   {
+    "text": "фінансування",
+    "href": "/uk/фінансування/"
+   },
+   {
+    "text": "блог",
+    "href": "/uk/блог-2/"
+   },
+   {
+    "text": "контакт",
+    "href": "/uk/контакт/"
+   }
+  ],
+  "cta": {
+   "text": "Замовити оцінку",
+   "href": "#info"
+  },
+  "anchors": {
+   "#info": "/uk/контакт/#form",
+   "#unidades": "/uk/одиниці/"
+  },
+  "footer": {
+   "brand": "Клініка естетичної хірургії | Médics Integral Salut",
+   "addr": "Площа Поета Маркіна, 3, 17002 Жирона, Іспанія",
+   "legal": [
+    {
+     "text": "Юридичне повідомлення",
+     "href": "/uk/юридичне-повідомлення/"
+    },
+    {
+     "text": "Політика конфіденційності",
+     "href": "/uk/політика-конфіденційності/"
+    },
+    {
+     "text": "Політика щодо файлів cookie",
+     "href": "/uk/політика-щодо-файлів-cookie/"
+    },
+    {
+     "text": "Політика конфіденційності в соціальних мережах",
+     "href": "/uk/політика-конфіденційності-в-соціаль-2/"
+    }
+   ],
+   "contactTitle": "Контакти",
+   "phone": "+34 972 20 90 86",
+   "wa": "+34 620 892 236",
+   "email": "info@medicsintegralsalut.com",
+   "tratTitle": "Найпопулярніші процедури",
+   "trat": [
+    {
+     "text": "Ринопластика",
+     "href": "/uk/одиниці/естетична-хірургія-обличчя-2/ринопластика-в-жироні/"
+    },
+    {
+     "text": "Шлунковий балон",
+     "href": "/uk/одиниці/надмірна-вага-та-ожиріння-2/шлунковий-балон-жирона/"
+    },
+    {
+     "text": "Збільшення грудей",
+     "href": "/uk/одиниці/естетична-хірургія-грудей-2/збільшення-грудей-у-жироні-2/"
+    },
+    {
+     "text": "Блефаропластика",
+     "href": "/uk/одиниці/естетична-хірургія-обличчя-2/блефаропластика-в-жироні/"
+    },
+    {
+     "text": "Отопластика",
+     "href": "/uk/одиниці/естетична-хірургія-обличчя-2/отопластика-в-жироні/"
+    }
+   ],
+   "socialTitle": "Соціальні мережі",
+   "finTitle": "Фінансування",
+   "fin": "/uk/фінансування/"
+  }
+ }
+}
