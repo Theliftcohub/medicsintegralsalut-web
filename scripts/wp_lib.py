@@ -80,14 +80,33 @@ def original_upload(src):
     return src
 
 
+_FAILED_FN = "migracion/fetch_fallidos.txt"
+_FAILED = set(open(_FAILED_FN).read().split()) if os.path.exists(_FAILED_FN) else set()
+
+
 def fetch_bytes(url):
-    for i in range(5):
+    """Descarga con reintentos; las URL que fallan se recuerdan (migracion/fetch_fallidos.txt) para no repetirlas."""
+    if url in _FAILED:
+        return None
+    r = _fetch(url)
+    if r is None:
+        _FAILED.add(url)
+        with open(_FAILED_FN, "a") as f:
+            f.write(url + "\n")
+    return r
+
+
+def _fetch(url):
+    from urllib.parse import quote, urlsplit, urlunsplit
+    sp = urlsplit(url)
+    url = urlunsplit((sp.scheme, sp.netloc, quote(unquote(sp.path)), sp.query, sp.fragment))
+    for i in range(3):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (TheLiftCo migration)"})
             with urllib.request.urlopen(req, timeout=40) as r:
                 return r.read()
         except Exception:
-            time.sleep(3 * (i + 1))
+            time.sleep(1.5 * (i + 1))
     return None
 
 
@@ -112,7 +131,10 @@ def local_image(src, max_w=1600):
         if not data:
             return None
         os.makedirs(os.path.dirname(out_fs), exist_ok=True)
-        im = Image.open(io.BytesIO(data))
+        try:
+            im = Image.open(io.BytesIO(data))
+        except Exception:
+            return None  # svg u otro formato no rasterizable
         if im.mode not in ("RGB", "RGBA"):
             im = im.convert("RGBA" if "transparency" in im.info else "RGB")
         if im.width > max_w:

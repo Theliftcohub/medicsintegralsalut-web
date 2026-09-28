@@ -2,7 +2,9 @@
 """CSS de la portada «Versión C» (maqueta The Lift, 28/09/2026) -> src/styles/vc.css
 Copia LITERAL del <style> de la maqueta, solo con los selectores acotados a body.vc para que no choque
 con el sistema .mpost de las páginas de tratamiento (todas las páginas comparten el mismo bundle de CSS).
-- :root -> .vc   (variables solo dentro de la portada)
+- :root -> .vc   (variables solo dentro de body.vc)
+- etiquetas sueltas (h2, p, section…) -> :where(.vc) h2 : sin especificidad extra, para que el contenido .mpost
+  de las páginas de tratamiento conserve su maquetación; header/footer -> body.vc>header
 - body -> body.vc · html se deja · resto -> .vc <selector>
 - .rv (animación de entrada) solo se oculta si hay JS (html.vc-js), para no dejar contenido invisible.
 - Se eliminan las reglas .nota (notas internas del diseñador).
@@ -28,6 +30,10 @@ def pre(sel):
         return "body.vc" + sel[4:]
     if sel.startswith(".rv"):
         return "html.vc-js .vc " + sel
+    if re.match(r"(header|footer)\b", sel):
+        return "body.vc>" + sel          # cabecera y pie de la maqueta (hijos directos de body)
+    if re.match(r"[a-z]", sel):
+        return ":where(.vc) " + sel      # selectores de etiqueta sin especificidad extra: no pisan .mpost-*
     return ".vc " + sel
 
 

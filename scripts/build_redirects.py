@@ -155,7 +155,8 @@ def redirecciones_medios(media_fn, dirs, contrato_mantener=frozenset(), ahrefs=N
 
 
 def route_exists(dist, path):
-    p = path.strip("/")
+    from urllib.parse import unquote as _uq
+    p = _uq(path.split("#")[0].split("?")[0]).strip("/")  # dist/ tiene las carpetas DECODIFICADAS (ru/uk)
     cands = [os.path.join(dist, p, "index.html"), os.path.join(dist, p + ".html"),
              os.path.join(dist, p)] if p else [os.path.join(dist, "index.html")]
     return any(os.path.isfile(c) for c in cands)
@@ -235,6 +236,8 @@ def construir_modelo(inv, new_routes, mapping, legacy, gone_extra, media_fn, pub
 
     gone = set(gone_extra) | contract_410
     gone |= {path_of(i["url"]) for i in inv["items"] if i.get("spam_suspect")}
+    # el contrato manda: una URL "mantener" nunca es 410 aunque el detector de spam la marcara (falso positivo "barbeta")
+    gone -= contract_mantener
 
     # Los pares explícitos (--map/--legacy) pisan al contrato si coinciden (son la
     # decisión más reciente/manual del usuario); todo se resuelve junto para que las

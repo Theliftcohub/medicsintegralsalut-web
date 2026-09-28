@@ -106,12 +106,13 @@ blocks.append({"type": "mp-team", "id": "equipo", "heading": text(r.find("h2")),
 # 13 · contacto: se ELIMINA Typeform (decisión Oscar 28/09/2026) y se usa el formulario propio con los
 #      campos y textos literales del formulario de contacto de la web (CF7 de /contacto/) -> n8n -> Kommo
 r = rows[13]
-cf = soup("https://www.medicsintegralsalut.com/contacto/").select_one("form.wpcf7-form")
+CONTACTO = {"es": "/contacto/", "en": "/en/contact/", "fr": "/fr/contact/", "ca": "/ca/contacte-2/", "ru": "/ru/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%be/", "uk": "/uk/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82/"}
+cf = soup("https://www.medicsintegralsalut.com" + CONTACTO[LANG]).select_one("form.wpcf7-form")
 ph = lambda n: (cf.find(attrs={"name": n}) or {}).get("placeholder", "")
 acc = cf.find(attrs={"name": "acceptance-904"}).find_parent("label").find("span", class_="wpcf7-list-item-label")
 sub = cf.find("input", attrs={"type": "submit"}).get("value")
 blocks.append({"type": "mp-contact", "id": "info", "heading": text(r.find("h3")), "text": paras(r), "image": img_of(r),
-               "form": {"name": "contacto-portada", "thanks": "/gracias/", "submit": sub, "fields": [
+               "form": {"name": "contacto-portada", "thanks": ("/" if LANG == "es" else f"/{LANG}/") + "gracias/", "submit": sub, "fields": [
                    {"name": "nombre", "type": "text", "placeholder": ph("your-name"), "required": True, "autocomplete": "name"},
                    {"name": "telefono", "type": "tel", "placeholder": ph("your-tel"), "required": True, "autocomplete": "tel"},
                    {"name": "email", "type": "email", "placeholder": ph("your-email"), "required": True, "autocomplete": "email"},
