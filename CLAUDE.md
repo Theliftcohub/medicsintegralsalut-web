@@ -21,6 +21,11 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - Páginas Elementor (portada, blog, legales, antiguas): se RENUEVAN con la línea visual de las páginas de tratamiento nuevas (decisión Oscar 27/09/2026). Contenido, H1/H2, enlaces, imágenes/alt, URL y metadatos literales; solo cambia la plantilla. Empieza por la portada y se valida antes de extender. Se factura aparte: item Monday 13145210372.
 - Portfolio de antes/después: la clínica tiene el consentimiento de los pacientes (confirmado por Oscar 27/09/2026); se mantiene publicado.
 
+## Typeform: se elimina SIEMPRE (decisión Oscar 28/09/2026)
+- En esta web (y en todas las migraciones de la agencia) cualquier Typeform se sustituye por el formulario propio (`mp-contact` / `formulario`) → `form-handler.php` → n8n → Kommo. Nunca se reincorpora un embed de Typeform.
+- Aquí hay dos: `01J3GWRH78BRMG20DQVDE7JP7F` (portada en todos los idiomas, 13 páginas) y `ZTDKPHl5` (landing /w-lp-ginecomastia/ y variantes, 12 páginas). Campos y textos del formulario propio = los literales del CF7 de /contacto/.
+- Antes de apagar los Typeform en Typeform/n8n: comprobar que ningún anuncio activo ni subdominio los usa (los subdominios no se tocan).
+
 ## Reglas de contenido
 1. Los textos son **literales** del WordPress. Cualquier cambio de texto se registra en `NO_LITERAL.md` (URL, campo, original, nuevo, motivo). Sin excepciones.
 2. Las URLs no cambian. Si una URL nueva es inevitable, se añade a `migracion/urls.csv` y se regeneran las redirecciones.
