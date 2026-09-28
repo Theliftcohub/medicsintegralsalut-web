@@ -107,3 +107,10 @@
 .vc header.vc-post{position:static;background:none;border:0;backdrop-filter:none}
 .vc .vc-stack>.vc-col+.vc-col{margin-top:32px}
 .vc .vc-stack>.vc-formbox{max-width:620px}
+/* filas internas de WPBakery (vc_inner) con sus proporciones: --g = "4fr 8fr"… (scripts/vc_pages.py structure_widgets) */
+.vc .vc-in{display:grid;grid-template-columns:var(--g,1fr 1fr);gap:32px;align-items:start;margin:1.6em 0}
+.vc .vc-in-c>*:first-child{margin-top:0}
+.vc .vc-in-c img{max-width:100%;margin:0}
+@media(max-width:900px){.vc .vc-in{grid-template-columns:1fr;gap:20px}}
+.vc .vc-texto-rico details[open] summary{margin-bottom:.6em}
+.vc .vc-texto-rico summary::marker{color:var(--marca)}
