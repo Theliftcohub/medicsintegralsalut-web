@@ -1,0 +1,1761 @@
+{
+ "fails": [
+  [
+   "destino",
+   "/unitats/cirurgia-estetica-facial/otoplastia/",
+   "va a /unidades/cirugia-estetica-facial/otoplastia-girona/ (contrato: /unidades/cirugia-estetica-facial/otoplastia/)"
+  ],
+  [
+   "destino",
+   "/unitats/cirurgia-estetica-facial/blefaroplastia/",
+   "va a /unidades/cirugia-estetica-facial/blefaroplastia-girona/ (contrato: /unidades/cirugia-estetica-facial/blefaroplastia/)"
+  ],
+  [
+   "destino",
+   "/unitats/cirurgia-estetica-mames/augment-de-pit/",
+   "va a /unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/ (contrato: /unidades/cirugia-estetica-mamas/aumento-de-pecho/)"
+  ],
+  [
+   "destino",
+   "/unitats/cirurgia-estetica-mames/",
+   "va a /unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/ (contrato: /unidades/cirugia-estetica-mamas/)"
+  ],
+  [
+   "destino",
+   "/unitats/cirurgia-estetica-facial/rinoplastia/",
+   "va a /unidades/cirugia-estetica-facial/rinoplastia-girona/ (contrato: /unidades/cirugia-estetica-facial/rinoplastia/)"
+  ],
+  [
+   "destino",
+   "/en/units-2/cosmetic-breast-surgery/",
+   "va a /en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/ (contrato: /en/units/cosmetic-breast-surgery-2/)"
+  ],
+  [
+   "destino",
+   "/fr/unites-2/chirurgie-esthetique-des-seins/",
+   "va a /fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/ (contrato: /fr/unites/chirurgie-esthetique-des-seins-2/)"
+  ],
+  [
+   "destino",
+   "/ru/юнитац/эстетическая-хирургия-груди/",
+   "va a /ru/единицы/ (contrato: /ru/единицы/пластическая-хирургия-груди/)"
+  ],
+  [
+   "destino",
+   "/uk/одиниці-2/естетична-хірургія-грудей/",
+   "va a /uk/одиниці/ (contrato: /uk/одиниці/естетична-хірургія-грудей-2/)"
+  ],
+  [
+   "destino",
+   "/ca/unitats/cirurgia-estetica-pits/",
+   "va a /ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/ (contrato: /ca/unitats-2/cirurgia-estetica-de-mames/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-facial-surgery/page/2/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-facial-surgery/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-facial-surgery-2/page/2/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-facial-surgery-2/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-breast-surgery-2/page/2/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-breast-surgery-2/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-body-medicine/page/2/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-body-medicine/)"
+  ],
+  [
+   "destino",
+   "/en/category/medicina-estetica-corporal-ca/page/2/",
+   "va a /en/blog/ (contrato: /en/category/medicina-estetica-corporal-ca/)"
+  ],
+  [
+   "destino",
+   "/category/cirurgia-estetica-facial/page/2/",
+   "va a /blog/ (contrato: /category/cirurgia-estetica-facial/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/chirurgie-esthetique-du-visage/page/2/",
+   "va a /fr/blog/ (contrato: /fr/categorie/chirurgie-esthetique-du-visage/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/2/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/2/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/chirurgie-esthetique-faciale/page/2/",
+   "va a /fr/blog/ (contrato: /fr/categorie/chirurgie-esthetique-faciale/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/chirurgie-esthetique-des-seins-2/page/2/",
+   "va a /fr/blog/ (contrato: /fr/categorie/chirurgie-esthetique-des-seins-2/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/medecine-esthetique-corporelle/page/2/",
+   "va a /fr/blog/ (contrato: /fr/categorie/medecine-esthetique-corporelle/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/medicina-estetica-corporal-ca/page/2/",
+   "va a /fr/blog/ (contrato: /fr/categorie/medicina-estetica-corporal-ca/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-facial-surgery-2/page/3/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-facial-surgery-2/)"
+  ],
+  [
+   "destino",
+   "/category/cirugia-estetica-facial/page/2/",
+   "va a /blog/ (contrato: /category/cirugia-estetica-facial/)"
+  ],
+  [
+   "destino",
+   "/en/category/cosmetic-breast-surgery-2/page/3/",
+   "va a /en/blog/ (contrato: /en/category/cosmetic-breast-surgery-2/)"
+  ],
+  [
+   "destino",
+   "/category/cirugia-estetica-mamas/page/2/",
+   "va a /blog/ (contrato: /category/cirugia-estetica-mamas/)"
+  ],
+  [
+   "destino",
+   "/category/medicina-estetica-corporal/page/2/",
+   "va a /blog/ (contrato: /category/medicina-estetica-corporal/)"
+  ],
+  [
+   "destino",
+   "/category/medicina-estetica-corporal-ca/page/2/",
+   "va a /blog/ (contrato: /category/medicina-estetica-corporal-ca/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/3/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/3/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/chirurgie-esthetique-faciale/page/3/",
+   "va a /fr/blog/ (contrato: /fr/categorie/chirurgie-esthetique-faciale/)"
+  ],
+  [
+   "destino",
+   "/fr/categorie/chirurgie-esthetique-des-seins-2/page/3/",
+   "va a /fr/blog/ (contrato: /fr/categorie/chirurgie-esthetique-des-seins-2/)"
+  ],
+  [
+   "destino",
+   "/category/cirugia-estetica-facial/page/3/",
+   "va a /blog/ (contrato: /category/cirugia-estetica-facial/)"
+  ],
+  [
+   "destino",
+   "/category/cirugia-estetica-mamas/page/3/",
+   "va a /blog/ (contrato: /category/cirugia-estetica-mamas/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/4/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/4/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/5/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/5/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/6/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/6/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/7/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/7/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/8/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/8/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/9/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/9/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/10/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/10/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ],
+  [
+   "destino",
+   "/en/author/infomedicstetics/page/11/",
+   "va a /en/blog/ (contrato: /en/author/infomedicstetics/)"
+  ],
+  [
+   "destino",
+   "/fr/auteur/infomedicestetique/page/11/",
+   "va a /fr/blog/ (contrato: /fr/auteur/infomedicestetique/)"
+  ]
+ ],
+ "warns": [
+  [
+   "h1",
+   "/deberia-reducirme-el-pecho/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/politica-de-privacidad/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dra-claudia-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-sergio-angeles-montanez/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dra-ainitze-ibarzabal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dr-amador-garcia-ruiz-de-gordejuela/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/team/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/aesthetic-medicine/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/en/thank-you/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/deberia-reducirme-el-pecho/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/en/privacy-policy-on-social-networks/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/contact-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dra-claudia-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-sergio-angeles-montanez/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dra-ainitze-ibarzabal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dr-amador-garcia-ruiz-de-gordejuela/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/team/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/blog/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/legal-basis-for-participation-in-the-prize-draw/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/privacy-policy/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/privacy-policy-on-social-media/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/contact/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/blog-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/eyelid-surgery/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/en/cosmetic-surgery/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/en/portfolio_page/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/en/beauty-days/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/ca/cirurgia-estetica-2/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/ca/politica-de-privadesa-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/politica-de-privacitat-a-les-xarxes-socials/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/gracies/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/medicina-estetica/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/ca/bases-legals-de-participacio-en-el-sorteig/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/bloc/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/dies-de-bellesa/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/ca/hauria-de-reduir-me-el-pit/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/ca/politica-de-privadesa-en-xarxes-socials/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/blefaroplastia/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/ca/blog-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/contacte/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dra-ainitze-ibarzabal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/equip/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/portfoli_pagina/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ca/contacte-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/blog/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/contacto/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/deberia-reducirme-el-pecho/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/ru/контакто/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/правовые-основания-для-участия-в-розы-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dra-claudia-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-sergio-angeles-montanez/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dra-ainitze-ibarzabal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dr-amador-garcia-ruiz-de-gordejuela/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/team/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/дни-красоты/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/ru/политика-конфиденциальности-в-социа-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/блог/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/эстетическая-медицина/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/ru/блефаропластика/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/ru/блог-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/политика-конфиденциальности/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/политика-конфиденциальности-в-социа/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/эстетическая-хирургия/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/послеоперационный-период-ринопласти/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/tecnicas/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/mida-de-protesi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/rinoplastia-sense-cirurgia/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/estetica-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/названия-тубероз/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ультразвуковая-ринопластика/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ожирение/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/трактаменты/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/бариатрическая-хирургия/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/уллс/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/хирургическая-техника/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/радиочастота/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/rinoplastia-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/до-и-после-отопластики-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/хирургическая-техника-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/alimentacio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/липовасер/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/редукция-груди/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/контрактура-капсулы/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/липосакция-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/красота/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/оценка/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/питание/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ожирение-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/липофилинг/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/грейкс/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/lo-que-debes-saber-sobre-el-aumento-de-pecho/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/resultados/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/rostro/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/глютис/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/средства-для-кожи/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/эстетика/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/круглые-протезы-против-эргономичных/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ринопластика/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/размер-протеза/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/липофилинг-рак/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ринопластика-без-операции/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/оростре/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/el-que-has-saber-sobre-laugment-de-pit/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/evaluacion/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/имплантаты-молочной-железы/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/tratamientos/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/tipus-de-protesi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/contractura-capsular/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/подъем/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/результаты/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/rinoplastia-ultrasonica-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/дряблость/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/tipo-de-protesis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/липосакция-vaser/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/красота-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/эргономичные-протезы/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/tecniques/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/кожа/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/пелл/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/до-и-после-отопластики/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/бариатрическая-хирургия-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/здоровый-образ-жизни/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/увеличение-груди/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/лифтинг-ка/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/жир/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/склонные-к-туберозности-молочные-жел/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/cuidados-para-la-piel/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/оземпик/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/увеличить-яму/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/vida-saludable-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/глаза/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/ягодицы/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/тег/мунджаро/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/портфолио/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/спасибо/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/ru/контакте/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/естетична-хірургія/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/uk/політика-конфіденційності-в-соціаль-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/блог/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/правові-засади-участі-в-розіграші-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/політика-конфіденційності/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/блефаропластика/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/uk/блог-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/дякую/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ожиріння/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/сідничні-мязи/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/техніки-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/розмір-протеза/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/mounjaro/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/обличчя/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/rinoplastia-sense-cirurgia/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/капсулярна-контрактура-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/сідниці/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/шкіра/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/краса-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/оцінка/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ojos/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/капсулярна-контрактура/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/rinoplastia-sin-cirugia/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліфтинг/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/rinoplastia-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/бульбоподібні-груди/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/зменшення-грудей/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/здоровий-спосіб-життя/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/результати/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліповазер/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/естетика/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/оземпік/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/догляд-за-шкірою/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/краса/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ulls/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/харчування-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/грейкс/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/resultados/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/antes-y-despues-otoplastia/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/хірургічна-техніка/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліпосакція-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/процедури/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліпофілінг-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ринопластика-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/розмір-протеза-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліпосакція-методом-vaser-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/засоби-для-догляду-за-шкірою/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/що-потрібно-знати-про-збільшення-груд/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/круглі-протези-проти-ергономічних-пр/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ростр/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/pell/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/харчування/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/el-que-has-saber-sobre-laugment-de-pit/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/tratamientos/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/техніки/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/tipus-de-protesi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/вялість/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/rinoplastia-ultrasonica-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/бульбові-мами/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/tipo-de-protesis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/до-та-після-отопластики/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ергономічні-протези/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/післяопераційний-період-після-риноп/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/естетика-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ожиріння-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ультразвукова-ринопластика/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліфтинг-ка/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/баріатрична-хірургія/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/грудні-імплантати/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/збільшення-піту/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/радіочастота/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/баріатрична-хірургія-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/жир/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/ліпофілінг/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/збільшення-грудей/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/хірургічна-техніка-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/оцінка-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/тег/здоровий-спосіб-життя-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/контакт/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/естетична-медицина/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dra-claudia-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-sergio-angeles-montanez/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/доктор-айніце-ібарсабаль/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dr-amador-garcia-ruiz-de-gordejuela/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/команда/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/звяжіться/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/політика-конфіденційності-в-соціаль/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/uk/дні-краси/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/uk/мені-слід-зменшити-груди/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/uk/portfolio_page/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/politique-de-confidentialite-sur-les-reseaux-sociaux-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/deberia-reducirme-el-pecho/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/fr/jours-de-beaute/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/fr/politique-de-confidentialite-sur-les-reseaux-sociaux/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/blog/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/merci/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/medecine-esthetique/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/fr/chirurgie-esthetique/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/fr/politique-de-confidentialite/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/contact/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/blog-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/bases-legales-de-participation-au-tirage-au-sort-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/blepharoplastie/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/fr/les-gens/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/page_de_portfolio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-david-perez-asensio/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-cristobal-langdon-montero/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dra-claudia-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-sergio-angeles-montanez/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dra-ainitze-ibarzabal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-mike-dewever-3/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-valenti-puig-divi/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dr-amador-garcia-ruiz-de-gordejuela/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/fr/equipe/dra-cristina-vera/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/gracias/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/medicina-estetica/",
+   "2 H1"
+  ],
+  [
+   "h1",
+   "/carousels-category/personal/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/cirugia-estetica/",
+   "3 H1"
+  ],
+  [
+   "h1",
+   "/politica-de-privadesa-en-xarxes-socials/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/politica-de-privacidad-en-redes-sociales/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/portfolio-category/videos-ca/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/portfolio-category/serveis/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/unidades/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/bases-legales-de-participacion-en-el-sorteo/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/blefaroplastia/",
+   "5 H1"
+  ],
+  [
+   "h1",
+   "/blog-2/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/contacte/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/portfolio_page/",
+   "0 H1"
+  ],
+  [
+   "h1",
+   "/beauty-days/",
+   "5 H1"
+  ]
+ ]
+}
