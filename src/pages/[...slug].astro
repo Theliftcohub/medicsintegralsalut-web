@@ -35,7 +35,7 @@ if (kind === 'post') {
 }
 const seo = kind === 'post' ? { title: d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
-<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}>
+<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []} theme={kind === 'page' ? d.theme : 'mpost'}>
   {kind === 'page' && d.blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
     <article class="wrap prose post">
