@@ -46,10 +46,13 @@ const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.des
         <p class="vc-post-meta">{t.published} <time datetime={d.date.toISOString().slice(0, 10)}>{fmt(d.date)}</time>
           {d.modified && d.modified.getTime() !== d.date.getTime() && <> · {t.updated} <time datetime={d.modified.toISOString().slice(0, 10)}>{fmt(d.modified)}</time></>}
           · {t.by} {d.authorUrl ? <a href={d.authorUrl} rel="author">{d.author}</a> : d.author}</p>
-        {d.image && !d.mpost && <img class="vc-post-img" src={d.image} alt={d.imageAlt} />}
+        {d.image && <img class="vc-post-img" src={d.image} alt={d.imageAlt} />}
       </header>
     </div></section>
-    {d.mpost ? <div class="vc-post-mpost"><Content /></div> : (
+    {d.mpost ? (
+      <section class="vc-prosa vc-post-body"><div class="wrap"><article class="vc-post vc-post-mpost"><Content /></article></div>
+      <script is:inline>document.querySelectorAll('.vc-post-mpost .mpp-filters').forEach(function(f){var bs=f.querySelectorAll('button'),root=f.parentNode;bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.classList.remove('is-active')});b.classList.add('is-active');var v=b.getAttribute('data-f');root.querySelectorAll('.mpp-grid .card').forEach(function(c){c.style.display=(v==='all'||c.getAttribute('data-cat')===v)?'':'none'})})})});</script></section>
+    ) : (
       <section class="vc-prosa vc-post-body"><div class="wrap"><article class="vc-texto-rico vc-post"><Content /></article></div></section>
     )}
     </>
