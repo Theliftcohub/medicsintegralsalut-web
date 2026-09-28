@@ -21,10 +21,18 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - Páginas Elementor (portada, blog, legales, antiguas): se RENUEVAN con la línea visual de las páginas de tratamiento nuevas (decisión Oscar 27/09/2026). Contenido, H1/H2, enlaces, imágenes/alt, URL y metadatos literales; solo cambia la plantilla. Empieza por la portada y se valida antes de extender. Se factura aparte: item Monday 13145210372.
 - Portfolio de antes/después: la clínica tiene el consentimiento de los pacientes (confirmado por Oscar 27/09/2026); se mantiene publicado.
 
-## Typeform: se elimina SIEMPRE (decisión Oscar 28/09/2026)
+## Formularios: TODOS nativos (decisión Oscar 28/09/2026)
+- Todos los formularios de la web son propios (HTML + `form-handler.php` → n8n → Kommo), sin embeds de terceros (Typeform, iframes, widgets). Motivo: antes la medición orgánica fallaba; con formularios nativos el envío, el evento `form_submit`, la página /gracias/ y el canal en Kommo quedan bajo control.
+
+### Typeform: se elimina SIEMPRE
 - En esta web (y en todas las migraciones de la agencia) cualquier Typeform se sustituye por el formulario propio (`mp-contact` / `formulario`) → `form-handler.php` → n8n → Kommo. Nunca se reincorpora un embed de Typeform.
 - Aquí hay dos: `01J3GWRH78BRMG20DQVDE7JP7F` (portada en todos los idiomas, 13 páginas) y `ZTDKPHl5` (landing /w-lp-ginecomastia/ y variantes, 12 páginas). Campos y textos del formulario propio = los literales del CF7 de /contacto/.
 - Antes de apagar los Typeform en Typeform/n8n: comprobar que ningún anuncio activo ni subdominio los usa (los subdominios no se tocan).
+
+## Medición orgánica (la web principal es solo tráfico orgánico; las landings de publicidad son otras webs)
+- Cada formulario hace `dataLayer.push({event:'form_submit', form_name, page_path})` al enviar y redirige a `/gracias/` (conversión definitiva).
+- n8n añade al lead de Kommo una línea "Canal:" (Orgánico buscador / asistente IA / redes / referido / directo, o la campaña si hay UTM) a partir del referrer de la primera página de la visita.
+- GTM-K63QVGT, a preparar en un espacio de trabajo y publicar EL DÍA DEL LANZAMIENTO: (1) quitar la excepción "All Pages" de la etiqueta GA4 G-7WJ693DDXH (hoy no se ejecuta nunca); (2) evento GA4 `generate_lead` con el activador `form_submit` + página vista /gracias/; (3) píxel de Meta 1839689313580301 con PageView y Lead; (4) pausar el píxel antiguo 339816866888771 y la etiqueta UA. Todo sujeto a Consent Mode.
 
 ## Reglas de contenido
 1. Los textos son **literales** del WordPress. Cualquier cambio de texto se registra en `NO_LITERAL.md` (URL, campo, original, nuevo, motivo). Sin excepciones.
