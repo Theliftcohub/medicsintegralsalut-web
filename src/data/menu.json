@@ -276,5 +276,49 @@
  "cta_es": {
   "text": "Solicitar valoración",
   "href": "/contacto#form"
- }
+ },
+ "vc_es": [
+  {
+   "text": "Clínica",
+   "href": "/medics-integral-salut/"
+  },
+  {
+   "text": "Equipo",
+   "href": "/cirugia-plastica-girona-equipo-medico/"
+  },
+  {
+   "text": "Unidades",
+   "href": "#unidades"
+  },
+  {
+   "text": "Financiación",
+   "href": "/financiacion/"
+  },
+  {
+   "text": "Blog",
+   "href": "/blog-2/"
+  },
+  {
+   "text": "Contacto",
+   "href": "/contacto/"
+  }
+ ],
+ "vc_cta_es": {
+  "text": "Solicitar valoración",
+  "href": "#info"
+ },
+ "vc_wa_es": {
+  "text": "WhatsApp 620 892 236",
+  "href": "https://api.whatsapp.com/send?phone=34620892236"
+ },
+ "vc_bar_es": [
+  {
+   "text": "Pedir valoración",
+   "href": "#info"
+  },
+  {
+   "text": "WhatsApp",
+   "href": "https://api.whatsapp.com/send?phone=34620892236"
+  }
+ ]
 }

@@ -42,5 +42,13 @@
   "defaultLang": "es",
   "_nota": "NAP: dirección y teléfono de Google Business Profile; horario L-V 10-20 según la web (confirmado por Oscar 28/09/2026: GBP tiene el viernes mal, 10-16).",
   "whatsapp": "+34 620 892 236",
-  "email": "info@medicsintegralsalut.com"
+  "email": "info@medicsintegralsalut.com",
+  "rating": {
+    "value": 4.8,
+    "count": 220,
+    "since": 2014,
+    "fuente": "Google Business Profile vía Windsor (locations/14536626448257152064)",
+    "fecha": "2026-09-28",
+    "_nota": "Refrescar desde GBP antes del lanzamiento y cada vez que se toque la portada. Se muestra en la web pero NO se marca como AggregateRating (reseñas propias)."
+  }
 }
