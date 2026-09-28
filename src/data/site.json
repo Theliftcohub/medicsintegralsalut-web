@@ -18,17 +18,11 @@
         "Monday",
         "Tuesday",
         "Wednesday",
-        "Thursday"
-      ],
-      "opens": "10:00",
-      "closes": "20:00"
-    },
-    {
-      "dayOfWeek": [
+        "Thursday",
         "Friday"
       ],
       "opens": "10:00",
-      "closes": "16:00"
+      "closes": "20:00"
     }
   ],
   "sameAs": [
@@ -46,7 +40,7 @@
     "uk"
   ],
   "defaultLang": "es",
-  "_nota": "NAP desde Google Business Profile 27/09/2026 (migracion/gbp.json). sameAs y logo: confirmar desde el HTML/schema actual en la fase 3.",
+  "_nota": "NAP: dirección y teléfono de Google Business Profile; horario L-V 10-20 según la web (confirmado por Oscar 28/09/2026: GBP tiene el viernes mal, 10-16).",
   "whatsapp": "+34 620 892 236",
   "email": "info@medicsintegralsalut.com"
 }
