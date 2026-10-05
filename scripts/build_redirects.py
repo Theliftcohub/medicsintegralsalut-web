@@ -236,8 +236,9 @@ def construir_modelo(inv, new_routes, mapping, legacy, gone_extra, media_fn, pub
 
     gone = set(gone_extra) | contract_410
     gone |= {path_of(i["url"]) for i in inv["items"] if i.get("spam_suspect")}
-    # el contrato manda: una URL "mantener" nunca es 410 aunque el detector de spam la marcara (falso positivo "barbeta")
-    gone -= contract_mantener
+    # el contrato manda: una URL "mantener" o con 301 decidido nunca es 410 aunque el detector de spam la marcara
+    # (falso positivo "barbeta": al renombrar las URLs catalanas sin «-2», la antigua pasó de mantener a 301)
+    gone -= contract_mantener | set(contract_301)
 
     # Los pares explícitos (--map/--legacy) pisan al contrato si coinciden (son la
     # decisión más reciente/manual del usuario); todo se resuelve junto para que las

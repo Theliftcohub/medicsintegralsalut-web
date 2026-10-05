@@ -353,15 +353,15 @@
    },
    {
     "text": "finançament",
-    "href": "/ca/financament-2/"
+    "href": "/ca/financament/"
    },
    {
     "text": "bloc",
-    "href": "/ca/blog-2/"
+    "href": "/ca/blog/"
    },
    {
     "text": "contacte",
-    "href": "/ca/contacte-2/"
+    "href": "/ca/contacte/"
    }
   ],
   "cta": {
@@ -369,8 +369,8 @@
    "href": "#info"
   },
   "anchors": {
-   "#info": "/ca/contacte-2/#form",
-   "#unidades": "/ca/unitats-2/"
+   "#info": "/ca/contacte/#form",
+   "#unidades": "/ca/unitats/"
   },
   "footer": {
    "brand": "Clínica Cirurgia Estètica | Metges Integrals Salut",
@@ -378,11 +378,11 @@
    "legal": [
     {
      "text": "Avís legal",
-     "href": "/ca/avis-legal-2/"
+     "href": "/ca/avis-legal/"
     },
     {
      "text": "Política de privacitat",
-     "href": "/ca/politica-de-privadesa-2/"
+     "href": "/ca/politica-de-privadesa/"
     },
     {
      "text": "Política de galetes",
@@ -401,155 +401,155 @@
    "trat": [
     {
      "text": "Rinoplàstia",
-     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/rinoplastia-girona/"
+     "href": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/"
     },
     {
      "text": "Balla gàstrica",
-     "href": "/ca/unitats-2/sobrepes-i-obesitat-2/bandol-gastric-girona/"
+     "href": "/ca/unitats/sobrepes-i-obesitat/bandol-gastric-girona/"
     },
     {
      "text": "Augmentació de pit",
-     "href": "/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/"
+     "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/"
     },
     {
      "text": "Blefaroplàstia",
-     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/blefaroplastia-girona/"
+     "href": "/ca/unitats/cirurgia-estetica-facial/blefaroplastia-girona/"
     },
     {
      "text": "Otoplàstia",
-     "href": "/ca/unitats-2/cirurgia-estetica-facial-2/otoplastia-girona/"
+     "href": "/ca/unitats/cirurgia-estetica-facial/otoplastia-girona/"
     }
    ],
    "socialTitle": "Xarxes socials",
    "finTitle": "Finançament",
-   "fin": "/ca/financament-2/"
+   "fin": "/ca/financament/"
   },
   "units": [
    {
     "text": "Medicina estètica facial",
-    "href": "/ca/unitats-2/medicina-estetica-facial/",
+    "href": "/ca/unitats/medicina-estetica-facial/",
     "sub": [
      {
       "text": "Bolses sota els ulls",
-      "href": "/ca/unitats-2/medicina-estetica-facial/ulleres-fosques/"
+      "href": "/ca/unitats/medicina-estetica-facial/ulleres-fosques/"
      },
      {
       "text": "Augment de llavis",
-      "href": "/ca/unitats-2/medicina-estetica-facial/augmentacio-de-llavis/"
+      "href": "/ca/unitats/medicina-estetica-facial/augmentacio-de-llavis/"
      },
      {
       "text": "Arrugues d'expressió",
-      "href": "/ca/unitats-2/medicina-estetica-facial/arrugues-dexpressio-2/"
+      "href": "/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/"
      },
      {
       "text": "Flacidesa: fils tensors",
-      "href": "/ca/unitats-2/medicina-estetica-facial/flacidesa-fils-tensors/"
+      "href": "/ca/unitats/medicina-estetica-facial/flacidesa-fils-tensors/"
      },
      {
       "text": "Hidratació i nutrició",
-      "href": "/ca/unitats-2/medicina-estetica-facial/hidratacio-i-nutricio-2/"
+      "href": "/ca/unitats/medicina-estetica-facial/hidratacio-i-nutricio/"
      },
      {
       "text": "Exfoliació",
-      "href": "/ca/unitats-2/medicina-estetica-facial/pela/"
+      "href": "/ca/unitats/medicina-estetica-facial/pela/"
      },
      {
       "text": "Ompliment d'arrugues",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/farciment-darrugues-2/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/farciment-darrugues/"
      }
     ]
    },
    {
     "text": "Medicina estètica corporal",
-    "href": "/ca/unitats-2/medicina-estetica-corporal/",
+    "href": "/ca/unitats/medicina-estetica-corporal/",
     "sub": [
      {
       "text": "Liposucció sense cirurgia",
-      "href": "/ca/unitats-2/medicina-estetica-corporal/liposuccio-sense-cirurgia-2/"
+      "href": "/ca/unitats/medicina-estetica-corporal/liposuccio-sense-cirurgia/"
      },
      {
       "text": "Cel·lulitis",
-      "href": "/ca/unitats-2/medicina-estetica-corporal/cel·lulitis/"
+      "href": "/ca/unitats/medicina-estetica-corporal/cel·lulitis/"
      }
     ]
    },
    {
     "text": "Medicina Estètica",
-    "href": "/ca/unitats-2/medicina-estetica-girona/",
+    "href": "/ca/unitats/medicina-estetica-girona/",
     "sub": [
      {
       "text": "Reducció de volum",
-      "href": "/ca/unitats-2/gabinet-destetica-2/reduccio-de-volum-girona-2/"
+      "href": "/ca/unitats/gabinet-destetica/reduccio-de-volum-girona/"
      },
      {
       "text": "Eliminar cel·lulitis",
-      "href": "/ca/unitats-2/gabinet-destetica-2/eliminar-cel·lulitis/"
+      "href": "/ca/unitats/gabinet-destetica/eliminar-cel·lulitis/"
      },
      {
       "text": "P50 Visage",
-      "href": "/ca/unitats-2/gabinet-destetica-2/p50-rostre/"
+      "href": "/ca/unitats/gabinet-destetica/p50-rostre/"
      },
      {
       "text": "Àcid de fruites",
-      "href": "/ca/unitats-2/gabinet-destetica-2/acido-de-frutas/"
+      "href": "/ca/unitats/gabinet-destetica/acido-de-frutas/"
      },
      {
       "text": "Antiedat MC110",
-      "href": "/ca/unitats-2/gabinet-destetica-2/anti-edat-mc-110/"
+      "href": "/ca/unitats/gabinet-destetica/anti-edat-mc-110/"
      },
      {
       "text": "Recuperador",
-      "href": "/ca/unitats-2/gabinet-destetica-2/recuperador/"
+      "href": "/ca/unitats/gabinet-destetica/recuperador/"
      },
      {
       "text": "Desintoxicant",
-      "href": "/ca/unitats-2/gabinet-destetica-2/desintoxicant-2/"
+      "href": "/ca/unitats/gabinet-destetica/desintoxicant/"
      },
      {
       "text": "Hidreclat",
-      "href": "/ca/unitats-2/gabinet-destetica-2/hidroclorat/"
+      "href": "/ca/unitats/gabinet-destetica/hidroclorat/"
      }
     ]
    },
    {
     "text": "Sobrepès i obesitat",
-    "href": "/ca/unitats-2/sobrepes-i-obesitat-2/",
+    "href": "/ca/unitats/sobrepes-i-obesitat/",
     "sub": [
      {
       "text": "Pilota Ingerible el·lipsoïdal",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/pilota-ingerible-el·lipse/"
+      "href": "/ca/unitats/sobrepes-i-obesitat/pilota-ingerible-el·lipse/"
      },
      {
       "text": "Pilota 6 mesos",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/bota-6-mesos/"
+      "href": "/ca/unitats/sobrepes-i-obesitat/bota-6-mesos/"
      },
      {
       "text": "Balança de 12 mesos ajustable",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/bandol-gastric-girona/"
+      "href": "/ca/unitats/sobrepes-i-obesitat/bandol-gastric-girona/"
      },
      {
       "text": "Mètode Mega",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/endomanga/"
+      "href": "/ca/unitats/sobrepes-i-obesitat/endomanga/"
      },
      {
       "text": "Dietètica i nutrició",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/dietetica-i-nutricio-2/"
+      "href": "/ca/unitats/sobrepes-i-obesitat/dietetica-i-nutricio/"
      },
      {
       "text": "Cirurgia bariàtrica",
-      "href": "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/",
+      "href": "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/",
       "sub": [
        {
         "text": "Gastrectomía vertical",
-        "href": "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/gastrectomia-vertical/"
+        "href": "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/gastrectomia-vertical/"
        },
        {
         "text": "Bypass gàstric",
-        "href": "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/bypass-gastrico/"
+        "href": "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/bypass-gastrico/"
        },
        {
         "text": "Creuament Duodenal",
-        "href": "/ca/unitats-2/sobrepes-i-obesitat-2/cirurgia-bariatrica-2/cruilla-duodenal/"
+        "href": "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/cruilla-duodenal/"
        }
       ]
      }
@@ -557,117 +557,117 @@
    },
    {
     "text": "Cirurgia estètica de pits",
-    "href": "/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/",
+    "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/",
     "sub": [
      {
       "text": "Augmentació de pit",
-      "href": "/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pit-girona-2/"
+      "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/"
      },
      {
       "text": "Pexia",
-      "href": "/ca/unitats-2/cirurgia-estetica-de-mames/elevacio-de-pit-pexia-2/"
+      "href": "/ca/unitats/cirurgia-estetica-de-mames/elevacio-de-pit-pexia/"
      },
      {
       "text": "Reducció de pit",
-      "href": "/ca/unitats-2/cirurgia-estetica-de-mames/reduccio-de-pits/"
+      "href": "/ca/unitats/cirurgia-estetica-de-mames/reduccio-de-pits/"
      },
      {
       "text": "Augmentació de pit Tècnica AMI",
-      "href": "/ca/unitats-2/cirurgia-estetica-de-mames/augment-de-pits-tecnica-ami/"
+      "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pits-tecnica-ami/"
      },
      {
       "text": "Canvi de pròtesis mamàries",
-      "href": "/ca/unitats-2/cirurgia-estetica-de-mames/canvi-de-protesi/"
+      "href": "/ca/unitats/cirurgia-estetica-de-mames/canvi-de-protesi/"
      }
     ]
    },
    {
     "text": "Cirurgia estètica facial",
-    "href": "/ca/unitats-2/cirurgia-estetica-facial-2/",
+    "href": "/ca/unitats/cirurgia-estetica-facial/",
     "sub": [
      {
       "text": "Rinoplàstia",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/rinoplastia-girona/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/"
      },
      {
       "text": "Rinomodelació",
-      "href": "/ca/unitats-2/medicina-estetica-facial/rinomodelacio/"
+      "href": "/ca/unitats/medicina-estetica-facial/rinomodelacio/"
      },
      {
       "text": "Perforació envà nasal",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/perforacio-del-tabic-nasal/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/perforacio-del-tabic-nasal/"
      },
      {
       "text": "Blefaroplàstia",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/blefaroplastia/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/blefaroplastia/"
      },
      {
       "text": "Minilift de coll i papada",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/minilifting-de-coll-i-papada-2/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/minilifting-de-coll-i-papada/"
      },
      {
       "text": "Estirament facial",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/lifting-facial/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/lifting-facial/"
      },
      {
       "text": "Otoplàstia",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/otoplastia-girona/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/otoplastia-girona/"
      },
      {
       "text": "Barbeta i pòmuls",
-      "href": "/ca/unitats-2/cirurgia-estetica-facial-2/cirurgia-de-barbeta-i-pomuls/"
+      "href": "/ca/unitats/cirurgia-estetica-facial/cirurgia-de-barbeta-i-pomuls/"
      }
     ]
    },
    {
     "text": "Cirurgia estètica corporal",
-    "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/",
     "sub": [
      {
       "text": "Liposucció Vaser",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/liposuccio-vaser-2/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/liposuccio-vaser/"
      },
      {
       "text": "Liposucció",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/liposuccio-2/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/liposuccio/"
      },
      {
       "text": "Augment de glutis",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/augment-de-glutis-2/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/augment-de-glutis/"
      },
      {
       "text": "Cirurgia genital femenina",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/cirurgia-genital-femenina-2/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/cirurgia-genital-femenina/"
      },
      {
       "text": "Estiraments de braços i cames",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/aixecament-de-bracos-i-cames-2/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/aixecament-de-bracos-i-cames/"
      },
      {
       "text": "Lipofilling corporal",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/lipofilling-corporal/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/lipofilling-corporal/"
      },
      {
       "text": "Abdominoplàstia",
-      "href": "/ca/unitats-2/cirurgia-estetica-corporal-2/abdominoplastia/"
+      "href": "/ca/unitats/cirurgia-estetica-corporal/abdominoplastia/"
      }
     ]
    },
    {
     "text": "Cirurgia estètica masculina",
-    "href": "/ca/unitats-2/cirurgia-estetica-masculina-2/",
+    "href": "/ca/unitats/cirurgia-estetica-masculina/",
     "sub": [
      {
       "text": "Ginecomàstia",
-      "href": "/ca/unitats-2/cirurgia-estetica-masculina-2/ginecomastia/"
+      "href": "/ca/unitats/cirurgia-estetica-masculina/ginecomastia/"
      },
      {
       "text": "Augment de pectoral",
-      "href": "/ca/unitats-2/cirurgia-estetica-masculina-2/augment-de-pectoral-2/"
+      "href": "/ca/unitats/cirurgia-estetica-masculina/augment-de-pectoral/"
      },
      {
       "text": "Coll i papada lleugerament elevats",
-      "href": "/ca/unitats-2/cirurgia-estetica-masculina-2/estirament-de-coll-i-papada/"
+      "href": "/ca/unitats/cirurgia-estetica-masculina/estirament-de-coll-i-papada/"
      }
     ]
    }
