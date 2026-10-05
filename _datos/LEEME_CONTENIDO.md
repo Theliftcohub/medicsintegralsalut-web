@@ -7,4 +7,7 @@ Para reconstruirlos en local, desde la raíz del repo:
 
     cat _datos/contenido-web.tgz.part* | tar -xz
 
-Fecha del paquete: 28/09/2026 (commit local 98e2899).
+Fecha del paquete: 05/10/2026 (tras schema_posts.py y pulir_contenido.py; rama mejoras-menu-paginas-seo).
+Para regenerarlo tras cambiar contenido:
+
+    tar -cf - src/content public/images public/media | gzip -9 | split -b 9437184 -d -a 2 - _datos/contenido-web.tgz.part
