@@ -9,6 +9,13 @@ import '@fontsource/raleway/200.css';
 import '@fontsource/raleway/300.css';
 import '@fontsource/raleway/500.css';
 import '@fontsource/raleway/600.css';
+import '@fontsource/raleway/400.css';
+import '@fontsource/raleway/700.css';
+import '@fontsource/fraunces/400.css';
+import '@fontsource/fraunces/500.css';
+import '@fontsource/fraunces/600.css';
+import '@fontsource/fraunces/400-italic.css';
+import '@fontsource/fraunces/500-italic.css';
 // Orden de los estilos: variables -> comunes -> piel de los componentes .mpost -> maqueta «Versión C» y sus ajustes
 import '../styles/tokens.css';
 import '../styles/comun.css';
@@ -18,6 +25,8 @@ import '../styles/vc-extra.css';
 import '../styles/mpost-posts.css';
 import '../styles/vc-mpost.css';
 import '../styles/vc-prosa.css';
+import '../styles/portada.css';
+import '../styles/portada-extra.css';
 // Toda la web usa el diseño «Versión C» (body.vc): cabecera, pie, migas y estilos.
 const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [] } = Astro.props;
 const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';

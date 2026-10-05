@@ -1,0 +1,14 @@
+---
+// Sección de texto literal del WordPress con foto en arco (p. ej. «Medicina Estética Girona»).
+const { kicker, heading, paras = [], image } = Astro.props;
+---
+<section class="pt-crema2">
+  <div class="pt-wrap pt-dos pt-dos--inv">
+    <div>
+      <div class="pt-eyebrow rv">{kicker}</div>
+      <h2 class="rv d1">{heading}</h2>
+      {paras.map((p: string) => <p class="rv d2" set:html={p} />)}
+    </div>
+    {image && <div class="pt-arco rv d2"><img src={image.src} alt={image.alt} width={image.w} height={image.h} loading="lazy" decoding="async" /></div>}
+  </div>
+</section>

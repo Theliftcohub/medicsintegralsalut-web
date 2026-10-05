@@ -1,0 +1,13 @@
+---
+// Preguntas frecuentes (texto nuevo de la maqueta; cifras de Google desde site.json). Sin schema FAQPage.
+import { fill } from '../../lib/vc';
+const { kicker, heading, items = [], lang = 'es' } = Astro.props;
+---
+<section class="pt-blanca">
+  <div class="pt-wrap">
+    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2></div>
+    <div class="pt-faq rv">
+      {items.map((x: any, i: number) => <details open={i === 0}><summary>{x.q}</summary><div class="pt-r" set:html={fill(x.a, lang)} /></details>)}
+    </div>
+  </div>
+</section>

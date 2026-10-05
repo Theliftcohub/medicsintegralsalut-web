@@ -1,0 +1,1009 @@
+{
+ "_nota": "Textos NUEVOS de la portada «prototipo» (The Lift Co, 05/10/2026) que no existen en el WordPress. Español = maqueta; resto = traducción propia (revisar por nativo). Variables: {since} {count} {rating} {fin} {tel} {wa} {contacto} {equipo}. Ver NO_LITERAL.md. hero.titulo (en/fr/ru/uk): corrige la traducción automática rota del WordPress.",
+ "es": {
+  "hero": {
+   "eyebrow": "Girona · Desde {since}",
+   "sub": "Cirugía plástica y medicina estética con enfoque médico, resultados naturales y un equipo que te acompaña en cada paso, desde la primera valoración hasta la última revisión.",
+   "cta": "Pedir mi valoración gratuita",
+   "wa": "Escríbenos por WhatsApp",
+   "reviews": "{count} opiniones en Google",
+   "badge": "Equipo médico colegiado · Miembros SECPRE",
+   "alt": "El Dr. Mike Dewever, cirujano plástico, en consulta con una paciente"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Valoración médica gratuita",
+    "d": "Estudio de tu caso con el especialista, sin coste ni compromiso."
+   },
+   {
+    "ic": "◈",
+    "t": "Plan personalizado",
+    "d": "Adaptado a tus objetivos y a tu tipo de piel, nunca un protocolo estándar."
+   },
+   {
+    "ic": "✚",
+    "t": "Seguimiento continuo",
+    "d": "Revisiones y acompañamiento durante todo el postoperatorio."
+   },
+   {
+    "ic": "⌂",
+    "t": "Entorno clínico seguro",
+    "d": "Instalaciones propias en el centro de Girona con equipamiento actual."
+   },
+   {
+    "ic": "◉",
+    "t": "Equipo multidisciplinar",
+    "d": "Cirugía plástica, digestiva, endocrinología y medicina estética."
+   },
+   {
+    "ic": "≡",
+    "t": "Financiación disponible",
+    "d": "Consulta las <a href=\"{fin}\">opciones de financiación</a>."
+   }
+  ],
+  "contadores": {
+   "since": "Desde entonces en Girona",
+   "team": "Especialistas en el equipo",
+   "rating": "Valoración en Google",
+   "reviews": "Reseñas verificadas"
+  },
+  "vinetas": [
+   [
+    "Prótesis y técnica AMI",
+    "Elevación: pexia",
+    "Recambio de prótesis"
+   ],
+   [
+    "Técnica Váser",
+    "Contorno corporal",
+    "Lipofilling"
+   ],
+   [
+    "Pecho masculino",
+    "Aumento de pectoral",
+    "Resultado natural"
+   ],
+   [
+    "Estética y funcional",
+    "Rinomodelación sin cirugía",
+    "Tabique nasal"
+   ],
+   [
+    "Balón gástrico",
+    "Endomanga MEGA",
+    "Cirugía bariátrica"
+   ],
+   [
+    "Párpados y bolsas",
+    "Anestesia local",
+    "Cicatriz discreta"
+   ]
+  ],
+  "filtros": {
+   "label": "Filtrar unidades",
+   "todas": "Todas",
+   "facial": "Facial",
+   "corporal": "Corporal",
+   "mamas": "Mamas",
+   "masculina": "Masculina",
+   "obesidad": "Obesidad",
+   "cosmetica": "Cosmética"
+  },
+  "pasos": {
+   "kicker": "Cómo trabajamos",
+   "heading": "Del primer mensaje al alta",
+   "sub": "Cuatro pasos, ninguna sorpresa por el camino.",
+   "items": [
+    {
+     "t": "Escribes y te contestamos",
+     "d": "Por teléfono, WhatsApp o formulario. Respuesta en el mismo día laborable."
+    },
+    {
+     "t": "Valoración médica gratuita",
+     "d": "Con el especialista, sin coste y sin compromiso. Se estudia tu caso y se te explican las opciones reales, con cirugía o sin ella."
+    },
+    {
+     "t": "Presupuesto cerrado",
+     "d": "Por escrito después de la valoración, sin costes ocultos. Con <a href=\"{fin}\">financiación</a> si la necesitas."
+    },
+    {
+     "t": "Seguimiento y revisiones",
+     "d": "Acompañamiento durante todo el postoperatorio, con el mismo equipo médico que te valoró."
+    }
+   ]
+  },
+  "equipoMas": "Conocer al equipo médico completo",
+  "faq": {
+   "kicker": "Preguntas frecuentes",
+   "heading": "Preguntas frecuentes sobre cirugía estética en Girona",
+   "items": [
+    {
+     "q": "¿Qué diferencia hay entre cirugía estética y medicina estética?",
+     "a": "La <b>cirugía estética</b> es un procedimiento quirúrgico realizado en quirófano por un cirujano plástico colegiado (aumento de pecho, liposucción, rinoplastia, abdominoplastia o blefaroplastia), con resultados duraderos y un periodo de recuperación. La <b>medicina estética</b> agrupa tratamientos no quirúrgicos, como la toxina botulínica, los rellenos, los hilos tensores o el peeling, que se realizan en consulta y permiten volver a la rutina el mismo día. En Medics Integral Salut trabajamos ambas disciplinas con el mismo equipo médico."
+    },
+    {
+     "q": "¿Cómo elegir una buena clínica estética en Girona?",
+     "a": "Comprueba tres cosas antes de decidir: que los cirujanos estén colegiados y acreditados por sociedades como la SECPRE, que el centro tenga trayectoria y opiniones verificables, y que la primera visita sea una valoración médica real, no una venta. Medics Integral Salut es una <b>clínica estética en Girona</b> con equipo propio de cirugía plástica y medicina estética, instalaciones modernas y una valoración de {rating}★ sobre {count} reseñas en Google desde {since}."
+    },
+    {
+     "q": "¿Cuánto cuesta una cirugía estética y se puede financiar?",
+     "a": "El precio de una <b>cirugía estética</b> depende de la técnica, del tiempo de quirófano, del tipo de anestesia y del seguimiento posterior, por lo que no existe una tarifa única: el presupuesto se cierra por escrito después de la valoración médica, sin sorpresas ni costes ocultos. Disponemos de <a href=\"{fin}\">financiación</a> para repartir el importe en cuotas y la primera valoración es siempre gratuita y sin compromiso."
+    },
+    {
+     "q": "¿Qué incluye la primera valoración y cómo pido cita?",
+     "a": "La primera valoración es gratuita e incluye el estudio del caso con el médico especialista, la explicación de las opciones de <b>cirugía estética</b> o <b>medicina estética</b> indicadas para ti, la resolución de dudas sobre el postoperatorio y un presupuesto cerrado. Puedes pedir cita por teléfono en el <a href=\"{tel}\">+34 972 20 90 86</a>, por <a href=\"{wa}\">WhatsApp</a> o desde el <a href=\"{contacto}\">formulario de contacto</a>. Atendemos en Plaça Poeta Marquina, 3 (Girona), a 5 minutos de la estación del AVE."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Pide tu valoración gratuita",
+   "sub": "Te contestamos el mismo día laborable. Sin coste y sin compromiso.",
+   "tratamiento": "Tratamiento que te interesa",
+   "tratamientoVacio": "Selecciona o déjalo en blanco si aún no lo sabes",
+   "submit": "Pedir mi valoración gratuita",
+   "legal": "Responsable: VIOLET GRUP MEDIC SL · Finalidad: atender tu solicitud de valoración · Puedes ejercer tus derechos escribiendo a <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "¿Prefieres llamar?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "Lunes a viernes, 10:00 a 20:00 h"
+   },
+   {
+    "k": "O escribir por WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Respuesta el mismo día laborable"
+   },
+   {
+    "k": "La primera visita",
+    "v": "Gratuita",
+    "s": "Valoración con el médico especialista, sin compromiso y con presupuesto cerrado"
+   },
+   {
+    "k": "Dónde estamos",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Girona · a 5 minutos de la estación del AVE"
+   }
+  ]
+ },
+ "ca": {
+  "hero": {
+   "eyebrow": "Girona · Des de {since}",
+   "sub": "Cirurgia plàstica i medicina estètica amb enfocament mèdic, resultats naturals i un equip que t'acompanya a cada pas, des de la primera valoració fins a l'última revisió.",
+   "cta": "Demanar la meva valoració gratuïta",
+   "wa": "Escriu-nos per WhatsApp",
+   "reviews": "{count} opinions a Google",
+   "badge": "Equip mèdic col·legiat · Membres de la SECPRE",
+   "alt": "El Dr. Mike Dewever, cirurgià plàstic, en consulta amb una pacient"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Valoració mèdica gratuïta",
+    "d": "Estudi del teu cas amb l'especialista, sense cost ni compromís."
+   },
+   {
+    "ic": "◈",
+    "t": "Pla personalitzat",
+    "d": "Adaptat als teus objectius i al teu tipus de pell, mai un protocol estàndard."
+   },
+   {
+    "ic": "✚",
+    "t": "Seguiment continu",
+    "d": "Revisions i acompanyament durant tot el postoperatori."
+   },
+   {
+    "ic": "⌂",
+    "t": "Entorn clínic segur",
+    "d": "Instal·lacions pròpies al centre de Girona amb equipament actual."
+   },
+   {
+    "ic": "◉",
+    "t": "Equip multidisciplinari",
+    "d": "Cirurgia plàstica, digestiva, endocrinologia i medicina estètica."
+   },
+   {
+    "ic": "≡",
+    "t": "Finançament disponible",
+    "d": "Consulta les <a href=\"{fin}\">opcions de finançament</a>."
+   }
+  ],
+  "contadores": {
+   "since": "Des de llavors a Girona",
+   "team": "Especialistes a l'equip",
+   "rating": "Valoració a Google",
+   "reviews": "Ressenyes verificades"
+  },
+  "vinetas": [
+   [
+    "Pròtesis i tècnica AMI",
+    "Elevació: pexia",
+    "Recanvi de pròtesis"
+   ],
+   [
+    "Tècnica Vàser",
+    "Contorn corporal",
+    "Lipofilling"
+   ],
+   [
+    "Pit masculí",
+    "Augment de pectoral",
+    "Resultat natural"
+   ],
+   [
+    "Estètica i funcional",
+    "Rinomodelació sense cirurgia",
+    "Envà nasal"
+   ],
+   [
+    "Baló gàstric",
+    "Endomànega MEGA",
+    "Cirurgia bariàtrica"
+   ],
+   [
+    "Parpelles i bosses",
+    "Anestèsia local",
+    "Cicatriu discreta"
+   ]
+  ],
+  "filtros": {
+   "label": "Filtrar unitats",
+   "todas": "Totes",
+   "facial": "Facial",
+   "corporal": "Corporal",
+   "mamas": "Mames",
+   "masculina": "Masculina",
+   "obesidad": "Obesitat",
+   "cosmetica": "Cosmètica"
+  },
+  "pasos": {
+   "kicker": "Com treballem",
+   "heading": "Del primer missatge a l'alta",
+   "sub": "Quatre passos, cap sorpresa pel camí.",
+   "items": [
+    {
+     "t": "Ens escrius i et responem",
+     "d": "Per telèfon, WhatsApp o formulari. Resposta el mateix dia laborable."
+    },
+    {
+     "t": "Valoració mèdica gratuïta",
+     "d": "Amb l'especialista, sense cost i sense compromís. S'estudia el teu cas i t'expliquem les opcions reals, amb cirurgia o sense."
+    },
+    {
+     "t": "Pressupost tancat",
+     "d": "Per escrit després de la valoració, sense costos ocults. Amb <a href=\"{fin}\">finançament</a> si el necessites."
+    },
+    {
+     "t": "Seguiment i revisions",
+     "d": "Acompanyament durant tot el postoperatori, amb el mateix equip mèdic que et va valorar."
+    }
+   ]
+  },
+  "equipoMas": "Conèixer tot l'equip mèdic",
+  "faq": {
+   "kicker": "Preguntes freqüents",
+   "heading": "Preguntes freqüents sobre cirurgia estètica a Girona",
+   "items": [
+    {
+     "q": "Quina diferència hi ha entre cirurgia estètica i medicina estètica?",
+     "a": "La <b>cirurgia estètica</b> és un procediment quirúrgic fet a quiròfan per un cirurgià plàstic col·legiat (augment de pit, liposucció, rinoplàstia, abdominoplàstia o blefaroplàstia), amb resultats duradors i un període de recuperació. La <b>medicina estètica</b> agrupa tractaments no quirúrgics, com la toxina botulínica, els farciments, els fils tensors o el peeling, que es fan a la consulta i permeten tornar a la rutina el mateix dia. A Medics Integral Salut treballem totes dues disciplines amb el mateix equip mèdic."
+    },
+    {
+     "q": "Com triar una bona clínica estètica a Girona?",
+     "a": "Comprova tres coses abans de decidir: que els cirurgians estiguin col·legiats i acreditats per societats com la SECPRE, que el centre tingui trajectòria i opinions verificables, i que la primera visita sigui una valoració mèdica real, no una venda. Medics Integral Salut és una <b>clínica estètica a Girona</b> amb equip propi de cirurgia plàstica i medicina estètica, instal·lacions modernes i una valoració de {rating}★ sobre {count} ressenyes a Google des de {since}."
+    },
+    {
+     "q": "Quant costa una cirurgia estètica i es pot finançar?",
+     "a": "El preu d'una <b>cirurgia estètica</b> depèn de la tècnica, del temps de quiròfan, del tipus d'anestèsia i del seguiment posterior, per això no hi ha una tarifa única: el pressupost es tanca per escrit després de la valoració mèdica, sense sorpreses ni costos ocults. Disposem de <a href=\"{fin}\">finançament</a> per repartir l'import en quotes i la primera valoració és sempre gratuïta i sense compromís."
+    },
+    {
+     "q": "Què inclou la primera valoració i com demano cita?",
+     "a": "La primera valoració és gratuïta i inclou l'estudi del cas amb el metge especialista, l'explicació de les opcions de <b>cirurgia estètica</b> o <b>medicina estètica</b> indicades per a tu, la resolució de dubtes sobre el postoperatori i un pressupost tancat. Pots demanar cita per telèfon al <a href=\"{tel}\">+34 972 20 90 86</a>, per <a href=\"{wa}\">WhatsApp</a> o des del <a href=\"{contacto}\">formulari de contacte</a>. Atenem a la Plaça Poeta Marquina, 3 (Girona), a 5 minuts de l'estació de l'AVE."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Demana la teva valoració gratuïta",
+   "sub": "Et responem el mateix dia laborable. Sense cost i sense compromís.",
+   "tratamiento": "Tractament que t'interessa",
+   "tratamientoVacio": "Selecciona'l o deixa-ho en blanc si encara no ho saps",
+   "submit": "Demanar la meva valoració gratuïta",
+   "legal": "Responsable: VIOLET GRUP MEDIC SL · Finalitat: atendre la teva sol·licitud de valoració · Pots exercir els teus drets escrivint a <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "Prefereixes trucar?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "De dilluns a divendres, de 10:00 a 20:00 h"
+   },
+   {
+    "k": "O escriure per WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Resposta el mateix dia laborable"
+   },
+   {
+    "k": "La primera visita",
+    "v": "Gratuïta",
+    "s": "Valoració amb el metge especialista, sense compromís i amb pressupost tancat"
+   },
+   {
+    "k": "On som",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Girona · a 5 minuts de l'estació de l'AVE"
+   }
+  ]
+ },
+ "en": {
+  "hero": {
+   "eyebrow": "Girona · Since {since}",
+   "sub": "Plastic surgery and aesthetic medicine with a medical approach, natural results and a team that stays with you at every step, from the first consultation to the last check-up.",
+   "cta": "Book my free consultation",
+   "wa": "Message us on WhatsApp",
+   "reviews": "{count} reviews on Google",
+   "badge": "Registered medical team · SECPRE members",
+   "alt": "Dr Mike Dewever, plastic surgeon, in consultation with a patient",
+   "titulo": "Our patients are our <em>best calling card</em>"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Free medical consultation",
+    "d": "Your case assessed by the specialist, at no cost and with no commitment."
+   },
+   {
+    "ic": "◈",
+    "t": "Personalised plan",
+    "d": "Tailored to your goals and your skin type, never a standard protocol."
+   },
+   {
+    "ic": "✚",
+    "t": "Ongoing follow-up",
+    "d": "Check-ups and support throughout your recovery."
+   },
+   {
+    "ic": "⌂",
+    "t": "Safe clinical setting",
+    "d": "Our own facilities in the centre of Girona with up-to-date equipment."
+   },
+   {
+    "ic": "◉",
+    "t": "Multidisciplinary team",
+    "d": "Plastic and digestive surgery, endocrinology and aesthetic medicine."
+   },
+   {
+    "ic": "≡",
+    "t": "Financing available",
+    "d": "See the <a href=\"{fin}\">financing options</a>."
+   }
+  ],
+  "contadores": {
+   "since": "In Girona since then",
+   "team": "Specialists on the team",
+   "rating": "Google rating",
+   "reviews": "Verified reviews"
+  },
+  "vinetas": [
+   [
+    "Implants and AMI technique",
+    "Breast lift: mastopexy",
+    "Implant replacement"
+   ],
+   [
+    "Vaser technique",
+    "Body contouring",
+    "Lipofilling"
+   ],
+   [
+    "Male chest",
+    "Pectoral augmentation",
+    "Natural result"
+   ],
+   [
+    "Aesthetic and functional",
+    "Non-surgical rhinomodelling",
+    "Nasal septum"
+   ],
+   [
+    "Gastric balloon",
+    "MEGA endosleeve",
+    "Bariatric surgery"
+   ],
+   [
+    "Eyelids and bags",
+    "Local anaesthetic",
+    "Discreet scar"
+   ]
+  ],
+  "filtros": {
+   "label": "Filter units",
+   "todas": "All",
+   "facial": "Face",
+   "corporal": "Body",
+   "mamas": "Breast",
+   "masculina": "Male",
+   "obesidad": "Obesity",
+   "cosmetica": "Cosmetic"
+  },
+  "pasos": {
+   "kicker": "How we work",
+   "heading": "From your first message to discharge",
+   "sub": "Four steps, no surprises along the way.",
+   "items": [
+    {
+     "t": "You write, we reply",
+     "d": "By phone, WhatsApp or form. Reply the same working day."
+    },
+    {
+     "t": "Free medical consultation",
+     "d": "With the specialist, at no cost and with no commitment. We study your case and explain the real options, with or without surgery."
+    },
+    {
+     "t": "Fixed quote",
+     "d": "In writing after the consultation, with no hidden costs. With <a href=\"{fin}\">financing</a> if you need it."
+    },
+    {
+     "t": "Follow-up and check-ups",
+     "d": "Support throughout your recovery, with the same medical team that assessed you."
+    }
+   ]
+  },
+  "equipoMas": "Meet the whole medical team",
+  "faq": {
+   "kicker": "Frequently asked questions",
+   "heading": "Frequently asked questions about cosmetic surgery in Girona",
+   "items": [
+    {
+     "q": "What is the difference between cosmetic surgery and aesthetic medicine?",
+     "a": "<b>Cosmetic surgery</b> is a surgical procedure performed in an operating theatre by a registered plastic surgeon (breast augmentation, liposuction, rhinoplasty, abdominoplasty or blepharoplasty), with long-lasting results and a recovery period. <b>Aesthetic medicine</b> covers non-surgical treatments, such as botulinum toxin, fillers, thread lifts or peels, which are done in the consulting room and let you get back to your routine the same day. At Medics Integral Salut we offer both with the same medical team."
+    },
+    {
+     "q": "How do I choose a good aesthetic clinic in Girona?",
+     "a": "Check three things before deciding: that the surgeons are registered and accredited by societies such as SECPRE, that the clinic has a track record and verifiable reviews, and that the first visit is a real medical assessment, not a sales pitch. Medics Integral Salut is an <b>aesthetic clinic in Girona</b> with its own plastic surgery and aesthetic medicine team, modern facilities and a {rating}★ rating from {count} Google reviews since {since}."
+    },
+    {
+     "q": "How much does cosmetic surgery cost and can it be financed?",
+     "a": "The price of <b>cosmetic surgery</b> depends on the technique, theatre time, type of anaesthetic and aftercare, so there is no single fee: the quote is fixed in writing after the medical consultation, with no surprises or hidden costs. We offer <a href=\"{fin}\">financing</a> to spread the cost in instalments, and the first consultation is always free and with no commitment."
+    },
+    {
+     "q": "What does the first consultation include and how do I book?",
+     "a": "The first consultation is free and includes a review of your case with the specialist doctor, an explanation of the <b>cosmetic surgery</b> or <b>aesthetic medicine</b> options that suit you, answers to your questions about recovery and a fixed quote. You can book by phone on <a href=\"{tel}\">+34 972 20 90 86</a>, on <a href=\"{wa}\">WhatsApp</a> or using the <a href=\"{contacto}\">contact form</a>. We are at Plaça Poeta Marquina, 3 (Girona), 5 minutes from the high-speed train station."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Book your free consultation",
+   "sub": "We reply the same working day. No cost and no commitment.",
+   "tratamiento": "Treatment you are interested in",
+   "tratamientoVacio": "Choose one or leave it blank if you are not sure yet",
+   "submit": "Book my free consultation",
+   "legal": "Data controller: VIOLET GRUP MEDIC SL · Purpose: to handle your consultation request · You can exercise your rights by writing to <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "Prefer to call?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "Monday to Friday, 10:00 to 20:00"
+   },
+   {
+    "k": "Or write on WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Reply the same working day"
+   },
+   {
+    "k": "Your first visit",
+    "v": "Free",
+    "s": "Consultation with the specialist doctor, no commitment and a fixed quote"
+   },
+   {
+    "k": "Where we are",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Girona · 5 minutes from the high-speed train station"
+   }
+  ]
+ },
+ "fr": {
+  "hero": {
+   "eyebrow": "Gérone · Depuis {since}",
+   "sub": "Chirurgie plastique et médecine esthétique avec une approche médicale, des résultats naturels et une équipe qui vous accompagne à chaque étape, de la première consultation au dernier contrôle.",
+   "cta": "Demander ma consultation gratuite",
+   "wa": "Écrivez-nous sur WhatsApp",
+   "reviews": "{count} avis sur Google",
+   "badge": "Équipe médicale inscrite à l'Ordre · Membres de la SECPRE",
+   "alt": "Le Dr Mike Dewever, chirurgien plasticien, en consultation avec une patiente",
+   "titulo": "Nos patients sont notre <em>meilleure carte de visite</em>"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Consultation médicale gratuite",
+    "d": "Étude de votre cas avec le spécialiste, sans frais ni engagement."
+   },
+   {
+    "ic": "◈",
+    "t": "Plan personnalisé",
+    "d": "Adapté à vos objectifs et à votre type de peau, jamais un protocole standard."
+   },
+   {
+    "ic": "✚",
+    "t": "Suivi continu",
+    "d": "Contrôles et accompagnement pendant toute la période postopératoire."
+   },
+   {
+    "ic": "⌂",
+    "t": "Cadre clinique sûr",
+    "d": "Nos propres installations au centre de Gérone, avec un équipement actuel."
+   },
+   {
+    "ic": "◉",
+    "t": "Équipe pluridisciplinaire",
+    "d": "Chirurgie plastique et digestive, endocrinologie et médecine esthétique."
+   },
+   {
+    "ic": "≡",
+    "t": "Financement disponible",
+    "d": "Consultez les <a href=\"{fin}\">options de financement</a>."
+   }
+  ],
+  "contadores": {
+   "since": "Depuis lors à Gérone",
+   "team": "Spécialistes dans l'équipe",
+   "rating": "Note sur Google",
+   "reviews": "Avis vérifiés"
+  },
+  "vinetas": [
+   [
+    "Prothèses et technique AMI",
+    "Lifting : mastopexie",
+    "Changement de prothèses"
+   ],
+   [
+    "Technique Vaser",
+    "Remodelage du corps",
+    "Lipofilling"
+   ],
+   [
+    "Poitrine masculine",
+    "Augmentation des pectoraux",
+    "Résultat naturel"
+   ],
+   [
+    "Esthétique et fonctionnelle",
+    "Rhinomodelage sans chirurgie",
+    "Cloison nasale"
+   ],
+   [
+    "Ballon gastrique",
+    "Endomanchon MEGA",
+    "Chirurgie bariatrique"
+   ],
+   [
+    "Paupières et poches",
+    "Anesthésie locale",
+    "Cicatrice discrète"
+   ]
+  ],
+  "filtros": {
+   "label": "Filtrer les unités",
+   "todas": "Toutes",
+   "facial": "Visage",
+   "corporal": "Corps",
+   "mamas": "Seins",
+   "masculina": "Homme",
+   "obesidad": "Obésité",
+   "cosmetica": "Cosmétique"
+  },
+  "pasos": {
+   "kicker": "Notre façon de travailler",
+   "heading": "Du premier message à la fin du suivi",
+   "sub": "Quatre étapes, aucune surprise en chemin.",
+   "items": [
+    {
+     "t": "Vous écrivez, nous répondons",
+     "d": "Par téléphone, WhatsApp ou formulaire. Réponse le jour ouvrable même."
+    },
+    {
+     "t": "Consultation médicale gratuite",
+     "d": "Avec le spécialiste, sans frais ni engagement. Nous étudions votre cas et vous expliquons les vraies options, avec ou sans chirurgie."
+    },
+    {
+     "t": "Devis fermé",
+     "d": "Par écrit après la consultation, sans frais cachés. Avec un <a href=\"{fin}\">financement</a> si vous en avez besoin."
+    },
+    {
+     "t": "Suivi et contrôles",
+     "d": "Accompagnement pendant toute la période postopératoire, avec la même équipe médicale que lors de la consultation."
+    }
+   ]
+  },
+  "equipoMas": "Découvrir toute l'équipe médicale",
+  "faq": {
+   "kicker": "Questions fréquentes",
+   "heading": "Questions fréquentes sur la chirurgie esthétique à Gérone",
+   "items": [
+    {
+     "q": "Quelle est la différence entre chirurgie esthétique et médecine esthétique ?",
+     "a": "La <b>chirurgie esthétique</b> est une intervention chirurgicale réalisée au bloc opératoire par un chirurgien plasticien inscrit à l'Ordre (augmentation mammaire, liposuccion, rhinoplastie, abdominoplastie ou blépharoplastie), avec des résultats durables et une période de récupération. La <b>médecine esthétique</b> regroupe des traitements non chirurgicaux, comme la toxine botulique, les injections de comblement, les fils tenseurs ou le peeling, réalisés en cabinet et qui permettent de reprendre ses activités le jour même. Chez Medics Integral Salut, nous pratiquons les deux avec la même équipe médicale."
+    },
+    {
+     "q": "Comment choisir une bonne clinique esthétique à Gérone ?",
+     "a": "Vérifiez trois choses avant de décider : que les chirurgiens soient inscrits à l'Ordre et accrédités par des sociétés comme la SECPRE, que le centre ait une expérience et des avis vérifiables, et que la première visite soit une vraie consultation médicale, pas une vente. Medics Integral Salut est une <b>clinique esthétique à Gérone</b> avec sa propre équipe de chirurgie plastique et de médecine esthétique, des installations modernes et une note de {rating}★ sur {count} avis Google depuis {since}."
+    },
+    {
+     "q": "Combien coûte une chirurgie esthétique et peut-on la financer ?",
+     "a": "Le prix d'une <b>chirurgie esthétique</b> dépend de la technique, du temps de bloc, du type d'anesthésie et du suivi, il n'existe donc pas de tarif unique : le devis est fixé par écrit après la consultation médicale, sans surprises ni frais cachés. Nous proposons un <a href=\"{fin}\">financement</a> pour payer en plusieurs mensualités, et la première consultation est toujours gratuite et sans engagement."
+    },
+    {
+     "q": "Que comprend la première consultation et comment prendre rendez-vous ?",
+     "a": "La première consultation est gratuite et comprend l'étude de votre cas avec le médecin spécialiste, l'explication des options de <b>chirurgie esthétique</b> ou de <b>médecine esthétique</b> adaptées à vous, les réponses à vos questions sur la récupération et un devis fermé. Vous pouvez prendre rendez-vous par téléphone au <a href=\"{tel}\">+34 972 20 90 86</a>, sur <a href=\"{wa}\">WhatsApp</a> ou avec le <a href=\"{contacto}\">formulaire de contact</a>. Nous vous recevons Plaça Poeta Marquina, 3 (Gérone), à 5 minutes de la gare TGV."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Demandez votre consultation gratuite",
+   "sub": "Nous répondons le jour ouvrable même. Sans frais et sans engagement.",
+   "tratamiento": "Traitement qui vous intéresse",
+   "tratamientoVacio": "Choisissez ou laissez vide si vous ne savez pas encore",
+   "submit": "Demander ma consultation gratuite",
+   "legal": "Responsable : VIOLET GRUP MEDIC SL · Finalité : traiter votre demande de consultation · Vous pouvez exercer vos droits en écrivant à <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "Vous préférez appeler ?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "Du lundi au vendredi, de 10 h à 20 h"
+   },
+   {
+    "k": "Ou écrire sur WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Réponse le jour ouvrable même"
+   },
+   {
+    "k": "La première visite",
+    "v": "Gratuite",
+    "s": "Consultation avec le médecin spécialiste, sans engagement et avec un devis fermé"
+   },
+   {
+    "k": "Où nous trouver",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Gérone · à 5 minutes de la gare TGV"
+   }
+  ]
+ },
+ "ru": {
+  "hero": {
+   "eyebrow": "Жирона · С {since} года",
+   "sub": "Пластическая хирургия и эстетическая медицина с медицинским подходом, естественными результатами и командой, которая сопровождает вас на каждом этапе: от первой консультации до последнего осмотра.",
+   "cta": "Записаться на бесплатную консультацию",
+   "wa": "Написать нам в WhatsApp",
+   "reviews": "{count} отзывов в Google",
+   "badge": "Дипломированные врачи · Члены SECPRE",
+   "alt": "Пластический хирург доктор Майк Девевер на консультации с пациенткой",
+   "titulo": "Наши пациенты — наша <em>лучшая визитная карточка</em>"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Бесплатная консультация врача",
+    "d": "Специалист изучит ваш случай бесплатно и без обязательств."
+   },
+   {
+    "ic": "◈",
+    "t": "Индивидуальный план",
+    "d": "С учётом ваших целей и типа кожи, а не стандартный протокол."
+   },
+   {
+    "ic": "✚",
+    "t": "Постоянное наблюдение",
+    "d": "Осмотры и сопровождение на протяжении всего послеоперационного периода."
+   },
+   {
+    "ic": "⌂",
+    "t": "Безопасная клиническая среда",
+    "d": "Собственная клиника в центре Жироны с современным оборудованием."
+   },
+   {
+    "ic": "◉",
+    "t": "Многопрофильная команда",
+    "d": "Пластическая хирургия, хирургия пищеварительной системы, эндокринология и эстетическая медицина."
+   },
+   {
+    "ic": "≡",
+    "t": "Возможна рассрочка",
+    "d": "Узнайте о <a href=\"{fin}\">вариантах финансирования</a>."
+   }
+  ],
+  "contadores": {
+   "since": "С этого года в Жироне",
+   "team": "Специалистов в команде",
+   "rating": "Оценка в Google",
+   "reviews": "Проверенных отзывов"
+  },
+  "vinetas": [
+   [
+    "Импланты и техника AMI",
+    "Подтяжка: мастопексия",
+    "Замена имплантов"
+   ],
+   [
+    "Техника Vaser",
+    "Контурирование тела",
+    "Липофилинг"
+   ],
+   [
+    "Мужская грудь",
+    "Увеличение грудных мышц",
+    "Естественный результат"
+   ],
+   [
+    "Эстетическая и функциональная",
+    "Риномоделирование без операции",
+    "Носовая перегородка"
+   ],
+   [
+    "Внутрижелудочный баллон",
+    "Эндорукав MEGA",
+    "Бариатрическая хирургия"
+   ],
+   [
+    "Веки и мешки",
+    "Местная анестезия",
+    "Незаметный шрам"
+   ]
+  ],
+  "filtros": {
+   "label": "Фильтр отделений",
+   "todas": "Все",
+   "facial": "Лицо",
+   "corporal": "Тело",
+   "mamas": "Грудь",
+   "masculina": "Для мужчин",
+   "obesidad": "Ожирение",
+   "cosmetica": "Косметология"
+  },
+  "pasos": {
+   "kicker": "Как мы работаем",
+   "heading": "От первого сообщения до выписки",
+   "sub": "Четыре шага без сюрпризов.",
+   "items": [
+    {
+     "t": "Вы пишете, мы отвечаем",
+     "d": "По телефону, в WhatsApp или через форму. Ответ в тот же рабочий день."
+    },
+    {
+     "t": "Бесплатная консультация врача",
+     "d": "Со специалистом, бесплатно и без обязательств. Мы изучим ваш случай и объясним реальные варианты, с операцией или без неё."
+    },
+    {
+     "t": "Фиксированная смета",
+     "d": "В письменном виде после консультации, без скрытых расходов. С <a href=\"{fin}\">рассрочкой</a>, если она нужна."
+    },
+    {
+     "t": "Наблюдение и осмотры",
+     "d": "Сопровождение на протяжении всего послеоперационного периода той же командой врачей, что проводила консультацию."
+    }
+   ]
+  },
+  "equipoMas": "Познакомиться со всей командой врачей",
+  "faq": {
+   "kicker": "Частые вопросы",
+   "heading": "Частые вопросы об эстетической хирургии в Жироне",
+   "items": [
+    {
+     "q": "Чем эстетическая хирургия отличается от эстетической медицины?",
+     "a": "<b>Эстетическая хирургия</b> — это операция, которую проводит в операционной дипломированный пластический хирург (увеличение груди, липосакция, ринопластика, абдоминопластика или блефаропластика); её результаты долговечны, и она требует периода восстановления. <b>Эстетическая медицина</b> включает нехирургические процедуры, такие как ботулотоксин, филлеры, нити или пилинг: их проводят в кабинете, и уже в тот же день можно вернуться к привычной жизни. В Medics Integral Salut обоими направлениями занимается одна и та же команда врачей."
+    },
+    {
+     "q": "Как выбрать хорошую эстетическую клинику в Жироне?",
+     "a": "Перед решением проверьте три вещи: что хирурги дипломированы и аккредитованы такими обществами, как SECPRE; что у клиники есть опыт и проверяемые отзывы; и что первый визит — это настоящая медицинская консультация, а не продажа. Medics Integral Salut — <b>эстетическая клиника в Жироне</b> с собственной командой пластических хирургов и врачей эстетической медицины, современным оборудованием и оценкой {rating}★ по {count} отзывам в Google с {since} года."
+    },
+    {
+     "q": "Сколько стоит эстетическая операция и можно ли оформить рассрочку?",
+     "a": "Стоимость <b>эстетической операции</b> зависит от методики, длительности операции, вида анестезии и последующего наблюдения, поэтому единой цены нет: смета фиксируется письменно после консультации врача, без сюрпризов и скрытых расходов. Мы предлагаем <a href=\"{fin}\">рассрочку</a>, а первая консультация всегда бесплатна и ни к чему не обязывает."
+    },
+    {
+     "q": "Что входит в первую консультацию и как записаться?",
+     "a": "Первая консультация бесплатна: врач-специалист изучает ваш случай, объясняет подходящие вам варианты <b>эстетической хирургии</b> или <b>эстетической медицины</b>, отвечает на вопросы о восстановлении и составляет фиксированную смету. Записаться можно по телефону <a href=\"{tel}\">+34 972 20 90 86</a>, в <a href=\"{wa}\">WhatsApp</a> или через <a href=\"{contacto}\">форму обратной связи</a>. Мы находимся по адресу Plaça Poeta Marquina, 3 (Жирона), в 5 минутах от вокзала скоростных поездов AVE."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Запишитесь на бесплатную консультацию",
+   "sub": "Мы отвечаем в тот же рабочий день. Бесплатно и без обязательств.",
+   "tratamiento": "Интересующая процедура",
+   "tratamientoVacio": "Выберите или оставьте пустым, если ещё не решили",
+   "submit": "Записаться на бесплатную консультацию",
+   "legal": "Ответственный за обработку данных: VIOLET GRUP MEDIC SL · Цель: обработка вашей заявки на консультацию · Вы можете реализовать свои права, написав на <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "Хотите позвонить?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "С понедельника по пятницу, с 10:00 до 20:00"
+   },
+   {
+    "k": "Или написать в WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Ответ в тот же рабочий день"
+   },
+   {
+    "k": "Первый визит",
+    "v": "Бесплатно",
+    "s": "Консультация врача-специалиста без обязательств и с фиксированной сметой"
+   },
+   {
+    "k": "Где мы находимся",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Жирона · в 5 минутах от вокзала AVE"
+   }
+  ]
+ },
+ "uk": {
+  "hero": {
+   "eyebrow": "Жирона · З {since} року",
+   "sub": "Пластична хірургія та естетична медицина з медичним підходом, природними результатами й командою, яка супроводжує вас на кожному етапі: від першої консультації до останнього огляду.",
+   "cta": "Записатися на безкоштовну консультацію",
+   "wa": "Написати нам у WhatsApp",
+   "reviews": "{count} відгуків у Google",
+   "badge": "Дипломовані лікарі · Члени SECPRE",
+   "alt": "Пластичний хірург доктор Майк Девевер на консультації з пацієнткою",
+   "titulo": "Наші пацієнти — наша <em>найкраща візитівка</em>"
+  },
+  "ventajas": [
+   {
+    "ic": "✦",
+    "t": "Безкоштовна консультація лікаря",
+    "d": "Фахівець вивчить ваш випадок безкоштовно й без зобов'язань."
+   },
+   {
+    "ic": "◈",
+    "t": "Індивідуальний план",
+    "d": "З урахуванням ваших цілей і типу шкіри, а не стандартний протокол."
+   },
+   {
+    "ic": "✚",
+    "t": "Постійний супровід",
+    "d": "Огляди та підтримка протягом усього післяопераційного періоду."
+   },
+   {
+    "ic": "⌂",
+    "t": "Безпечне клінічне середовище",
+    "d": "Власна клініка в центрі Жирони із сучасним обладнанням."
+   },
+   {
+    "ic": "◉",
+    "t": "Багатопрофільна команда",
+    "d": "Пластична хірургія, хірургія травної системи, ендокринологія та естетична медицина."
+   },
+   {
+    "ic": "≡",
+    "t": "Можлива розстрочка",
+    "d": "Дізнайтеся про <a href=\"{fin}\">варіанти фінансування</a>."
+   }
+  ],
+  "contadores": {
+   "since": "З того часу в Жироні",
+   "team": "Фахівців у команді",
+   "rating": "Оцінка в Google",
+   "reviews": "Перевірених відгуків"
+  },
+  "vinetas": [
+   [
+    "Імпланти й техніка AMI",
+    "Підтяжка: мастопексія",
+    "Заміна імплантів"
+   ],
+   [
+    "Техніка Vaser",
+    "Контурування тіла",
+    "Ліпофілінг"
+   ],
+   [
+    "Чоловічі груди",
+    "Збільшення грудних м'язів",
+    "Природний результат"
+   ],
+   [
+    "Естетична й функціональна",
+    "Риномоделювання без операції",
+    "Носова перегородка"
+   ],
+   [
+    "Внутрішньошлунковий балон",
+    "Ендорукав MEGA",
+    "Баріатрична хірургія"
+   ],
+   [
+    "Повіки та мішки",
+    "Місцева анестезія",
+    "Непомітний рубець"
+   ]
+  ],
+  "filtros": {
+   "label": "Фільтр відділень",
+   "todas": "Усі",
+   "facial": "Обличчя",
+   "corporal": "Тіло",
+   "mamas": "Груди",
+   "masculina": "Для чоловіків",
+   "obesidad": "Ожиріння",
+   "cosmetica": "Косметологія"
+  },
+  "pasos": {
+   "kicker": "Як ми працюємо",
+   "heading": "Від першого повідомлення до виписки",
+   "sub": "Чотири кроки без несподіванок.",
+   "items": [
+    {
+     "t": "Ви пишете, ми відповідаємо",
+     "d": "Телефоном, у WhatsApp або через форму. Відповідь того ж робочого дня."
+    },
+    {
+     "t": "Безкоштовна консультація лікаря",
+     "d": "Із фахівцем, безкоштовно й без зобов'язань. Ми вивчимо ваш випадок і пояснимо реальні варіанти, з операцією чи без неї."
+    },
+    {
+     "t": "Фіксований кошторис",
+     "d": "У письмовому вигляді після консультації, без прихованих витрат. Із <a href=\"{fin}\">розстрочкою</a>, якщо вона потрібна."
+    },
+    {
+     "t": "Супровід і огляди",
+     "d": "Підтримка протягом усього післяопераційного періоду тією ж командою лікарів, що проводила консультацію."
+    }
+   ]
+  },
+  "equipoMas": "Познайомитися з усією командою лікарів",
+  "faq": {
+   "kicker": "Поширені запитання",
+   "heading": "Поширені запитання про естетичну хірургію в Жироні",
+   "items": [
+    {
+     "q": "Чим естетична хірургія відрізняється від естетичної медицини?",
+     "a": "<b>Естетична хірургія</b> — це операція, яку проводить в операційній дипломований пластичний хірург (збільшення грудей, ліпосакція, ринопластика, абдомінопластика або блефаропластика); її результати тривалі, і вона потребує періоду відновлення. <b>Естетична медицина</b> охоплює нехірургічні процедури, як-от ботулотоксин, філери, нитки чи пілінг: їх проводять у кабінеті, і того ж дня можна повернутися до звичного життя. У Medics Integral Salut обома напрямами займається та сама команда лікарів."
+    },
+    {
+     "q": "Як обрати хорошу естетичну клініку в Жироні?",
+     "a": "Перш ніж ухвалити рішення, перевірте три речі: що хірурги дипломовані й акредитовані такими товариствами, як SECPRE; що клініка має досвід і відгуки, які можна перевірити; і що перший візит — це справжня медична консультація, а не продаж. Medics Integral Salut — <b>естетична клініка в Жироні</b> з власною командою пластичних хірургів і лікарів естетичної медицини, сучасним обладнанням та оцінкою {rating}★ за {count} відгуками в Google з {since} року."
+    },
+    {
+     "q": "Скільки коштує естетична операція і чи можна оформити розстрочку?",
+     "a": "Вартість <b>естетичної операції</b> залежить від методики, тривалості операції, виду анестезії та подальшого супроводу, тому єдиної ціни немає: кошторис фіксується письмово після консультації лікаря, без несподіванок і прихованих витрат. Ми пропонуємо <a href=\"{fin}\">розстрочку</a>, а перша консультація завжди безкоштовна й ні до чого не зобов'язує."
+    },
+    {
+     "q": "Що входить до першої консультації і як записатися?",
+     "a": "Перша консультація безкоштовна: лікар-фахівець вивчає ваш випадок, пояснює відповідні вам варіанти <b>естетичної хірургії</b> чи <b>естетичної медицини</b>, відповідає на запитання про відновлення та складає фіксований кошторис. Записатися можна телефоном <a href=\"{tel}\">+34 972 20 90 86</a>, у <a href=\"{wa}\">WhatsApp</a> або через <a href=\"{contacto}\">форму зворотного зв'язку</a>. Ми знаходимося за адресою Plaça Poeta Marquina, 3 (Жирона), за 5 хвилин від вокзалу швидкісних потягів AVE."
+    }
+   ]
+  },
+  "form": {
+   "titulo": "Запишіться на безкоштовну консультацію",
+   "sub": "Ми відповідаємо того ж робочого дня. Безкоштовно й без зобов'язань.",
+   "tratamiento": "Процедура, що вас цікавить",
+   "tratamientoVacio": "Оберіть або залиште порожнім, якщо ще не вирішили",
+   "submit": "Записатися на безкоштовну консультацію",
+   "legal": "Відповідальний за обробку даних: VIOLET GRUP MEDIC SL · Мета: обробка вашої заявки на консультацію · Ви можете реалізувати свої права, написавши на <a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+  },
+  "lateral": [
+   {
+    "k": "Бажаєте зателефонувати?",
+    "v": "<a href=\"tel:+34972209086\">972 20 90 86</a>",
+    "s": "З понеділка по п'ятницю, з 10:00 до 20:00"
+   },
+   {
+    "k": "Або написати в WhatsApp",
+    "v": "<a href=\"https://api.whatsapp.com/send?phone=34620892236\">620 892 236</a>",
+    "s": "Відповідь того ж робочого дня"
+   },
+   {
+    "k": "Перший візит",
+    "v": "Безкоштовно",
+    "s": "Консультація лікаря-фахівця без зобов'язань і з фіксованим кошторисом"
+   },
+   {
+    "k": "Де ми знаходимося",
+    "v": "Plaça Poeta Marquina, 3",
+    "s": "17002 Жирона · за 5 хвилин від вокзалу AVE"
+   }
+  ]
+ }
+}

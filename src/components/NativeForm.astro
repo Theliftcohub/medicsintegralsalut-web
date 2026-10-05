@@ -4,7 +4,9 @@
 // Guarda UTM/click-id/referrer de la visita (sessionStorage) y hace dataLayer.push form_submit al enviar.
 import Icon from './Icon.astro';
 import ui from '../i18n/ui.json';
-const { form, lang = 'es', cls = 'mp-form', btnClass = 'mpost-btn b-primary', btnSpan = false } = Astro.props;
+// campos=true: etiquetas visibles y rejilla de dos columnas (portada «prototipo»); los campos llevan `label` y `ancho`.
+const { form, lang = 'es', cls = 'mp-form', btnClass = 'mpost-btn b-primary', btnSpan = false, campos = false } = Astro.props;
+const id = (f: any) => `${form.name}-${f.name}`;
 const t = (ui as any)[lang] ?? ui.es;
 const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
 ---
@@ -14,7 +16,20 @@ const preview = (import.meta.env.PUBLIC_ENTORNO ?? 'preview') === 'preview';
   <input type="hidden" name="_lang" value={lang} />
   <input type="hidden" name="_gracias" value={form.thanks} />
   {['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','wbraid','gbraid','referrer'].map((k) => <input type="hidden" name={k} data-attr={k} />)}
-  {form.fields.map((f: any) => f.type === 'select'
+  {campos ? (
+    <div class="pt-campos">
+      {form.fields.map((f: any) => f.type === 'checkbox'
+        ? <label class="pt-consent"><input type="checkbox" name={f.name} value="1" required={f.required} /><span set:html={f.labelHtml} /></label>
+        : <div class:list={['pt-campo', f.ancho && 'pt-ancho']}>
+            <label for={id(f)}>{f.label}{f.required && <span class="pt-req"> *</span>}</label>
+            {f.type === 'select'
+              ? <select id={id(f)} name={f.name} required={f.required}>{f.options.map((o: string) => <option value={o}>{o || f.vacio}</option>)}</select>
+              : f.type === 'textarea'
+              ? <textarea id={id(f)} name={f.name} rows="4" required={f.required} maxlength="2000"></textarea>
+              : <input id={id(f)} type={f.type} name={f.name} required={f.required} maxlength="400" autocomplete={f.autocomplete} />}
+          </div>)}
+    </div>
+  ) : form.fields.map((f: any) => f.type === 'select'
     ? <label class="mp-field"><span class="sr">{f.name}</span><select name={f.name} required={f.required}>{f.options.map((o: string) => <option>{o}</option>)}</select></label>
     : f.type === 'radio'
     ? <fieldset class="mp-radio">{f.options.map((o: string, i: number) => <label><input type="radio" name={f.name} value={o} required={f.required && i === 0} />{o}</label>)}</fieldset>

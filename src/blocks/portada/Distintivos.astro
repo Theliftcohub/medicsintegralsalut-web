@@ -1,0 +1,6 @@
+---
+const { logos = [] } = Astro.props;
+---
+<section class="pt-blanca pt-distin"><div class="pt-wrap"><div class="pt-dist rv">
+  {logos.map((l: any) => <img src={l.src} alt={l.alt} width={l.w} height={l.h} loading="lazy" decoding="async" />)}
+</div></div></section>

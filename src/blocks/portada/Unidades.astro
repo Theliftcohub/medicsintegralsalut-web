@@ -1,0 +1,31 @@
+---
+// Unidades con filtro por zona. Los filtros solo ocultan (hidden): todos los enlaces siguen en el HTML.
+const { id, kicker, heading, text = [], filtros, unidades = [], cta } = Astro.props;
+const zonas = ['todas', 'facial', 'corporal', 'mamas', 'masculina', 'obesidad', 'cosmetica'];
+---
+<section id={id} class="pt-blanca">
+  <div class="pt-wrap">
+    <div class="pt-head">
+      <div class="pt-eyebrow pt-c rv">{kicker}</div>
+      <h2 class="rv d1">{heading}</h2>
+      {text.map((p: string) => <p class="rv d2" set:html={p} />)}
+    </div>
+    <div class="pt-chips rv" role="tablist" aria-label={filtros.label}>
+      {zonas.map((z, i) => <button type="button" class="pt-chip" role="tab" data-f={z} aria-selected={i === 0 ? 'true' : 'false'}>{filtros[z]}</button>)}
+    </div>
+    <div class="pt-uni-grid rv">
+      {unidades.map((u: any) => (
+        <div class="pt-uni" data-c={u.c}>
+          <h3>{u.href ? <a href={u.href}>{u.title}</a> : u.title}</h3>
+          <ul>{u.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+    {cta && <p class="pt-centro"><a class="pt-btn" href={cta.href}>{cta.text}</a></p>}
+  </div>
+  <script is:inline>
+    document.querySelectorAll('.pt-chips').forEach(function(ch){var bs=ch.querySelectorAll('.pt-chip'),us=ch.parentNode.querySelectorAll('.pt-uni');
+      bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false')});
+        var f=b.dataset.f;us.forEach(function(u){u.hidden=!(f==='todas'||u.dataset.c===f)});});});});
+  </script>
+</section>

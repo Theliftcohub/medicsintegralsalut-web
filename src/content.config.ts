@@ -19,7 +19,7 @@ const pages = defineCollection({
     lang: z.enum(['es', 'ca', 'en', 'fr', 'ru', 'uk']).default('es'),
     i18nGroup: z.string().optional(),
     title: z.string().optional(), // título literal de la página (H1 si no tiene otro)
-    theme: z.literal('vc').default('vc'),
+    theme: z.enum(['vc', 'portada']).default('vc'), // portada = diseño «prototipo» (solo las 6 portadas)
     seo,
     schema: z.array(z.record(z.string(), z.any())).default([]),
     breadcrumbs: z.array(z.object({ name: z.string(), path: z.string() })).optional(),

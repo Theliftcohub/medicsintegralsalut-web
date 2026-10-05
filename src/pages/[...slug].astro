@@ -38,7 +38,9 @@ const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
 <Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}>
-  {blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
+  {kind === 'page' && d.theme === 'portada'
+    ? <div class="pt">{blocks.map((b: any) => <Block block={b} lang={d.lang} />)}</div>
+    : blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
     <>
     <section class="vc-prosa vc-post-head"><div class="wrap">

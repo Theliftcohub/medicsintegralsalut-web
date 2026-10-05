@@ -1,0 +1,49 @@
+---
+// Contacto: formulario propio (→ form-handler.php → n8n → Kommo) con datos al lado, ficha NAP y mapa que se carga al pulsar.
+import NativeForm from '../../components/NativeForm.astro';
+import ui from '../../i18n/ui.json';
+import { ext } from '../../lib/vc';
+const { id, kicker, heading, sub, titulo, texto, legal, form, lateral = [], rows = [], ctas = [], map, lang = 'es' } = Astro.props;
+const t = (ui as any)[lang] ?? ui.es;
+const src = map ? `https://www.google.com/maps?q=${encodeURIComponent(map.q)}&output=embed` : '';
+---
+<section id={id} class="pt-crema2">
+  <div class="pt-wrap">
+    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{sub && <p class="rv d2">{sub}</p>}</div>
+    <div class="pt-form-zona rv" id="form">
+      <div class="pt-form-caja">
+        <h3 class="pt-tit">{titulo}</h3>
+        <p class="pt-sub">{texto}</p>
+        <NativeForm form={form} lang={lang} cls="pt-form" btnClass="pt-btn" btnSpan campos />
+        <p class="pt-aviso-legal" set:html={legal} />
+      </div>
+      <div class="pt-form-lat">
+        {lateral.map((b: any, i: number) => <>
+          {i > 0 && <div class="pt-sep" />}
+          <div class="pt-bloque"><div class="pt-k">{b.k}</div><div class="pt-v" set:html={b.v} /><small>{b.s}</small></div>
+        </>)}
+      </div>
+    </div>
+    <div class="pt-cont rv">
+      <div class="pt-datos">
+        {rows.map((r: any) => (
+          <div class="pt-f"><span class="pt-ic" aria-hidden="true">{r.ic}</span><div><div class="pt-k">{r.k}</div>
+            <div class="pt-v"><span set:html={r.v} />{r.note && <><br /><small>{r.note}</small></>}</div></div></div>
+        ))}
+        <div class="pt-ctas">{ctas.map((c: any) => <a class:list={['pt-btn', c.style === 'linea' && 'pt-linea']} href={c.href} {...ext(c.href)}>{c.text}</a>)}</div>
+      </div>
+      {map && (
+        <div class="pt-mapa" data-src={src} data-title={map.title}>
+          <div class="pt-mapa-fac">
+            <button type="button" class="pt-btn pt-linea">{t.map_load}</button>
+            <small>{t.map_note}</small>
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+  <script is:inline>
+    document.querySelectorAll('.pt-mapa').forEach(function(m){var b=m.querySelector('button');b&&b.addEventListener('click',function(){
+      var f=document.createElement('iframe');f.src=m.dataset.src;f.title=m.dataset.title;f.loading='lazy';m.innerHTML='';m.appendChild(f);});});
+  </script>
+</section>

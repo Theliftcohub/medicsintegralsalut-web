@@ -1,0 +1,22 @@
+---
+// Tratamientos más solicitados: tarjetas con foto en arco, viñetas y enlace.
+const { kicker, heading, sub, text = [], cards = [] } = Astro.props;
+---
+<section class="pt-crema2">
+  <div class="pt-wrap">
+    <div class="pt-head">
+      <div class="pt-eyebrow pt-c rv">{kicker}</div>
+      <h2 class="rv d1">{heading}</h2>
+      {sub && <p class="pt-sub3 rv d2">{sub}</p>}
+      {text.map((p: string) => <p class="rv d3" set:html={p} />)}
+    </div>
+    <div class="pt-serv">
+      {cards.map((c: any, i: number) => (
+        <a class:list={['pt-sv rv', `d${(i % 3) + 1}`]} href={c.href}>
+          <div class="pt-im"><img src={c.image.src} alt={c.image.alt} loading="lazy" decoding="async" width="300" height="390" /></div>
+          <div><h3>{c.title}</h3><ul>{(c.bullets ?? []).map((b: string) => <li>{b}</li>)}</ul><span class="pt-mas">{c.cta} <i aria-hidden="true">→</i></span></div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

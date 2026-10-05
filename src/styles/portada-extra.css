@@ -1,0 +1,88 @@
+/* Ajustes propios sobre portada.css (copia generada de la maqueta). Solo variables de la maqueta (.vc .pt). */
+
+/* ---- hero: foto a sangre con degradado oscuro (diseño del pantallazo de dirección, 05/10/2026) ---- */
+.vc .pt .pt-hero{position:relative;padding:0;min-height:clamp(560px,84vh,820px);display:flex;align-items:center;
+  background:#2A211C;color:#fff;overflow:hidden;isolation:isolate}
+.vc .pt .pt-hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:88% 30%;z-index:-2}
+.vc .pt .pt-hero::before{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(90deg,rgba(30,23,19,.92) 0%,rgba(30,23,19,.80) 34%,rgba(30,23,19,.42) 62%,rgba(30,23,19,.12) 100%),
+             linear-gradient(0deg,rgba(30,23,19,.55) 0%,rgba(30,23,19,0) 38%)}
+.vc .pt .pt-hero-in{width:100%;padding-top:96px;padding-bottom:88px}
+.vc .pt .pt-hero-eyebrow{margin:0 0 22px;color:var(--marca);font-size:15px;font-weight:700;letter-spacing:.01em}
+.vc .pt .pt-hero-t{color:#fff;font-size:clamp(40px,5vw,80px);font-weight:500;line-height:1.08;letter-spacing:-.015em;max-width:min(820px,54vw)}
+.vc .pt .pt-hero-t em{font-style:italic;font-weight:400;color:var(--marca)}
+.vc .pt .pt-hero-sub{color:rgba(255,255,255,.88);font-size:clamp(17px,1.35vw,20px);line-height:1.7;max-width:640px;margin:28px 0 0}
+.vc .pt .pt-hero-cta{display:flex;gap:18px;flex-wrap:wrap;margin-top:40px}
+.vc .pt .pt-hero-cta .pt-btn{padding:22px 40px;font-size:16.5px}
+.vc .pt .pt-btn-wa{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.vc .pt .pt-btn-wa:hover{background:#fff;border-color:#fff;color:var(--cacao)}
+.vc .pt .pt-hero-trust{display:flex;align-items:center;flex-wrap:wrap;gap:10px 12px;margin:56px 0 0;color:rgba(255,255,255,.85);font-size:16px}
+.vc .pt .pt-hero-trust b{font-family:var(--disp);font-size:21px;font-weight:600;color:#fff}
+.vc .pt .pt-hero-trust i{width:1px;height:22px;background:rgba(255,255,255,.3);margin:0 10px}
+.vc .pt .pt-estrellas{color:var(--marca);letter-spacing:3px;font-size:16px}
+@media(max-width:760px){
+  .vc .pt .pt-hero{min-height:0}
+  .vc .pt .pt-hero-t{max-width:none}
+  .vc .pt .pt-hero-img{object-position:72% center}
+  .vc .pt .pt-hero::before{background:linear-gradient(0deg,rgba(30,23,19,.94) 0%,rgba(30,23,19,.78) 55%,rgba(30,23,19,.55) 100%)}
+  .vc .pt .pt-hero-in{padding-top:72px;padding-bottom:56px}
+  .vc .pt .pt-hero-cta .pt-btn{width:100%;padding:18px 26px;font-size:15px}
+  .vc .pt .pt-hero-trust{margin-top:36px;font-size:14.5px}
+  .vc .pt .pt-hero-trust i{display:none}
+}
+
+/* ---- piezas que en la maqueta iban con estilos en línea ---- */
+.vc .pt .pt-clinica{padding-top:80px}
+.vc .pt .pt-clinica .pt-lead{margin-top:20px}
+.vc .pt .pt-clinica p+p{margin-top:14px}
+.vc .pt .pt-sub-h{font-size:clamp(21px,2.3vw,27px);margin-top:38px}
+.vc .pt .pt-sub3{font-family:var(--sans);font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--terra);margin-top:14px}
+.vc .pt .pt-vt p a,.vc .pt .pt-paso p a,.vc .pt .pt-faq .pt-r a{color:var(--terra);font-weight:600}
+.vc .pt .pt-extra{margin:28px 0 0;font-size:15px}
+.vc .pt .pt-centro{text-align:center;margin:44px 0 0}
+.vc .pt .pt-distin{padding:62px 0}
+.vc .pt .pt-dist{gap:28px 56px}
+.vc .pt .pt-dist img{height:auto;max-height:46px;width:auto;max-width:170px}
+/* «Resolver dudas sobre este tratamiento →»: la flecha va pegada al texto aunque haga dos líneas */
+.vc .pt .pt-sv .pt-mas{display:block}
+.vc .pt .pt-sv .pt-mas i{display:inline-block;margin-left:4px}
+
+/* ---- pasos (lista ordenada) y unidades ---- */
+.vc .pt .pt-pasos{list-style:none;margin:0;padding:0}
+.vc .pt .pt-uni h3 a{text-decoration:none}
+.vc .pt .pt-uni h3 a:hover{color:var(--terra)}
+
+/* ---- tarjeta de contacto dentro de la rejilla del equipo ---- */
+.vc .pt .pt-med-card{background:#fff;border:1px solid var(--linea);border-radius:20px;padding:34px 28px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center}
+.vc .pt .pt-med-card h3{font-size:22px}
+.vc .pt .pt-med-card p{margin:0 0 8px;font-size:14px}
+
+/* ---- reseñas literales (la maqueta no las traía) ---- */
+.vc .pt .pt-resenas{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.vc .pt .pt-resena{margin:0;background:#fff;border:1px solid var(--linea);border-radius:20px;padding:26px 26px 22px;display:flex;flex-direction:column;gap:12px}
+.vc .pt .pt-resena .pt-est{color:var(--marca);letter-spacing:3px;font-size:14px}
+.vc .pt .pt-resena blockquote{margin:0}
+.vc .pt .pt-resena blockquote p{margin:0;font-size:14.5px;line-height:1.7;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+.vc .pt .pt-resena figcaption{margin-top:auto;display:flex;flex-direction:column;gap:2px}
+.vc .pt .pt-resena figcaption b{font-family:var(--disp);font-weight:500;font-size:16px;color:var(--cacao)}
+.vc .pt .pt-resena figcaption span{font-size:12px;color:var(--gris)}
+@media(max-width:980px){.vc .pt .pt-resenas{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.vc .pt .pt-resenas{grid-template-columns:1fr}}
+
+/* ---- sección de texto literal con foto en arco ---- */
+.vc .pt .pt-dos--inv{grid-template-columns:1.08fr .92fr}
+.vc .pt .pt-dos--inv p{margin:16px 0 0}
+.vc .pt .pt-dos--inv h2{margin-top:2px}
+.vc .pt .pt-arco{border-radius:var(--arco);overflow:hidden;aspect-ratio:1/1.1;background:var(--crema-2)}
+.vc .pt .pt-arco img{width:100%;height:100%;object-fit:cover}
+@media(max-width:980px){.vc .pt .pt-dos--inv{grid-template-columns:1fr}}
+
+/* ---- contacto: formulario, ficha y mapa bajo demanda ---- */
+.vc .pt .pt-form .aviso{margin:0 0 18px;font-size:12.5px}
+.vc .pt .pt-datos .pt-v small{color:var(--gris);font-size:13px}
+.vc .pt .pt-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+.vc .pt .pt-mapa{background:var(--crema-2)}
+.vc .pt .pt-mapa-fac{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px;text-align:center}
+.vc .pt .pt-mapa-fac small{color:var(--gris);font-size:12px}
+@media(max-width:760px){.vc .pt .pt-ctas .pt-btn{width:auto;flex:1}}

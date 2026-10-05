@@ -1,0 +1,25 @@
+---
+// Opiniones: nota, nº de reseñas y año (site.json -> rating) + reseñas literales del widget del WordPress.
+import { fill, ratingText, ext } from '../../lib/vc';
+const { kicker, heading, sub, source, summary = [], reviews = [], more, lang = 'es' } = Astro.props;
+---
+<section class="pt-crema2">
+  <div class="pt-wrap">
+    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{sub && <p class="pt-sub3 rv d2">{sub}</p>}</div>
+    <div class="pt-gbox rv">
+      {summary.map((s: any) => s.rating
+        ? <div><div class="pt-b">{ratingText(lang)}</div><div class="pt-est" aria-hidden="true">★★★★★</div><div class="pt-l">{s.lbl}</div></div>
+        : <div><div class="pt-m">{fill(s.big, lang)}</div><div class="pt-l">{s.lbl}</div></div>)}
+    </div>
+    <div class="pt-resenas">
+      {reviews.map((r: any) => (
+        <figure class="pt-resena rv">
+          <div class="pt-est" aria-hidden="true">★★★★★</div>
+          <blockquote><p>{r.text}</p></blockquote>
+          <figcaption><b>{r.name}</b>{source && <span>{source}</span>}</figcaption>
+        </figure>
+      ))}
+    </div>
+    {more && <p class="pt-centro"><a class="pt-btn pt-linea" href={more.href} {...ext(more.href)}>{fill(more.text, lang)}</a></p>}
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+// La clínica: collage de fotos, H1 y texto literal del WordPress, ventajas y contadores (site.json -> rating).
+import { fill, ratingText } from '../../lib/vc';
+const { kicker, headingTag = 'h1', heading, paras = [], sub, ventajas = [], extra = [], contadores, equipo, collage = [], lang = 'es' } = Astro.props;
+const H = headingTag;
+---
+<section class="pt-blanca pt-clinica">
+  <div class="pt-wrap pt-dos">
+    <div class="pt-collage rv">{collage.map((i: any) => <div class="pt-a"><img src={i.src} alt={i.alt} loading="lazy" decoding="async" width="600" height="600" /></div>)}</div>
+    <div>
+      <div class="pt-eyebrow rv">{kicker}</div>
+      <H class="rv d1">{heading}</H>
+      {paras.map((p: string, i: number) => <p class:list={[i === 0 && 'pt-lead', 'rv d2']} set:html={p} />)}
+      <h2 class="pt-sub-h rv d3">{sub}</h2>
+      <div class="pt-ventajas rv d3">
+        {ventajas.map((v: any) => <div class="pt-vt"><span class="pt-ic" aria-hidden="true">{v.ic}</span><div><h3>{v.t}</h3><p set:html={v.d} /></div></div>)}
+      </div>
+      {extra.map((p: string) => <p class="pt-extra" set:html={p} />)}
+      <div class="pt-conta rv d4">
+        <div class="pt-ct"><div class="pt-n"><span>{fill('{since}', lang)}</span><i>·</i></div><div class="pt-l">{contadores.since}</div></div>
+        <div class="pt-ct"><div class="pt-n"><span>{equipo}</span><i>+</i></div><div class="pt-l">{contadores.team}</div></div>
+        <div class="pt-ct"><div class="pt-n"><span>{ratingText(lang)}</span><i>★</i></div><div class="pt-l">{contadores.rating}</div></div>
+        <div class="pt-ct"><div class="pt-n"><span>{fill('{count}', lang)}</span><i>+</i></div><div class="pt-l">{contadores.reviews}</div></div>
+      </div>
+    </div>
+  </div>
+</section>

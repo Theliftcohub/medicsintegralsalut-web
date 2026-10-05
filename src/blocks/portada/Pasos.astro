@@ -1,0 +1,12 @@
+---
+// «Cómo trabajamos»: cuatro pasos numerados.
+const { kicker, heading, sub, items = [] } = Astro.props;
+---
+<section class="pt-blanca">
+  <div class="pt-wrap">
+    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{sub && <p class="rv d2">{sub}</p>}</div>
+    <ol class="pt-pasos rv">
+      {items.map((p: any, i: number) => <li class="pt-paso"><div class="pt-n" aria-hidden="true">{i + 1}</div><h3>{p.t}</h3><p set:html={p.d} /></li>)}
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+---
+// El equipo: fotos en arco, especialidad y biografía literales; tarjeta de contacto y enlace a la página del equipo.
+const { id, kicker, heading, text = [], members = [], card, mas } = Astro.props;
+---
+<section id={id} class="pt-crema2">
+  <div class="pt-wrap">
+    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{text.map((p: string) => <p class="rv d2" set:html={p} />)}</div>
+    <div class="pt-equipo">
+      {members.map((m: any) => (
+        <div class="pt-med rv">
+          <div class="pt-foto"><img src={m.image.src} alt={m.image.alt ?? m.name} loading="lazy" decoding="async" width="500" height="580" /></div>
+          <h3>{m.name}</h3><div class="pt-esp">{m.role}</div><p set:html={m.bio} />
+        </div>
+      ))}
+      {card && (
+        <div class="pt-med-card rv">
+          <h3>{card.title}</h3><p>{card.text}</p>
+          {card.cta && <a class="pt-btn" href={card.cta.href}>{card.cta.text}</a>}
+        </div>
+      )}
+    </div>
+    {mas && <p class="pt-centro"><a class="pt-btn pt-linea" href={mas.href}>{mas.text}</a></p>}
+  </div>
+</section>
