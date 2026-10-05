@@ -1,16 +1,10 @@
 ---
-// Consent Mode v2 con defaults denegados. Se carga ANTES que GTM (ver Base.astro).
-// Banner propio mínimo: Aceptar y Rechazar al mismo nivel (guía AEPD). Textos en ui.json.
+// Banner de cookies propio y mínimo (al final del <body>): Aceptar y Rechazar al mismo nivel (guía AEPD). Textos en ui.json.
+// Los valores por defecto (todo denegado) los fija ConsentMode.astro en <head>.
 import ui from '../i18n/ui.json';
 const { lang = 'es' } = Astro.props;
 const t = (ui as any)[lang] ?? ui.es;
 ---
-<script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
-  try { if (localStorage.getItem('mis-consent') === 'granted') gtag('consent', 'update', { ad_storage: 'granted', analytics_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted' }); } catch (e) {}
-</script>
 <div id="cmp" class="cmp" hidden>
   <p>{t.cookies_text} <a href={t.cookies_href}>{t.cookies_link}</a></p>
   <div class="cmp-btns">

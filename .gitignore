@@ -3,10 +3,17 @@ secrets/
 node_modules/
 dist/
 .astro/
-migracion/html_cache/
-node_modules/
-dist/
 __pycache__/
-# Datos pesados: se versionan comprimidos (límites de subida web de GitHub)
+migracion/html_cache/
+
+# Contenido generado: se versiona empaquetado en _datos/contenido-web.tgz.part* (ver _datos/LEEME_CONTENIDO.md)
+src/content/
+public/images/
+public/media/
+
+# Datos de migración pesados: se versionan comprimidos (ver migracion/LEEME_DATOS.md)
 migracion/content/
 migracion/inventory.json
+
+# Estado local de la sesión de trabajo
+.claude/ESTADO_DEL_CHAT.md

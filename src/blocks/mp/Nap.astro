@@ -1,9 +1,0 @@
----
-import Icon from '../../components/Icon.astro';
-const { heading, lines = [] } = Astro.props;
----
-<section class="mpost-ctaband mpost-bleed"><div class="mpost-wrap mp-nap">
-  <span class="mpost-eb-ic"><Icon name="pin" size={22} /></span>
-  <h3>{heading}</h3>
-  {lines.map((l: string) => <p set:html={l} />)}
-</div></section>

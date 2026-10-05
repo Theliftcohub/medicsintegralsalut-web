@@ -1,0 +1,19 @@
+/* Piezas compartidas que no son de la maqueta «Versión C»: reset mínimo, banner de cookies (Consent.astro),
+   aviso y etiquetas ocultas de los formularios (NativeForm.astro) y ajustes responsive de los componentes .mpost. */
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%;height:auto}
+
+/* banner de cookies: Aceptar y Rechazar al mismo nivel (guía AEPD) */
+.cmp{position:fixed;bottom:16px;left:16px;right:16px;max-width:560px;background:#fff;border:1px solid var(--accent-soft);
+  padding:16px;border-radius:var(--radius);z-index:400;box-shadow:0 4px 20px rgb(0 0 0 / .1)}
+.cmp-btns{display:flex;gap:12px}
+.cmp-btns button{flex:1;padding:.6em;border-radius:var(--radius);border:1px solid var(--ink);background:#fff;cursor:pointer;font:inherit}
+
+/* formularios */
+.aviso{background:var(--accent-soft);padding:8px 12px;border-radius:var(--radius)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* componentes .mpost (páginas de tratamiento) */
+.mpost{overflow-x:clip}
+@media(max-width:900px){.mpost-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.mpost-grid{grid-template-columns:1fr}}

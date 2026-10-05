@@ -1,8 +1,0 @@
----
-const { title, text, button, variant = 'banda' } = Astro.props;
----
-<section class={`b-cta b-cta--${variant}`}><div class="wrap">
-  {title && <h2 set:html={title} />}
-  {text && <div set:html={text} />}
-  {button && <a class="btn" href={button.href}>{button.text}</a>}
-</div></section>

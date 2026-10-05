@@ -1,28 +1,25 @@
 ---
 import SeoHead from '../components/SeoHead.astro';
+import ConsentMode from '../components/ConsentMode.astro';
 import Consent from '../components/Consent.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
 import VcHeader from '../components/vc/VcHeader.astro';
 import VcFooter from '../components/vc/VcFooter.astro';
 import site from '../data/site.json';
-import '../styles/tokens.css';
-import '../styles/base.css';
-import '@fontsource/lato/400.css';
-import '@fontsource/lato/700.css';
-import '../styles/mpost.css';
-import '../styles/mp-extra.css';
 import '@fontsource/raleway/200.css';
 import '@fontsource/raleway/300.css';
 import '@fontsource/raleway/500.css';
 import '@fontsource/raleway/600.css';
+// Orden de los estilos: variables -> comunes -> piel de los componentes .mpost -> maqueta «Versión C» y sus ajustes
+import '../styles/tokens.css';
+import '../styles/comun.css';
+import '../styles/mpost.css';
 import '../styles/vc.css';
 import '../styles/vc-extra.css';
 import '../styles/mpost-posts.css';
 import '../styles/vc-mpost.css';
-const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [], theme = 'mpost' } = Astro.props;
-const vc = theme === 'vc';
+import '../styles/vc-prosa.css';
+// Toda la web usa el diseño «Versión C» (body.vc): cabecera, pie, migas y estilos.
+const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [] } = Astro.props;
 const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
 const crumbs = breadcrumbs.length > 1 ? [{
   '@type': 'BreadcrumbList',
@@ -35,21 +32,21 @@ const crumbs = breadcrumbs.length > 1 ? [{
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <SeoHead seo={seo} lang={lang} alternates={alternates} graph={[...graph, ...crumbs]} />
-  <Consent lang={lang} />
+  <ConsentMode />
   {entorno !== 'preview' && site.gtm && (
     <script is:inline define:vars={{ id: site.gtm }}>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',id);
     </script>
   )}
 </head>
-<body class:list={[vc && 'vc']}>
-  {vc && <script is:inline>document.documentElement.classList.add('vc-js')</script>}
-  {vc ? <VcHeader lang={lang} alternates={alternates} /> : <Header lang={lang} alternates={alternates} />}
-  <main class:list={[!vc && 'mpost']}>
-    {!vc && <Breadcrumbs items={breadcrumbs} />}
-    {vc && breadcrumbs.length > 1 && <nav class="vc-crumbs" aria-label="Breadcrumb"><ol>{breadcrumbs.map((b: any, i: number) => <li>{i < breadcrumbs.length - 1 ? <a href={b.path}>{b.name}</a> : <span aria-current="page">{b.name}</span>}</li>)}</ol></nav>}
+<body class="vc">
+  <script is:inline>document.documentElement.classList.add('vc-js')</script>
+  <VcHeader lang={lang} alternates={alternates} />
+  <main>
+    {breadcrumbs.length > 1 && <nav class="vc-crumbs" aria-label="Breadcrumb"><ol>{breadcrumbs.map((b: any, i: number) => <li>{i < breadcrumbs.length - 1 ? <a href={b.path}>{b.name}</a> : <span aria-current="page">{b.name}</span>}</li>)}</ol></nav>}
     <slot />
   </main>
-  {vc ? <VcFooter lang={lang} /> : <Footer lang={lang} />}
+  <VcFooter lang={lang} />
+  <Consent lang={lang} />
 </body>
 </html>
