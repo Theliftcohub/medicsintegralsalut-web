@@ -1,6 +1,7 @@
 ---
 // Pie «Versión C». Textos y enlaces literales del pie de cada idioma (src/data/vc-chrome.json).
 import chrome from '../../data/vc-chrome.json';
+import site from '../../data/site.json';
 const { lang = 'es' } = Astro.props;
 const C: any = (chrome as any)[lang] ?? (chrome as any).es;
 const F = C.footer;
@@ -10,6 +11,7 @@ const [a1, a2] = F.addr.split(/,\s*(?=\d{5})/);
 const year = new Date().getFullYear();
 ---
 <footer>
+  {!isHome && <div class="wrap distintivos foot-distin">{site.distintivos.map((l: any) => <img src={l.src} alt={l.alt} width={l.w} height={l.h} loading="lazy" />)}</div>}
   <div class="wrap foot-grid">
     <div>
       <div class="marca-n">Médics<br />Integral Salut</div>

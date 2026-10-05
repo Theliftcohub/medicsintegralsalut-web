@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Block from '../blocks/Block.astro';
 import ui from '../i18n/ui.json';
+import { prepararBloques } from '../lib/paginas';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -29,14 +30,15 @@ if (kind === 'post') {
     author: { '@type': 'Person', name: d.author, ...(d.authorUrl ? { url: new URL(d.authorUrl, Astro.site).href } : {}) },
     ...(d.image ? { image: new URL(d.image, Astro.site).href } : {}), inLanguage: d.lang,
     mainEntityOfPage: new URL(d.path, Astro.site).href, publisher: { '@id': `${Astro.site?.origin}/#org` },
-  }];
+  }, ...d.schema.map((s: any) => ({ '@type': s.type, ...s, type: undefined }))];
 } else {
   graph = d.schema.map((s: any) => ({ '@type': s.type, ...s, type: undefined }));
 }
+const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
-<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []} theme={kind === 'page' ? d.theme : 'vc'}>
-  {kind === 'page' && d.blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
+<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}>
+  {blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
     <>
     <section class="vc-prosa vc-post-head"><div class="wrap">

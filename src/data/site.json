@@ -1,54 +1,86 @@
 {
-  "url": "https://www.medicsintegralsalut.com",
-  "name": "Médics Integral Salut",
-  "alternateName": "Medics Integral Salut",
-  "type": "MedicalClinic",
-  "logo": "/images/wp/2021/12/Logo-web-03_200.webp",
-  "telephone": "+34 972 20 90 86",
-  "address": {
-    "streetAddress": "Plaça Poeta Marquina 3",
-    "postalCode": "17002",
-    "addressLocality": "Girona",
-    "addressRegion": "Girona",
-    "addressCountry": "ES"
-  },
-  "openingHours": [
-    {
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "10:00",
-      "closes": "20:00"
-    }
-  ],
-  "sameAs": [
-    "https://www.facebook.com/MedicsIntegralSalut",
-    "https://www.instagram.com/medicsintegralsalut/",
-    "https://www.youtube.com/channel/UChnKZOQRgevEvqw-NTaDHpw/videos"
-  ],
-  "gtm": "GTM-K63QVGT",
-  "languages": [
-    "es",
-    "ca",
-    "en",
-    "fr",
-    "ru",
-    "uk"
-  ],
-  "defaultLang": "es",
-  "_nota": "NAP: dirección y teléfono de Google Business Profile; horario L-V 10-20 (web = ficha de Google desde el 28/09/2026).",
-  "whatsapp": "+34 620 892 236",
-  "email": "info@medicsintegralsalut.com",
-  "rating": {
-    "value": 4.8,
-    "count": 220,
-    "since": 2014,
-    "fuente": "Google Business Profile vía Windsor (locations/14536626448257152064)",
-    "fecha": "2026-09-28",
-    "_nota": "Refrescar desde GBP antes del lanzamiento y cada vez que se toque la portada. Se muestra en la web pero NO se marca como AggregateRating (reseñas propias)."
+ "url": "https://www.medicsintegralsalut.com",
+ "name": "Médics Integral Salut",
+ "alternateName": "Medics Integral Salut",
+ "type": "MedicalClinic",
+ "logo": "/images/wp/2021/12/Logo-web-03_200.webp",
+ "telephone": "+34 972 20 90 86",
+ "address": {
+  "streetAddress": "Plaça Poeta Marquina 3",
+  "postalCode": "17002",
+  "addressLocality": "Girona",
+  "addressRegion": "Girona",
+  "addressCountry": "ES"
+ },
+ "openingHours": [
+  {
+   "dayOfWeek": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "opens": "10:00",
+   "closes": "20:00"
   }
+ ],
+ "sameAs": [
+  "https://www.facebook.com/MedicsIntegralSalut",
+  "https://www.instagram.com/medicsintegralsalut/",
+  "https://www.youtube.com/channel/UChnKZOQRgevEvqw-NTaDHpw/videos"
+ ],
+ "gtm": "GTM-K63QVGT",
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr",
+  "ru",
+  "uk"
+ ],
+ "defaultLang": "es",
+ "_nota": "NAP: dirección y teléfono de Google Business Profile; horario L-V 10-20 (web = ficha de Google desde el 28/09/2026).",
+ "whatsapp": "+34 620 892 236",
+ "email": "info@medicsintegralsalut.com",
+ "rating": {
+  "value": 4.8,
+  "count": 220,
+  "since": 2014,
+  "fuente": "Google Business Profile vía Windsor (locations/14536626448257152064)",
+  "fecha": "2026-09-28",
+  "_nota": "Refrescar desde GBP antes del lanzamiento y cada vez que se toque la portada. Se muestra en la web pero NO se marca como AggregateRating (reseñas propias)."
+ },
+ "distintivos": [
+  {
+   "src": "/images/wp/2025/11/secpre.webp",
+   "w": 200,
+   "h": 100,
+   "alt": "SECPRE"
+  },
+  {
+   "src": "/images/wp/2025/11/clinica-diagonal.webp",
+   "w": 200,
+   "h": 100,
+   "alt": "Clínica Diagonal"
+  },
+  {
+   "src": "/images/wp/2026/03/clinica-tres-torres.webp",
+   "w": 200,
+   "h": 100,
+   "alt": "Clínica Tres Torres"
+  },
+  {
+   "src": "/images/wp/2026/03/centro-teknon.webp",
+   "w": 200,
+   "h": 100,
+   "alt": "Centro Médico Teknon"
+  },
+  {
+   "src": "/images/wp/2026/03/sccpre.webp",
+   "w": 200,
+   "h": 100,
+   "alt": "SCCPRE"
+  }
+ ]
 }

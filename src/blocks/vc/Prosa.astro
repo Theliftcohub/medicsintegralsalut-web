@@ -1,17 +1,28 @@
 ---
 // Contenido literal del WordPress reducido a HTML semántico (filas de WPBakery, fichas, legales) con la tipografía «Versión C».
 // Una fila = una sección; sus columnas se reparten en rejilla. Los formularios CF7 pasan a formulario propio (→ Kommo).
+// Campos: cols[{html?, form?, after?}] · intro (HTML sobre las columnas) · bg · stack (columnas apiladas)
+//         head (cabecera de página, la marca src/lib/paginas.ts)
 import NativeForm from '../../components/NativeForm.astro';
 import ui from '../../i18n/ui.json';
-const { cols = [], bg, id, stack = false, lang = 'es' } = Astro.props;
+const { cols = [], bg, id, stack = false, head = false, intro, lang = 'es' } = Astro.props;
 const n = stack ? 1 : Math.min(cols.length, 4);
 const t = (ui as any)[lang] ?? ui.es;
 const fill = (h: string) => h.replaceAll('{{map_load}}', t.map_load);
+// una sola columna de texto se centra; si lleva una rejilla de entradas, usa todo el ancho
+const ancho = n === 1 && !stack && cols.some((c: any) => /vc-bloglist/.test(c.html ?? ''));
 ---
-<section id={id} class:list={['vc-prosa', bg]}>
-  <div class:list={['wrap', n > 1 && `vc-cols vc-cols-${n}`, stack && 'vc-stack']}>
-    {cols.map((c: any) => c.form
-      ? <div class="vc-col vc-formbox vc-formbox--solo" id="form"><NativeForm form={c.form} lang={lang} cls="vc-form" btnClass="btn" btnSpan /></div>
-      : <div class="vc-col vc-texto-rico" set:html={fill(c.html)} />)}
+<section id={id} class:list={['vc-prosa', bg, head && 'vc-pagehead', ancho && 'vc-prosa--ancha']}>
+  <div class="wrap">
+    {intro && <div class="vc-texto-rico vc-prosa-intro" set:html={fill(intro)} />}
+    <div class:list={[n > 1 && `vc-cols vc-cols-${n}`, stack && 'vc-stack']}>
+      {cols.map((c: any) => c.form ? (
+        <div class="vc-col vc-formbox vc-formbox--solo" id="form">
+          {c.html && <div class="vc-texto-rico" set:html={fill(c.html)} />}
+          <NativeForm form={c.form} lang={lang} cls="vc-form" btnClass="btn" btnSpan />
+          {c.after && <div class="vc-texto-rico vc-formnota" set:html={fill(c.after)} />}
+        </div>
+      ) : <div class="vc-col vc-texto-rico" set:html={fill(c.html)} />)}
+    </div>
   </div>
 </section>

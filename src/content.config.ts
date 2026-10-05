@@ -18,7 +18,8 @@ const pages = defineCollection({
     path: z.string().regex(/^\/.*\/$|^\/$/, 'path con barra final'),
     lang: z.enum(['es', 'ca', 'en', 'fr', 'ru', 'uk']).default('es'),
     i18nGroup: z.string().optional(),
-    theme: z.enum(['mpost', 'vc']).default('mpost'),
+    title: z.string().optional(), // título literal de la página (H1 si no tiene otro)
+    theme: z.literal('vc').default('vc'),
     seo,
     schema: z.array(z.record(z.string(), z.any())).default([]),
     breadcrumbs: z.array(z.object({ name: z.string(), path: z.string() })).optional(),
@@ -47,6 +48,9 @@ const posts = defineCollection({
     canonical: z.string().optional(),
     robots: z.string().default('index, follow'),
     h1: z.string().optional(),
+    // del WordPress (scripts/schema_posts.py): migas de Yoast y JSON-LD propio de la entrada (FAQPage, VideoObject…)
+    breadcrumbs: z.array(z.object({ name: z.string(), path: z.string() })).optional(),
+    schema: z.array(z.record(z.string(), z.any())).default([]),
   }),
 });
 
