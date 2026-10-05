@@ -97,6 +97,7 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
 
 ## Errores ya cometidos y sus reglas
+- 05/10/2026 · Con `npm run dev` abierto se añadió un `import` a `Base.astro` antes de crear el archivo (`portada-extra.css`): Vite guarda el fallo en caché y sigue dando «Could not import» aunque el archivo ya exista · crear SIEMPRE el archivo antes de importarlo; si ya pasó, tocar el archivo que importa (`touch src/layouts/Base.astro`) o reiniciar el servidor.
 - 05/10/2026 · 46 entradas en español tenían además un JSON de página con la misma URL: Astro renderiza una y descarta la otra sin fallar el build (solo un WARN) · `pulir_contenido.py` borra el JSON; revisar los WARN «conflicts with higher priority route» en cada build.
 - 05/10/2026 · `build_post` descartaba el JSON-LD propio y las migas de las entradas (612 entradas sin FAQPage/VideoObject/MedicalWebPage ni BreadcrumbList) · `schema_posts.py` los recupera al frontmatter y la plantilla los publica.
 - 05/10/2026 · Los formularios de ca/en/fr/ru/uk enviaban a `/xx/gracias/` (URLs de TranslatePress que no existen): 404 tras enviar · cada idioma va a su página de gracias real (`GRACIAS` en `pulir_contenido.py`). Las páginas de gracias de todos los idiomas cuentan como conversión.
