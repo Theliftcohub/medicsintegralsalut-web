@@ -1,0 +1,118 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cosmetic Medicine</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>After 25 years working in the aesthetic surgery and aesthetic medicine sector, we have become aware of the importance of skincare. Dehydrated, dull, lacklustre or aged skin is the first thing we must treat. Looking “good” has a foundation: having skin in good condition, prepared for each time of year to address the different problems the skin presents.</p>\n<p>Our clinic has a dedicated unit for treating different skin types and studying improvement.</p>\n<button aria-label=\"▶\" class=\"vc-yt\" data-yt=\"UXV07tmpSqg\" type=\"button\"><img alt=\"\" height=\"360\" loading=\"lazy\" src=\"/images/yt/UXV07tmpSqg.webp\" width=\"480\"/><span>▶</span></button>\n<p>In our day-to-day work with patients, we encounter poorly treated skin that is unable to generate cellular regeneration.</p>\n<p>Our job is to stimulate your skin, provide nutrients, using highly pure active ingredients and, if necessary, the right equipment, with the aim of delaying ageing, smoothing expression lines, and adding radiance, giving it a healthy appearance both inside and out, in short, improving your skin's quality of life.</p>\n<p>The simple division of skin into normal, dry, or oily isn't sufficient; it's merely a clue that can assist at the start of a treatment. However, as the treatment progresses, the skin undergoes changes and improvements, and at each stage, we are always capable of enhancing the skin's quality.</p>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"382\" loading=\"lazy\" src=\"/images/wp/2019/11/recuperar-la-luminosidad-de-la-piel-e1582104156931.webp\" width=\"510\"/></div><div class=\"vc-in-c\"><p>   Biologque Recherche is the perfect combination, specific treatments, spectacular improvements and follow-up on skin improvements until we achieve the objective we will see together.</p><p>We'll be waiting for you to give your skin the medicine it needs.</p></div></div>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "P50 Visage",
+    "href": "/en/units/beauty-salon/p50-face/"
+   },
+   {
+    "text": "Fruit acid",
+    "href": "/en/units/beauty-salon/fruit-acid-2/"
+   },
+   {
+    "text": "Anti-ageing MC 110",
+    "href": "/en/units/beauty-salon/anti-ageing-mc-110/"
+   },
+   {
+    "text": "Salvage",
+    "href": "/en/units/beauty-salon/recoverer/"
+   },
+   {
+    "text": "Detoxifier",
+    "href": "/en/units/beauty-salon/detoxifying/"
+   },
+   {
+    "text": "Hidden",
+    "href": "/en/units/beauty-salon/clearance/"
+   },
+   {
+    "text": "Volume reduction",
+    "href": "/en/units/beauty-salon/volume-reduction-girona-2/"
+   },
+   {
+    "text": "Cellulite removal",
+    "href": "/en/units/beauty-salon/get-rid-of-cellulite/"
+   }
+  ],
+  "heading": "Treatments",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>What is Biologique Recherche?</h2>\n<details><summary>Here we explain in more detail</summary><p>Always striving for excellence, to achieve these results, we choose to work with <strong>Biologique Recherche</strong> an exclusive brand, with <strong>Over 40 years of experience in the Aesthetic Medicine sector</strong>, based on the combination of a clinical approach to aesthetic treatments, with pure ingredients, concentrated in their natural state, individual and rigorous protocols and procedures, which enjoys an unquestionable reputation for efficacy.</p><p><strong>In 1968</strong>, when the brand is created, <strong>The company operated as a research and development centre.</strong> whose sole objective was the formulation of products for professionals disappointed with the existing market offering, <strong>and has been a pioneer in skincare ever since</strong>, which is why prestigious clinics opt for the maximum quality offered by such an exclusive, effective, and definitive brand with excellent results in a very short time.</p><p><strong>Welcome to the new era of high-end cosmetics</strong>, a new concept, with spectacular results, supporting your skin through the process of change, of improvement, until the desired results are achieved.</p><p><strong>Without a doubt, it's the medicine your skin needs.</strong></p></details>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/en/financing/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h4><a href=\"/en/financing/\">Finance your treatment</a></h4>\n<p>Request a free visit.<br/>\nContact us and we will assist you without obligation.</p>"
+   },
+   {
+    "form": {
+     "name": "form-en-units-cosmetic-medicine-girona",
+     "thanks": "/en/thank-you/",
+     "submit": "Send",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "First and last name",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telephone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Email",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comments",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

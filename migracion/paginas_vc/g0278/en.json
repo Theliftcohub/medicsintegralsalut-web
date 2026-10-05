@@ -1,0 +1,97 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cosmetic facial surgery</h1>\n<p>The <strong>Cosmetic facial surgery</strong> allows for the improvement of facial harmony, proportion, and rejuvenation through personalised procedures tailored to each patient's needs. <strong><a href=\"/en/\" rel=\"noopener\" target=\"_blank\">Medics Integral Salut</a></strong> We have specialists in aesthetic facial surgery who work with advanced techniques and a natural approach to achieve balanced and safe results.</p>\n<p>Our facial aesthetic surgery treatments are aimed at correcting signs of ageing, improving facial features, and enhancing personal confidence, always prioritising natural results and patient health. We perform procedures such as blepharoplasty, facelifts, otoplasty, rhinoplasty, and other facial interventions tailored to each case.</p>\n<p>Every treatment begins with a personalised assessment to analyse the patient's needs and design a safe, effective facial aesthetic solution tailored to their objectives.</p>\n<p>Procedures and interventions</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Rhinoplasty",
+    "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty/"
+   },
+   {
+    "text": "Eyelid surgery",
+    "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery/"
+   },
+   {
+    "text": "Neck and double chin mini-lift",
+    "href": "/en/units/cosmetic-facial-surgery-2/neck-and-double-chin-mini-lift/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Facelift",
+    "href": "/en/units/cosmetic-facial-surgery-2/facial-lift/"
+   },
+   {
+    "text": "Otoplasty",
+    "href": "/en/units/cosmetic-facial-surgery-2/otoplasty/"
+   },
+   {
+    "text": "Chin and cheekbones",
+    "href": "/en/units/cosmetic-facial-surgery-2/chin-and-cheek-surgery/"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/en/financing/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/en/financing/\">Finance your surgery</a></h2>\n<p>Request a free visit.<br/>\nContact us and we will assist you without obligation.</p>"
+   },
+   {
+    "form": {
+     "name": "form-en-units-cosmetic-facial-surgery-2",
+     "thanks": "/en/thank-you/",
+     "submit": "Send",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "First and last name",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telephone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Email",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comments",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

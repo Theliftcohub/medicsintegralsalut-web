@@ -1,0 +1,97 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cirugía estética facial</h1>\n<p>La <strong>cirugía estética facial</strong> permite mejorar la armonía, proporción y rejuvenecimiento del rostro mediante procedimientos personalizados adaptados a las necesidades de cada paciente. En <strong><a href=\"/\" rel=\"noopener\" target=\"_blank\">Medics Integral Salut</a></strong> contamos con especialistas en cirugía facial estética que trabajan con técnicas avanzadas y un enfoque natural para conseguir resultados equilibrados y seguros.</p>\n<p>Nuestros tratamientos de cirugía estética facial están orientados a corregir signos de envejecimiento, mejorar rasgos faciales y potenciar la confianza personal, siempre priorizando la naturalidad y la salud del paciente. Realizamos procedimientos como blefaroplastia, lifting facial, otoplastia, rinoplastia y otras intervenciones faciales adaptadas a cada caso.</p>\n<p>Cada tratamiento comienza con una valoración personalizada para analizar las necesidades del paciente y diseñar una solución estética facial segura, eficaz y acorde a sus objetivos.</p>\n<p>Procedimientos e intervenciones</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Rinoplastia",
+    "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/"
+   },
+   {
+    "text": "Blefaroplastia",
+    "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/"
+   },
+   {
+    "text": "Minilifting de cuello y papada",
+    "href": "/unidades/cirugia-estetica-facial/minilifting-de-cuello-y-papada/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Lifting facial",
+    "href": "/unidades/cirugia-estetica-facial/lifting-facial/"
+   },
+   {
+    "text": "Otoplastia",
+    "href": "/unidades/cirugia-estetica-facial/otoplastia-girona/"
+   },
+   {
+    "text": "Mentón y pómulos",
+    "href": "/unidades/cirugia-estetica-facial/cirugia-menton-y-pomulos/"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/financiacion/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/financiacion/\">Financia tu cirugía</a></h2>\n<p>Pide una visita gratuita.<br/>\nContacta con nosotros y te atenderemos sin compromiso.</p>"
+   },
+   {
+    "form": {
+     "name": "form-unidades-cirugia-estetica-facial",
+     "thanks": "/gracias/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nombre y apellidos",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Teléfono",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correo electrónico",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentarios",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

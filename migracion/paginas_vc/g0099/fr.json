@@ -1,0 +1,28 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Parce que vous êtes unique, nous avons un financement qui s'adapte à vos besoins.</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Si vous souhaitez financer votre traitement d'une manière confortable, facile et sûre…<br/>\nvous l'avez maintenant plus facile que jamais !</p>\n<p>À travers \"Tu Medicina Financiada\", vous avez la possibilité de choisir la mensualité qui correspond le mieux à vos besoins, avec une réponse immédiate.</p>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Fait sur mesure</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Réponse immédiate</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Choisissez d'être entre de bonnes mains</h5></div><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"47\" loading=\"lazy\" src=\"/images/wp/2019/10/financiera.webp\" width=\"179\"/></div></div>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>Mais le mieux pour faire connaissance, c'est que vous veniez nous voir !</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/fr/contact/\">Demander un rendez-vous gratuit</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Appelez-nous dès maintenant, sans engagement</p></a></div></div>"
+   }
+  ],
+  "bg": "crema"
+ }
+]

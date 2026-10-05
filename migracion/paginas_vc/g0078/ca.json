@@ -1,0 +1,101 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Tria estar a les millors mans.</h2>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Demana una visita gratuïta.<br/>\nContacta amb nosaltres i t'atendrem sense compromís.</p>"
+   },
+   {
+    "form": {
+     "name": "form-ca-contacte",
+     "thanks": "/ca/gracies/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom i cognoms",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telefon",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correu electrònic",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Motiu de la consulta",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He llegit la <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>"
+      }
+     ]
+    }
+   },
+   {
+    "html": "<table><thead><tr><th>Responsable</th><th>VIOLET GRUP MEDIC SL</th></tr></thead><tbody><tr><td>Finalitat</td><td>Atendre les seves consultes i/o sol·licituds. Accions comercials</td></tr><tr><td>Drets</td><td>Accedir, rectificar i suprimir les dades, així com altres drets, tal com s'explica a la informació addicional</td></tr><tr><td>Informació addicional</td><td>Podeu consultar la informació addicional i detallada sobre Protecció de Dades a la nostra pàgina web, apartat Política de Privacitat.</td></tr></tbody></table>"
+   }
+  ],
+  "stack": true
+ },
+ {
+  "type": "vc-prosa",
+  "bg": "crema",
+  "intro": "<h3>I el millor per conèixer-nos és que vinguis a veure'ns!</h3>",
+  "cols": [
+   {
+    "html": "<a href=\"tel:972209086\"><i></i><p>Envieu-nos les vostres dades i<br/>et truquem</p></a>",
+    "form": {
+     "name": "form-ca-contacte",
+     "thanks": "/ca/gracies/",
+     "submit": "Vull que em truquin",
+     "fields": [
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "El teu telèfon",
+       "required": true,
+       "autocomplete": "tel"
+      }
+     ]
+    },
+    "after": "<p>L'enviament de les dades suposa l'acceptació de l <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>.</p><p>El telèfon introduït només s'utilitzarà per contactar amb vostè i poder facilitar-li la informació sobre la seva assegurança.</p>"
+   },
+   {
+    "html": "<a href=\"tel:+34972209086\"><i></i><p>Truca'ns ara mateix sense compromís</p></a>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<div class=\"vc-in\" style=\"--g:6fr 4fr\"><div class=\"vc-in-c\">\n<div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.8895381656057!2d2.8156611764879065!3d41.9811813589532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae6df7ca78529%3A0xefbe9bacdfa86691!2sPla%C3%A7a%20Poeta%20Marquina%2C%203%2C%2017002%20Girona!5e0!3m2!1sca!2ses!4v1751396700026!5m2!1sca!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_clock_1055090-2.webp\" width=\"64\"/><p><strong>Dilluns a divendres:</strong> 10:00h a 20:00h<br/>\n<strong>Dissabte i diumenge:</strong> Tancat</p><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_mail_1055030-1.webp\" width=\"64\"/><p><strong>Telèfon:</strong> 972 20 90 86<br/>\n<strong>Correu electrònic:</strong> Info@medicsintegralsalut.com</p></div></div>"
+   }
+  ]
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Because you're unique, we have financing that suits your needs.</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>If you want to finance your treatment in a comfortable, easy and secure way…<br/>\nIt's now easier than ever!</p>\n<p>Through Your Financed Medicine, you have the option to choose the instalment plan that best suits your needs, with an immediate response.</p>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Made to measure</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Immediate response</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Choose to be in good hands</h5></div><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"47\" loading=\"lazy\" src=\"/images/wp/2019/10/financiera.webp\" width=\"179\"/></div></div>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>But the best way to get to know us is to come and see us!</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/en/contact/\">Book a free appointment</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Call us now with no obligation</p></a></div></div>"
+   }
+  ],
+  "bg": "crema"
+ }
+]

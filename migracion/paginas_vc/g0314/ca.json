@@ -1,0 +1,117 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Medicina Estètica</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Després de 25 anys treballant en el sector de la cirurgia estètica i la medicina estètica hem estat conscients de la importància que té la cura de la nostra pell. Una pell deshidratada, apagada, mat o envellida, és el primer que hem de tractar, veure'ns “bé” té un fonament: tenir la pell en bones condicions preparada en cada època de l'any per esmenar els diferents problemes que la pell va presentant.</p>\n<p>La nostra clínica té una unitat específica per tractar els diferents tipus de pell i l'estudi de la millora.</p>\n<button aria-label=\"▶\" class=\"vc-yt\" data-yt=\"UXV07tmpSqg\" type=\"button\"><img alt=\"\" height=\"360\" loading=\"lazy\" src=\"/images/yt/UXV07tmpSqg.webp\" width=\"480\"/><span>▶</span></button>\n<p>En el nostre dia a dia amb el pacient, ens trobem pells molt mal tractades, amb la incapacitat de generar la regeneració cel·lular.</p>\n<p>La nostra feina és estimular la nostra pell, aportar nutrients, utilitzant actius d'alta puresa i, si cal, la tecnologia adequada, amb l'objectiu de retardar l'envelliment, suavitzar les línies d'expressió i aportar lluminositat, donant-li un aspecte saludable tant per dins com per fora. En definitiva, millorar la qualitat de vida de la nostra pell.</p>\n<p>La simple divisió de les pells en Normal, Seca o Greixosa no ens serveix, és només una pista que ens pot ajudar a l'inici d'un tractament, però a mesura que el desenvolupem la pell adquireix els canvis i millores i en cada moment som capaços de millorar sempre la qualitat de la pell.</p>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"382\" loading=\"lazy\" src=\"/images/wp/2019/11/recuperar-la-luminosidad-de-la-piel-e1582104156931.webp\" width=\"510\"/></div><div class=\"vc-in-c\"><p>   Biologic Recherche, és la combinació perfecta, tractaments específics, millores espectaculars i seguiment de les millores de la pell fins a aconseguir l'objectiu que veurem juntes.</p><p>T'esperem perquè li donem a la teva pell la medicina que necessita.</p></div></div>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "P50 Visage",
+    "href": "/ca/unitats/gabinet-destetica/p50-rostre/"
+   },
+   {
+    "text": "Àcid de fruites",
+    "href": "/ca/unitats/gabinet-destetica/acido-de-frutas/"
+   },
+   {
+    "text": "Antiedat MC 110",
+    "href": "/ca/unitats/gabinet-destetica/anti-edat-mc-110/"
+   },
+   {
+    "text": "Recuperador",
+    "href": "/ca/unitats/gabinet-destetica/recuperador/"
+   },
+   {
+    "text": "Desintoxicant",
+    "href": "/ca/unitats/gabinet-destetica/desintoxicant/"
+   },
+   {
+    "text": "Hidreclat",
+    "href": "/ca/unitats/gabinet-destetica/hidroclorat/"
+   },
+   {
+    "text": "Reducció de volum"
+   },
+   {
+    "text": "Eliminar cel·lulitis",
+    "href": "/ca/unitats/gabinet-destetica/eliminar-cel%c2%b7lulitis/"
+   }
+  ],
+  "heading": "Tractaments",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Què és Biologique Recherche?</h2>\n<details><summary>Aquí t'ho expliquem amb més detall</summary><p>En cerca de l'excel·lència sempre, per aconseguir aquests resultats, vam optar per treballar amb <strong>Biologique Recherche</strong> una marca exclusiva, amb <strong>més de 40 anys d'experiència en el sector de la Medicina Estètica</strong>, basada en la combinació d'un enfocament clínic dels tractaments estètics, amb ingredients purs, concentrats en el seu estat natural, protocols i procediments individuals i rigorosos, que gaudeix d'una incuestionable reputació d'eficàcia.</p><p><strong>El 1968</strong>, quan es crea la marca, <strong>l'empresa funcionava com un centre d'investigació i desenvolupament</strong> amb el sol objectiu de formular productes per a aquells professionals decebuts per l'oferta existent al mercat, <strong>i és des d'aleshores pionera en el cura de la pell</strong>, per això les clíniques de prestigi optem per la màxima qualitat que ens ofereix una marca tan exclusiva, eficaç i contundent amb bons resultats a molt curt termini.</p><p><strong>Benvinguts a la nova era de l'alta cosmètica</strong>, un nou concepte, amb resultats espectaculars, acompanyant la teva pell en el procés de canvi, de millora, fins a aconseguir els resultats esperats.</p><p><strong>Sens dubte és la medicina que la teva pell necessita.</strong></p></details>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/ca/financament/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h4><a href=\"/ca/financament/\">Finança el teu tractament</a></h4>\n<p>Demana una visita gratuïta.<br/>\nContacta amb nosaltres i t'atendrem sense compromís.</p>"
+   },
+   {
+    "form": {
+     "name": "form-ca-unitats-medicina-estetica-girona",
+     "thanks": "/ca/gracies/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom i cognoms",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telefon",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correu electrònic",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentaris",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He llegit la <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

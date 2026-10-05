@@ -1,0 +1,106 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Unité sur le surpoids et l'obésité</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Nous sommes les numéros 1 en termes de techniques et de procédures les plus avancées</h2>\n<p>En Medics Integral Salut, bajo la dirección del equipo médico altamente especializado, pone a disposición de los pacientes la Clinique minceur avec les dernières techniques en matière de traitements et d'interventions destinés à la perte de poids, en tenant compte des caractéristiques de chaque patient pour déterminer le plus adapté dans le but de perdre du poids et de le maintenir.</p>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Balle ingérable élliptique",
+    "href": "/fr/unites/surpoids-et-obesite-2/balle-comestible-ellipse/"
+   },
+   {
+    "text": "Ballon 6 mois",
+    "href": "/fr/unites/surpoids-et-obesite-2/ballon-6-mois/"
+   },
+   {
+    "text": "Balle 12 mois ajustable",
+    "href": "/fr/unites/surpoids-et-obesite-2/boule-12-mois-ajustable/"
+   },
+   {
+    "text": "Endomanga",
+    "href": "/fr/unites/surpoids-et-obesite-2/endomanga/"
+   },
+   {
+    "text": "Diététique et nutrition",
+    "href": "/fr/unites/surpoids-et-obesite-2/dietetique-et-nutrition/"
+   },
+   {
+    "text": "Chirurgie post-bariatrique",
+    "href": "/fr/unites/surpoids-et-obesite-2/cirugia-postbariatrica/"
+   },
+   {
+    "text": "Chirurgie bariatrique",
+    "href": "/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/"
+   }
+  ],
+  "heading": "Procédures et interventions",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/fr/financement/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/fr/financement/\">Financez votre chirurgie</a></h2>\n<p>Demandez une visite gratuite.<br/>\nContactez-nous et nous vous répondrons sans engagement.</p>"
+   },
+   {
+    "form": {
+     "name": "form-fr-unites-surpoids-et-obesite-2",
+     "thanks": "/fr/merci/",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom et prénom",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Courriel",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Commentaires",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

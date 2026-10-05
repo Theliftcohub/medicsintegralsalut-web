@@ -1,0 +1,106 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Overweight and Obesity Unit</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>We are number 1 in the most advanced techniques and procedures</h2>\n<p>At En Medics Integral Salut, under the direction of a highly specialised medical team, patients are offered Slimming clinic with the latest techniques in treatments and interventions for weight loss, evaluating each patient's characteristics to determine the most suitable one with the aim of losing weight and maintaining it.</p>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Ingestible ellipse ball",
+    "href": "/en/units/overweight-and-obesity-2/ingestible-balloon-elipse/"
+   },
+   {
+    "text": "Ball 6 months",
+    "href": "/en/units/overweight-and-obesity-2/balloon-6-months/"
+   },
+   {
+    "text": "Ball 12 months adjustable",
+    "href": "/en/units/overweight-and-obesity-2/balon-12-meses-reajustable/"
+   },
+   {
+    "text": "Endomanga",
+    "href": "/en/units/overweight-and-obesity-2/endomanga/"
+   },
+   {
+    "text": "Dietetics and nutrition",
+    "href": "/en/units/overweight-and-obesity-2/dietetics-and-nutrition-2/"
+   },
+   {
+    "text": "Post-bariatric surgery",
+    "href": "/en/units/overweight-and-obesity-2/cirugia-postbariatrica/"
+   },
+   {
+    "text": "Bariatric surgery",
+    "href": "/en/units/overweight-and-obesity-2/bariatric-surgery-2/"
+   }
+  ],
+  "heading": "Procedures and interventions",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/en/financing/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/en/financing/\">Finance your surgery</a></h2>\n<p>Request a free visit.<br/>\nContact us and we will assist you without obligation.</p>"
+   },
+   {
+    "form": {
+     "name": "form-en-units-overweight-and-obesity-2",
+     "thanks": "/en/thank-you/",
+     "submit": "Send",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "First and last name",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telephone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Email",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comments",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

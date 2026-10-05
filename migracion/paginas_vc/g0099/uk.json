@@ -1,0 +1,28 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Оскільки ти унікальний, ми пропонуємо умови фінансування, що відповідають твоїм потребам.</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Якщо ви хочете оплатити своє лікування зручно, просто та безпечно…<br/>\nТепер це простіше, ніж будь-коли!</p>\n<p>За допомогою програми «Tu Medicina Financiada» ви маєте можливість обрати план оплати, який найбільше відповідає вашим потребам, і отримати відповідь одразу ж.</p>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Створена спеціально для тебе</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Негайна відповідь</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Виберіть надійну підтримку</h5></div><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"47\" loading=\"lazy\" src=\"/images/wp/2019/10/financiera.webp\" width=\"179\"/></div></div>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>Але найкращий спосіб познайомитися з нами — це просто завітати до нас!</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/uk/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82/\">Запишіться на безкоштовний прийом</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Зателефонуйте нам прямо зараз — без жодних зобов’язань</p></a></div></div>"
+   }
+  ],
+  "bg": "crema"
+ }
+]

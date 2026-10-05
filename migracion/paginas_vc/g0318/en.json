@@ -1,0 +1,99 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cosmetic facial medicine</h1>\n<p>Procedures and interventions</p>\n<p>Our facial aesthetic medicine unit achieves non-surgical facial rejuvenation in our patients. Non-surgical facial aesthetic treatments are increasingly successful due to their convenience, low risk, and speed of results.</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Dark circles",
+    "href": "/en/units/facial-aesthetic-medicine/dark-circles/"
+   },
+   {
+    "text": "Expression lines",
+    "href": "/en/units/facial-aesthetic-medicine/expression-lines/"
+   },
+   {
+    "text": "Tension threads",
+    "href": "/en/units/facial-aesthetic-medicine/sagging-and-thread-lifts/"
+   },
+   {
+    "text": "Hydration and nutrition",
+    "href": "/en/units/facial-aesthetic-medicine/hydration-and-nutrition-2/"
+   },
+   {
+    "text": "Peeling",
+    "href": "/en/units/facial-aesthetic-medicine/shedding/"
+   },
+   {
+    "text": "Wrinkle filler",
+    "href": "/en/units/facial-aesthetic-medicine/expression-lines/"
+   },
+   {
+    "text": "Rhinomodelling",
+    "href": "/en/units/facial-aesthetic-medicine/rhinomodelling/"
+   },
+   {
+    "text": "Lip augmentation",
+    "href": "/en/units/facial-aesthetic-medicine/lip-filler/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/en/financing/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/en/financing/\">Finance your surgery</a></h2>\n<p>Request a free visit.<br/>\nContact us and we will assist you without obligation.</p>"
+   },
+   {
+    "form": {
+     "name": "form-en-units-facial-aesthetic-medicine",
+     "thanks": "/en/thank-you/",
+     "submit": "Send",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "First and last name",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telephone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Email",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comments",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

@@ -1,0 +1,99 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Medicina estètica facial</h1>\n<p>Procediments i intervencions</p>\n<p>La nostra Unitat de Medicina estètica facial aconsegueix en els nostres pacients un rejoveniment facial sense cirurgia. Els tractaments estètics facials no quirúrgics tenen cada cop més èxit per la seva comoditat, poc risc i rapidesa de resultats.</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Bolses sota els ulls",
+    "href": "/ca/unitats/medicina-estetica-facial/ulleres-fosques/"
+   },
+   {
+    "text": "Arrugues d'expressió",
+    "href": "/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/"
+   },
+   {
+    "text": "Ressò\no\nfils tensors",
+    "href": "/ca/unitats/medicina-estetica-facial/flacidesa-fils-tensors/"
+   },
+   {
+    "text": "Hidratació i nutrició",
+    "href": "/ca/unitats/medicina-estetica-facial/hidratacio-i-nutricio/"
+   },
+   {
+    "text": "Exfoliació",
+    "href": "/ca/unitats/medicina-estetica-facial/pela/"
+   },
+   {
+    "text": "Ompliment d'arrugues",
+    "href": "/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/"
+   },
+   {
+    "text": "Rinomodelació",
+    "href": "/ca/unitats/medicina-estetica-facial/rinomodelacio/"
+   },
+   {
+    "text": "Augment de llavis",
+    "href": "/ca/unitats/medicina-estetica-facial/augmentacio-de-llavis/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/ca/financament/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/ca/financament/\">Financiar la teva cirurgia</a></h2>\n<p>Demana una visita gratuïta.<br/>\nContacta amb nosaltres i t'atendrem sense compromís.</p>"
+   },
+   {
+    "form": {
+     "name": "form-ca-unitats-medicina-estetica-facial",
+     "thanks": "/ca/gracies/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom i cognoms",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telefon",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correu electrònic",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentaris",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He llegit la <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

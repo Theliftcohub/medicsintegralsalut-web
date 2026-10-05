@@ -1,0 +1,106 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Unidad de Sobrepeso y Obesidad</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Somos los nº1 en las técnicas y procedimientos más avanzados</h2>\n<p>En Medics Inregral Salut, bajo la dirección del equipo médico altamente especializado, pone a disposición de los pacientes la Clínica adelgazamiento con las últimas técnicas en tratamientos e intervenciones destinadas a la pérdida de peso, valorando las características de cada paciente para determinar el mas adecuado con el objetivo de bajar el peso y mantenerlo.</p>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Balón ingerible elipse",
+    "href": "/unidades/sobrepeso-y-obesidad/balon-ingerible-elipse/"
+   },
+   {
+    "text": "Balón 6 meses",
+    "href": "/unidades/sobrepeso-y-obesidad/balon-6-meses/"
+   },
+   {
+    "text": "Balón 12 meses reajustable",
+    "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/"
+   },
+   {
+    "text": "Endomanga",
+    "href": "/unidades/sobrepeso-y-obesidad/endomanga/"
+   },
+   {
+    "text": "Dietética y nutrición",
+    "href": "/unidades/sobrepeso-y-obesidad/dietetica-y-nutricion/"
+   },
+   {
+    "text": "Cirugía Postbariátrica",
+    "href": "/unidades/sobrepeso-y-obesidad/cirugia-postbariatrica/"
+   },
+   {
+    "text": "Cirugía bariátrica",
+    "href": "/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/"
+   }
+  ],
+  "heading": "Procedimientos e intervenciones",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/financiacion/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/financiacion/\">Financia tu cirugía</a></h2>\n<p>Pide una visita gratuita.<br/>\nContacta con nosotros y te atenderemos sin compromiso.</p>"
+   },
+   {
+    "form": {
+     "name": "form-unidades-sobrepeso-y-obesidad",
+     "thanks": "/gracias/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nombre y apellidos",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Teléfono",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correo electrónico",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentarios",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

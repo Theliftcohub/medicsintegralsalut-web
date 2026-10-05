@@ -1,0 +1,99 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Médecine esthétique du visage</h1>\n<p>Procédures et interventions</p>\n<p>Notre Unité de médecine esthétique faciale obtient chez nos patients un rajeunissement du visage sans chirurgie. Les traitements esthétiques faciaux non chirurgicaux ont de plus en plus de succès en raison de leur commodité, de leur faible risque et de la rapidité des résultats.</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Cernes",
+    "href": "/fr/unites/medecine-esthetique-faciale/cernes/"
+   },
+   {
+    "text": "Rides d'expression",
+    "href": "/fr/unites/medecine-esthetique-faciale/rides-dexpression/"
+   },
+   {
+    "text": "Fils tenseurs",
+    "href": "/fr/unites/medecine-esthetique-faciale/flaccidite-fils-tenseurs/"
+   },
+   {
+    "text": "Hydratation et nutrition",
+    "href": "/fr/unites/medecine-esthetique-faciale/hydratation-et-nutrition-2/"
+   },
+   {
+    "text": "Peel",
+    "href": "/fr/unites/medecine-esthetique-faciale/epluchage/"
+   },
+   {
+    "text": "Remplissage de rides",
+    "href": "/fr/unites/medecine-esthetique-faciale/rides-dexpression/"
+   },
+   {
+    "text": "Rinomodelation",
+    "href": "/fr/unites/medecine-esthetique-faciale/rinomodelisation/"
+   },
+   {
+    "text": "Augmentation des lèvres",
+    "href": "/fr/unites/medecine-esthetique-faciale/augmentation-des-levres/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/fr/financement/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/fr/financement/\">Financez votre chirurgie</a></h2>\n<p>Demandez une visite gratuite.<br/>\nContactez-nous et nous vous répondrons sans engagement.</p>"
+   },
+   {
+    "form": {
+     "name": "form-fr-unites-medecine-esthetique-faciale",
+     "thanks": "/fr/merci/",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom et prénom",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Courriel",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Commentaires",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

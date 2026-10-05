@@ -1,0 +1,73 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Medicina estética corporal</h1>\n<p>Procedimientos e intervenciones</p>\n<p>Medicina estética corporal, realizamos los mejores tratamientos para conseguir resolver tus problemas estéticos corporales. Con resultados inmediatos y eficaces, y un equipo médico de especialistas en medicina estética.</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/unidades/medicina-estetica-corporal/liposuccion-sin-cirugia/\">Liposucción sin cirugía</a></p>"
+   },
+   {
+    "html": "<p><a href=\"/unidades/medicina-estetica-corporal/celulitis/\">Celulitis</a></p>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/financiacion/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/financiacion/\">Financia tu cirugía</a></h2>\n<p>Pide una visita gratuita.<br/>\nContacta con nosotros y te atenderemos sin compromiso.</p>"
+   },
+   {
+    "form": {
+     "name": "form-unidades-medicina-estetica-corporal",
+     "thanks": "/gracias/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nombre y apellidos",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Teléfono",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correo electrónico",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentarios",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

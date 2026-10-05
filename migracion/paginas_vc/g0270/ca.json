@@ -1,0 +1,91 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cirurgia estètica corporal</h1>\n<p>Procediments i intervencions</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Liposucció",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/liposuccio/"
+   },
+   {
+    "text": "Augment de glutis",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/augment-de-glutis/"
+   },
+   {
+    "text": "Cirurgia genital femenina",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/cirurgia-genital-femenina/"
+   },
+   {
+    "text": "Estiraments de braços i cames",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/aixecament-de-bracos-i-cames/"
+   },
+   {
+    "text": "Lipofilling corporal",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/lipofilling-corporal/"
+   },
+   {
+    "text": "Abdominoplàstia",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/abdominoplastia/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/ca/financament/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/ca/financament/\">Financiar la teva cirurgia</a></h2>\n<p>Demana una visita gratuïta.<br/>\nContacta amb nosaltres i t'atendrem sense compromís.</p>"
+   },
+   {
+    "form": {
+     "name": "form-ca-unitats-cirurgia-estetica-corporal-",
+     "thanks": "/ca/gracies/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom i cognoms",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telefon",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correu electrònic",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentaris",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He llegit la <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

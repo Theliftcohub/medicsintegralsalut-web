@@ -1,0 +1,117 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Médecine Cosmétique</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Après 25 ans de travail dans le secteur de la chirurgie esthétique et de la médecine esthétique, nous avons pris conscience de l'importance des soins de la peau. Une peau déshydratée, terne, sans éclat ou vieillissante est la première chose à traiter. Se sentir “bien” a une raison d'être : avoir une peau en bon état, préparée à chaque saison pour remédier aux différents problèmes qu'elle présente.</p>\n<p>Notre clinique dispose d'une unité spécifique pour traiter les différents types de peau et étudier les améliorations.</p>\n<button aria-label=\"▶\" class=\"vc-yt\" data-yt=\"UXV07tmpSqg\" type=\"button\"><img alt=\"\" height=\"360\" loading=\"lazy\" src=\"/images/yt/UXV07tmpSqg.webp\" width=\"480\"/><span>▶</span></button>\n<p>Dans notre quotidien avec le patient, nous rencontrons des peaux très mal soignées, incapables de générer la régénération cellulaire.</p>\n<p>Notre travail consiste à stimuler notre peau, à lui apporter des nutriments, en utilisant des actifs de grande pureté et, si nécessaire, des appareils appropriés, dans le but de retarder le vieillissement, d'adoucir les rides d'expression et d'apporter de l'éclat, lui donnant ainsi un aspect sain de l'intérieur comme de l'extérieur. En bref, il s'agit d'améliorer la qualité de vie de notre peau.</p>\n<p>La division simple des peaux en normales, sèches ou grasses ne nous convient pas, ce n'est qu'un indice qui peut nous aider au début d'un traitement, mais au fur et à mesure que nous le développons, la peau acquiert des changements et des améliorations et à chaque instant nous sommes capables d'améliorer toujours la qualité de la peau.</p>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"382\" loading=\"lazy\" src=\"/images/wp/2019/11/recuperar-la-luminosidad-de-la-piel-e1582104156931.webp\" width=\"510\"/></div><div class=\"vc-in-c\"><p>   Biologic Recherche, c'est la combinaison parfaite, des traitements spécifiques, des améliorations spectaculaires et un suivi des améliorations de la peau jusqu'à atteindre l'objectif que nous verrons ensemble.</p><p>Nous vous attendons pour donner à votre peau le soin dont elle a besoin.</p></div></div>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "P50 Visage",
+    "href": "/fr/unites/institut-de-beaute/visage-plie/"
+   },
+   {
+    "text": "Acide de fruits",
+    "href": "/fr/unites/institut-de-beaute/acide-de-fruits/"
+   },
+   {
+    "text": "Antiedad MC 110",
+    "href": "/fr/unites/institut-de-beaute/anti-age-mc-110/"
+   },
+   {
+    "text": "Récupérateur",
+    "href": "/fr/unites/institut-de-beaute/recuperateur/"
+   },
+   {
+    "text": "Détoxifiante",
+    "href": "/fr/unites/institut-de-beaute/detoxifiante/"
+   },
+   {
+    "text": "Hidreclat",
+    "href": "/fr/unites/institut-de-beaute/hidreclat/"
+   },
+   {
+    "text": "Réduction de volume"
+   },
+   {
+    "text": "Éliminer la cellulite",
+    "href": "/fr/unites/institut-de-beaute/eliminer-la-cellulite/"
+   }
+  ],
+  "heading": "Traitements",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Qu'est-ce que Biologique Recherche ?</h2>\n<details><summary>Voici ce que nous expliquons plus en détail</summary><p>À la recherche de l'excellence, pour obtenir ces résultats, nous avons choisi de travailler avec <strong>Biologique Recherche</strong> une marque exclusive, avec <strong>plus de 40 ans d'expérience dans le secteur de la Médecine Esthétique</strong>, basé sur la combinaison d'une approche clinique des traitements esthétiques, avec des ingrédients purs, concentrés dans leur état naturel, des protocoles et procédures individuels et rigoureux, qui jouit d'une réputation d'efficacité incontestable.</p><p><strong>In 1968</strong>, lorsque la marque est créée, <strong>l'entreprise fonctionnait comme un centre de recherche et développement</strong> dont le seul objectif était la formulation de produits pour les professionnels déçus par l'offre existante sur le marché, <strong>et depuis, elle est pionnière dans les soins de la peau</strong>, c'est pourquoi les cliniques de prestige optent pour la qualité maximale qu'une marque aussi exclusive, efficace et percutante nous offre, avec de bons résultats à très court terme.</p><p><strong>Bienvenue dans la nouvelle ère de la haute cosmétique</strong>, un nouveau concept, aux résultats spectaculaires, accompagnant votre peau dans son processus de changement, d'amélioration, jusqu'à l'obtention des résultats escomptés.</p><p><strong>Sans aucun doute, c'est le soin dont votre peau a besoin.</strong></p></details>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/fr/financement/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h4><a href=\"/fr/financement/\">Financez votre traitement</a></h4>\n<p>Demandez une visite gratuite.<br/>\nContactez-nous et nous vous répondrons sans engagement.</p>"
+   },
+   {
+    "form": {
+     "name": "form-fr-unites-medecine-esthetique-gerone",
+     "thanks": "/fr/merci/",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom et prénom",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Courriel",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Commentaires",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

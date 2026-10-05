@@ -1,0 +1,97 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Chirurgie esthétique du visage</h1>\n<p>La <strong>chirurgie esthétique du visage</strong> permet d'améliorer l'harmonie, la proportion et le rajeunissement du visage grâce à des procédures personnalisées adaptées aux besoins de chaque patient. En <strong><a href=\"/fr/\" rel=\"noopener\" target=\"_blank\">Soins Intégraux Salut</a></strong> nous disposons de spécialistes en chirurgie esthétique du visage qui travaillent avec des techniques avancées et une approche naturelle pour obtenir des résultats équilibrés et sûrs.</p>\n<p>Nos traitements de chirurgie esthétique du visage visent à corriger les signes de vieillissement, à améliorer les traits du visage et à renforcer la confiance en soi, en privilégiant toujours le naturel et la santé du patient. Nous réalisons des procédures telles que la blépharoplastie, le lifting facial, l'otoplastie, la rhinoplastie et d'autres interventions faciales adaptées à chaque cas.</p>\n<p>Chaque traitement commence par une évaluation personnalisée pour analyser les besoins du patient et concevoir une solution esthétique faciale sûre, efficace et conforme à ses objectifs.</p>\n<p>Procédures et interventions</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Rhinoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie/"
+   },
+   {
+    "text": "Blépharoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie/"
+   },
+   {
+    "text": "Minilift du cou et du double menton",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/mini-lifting-du-cou-et-du-double-menton/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Lifting du visage",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/"
+   },
+   {
+    "text": "Otoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/otoplastie/"
+   },
+   {
+    "text": "Menton et pommettes",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/chirurgie-du-menton-et-des-pommettes-2/"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/fr/financement/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/fr/financement/\">Financez votre chirurgie</a></h2>\n<p>Demandez une visite gratuite.<br/>\nContactez-nous et nous vous répondrons sans engagement.</p>"
+   },
+   {
+    "form": {
+     "name": "form-fr-unites-chirurgie-esthetique-faciale",
+     "thanks": "/fr/merci/",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom et prénom",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Courriel",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Commentaires",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "bg": "crema",
+  "stack": true
+ }
+]

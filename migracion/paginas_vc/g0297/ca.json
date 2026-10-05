@@ -1,0 +1,83 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Cirurgia estètica masculina</h1>\n<p>Procediments i intervencions</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Ginecomàstia",
+    "href": "/ca/unitats/cirurgia-estetica-masculina/ginecomastia/"
+   },
+   {
+    "text": "Blefaroplàstia",
+    "href": "/ca/unitats/cirurgia-estetica-masculina/blefaroplastia/"
+   },
+   {
+    "text": "Aumento de pectorales",
+    "href": "/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/"
+   },
+   {
+    "text": "Coll i papada lleugerament elevats",
+    "href": "/ca/unitats/cirurgia-estetica-masculina/estirament-de-coll-i-papada/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/ca/financament/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/ca/financament/\">Financiar la teva cirurgia</a></h2>\n<p>Demana una visita gratuïta.<br/>\nContacta amb nosaltres i t'atendrem sense compromís.</p>"
+   },
+   {
+    "form": {
+     "name": "form-ca-unitats-cirurgia-estetica-masculina",
+     "thanks": "/ca/gracies/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom i cognoms",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telefon",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correu electrònic",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentaris",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He llegit la <a href=\"/ca/politica-de-privadesa/\">Política de privacitat</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

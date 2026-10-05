@@ -1,0 +1,101 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Choisissez d'être entre les meilleures mains.</h2>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Demandez une visite gratuite.<br/>\nContactez-nous et nous vous répondrons sans engagement.</p>"
+   },
+   {
+    "form": {
+     "name": "form-fr-contact",
+     "thanks": "/fr/merci/",
+     "submit": "Envoyer",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nom et prénom",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Courriel",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Motif de la consultation",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+      }
+     ]
+    }
+   },
+   {
+    "html": "<table><thead><tr><th>Responsable</th><th>VIOLET GRUP MEDIC SL</th></tr></thead><tbody><tr><td>Finalité</td><td>Traiter vos demandes et/ou requêtes. Actions commerciales</td></tr><tr><td>Droits</td><td>Accéder à, rectifier, supprimer des données, ainsi qu'à d'autres droits, comme expliqué dans les informations supplémentaires</td></tr><tr><td>Informations supplémentaires</td><td>Vous pouvez consulter les informations supplémentaires et détaillées sur la Protection des Données sur notre site web, section Politique de Confidentialité</td></tr></tbody></table>"
+   }
+  ],
+  "stack": true
+ },
+ {
+  "type": "vc-prosa",
+  "bg": "crema",
+  "intro": "<h3>Et le meilleur pour nous connaître, c'est que vous veniez nous voir !</h3>",
+  "cols": [
+   {
+    "html": "<a href=\"tel:972209086\"><i></i><p>Envoyez-nous vos coordonnées et<br/>nous t'appelons</p></a>",
+    "form": {
+     "name": "form-fr-contact",
+     "thanks": "/fr/merci/",
+     "submit": "Je veux qu'on m'appelle",
+     "fields": [
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Votre téléphone",
+       "required": true,
+       "autocomplete": "tel"
+      }
+     ]
+    },
+    "after": "<p>L'envoi des données emporte acceptation de la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>.</p><p>Le téléphone saisi ne sera utilisé que pour vous contacter et vous fournir des informations sur votre assurance.</p>"
+   },
+   {
+    "html": "<a href=\"tel:+34972209086\"><i></i><p>Appelez-nous dès maintenant, sans engagement</p></a>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<div class=\"vc-in\" style=\"--g:6fr 4fr\"><div class=\"vc-in-c\">\n<div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.8895381656057!2d2.8156611764879065!3d41.9811813589532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae6df7ca78529%3A0xefbe9bacdfa86691!2sPla%C3%A7a%20Poeta%20Marquina%2C%203%2C%2017002%20Girona!5e0!3m2!1sca!2ses!4v1751396700026!5m2!1sca!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_clock_1055090-2.webp\" width=\"64\"/><p><strong>Lundi au vendredi :</strong> 10h00 à 20h00<br/>\n<strong>Samedi et dimanche :</strong> Cerrado</p><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_mail_1055030-1.webp\" width=\"64\"/><p><strong>Téléphone :</strong> 972 20 90 86<br/>\n<strong>Courriel :</strong> Info@medicsintegralsalut.com</p></div></div>"
+   }
+  ]
+ }
+]

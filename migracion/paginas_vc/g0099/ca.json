@@ -1,0 +1,28 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Perquè ets únic, tenim un finançament que s'adapta a les teves necessitats.</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Si vols finançar el teu tractament d'una manera còmoda, fàcil i segura…<br/>\nara ho tens més fàcil que mai!</p>\n<p>A través de La Meva Medicina Finançada, tens la possibilitat d'escollir la quota que més s'adapti a les teves necessitats i amb resposta immediata.</p>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Feta a la teva mida</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Resposta immediata</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Tria estar en bones mans</h5></div><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"47\" loading=\"lazy\" src=\"/images/wp/2019/10/financiera.webp\" width=\"179\"/></div></div>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>Però el millor per conèixer-nos és que ens vinguis a veure!</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/ca/contacte/\">Demana una cita gratuïta</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Truca'ns ara mateix sense compromís</p></a></div></div>"
+   }
+  ],
+  "bg": "crema"
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Поскольку вы уникальны, у нас есть финансирование, которое подходит для ваших нужд.</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Если вы хотите финансировать свое лечение удобным, простым и безопасным способом…<br/>\nтеперь это проще, чем когда-либо!</p>\n<p>Через услугу \"Твоя Медицина в Кредит\" вы можете выбрать удобный вам ежемесячный платёж с немедленным ответом.</p>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Сделано на заказ</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Немедленный ответ</h5><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/><h5>Выбирай быть в надежных руках</h5></div><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"47\" loading=\"lazy\" src=\"/images/wp/2019/10/financiera.webp\" width=\"179\"/></div></div>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>Но лучше всего познакомиться с нами – это приехать к нам в гости!</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/ru/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%be/\">Запишитесь на бесплатную консультацию</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Позвоните нам прямо сейчас без обязательств</p></a></div></div>"
+   }
+  ],
+  "bg": "crema"
+ }
+]

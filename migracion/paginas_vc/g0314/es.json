@@ -1,0 +1,118 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Medicina Cosmética</h1>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Después de 25 años trabajando el sector de la cirugía estética y la medicina estética hemos sido conscientes de la importancia que tiene el cuidado de nuestra piel. Una piel deshidratada, apagada, mate o envejecida, es lo primero que debemos tratar, vernos “bien” tiene un fundamento: tener la piel en buenas condiciones preparada en cada época del año para subsanar los diferentes problemas que la piel va presentando.</p>\n<p>Nuestra clínica tiene una unidad específica para tratar los diferentes tipos de piel y el estudio de la mejora.</p>\n<button aria-label=\"▶\" class=\"vc-yt\" data-yt=\"UXV07tmpSqg\" type=\"button\"><img alt=\"\" height=\"360\" loading=\"lazy\" src=\"/images/yt/UXV07tmpSqg.webp\" width=\"480\"/><span>▶</span></button>\n<p>En nuestro día a día con el paciente, nos encontramos pieles muy mal tratadas, con la incapacidad de generar la regeneración celular.</p>\n<p>Nuestro trabajo es estimular nuestra piel, aportar nutrientes, utilizando activos de gran pureza y si hace falta, la aparatología adecuada, teniendo como objetivo retrasar el envejecimiento, suavizando líneas de expresión y aportando luz, dándole un aspecto saludable tanto por dentro como por fuera, en definitiva, mejorar la calidad de vida de nuestra piel.</p>\n<p>La división simple de las pieles en Normal, Seca o Grasa, no nos sirve, es solo una pista que puede ayudarnos al inicio de un tratamiento, pero a medida que lo desarrollamos la piel adquiere los cambios y mejoras y en cada momento somos capaces de mejorar siempre la calidad de la piel.</p>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img alt=\"\" decoding=\"async\" height=\"382\" loading=\"lazy\" src=\"/images/wp/2019/11/recuperar-la-luminosidad-de-la-piel-e1582104156931.webp\" width=\"510\"/></div><div class=\"vc-in-c\"><p>   Biologic Recherche,  es la combinación perfecta , tratamientos específicos, mejoras espectaculares y seguimiento de las mejoras de la piel hasta conseguir el objetivo que veremos juntas.</p><p>Te esperamos para que le demos a tu piel la medicina que necesita.</p></div></div>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "P50 Visage",
+    "href": "/unidades/gabinete-de-estetica/p50-visage/"
+   },
+   {
+    "text": "Ácido de frutas",
+    "href": "/unidades/gabinete-de-estetica/acido-de-frutas/"
+   },
+   {
+    "text": "Antiedad MC 110",
+    "href": "/unidades/gabinete-de-estetica/antiedad-mc-110/"
+   },
+   {
+    "text": "Recuperador",
+    "href": "/unidades/gabinete-de-estetica/recuperador/"
+   },
+   {
+    "text": "Desintoxicante",
+    "href": "/unidades/gabinete-de-estetica/desintoxicante/"
+   },
+   {
+    "text": "Hidreclat",
+    "href": "/unidades/gabinete-de-estetica/hidreclat/"
+   },
+   {
+    "text": "Reducción de volumen",
+    "href": "/unidades/gabinete-de-estetica/reduccion-de-volumen-girona/"
+   },
+   {
+    "text": "Eliminar celulitis",
+    "href": "/unidades/gabinete-de-estetica/eliminar-celulitis/"
+   }
+  ],
+  "heading": "Tratamientos",
+  "headingTag": "h2"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>¿Qué es Biologique Recherche?</h2>\n<details><summary>Aquí te explicamos con más detalles</summary><p>En busca de la excelencia siempre, para conseguir estos resultados, optamos por trabajar con <strong>Biologique Recherche</strong> una marca exclusiva, con <strong>más de 40 años de experiencia en el sector de la Medicina Estética</strong>, basada en la combinación de un enfoque clínico de los tratamientos estéticos, con ingredientes puros, concentrados en su estado natural, protocolos y procedimientos individuales y rigurosos, que goza de una incuestionable reputación de eficacia.</p><p><strong>En 1968</strong>, cuando se crea la marca, <strong>la empresa funcionaba como un centro de investigación y desarrollo</strong> cuyo único objetivo era la formulación de productos para los profesionales decepcionados con la oferta existente en el mercado, <strong>y es desde entonces pionera en el cuidado de la piel</strong>, por ello las clínicas de prestigio optamos por la máxima calidad que nos ofrece una marca tan exclusiva, eficaz y contundente con buenos resultados a muy corto plazo.</p><p><strong>Bienvenidos a la nueva era de la alta cosmética</strong>, un nuevo concepto, con resultados espectaculares, acompañando a tu piel en el proceso de cambio, de mejora, hasta conseguir los resultados esperados.</p><p><strong>Sin duda es la medicina que tu piel necesita.</strong></p></details>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/financiacion/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h4><a href=\"/financiacion/\">Financia tu tratamiento</a></h4>\n<p>Pide una visita gratuita.<br/>\nContacta con nosotros y te atenderemos sin compromiso.</p>"
+   },
+   {
+    "form": {
+     "name": "form-unidades-medicina-cosmetica-girona",
+     "thanks": "/gracias/",
+     "submit": "Enviar",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Nombre y apellidos",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Teléfono",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Correo electrónico",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comentarios",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "He leído la <a href=\"/politica-de-privacidad/\">Política de privacidad</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]

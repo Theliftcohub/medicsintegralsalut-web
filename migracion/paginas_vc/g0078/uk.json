@@ -1,0 +1,101 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h2>Виберіть найкращих фахівців.</h2>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p>Замовте безкоштовний візит.<br/>\nЗв’яжіться з нами, і ми надамо вам консультацію без жодних зобов’язань.</p>"
+   },
+   {
+    "form": {
+     "name": "form-uk-d0-ba-d0-be-d0-bd-d1-82-d0-b0-d0-ba-d",
+     "thanks": "/uk/дякую/",
+     "submit": "Надіслати",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "Ім'я та прізвище",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Телефон",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Електронна пошта",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Причина звернення",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "Я прочитав <a href=\"/uk/%d0%bf%d0%be%d0%bb%d1%96%d1%82%d0%b8%d0%ba%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d1%96%d0%b4%d0%b5%d0%bd%d1%86%d1%96%d0%b9%d0%bd%d0%be%d1%81%d1%82%d1%96/\">Політика конфіденційності</a>"
+      }
+     ]
+    }
+   },
+   {
+    "html": "<table><thead><tr><th>Відповідальний</th><th>VIOLET GRUP MEDIC SL</th></tr></thead><tbody><tr><td>Мета</td><td>Надання відповідей на ваші запитання та/або запити. Комерційні заходи</td></tr><tr><td>Права</td><td>Доступ до даних, їх виправлення та видалення, а також інші права, як зазначено в додатковій інформації</td></tr><tr><td>Додаткова інформація</td><td>Додаткову та детальну інформацію щодо захисту даних ви можете знайти на нашому веб-сайті в розділі «Політика конфіденційності»</td></tr></tbody></table>"
+   }
+  ],
+  "stack": true
+ },
+ {
+  "type": "vc-prosa",
+  "bg": "crema",
+  "intro": "<h3>А найкращий спосіб познайомитися з нами — це завітати до нас!</h3>",
+  "cols": [
+   {
+    "html": "<a href=\"tel:972209086\"><i></i><p>Надішліть нам свої дані та<br/>ми зателефонуємо тобі</p></a>",
+    "form": {
+     "name": "form-uk-d0-ba-d0-be-d0-bd-d1-82-d0-b0-d0-ba-d",
+     "thanks": "/uk/дякую/",
+     "submit": "Я хочу, щоб мене так називали",
+     "fields": [
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Твій телефон",
+       "required": true,
+       "autocomplete": "tel"
+      }
+     ]
+    },
+    "after": "<p>* Надсилання даних означає згоду з <a href=\"/uk/%d0%bf%d0%be%d0%bb%d1%96%d1%82%d0%b8%d0%ba%d0%b0-%d0%ba%d0%be%d0%bd%d1%84%d1%96%d0%b4%d0%b5%d0%bd%d1%86%d1%96%d0%b9%d0%bd%d0%be%d1%81%d1%82%d1%96/\">Політика конфіденційності</a>.</p><p>Вказаний номер телефону використовуватиметься виключно для того, щоб зв’язатися з вами та надати вам інформацію щодо вашої страховки.</p>"
+   },
+   {
+    "html": "<a href=\"tel:+34972209086\"><i></i><p>Зателефонуйте нам прямо зараз — без жодних зобов’язань</p></a>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<div class=\"vc-in\" style=\"--g:6fr 4fr\"><div class=\"vc-in-c\">\n<div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.8895381656057!2d2.8156611764879065!3d41.9811813589532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae6df7ca78529%3A0xefbe9bacdfa86691!2sPla%C3%A7a%20Poeta%20Marquina%2C%203%2C%2017002%20Girona!5e0!3m2!1sca!2ses!4v1751396700026!5m2!1sca!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_clock_1055090-2.webp\" width=\"64\"/><p><strong>З понеділка по п’ятницю:</strong> з 10:00 до 20:00<br/>\n<strong>Субота та неділя:</strong> Закрито</p><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/10/iconfinder_mail_1055030-1.webp\" width=\"64\"/><p><strong>Телефон:</strong> 972 20 90 86<br/>\n<strong>Електронна пошта:</strong> Info@medicsintegralsalut.com</p></div></div>"
+   }
+  ]
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Male cosmetic surgery</h1>\n<p>Procedures and interventions</p>"
+   }
+  ]
+ },
+ {
+  "type": "vc-tarjetas",
+  "items": [
+   {
+    "text": "Gynaecomastia",
+    "href": "/en/units/male-cosmetic-surgery/gynaecomastia/"
+   },
+   {
+    "text": "Eyelid surgery",
+    "href": "/en/units/male-cosmetic-surgery/eyelid-surgery/"
+   },
+   {
+    "text": "Chest augmentation",
+    "href": "/en/units/facial-aesthetic-medicine/expression-lines/"
+   },
+   {
+    "text": "Neck and double chin lift",
+    "href": "/en/units/male-cosmetic-surgery/neck-and-double-chin-lift/"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<p><a href=\"/en/financing/\"><img alt=\"\" decoding=\"async\" height=\"69\" loading=\"lazy\" src=\"/images/wp/2019/10/mps.webp\" width=\"79\"/></a></p>\n<h2><a href=\"/en/financing/\">Finance your surgery</a></h2>\n<p>Request a free visit.<br/>\nContact us and we will assist you without obligation.</p>"
+   },
+   {
+    "form": {
+     "name": "form-en-units-male-cosmetic-surgery",
+     "thanks": "/en/thank-you/",
+     "submit": "Send",
+     "fields": [
+      {
+       "name": "nombre",
+       "type": "text",
+       "placeholder": "First and last name",
+       "required": true,
+       "autocomplete": "name"
+      },
+      {
+       "name": "telefono",
+       "type": "tel",
+       "placeholder": "Telephone",
+       "required": true,
+       "autocomplete": "tel"
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "placeholder": "Email",
+       "required": true,
+       "autocomplete": "email"
+      },
+      {
+       "name": "mensaje",
+       "type": "textarea",
+       "placeholder": "Comments",
+       "required": true
+      },
+      {
+       "name": "privacidad",
+       "type": "checkbox",
+       "required": true,
+       "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+      }
+     ]
+    }
+   }
+  ],
+  "stack": true
+ }
+]
