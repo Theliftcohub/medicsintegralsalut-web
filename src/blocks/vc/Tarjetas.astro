@@ -1,0 +1,47 @@
+---
+// Tratamientos de una unidad en tarjetas. Texto y enlace literales del WordPress (items[{text, href}]);
+// la foto y la descripción (meta description) salen de la propia página enlazada. Foto: su og:image, salvo que sea
+// un logo (muchas páginas comparten el de financiación); entonces, la primera foto grande de su contenido.
+import { getCollection } from 'astro:content';
+const { heading, headingTag = 'h2', items = [], bg } = Astro.props;
+const H = headingTag;
+const pages = await getCollection('pages');
+const porRuta = new Map(pages.map((p) => [p.data.path, p.data]));
+const LOGO = /\/(mps|logo|financiera)[^/]*$/i;
+const foto = (d: any) => {
+  if (d.seo.ogImage && !LOGO.test(d.seo.ogImage)) return d.seo.ogImage;
+  const html = d.blocks.flatMap((b: any) => [b.html, ...(b.cols ?? []).map((c: any) => c.html)]).filter(Boolean).join(' ');
+  for (const m of html.matchAll(/<img[^>]*>/g)) {
+    const src = /src="([^"]+)"/.exec(m[0])?.[1];
+    const w = Number(/width="(\d+)"/.exec(m[0])?.[1] ?? 0);
+    if (src && w >= 300 && !LOGO.test(src) && !m[0].includes('vc-ico')) return src;
+  }
+};
+const datos = (href?: string) => {
+  if (!href) return {};
+  const d: any = porRuta.get(decodeURI(href.split('#')[0]));
+  return d ? { img: foto(d), desc: d.seo.description } : {};
+};
+---
+<section class:list={['vc-prosa vc-tarjetas', bg]}>
+  <div class="wrap">
+    {heading && <div class="vc-texto-rico vc-prosa-intro"><H set:html={heading} /></div>}
+    <ul class="vc-tgrid">
+      {items.map((it: any) => {
+        const x: any = datos(it.href);
+        const Tag = it.href ? 'a' : 'div';
+        return (
+          <li>
+            <Tag class:list={['vc-tcard', !it.href && 'vc-tcard--sin']} href={it.href}>
+              {x.img && <span class="vc-tcard-img"><img src={x.img} alt="" loading="lazy" decoding="async" width="600" height="450" /></span>}
+              <span class="vc-tcard-txt">
+                <span class="vc-tcard-t">{it.text}</span>
+                {x.desc && <span class="vc-tcard-d">{x.desc}</span>}
+              </span>
+            </Tag>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</section>

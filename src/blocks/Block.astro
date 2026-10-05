@@ -13,9 +13,10 @@ import VcContacto from './vc/Contacto.astro';
 import VcCierre from './vc/Cierre.astro';
 import VcMpost from './vc/Mpost.astro';
 import VcProsa from './vc/Prosa.astro';
+import VcTarjetas from './vc/Tarjetas.astro';
 const { block, lang } = Astro.props;
 const map: Record<string, any> = {
-  'vc-hero': VcHero, 'vc-editorial': VcEditorial, 'vc-trat': VcTrat, 'vc-unidades': VcUnidades, 'vc-resenas': VcResenas, 'vc-videos': VcVideos, 'vc-ventajas': VcVentajas, 'vc-equipo': VcEquipo, 'vc-distintivos': VcDistintivos, 'vc-contacto': VcContacto, 'vc-cierre': VcCierre, 'vc-mpost': VcMpost, 'vc-prosa': VcProsa };
+  'vc-hero': VcHero, 'vc-editorial': VcEditorial, 'vc-trat': VcTrat, 'vc-unidades': VcUnidades, 'vc-resenas': VcResenas, 'vc-videos': VcVideos, 'vc-ventajas': VcVentajas, 'vc-equipo': VcEquipo, 'vc-distintivos': VcDistintivos, 'vc-contacto': VcContacto, 'vc-cierre': VcCierre, 'vc-mpost': VcMpost, 'vc-prosa': VcProsa, 'vc-tarjetas': VcTarjetas };
 const C = map[block.type];
 if (!C) throw new Error(`Bloque desconocido: ${block.type}`);
 ---

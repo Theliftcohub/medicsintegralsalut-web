@@ -17,8 +17,13 @@ Se ejecuta después de vc_pages.py / schema_posts.py. Cada paso corrige un fallo
 11. logo         El schema recuperado del WordPress apunta al logo en /wp-content/: pasa a /icon-512.png (la misma imagen).
 12. h1           Entradas con un <h1> dentro del cuerpo (además del título): pasa a <h2 class="h-as-h1"> (mismo aspecto).
                  En las páginas lo hace src/lib/paginas.ts al pintar.
+13. tarjetas     Rejillas de enlaces a tratamientos (filas .vc-in con un enlace por celda) -> bloque `vc-tarjetas`
+                 {heading, items[{text, href}]}: el componente añade foto y descripción de la página enlazada.
+14. sedes        Hospitales de /medics-integral-salut/ (título suelto + fila foto | mapa y datos, repetido) ->
+                 una sección con una tarjeta por hospital (`variant: "tarjetas"`).
 Uso: python scripts/pulir_contenido.py [--paginas]   (--paginas: no toca las entradas .md)"""
 import csv, glob, json, os, re, sys
+from bs4 import BeautifulSoup, Tag
 from collections import Counter
 from urllib.parse import unquote
 
@@ -135,6 +140,67 @@ def gracias(o, lang):
             gracias(v, lang)
 
 
+def rejilla_enlaces(h):
+    """HTML con solo un título opcional y filas de enlaces -> (heading_html, tag, items) o None."""
+    s = BeautifulSoup(h or "", "html.parser")
+    heading, tag, items = None, "h2", []
+    for el in s.contents:
+        if not isinstance(el, Tag):
+            if str(el).strip():
+                return None
+            continue
+        if el.name in ("h2", "h3", "h4") and heading is None and not items:
+            heading, tag = el.decode_contents().strip(), el.name
+        elif (el.name == "p" and heading is None and not items and el.find("strong")
+              and el.get_text(strip=True) == el.find("strong").get_text(strip=True)):
+            heading = el.find("strong").decode_contents().strip()  # título en <p><strong> (WPBakery) -> h2
+        elif el.name == "div" and "vc-in" in (el.get("class") or []):
+            for c in el.find_all("div", class_="vc-in-c", recursive=False):
+                kids = [k for k in c.contents if isinstance(k, Tag) or str(k).strip()]
+                if not kids:
+                    continue
+                for k in kids:  # cada celda: uno o varios <p> con un enlace (o texto sin enlace)
+                    if not isinstance(k, Tag) or k.name != "p":
+                        return None
+                    a = k.find_all("a")
+                    if len(a) > 1 or (a and a[0].get_text(strip=True) != k.get_text(strip=True)):
+                        return None
+                    items.append({"text": k.get_text(" ", strip=True), **({"href": a[0]["href"]} if a else {})})
+        elif el.name == "p" and el.find("a") and el.get_text(strip=True) == el.find("a").get_text(strip=True):
+            items.append({"text": el.get_text(" ", strip=True), "href": el.find("a")["href"]})
+        else:
+            return None
+    return (heading, tag, items) if len(items) >= 2 else None
+
+
+SOLO_H = re.compile(r"^\s*<h[2-4][^>]*>.*?</h[2-4]>\s*$", re.S)
+
+
+def sedes(blocks):
+    """[h2+p] [h3] [foto | mapa+datos] [h3] [foto | mapa+datos]… -> intro + una tarjeta por sede."""
+    titulo = lambda b: b["type"] == "vc-prosa" and len(b.get("cols", [])) == 1 and SOLO_H.match(b["cols"][0].get("html") or "")
+    ficha = lambda b: b["type"] == "vc-prosa" and len(b.get("cols", [])) == 2 and "vc-embed--mapa" in (b["cols"][1].get("html") or "")
+    out, i = [], 0
+    while i < len(blocks):
+        cards, j = [], i
+        while j + 1 < len(blocks) and titulo(blocks[j]) and ficha(blocks[j + 1]):
+            t, d = blocks[j], blocks[j + 1]
+            cards.append({"html": d["cols"][0]["html"] + t["cols"][0]["html"] + d["cols"][1]["html"]})
+            j += 2
+        if len(cards) < 2:
+            out.append(blocks[i])
+            i += 1
+            continue
+        sec = {"type": "vc-prosa", "bg": "crema", "variant": "tarjetas", "cols": cards}
+        prev = out[-1] if out else None
+        if prev and prev["type"] == "vc-prosa" and len(prev.get("cols", [])) == 1 and (prev["cols"][0].get("html") or "").lstrip().startswith("<h2"):
+            sec["intro"] = out.pop()["cols"][0]["html"]
+        out.append(sec)
+        C["sedes"] += 1
+        i = j
+    return out
+
+
 def desequilibrado(h):
     return len(re.findall(r"<div[\s>]", h or "")) != (h or "").count("</div>")
 
@@ -186,6 +252,19 @@ for f in glob.glob("src/content/pages/*/*.json"):
         if b["type"] == "vc-mpost" and b.get("html"):
             b["html"] = texto(iconos(b["html"]))
         blocks.append(b)
+    nuevos = []
+    for b in blocks:
+        r = rejilla_enlaces(b["cols"][0].get("html")) if b["type"] == "vc-prosa" and len(b.get("cols", [])) == 1 and not b.get("intro") else None
+        if r:
+            heading, tag, items = r
+            nb = {"type": "vc-tarjetas", "items": items, **({"heading": heading, "headingTag": tag} if heading else {})}
+            if b.get("bg"):
+                nb["bg"] = b["bg"]
+            nuevos.append(nb)
+            C["tarjetas"] += 1
+        else:
+            nuevos.append(b)
+    blocks = sedes(nuevos)
     j["blocks"] = blocks
     j["schema"] = entidad(json.loads(logo(json.dumps(j["schema"], ensure_ascii=False))))
     gracias(j["blocks"], j["lang"])
