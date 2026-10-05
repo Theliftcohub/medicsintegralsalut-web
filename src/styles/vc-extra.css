@@ -25,13 +25,51 @@
 .vc .resena{margin:0}
 .vc .resena blockquote{margin:0}
 .vc .resena p{font-size:15.5px}
-/* selector de idioma */
-.vc .vc-langs{list-style:none;display:flex;gap:10px;margin:0;padding:0;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase}
-.vc .vc-langs a{text-decoration:none;color:var(--gris-cl)}
-.vc .vc-langs a[aria-current]{color:var(--marca-txt);font-weight:600}
-.vc .vc-langs--panel{margin-top:22px;flex-wrap:wrap}
-.vc .vc-langs--panel a{border:0;padding:6px 0;font-size:13px}
-@media(max-width:1080px){.vc header .bar>.vc-langs{display:none}}
+/* ---- cabecera: desplegable de Unidades (mega menú) ---- */
+body.vc>header .nav-units{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:7px;padding-bottom:4px;position:relative}
+body.vc>header .nav-units:hover,body.vc>header .nav-units[aria-expanded="true"]{color:var(--tinta)}
+body.vc>header .nav-units:focus-visible,.vc .vc-lang-btn:focus-visible{outline:1px solid var(--marca);outline-offset:4px}
+.vc .chev{transition:transform .25s}
+.vc [aria-expanded="true"]>.chev{transform:rotate(180deg)}
+.vc .mega{position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--linea);
+  box-shadow:0 24px 40px -24px rgba(46,42,38,.18);max-height:calc(100vh - 92px);overflow-y:auto;padding:28px 0 16px}
+.vc .mega-all{text-decoration:none;margin-bottom:20px}
+.vc .mega-grid{columns:4;column-gap:44px}
+.vc .mega-col{break-inside:avoid;margin-bottom:26px}
+@media(max-width:1280px){.vc .mega-grid{columns:3}}
+.vc .mega-cat{display:block;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--marca-txt);
+  text-decoration:none;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid var(--linea)}
+.vc .mega ul{list-style:none;margin:0;padding:0}
+.vc .mega li a{display:block;font-size:14px;line-height:1.4;color:var(--gris);text-decoration:none;padding:3px 0}
+.vc .mega li a:hover,.vc .mega-cat:hover{color:var(--tinta)}
+.vc .mega .mega-sub{padding-left:12px;border-left:1px solid var(--linea);margin:2px 0 4px}
+.vc .mega .mega-sub a{font-size:13.5px}
+@media(max-width:1080px){.vc .mega{display:none}}
+/* ---- selector de idioma (siempre los 6 idiomas, con bandera) ---- */
+.vc .flag{display:block;flex-shrink:0;border-radius:2px;box-shadow:0 0 0 1px rgba(46,42,38,.12)}
+.vc .vc-lang{position:relative}
+.vc .vc-lang-btn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.14em;color:var(--gris);padding:8px 4px}
+.vc .vc-lang-btn:hover{color:var(--tinta)}
+.vc .vc-lang-list{position:absolute;right:0;top:calc(100% + 10px);min-width:190px;list-style:none;margin:0;padding:8px 0;background:#fff;
+  border:1px solid var(--linea);box-shadow:0 18px 36px -18px rgba(46,42,38,.25);z-index:210}
+.vc .vc-lang-list a,.vc .vc-langs--panel a{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--tinta);font-size:15px;padding:9px 18px}
+.vc .vc-lang-list a:hover{background:var(--crema)}
+.vc .vc-lang-list a[aria-current],.vc .vc-langs--panel a[aria-current]{color:var(--marca-txt);font-weight:500}
+@media(max-width:1080px){.vc header .bar>.vc-lang{display:none}}
+/* ---- menú móvil: Unidades plegable y selector de idioma ---- */
+.vc .panel .p-units{border-bottom:1px solid var(--linea)}
+.vc .panel .p-units summary{list-style:none;cursor:pointer;font-size:17px;font-weight:400;color:var(--tinta);padding:15px 0;display:flex;justify-content:space-between;align-items:center}
+.vc .panel .p-units summary::-webkit-details-marker{display:none}
+.vc .panel .p-units summary::after{content:"+";color:var(--marca-txt);font-size:20px;line-height:1}
+.vc .panel .p-units[open] summary::after{content:"−"}
+.vc .panel .p-units a{display:block;border:0}
+.vc .panel>a::first-letter,.vc .panel .p-units summary::first-letter{text-transform:uppercase}
+.vc .panel .p-cat{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--marca-txt);padding:16px 0 6px}
+.vc .panel .p-sub{font-size:15px;color:var(--gris);padding:6px 0 6px 12px}
+.vc .panel .p-sub2{padding-left:26px;font-size:14px}
+.vc .panel .p-units>a:last-child{padding-bottom:18px}
+.vc .vc-langs--panel{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 10px}
+.vc .vc-langs--panel a{padding:9px 0;border:0;font-size:14.5px}
 /* formulario propio dentro de la caja de contacto (sustituye al mapa de la maqueta; el mapa pasa debajo) */
 .vc .vc-formbox{padding:56px 48px;border-left:1px solid var(--linea);background:var(--crema)}
 .vc .vc-formbox h3{margin-bottom:8px}
@@ -63,3 +101,8 @@
 @media(max-width:760px){.vc .video .thumb{aspect-ratio:16/9}}
 .vc .video .play{align-items:flex-end;justify-content:flex-end;padding:12px}
 .vc .play span{width:46px;height:46px}
+/* pie: distintivos (SECPRE, Teknon…) en todas las páginas, como en el WordPress; la portada ya los tiene en su sección */
+.vc .foot-distin{padding-bottom:56px;margin-bottom:60px;border-bottom:1px solid var(--linea)}
+/* el menú lateral cerrado (fuera de pantalla) dejaba asomar su sombra en el borde derecho del móvil */
+.vc .panel{box-shadow:none;visibility:hidden;transition:transform .42s cubic-bezier(.4,0,.2,1),visibility 0s .42s}
+body.vc.menu-open .panel{box-shadow:-14px 0 44px rgba(46,42,38,.14);visibility:visible;transition:transform .42s cubic-bezier(.4,0,.2,1)}

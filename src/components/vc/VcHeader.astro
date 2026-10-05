@@ -1,33 +1,83 @@
 ---
-// Cabecera «Versión C». Etiquetas y enlaces por idioma en src/data/vc-chrome.json (literales del menú del WordPress).
+// Cabecera «Versión C». Etiquetas y enlaces por idioma en src/data/vc-chrome.json (literales del menú del WordPress):
+// `menu` (scripts/build_chrome_vc.py) y `units`, el submenú de Unidades (scripts/build_menu_unidades.py).
 import chrome from '../../data/vc-chrome.json';
 import site from '../../data/site.json';
 import ui from '../../i18n/ui.json';
+import Bandera from './Bandera.astro';
 const { lang = 'es', alternates = {} } = Astro.props;
-const C: any = (chrome as any)[lang] ?? (chrome as any).es;
+const CH: any = chrome;
+const C: any = CH[lang] ?? CH.es;
 const isHome = Astro.url.pathname === C.home;
 // las anclas de la portada (#info, #unidades) fuera de ella apuntan a sus páginas
 const fx = (h: string) => (isHome || !h?.startsWith('#') ? h : C.anchors[h] ?? C.home + h);
 const t = (ui as any)[lang] ?? ui.es;
-const names: Record<string, string> = { es: 'ES', ca: 'CA', en: 'EN', fr: 'FR', ru: 'RU', uk: 'UK' };
-const langs = Object.entries(alternates);
+// Selector de idioma: siempre los 6; sin traducción de esta página, lleva a la portada de ese idioma.
+const LANGS = ['es', 'ca', 'en', 'fr', 'ru', 'uk'];
+const NAME: Record<string, string> = { es: 'Español', ca: 'Català', en: 'English', fr: 'Français', ru: 'Русский', uk: 'Українська' };
+const langHref = (l: string) => (alternates as any)[l] ?? CH[l].home;
+const units: any[] = C.units ?? [];
+const unitsPage = C.anchors['#unidades'];
 const wa = { text: 'WhatsApp 620 892 236', href: 'https://api.whatsapp.com/send?phone=34620892236' };
+const chevron = '<svg class="chev" viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
 ---
 <header id="hdr">
   <div class="wrap-wide bar">
     <a href={C.home}><img class="logo" src={site.logo} alt="clinica estetica girona" width="200" height="79" /></a>
-    <nav aria-label={t.menu}>{C.menu.map((i: any) => <a href={fx(i.href)}>{i.text}</a>)}</nav>
-    {langs.length > 1 && <ul class="vc-langs">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{names[l] ?? l}</a></li>)}</ul>}
+    <nav aria-label={t.menu}>
+      {C.menu.map((i: any, n: number) => n === 2 && units.length
+        ? <button type="button" class="nav-units" aria-expanded="false" aria-controls="mega">{i.text}<Fragment set:html={chevron} /></button>
+        : <a href={fx(i.href)}>{i.text}</a>)}
+    </nav>
+    <div class="vc-lang">
+      <button type="button" class="vc-lang-btn" aria-expanded="false" aria-controls="langs" aria-label={`${t.lang}: ${NAME[lang]}`}>
+        <Bandera l={lang} /><span>{lang.toUpperCase()}</span><Fragment set:html={chevron} />
+      </button>
+      <ul class="vc-lang-list" id="langs" hidden>
+        {LANGS.map((l) => <li><a href={langHref(l)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><Bandera l={l} />{NAME[l]}</a></li>)}
+      </ul>
+    </div>
     <a class="btn" href={fx(C.cta.href)}><span>{C.cta.text}</span></a>
     <button class="burger" id="burger" aria-label={t.menu_open} aria-controls="panel" aria-expanded="false"><i></i><i></i><i></i></button>
   </div>
+  {units.length > 0 && (
+    <div class="mega" id="mega" hidden>
+      <div class="wrap-wide">
+        <a class="kicker mega-all" href={unitsPage}>{C.menu[2].text}</a>
+        <div class="mega-grid">
+          {units.map((u: any) => (
+            <div class="mega-col">
+              {u.href ? <a class="mega-cat" href={u.href}>{u.text}</a> : <span class="mega-cat">{u.text}</span>}
+              {u.sub && <ul>{u.sub.map((s: any) => (
+                <li><a href={s.href}>{s.text}</a>{s.sub && <ul class="mega-sub">{s.sub.map((x: any) => <li><a href={x.href}>{x.text}</a></li>)}</ul>}</li>
+              ))}</ul>}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
 </header>
 <div class="velo" id="velo"></div>
 <nav class="panel" id="panel" aria-label={t.menu}>
-  {C.menu.map((i: any) => <a href={fx(i.href)}>{i.text}</a>)}
+  {C.menu.map((i: any, n: number) => n === 2 && units.length ? (
+    <details class="p-units">
+      <summary>{i.text}</summary>
+      <a class="p-cat" href={unitsPage}>{i.text}</a>
+      {units.map((u: any) => <>
+        <a class="p-cat" href={u.href}>{u.text}</a>
+        {u.sub?.map((s: any) => <>
+          <a class="p-sub" href={s.href}>{s.text}</a>
+          {s.sub?.map((x: any) => <a class="p-sub p-sub2" href={x.href}>{x.text}</a>)}
+        </>)}
+      </>)}
+    </details>
+  ) : <a href={fx(i.href)}>{i.text}</a>)}
   <a class="btn" href={fx(C.cta.href)}><span>{C.cta.text}</span></a>
   <a class="btn linea" href={wa.href}><span>{wa.text}</span></a>
-  {langs.length > 1 && <ul class="vc-langs vc-langs--panel">{langs.map(([l, p]) => <li><a href={p as string} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{names[l] ?? l}</a></li>)}</ul>}
+  <ul class="vc-langs--panel" aria-label={t.lang}>
+    {LANGS.map((l) => <li><a href={langHref(l)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><Bandera l={l} />{NAME[l]}</a></li>)}
+  </ul>
 </nav>
 <script is:inline>
 (function(){
@@ -39,7 +89,24 @@ const wa = { text: 'WhatsApp 620 892 236', href: 'https://api.whatsapp.com/send?
   burger.addEventListener('click',function(){var a=document.body.classList.toggle('menu-open');burger.setAttribute('aria-expanded',a?'true':'false');});
   velo.addEventListener('click',cerrar);
   panel.addEventListener('click',function(e){ if(e.target.closest('a')){cerrar();} });
-  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){cerrar();} });
+  // desplegables de la cabecera (Unidades y selector de idioma): clic, teclado y, con ratón, al pasar por encima
+  var drops=[];
+  function drop(btn,box,hover){
+    if(!btn||!box)return;
+    var timer,set=function(open){clearTimeout(timer);box.hidden=!open;btn.setAttribute('aria-expanded',open?'true':'false');hdr.classList.toggle('drop-open',drops.some(function(d){return !d.box.hidden;}));};
+    var d={btn:btn,box:box,set:set};drops.push(d);
+    btn.addEventListener('click',function(e){e.stopPropagation();var open=box.hidden;drops.forEach(function(o){o.set(false);});set(open);});
+    if(hover&&window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+      [btn,box].forEach(function(el){
+        el.addEventListener('mouseenter',function(){drops.forEach(function(o){if(o!==d)o.set(false);});set(true);});
+        el.addEventListener('mouseleave',function(){clearTimeout(timer);timer=setTimeout(function(){set(false);},220);});
+      });
+    }
+  }
+  drop(hdr.querySelector('.nav-units'),document.getElementById('mega'),true);
+  drop(hdr.querySelector('.vc-lang-btn'),document.getElementById('langs'),false);
+  document.addEventListener('click',function(e){ if(!e.target.closest('.mega,.vc-lang')){drops.forEach(function(o){o.set(false);});} });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){cerrar();drops.forEach(function(o){o.set(false);});} });
   window.addEventListener('resize',function(){ if(window.innerWidth>1080){cerrar();} });
   document.addEventListener('DOMContentLoaded',function(){
     if('IntersectionObserver' in window){
