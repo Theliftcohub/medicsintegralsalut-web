@@ -1,0 +1,14 @@
+---
+// Dos listas numeradas en tarjetas (p. ej. «¿Por qué elegirnos?» y «¿Cómo trabajamos?»). Texto literal.
+const { cols = [] } = Astro.props;
+---
+<section class="pt-blanca pt-listas-sec">
+  <div class="pt-wrap pt-listas">
+    {cols.map((c: any) => (
+      <div class="pt-lista rv">
+        <h2>{c.heading}</h2>
+        <ol>{c.items.map((i: string) => <li set:html={i} />)}</ol>
+      </div>
+    ))}
+  </div>
+</section>

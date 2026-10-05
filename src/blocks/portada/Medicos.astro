@@ -1,0 +1,26 @@
+---
+// Fichas del equipo médico agrupadas por especialidad: foto en arco, especialidad, nº de colegiado y CV desplegable.
+const { id, kicker, text, grupos = [] } = Astro.props;
+---
+<section id={id} class="pt-crema2 pt-medicos-sec">
+  <div class="pt-wrap">
+    <div class="pt-head">{kicker && <div class="pt-eyebrow pt-c rv">{kicker}</div>}{text && <p class="pt-lead rv d1" set:html={text} />}</div>
+    {grupos.map((g: any) => (
+      <div class="pt-grupo">
+        {g.titulo && <h2 class="pt-grupo-t rv">{g.titulo}</h2>}
+        <div class="pt-fichas">
+          {g.medicos.map((m: any) => (
+            <article class="pt-ficha rv">
+              {m.image && <div class="pt-foto"><img src={m.image.src} alt={m.image.alt} loading="lazy" decoding="async" width="500" height="580" /></div>}
+              <div class="pt-ficha-txt">
+                <h3>{m.name}</h3>
+                <dl>{m.campos.map((c: any) => <><dt>{c.k}</dt><dd>{c.v}</dd></>)}</dl>
+                {m.details.map((d: any) => <details><summary>{d.summary}</summary><div class="pt-ficha-cv" set:html={d.html} /></details>)}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

@@ -27,10 +27,14 @@ import PtResenas from './portada/Resenas.astro';
 import PtFaq from './portada/Faq.astro';
 import PtContacto from './portada/Contacto.astro';
 import PtCierre from './portada/Cierre.astro';
+import PtPagehero from './portada/PageHero.astro';
+import PtListas from './portada/Listas.astro';
+import PtMedicos from './portada/Medicos.astro';
 const { block, lang } = Astro.props;
 const map: Record<string, any> = {
   'vc-hero': VcHero, 'vc-editorial': VcEditorial, 'vc-trat': VcTrat, 'vc-unidades': VcUnidades, 'vc-resenas': VcResenas, 'vc-videos': VcVideos, 'vc-ventajas': VcVentajas, 'vc-equipo': VcEquipo, 'vc-distintivos': VcDistintivos, 'vc-contacto': VcContacto, 'vc-cierre': VcCierre, 'vc-mpost': VcMpost, 'vc-prosa': VcProsa, 'vc-tarjetas': VcTarjetas,
-  'pt-hero': PtHero, 'pt-clinica': PtClinica, 'pt-trat': PtTrat, 'pt-unidades': PtUnidades, 'pt-texto': PtTexto, 'pt-pasos': PtPasos, 'pt-equipo': PtEquipo, 'pt-distintivos': PtDistintivos, 'pt-resenas': PtResenas, 'pt-faq': PtFaq, 'pt-contacto': PtContacto, 'pt-cierre': PtCierre };
+  'pt-hero': PtHero, 'pt-clinica': PtClinica, 'pt-trat': PtTrat, 'pt-unidades': PtUnidades, 'pt-texto': PtTexto, 'pt-pasos': PtPasos, 'pt-equipo': PtEquipo, 'pt-distintivos': PtDistintivos, 'pt-resenas': PtResenas, 'pt-faq': PtFaq, 'pt-contacto': PtContacto, 'pt-cierre': PtCierre,
+  'pt-pagehero': PtPagehero, 'pt-listas': PtListas, 'pt-medicos': PtMedicos };
 const C = map[block.type];
 if (!C) throw new Error(`Bloque desconocido: ${block.type}`);
 ---
