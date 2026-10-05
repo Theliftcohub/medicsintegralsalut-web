@@ -6,7 +6,7 @@ import csv, os, re, sys
 from urllib.parse import unquote
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wp_lib import original_upload
-rows = list(csv.DictReader(open("migracion/urls.csv")))
+rows = list(csv.DictReader(open("migracion/urls.csv", encoding="utf-8")))
 
 
 def existe(p):
@@ -27,15 +27,16 @@ def vivo(d):
             return c
     return d
 mp, gone, falta = [], [], []
-R301 = {r["url"]: r["destino"] for r in rows if r["decision"] == "301" and r["destino"]}
+# claves decodificadas: en urls.csv la misma ruta rusa/ucraniana aparece como %D0… y como %d0…
+R301 = {unquote(r["url"]).rstrip("/"): r["destino"] for r in rows if r["decision"] == "301" and r["destino"]}
 
 
 def final(d):
     """Resuelve cadenas A->B->C con el propio contrato antes de comprobar que el destino existe."""
     seen = set()
-    while d in R301 and d not in seen:
+    while unquote(d).rstrip("/") in R301 and d not in seen:
         seen.add(d)
-        d = R301[d]
+        d = R301[unquote(d).rstrip("/")]
     return d
 for r in rows:
     u, d = r["url"], r["destino"]
@@ -52,7 +53,7 @@ for r in rows:
             (mp.append((u, hit[len("public"):])) if hit else falta.append(u))
         # "mantener" sin barra final: NO se genera regla. Netlify (pretty URLs) y Apache (mod_dir) ya hacen
         # /x -> /x/ solos, y en Netlify una regla /x -> /x/ casa también con /x/ (coincidencia laxa) = bucle.
-with open("migracion/url-map.csv", "w", newline="") as f:
+with open("migracion/url-map.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerows(mp)
-open("migracion/gone.txt", "w").write("\n".join(gone) + "\n")
+open("migracion/gone.txt", "w", encoding="utf-8").write("\n".join(gone) + "\n")
 print(len(mp), "301 ·", len(gone), "410 · medios sin copia local:", falta)

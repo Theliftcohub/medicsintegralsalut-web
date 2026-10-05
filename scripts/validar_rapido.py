@@ -8,8 +8,18 @@ import ast, csv, json, os, re, sys, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import unquote, urljoin, urlparse, quote
 BASE = sys.argv[1].rstrip("/")
-rows = list(csv.DictReader(open("migracion/urls.csv")))
-inv = {unquote(urlparse(i["url"]).path): i for i in json.load(open("migracion/inventory.json"))["items"]}
+rows = list(csv.DictReader(open("migracion/urls.csv", encoding="utf-8")))
+inv = {unquote(urlparse(i["url"]).path): i for i in json.load(open("migracion/inventory.json", encoding="utf-8"))["items"]}
+CONTRATO = {unquote(r["url"]).rstrip("/"): r for r in rows}
+
+
+def destino_final(d):
+    """El destino del contrato puede ser a su vez un 301: la redirección publicada debe ir al final de la cadena."""
+    k, seen = unquote(d).rstrip("/"), set()
+    while k in CONTRATO and CONTRATO[k]["decision"] == "301" and CONTRATO[k]["destino"] and k not in seen:
+        seen.add(k)
+        k = unquote(CONTRATO[k]["destino"]).rstrip("/")
+    return k
 
 
 class NoRedir(urllib.request.HTTPRedirectHandler):
@@ -44,8 +54,8 @@ with ThreadPoolExecutor(24) as ex:
             fails.append(("estado", unquote(u), f"esperado {exp}, recibido {code} {loc}"))
         elif code == 301 and r["decision"] == "301" and r["destino"]:
             dst = unquote(urlparse(loc).path)
-            if dst.rstrip("/") != unquote(r["destino"]).rstrip("/") and not r["destino"].startswith("http"):
-                fails.append(("destino", unquote(u), f"va a {dst} (contrato: {unquote(r['destino'])})"))
+            if dst.rstrip("/") != destino_final(r["destino"]) and not r["destino"].startswith("http"):
+                fails.append(("destino", unquote(u), f"va a {dst} (contrato: {destino_final(r['destino'])})"))
             else:
                 ok += 1
         else:
@@ -95,4 +105,4 @@ for k, p, d in warn:
     wk.setdefault(k, []).append((p, d))
 for k, v in wk.items():
     print(f"WARN {k}: {len(v)}", v[:6])
-json.dump({"fails": fails, "warns": warn}, open("migracion/validacion_rapida.json", "w"), ensure_ascii=False, indent=1)
+json.dump({"fails": fails, "warns": warn}, open("migracion/validacion_rapida.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

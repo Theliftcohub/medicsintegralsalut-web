@@ -14,7 +14,15 @@ INLINE_OK = {"a", "strong", "b", "em", "i", "br"}
 
 
 def html_of(url):
+    """HTML del WordPress desde migracion/html_cache; si no está (el caché no va en el repo), se descarga y se guarda."""
     fn = os.path.join(CACHE, hashlib.md5(url.encode()).hexdigest() + ".html")
+    if not os.path.exists(fn):
+        data = _fetch(url)
+        time.sleep(0.6)  # el firewall del WordPress corta ráfagas
+        if data is None:
+            raise RuntimeError(f"No se pudo descargar {url}")
+        os.makedirs(CACHE, exist_ok=True)
+        open(fn, "wb").write(data)
     return open(fn, encoding="utf-8", errors="ignore").read()
 
 
