@@ -42,6 +42,21 @@ WPLOGO = "https://www.medicsintegralsalut.com/wp-content/uploads/2021/11/cropped
 H1 = re.compile(r"<h1(\s[^>]*)?>(.*?)</h1>", re.S)
 
 
+def entidad(o):
+    """MedicalClinic/MedicalOrganization de la clínica (también anidados, p. ej. publisher) -> misma entidad que el sitio."""
+    if isinstance(o, dict):
+        t = o.get("@type") or o.get("type")
+        if t in ("MedicalClinic", "MedicalOrganization") and o.get("url", "").rstrip("/") == SITE and "@id" not in o:
+            o["@id"] = f"{SITE}/#org"
+            C["entidad"] += 1
+        for v in o.values():
+            entidad(v)
+    elif isinstance(o, list):
+        for v in o:
+            entidad(v)
+    return o
+
+
 def logo(t):
     if WPLOGO in t:
         C["logo"] += 1
@@ -132,6 +147,9 @@ for md in glob.glob("src/content/posts/*/*.md"):
     post_paths.add(json.loads(re.search(r"^path: (.*)$", fm, re.M).group(1)))
     if "--paginas" in sys.argv:
         continue
+    m = re.search(r"^schema: (.*)$", fm, re.M)
+    if m:
+        fm = fm.replace(m.group(0), "schema: " + json.dumps(entidad(json.loads(m.group(1))), ensure_ascii=False))
     nuevo = "---" + logo(fm) + "---" + h1_a_h2(texto(iconos(body)))
     if nuevo != raw:
         open(md, "w", encoding="utf-8").write(nuevo)
@@ -169,7 +187,7 @@ for f in glob.glob("src/content/pages/*/*.json"):
             b["html"] = texto(iconos(b["html"]))
         blocks.append(b)
     j["blocks"] = blocks
-    j["schema"] = json.loads(logo(json.dumps(j["schema"], ensure_ascii=False)))
+    j["schema"] = entidad(json.loads(logo(json.dumps(j["schema"], ensure_ascii=False))))
     gracias(j["blocks"], j["lang"])
     if j["path"] in GRACIAS.values() and "noindex" not in j["seo"]["robots"]:
         j["seo"]["robots"] = "noindex, follow"

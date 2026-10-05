@@ -10,6 +10,9 @@ const base = [
     telephone: site.telephone,
     address: { '@type': 'PostalAddress', ...site.address },
     openingHoursSpecification: site.openingHours.map((h) => ({ '@type': 'OpeningHoursSpecification', ...h })),
+    // coordenadas y zona de servicio: las del schema del WordPress (portada y páginas de tratamiento)
+    geo: { '@type': 'GeoCoordinates', ...site.geo },
+    areaServed: site.areaServed,
     ...(site.sameAs.length ? { sameAs: site.sameAs } : {}),
   },
 ];
