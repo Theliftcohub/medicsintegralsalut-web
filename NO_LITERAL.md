@@ -54,3 +54,6 @@ Cada fila: URL · campo · texto original · texto nuevo · motivo. El cliente l
 | /medics-integral-salut/ (6 idiomas) | galería | carrusel del WordPress | fila de fotos deslizable | diseño «Versión C» |
 | /contacto/ (6 idiomas) | bloque «te llamamos» | formulario entre dos columnas | mismo texto: título, formulario con su nota legal y, al lado, «Llámanos ahora mismo» | el HTML migrado estaba partido; no cambia ningún texto |
 | (30 páginas y entradas con varios H1: /beauty-days/, /cirugia-estetica/, /deberia-reducirme-el-pecho/…) | encabezados | varios H1 en la misma página | el primero sigue siendo H1; el resto pasa a H2 con el mismo aspecto | SEO: un H1 por página (05/10/2026) |
+| (16 páginas de unidad × 6 idiomas: /unidades/…) | lista de tratamientos | enlaces de texto en filas de columnas | tarjetas con el mismo texto y enlace, más la foto y la meta descripción de la página de cada tratamiento | diseño «Versión C»; la descripción es la meta description literal de cada página |
+| /medics-integral-salut/ (6 idiomas) | hospitales | título suelto + fila con foto y mapa, por hospital | una tarjeta por hospital (foto, nombre, mapa, teléfono y dirección), mismos textos | diseño |
+| (unidades del árbol antiguo) | título de la lista | `<p><strong>Procediments i intervencions</strong></p>` | mismo texto como encabezado H2 | estructura |

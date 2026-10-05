@@ -77,7 +77,8 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 ## Bloques disponibles (`src/blocks/Block.astro` es el único punto que conecta tipo y componente)
 | Tipo | Componente | Uso |
 |---|---|---|
-| `vc-prosa` | `vc/Prosa.astro` | Páginas de texto: `cols[{html?, form?, after?}]`, `intro`, `bg` (`crema`), `stack`; `head` lo pone `paginas.ts` |
+| `vc-prosa` | `vc/Prosa.astro` | Páginas de texto: `cols[{html?, form?, after?}]`, `intro`, `bg` (`crema`), `stack`, `variant` (`tarjetas`); `head` lo pone `paginas.ts`. Texto + formulario apilados se pintan en dos columnas |
+| `vc-tarjetas` | `vc/Tarjetas.astro` | Tratamientos de una unidad: `heading`, `items[{text, href}]`; foto y descripción salen de la página enlazada |
 | `vc-mpost` | `vc/Mpost.astro` | Páginas de tratamiento: `html` literal con componentes .mpost |
 | `vc-hero`, `vc-editorial`, `vc-trat`, `vc-unidades`, `vc-resenas`, `vc-videos`, `vc-ventajas`, `vc-equipo`, `vc-distintivos`, `vc-contacto`, `vc-cierre` | `vc/*.astro` | Portadas (6 idiomas); `vc-unidades` también en /unidades/ |
 
@@ -100,6 +101,7 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - 05/10/2026 · `ui.json` solo tenía español: banner de cookies, «Publicado/por» y «Ver el mapa» salían en español en los 6 idiomas · todo texto de interfaz nuevo se añade en los 6 idiomas a la vez.
 - 05/10/2026 · `redirects_contract.py` no resolvía cadenas cuando la URL y el destino tenían distinta caja de %-encoding (%D0 / %d0): 2 redirecciones ru/uk caían al índice · claves siempre decodificadas (`unquote`).
 - 05/10/2026 · El submenú de Unidades no se migró (solo el enlace «unidades») · el menú se extrae entero, con todos sus niveles (`build_menu_unidades.py`).
+- 05/10/2026 · Tras ejecutar `pulir_contenido.py` el `npm run dev` abierto siguió pintando el contenido anterior · después de cambiar muchos archivos de `src/content`, reiniciar el servidor de desarrollo antes de revisar.
 - 05/10/2026 · Se borró `Icon.astro` creyéndolo muerto y lo usa `NativeForm` · antes de borrar un componente, buscar su nombre de archivo en todos los `import` y probar el build.
 - 28/09/2026 · Se migraba contenido que en el WordPress está OCULTO en todos los tamaños (vc_hidden-lg/md/sm/xs: «Lorem ipsum», FAQ de rinoplastia en páginas de rejuvenecimiento, vídeo de otra clínica en /financiacion/; 145 páginas) · `hidden_filter()` lo elimina; lo oculto solo en móvil o solo en escritorio va en `.vc-solo-movil` / `.vc-solo-escritorio(-sm)`. Los enlaces dentro de `.visitabuttonp` son botones.
 - 28/09/2026 · Las entradas .mpost se veían distintas al original: (1) compartían clases con las páginas de tratamiento y les aplicaban mpost.css y la piel vc-mpost.css; (2) mpost-posts.css mezclaba el CSS de las 5 variantes de entrada; (3) con el peso 300 de la maqueta, `<b>` («bolder») quedaba en 400 · en las entradas las clases `mpost*` se renombran a `mpp*` y cada entrada va dentro de `.mpv-<huella de su <style>>`, con SU CSS solo. El listado del blog (.grid > .mason-item) pasa a rejilla `.vc-bloglist` y el extracto se corta donde el WordPress coló CSS.
