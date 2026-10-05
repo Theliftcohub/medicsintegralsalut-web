@@ -1,0 +1,789 @@
+[
+ {
+  "type": "vc-hero",
+  "kicker": "Reference centre for aesthetic medicine and surgery in Girona",
+  "titleHtml": "Our patients are our <em>best cover letter</em>",
+  "sub": "Plastic surgery and aesthetic medicine in the centre of Girona. Natural results, sound medical judgement and support at every step.",
+  "ctas": [
+   {
+    "text": "Request valuation",
+    "href": "#info"
+   },
+   {
+    "text": "WhatsApp 620 892 236",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "linea"
+   }
+  ],
+  "micro": "No commitment · Medical care · Reply the same working day",
+  "image": {
+   "src": "/images/wp/2025/11/recepcion-medic-salut.webp",
+   "w": 922,
+   "h": 618,
+   "alt": "Aesthetic medicine Girona"
+  },
+  "ratingLabel": "{count} Google reviews",
+  "stats": [
+   {
+    "rating": true,
+    "lbl": "{count} Google reviews"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Caring for patients in Girona"
+   },
+   {
+    "big": "SECPRE",
+    "lbl": "Registered surgeons"
+   },
+   {
+    "big": "Free",
+    "lbl": "First consultation"
+   }
+  ]
+ },
+ {
+  "type": "vc-editorial",
+  "num": "I",
+  "kicker": "The clinic",
+  "headingTag": "h1",
+  "heading": "Aesthetic Clinic in Girona",
+  "paras": [
+   "In <strong>Medics Integral Salut</strong> we are specialists in <strong>Cosmetic surgery in Girona</strong>, offering natural and safe results with the highest medical quality. Our team of professionals in <strong>Cosmetic surgery and aesthetic medicine</strong> works with a personalised approach, taking care of every detail to enhance your image without losing your essence.",
+   "How <strong>Aesthetic clinic Girona</strong>, we have <strong>modern facilities and state-of-the-art equipment</strong> which guarantee safety, precision and well-being in every procedure. Our goal is to offer you a comprehensive medical experience, combining technique, trust and human care."
+  ],
+  "cta": {
+   "text": "Speak with the medical team",
+   "href": "#info",
+   "style": "linea"
+  },
+  "image": {
+   "src": "/images/wp/2025/12/mejor-clinica-estetica-girona.webp",
+   "w": 1200,
+   "h": 800,
+   "alt": "best aesthetic clinic Girona"
+  }
+ },
+ {
+  "type": "vc-trat",
+  "num": "II",
+  "kicker": "Treatments",
+  "heading": "Cosmetic surgery Girona",
+  "sub": "The most requested interventions",
+  "text": [
+   "We are experts in various interventions <strong>Plastic surgery in Girona</strong>. We have advanced treatments for <strong>Aesthetic medicine Girona</strong> such as facial rejuvenation, botulinum toxin, fillers or mesotherapy, and plastic surgery procedures like breast augmentation, liposuction, abdominoplasty or rhinoplasty, always with a natural and personalised approach."
+  ],
+  "cards": [
+   {
+    "title": "Breast augmentation",
+    "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+     "w": 900,
+     "h": 600,
+     "alt": "Breast augmentation"
+    }
+   },
+   {
+    "title": "Liposuction",
+    "href": "/en/units/cosmetic-surgery-3/liposuction-2/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2021/10/LIPOWEB.webp",
+     "w": 600,
+     "h": 598,
+     "alt": "Liposuction"
+    }
+   },
+   {
+    "title": "Gynaecomastia",
+    "href": "/en/units/male-cosmetic-surgery/gynaecomastia/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2019/10/Ginecomastia.webp",
+     "w": 570,
+     "h": 570,
+     "alt": "Gynaecomastia"
+    }
+   },
+   {
+    "title": "Rhinoplasty",
+    "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2025/10/rinoplastia.webp",
+     "w": 800,
+     "h": 666,
+     "alt": "Rhinoplasty"
+    }
+   },
+   {
+    "title": "Obesity",
+    "href": "/en/units/overweight-and-obesity-2/gastric-balloon-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Obesity"
+    }
+   },
+   {
+    "title": "Eyelid surgery",
+    "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2026/07/Blefaroplastia.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Eyelid surgery"
+    }
+   }
+  ]
+ },
+ {
+  "type": "vc-unidades",
+  "id": "unidades",
+  "num": "III",
+  "kicker": "Specialties",
+  "heading": "Integral Health Medical Units",
+  "text": [
+   "Specialists in each of the different techniques of <strong>Cosmetic surgery in Girona</strong>."
+  ],
+  "columns": [
+   [
+    {
+     "title": "Cosmetic facial medicine",
+     "links": [
+      {
+       "text": "Dark circles",
+       "href": "/en/units/facial-aesthetic-medicine/dark-circles/"
+      },
+      {
+       "text": "Lip augmentation",
+       "href": "/en/units/facial-aesthetic-medicine/lip-filler/"
+      },
+      {
+       "text": "Expression lines",
+       "href": "/en/units/facial-aesthetic-medicine/expression-lines/"
+      },
+      {
+       "text": "Sagging: lifting threads",
+       "href": "/en/units/facial-aesthetic-medicine/sagging-and-thread-lifts/"
+      },
+      {
+       "text": "Hydration and nutrition",
+       "href": "/en/units/facial-aesthetic-medicine/hydration-and-nutrition-2/"
+      },
+      {
+       "text": "Peeling",
+       "href": "/en/units/facial-aesthetic-medicine/shedding/"
+      },
+      {
+       "text": "Wrinkle fillers",
+       "href": "/en/units/facial-aesthetic-medicine/"
+      },
+      {
+       "text": "Rhinomodelling",
+       "href": "/en/units/facial-aesthetic-medicine/rhinomodelling/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Cosmetic medicine for the body",
+     "links": [
+      {
+       "text": "Non-surgical liposuction",
+       "href": "/en/units/cosmetic-body-medicine/non-surgical-liposuction/"
+      },
+      {
+       "text": "Cellulitis",
+       "href": "/en/units/cosmetic-body-medicine/cellulite/"
+      }
+     ]
+    },
+    {
+     "title": "Cosmetic medicine",
+     "links": [
+      {
+       "text": "Volume Reduction",
+       "href": "/en/units/beauty-salon/volume-reduction-girona-2/"
+      },
+      {
+       "text": "Eliminate Cellulite",
+       "href": "/en/units/beauty-salon/get-rid-of-cellulite/"
+      },
+      {
+       "text": "P50 Visage",
+       "href": "/en/units/beauty-salon/p50-face/"
+      },
+      {
+       "text": "Fruit acid",
+       "href": "/en/units/beauty-salon/fruit-acid-2/"
+      },
+      {
+       "text": "Anti-ageing MC110",
+       "href": "/en/units/beauty-salon/anti-ageing-mc-110/"
+      },
+      {
+       "text": "Salvage",
+       "href": "/en/units/beauty-salon/recoverer/"
+      },
+      {
+       "text": "Detoxifier",
+       "href": "/en/units/beauty-salon/detoxifying/"
+      },
+      {
+       "text": "Hidden",
+       "href": "/en/units/beauty-salon/clearance/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Overweight and Obesity",
+     "links": [
+      {
+       "text": "Ingestible ellipse ball",
+       "href": "/en/units/overweight-and-obesity-2/ingestible-balloon-elipse/"
+      },
+      {
+       "text": "Ball 6 months",
+       "href": "/en/units/overweight-and-obesity-2/balloon-6-months/"
+      },
+      {
+       "text": "12-month adjustable gastric balloon",
+       "href": "/en/units/overweight-and-obesity-2/gastric-balloon-girona/"
+      },
+      {
+       "text": "Endomanga MEGA",
+       "href": "/en/units/overweight-and-obesity-2/endomanga/"
+      },
+      {
+       "text": "Dietetics and nutrition",
+       "href": "/en/units/overweight-and-obesity-2/dietetics-and-nutrition-2/"
+      },
+      {
+       "text": "Bariatric surgery",
+       "href": "/en/units/overweight-and-obesity-2/bariatric-surgery-2/"
+      },
+      {
+       "text": "Post-bariatric surgery",
+       "href": "/en/units/overweight-and-obesity-2/cirugia-postbariatrica/"
+      }
+     ]
+    },
+    {
+     "title": "Male cosmetic surgery",
+     "links": [
+      {
+       "text": "Gynaecomastia",
+       "href": "/en/units/male-cosmetic-surgery/gynaecomastia/"
+      },
+      {
+       "text": "Eyelid surgery",
+       "href": "/en/units/male-cosmetic-surgery/eyelid-surgery/"
+      },
+      {
+       "text": "Chest augmentation",
+       "href": "/en/units/male-cosmetic-surgery/chest-augmentation/"
+      },
+      {
+       "text": "Neck and double chin lift",
+       "href": "/en/units/male-cosmetic-surgery/neck-and-double-chin-lift/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Cosmetic breast surgery",
+     "links": [
+      {
+       "text": "Breast augmentation",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/"
+      },
+      {
+       "text": "Breast augmentation with the AMI technique",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-ami-technique/"
+      },
+      {
+       "text": "Breast lift: mastopexy",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-lift/"
+      },
+      {
+       "text": "Breast reduction",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-reduction/"
+      },
+      {
+       "text": "Prosthesis replacement",
+       "href": "/en/units/cosmetic-breast-surgery-2/prosthetic-replacement-2/"
+      }
+     ]
+    },
+    {
+     "title": "Cosmetic facial surgery",
+     "links": [
+      {
+       "text": "Rhinoplasty",
+       "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/"
+      },
+      {
+       "text": "Nasal septum piercing",
+       "href": "/en/units/cosmetic-facial-surgery-2/nasal-septum-piercing/"
+      },
+      {
+       "text": "Eyelid surgery",
+       "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery-girona/"
+      },
+      {
+       "text": "Neck and double chin mini-lift",
+       "href": "/en/units/cosmetic-facial-surgery-2/neck-and-double-chin-mini-lift/"
+      },
+      {
+       "text": "Facelift",
+       "href": "/en/units/cosmetic-facial-surgery-2/facial-lift/"
+      },
+      {
+       "text": "Otoplasty",
+       "href": "/en/units/cosmetic-facial-surgery-2/ear-surgery-girona/"
+      },
+      {
+       "text": "Chin and cheekbone surgery",
+       "href": "/en/units/cosmetic-facial-surgery-2/chin-and-cheek-surgery/"
+      }
+     ]
+    }
+   ]
+  ],
+  "wide": [
+   {
+    "title": "Cosmetic body surgery",
+    "links": [
+     {
+      "text": "Vaser liposuction",
+      "href": "/en/units/cosmetic-surgery-3/vaser-liposuction-2/"
+     },
+     {
+      "text": "Liposuction",
+      "href": "/en/units/cosmetic-surgery-3/liposuction-2/"
+     },
+     {
+      "text": "Buttock augmentation",
+      "href": "/en/units/cosmetic-surgery-3/buttock-augmentation/"
+     },
+     {
+      "text": "Female genital surgery",
+      "href": "/en/units/cosmetic-surgery-3/female-genital-surgery-2/"
+     },
+     {
+      "text": "Arm and leg lift",
+      "href": "/en/units/cosmetic-surgery-3/lifting-arms-and-legs-2/"
+     },
+     {
+      "text": "Body lipofilling",
+      "href": "/en/units/cosmetic-surgery-3/body-fat-transfer/"
+     },
+     {
+      "text": "Abdominoplasty",
+      "href": "/en/units/cosmetic-surgery-3/abdominoplasty/"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "text": "Request valuation",
+   "href": "#info"
+  }
+ },
+ {
+  "type": "vc-resenas",
+  "num": "IV",
+  "kicker": "Reviews",
+  "heading": "Our patients say",
+  "sub": "Choose to be in the best hands",
+  "reviews": [
+   {
+    "name": "Camila Constanza Vélez Silva",
+    "text": "Excelente clínica! Desde el primer día con la mejor predisposición para brindarme la mejor atención y los tratamientos más convenientes según mis necesidades. Todos los profesionales de primer nivel. Las máquinas que utilizan son de última generación, desde las primeras sesiones se ven los resultados. La máquina TShape es para destacar! Super completa y efectiva! Estoy muy contenta y agradecida! Queda poquito para llegar a mi objetivo! Super recomiendo!"
+   },
+   {
+    "name": "Silviaarely Zunigaalvarado",
+    "text": "Hola muy contenta con la operación quee hice y la atención"
+   },
+   {
+    "name": "Beth Serra",
+    "text": "Atenció excelent per part de tot l'equip, especialment la Laia que ha respós tots els meus dubtes."
+   },
+   {
+    "name": "NATALIA MARTINEZ",
+    "text": "Hecho tratamiento para adelgazar combinando tratamiento cabina y endocrino y he alcanzado objetivos sin pasarlo mal. El trato excelente!"
+   },
+   {
+    "name": "alejandra martin",
+    "text": "Estoy muy contenta con el trato que es excelente y sobre todo mi tratamiento se puede ver los resultados es muy bueno clinica y son muy profesionales"
+   },
+   {
+    "name": "Alisson Mijas",
+    "text": "Estoy encantada con la clínica. Un trato excepcional, en todo momento me he sentido acogida, en confianza y con total sinceridad en todo. Me he hecho la rinoplastia con ellos y no podría haber elegido mejor, han sido unos grandes profesionales, tanto como el Dr. Langdon como el equipo de Médic, sobre todo con Laia, que me ha acompañado en todo el proceso y gracias a ello decidí decantarme con la clínica. No podría haber elegido mejor, sin duda en cualquier otro procedimiento no dudaré en ponerme en sus manos"
+   }
+  ],
+  "source": "Google review",
+  "summary": [
+   {
+    "rating": true,
+    "lbl": "Average rating"
+   },
+   {
+    "big": "{count}",
+    "lbl": "Verified reviews"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Caring for patients in Girona"
+   }
+  ],
+  "more": {
+   "text": "See all {count} reviews on Google",
+   "href": "https://maps.google.com/maps?cid=4878100397339283721",
+   "style": "linea"
+  }
+ },
+ {
+  "type": "vc-videos",
+  "num": "V",
+  "kicker": "Testimonials",
+  "heading": "What they say about us",
+  "sub": "Good results are our main motivation",
+  "items": [
+   {
+    "title": "Gastric bypass: Emili's story",
+    "video": "https://www.youtube.com/watch?v=AD2F_1nMRvY",
+    "image": {
+     "src": "/images/wp/2019/10/bypass-operacion-1.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Gastric bypass testimonial"
+    },
+    "label": "Testimonial"
+   },
+   {
+    "title": "Breast augmentation: Elizabeth's story",
+    "video": "https://www.youtube.com/watch?v=gKfqSRLzb8o",
+    "image": {
+     "src": "/images/wp/2019/10/aumento-pecho-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Breast augmentation testimonial"
+    },
+    "label": "Testimonial"
+   },
+   {
+    "title": "Rhinoplasty: Judith's story",
+    "video": "https://www.youtube.com/watch?v=ytuluT_sVg8",
+    "image": {
+     "src": "/images/wp/2019/10/rinoplastia-ok-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Rhinoplasty testimonial"
+    },
+    "label": "Testimonial"
+   },
+   {
+    "title": "Expression lines: Lidia's story",
+    "video": "https://www.youtube.com/watch?v=5tMvNB00PSI",
+    "image": {
+     "src": "/images/wp/2019/10/botox-ok-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Expression lines testimonial"
+    },
+    "label": "Testimonial"
+   }
+  ]
+ },
+ {
+  "type": "vc-editorial",
+  "num": "VI",
+  "kicker": "Aesthetic medicine",
+  "headingTag": "h2",
+  "heading": "Aesthetic Medicine Girona",
+  "paras": [
+   "In our <strong>Beauty salon Girona</strong> Our team is made up of specialists in endocrinology, nutrition, plastic surgery and aesthetic medicine.",
+   "This allows us to approach each treatment with a holistic approach: we don't just aim to improve appearance, but also overall well-being.",
+   "We provide aesthetic treatments for facial rejuvenation, skin regeneration, wrinkle reduction, body contouring and much more.",
+   "All our protocols are carried out with safe materials, cutting-edge technologies, and under constant medical supervision."
+  ],
+  "image": {
+   "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+   "w": 900,
+   "h": 600,
+   "alt": "Breast augmentation prices Girona"
+  },
+  "reverse": true,
+  "bg": "crema-2"
+ },
+ {
+  "type": "vc-ventajas",
+  "num": "VII",
+  "heading": "When you choose Medics Integral Salut in Girona for your aesthetic medicine, you get:",
+  "items": [
+   "Free and personalised medical assessment.",
+   "Treatment plan tailored to your goals and skin type.",
+   "Continuous medical monitoring to ensure real results.",
+   "Professional, discreet, and safe clinical environment."
+  ],
+  "text": [
+   "If you're looking for an aesthetic medicine clinic in Girona with guarantees, experience, and trustworthy results, contact us today to book your consultation."
+  ],
+  "cta": {
+   "text": "Speak with the medical team",
+   "href": "#info"
+  },
+  "bg": "crema"
+ },
+ {
+  "type": "vc-equipo",
+  "id": "equipo",
+  "num": "VIII",
+  "kicker": "The team",
+  "heading": "Best Aesthetic Clinic Girona: The Team",
+  "text": [
+   "<em>If you're looking for the <strong>Best aesthetic clinic in Girona</strong>, at Medics Integral Salut you will find a <strong>a team committed to your well-being</strong>, harmonic results and a personal touch.</em>"
+  ],
+  "members": [
+   {
+    "name": "Dr Mike Dewever",
+    "role": "Plastic Surgeon Girona",
+    "bio": "Specialist Doctor in Reconstructive and Aesthetic Plastic Surgery. GDC No. 47127. Degree in Medicine and Surgery in 2010 from the University of Barcelona. Specialist in Reconstructive and Aesthetic Plastic Surgery, completing residency (MIR) from 2011-2016, in the Department of Plastic, Reconstructive and Aesthetic Surgery at Bellvitge University Hospital, Barcelona.",
+    "image": {
+     "src": "/images/wp/2025/10/dewever.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr Mike Dewever"
+    }
+   },
+   {
+    "name": "Dr. Ainitze Ibarzabal",
+    "role": "General and Digestive System Surgery",
+    "bio": "Since 2007, they have specialised in gastrointestinal surgery, with a particular focus on bariatric surgery, having performed over 500 procedures (both primary and revision surgeries), and are currently considered a leading figure in this technique.",
+    "image": {
+     "src": "/images/wp/2025/10/Dra.-Ainitze-Ibarzaba.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. Ainitze Ibarzabal"
+    }
+   },
+   {
+    "name": "Dr Valenti Puig Divi",
+    "role": "General and Digestive System Surgery",
+    "bio": "Graduated in Medicine and Surgery from the Central University of Barcelona with an extraordinary degree award, he specialised in Digestive System in 1994.",
+    "image": {
+     "src": "/images/wp/2025/10/Dr._Valenti_Puig-Divi.webp",
+     "w": 275,
+     "h": 275,
+     "alt": "Dr Valenti Puig Divi"
+    }
+   },
+   {
+    "name": "Dr. David Pérez Asensio",
+    "role": "Endocrinology and Nutrition",
+    "bio": "His clinical work involves being an associate professor on the Medicine degree programme at the University of Girona, and he is a member of the Catalan Society of Endocrinology and Nutrition and the Obesity Group of the Spanish Society of Endocrinology.",
+    "image": {
+     "src": "/images/wp/2025/10/dr_perez.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. David Pérez Asensio"
+    }
+   },
+   {
+    "name": "Dr Claudia Vera Ching",
+    "role": "Aesthetic Medicine",
+    "bio": "I hold a Master's degree in Aesthetic Medicine with international recognition from Esneca Business School, and I specialised in Intensive Care Medicine at the Josep Trueta University Hospital in Girona.",
+    "image": {
+     "src": "/images/wp/2025/10/vera.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr Claudia Vera Ching"
+    }
+   },
+   {
+    "name": "Dr Alberto Gonzalez",
+    "role": "Trichologist and Hair Surgeon",
+    "bio": "With a solid background in medicine and a specialisation in advanced hair treatments. They graduated in General Medicine in 2020 from the University of Medical Sciences of Villa Clara, Cuba, and subsequently specialised in Aesthetic Medicine with a master's degree from the distance learning centre TECH in Spain (2022), completing a Master's Degree in Continuing Education at the European University Miguel de Cervantes (2024).",
+    "image": {
+     "src": "/images/wp/2025/10/alberto-gonzales.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr Alberto Gonzalez"
+    }
+   },
+   {
+    "name": "Dr. Úrsula Ramírez",
+    "role": "Aesthetic Medicine Technician",
+    "bio": "Aesthetic Medicine Technician ESSAE Barcelona. Certified Diploma in Facial Techniques and Skin Diagnosis Esthetic School Cristina Sorli teaching method known as M.E.B.I. (Biological Aesthetics Method) Barcelona",
+    "image": {
+     "src": "/images/wp/2025/10/ursula-ramirez.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. Úrsula Ramírez"
+    }
+   }
+  ],
+  "card": {
+   "title": "We offer you personal guidance",
+   "text": "Response within the same working day",
+   "cta": {
+    "text": "Request valuation",
+    "href": "#info"
+   }
+  }
+ },
+ {
+  "type": "vc-distintivos",
+  "logos": [
+   {
+    "src": "/images/wp/2025/11/secpre.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "SECPRE"
+   },
+   {
+    "src": "/images/wp/2025/11/clinica-diagonal.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Clínica Diagonal"
+   },
+   {
+    "src": "/images/wp/2026/03/clinica-tres-torres.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Clínica Tres Torres"
+   },
+   {
+    "src": "/images/wp/2026/03/centro-teknon.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Centro Médico Teknon"
+   },
+   {
+    "src": "/images/wp/2026/03/sccpre.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "SCCPRE"
+   }
+  ]
+ },
+ {
+  "type": "vc-contacto",
+  "id": "info",
+  "num": "IX",
+  "kicker": "Contact",
+  "heading": "Choose to be in the best hands",
+  "sub": "Aesthetic Surgery Clinic | Médics Integral Salut",
+  "rows": [
+   {
+    "ic": "◈",
+    "k": "Address",
+    "v": "Plaça Poeta Marquina, 3<br>17002 Girona, Spain",
+    "note": "5 minutes from the AVE high-speed train station"
+   },
+   {
+    "ic": "✆",
+    "k": "Phone",
+    "v": "<a href=\"tel:+34972209086\">+34 972 20 90 86</a>"
+   },
+   {
+    "ic": "✆",
+    "k": "WhatsApp",
+    "v": "<a href=\"https://wa.me/34620892236\">620 892 236</a>"
+   },
+   {
+    "ic": "✉",
+    "k": "Email",
+    "v": "<a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+   },
+   {
+    "ic": "◷",
+    "k": "Opening hours",
+    "v": "Monday to Friday: 10:00 to 20:00<br>Saturday and Sunday: closed"
+   }
+  ],
+  "ctas": [
+   {
+    "text": "WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "linea"
+   }
+  ],
+  "formTitle": "We offer you personal guidance",
+  "formText": "Response within the same working day",
+  "form": {
+   "name": "contacto-portada",
+   "thanks": "/en/thank-you/",
+   "submit": "Send",
+   "fields": [
+    {
+     "name": "nombre",
+     "type": "text",
+     "placeholder": "First and last name",
+     "required": true,
+     "autocomplete": "name"
+    },
+    {
+     "name": "telefono",
+     "type": "tel",
+     "placeholder": "Telephone",
+     "required": true,
+     "autocomplete": "tel"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "placeholder": "Email",
+     "required": true,
+     "autocomplete": "email"
+    },
+    {
+     "name": "mensaje",
+     "type": "textarea",
+     "placeholder": "Reason for consultation",
+     "required": true
+    },
+    {
+     "name": "privacidad",
+     "type": "checkbox",
+     "required": true,
+     "labelHtml": "I have read the <a href=\"/en/privacy-policy/\">Privacy Policy</a>"
+    }
+   ]
+  },
+  "map": {
+   "q": "Plaça Poeta Marquina 3, 17002 Girona",
+   "title": "Medics Integral Salut in Girona",
+   "href": "https://www.google.com.ar/maps/place/Cl%C3%ADnica+Cirug%C3%ADa+Est%C3%A9tica+%7C+M%C3%A9dics+Integral+Salut/@41.9811814,2.8156612,17z/data=!3m1!4b1!4m6!3m5!1s0x12bae6df333f1fb3:0x43b27e7752199109!8m2!3d41.9811774!4d2.8182361!16s%2Fg%2F11cmzmg12b!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+  }
+ },
+ {
+  "type": "vc-cierre",
+  "kicker": "Girona & Costa Brava",
+  "heading": "Plastic surgery and aesthetic medicine clinic for the whole province of Girona",
+  "html": "We see patients from <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> and the whole <strong>Costa Brava</strong>. We are in the centre of Girona (Plaça Poeta Marquina, 3), 5 minutes from the AVE station, with financing available and a free first consultation.",
+  "ctas": [
+   {
+    "text": "Request valuation",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "See financing",
+    "href": "/en/financing/",
+    "style": "linea"
+   }
+  ]
+ }
+]

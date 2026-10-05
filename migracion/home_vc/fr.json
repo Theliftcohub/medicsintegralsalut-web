@@ -1,0 +1,789 @@
+[
+ {
+  "type": "vc-hero",
+  "kicker": "Centre de référence en médecine et chirurgie esthétique à Gérone",
+  "titleHtml": "Nos patients sont nos meilleurs <em>lettre de présentation</em>",
+  "sub": "Chirurgie plastique et médecine esthétique au centre de Gérone. Des résultats naturels, un regard médical et un accompagnement à chaque étape.",
+  "ctas": [
+   {
+    "text": "Demande d'évaluation",
+    "href": "#info"
+   },
+   {
+    "text": "WhatsApp 620 892 236",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "linea"
+   }
+  ],
+  "micro": "Sans engagement · Prise en charge médicale · Réponse le jour ouvré même",
+  "image": {
+   "src": "/images/wp/2025/11/recepcion-medic-salut.webp",
+   "w": 922,
+   "h": 618,
+   "alt": "médecine esthétique Gérone"
+  },
+  "ratingLabel": "{count} avis Google",
+  "stats": [
+   {
+    "rating": true,
+    "lbl": "{count} avis Google"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Au service des patients à Gérone"
+   },
+   {
+    "big": "SECPRE",
+    "lbl": "Chirurgiens inscrits à l'Ordre"
+   },
+   {
+    "big": "Gratuite",
+    "lbl": "Première consultation"
+   }
+  ]
+ },
+ {
+  "type": "vc-editorial",
+  "num": "I",
+  "kicker": "La clinique",
+  "headingTag": "h1",
+  "heading": "Clinique Esthétique à Gérone",
+  "paras": [
+   "En <strong>Soins Intégraux Salut</strong> nous sommes des spécialistes en <strong>chirurgie esthétique à Gérone</strong>, offrant des résultats naturels et sûrs avec une qualité médicale maximale. Notre équipe de professionnels en <strong>chirurgie plastique et médecine esthétique</strong> travaille avec une approche personnalisée, en soignant chaque détail pour améliorer ton image sans perdre ton essence.",
+   "Comment <strong>clinique esthétique Gérone</strong>, nous avons <strong>installations modernes et équipements de pointe</strong> qui garantissent sécurité, précision et bien-être à chaque procédure. Notre objectif est de vous offrir une expérience médicale complète, alliant technique, confiance et attention humaine."
+  ],
+  "cta": {
+   "text": "Parler avec l'équipe médicale",
+   "href": "#info",
+   "style": "linea"
+  },
+  "image": {
+   "src": "/images/wp/2025/12/mejor-clinica-estetica-girona.webp",
+   "w": 1200,
+   "h": 800,
+   "alt": "meilleure clinique esthétique Gérone"
+  }
+ },
+ {
+  "type": "vc-trat",
+  "num": "II",
+  "kicker": "Traitements",
+  "heading": "Chirurgie esthétique Gérone",
+  "sub": "Les interventions les plus demandées",
+  "text": [
+   "Nous sommes experts en différentes interventions de <strong>Chirurgie plastique à Gérone</strong>. Nous disposons de traitements avancés de <strong>médecine esthétique Gérone</strong> comme le rajeunissement facial, la toxine botulique, les produits de comblement ou la mésothérapie, et des procédures de chirurgie plastique comme l'augmentation mammaire, la liposuccion, l'abdominoplastie ou la rhinoplastie, toujours dans une approche naturelle et personnalisée."
+  ],
+  "cards": [
+   {
+    "title": "Augmentation mammaire",
+    "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+     "w": 900,
+     "h": 600,
+     "alt": "Augmentation mammaire"
+    }
+   },
+   {
+    "title": "Liposuccion",
+    "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2021/10/LIPOWEB.webp",
+     "w": 600,
+     "h": 598,
+     "alt": "Liposuccion"
+    }
+   },
+   {
+    "title": "Gynécomastie",
+    "href": "/fr/unites/chirurgie-esthetique-masculine/gynecomastie/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2019/10/Ginecomastia.webp",
+     "w": 570,
+     "h": 570,
+     "alt": "Gynécomastie"
+    }
+   },
+   {
+    "title": "Rhinoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2025/10/rinoplastia.webp",
+     "w": 800,
+     "h": 666,
+     "alt": "Rhinoplastie"
+    }
+   },
+   {
+    "title": "Obésité",
+    "href": "/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Obésité"
+    }
+   },
+   {
+    "title": "Blépharoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2026/07/Blefaroplastia.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Blépharoplastie"
+    }
+   }
+  ]
+ },
+ {
+  "type": "vc-unidades",
+  "id": "unidades",
+  "num": "III",
+  "kicker": "Spécialités",
+  "heading": "Unités Médicales Intégrales Salut",
+  "text": [
+   "Spécialistes dans chacune des différentes techniques de <strong>chirurgie esthétique à Gérone</strong>."
+  ],
+  "columns": [
+   [
+    {
+     "title": "Médecine esthétique du visage",
+     "links": [
+      {
+       "text": "Cernes",
+       "href": "/fr/unites/medecine-esthetique-faciale/cernes/"
+      },
+      {
+       "text": "Augmentation des lèvres",
+       "href": "/fr/unites/medecine-esthetique-faciale/augmentation-des-levres/"
+      },
+      {
+       "text": "Rides d'expression",
+       "href": "/fr/unites/medecine-esthetique-faciale/rides-dexpression/"
+      },
+      {
+       "text": "Flaccidité : fils tenseurs",
+       "href": "/fr/unites/medecine-esthetique-faciale/flaccidite-fils-tenseurs/"
+      },
+      {
+       "text": "Hydratation et nutrition",
+       "href": "/fr/unites/medecine-esthetique-faciale/hydratation-et-nutrition-2/"
+      },
+      {
+       "text": "Peel",
+       "href": "/fr/unites/medecine-esthetique-faciale/epluchage/"
+      },
+      {
+       "text": "Rides comblées",
+       "href": "/fr/unites/medecine-esthetique-faciale/"
+      },
+      {
+       "text": "Rinomodelation",
+       "href": "/fr/unites/medecine-esthetique-faciale/rinomodelisation/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Médecine esthétique corporelle",
+     "links": [
+      {
+       "text": "Liposuccion sans chirurgie",
+       "href": "/fr/unites/medecine-esthetique-corporelle/liposuccion-sans-chirurgie/"
+      },
+      {
+       "text": "Cellulite",
+       "href": "/fr/unites/medecine-esthetique-corporelle/cellulite/"
+      }
+     ]
+    },
+    {
+     "title": "Médecine esthétique",
+     "links": [
+      {
+       "text": "Réduction de volume",
+       "href": "/fr/unites/institut-de-beaute/reduccion-de-volumen-girona/"
+      },
+      {
+       "text": "Éliminer la cellulite",
+       "href": "/fr/unites/institut-de-beaute/eliminer-la-cellulite/"
+      },
+      {
+       "text": "P50 Visage",
+       "href": "/fr/unites/institut-de-beaute/visage-plie/"
+      },
+      {
+       "text": "Acide de fruits",
+       "href": "/fr/unites/institut-de-beaute/acide-de-fruits/"
+      },
+      {
+       "text": "Anti-âge MC110",
+       "href": "/fr/unites/institut-de-beaute/anti-age-mc-110/"
+      },
+      {
+       "text": "Récupérateur",
+       "href": "/fr/unites/institut-de-beaute/recuperateur/"
+      },
+      {
+       "text": "Détoxifiante",
+       "href": "/fr/unites/institut-de-beaute/detoxifiante/"
+      },
+      {
+       "text": "Hidreclat",
+       "href": "/fr/unites/institut-de-beaute/hidreclat/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Surpoids et obésité",
+     "links": [
+      {
+       "text": "Balle ingérable élliptique",
+       "href": "/fr/unites/surpoids-et-obesite-2/balle-comestible-ellipse/"
+      },
+      {
+       "text": "Ballon 6 mois",
+       "href": "/fr/unites/surpoids-et-obesite-2/ballon-6-mois/"
+      },
+      {
+       "text": "Ballon Gastrique 12 mois ajustable",
+       "href": "/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/"
+      },
+      {
+       "text": "Endomanga MEGA",
+       "href": "/fr/unites/surpoids-et-obesite-2/endomanga/"
+      },
+      {
+       "text": "Diététique et nutrition",
+       "href": "/fr/unites/surpoids-et-obesite-2/dietetique-et-nutrition/"
+      },
+      {
+       "text": "Chirurgie bariatrique",
+       "href": "/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/"
+      },
+      {
+       "text": "Chirurgie post-bariatrique",
+       "href": "/fr/unites/surpoids-et-obesite-2/cirugia-postbariatrica/"
+      }
+     ]
+    },
+    {
+     "title": "Chirurgie esthétique masculine",
+     "links": [
+      {
+       "text": "Gynécomastie",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/gynecomastie/"
+      },
+      {
+       "text": "Blépharoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/blepharoplastie/"
+      },
+      {
+       "text": "Augmentation des pectoraux",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/aumento-de-pectoral/"
+      },
+      {
+       "text": "Lifting du cou et du menton",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/lifting-du-cou-et-du-menton/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Chirurgie esthétique des seins",
+     "links": [
+      {
+       "text": "Augmentation mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/"
+      },
+      {
+       "text": "Augmentation mammaire avec la technique AMI",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-technique-ami/"
+      },
+      {
+       "text": "Pexie mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/lifting-des-seins-pexie-mammaire/"
+      },
+      {
+       "text": "Réduction mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/reduction-mammaire/"
+      },
+      {
+       "text": "Remplacement de prothèse",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/remplacement-de-prothese/"
+      }
+     ]
+    },
+    {
+     "title": "Chirurgie esthétique du visage",
+     "links": [
+      {
+       "text": "Rhinoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/"
+      },
+      {
+       "text": "Perforation de la cloison nasale",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/perforation-de-la-cloison-nasale/"
+      },
+      {
+       "text": "Blépharoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/"
+      },
+      {
+       "text": "Minilift du cou et du double menton",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/mini-lifting-du-cou-et-du-double-menton/"
+      },
+      {
+       "text": "Lifting du visage",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/"
+      },
+      {
+       "text": "Otoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/otoplastie-gerone/"
+      },
+      {
+       "text": "Chirurgie du menton et des pommettes",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/chirurgie-du-menton-et-des-pommettes-2/"
+      }
+     ]
+    }
+   ]
+  ],
+  "wide": [
+   {
+    "title": "Chirurgie esthétique corporelle",
+    "links": [
+     {
+      "text": "Liposuccion Vaser",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion-vaser/"
+     },
+     {
+      "text": "Liposuccion",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/"
+     },
+     {
+      "text": "Augmentation des fesses",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/augmentation-des-fessiers/"
+     },
+     {
+      "text": "Chirurgie génitale féminine",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/chirurgie-genitale-feminine-2/"
+     },
+     {
+      "text": "Lifting des bras et des jambes",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/soulever-les-bras-et-les-jambes/"
+     },
+     {
+      "text": "Lipofilling corporel",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/lipofilling-corporel/"
+     },
+     {
+      "text": "Abdominoplastie",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/abdominoplastie/"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "text": "Demande d'évaluation",
+   "href": "#info"
+  }
+ },
+ {
+  "type": "vc-resenas",
+  "num": "IV",
+  "kicker": "Avis",
+  "heading": "Nos patients témoignent",
+  "sub": "Choisissez d'être entre les meilleures mains",
+  "reviews": [
+   {
+    "name": "Camila Constanza Vélez Silva",
+    "text": "Excelente clínica! Desde el primer día con la mejor predisposición para brindarme la mejor atención y los tratamientos más convenientes según mis necesidades. Todos los profesionales de primer nivel. Las máquinas que utilizan son de última generación, desde las primeras sesiones se ven los resultados. La máquina TShape es para destacar! Super completa y efectiva! Estoy muy contenta y agradecida! Queda poquito para llegar a mi objetivo! Super recomiendo!"
+   },
+   {
+    "name": "Silviaarely Zunigaalvarado",
+    "text": "Hola muy contenta con la operación quee hice y la atención"
+   },
+   {
+    "name": "Beth Serra",
+    "text": "Atenció excelent per part de tot l'equip, especialment la Laia que ha respós tots els meus dubtes."
+   },
+   {
+    "name": "NATALIA MARTINEZ",
+    "text": "Hecho tratamiento para adelgazar combinando tratamiento cabina y endocrino y he alcanzado objetivos sin pasarlo mal. El trato excelente!"
+   },
+   {
+    "name": "alejandra martin",
+    "text": "Estoy muy contenta con el trato que es excelente y sobre todo mi tratamiento se puede ver los resultados es muy bueno clinica y son muy profesionales"
+   },
+   {
+    "name": "Alisson Mijas",
+    "text": "Estoy encantada con la clínica. Un trato excepcional, en todo momento me he sentido acogida, en confianza y con total sinceridad en todo. Me he hecho la rinoplastia con ellos y no podría haber elegido mejor, han sido unos grandes profesionales, tanto como el Dr. Langdon como el equipo de Médic, sobre todo con Laia, que me ha acompañado en todo el proceso y gracias a ello decidí decantarme con la clínica. No podría haber elegido mejor, sin duda en cualquier otro procedimiento no dudaré en ponerme en sus manos"
+   }
+  ],
+  "source": "Avis Google",
+  "summary": [
+   {
+    "rating": true,
+    "lbl": "Note moyenne"
+   },
+   {
+    "big": "{count}",
+    "lbl": "Avis vérifiés"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Au service des patients à Gérone"
+   }
+  ],
+  "more": {
+   "text": "Voir les {count} avis sur Google",
+   "href": "https://maps.google.com/maps?cid=4878100397339283721",
+   "style": "linea"
+  }
+ },
+ {
+  "type": "vc-videos",
+  "num": "V",
+  "kicker": "Témoignages",
+  "heading": "Ce qu'on raconte de nous",
+  "sub": "Les bons résultats, notre principale motivation",
+  "items": [
+   {
+    "title": "Bypass gastrique : le témoignage d'Emili",
+    "video": "https://www.youtube.com/watch?v=AD2F_1nMRvY",
+    "image": {
+     "src": "/images/wp/2019/10/bypass-operacion-1.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Témoignage bypass gastrique"
+    },
+    "label": "Témoignage"
+   },
+   {
+    "title": "Augmentation mammaire : le témoignage d'Elizabeth",
+    "video": "https://www.youtube.com/watch?v=gKfqSRLzb8o",
+    "image": {
+     "src": "/images/wp/2019/10/aumento-pecho-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Témoignage augmentation mammaire"
+    },
+    "label": "Témoignage"
+   },
+   {
+    "title": "Rhinoplastie : le témoignage de Judith",
+    "video": "https://www.youtube.com/watch?v=ytuluT_sVg8",
+    "image": {
+     "src": "/images/wp/2019/10/rinoplastia-ok-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Témoignage rhinoplastie"
+    },
+    "label": "Témoignage"
+   },
+   {
+    "title": "Rides d'expression : le témoignage de Lidia",
+    "video": "https://www.youtube.com/watch?v=5tMvNB00PSI",
+    "image": {
+     "src": "/images/wp/2019/10/botox-ok-operacion.webp",
+     "w": 1295,
+     "h": 742,
+     "alt": "Témoignage rides d'expression"
+    },
+    "label": "Témoignage"
+   }
+  ]
+ },
+ {
+  "type": "vc-editorial",
+  "num": "VI",
+  "kicker": "Médecine esthétique",
+  "headingTag": "h2",
+  "heading": "Médecine Esthétique Gérone",
+  "paras": [
+   "Dans notre <strong>centre esthétique Gérone</strong> Notre équipe est composée de spécialistes en endocrinologie, nutrition, chirurgie plastique et médecine esthétique.",
+   "Cela nous permet d'aborder chaque traitement avec une approche holistique : nous cherchons non seulement à améliorer l'apparence, mais aussi le bien-être général.",
+   "Nous effectuons des traitements esthétiques pour le rajeunissement du visage, la régénération de la peau, la réduction des rides, l'amélioration du contour corporel et bien plus encore.",
+   "Tous nos protocoles sont réalisés avec des matériaux sûrs, des technologies de pointe et sous surveillance médicale constante."
+  ],
+  "image": {
+   "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+   "w": 900,
+   "h": 600,
+   "alt": "augmentation mammaire prix Gérone"
+  },
+  "reverse": true,
+  "bg": "crema-2"
+ },
+ {
+  "type": "vc-ventajas",
+  "num": "VII",
+  "heading": "En choisissant Medics Integral Salut à Gérone pour votre médecine esthétique, vous obtenez :",
+  "items": [
+   "Évaluation médicale gratuite et personnalisée.",
+   "Plan de traitement adapté à vos objectifs et à votre type de peau.",
+   "Suivi médical continu pour garantir des résultats réels.",
+   "Environnement clinique professionnel, discret et sécurisé."
+  ],
+  "text": [
+   "Si vous recherchez une clinique de médecine esthétique à Gérone offrant des garanties, de l'expérience et des résultats fiables, contactez-nous dès aujourd'hui pour réserver votre consultation."
+  ],
+  "cta": {
+   "text": "Parler avec l'équipe médicale",
+   "href": "#info"
+  },
+  "bg": "crema"
+ },
+ {
+  "type": "vc-equipo",
+  "id": "equipo",
+  "num": "VIII",
+  "kicker": "L'équipe",
+  "heading": "Meilleure Clinique Esthétique Gérone : L'Équipe",
+  "text": [
+   "<em>Si vous cherchez la <strong>meilleure clinique esthétique à Gérone</strong>, en Medics Integral Salut, vous trouverez un <strong>équipe engagée pour votre bien-être</strong>, résultats harmonieux et un contact personnalisé.</em>"
+  ],
+  "members": [
+   {
+    "name": "Dr Mike Dewever",
+    "role": "Chirurgien plastique Gérone",
+    "bio": "Médecin spécialiste en chirurgie plastique reconstructrice et esthétique, numéro de licence : 47127. Diplômé en médecine et chirurgie en 2010 de l'Université de Barcelone. Spécialiste en chirurgie plastique reconstructrice et esthétique, ayant effectué sa résidence (M.I.R.) entre 2011 et 2016, au service de chirurgie plastique, reconstructrice et esthétique de l’Hôpital Universitaire de Bellvitge, Barcelone.",
+    "image": {
+     "src": "/images/wp/2025/10/dewever.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr Mike Dewever"
+    }
+   },
+   {
+    "name": "Dre. Ainitze Ibarzabal",
+    "role": "Chirurgie Générale et Digestive",
+    "bio": "Depuis 2007, il est spécialisé en chirurgie gastro-intestinale, avec une dédicace particulière à la chirurgie bariatrique, ayant réalisé plus de 500 interventions (chirurgie primaire et de révision), et est actuellement considéré comme une référence dans cette technique.",
+    "image": {
+     "src": "/images/wp/2025/10/Dra.-Ainitze-Ibarzaba.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dre. Ainitze Ibarzabal"
+    }
+   },
+   {
+    "name": "Dr. Valentí Puig Divi",
+    "role": "Chirurgie Générale et Digestive",
+    "bio": "Diplômé en Médecine et Chirurgie de l'Université Centrale de Barcelone avec un prix extraordinaire de licence, il s'est spécialisé en appareil digestif en 1994.",
+    "image": {
+     "src": "/images/wp/2025/10/Dr._Valenti_Puig-Divi.webp",
+     "w": 275,
+     "h": 275,
+     "alt": "Dr. Valentí Puig Divi"
+    }
+   },
+   {
+    "name": "Dr. David Pérez Asensio",
+    "role": "Endocrinologie et Nutrition",
+    "bio": "Son travail clinique est professeur associé dans le cursus de médecine de l'Université de Gérone et membre de la Société Catalane d'Endocrinologie et de Nutrition et du Groupe d'Obésité de la Société Espagnole d'Endocrinologie.",
+    "image": {
+     "src": "/images/wp/2025/10/dr_perez.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. David Pérez Asensio"
+    }
+   },
+   {
+    "name": "Dr. Claudia Vera Ching",
+    "role": "Médecine esthétique",
+    "bio": "Je possède un Master en Médecine Esthétique reconnu internationalement par l'Esneca Business School et me suis spécialisé en Médecine Intensive à l'Hôpital Universitaire Josep Trueta de Gérone.",
+    "image": {
+     "src": "/images/wp/2025/10/vera.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. Claudia Vera Ching"
+    }
+   },
+   {
+    "name": "Dr. Alberto González",
+    "role": "Médecin Tricologue et Chirurgien Capillaire",
+    "bio": "Fort d’une solide formation en médecine et d’une spécialisation dans les traitements capillaires de pointe, il a obtenu son diplôme de médecine générale en 2020 à l’Université des sciences médicales de Villa Clara, à Cuba, puis s'est spécialisé en médecine esthétique en obtenant un master au Centre d'enseignement supérieur à distance TECH en Espagne (2022), avant de valider un master de formation continue à l'Université européenne Miguel de Cervantes (2024).",
+    "image": {
+     "src": "/images/wp/2025/10/alberto-gonzales.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. Alberto González"
+    }
+   },
+   {
+    "name": "Dr. Úrsula Ramírez",
+    "role": "Technicienne en médecine esthétique",
+    "bio": "Technicienne en Médecine Esthétique ESSAE Barcelone. Diplômée certifiée en Techniques faciales et Diagnostic de la peau, Esthetic School Cristina Sorli, méthode d'enseignement dénommée M.E.B.I. (Méthode d'Esthétique Biologique) Barcelone",
+    "image": {
+     "src": "/images/wp/2025/10/ursula-ramirez.webp",
+     "w": 500,
+     "h": 500,
+     "alt": "Dr. Úrsula Ramírez"
+    }
+   }
+  ],
+  "card": {
+   "title": "Nous vous orientons personnellement",
+   "text": "Réponse le jour ouvrable même",
+   "cta": {
+    "text": "Demande d'évaluation",
+    "href": "#info"
+   }
+  }
+ },
+ {
+  "type": "vc-distintivos",
+  "logos": [
+   {
+    "src": "/images/wp/2025/11/secpre.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "SECPRE"
+   },
+   {
+    "src": "/images/wp/2025/11/clinica-diagonal.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Clínica Diagonal"
+   },
+   {
+    "src": "/images/wp/2026/03/clinica-tres-torres.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Clínica Tres Torres"
+   },
+   {
+    "src": "/images/wp/2026/03/centro-teknon.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "Centro Médico Teknon"
+   },
+   {
+    "src": "/images/wp/2026/03/sccpre.webp",
+    "w": 200,
+    "h": 100,
+    "alt": "SCCPRE"
+   }
+  ]
+ },
+ {
+  "type": "vc-contacto",
+  "id": "info",
+  "num": "IX",
+  "kicker": "Contact",
+  "heading": "Choisissez d'être entre les meilleures mains",
+  "sub": "Clinique Chirurgie Esthétique | Médics Integral Salut",
+  "rows": [
+   {
+    "ic": "◈",
+    "k": "Adresse",
+    "v": "Plaça Poeta Marquina, 3<br>17002 Gérone, Espagne",
+    "note": "À 5 minutes de la gare AVE"
+   },
+   {
+    "ic": "✆",
+    "k": "Téléphone",
+    "v": "<a href=\"tel:+34972209086\">+34 972 20 90 86</a>"
+   },
+   {
+    "ic": "✆",
+    "k": "WhatsApp",
+    "v": "<a href=\"https://wa.me/34620892236\">620 892 236</a>"
+   },
+   {
+    "ic": "✉",
+    "k": "E-mail",
+    "v": "<a href=\"mailto:info@medicsintegralsalut.com\">info@medicsintegralsalut.com</a>"
+   },
+   {
+    "ic": "◷",
+    "k": "Horaires",
+    "v": "Du lundi au vendredi : de 10 h à 20 h<br>Samedi et dimanche : fermé"
+   }
+  ],
+  "ctas": [
+   {
+    "text": "WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "linea"
+   }
+  ],
+  "formTitle": "Nous vous orientons personnellement",
+  "formText": "Réponse le jour ouvrable même",
+  "form": {
+   "name": "contacto-portada",
+   "thanks": "/fr/merci/",
+   "submit": "Envoyer",
+   "fields": [
+    {
+     "name": "nombre",
+     "type": "text",
+     "placeholder": "Nom et prénom",
+     "required": true,
+     "autocomplete": "name"
+    },
+    {
+     "name": "telefono",
+     "type": "tel",
+     "placeholder": "Téléphone",
+     "required": true,
+     "autocomplete": "tel"
+    },
+    {
+     "name": "email",
+     "type": "email",
+     "placeholder": "Courriel",
+     "required": true,
+     "autocomplete": "email"
+    },
+    {
+     "name": "mensaje",
+     "type": "textarea",
+     "placeholder": "Motif de la consultation",
+     "required": true
+    },
+    {
+     "name": "privacidad",
+     "type": "checkbox",
+     "required": true,
+     "labelHtml": "J'ai lu la <a href=\"/fr/politique-de-confidentialite/\">Politique de confidentialité</a>"
+    }
+   ]
+  },
+  "map": {
+   "q": "Plaça Poeta Marquina 3, 17002 Girona",
+   "title": "Medics Integral Salut à Gérone",
+   "href": "https://www.google.com.ar/maps/place/Cl%C3%ADnica+Cirug%C3%ADa+Est%C3%A9tica+%7C+M%C3%A9dics+Integral+Salut/@41.9811814,2.8156612,17z/data=!3m1!4b1!4m6!3m5!1s0x12bae6df333f1fb3:0x43b27e7752199109!8m2!3d41.9811774!4d2.8182361!16s%2Fg%2F11cmzmg12b!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+  }
+ },
+ {
+  "type": "vc-cierre",
+  "kicker": "Gérone et Costa Brava",
+  "heading": "Clinique de chirurgie et de médecine esthétique pour toute la province de Gérone",
+  "html": "Nous recevons des patients de <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> et de toute la <strong>Costa Brava</strong>. Nous sommes au centre de Gérone (Plaça Poeta Marquina, 3), à 5 minutes de la gare AVE, avec un financement possible et une première consultation gratuite.",
+  "ctas": [
+   {
+    "text": "Demande d'évaluation",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "Voir le financement",
+    "href": "/fr/financement/",
+    "style": "linea"
+   }
+  ]
+ }
+]
