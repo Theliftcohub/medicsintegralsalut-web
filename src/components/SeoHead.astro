@@ -17,16 +17,18 @@ if (entorno !== 'produccion') robots = 'noindex, nofollow';
 else if (!robots.includes('noindex')) robots += ', max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 const og = abs(seo.ogImage);
 const alts = Object.entries(alternates);
+// og:locale va en formato idioma_PAÍS
+const LOCALE: Record<string, string> = { es: 'es_ES', ca: 'ca_ES', en: 'en_GB', fr: 'fr_FR', ru: 'ru_RU', uk: 'uk_UA' };
 ---
 <title>{seo.title}</title>
 {seo.description && <meta name="description" content={seo.description} />}
 <link rel="canonical" href={canonical} />
 <meta name="robots" content={robots} />
 <link rel="icon" href="/favicon.ico" sizes="48x48" />
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="website" />
-<meta property="og:locale" content={lang} />
+<meta property="og:locale" content={LOCALE[lang] ?? lang} />
 <meta property="og:title" content={seo.ogTitle ?? seo.title} />
 {(seo.ogDescription ?? seo.description) && <meta property="og:description" content={seo.ogDescription ?? seo.description} />}
 <meta property="og:url" content={canonical} />
