@@ -32,9 +32,9 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - Antes de apagar los Typeform en Typeform/n8n: comprobar que ningún anuncio activo ni subdominio los usa (los subdominios no se tocan).
 
 ## Medición orgánica (la web principal es solo tráfico orgánico; las landings de publicidad son otras webs)
-- Cada formulario hace `dataLayer.push({event:'form_submit', form_name, page_path})` al enviar y redirige a `/gracias/` (conversión definitiva).
+- Cada formulario hace `dataLayer.push({event:'form_submit', form_name, page_path})` al enviar y redirige a la página de gracias de su idioma (conversión definitiva): `/gracias/`, `/ca/gracies/`, `/en/thank-you/`, `/fr/merci/`, `/ru/спасибо/`, `/uk/дякую/` (todas noindex).
 - n8n añade al lead de Kommo una línea "Canal:" (Orgánico buscador / asistente IA / redes / referido / directo, o la campaña si hay UTM) a partir del referrer de la primera página de la visita.
-- GTM-K63QVGT, a preparar en un espacio de trabajo y publicar EL DÍA DEL LANZAMIENTO: (1) quitar la excepción "All Pages" de la etiqueta GA4 G-7WJ693DDXH (hoy no se ejecuta nunca); (2) evento GA4 `generate_lead` con el activador `form_submit` + página vista /gracias/; (3) píxel de Meta 1839689313580301 con PageView y Lead; (4) pausar el píxel antiguo 339816866888771 y la etiqueta UA. Todo sujeto a Consent Mode.
+- GTM-K63QVGT, a preparar en un espacio de trabajo y publicar EL DÍA DEL LANZAMIENTO: (1) quitar la excepción "All Pages" de la etiqueta GA4 G-7WJ693DDXH (hoy no se ejecuta nunca); (2) evento GA4 `generate_lead` con el activador `form_submit` + página vista de las 6 páginas de gracias; (3) píxel de Meta 1839689313580301 con PageView y Lead; (4) pausar el píxel antiguo 339816866888771 y la etiqueta UA. Todo sujeto a Consent Mode.
 
 ## Reglas de contenido
 1. Los textos son **literales** del WordPress. Cualquier cambio de texto se registra en `NO_LITERAL.md` (URL, campo, original, nuevo, motivo). Sin excepciones.
@@ -45,40 +45,41 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 6. Datos de médicos en schema solo si figuran literalmente en la web.
 
 ## Arquitectura (no cambiar sin hablarlo)
-- Una página = un JSON por idioma en `src/content/pages/<lang>/` con `path`, `seo`, `schema`, `breadcrumbs`, `blocks[]`.
-- Un post = un `.md` en `src/content/posts/` con frontmatter completo (author, datePublished, dateModified).
-- Ruta `[...slug].astro` con el español sin prefijo. `build.format: 'directory'`, `trailingSlash: 'always'`.
-- Mapa de traducciones en `migracion/i18n-map.json`; hreflang solo a URLs existentes + x-default.
-- Textos de interfaz en `src/i18n/ui.json`.
-- Colores, tipografías y espaciados solo desde `src/styles/tokens.css` (sin Tailwind: CSS plano en `base.css` y en cada bloque).
+- Una página = un JSON por idioma en `src/content/pages/<lang>/` con `path`, `title` (título literal), `seo`, `schema`, `breadcrumbs`, `blocks[]`.
+- Un post = un `.md` en `src/content/posts/<lang>/` con frontmatter completo (author, date, modified, `breadcrumbs` y `schema` del WordPress). Una URL es O página O entrada, nunca las dos (Astro descarta una en silencio).
+- Ruta única `src/pages/[...slug].astro` (español sin prefijo). `build.format: 'directory'`, `trailingSlash: 'always'`.
+- Toda la web usa el diseño «Versión C» (`body.vc`): `src/layouts/Base.astro` → `VcHeader` + migas + bloques + `VcFooter` + banner de cookies.
+- Antes de pintar una página, `src/lib/paginas.ts` marca la cabecera de página (primer bloque con solo un encabezado) y garantiza un H1.
+- Mapa de traducciones en `migracion/i18n-map.json` (`i18nGroup` en cada página/entrada); hreflang solo a URLs existentes + x-default. El selector de idioma muestra siempre los 6; si la página no tiene traducción, lleva a la portada de ese idioma.
+- Textos de interfaz (cookies, menú, «Publicado/por», mapa) en `src/i18n/ui.json`, los 6 idiomas.
+- Estilos, en este orden (`Base.astro`): `tokens.css` (variables de .mpost) · `comun.css` (reset, cookies, formularios) · `mpost.css` · `vc.css` (copia literal de la maqueta, generada) · `vc-extra.css` (cabecera, mega menú, idioma, ajustes) · `mpost-posts.css` (generado) · `vc-mpost.css` (piel de tratamientos) · `vc-prosa.css` (páginas de texto, blog y entradas). Sin Tailwind.
 - Astro 7 · colecciones en `src/content.config.ts` (loader glob). `npm run build` copia `dist/410/index.html` a `dist/410.html` para el ErrorDocument de Apache.
 - `PUBLIC_ENTORNO`: `preview` (por defecto: noindex, sin GTM, formularios desactivados) · `staging` (noindex, GTM) · `produccion`.
 - Los componentes no contienen textos de negocio.
+- `src/content/` y `public/images|media` NO están en git: van empaquetados en `_datos/contenido-web.tgz.part*` (ver `_datos/LEEME_CONTENIDO.md`). Tras cambiar contenido, regenerar el paquete.
 
 ## Construcción de páginas «Versión C» (28/09/2026)
-- `scripts/vc_pages.py <ruta…> | --todas`: genera TODAS las páginas y entradas desde el HTML cacheado (6 idiomas).
+- `scripts/vc_pages.py <ruta…> | --todas`: genera TODAS las páginas y entradas desde el HTML del WordPress (6 idiomas).
   - Con componentes `.mpost` (tratamientos): bloque `vc-mpost` con el marcado literal limpio + piel `src/styles/vc-mpost.css`.
   - Resto (WPBakery/Bridge, fichas, legales, landings): bloques `vc-prosa` (HTML semántico literal por fila; columnas en rejilla). CF7 y Typeform → formulario propio (`NativeForm`).
   - Entradas: `src/content/posts/<lang>/*.md` (frontmatter completo; `mpost: true` si la entrada está maquetada con .mpost, CSS literal en `src/styles/mpost-posts.css` generado por `scripts/build_mpost_posts_css.py`).
   - Informe de incidencias: `migracion/vc_pages_report.json` (imágenes sin copia local, Typeform, formularios, páginas vacías).
+- El HTML del WordPress se lee de `migracion/html_cache/` (530 MB, fuera del repo); `wp_lib.html_of` lo descarga y lo guarda si falta (con pausa de 0,6 s).
+- Después de generar, SIEMPRE: `scripts/schema_posts.py` (migas y JSON-LD propio de cada entrada) → `scripts/pulir_contenido.py` (limpieza idempotente: duplicados página/entrada, migas concatenadas, entidad MedicalClinic, título, texto oculto, iconos, bloque de contacto, enlaces a /media/, página de gracias por idioma y su noindex).
 - Portadas: `build_home.py <url> <lang> <out>` (literal) → `build_home_vc.py <lang>` (textos nuevos de la maqueta por idioma en `scripts/home_vc_textos.json`).
-- Cabecera y pie por idioma: `scripts/build_chrome_vc.py` → `src/data/vc-chrome.json` (etiquetas y enlaces literales de cada portada).
+- Cabecera y pie por idioma: `scripts/build_chrome_vc.py` → `src/data/vc-chrome.json` (etiquetas y enlaces literales de cada portada) → `scripts/build_menu_unidades.py` (submenú de Unidades del WordPress, clave `units`, enlaces a su URL final).
 - Redirecciones: `scripts/resolver_revisar.py` (cerró las 69 REVISAR con criterios escritos en `notas`) → `scripts/redirects_contract.py` (url-map.csv + gone.txt, cadenas resueltas) → `build_redirects.py … --con-www --contract migracion/urls.csv --sin-rss` → `scripts/redirects_post.py` (OBLIGATORIO: Netlify compara en %MAYÚSCULAS y Apache con la ruta decodificada; quita reglas de solo barra final, que en Netlify hacen bucle).
 - Enlaces internos: `scripts/enlaces_finales.py` (tras construir `dist/`) reescribe cada enlace a su URL final y quita los que van a 410/404.
 - Validación: `scripts/validar_rapido.py <base>` (paralelo: estado de las 3.063 URLs del contrato + title/H1/restos/imágenes/enlaces en dist/). Probado contra Netlify y contra un Apache local con el `.htaccess` (sin el bloque https): 0 fallos de estado. `validate_migration.py` completo tarda horas en serie: usarlo solo en staging.
 - Descargas: `wp_lib.fetch_bytes` recuerda las URL que fallan en `migracion/fetch_fallidos.txt`.
+- En Windows, los scripts de Python se lanzan con `PYTHONUTF8=1` (y `MSYS_NO_PATHCONV=1` si se les pasan rutas que empiezan por `/` desde Git Bash).
 
-## Bloques disponibles
-| Tipo | Campos | Variantes |
+## Bloques disponibles (`src/blocks/Block.astro` es el único punto que conecta tipo y componente)
+| Tipo | Componente | Uso |
 |---|---|---|
-| `hero` | title, text, image, imageAlt, cta{text,href} | `imagen-derecha`, `fondo`, `simple` |
-| `texto` | html | — |
-| `tarjetas` | columns, items[{title,text,icon,href}] | — |
-| `faq` | items[{q,a}] | — |
-| `cta` | title, text, button{text,href} | `banda`, `caja` |
-| `galeria` | images[{src,alt}] | — |
-| `formulario` | name, fields[], destination | — |
-| `lista-posts` | limit, category | — |
+| `vc-prosa` | `vc/Prosa.astro` | Páginas de texto: `cols[{html?, form?, after?}]`, `intro`, `bg` (`crema`), `stack`; `head` lo pone `paginas.ts` |
+| `vc-mpost` | `vc/Mpost.astro` | Páginas de tratamiento: `html` literal con componentes .mpost |
+| `vc-hero`, `vc-editorial`, `vc-trat`, `vc-unidades`, `vc-resenas`, `vc-videos`, `vc-ventajas`, `vc-equipo`, `vc-distintivos`, `vc-contacto`, `vc-cierre` | `vc/*.astro` | Portadas (6 idiomas); `vc-unidades` también en /unidades/ |
 
 ## Flujo de trabajo
 - Un commit por página migrada: `feat(page): migrar /ruta/`.
@@ -93,6 +94,13 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
 
 ## Errores ya cometidos y sus reglas
+- 05/10/2026 · 46 entradas en español tenían además un JSON de página con la misma URL: Astro renderiza una y descarta la otra sin fallar el build (solo un WARN) · `pulir_contenido.py` borra el JSON; revisar los WARN «conflicts with higher priority route» en cada build.
+- 05/10/2026 · `build_post` descartaba el JSON-LD propio y las migas de las entradas (612 entradas sin FAQPage/VideoObject/MedicalWebPage ni BreadcrumbList) · `schema_posts.py` los recupera al frontmatter y la plantilla los publica.
+- 05/10/2026 · Los formularios de ca/en/fr/ru/uk enviaban a `/xx/gracias/` (URLs de TranslatePress que no existen): 404 tras enviar · cada idioma va a su página de gracias real (`GRACIAS` en `pulir_contenido.py`). Las páginas de gracias de todos los idiomas cuentan como conversión.
+- 05/10/2026 · `ui.json` solo tenía español: banner de cookies, «Publicado/por» y «Ver el mapa» salían en español en los 6 idiomas · todo texto de interfaz nuevo se añade en los 6 idiomas a la vez.
+- 05/10/2026 · `redirects_contract.py` no resolvía cadenas cuando la URL y el destino tenían distinta caja de %-encoding (%D0 / %d0): 2 redirecciones ru/uk caían al índice · claves siempre decodificadas (`unquote`).
+- 05/10/2026 · El submenú de Unidades no se migró (solo el enlace «unidades») · el menú se extrae entero, con todos sus niveles (`build_menu_unidades.py`).
+- 05/10/2026 · Se borró `Icon.astro` creyéndolo muerto y lo usa `NativeForm` · antes de borrar un componente, buscar su nombre de archivo en todos los `import` y probar el build.
 - 28/09/2026 · Se migraba contenido que en el WordPress está OCULTO en todos los tamaños (vc_hidden-lg/md/sm/xs: «Lorem ipsum», FAQ de rinoplastia en páginas de rejuvenecimiento, vídeo de otra clínica en /financiacion/; 145 páginas) · `hidden_filter()` lo elimina; lo oculto solo en móvil o solo en escritorio va en `.vc-solo-movil` / `.vc-solo-escritorio(-sm)`. Los enlaces dentro de `.visitabuttonp` son botones.
 - 28/09/2026 · Las entradas .mpost se veían distintas al original: (1) compartían clases con las páginas de tratamiento y les aplicaban mpost.css y la piel vc-mpost.css; (2) mpost-posts.css mezclaba el CSS de las 5 variantes de entrada; (3) con el peso 300 de la maqueta, `<b>` («bolder») quedaba en 400 · en las entradas las clases `mpost*` se renombran a `mpp*` y cada entrada va dentro de `.mpv-<huella de su <style>>`, con SU CSS solo. El listado del blog (.grid > .mason-item) pasa a rejilla `.vc-bloglist` y el extracto se corta donde el WordPress coló CSS.
 - 28/09/2026 · La prosa aplanaba acordeones de Bridge (se veían abiertos), filas internas de WPBakery (fotos enormes) y ponía el formulario antes/después del texto sin respetar el original · `structure_widgets()` convierte acordeones en `<details>` y `.vc_inner` en rejilla `.vc-in` con las proporciones vc_col-sm-N; el CF7 deja un marcador `{{CF7}}` en su sitio. Los fondos CSS en línea se leen ANTES de `clean_common` (que borra los `style`).
