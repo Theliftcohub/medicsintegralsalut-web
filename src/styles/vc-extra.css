@@ -106,3 +106,31 @@ body.vc>header .nav-units:focus-visible,.vc .vc-lang-btn:focus-visible{outline:1
 /* el menú lateral cerrado (fuera de pantalla) dejaba asomar su sombra en el borde derecho del móvil */
 .vc .panel{box-shadow:none;visibility:hidden;transition:transform .42s cubic-bezier(.4,0,.2,1),visibility 0s .42s}
 body.vc.menu-open .panel{box-shadow:-14px 0 44px rgba(46,42,38,.14);visibility:visible;transition:transform .42s cubic-bezier(.4,0,.2,1)}
+
+/* ==== cabecera con el diseño de la maqueta «prototipo» (05/10/2026): menú en píldoras y cápsula de acciones ==== */
+body.vc>header{background:rgba(247,241,232,.95);border-bottom:1px solid transparent;backdrop-filter:blur(10px)}
+body.vc>header.stuck{border-bottom-color:#E5D8C6;box-shadow:0 8px 24px -18px rgba(74,52,40,.35)}
+body.vc>header .bar{height:96px;gap:24px}
+body.vc>header.stuck .bar{height:78px}
+body.vc>header nav{gap:4px;font-size:15px;letter-spacing:0;text-transform:none;color:#6E5648}
+body.vc>header nav>a,body.vc>header .nav-units{padding:11px 20px;border-radius:100px;font-weight:500;color:#6E5648;transition:background .25s,color .25s}
+body.vc>header nav>a::first-letter,body.vc>header .nav-units::first-letter{text-transform:uppercase}
+body.vc>header nav>a{display:inline-block}
+body.vc>header nav>a::after{display:none}
+body.vc>header nav>a:hover,body.vc>header .nav-units:hover,body.vc>header .nav-units[aria-expanded="true"]{background:rgba(247,184,77,.2);color:#4A3428}
+body.vc>header nav>a[aria-current="page"],body.vc>header .nav-units.activo{background:#F7B84D;color:#3A2B10}
+body.vc>header .hdr-acc{display:flex;align-items:center;gap:6px;background:#fff;border:1px solid #E5D8C6;border-radius:100px;padding:6px 6px 6px 12px}
+body.vc>header .hdr-acc .btn{background:#F7B84D;border:1.5px solid #F7B84D;color:#3A2B10;border-radius:100px;padding:15px 26px;
+  font-size:14px;font-weight:700;letter-spacing:0;text-transform:none}
+body.vc>header .hdr-acc .btn::before{display:none}
+body.vc>header .hdr-acc .btn:hover{background:#4A3428;border-color:#4A3428;color:#fff}
+body.vc>header .hdr-acc .vc-lang-btn{padding:8px 6px;font-size:12px;color:#6E5648}
+@media(max-width:1280px){body.vc>header nav>a,body.vc>header .nav-units{padding:10px 13px;font-size:14px}}
+@media(max-width:1080px){body.vc>header .hdr-acc{display:none}body.vc>header .bar{height:76px}}
+.vc .panel{background:#F7F1E8}
+.vc .panel>a,.vc .panel .p-units summary{color:#4A3428}
+.vc .panel .btn{border-radius:100px;text-transform:none;letter-spacing:0;font-size:15px;font-weight:700}
+/* «unidades» es un botón (inline-flex): ::first-letter no se aplica, se capitaliza la palabra */
+body.vc>header .nav-units{text-transform:capitalize}
+/* migas sobre el mismo crema que la cabecera, a todo el ancho */
+.vc .vc-crumbs{background:#F7F1E8;box-shadow:0 0 0 100vmax #F7F1E8;clip-path:inset(0 -100vmax)}
