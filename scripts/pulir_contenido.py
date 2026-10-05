@@ -240,7 +240,7 @@ for f in glob.glob("src/content/pages/*/*.json"):
         sch.append(s)
     j["schema"] = sch
     if not j.get("title"):
-        j["title"] = re.sub(r"\s*[-–|]\s*Medics\s*Integral\s*Salut\s*$", "", j["seo"]["title"], flags=re.I).strip()
+        j["title"] = re.sub(r"\s*[-–—|]\s*Medics\s*Integral\s*Salut\s*$", "", j["seo"]["title"], flags=re.I).strip()
     blocks = []
     for b in j["blocks"]:
         if b["type"] == "vc-prosa" and len(b.get("cols", [])) == 3 and b["cols"][1].get("form") and desequilibrado(b["cols"][0].get("html")):

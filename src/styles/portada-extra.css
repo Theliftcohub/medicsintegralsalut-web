@@ -150,3 +150,65 @@
 .vc .pt .pt-ficha:only-child .pt-ficha-txt{padding:18px 18px 0 0}
 .vc .pt .pt-ficha:only-child h3{font-size:26px}
 @media(max-width:760px){.vc .pt .pt-ficha:only-child{grid-template-columns:1fr}.vc .pt .pt-ficha:only-child .pt-ficha-txt{padding:20px 10px 0}}
+
+/* ==== piel de la portada para los bloques de las páginas interiores (vc-prosa, vc-tarjetas, blog, formularios) ==== */
+.vc .pt .vc-prosa{background:var(--blanco);padding:96px 0}
+.vc .pt .vc-prosa.crema{background:var(--crema-2)}
+.vc .pt .vc-prosa:not(.crema)+.vc-prosa:not(.crema){padding-top:0}
+.vc .pt .vc-texto-rico{color:var(--cacao-cl);font-size:16px;line-height:1.8}
+.vc .pt .vc-texto-rico h2{font-size:clamp(26px,3vw,38px);font-weight:500;margin:1.1em 0 .5em}
+.vc .pt .vc-texto-rico h3{font-family:var(--disp);font-size:22px;font-weight:500}
+.vc .pt .vc-texto-rico :is(h4,h5,h6){font-family:var(--sans);font-weight:700;color:var(--cacao)}
+.vc .pt .vc-texto-rico a:not(.btn){color:var(--terra);font-weight:600;text-decoration-color:var(--terra-cl)}
+.vc .pt .vc-texto-rico :is(b,strong){color:var(--cacao);font-weight:700}
+.vc .pt .vc-texto-rico li::marker{color:var(--terra)}
+.vc .pt .btn{border-radius:100px;background:var(--marca);border:1.5px solid var(--marca);color:#3A2B10;padding:17px 34px;font-family:var(--sans);
+  font-size:13.5px;font-weight:700;letter-spacing:0;text-transform:none}
+.vc .pt .btn::before{display:none}
+.vc .pt .btn:hover{background:var(--cacao);border-color:var(--cacao);color:#fff}
+.vc .pt .btn.linea{background:transparent;color:var(--cacao);border-color:var(--linea)}
+.vc .pt .vc-texto-rico table{border-collapse:separate;border-spacing:0;background:#fff;border:1px solid var(--linea);border-radius:18px;overflow:hidden;font-size:14px}
+.vc .pt .vc-texto-rico :is(th,td){border:0;border-bottom:1px solid var(--linea);padding:13px 18px}
+.vc .pt .vc-texto-rico tr:last-child td{border-bottom:0}
+.vc .pt .vc-texto-rico th{background:var(--terra-cl);color:var(--cacao)}
+.vc .pt .vc-texto-rico details{background:#fff;border:1px solid var(--linea);border-radius:18px;padding:0 24px;margin:0 0 12px}
+.vc .pt .vc-texto-rico details[open]{border-color:var(--terra)}
+.vc .pt .vc-texto-rico summary{font-family:var(--disp);font-size:18px;font-weight:500;padding:20px 0}
+.vc .pt .vc-prosa-intro{margin-bottom:40px}
+.vc .pt .vc-prosa-intro :is(h2,h3){font-size:clamp(26px,3vw,40px);font-weight:500}
+/* formularios dentro de la prosa */
+.vc .pt .vc-formbox{background:#fff;border:1px solid var(--linea);border-radius:24px;padding:42px 40px}
+.vc .pt .crema .vc-formbox{background:#fff}
+.vc .pt .vc-form .mp-field :is(input,textarea,select){background:var(--crema);border:1.5px solid var(--linea);border-radius:12px;padding:14px 16px;font-family:var(--sans);font-size:15px;color:var(--cacao)}
+.vc .pt .vc-form .mp-field :is(input,textarea,select):focus{outline:none;border-color:var(--marca);background:#fff;box-shadow:0 0 0 4px rgba(247,184,77,.22)}
+.vc .pt .vc-form .mp-check{color:var(--cacao-cl)}
+.vc .pt .vc-form .btn{width:100%;justify-content:center}
+.vc .pt .vc-form .aviso{background:var(--terra-cl);border-left-color:var(--marca);border-radius:10px}
+/* tarjetas de tratamientos */
+.vc .pt .vc-tcard{background:#fff;border:1px solid var(--linea);border-radius:20px;overflow:hidden}
+.vc .pt .vc-tcard-img{margin:12px 12px 0;border-radius:120px 120px 16px 16px;aspect-ratio:1/1}
+.vc .pt .vc-tcard-t{font-family:var(--disp);font-size:20px;font-weight:500;color:var(--cacao)}
+.vc .pt a.vc-tcard .vc-tcard-t::after{color:var(--terra)}
+.vc .pt a.vc-tcard:hover{border-color:var(--terra);box-shadow:0 14px 36px rgba(74,52,40,.09);transform:translateY(-3px)}
+.vc .pt .vc-tcard-d{color:var(--cacao-cl)}
+/* listado del blog */
+.vc .pt .vc-bcard{background:#fff;border:1px solid var(--linea);border-radius:20px;padding:12px 12px 20px;transition:.3s}
+.vc .pt .vc-bcard:hover{border-color:var(--terra);box-shadow:0 14px 36px rgba(74,52,40,.09)}
+.vc .pt .vc-bcard>a:first-child{border-radius:14px}
+.vc .pt .vc-bcard h3{font-family:var(--disp);font-size:20px;font-weight:500;padding:0 8px}
+.vc .pt .vc-bcard h3 a{color:var(--cacao)!important}
+.vc .pt .vc-bcard p{padding:0 8px}
+/* cabecera interior sin foto (p. ej. el blog): centrada */
+.vc .pt .pt-pagehero--simple{padding:72px 0 76px;text-align:center}
+.vc .pt .pt-pagehero--simple .pt-pagehero-g{grid-template-columns:1fr;max-width:860px;margin:0 auto}
+.vc .pt .pt-pagehero--simple .pt-eyebrow{justify-content:center}
+.vc .pt .pt-pagehero--simple .pt-eyebrow::after{content:"";width:26px;height:2px;background:var(--terra);border-radius:2px}
+.vc .pt .pt-pagehero--simple .pt-pagehero-sub{margin-left:auto;margin-right:auto}
+.vc .pt .pt-pagehero--simple .pt-pagehero-cta{justify-content:center}
+.vc .pt .pt-pagehero-sub p{margin:0 0 12px}
+
+/* ajustes de las páginas interiores */
+.vc .pt .vc-prosa--form .vc-col:first-child :is(h2,h3,h4){font-family:var(--disp);font-weight:500}
+.vc .pt .vc-prosa--form .vc-col:first-child :is(h2,h3,h4) a{color:var(--cacao)}
+.vc .pt .vc-bcard h3{margin-bottom:8px}
+.vc .pt .pt-pagehero h1.pt-h1-largo{font-size:clamp(30px,3.4vw,46px);line-height:1.14}

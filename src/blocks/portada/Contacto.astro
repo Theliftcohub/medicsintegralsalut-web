@@ -9,7 +9,7 @@ const src = map ? `https://www.google.com/maps?q=${encodeURIComponent(map.q)}&ou
 ---
 <section id={id} class="pt-crema2">
   <div class="pt-wrap">
-    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{sub && <p class="rv d2">{sub}</p>}</div>
+    {heading && <div class="pt-head">{kicker && <div class="pt-eyebrow pt-c rv">{kicker}</div>}<h2 class="rv d1">{heading}</h2>{sub && <p class="rv d2">{sub}</p>}</div>}
     <div class="pt-form-zona rv" id="form">
       <div class="pt-form-caja">
         <h3 class="pt-tit">{titulo}</h3>
