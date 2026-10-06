@@ -178,12 +178,50 @@ def arreglar(L, h):
     return etiquetas(L, h2)
 
 
+# ---- 7) migas: «Inicio» y «Blog» de cada idioma (TranslatePress dejaba las del español: / y /blog/) ----
+_GB = next((j.get("i18nGroup") for j in (json.load(open(f, encoding="utf-8")) for f in glob.glob("src/content/pages/es/*.json")) if j["path"] == "/blog/"), None)
+BLOG = {j["lang"]: (j["title"], j["path"]) for j in (json.load(open(f, encoding="utf-8")) for f in glob.glob("src/content/pages/*/*.json")) if _GB and j.get("i18nGroup") == _GB}
+
+
+# migas intermedias (secciones) que apuntan a la versión española o catalana: a su traducción en el mismo grupo i18n
+_TODAS = [json.load(open(f, encoding="utf-8")) for f in glob.glob("src/content/pages/*/*.json")]
+GRUPO = {j["path"]: j.get("i18nGroup") for j in _TODAS if j.get("i18nGroup")}
+EN_IDIOMA = {(j["i18nGroup"], j["lang"]): (j["path"], re.sub(r"\s*[-–—|]\s*Medics ?Integral ?Salut\s*$", "", j.get("title") or "", flags=re.I)) for j in _TODAS if j.get("i18nGroup")}
+G_UNIDADES = GRUPO.get("/unidades/")
+_CHROME = json.load(open("scripts/chrome_traducciones.json", encoding="utf-8"))
+
+
+def migas_idioma(L, migas):
+    """inicio, blog y secciones de las migas apuntan a las páginas de su idioma (con su nombre)"""
+    if L == "es" or not migas:
+        return migas
+    out = []
+    for b in migas:
+        b = dict(b)
+        p = b.get("path") or ""
+        if p in ("/", f"/{L}/"):
+            b["path"], b["name"] = f"/{L}/", UI[L]["home"]
+        elif p in ("/blog/", "/blog-2/") and L in BLOG:
+            b["name"], b["path"] = BLOG[L]
+        elif not p.startswith(f"/{L}/") and (GRUPO.get(p), L) in EN_IDIOMA:
+            b["path"], nombre = EN_IDIOMA[(GRUPO[p], L)]
+            b["name"] = nombre or b.get("name")
+        if G_UNIDADES and GRUPO.get(b.get("path")) == G_UNIDADES and (_CHROME.get(L, {}).get("menu") or [None] * 3)[2]:
+            b["name"] = _CHROME[L]["menu"][2]          # «Направления», «Specialities»… (como en el menú)
+        out.append(b)
+    return out
+
+
 for f in glob.glob("src/content/pages/*/*.json"):
     j = json.load(open(f, encoding="utf-8"))
     L = j["lang"]
     antes = json.dumps(j, ensure_ascii=False)
     if j.get("breadcrumbs") and j["breadcrumbs"][0]["name"] != UI[L]["home"] and j["breadcrumbs"][0]["path"] in ("/", f"/{L}/"):
         j["breadcrumbs"][0]["name"] = UI[L]["home"]; C["migas"] += 1
+    if j.get("breadcrumbs"):
+        nm = migas_idioma(L, j["breadcrumbs"])
+        if nm != j["breadcrumbs"]:
+            j["breadcrumbs"] = nm; C["migas"] += 1
     if L != "es":
         for b in j["blocks"]:
             for c in b.get("cols", []):
@@ -213,6 +251,15 @@ for f in glob.glob("src/content/posts/*/*.md"):
         if m:
             v = json.loads(m.group(1)); nv = traducir_valor(L, v)
             if nv != v: fm = fm.replace(m.group(0), f"{k}: " + json.dumps(nv, ensure_ascii=False))
+    # migas de la entrada: inicio y blog de su idioma; la última, su título y su URL (no la del español)
+    mb, mp, mt = (re.search(rf"^{k}: (.*)$", fm, re.M) for k in ("breadcrumbs", "path", "title"))
+    if mb and mp and mt:
+        migas = migas_idioma(L, json.loads(mb.group(1)))
+        if migas:
+            migas[-1] = {**migas[-1], "name": json.loads(mt.group(1)), "path": json.loads(mp.group(1))}
+        linea = "breadcrumbs: " + json.dumps(migas, ensure_ascii=False)
+        if linea != mb.group(0):
+            fm = fm.replace(mb.group(0), linea); C["migas"] += 1
     nuevo = "---" + fm + "---" + body
     if nuevo != raw:
         open(f, "w", encoding="utf-8").write(nuevo)
