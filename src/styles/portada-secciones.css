@@ -1,0 +1,120 @@
+/* Portada: secciones nuevas de la maqueta de dirección (06/10/2026): vídeos, «la doctora responde», tratamientos más
+   pedidos, historias reales, resultados en consulta, aviso celulitis/lipedema y banda final.
+   Rendimiento: titulares con fuentes del sistema (0 KB de descarga), sin librerías; el reproductor de YouTube solo se
+   carga al pulsar un vídeo. Animación de entrada: la de toda la web (.rv). */
+.vc .pt{--grot:"Inter Tight","Segoe UI Variable Display","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --tinta:#1B1F1D;--naranja:#E5821F;--naranja-banda:#F0922F;--borde:#E7E0D6;--menta:#E6EEE8;--gris-t:#6B655E}
+.vc .pt .ps{padding:64px 0;background:var(--crema)}
+/* rendimiento: las secciones fuera de la primera pantalla no se maquetan hasta que se acercan (la portada es larga y
+   el CSS de la web es grande: era 1,5 s de «estilo y maquetación» en móvil) */
+.vc .pt>section:nth-child(n+3){content-visibility:auto;contain-intrinsic-size:auto 900px}
+.vc .pt .ps-h{font-family:var(--grot);font-weight:800;letter-spacing:-.035em;line-height:1.02;color:var(--tinta);font-size:clamp(30px,4.2vw,46px);margin:0;
+  hyphens:manual;overflow-wrap:break-word;text-wrap:balance}
+.vc .pt .ps-h em{font-style:normal;color:var(--naranja)}
+.vc .pt .ps-h-xl{font-size:clamp(34px,5vw,56px)}
+.vc .pt .ps-sub{margin:10px 0 0;font-size:14.5px;color:var(--gris-t)}
+.vc .pt .ps-k{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--naranja);margin-bottom:12px}
+.vc .pt .ps-btn{display:inline-flex;align-items:center;gap:8px;background:var(--tinta);color:#fff;border-radius:10px;padding:13px 20px;
+  font-family:var(--sans);font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap;transition:transform .2s,background .2s}
+.vc .pt .ps-btn:hover{background:#000;transform:translateY(-2px)}
+.vc .pt .ps-btn:focus-visible,.vc .pt .ps-reel:focus-visible,.vc .pt .ps-card:focus-visible{outline:3px solid var(--naranja);outline-offset:3px}
+
+/* 5 · vídeos: fila deslizable (scroll-snap); el vídeo se abre en un <dialog> */
+.vc .pt .ps-cab{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:26px}
+.vc .pt .ps-reel-fila{list-style:none;margin:0;padding:0 0 6px;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(170px,1fr);gap:12px;
+  overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;overscroll-behavior-x:contain}
+.vc .pt .ps-reel-fila li{scroll-snap-align:start;min-width:0}
+.vc .pt .ps-reel{position:relative;display:block;width:100%;aspect-ratio:9/16;max-height:420px;border:0;padding:0;border-radius:14px;overflow:hidden;cursor:pointer;background:#2a2622;color:#fff;text-align:left}
+.vc .pt .ps-reel img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.vc .pt .ps-reel::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.18) 0,transparent 30%,transparent 55%,rgba(0,0,0,.78) 100%)}
+.vc .pt .ps-reel:hover img{transform:scale(1.05)}
+.vc .pt .ps-chip{position:absolute;z-index:1;top:10px;left:10px;background:#fff;color:var(--tinta);font-size:11px;font-weight:700;border-radius:100px;padding:4px 9px}
+.vc .pt .ps-cap{position:absolute;z-index:1;left:12px;right:12px;bottom:12px;font-size:13px;font-weight:700;line-height:1.3}
+.vc .pt .ps-play{position:absolute;z-index:1;top:50%;left:50%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:rgba(255,255,255,.92);
+  transform:scale(.85);opacity:.9;transition:transform .25s,opacity .25s}
+.vc .pt .ps-play::before{content:"";position:absolute;left:22px;top:17px;border-left:15px solid var(--tinta);border-top:10px solid transparent;border-bottom:10px solid transparent}
+.vc .pt .ps-reel:hover .ps-play,.vc .pt .ps-reel:focus-visible .ps-play{transform:scale(1);opacity:1}
+.vc .ps-dlg{padding:0;border:0;background:transparent;width:min(92vw,420px);max-height:92vh;overflow:visible}
+.vc .ps-dlg::backdrop{background:rgba(15,13,11,.82)}
+.vc .ps-dlg .ps-marco{aspect-ratio:9/16;max-height:86vh;border-radius:14px;overflow:hidden;background:#000}
+.vc .ps-dlg iframe{width:100%;height:100%;border:0;display:block}
+.vc .ps-dlg .ps-x{position:absolute;top:-46px;right:0;width:38px;height:38px;border-radius:50%;border:0;background:#fff;color:#1B1F1D;font-size:24px;line-height:1;cursor:pointer}
+
+/* 6 · la doctora responde */
+.vc .pt .ps-doc .pt-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center}
+.vc .pt .ps-doc figure{margin:0;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:var(--crema-2)}
+.vc .pt .ps-doc figure img{width:100%;height:100%;object-fit:cover}
+.vc .pt .ps-qa{margin-top:26px;border-top:1px solid var(--borde)}
+.vc .pt .ps-qa details{border-bottom:1px solid var(--borde)}
+.vc .pt .ps-qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;padding:17px 0;font-family:var(--sans);font-weight:700;font-size:15.5px;color:var(--tinta)}
+.vc .pt .ps-qa summary::-webkit-details-marker{display:none}
+.vc .pt .ps-qa summary::after{content:"+";color:var(--naranja);font-size:20px;line-height:1;transition:transform .25s}
+.vc .pt .ps-qa details[open] summary::after{transform:rotate(45deg)}
+.vc .pt .ps-qa p{margin:0 0 17px;font-size:14.5px;line-height:1.6;color:var(--gris-t)}
+@supports (interpolate-size:allow-keywords){
+  .vc .pt .ps-qa{interpolate-size:allow-keywords}
+  .vc .pt .ps-qa details::details-content{height:0;overflow:clip;transition:height .3s ease,content-visibility .3s allow-discrete}
+  .vc .pt .ps-qa details[open]::details-content{height:auto}
+}
+
+/* 7 · tratamientos más pedidos */
+.vc .pt .ps-ped .ps-h{margin-bottom:12px}
+.vc .pt .ps-intro{max-width:760px;margin:0 0 26px;font-size:14.5px;line-height:1.65;color:var(--gris-t)}
+.vc .pt .ps-intro p{margin:0 0 8px}
+.vc .pt .ps-ped-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.vc .pt .ps-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--borde);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;
+  transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s}
+.vc .pt .ps-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(40,30,20,.35)}
+.vc .pt .ps-card-img{aspect-ratio:16/10;overflow:hidden;background:var(--crema-2)}
+.vc .pt .ps-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.vc .pt .ps-card:hover .ps-card-img img{transform:scale(1.05)}
+.vc .pt .ps-card-b{padding:18px 20px 20px;display:flex;flex-direction:column;gap:6px}
+.vc .pt .ps-card-b b{font-family:var(--grot);font-size:17.5px;font-weight:700;letter-spacing:-.01em;line-height:1.25;color:var(--tinta)}
+.vc .pt .ps-card-b small{font-size:12.5px;color:var(--gris-t)}
+
+/* 8 · historias reales */
+.vc .pt .ps-his .ps-h{margin-bottom:26px}
+.vc .pt .ps-his-g{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.vc .pt .ps-hcard{background:var(--tinta);color:#fff;border-radius:14px;padding:26px 24px 22px;display:flex;flex-direction:column;gap:14px}
+.vc .pt .ps-hk{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--naranja)}
+.vc .pt .ps-hcard blockquote{margin:0;font-family:var(--grot);font-size:18px;font-weight:700;line-height:1.3;letter-spacing:-.01em;flex:1}
+.vc .pt .ps-hf{font-size:12px;color:#B8B2AA}
+.vc .pt .ps-stars{color:var(--naranja);letter-spacing:2px;margin-right:6px}
+
+/* 9 · resultados en consulta */
+.vc .pt .ps-res-c{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px;align-items:center;background:#fff;border:1px solid var(--borde);border-radius:20px;padding:30px}
+.vc .pt .ps-res-t{padding:18px 8px 18px 14px}
+.vc .pt .ps-res-t p{margin:16px 0 0;max-width:460px;font-size:14.5px;line-height:1.65;color:var(--gris-t)}
+.vc .pt .ps-res-c figure{margin:0;border-radius:16px;overflow:hidden;aspect-ratio:4/3;background:var(--crema-2)}
+.vc .pt .ps-res-c figure img{width:100%;height:100%;object-fit:cover}
+
+/* 10 · aviso celulitis / lipedema */
+.vc .pt .ps-avi{padding-top:0}
+.vc .pt .ps-avi-c{display:flex;justify-content:space-between;align-items:center;gap:28px;background:var(--menta);border:1px solid #D5E1D8;border-radius:16px;padding:30px}
+.vc .pt .ps-avi-c h3{margin:0 0 8px;font-family:var(--grot);font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--tinta)}
+.vc .pt .ps-avi-c p{margin:0;max-width:560px;font-size:14px;line-height:1.6;color:#4E5A53}
+
+/* 11 · banda final */
+.vc .pt .ps-banda{background:var(--naranja-banda);padding:72px 0}
+.vc .pt .ps-banda .pt-wrap{display:flex;justify-content:space-between;align-items:center;gap:32px}
+.vc .pt .ps-banda p{margin:14px 0 0;font-size:14px;color:#3B2A12}
+.vc .pt .ps-banda p a{color:inherit}
+
+@media(max-width:980px){
+  .vc .pt .ps-doc .pt-wrap,.vc .pt .ps-res-c{grid-template-columns:minmax(0,1fr)}
+  .vc .pt .ps-doc figure{aspect-ratio:16/11}
+  .vc .pt .ps-ped-g{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .vc .pt .ps-his-g{grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:minmax(260px,82%);overflow-x:auto;scroll-snap-type:x mandatory}
+  .vc .pt .ps-his-g li{scroll-snap-align:start}
+}
+@media(max-width:640px){
+  .vc .pt .ps{padding:48px 0}
+  .vc .pt .ps-cab,.vc .pt .ps-avi-c,.vc .pt .ps-banda .pt-wrap{flex-direction:column;align-items:flex-start}
+  .vc .pt .ps-reel-fila{grid-auto-columns:minmax(150px,46%)}
+  .vc .pt .ps-ped-g{grid-template-columns:minmax(0,1fr)}
+  .vc .pt .ps-res-c{padding:16px}
+  .vc .pt .ps-res-t{padding:10px 6px 0}
+}
+@media(prefers-reduced-motion:reduce){
+  .vc .pt .ps-reel img,.vc .pt .ps-card,.vc .pt .ps-card-img img,.vc .pt .ps-btn{transition:none}
+}

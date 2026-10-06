@@ -1,0 +1,208 @@
+[
+ {
+  "type": "pt-trat",
+  "kicker": "Treatments",
+  "heading": "Cosmetic surgery Girona",
+  "sub": "The most requested interventions",
+  "text": [
+   "We are experts in various interventions <strong>Plastic surgery in Girona</strong>. We have advanced treatments for <strong>Aesthetic medicine Girona</strong> such as facial rejuvenation, botulinum toxin, fillers or mesotherapy, and plastic surgery procedures like breast augmentation, liposuction, abdominoplasty or rhinoplasty, always with a natural and personalised approach."
+  ],
+  "cards": [
+   {
+    "title": "Breast augmentation",
+    "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+     "w": 900,
+     "h": 600,
+     "alt": "Breast augmentation"
+    },
+    "bullets": [
+     "Implants and AMI technique",
+     "Breast lift: mastopexy",
+     "Implant replacement"
+    ]
+   },
+   {
+    "title": "Liposuction",
+    "href": "/en/units/cosmetic-surgery-3/liposuction-2/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2021/10/LIPOWEB.webp",
+     "w": 600,
+     "h": 598,
+     "alt": "Liposuction"
+    },
+    "bullets": [
+     "Vaser technique",
+     "Body contouring",
+     "Lipofilling"
+    ]
+   },
+   {
+    "title": "Gynaecomastia",
+    "href": "/en/units/male-cosmetic-surgery/gynaecomastia/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2019/10/Ginecomastia.webp",
+     "w": 570,
+     "h": 570,
+     "alt": "Gynaecomastia"
+    },
+    "bullets": [
+     "Male chest",
+     "Pectoral augmentation",
+     "Natural result"
+    ]
+   },
+   {
+    "title": "Rhinoplasty",
+    "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2025/10/rinoplastia.webp",
+     "w": 800,
+     "h": 666,
+     "alt": "Rhinoplasty"
+    },
+    "bullets": [
+     "Aesthetic and functional",
+     "Non-surgical rhinomodelling",
+     "Nasal septum"
+    ]
+   },
+   {
+    "title": "Obesity",
+    "href": "/en/units/overweight-and-obesity-2/gastric-balloon-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Obesity"
+    },
+    "bullets": [
+     "Gastric balloon",
+     "MEGA endosleeve",
+     "Bariatric surgery"
+    ]
+   },
+   {
+    "title": "Eyelid surgery",
+    "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery-girona/",
+    "cta": "Resolve doubts about this treatment",
+    "image": {
+     "src": "/images/wp/2026/07/Blefaroplastia.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Eyelid surgery"
+    },
+    "bullets": [
+     "Eyelids and bags",
+     "Local anaesthetic",
+     "Discreet scar"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "pt-pasos",
+  "kicker": "How we work",
+  "heading": "From your first message to discharge",
+  "sub": "Four steps, no surprises along the way.",
+  "items": [
+   {
+    "t": "You write, we reply",
+    "d": "By phone, WhatsApp or form. Reply the same working day."
+   },
+   {
+    "t": "Free medical consultation",
+    "d": "With the specialist, at no cost and with no commitment. We study your case and explain the real options, with or without surgery."
+   },
+   {
+    "t": "Fixed quote",
+    "d": "In writing after the consultation, with no hidden costs. With <a href=\"/en/financing/\">financing</a> if you need it."
+   },
+   {
+    "t": "Follow-up and check-ups",
+    "d": "Support throughout your recovery, with the same medical team that assessed you."
+   }
+  ]
+ },
+ {
+  "type": "pt-resenas",
+  "kicker": "Reviews",
+  "heading": "Our patients say",
+  "sub": "Choose to be in the best hands",
+  "reviews": [
+   {
+    "name": "Camila Constanza Vélez Silva",
+    "text": "Excellent clinic! From the very first day, with the best willingness to give me the best care and the most suitable treatments for my needs. All the professionals are first-rate. The machines they use are state of the art, and you see results from the first sessions. The TShape machine really stands out! Super complete and effective! I am very happy and grateful! Only a little left to reach my goal! I highly recommend it!"
+   },
+   {
+    "name": "Silviaarely Zunigaalvarado",
+    "text": "Hello, very happy with the operation I had and the care"
+   },
+   {
+    "name": "Beth Serra",
+    "text": "Excellent care from the whole team, especially Laia, who answered all my questions."
+   },
+   {
+    "name": "NATALIA MARTINEZ",
+    "text": "I did a slimming treatment combining cabin treatment and endocrinology and I have reached my goals without suffering. Excellent service!"
+   },
+   {
+    "name": "alejandra martin",
+    "text": "I am very happy with the treatment, which is excellent, and above all you can see the results of my treatment; it is a very good clinic and they are very professional"
+   },
+   {
+    "name": "Alisson Mijas",
+    "text": "I'm delighted with the clinic. Exceptional care; at all times I felt welcomed, trusted and treated with total honesty in everything. I had my rhinoplasty with them and couldn't have chosen better — they were great professionals, both Dr Langdon and the Médic team, especially Laia, who accompanied me throughout the whole process, and that's why I decided on this clinic. I couldn't have chosen better; without a doubt, for any other procedure I won't hesitate to put myself in their hands"
+   }
+  ],
+  "source": "Google review",
+  "summary": [
+   {
+    "rating": true,
+    "lbl": "Average rating"
+   },
+   {
+    "big": "{count}",
+    "lbl": "Verified reviews"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Caring for patients in Girona"
+   }
+  ],
+  "more": {
+   "text": "See all {count} reviews on Google",
+   "href": "https://maps.google.com/maps?cid=4878100397339283721",
+   "style": "linea"
+  }
+ },
+ {
+  "type": "pt-faq",
+  "kicker": "Frequently asked questions",
+  "heading": "Frequently asked questions about cosmetic surgery in Girona",
+  "items": [
+   {
+    "q": "What is the difference between cosmetic surgery and aesthetic medicine?",
+    "a": "<b>Cosmetic surgery</b> is a surgical procedure performed in an operating theatre by a registered plastic surgeon (breast augmentation, liposuction, rhinoplasty, abdominoplasty or blepharoplasty), with long-lasting results and a recovery period. <b>Aesthetic medicine</b> covers non-surgical treatments, such as botulinum toxin, fillers, thread lifts or peels, which are done in the consulting room and let you get back to your routine the same day. At Medics Integral Salut we offer both with the same medical team."
+   },
+   {
+    "q": "How do I choose a good aesthetic clinic in Girona?",
+    "a": "Check three things before deciding: that the surgeons are registered and accredited by societies such as SECPRE, that the clinic has a track record and verifiable reviews, and that the first visit is a real medical assessment, not a sales pitch. Medics Integral Salut is an <b>aesthetic clinic in Girona</b> with its own plastic surgery and aesthetic medicine team, modern facilities and a {rating}★ rating from {count} Google reviews since {since}."
+   },
+   {
+    "q": "How much does cosmetic surgery cost and can it be financed?",
+    "a": "The price of <b>cosmetic surgery</b> depends on the technique, theatre time, type of anaesthetic and aftercare, so there is no single fee: the quote is fixed in writing after the medical consultation, with no surprises or hidden costs. We offer <a href=\"/en/financing/\">financing</a> to spread the cost in instalments, and the first consultation is always free and with no commitment."
+   },
+   {
+    "q": "What does the first consultation include and how do I book?",
+    "a": "The first consultation is free and includes a review of your case with the specialist doctor, an explanation of the <b>cosmetic surgery</b> or <b>aesthetic medicine</b> options that suit you, answers to your questions about recovery and a fixed quote. You can book by phone on <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, on <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> or using the <a href=\"/en/contact/#form\">contact form</a>. We are at Plaça Poeta Marquina, 3 (Girona), 5 minutes from the high-speed train station."
+   }
+  ]
+ }
+]

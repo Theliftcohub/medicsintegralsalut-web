@@ -1,0 +1,16 @@
+---
+// «Los resultados, en consulta»: texto + foto en una tarjeta blanca.
+const { kicker, heading, text, image } = Astro.props;
+---
+<section class="ps ps-res">
+  <div class="pt-wrap">
+    <div class="ps-res-c rv">
+      <div class="ps-res-t">
+        {kicker && <div class="ps-k">{kicker}</div>}
+        <h2 class="ps-h ps-h-xl">{heading}</h2>
+        <p>{text}</p>
+      </div>
+      <figure><img src={image.src} width={image.w} height={image.h} alt={image.alt} loading="lazy" decoding="async" sizes="(max-width:980px) 100vw, 45vw" /></figure>
+    </div>
+  </div>
+</section>

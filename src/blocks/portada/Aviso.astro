@@ -1,0 +1,12 @@
+---
+// Aviso destacado (celulitis / lipedema) con un botón.
+const { heading, text, cta } = Astro.props;
+---
+<section class="ps ps-avi">
+  <div class="pt-wrap">
+    <div class="ps-avi-c rv">
+      <div><h3>{heading}</h3><p>{text}</p></div>
+      {cta && <a class="ps-btn" href={cta.href}>{cta.text}</a>}
+    </div>
+  </div>
+</section>

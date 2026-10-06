@@ -1,0 +1,47 @@
+---
+// Vídeos de testimonios (canal de YouTube de la clínica). Miniatura local 9:16; el reproductor (youtube-nocookie) no se
+// carga hasta que se pulsa: cero peso de terceros al abrir la página. Acepta también MP4 propios (campo `mp4`).
+import { ext } from '../../lib/vc';
+const { heading, sub, perfil, items = [], ver = 'Ver vídeo', cerrar = 'Cerrar' } = Astro.props;
+const yt = (u: string = '') => (u.match(/(?:v=|youtu\.be\/|shorts\/|embed\/)([\w-]{11})/) || [])[1] ?? '';
+const plano = (s: string = '') => s.replace(/<[^>]+>/g, '');
+---
+<section class="ps ps-reels" data-reels>
+  <div class="pt-wrap">
+    <div class="ps-cab rv">
+      <div><h2 class="ps-h" set:html={heading} />{sub && <p class="ps-sub">{sub}</p>}</div>
+      {perfil && <a class="ps-btn" href={perfil.href} {...ext(perfil.href)}>{perfil.text}</a>}
+    </div>
+    <ul class="ps-reel-fila rv d1">
+      {items.map((v: any) => (
+        <li>
+          <button type="button" class="ps-reel" data-yt={yt(v.video)} data-mp4={v.mp4} aria-label={`${ver}: ${v.title}`}>
+            <img src={v.image.src} width={v.image.w} height={v.image.h} alt="" loading="lazy" decoding="async" />
+            {v.label && <span class="ps-chip">{v.label}</span>}
+            <span class="ps-play" aria-hidden="true"></span>
+            <span class="ps-cap">{v.title}</span>
+          </button>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <dialog class="ps-dlg" aria-label={plano(heading)}>
+    <button type="button" class="ps-x" aria-label={cerrar}>×</button>
+    <div class="ps-marco"></div>
+  </dialog>
+</section>
+<script is:inline>
+(function(){document.querySelectorAll('[data-reels]').forEach(function(s){
+  var d=s.querySelector('dialog'),m=d.querySelector('.ps-marco');
+  function cierra(){m.textContent='';if(d.open)d.close();}
+  s.addEventListener('click',function(e){var b=e.target.closest('.ps-reel');if(!b)return;var el;
+    if(b.dataset.mp4){el=document.createElement('video');el.src=b.dataset.mp4;el.controls=el.autoplay=el.playsInline=true;}
+    else{el=document.createElement('iframe');el.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+      el.title=b.getAttribute('aria-label');el.allow='autoplay; encrypted-media; picture-in-picture';el.allowFullscreen=true;}
+    m.textContent='';m.appendChild(el);d.showModal();
+    if(window.dataLayer)window.dataLayer.push({event:'video_play',video_title:b.getAttribute('aria-label')});});
+  d.querySelector('.ps-x').addEventListener('click',cierra);
+  d.addEventListener('click',function(e){if(e.target===d)cierra();});
+  d.addEventListener('close',function(){m.textContent='';});
+});})();
+</script>

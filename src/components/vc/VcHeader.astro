@@ -95,7 +95,7 @@ const chevron = '<svg class="chev" viewBox="0 0 10 6" width="9" height="6" aria-
 (function(){
   var hdr=document.getElementById('hdr');
   var onScroll=function(){ if(window.scrollY>120){hdr.classList.add('stuck');}else{hdr.classList.remove('stuck');} };
-  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  window.addEventListener('scroll',onScroll,{passive:true});requestAnimationFrame(onScroll); // sin leer scrollY durante el parseo (forzaba un reflujo)
   var burger=document.getElementById('burger'),velo=document.getElementById('velo'),panel=document.getElementById('panel');
   var cerrar=function(){document.body.classList.remove('menu-open');burger.setAttribute('aria-expanded','false');};
   burger.addEventListener('click',function(){var a=document.body.classList.toggle('menu-open');burger.setAttribute('aria-expanded',a?'true':'false');});

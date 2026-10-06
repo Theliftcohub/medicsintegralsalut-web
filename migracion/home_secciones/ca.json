@@ -1,0 +1,208 @@
+[
+ {
+  "type": "pt-trat",
+  "kicker": "Tractaments",
+  "heading": "Cirurgia estètica Girona",
+  "sub": "Les intervencions més sol·licitades",
+  "text": [
+   "Som experts en diferents intervencions de <strong>Cirurgia plàstica a Girona</strong>. Disposem de tractaments avançats de <strong>medicina estètica Girona</strong> com rejoveniment facial, toxina botulínica, farciments o mesoteràpia i de procediments de cirurgia plàstica com augment de pits, liposucció, abdominoplàstia o rinoplàstia, sempre amb un enfocament natural i personalitzat."
+  ],
+  "cards": [
+   {
+    "title": "Augmentació de pit",
+    "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+     "w": 900,
+     "h": 600,
+     "alt": "Augmentació de pit"
+    },
+    "bullets": [
+     "Pròtesis i tècnica AMI",
+     "Elevació: pexia",
+     "Recanvi de pròtesis"
+    ]
+   },
+   {
+    "title": "Liposucció",
+    "href": "/ca/unitats/cirurgia-estetica-corporal/liposuccio/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2021/10/LIPOWEB.webp",
+     "w": 600,
+     "h": 598,
+     "alt": "Liposucció"
+    },
+    "bullets": [
+     "Tècnica Vàser",
+     "Contorn corporal",
+     "Lipofilling"
+    ]
+   },
+   {
+    "title": "Ginecomàstia",
+    "href": "/ca/unitats/cirurgia-estetica-masculina/ginecomastia/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2019/10/Ginecomastia.webp",
+     "w": 570,
+     "h": 570,
+     "alt": "Ginecomàstia"
+    },
+    "bullets": [
+     "Pit masculí",
+     "Augment de pectoral",
+     "Resultat natural"
+    ]
+   },
+   {
+    "title": "Rinoplàstia",
+    "href": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2025/10/rinoplastia.webp",
+     "w": 800,
+     "h": 666,
+     "alt": "Rinoplàstia"
+    },
+    "bullets": [
+     "Estètica i funcional",
+     "Rinomodelació sense cirurgia",
+     "Envà nasal"
+    ]
+   },
+   {
+    "title": "Obesitat",
+    "href": "/ca/unitats/sobrepes-i-obesitat/bandol-gastric-girona/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Obesitat"
+    },
+    "bullets": [
+     "Baló gàstric",
+     "Endomànega MEGA",
+     "Cirurgia bariàtrica"
+    ]
+   },
+   {
+    "title": "Blefaroplàstia",
+    "href": "/ca/unitats/cirurgia-estetica-facial/blefaroplastia-girona/",
+    "cta": "Resoldre dubtes sobre aquest tractament",
+    "image": {
+     "src": "/images/wp/2026/07/Blefaroplastia.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Blefaroplàstia"
+    },
+    "bullets": [
+     "Parpelles i bosses",
+     "Anestèsia local",
+     "Cicatriu discreta"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "pt-pasos",
+  "kicker": "Com treballem",
+  "heading": "Del primer missatge a l'alta",
+  "sub": "Quatre passos, cap sorpresa pel camí.",
+  "items": [
+   {
+    "t": "Ens escrius i et responem",
+    "d": "Per telèfon, WhatsApp o formulari. Resposta el mateix dia laborable."
+   },
+   {
+    "t": "Valoració mèdica gratuïta",
+    "d": "Amb l'especialista, sense cost i sense compromís. S'estudia el teu cas i t'expliquem les opcions reals, amb cirurgia o sense."
+   },
+   {
+    "t": "Pressupost tancat",
+    "d": "Per escrit després de la valoració, sense costos ocults. Amb <a href=\"/ca/financament/\">finançament</a> si el necessites."
+   },
+   {
+    "t": "Seguiment i revisions",
+    "d": "Acompanyament durant tot el postoperatori, amb el mateix equip mèdic que et va valorar."
+   }
+  ]
+ },
+ {
+  "type": "pt-resenas",
+  "kicker": "Opinions",
+  "heading": "Els nostres pacients opinen",
+  "sub": "Tria estar en les millors mans",
+  "reviews": [
+   {
+    "name": "Camila Constanza Vélez Silva",
+    "text": "Excel·lent clínica! Des del primer dia amb la millor predisposició per oferir-me la millor atenció i els tractaments més convenients segons les meves necessitats. Tots els professionals de primer nivell. Les màquines que utilitzen són d'última generació, des de les primeres sessions es veuen els resultats. La màquina TShape és per destacar! Súper completa i efectiva! Estic molt contenta i agraïda! Falta poquet per arribar al meu objectiu! Súper recomano!"
+   },
+   {
+    "name": "Silviaarely Zunigaalvarado",
+    "text": "Hola, molt contenta amb l'operació que vaig fer i l'atenció"
+   },
+   {
+    "name": "Beth Serra",
+    "text": "Atenció excelent per part de tot l'equip, especialment la Laia que ha respós tots els meus dubtes."
+   },
+   {
+    "name": "NATALIA MARTINEZ",
+    "text": "He fet tractament per aprimar combinant tractament de cabina i endocrí i he assolit els objectius sense passar-ho malament. El tracte excel·lent!"
+   },
+   {
+    "name": "alejandra martin",
+    "text": "Estic molt contenta amb el tracte, que és excel·lent, i sobretot en el meu tractament es poden veure els resultats, és molt bo, clínica i són molt professionals"
+   },
+   {
+    "name": "Alisson Mijas",
+    "text": "Estic encantada amb la clínica. Un tracte excepcional, en tot moment m'he sentit acollida, en confiança i amb total sinceritat en tot. M'he fet la rinoplàstia amb ells i no podria haver triat millor, han estat uns grans professionals, tant el Dr. Langdon com l'equip de Médic, sobretot la Laia, que m'ha acompanyat en tot el procés i gràcies a això vaig decidir decantar-me per la clínica. No podria haver triat millor, sens dubte en qualsevol altre procediment no dubtaré a posar-me a les seves mans"
+   }
+  ],
+  "source": "Ressenya a Google",
+  "summary": [
+   {
+    "rating": true,
+    "lbl": "Valoració mitjana"
+   },
+   {
+    "big": "{count}",
+    "lbl": "Ressenyes verificades"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Atenent a Girona"
+   }
+  ],
+  "more": {
+   "text": "Veure les {count} ressenyes a Google",
+   "href": "https://maps.google.com/maps?cid=4878100397339283721",
+   "style": "linea"
+  }
+ },
+ {
+  "type": "pt-faq",
+  "kicker": "Preguntes freqüents",
+  "heading": "Preguntes freqüents sobre cirurgia estètica a Girona",
+  "items": [
+   {
+    "q": "Quina diferència hi ha entre cirurgia estètica i medicina estètica?",
+    "a": "La <b>cirurgia estètica</b> és un procediment quirúrgic fet a quiròfan per un cirurgià plàstic col·legiat (augment de pit, liposucció, rinoplàstia, abdominoplàstia o blefaroplàstia), amb resultats duradors i un període de recuperació. La <b>medicina estètica</b> agrupa tractaments no quirúrgics, com la toxina botulínica, els farciments, els fils tensors o el peeling, que es fan a la consulta i permeten tornar a la rutina el mateix dia. A Medics Integral Salut treballem totes dues disciplines amb el mateix equip mèdic."
+   },
+   {
+    "q": "Com triar una bona clínica estètica a Girona?",
+    "a": "Comprova tres coses abans de decidir: que els cirurgians estiguin col·legiats i acreditats per societats com la SECPRE, que el centre tingui trajectòria i opinions verificables, i que la primera visita sigui una valoració mèdica real, no una venda. Medics Integral Salut és una <b>clínica estètica a Girona</b> amb equip propi de cirurgia plàstica i medicina estètica, instal·lacions modernes i una valoració de {rating}★ sobre {count} ressenyes a Google des de {since}."
+   },
+   {
+    "q": "Quant costa una cirurgia estètica i es pot finançar?",
+    "a": "El preu d'una <b>cirurgia estètica</b> depèn de la tècnica, del temps de quiròfan, del tipus d'anestèsia i del seguiment posterior, per això no hi ha una tarifa única: el pressupost es tanca per escrit després de la valoració mèdica, sense sorpreses ni costos ocults. Disposem de <a href=\"/ca/financament/\">finançament</a> per repartir l'import en quotes i la primera valoració és sempre gratuïta i sense compromís."
+   },
+   {
+    "q": "Què inclou la primera valoració i com demano cita?",
+    "a": "La primera valoració és gratuïta i inclou l'estudi del cas amb el metge especialista, l'explicació de les opcions de <b>cirurgia estètica</b> o <b>medicina estètica</b> indicades per a tu, la resolució de dubtes sobre el postoperatori i un pressupost tancat. Pots demanar cita per telèfon al <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, per <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> o des del <a href=\"/ca/contacte/#form\">formulari de contacte</a>. Atenem a la Plaça Poeta Marquina, 3 (Girona), a 5 minuts de l'estació de l'AVE."
+   }
+  ]
+ }
+]

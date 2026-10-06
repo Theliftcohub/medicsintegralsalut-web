@@ -1,0 +1,16 @@
+---
+// «La doctora responde»: foto + las 5 preguntas previas a decidir (acordeón nativo <details>, sin JS). Sin schema FAQPage.
+const { kicker, heading, image, items = [] } = Astro.props;
+---
+<section class="ps ps-doc">
+  <div class="pt-wrap">
+    <figure class="rv"><img src={image.src} width={image.w} height={image.h} alt={image.alt} loading="lazy" decoding="async" sizes="(max-width:980px) 100vw, 50vw" /></figure>
+    <div>
+      {kicker && <div class="ps-k rv">{kicker}</div>}
+      <h2 class="ps-h rv d1">{heading}</h2>
+      <div class="ps-qa rv d2">
+        {items.map((x: any, i: number) => <details open={i === 0}><summary>{x.q}</summary><p set:html={x.a} /></details>)}
+      </div>
+    </div>
+  </div>
+</section>

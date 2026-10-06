@@ -1,0 +1,208 @@
+[
+ {
+  "type": "pt-trat",
+  "kicker": "Traitements",
+  "heading": "Chirurgie esthétique Gérone",
+  "sub": "Les interventions les plus demandées",
+  "text": [
+   "Nous sommes experts en différentes interventions de <strong>Chirurgie plastique à Gérone</strong>. Nous disposons de traitements avancés de <strong>médecine esthétique Gérone</strong> comme le rajeunissement facial, la toxine botulique, les produits de comblement ou la mésothérapie, et des procédures de chirurgie plastique comme l'augmentation mammaire, la liposuccion, l'abdominoplastie ou la rhinoplastie, toujours dans une approche naturelle et personnalisée."
+  ],
+  "cards": [
+   {
+    "title": "Augmentation mammaire",
+    "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2025/11/aumento-de-pecho-en-girona.webp",
+     "w": 900,
+     "h": 600,
+     "alt": "Augmentation mammaire"
+    },
+    "bullets": [
+     "Prothèses et technique AMI",
+     "Lifting : mastopexie",
+     "Changement de prothèses"
+    ]
+   },
+   {
+    "title": "Liposuccion",
+    "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2021/10/LIPOWEB.webp",
+     "w": 600,
+     "h": 598,
+     "alt": "Liposuccion"
+    },
+    "bullets": [
+     "Technique Vaser",
+     "Remodelage du corps",
+     "Lipofilling"
+    ]
+   },
+   {
+    "title": "Gynécomastie",
+    "href": "/fr/unites/chirurgie-esthetique-masculine/gynecomastie/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2019/10/Ginecomastia.webp",
+     "w": 570,
+     "h": 570,
+     "alt": "Gynécomastie"
+    },
+    "bullets": [
+     "Poitrine masculine",
+     "Augmentation des pectoraux",
+     "Résultat naturel"
+    ]
+   },
+   {
+    "title": "Rhinoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2025/10/rinoplastia.webp",
+     "w": 800,
+     "h": 666,
+     "alt": "Rhinoplastie"
+    },
+    "bullets": [
+     "Esthétique et fonctionnelle",
+     "Rhinomodelage sans chirurgie",
+     "Cloison nasale"
+    ]
+   },
+   {
+    "title": "Obésité",
+    "href": "/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2026/07/Balon-gastrico-en-Girona.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Obésité"
+    },
+    "bullets": [
+     "Ballon gastrique",
+     "Endomanchon MEGA",
+     "Chirurgie bariatrique"
+    ]
+   },
+   {
+    "title": "Blépharoplastie",
+    "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/",
+    "cta": "Résoudre les doutes sur ce traitement",
+    "image": {
+     "src": "/images/wp/2026/07/Blefaroplastia.webp",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Blépharoplastie"
+    },
+    "bullets": [
+     "Paupières et poches",
+     "Anesthésie locale",
+     "Cicatrice discrète"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "pt-pasos",
+  "kicker": "Notre façon de travailler",
+  "heading": "Du premier message à la fin du suivi",
+  "sub": "Quatre étapes, aucune surprise en chemin.",
+  "items": [
+   {
+    "t": "Vous écrivez, nous répondons",
+    "d": "Par téléphone, WhatsApp ou formulaire. Réponse le jour ouvrable même."
+   },
+   {
+    "t": "Consultation médicale gratuite",
+    "d": "Avec le spécialiste, sans frais ni engagement. Nous étudions votre cas et vous expliquons les vraies options, avec ou sans chirurgie."
+   },
+   {
+    "t": "Devis fermé",
+    "d": "Par écrit après la consultation, sans frais cachés. Avec un <a href=\"/fr/financement/\">financement</a> si vous en avez besoin."
+   },
+   {
+    "t": "Suivi et contrôles",
+    "d": "Accompagnement pendant toute la période postopératoire, avec la même équipe médicale que lors de la consultation."
+   }
+  ]
+ },
+ {
+  "type": "pt-resenas",
+  "kicker": "Avis",
+  "heading": "Nos patients témoignent",
+  "sub": "Choisissez d'être entre les meilleures mains",
+  "reviews": [
+   {
+    "name": "Camila Constanza Vélez Silva",
+    "text": "Excellente clinique ! Dès le premier jour, avec la meilleure disposition pour m'offrir la meilleure attention et les traitements les plus adaptés à mes besoins. Tous les professionnels sont de premier niveau. Les machines qu'ils utilisent sont de dernière génération, et les résultats se voient dès les premières séances. La machine TShape est à souligner ! Super complète et efficace ! Je suis très contente et reconnaissante ! Il me reste très peu pour atteindre mon objectif ! Je recommande vivement !"
+   },
+   {
+    "name": "Silviaarely Zunigaalvarado",
+    "text": "Bonjour, très contente de l'opération que j'ai faite et de l'accueil"
+   },
+   {
+    "name": "Beth Serra",
+    "text": "Excellent accueil de la part de toute l'équipe, en particulier Laia, qui a répondu à toutes mes questions."
+   },
+   {
+    "name": "NATALIA MARTINEZ",
+    "text": "J'ai suivi un traitement d'amincissement combinant soins en cabine et endocrinologie et j'ai atteint mes objectifs sans mal. Un accueil excellent !"
+   },
+   {
+    "name": "alejandra martin",
+    "text": "Je suis très contente de l'accueil, qui est excellent, et surtout on peut voir les résultats de mon traitement ; c'est une très bonne clinique et ils sont très professionnels"
+   },
+   {
+    "name": "Alisson Mijas",
+    "text": "Je suis enchantée de la clinique. Un accueil exceptionnel ; à tout moment je me suis sentie accueillie, en confiance et avec une totale sincérité en tout. J'ai fait ma rhinoplastie avec eux et je n'aurais pas pu mieux choisir, ils ont été de grands professionnels, aussi bien le Dr Langdon que l'équipe de Médic, surtout Laia, qui m'a accompagnée tout au long du processus et c'est grâce à cela que j'ai choisi la clinique. Je n'aurais pas pu mieux choisir, sans aucun doute pour tout autre procédé je n'hésiterai pas à me mettre entre leurs mains"
+   }
+  ],
+  "source": "Avis Google",
+  "summary": [
+   {
+    "rating": true,
+    "lbl": "Note moyenne"
+   },
+   {
+    "big": "{count}",
+    "lbl": "Avis vérifiés"
+   },
+   {
+    "big": "{since}",
+    "lbl": "Au service des patients à Gérone"
+   }
+  ],
+  "more": {
+   "text": "Voir les {count} avis sur Google",
+   "href": "https://maps.google.com/maps?cid=4878100397339283721",
+   "style": "linea"
+  }
+ },
+ {
+  "type": "pt-faq",
+  "kicker": "Questions fréquentes",
+  "heading": "Questions fréquentes sur la chirurgie esthétique à Gérone",
+  "items": [
+   {
+    "q": "Quelle est la différence entre chirurgie esthétique et médecine esthétique ?",
+    "a": "La <b>chirurgie esthétique</b> est une intervention chirurgicale réalisée au bloc opératoire par un chirurgien plasticien inscrit à l'Ordre (augmentation mammaire, liposuccion, rhinoplastie, abdominoplastie ou blépharoplastie), avec des résultats durables et une période de récupération. La <b>médecine esthétique</b> regroupe des traitements non chirurgicaux, comme la toxine botulique, les injections de comblement, les fils tenseurs ou le peeling, réalisés en cabinet et qui permettent de reprendre ses activités le jour même. Chez Medics Integral Salut, nous pratiquons les deux avec la même équipe médicale."
+   },
+   {
+    "q": "Comment choisir une bonne clinique esthétique à Gérone ?",
+    "a": "Vérifiez trois choses avant de décider : que les chirurgiens soient inscrits à l'Ordre et accrédités par des sociétés comme la SECPRE, que le centre ait une expérience et des avis vérifiables, et que la première visite soit une vraie consultation médicale, pas une vente. Medics Integral Salut est une <b>clinique esthétique à Gérone</b> avec sa propre équipe de chirurgie plastique et de médecine esthétique, des installations modernes et une note de {rating}★ sur {count} avis Google depuis {since}."
+   },
+   {
+    "q": "Combien coûte une chirurgie esthétique et peut-on la financer ?",
+    "a": "Le prix d'une <b>chirurgie esthétique</b> dépend de la technique, du temps de bloc, du type d'anesthésie et du suivi, il n'existe donc pas de tarif unique : le devis est fixé par écrit après la consultation médicale, sans surprises ni frais cachés. Nous proposons un <a href=\"/fr/financement/\">financement</a> pour payer en plusieurs mensualités, et la première consultation est toujours gratuite et sans engagement."
+   },
+   {
+    "q": "Que comprend la première consultation et comment prendre rendez-vous ?",
+    "a": "La première consultation est gratuite et comprend l'étude de votre cas avec le médecin spécialiste, l'explication des options de <b>chirurgie esthétique</b> ou de <b>médecine esthétique</b> adaptées à vous, les réponses à vos questions sur la récupération et un devis fermé. Vous pouvez prendre rendez-vous par téléphone au <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, sur <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> ou avec le <a href=\"/fr/contact/#form\">formulaire de contact</a>. Nous vous recevons Plaça Poeta Marquina, 3 (Gérone), à 5 minutes de la gare TGV."
+   }
+  ]
+ }
+]

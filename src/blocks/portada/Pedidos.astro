@@ -1,0 +1,18 @@
+---
+// Tratamientos más pedidos: tres tarjetas con foto que llevan a su página. `intro`: texto literal del WordPress.
+const { heading, intro = [], cards = [] } = Astro.props;
+---
+<section class="ps ps-ped">
+  <div class="pt-wrap">
+    <h2 class="ps-h rv">{heading}</h2>
+    {intro.length > 0 && <div class="ps-intro rv d1">{intro.map((p: string) => <p set:html={p} />)}</div>}
+    <div class="ps-ped-g">
+      {cards.map((c: any, i: number) => (
+        <a class:list={['ps-card rv', `d${i + 1}`]} href={c.href}>
+          <span class="ps-card-img"><img src={c.image.src} width={c.image.w} height={c.image.h} alt={c.image.alt} loading="lazy" decoding="async" sizes="(max-width:640px) 100vw, 33vw" /></span>
+          <span class="ps-card-b"><b>{c.title}</b><small>{c.sub}</small></span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

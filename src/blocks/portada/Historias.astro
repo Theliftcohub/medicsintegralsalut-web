@@ -1,0 +1,18 @@
+---
+// Historias reales con nombre: reseñas de Google de la clínica (texto literal, recortado en frase). Nunca AggregateRating.
+const { heading, items = [] } = Astro.props;
+---
+<section class="ps ps-his">
+  <div class="pt-wrap">
+    <h2 class="ps-h rv">{heading}</h2>
+    <ul class="ps-his-g">
+      {items.map((x: any, i: number) => (
+        <li class:list={['ps-hcard rv', `d${i + 1}`]}>
+          <div class="ps-hk">{x.name} · {x.label}</div>
+          <blockquote>«{x.quote}»</blockquote>
+          <div class="ps-hf"><span class="ps-stars" aria-hidden="true">★★★★★</span>{x.source}</div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

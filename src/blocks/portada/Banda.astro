@@ -1,0 +1,14 @@
+---
+// Banda final naranja: llamada a escribir + WhatsApp y dirección + botón al formulario.
+import { ext } from '../../lib/vc';
+const { heading, linea, cta } = Astro.props;
+---
+<section class="ps-banda">
+  <div class="pt-wrap">
+    <div>
+      <h2 class="ps-h ps-h-xl rv">{heading}</h2>
+      {linea && <p class="rv d1" set:html={linea} />}
+    </div>
+    {cta && <a class="ps-btn rv d2" href={cta.href} {...ext(cta.href)}>{cta.text}</a>}
+  </div>
+</section>
