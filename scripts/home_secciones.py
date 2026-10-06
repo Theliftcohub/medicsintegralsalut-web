@@ -15,10 +15,14 @@ LANGS = ["es", "ca", "en", "fr", "ru", "uk"]
 T = json.load(open("scripts/home_secciones.json", encoding="utf-8"))
 PORTADA = json.load(open("scripts/portada_textos.json", encoding="utf-8"))
 WA = "https://api.whatsapp.com/send?phone=34620892236"
-QUITAR = ("pt-trat", "pt-pasos", "pt-resenas", "pt-faq")
-NUEVOS = ("ps-reels", "ps-doctora", "ps-pedidos", "ps-historias", "ps-resultados", "ps-aviso", "ps-banda")
-ORDEN = ["pt-hero", "pt-clinica", "pt-unidades", "pt-equipo", "pt-distintivos", "ps-reels", "ps-doctora", "ps-pedidos",
-         "ps-historias", "ps-resultados", "ps-aviso", "pt-texto", "pt-contacto", "pt-cierre", "ps-banda"]
+# pt-cierre: lo repite la banda final (11); pt-hero: sustituido por el carrusel (referencia clinicatintore.com)
+QUITAR = ("pt-trat", "pt-pasos", "pt-resenas", "pt-faq", "pt-cierre", "pt-hero")
+NUEVOS = ("ps-hero", "ps-reels", "ps-doctora", "ps-pedidos", "ps-historias", "ps-resultados", "ps-aviso", "ps-banda")
+# hero: grupo i18n de la unidad de destino + foto en gris (public/images/home/hero/)
+HERO = [("g0278", "/images/home/hero/facial.webp"), ("g0291", "/images/home/hero/pecho.webp"),
+        ("g0270", "/images/home/hero/corporal.webp"), ("g0326", "/images/home/hero/peso.webp")]
+ORDEN = ["ps-hero", "pt-clinica", "pt-unidades", "pt-equipo", "pt-distintivos", "ps-reels", "ps-doctora", "ps-pedidos",
+         "ps-historias", "ps-resultados", "ps-aviso", "pt-texto", "pt-contacto", "ps-banda"]
 # vídeos de testimonios del canal de la clínica (los de la portada del WordPress)
 VIDEOS = ["AD2F_1nMRvY", "gKfqSRLzb8o", "ytuluT_sVg8", "5tMvNB00PSI"]
 # fotograma de YouTube que se usa de miniatura (maxres1/2/3 = 25/50/75 % del vídeo): el que muestra a la paciente centrada.
@@ -90,14 +94,20 @@ for L in LANGS:
     f = next(p for p in glob.glob(f"src/content/pages/{L}/*.json") if json.load(open(p, encoding="utf-8")).get("i18nGroup") == "home")
     page = json.load(open(f, encoding="utf-8"))
     copia = f"migracion/home_secciones/{L}.json"
-    if not os.path.exists(copia):
+    guardado = json.load(open(copia, encoding="utf-8")) if os.path.exists(copia) else []
+    nuevos_q = [b for b in page["blocks"] if b["type"] in QUITAR and b["type"] not in {g["type"] for g in guardado}]
+    if nuevos_q or not os.path.exists(copia):
         os.makedirs(os.path.dirname(copia), exist_ok=True)
-        json.dump([b for b in page["blocks"] if b["type"] in QUITAR], open(copia, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(guardado + nuevos_q, open(copia, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     quitado = {b["type"]: b for b in json.load(open(copia, encoding="utf-8"))}
     t = T[L]
     resenas = {r["name"]: r["text"] for r in quitado["pt-resenas"]["reviews"]}
 
+    h = t["hero"]
     nuevos = {
+        "ps-hero": {"type": "ps-hero", "kicker": h["kicker"], "label": h["label"], "prev": h["prev"], "next": h["next"], "ir": h["ir"],
+                    "slides": [{"title": tit, "sub": sub, "href": enlace(g, L), "ver": h["ver"], "cta": {"text": h["cta"], "href": "#info"},
+                                "image": img(src, tit)} for (tit, sub), (g, src) in zip(h["slides"], HERO)]},
         "ps-reels": {"type": "ps-reels", "heading": t["reels"]["heading"], "sub": t["reels"]["sub"], "ver": t["reels"]["ver"], "cerrar": t["reels"]["cerrar"],
                      "perfil": {"text": "@medicsintegralsalut", "href": "https://www.instagram.com/medicsintegralsalut/"},
                      "items": [{"title": tit, "video": f"https://www.youtube.com/watch?v={v}", "image": im, "label": t["reels"]["chip"]}

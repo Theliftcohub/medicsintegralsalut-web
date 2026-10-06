@@ -204,5 +204,48 @@
     "a": "The first consultation is free and includes a review of your case with the specialist doctor, an explanation of the <b>cosmetic surgery</b> or <b>aesthetic medicine</b> options that suit you, answers to your questions about recovery and a fixed quote. You can book by phone on <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, on <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> or using the <a href=\"/en/contact/#form\">contact form</a>. We are at Plaça Poeta Marquina, 3 (Girona), 5 minutes from the high-speed train station."
    }
   ]
+ },
+ {
+  "type": "pt-cierre",
+  "kicker": "Girona & Costa Brava",
+  "heading": "Plastic surgery and aesthetic medicine clinic for the whole province of Girona",
+  "html": "We see patients from <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> and the whole <strong>Costa Brava</strong>. We are in the centre of Girona (Plaça Poeta Marquina, 3), 5 minutes from the AVE station, with financing available and a free first consultation.",
+  "ctas": [
+   {
+    "text": "Request valuation",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "See financing",
+    "href": "/en/financing/",
+    "style": "linea"
+   }
+  ]
+ },
+ {
+  "type": "pt-hero",
+  "eyebrow": "Girona · Since {since}",
+  "titleHtml": "Our patients are our <em>best calling card</em>",
+  "sub": "Plastic surgery and aesthetic medicine with a medical approach, natural results and a team that stays with you at every step, from the first consultation to the last check-up.",
+  "ctas": [
+   {
+    "text": "Book my free consultation",
+    "href": "#info"
+   },
+   {
+    "text": "Message us on WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "wa"
+   }
+  ],
+  "reviews": "{count} reviews on Google",
+  "badge": "Registered medical team · SECPRE members",
+  "image": {
+   "src": "/images/wp/2019/11/Dr-Mike-Dewever_ok.webp",
+   "w": 1600,
+   "h": 708,
+   "alt": "Dr Mike Dewever, plastic surgeon, in consultation with a patient"
+  }
  }
 ]

@@ -204,5 +204,48 @@
     "a": "La primera valoració és gratuïta i inclou l'estudi del cas amb el metge especialista, l'explicació de les opcions de <b>cirurgia estètica</b> o <b>medicina estètica</b> indicades per a tu, la resolució de dubtes sobre el postoperatori i un pressupost tancat. Pots demanar cita per telèfon al <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, per <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> o des del <a href=\"/ca/contacte/#form\">formulari de contacte</a>. Atenem a la Plaça Poeta Marquina, 3 (Girona), a 5 minuts de l'estació de l'AVE."
    }
   ]
+ },
+ {
+  "type": "pt-cierre",
+  "kicker": "Girona i Costa Brava",
+  "heading": "Clínica de cirurgia i medicina estètica per a tota la província de Girona",
+  "html": "Rebem pacients de <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> i de tota la <strong>Costa Brava</strong>. Som al centre de Girona (Plaça Poeta Marquina, 3), a 5 minuts de l'estació de l'AVE, amb finançament disponible i primera valoració gratuïta.",
+  "ctas": [
+   {
+    "text": "Sol·licitar valoració",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "Veure finançament",
+    "href": "/ca/financament/",
+    "style": "linea"
+   }
+  ]
+ },
+ {
+  "type": "pt-hero",
+  "eyebrow": "Girona · Des de {since}",
+  "titleHtml": "Els nostres pacients són la nostra millor <em>carta de presentació</em>",
+  "sub": "Cirurgia plàstica i medicina estètica amb enfocament mèdic, resultats naturals i un equip que t'acompanya a cada pas, des de la primera valoració fins a l'última revisió.",
+  "ctas": [
+   {
+    "text": "Demanar la meva valoració gratuïta",
+    "href": "#info"
+   },
+   {
+    "text": "Escriu-nos per WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "wa"
+   }
+  ],
+  "reviews": "{count} opinions a Google",
+  "badge": "Equip mèdic col·legiat · Membres de la SECPRE",
+  "image": {
+   "src": "/images/wp/2019/11/Dr-Mike-Dewever_ok.webp",
+   "w": 1600,
+   "h": 708,
+   "alt": "El Dr. Mike Dewever, cirurgià plàstic, en consulta amb una pacient"
+  }
  }
 ]

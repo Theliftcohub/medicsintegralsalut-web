@@ -1,0 +1,53 @@
+---
+// Hero de la portada: carrusel a pantalla completa (referencia de dirección 06/10/2026: clinicatintore.com).
+// Foto en blanco y negro a sangre, nombre del tratamiento enorme y centrado, frase, dos botones, flechas y puntos.
+// Rendimiento: solo la 1.ª foto se pide al cargar (fetchpriority high: es el LCP); las demás, cuando la página ya ha
+// cargado y el navegador está libre. Las fotos ya vienen en gris (WebP de 12-36 KB). Autoplay cada 6 s; se para con el
+// ratón encima, con el foco, con la pestaña oculta y con «reducir movimiento». Deslizar con el dedo en móvil.
+const { kicker, slides = [], prev = 'Anterior', next = 'Siguiente', ir = 'Ir a la diapositiva', label = '' } = Astro.props;
+---
+<section class="hs" data-hs aria-roledescription="carousel" aria-label={label || undefined}>
+  {slides.map((s: any, i: number) => (
+    <div class:list={['hs-s', i === 0 && 'on']} role="group" aria-roledescription="slide" aria-label={`${i + 1} / ${slides.length}`} inert={i !== 0}>
+      {i === 0
+        ? <img src={s.image.src} width={s.image.w} height={s.image.h} alt={s.image.alt} fetchpriority="high" decoding="async" />
+        : <img data-src={s.image.src} width={s.image.w} height={s.image.h} alt={s.image.alt} decoding="async" />}
+      <div class="hs-t">
+        {kicker && <p class="hs-k">{kicker}</p>}
+        <p class="hs-h">{s.title}</p>
+        <p class="hs-p">{s.sub}</p>
+        <div class="hs-cta">
+          <a class="hs-b" href={s.href}>{s.ver}</a>
+          <a class="hs-b hs-b2" href={s.cta.href}>{s.cta.text}</a>
+        </div>
+      </div>
+    </div>
+  ))}
+  {slides.length > 1 && <>
+    <button type="button" class="hs-a hs-prev" aria-label={prev}></button>
+    <button type="button" class="hs-a hs-next" aria-label={next}></button>
+    <div class="hs-dots">{slides.map((_: any, i: number) => <button type="button" aria-label={`${ir} ${i + 1}`} aria-current={i === 0 ? 'true' : undefined}></button>)}</div>
+  </>}
+</section>
+<script is:inline>
+(function(){document.querySelectorAll('[data-hs]').forEach(function(h){
+  var s=[].slice.call(h.querySelectorAll('.hs-s')),d=[].slice.call(h.querySelectorAll('.hs-dots button')),i=0,t,x0=null;
+  if(s.length<2)return;
+  var quieto=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function carga(){s.forEach(function(x){var im=x.querySelector('img[data-src]');if(im){im.src=im.getAttribute('data-src');im.removeAttribute('data-src');}});}
+  function ir(n){s[i].classList.remove('on');s[i].inert=true;d[i].removeAttribute('aria-current');
+    i=(n+s.length)%s.length;carga();s[i].classList.add('on');s[i].inert=false;d[i].setAttribute('aria-current','true');}
+  function para(){clearInterval(t);}
+  function auto(){para();if(!quieto&&!document.hidden)t=setInterval(function(){ir(i+1);},6000);}
+  h.querySelector('.hs-prev').addEventListener('click',function(){ir(i-1);auto();});
+  h.querySelector('.hs-next').addEventListener('click',function(){ir(i+1);auto();});
+  d.forEach(function(b,n){b.addEventListener('click',function(){ir(n);auto();});});
+  h.addEventListener('mouseenter',para);h.addEventListener('mouseleave',auto);
+  h.addEventListener('focusin',para);h.addEventListener('focusout',auto);
+  h.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  h.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>40){ir(i+(dx<0?1:-1));auto();}},{passive:true});
+  document.addEventListener('visibilitychange',function(){document.hidden?para():auto();});
+  function despues(){if('requestIdleCallback' in window)requestIdleCallback(carga,{timeout:2500});else setTimeout(carga,1500);auto();}
+  document.readyState==='complete'?despues():addEventListener('load',despues);
+});})();
+</script>

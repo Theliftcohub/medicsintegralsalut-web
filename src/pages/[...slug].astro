@@ -44,9 +44,10 @@ if (kind === 'post') {
 const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
-<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}>
+<Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}
+  precargar={d.i18nGroup === 'home' && !['ru', 'uk'].includes(d.lang) ? ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'] : []}>
   {kind === 'page' && d.theme === 'portada'
-    ? <div class="pt">{blocks.map((b: any) => <Block block={b} lang={d.lang} />)}</div>
+    ? <div class:list={['pt', d.i18nGroup === 'home' && 'pt-home']}>{blocks.map((b: any) => <Block block={b} lang={d.lang} />)}</div>
     : blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
     <>

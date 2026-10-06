@@ -27,9 +27,10 @@ import '../styles/vc-mpost.css';
 import '../styles/vc-prosa.css';
 import '../styles/portada.css';
 import '../styles/portada-extra.css';
+import '../styles/fuentes.css';
 import '../styles/portada-secciones.css';
 // Toda la web usa el diseño «Versión C» (body.vc): cabecera, pie, migas y estilos.
-const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [] } = Astro.props;
+const { seo, lang = 'es', alternates = {}, graph = [], breadcrumbs = [], precargar = [] } = Astro.props;
 const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
 const crumbs = breadcrumbs.length > 1 ? [{
   '@type': 'BreadcrumbList',
@@ -41,6 +42,7 @@ const crumbs = breadcrumbs.length > 1 ? [{
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {precargar.map((f: string) => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
   <SeoHead seo={seo} lang={lang} alternates={alternates} graph={[...graph, ...crumbs]} />
   <ConsentMode />
   {entorno !== 'preview' && site.gtm && (

@@ -204,5 +204,48 @@
     "a": "La première consultation est gratuite et comprend l'étude de votre cas avec le médecin spécialiste, l'explication des options de <b>chirurgie esthétique</b> ou de <b>médecine esthétique</b> adaptées à vous, les réponses à vos questions sur la récupération et un devis fermé. Vous pouvez prendre rendez-vous par téléphone au <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, sur <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> ou avec le <a href=\"/fr/contact/#form\">formulaire de contact</a>. Nous vous recevons Plaça Poeta Marquina, 3 (Gérone), à 5 minutes de la gare TGV."
    }
   ]
+ },
+ {
+  "type": "pt-cierre",
+  "kicker": "Gérone et Costa Brava",
+  "heading": "Clinique de chirurgie et de médecine esthétique pour toute la province de Gérone",
+  "html": "Nous recevons des patients de <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> et de toute la <strong>Costa Brava</strong>. Nous sommes au centre de Gérone (Plaça Poeta Marquina, 3), à 5 minutes de la gare AVE, avec un financement possible et une première consultation gratuite.",
+  "ctas": [
+   {
+    "text": "Demande d'évaluation",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "Voir le financement",
+    "href": "/fr/financement/",
+    "style": "linea"
+   }
+  ]
+ },
+ {
+  "type": "pt-hero",
+  "eyebrow": "Gérone · Depuis {since}",
+  "titleHtml": "Nos patients sont notre <em>meilleure carte de visite</em>",
+  "sub": "Chirurgie plastique et médecine esthétique avec une approche médicale, des résultats naturels et une équipe qui vous accompagne à chaque étape, de la première consultation au dernier contrôle.",
+  "ctas": [
+   {
+    "text": "Demander ma consultation gratuite",
+    "href": "#info"
+   },
+   {
+    "text": "Écrivez-nous sur WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "wa"
+   }
+  ],
+  "reviews": "{count} avis sur Google",
+  "badge": "Équipe médicale inscrite à l'Ordre · Membres de la SECPRE",
+  "image": {
+   "src": "/images/wp/2019/11/Dr-Mike-Dewever_ok.webp",
+   "w": 1600,
+   "h": 708,
+   "alt": "Le Dr Mike Dewever, chirurgien plasticien, en consultation avec une patiente"
+  }
  }
 ]

@@ -204,5 +204,48 @@
     "a": "La primera valoración es gratuita e incluye el estudio del caso con el médico especialista, la explicación de las opciones de <b>cirugía estética</b> o <b>medicina estética</b> indicadas para ti, la resolución de dudas sobre el postoperatorio y un presupuesto cerrado. Puedes pedir cita por teléfono en el <a href=\"tel:+34972209086\">+34 972 20 90 86</a>, por <a href=\"https://api.whatsapp.com/send?phone=34620892236\">WhatsApp</a> o desde el <a href=\"/contacto/#form\">formulario de contacto</a>. Atendemos en Plaça Poeta Marquina, 3 (Girona), a 5 minutos de la estación del AVE."
    }
   ]
+ },
+ {
+  "type": "pt-cierre",
+  "kicker": "Girona y Costa Brava",
+  "heading": "Clínica de cirugía y medicina estética para toda la provincia de Girona",
+  "html": "Recibimos pacientes de <strong>Figueres, Olot, Banyoles, Salt, Blanes, Lloret de Mar, Palamós, Palafrugell</strong> y toda la <strong>Costa Brava</strong>. Estamos en el centro de Girona (Plaça Poeta Marquina, 3), a 5 minutos de la estación del AVE, con financiación disponible y primera valoración gratuita.",
+  "ctas": [
+   {
+    "text": "Solicitar valoración",
+    "href": "#info",
+    "style": "oscuro"
+   },
+   {
+    "text": "Ver financiación",
+    "href": "/financiacion/",
+    "style": "linea"
+   }
+  ]
+ },
+ {
+  "type": "pt-hero",
+  "eyebrow": "Girona · Desde {since}",
+  "titleHtml": "Nuestros pacientes son nuestra mejor <em>carta de presentación</em>",
+  "sub": "Cirugía plástica y medicina estética con enfoque médico, resultados naturales y un equipo que te acompaña en cada paso, desde la primera valoración hasta la última revisión.",
+  "ctas": [
+   {
+    "text": "Pedir mi valoración gratuita",
+    "href": "#info"
+   },
+   {
+    "text": "Escríbenos por WhatsApp",
+    "href": "https://api.whatsapp.com/send?phone=34620892236",
+    "style": "wa"
+   }
+  ],
+  "reviews": "{count} opiniones en Google",
+  "badge": "Equipo médico colegiado · Miembros SECPRE",
+  "image": {
+   "src": "/images/wp/2019/11/Dr-Mike-Dewever_ok.webp",
+   "w": 1600,
+   "h": 708,
+   "alt": "El Dr. Mike Dewever, cirujano plástico, en consulta con una paciente"
+  }
  }
 ]
