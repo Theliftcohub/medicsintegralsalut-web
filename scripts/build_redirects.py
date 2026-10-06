@@ -47,7 +47,7 @@ tan finas ni cabeceras condicionales por carpeta:
   imágenes sueltas, no-cache en HTML, cabeceras de seguridad básicas + HSTS.
 """
 import argparse, csv, json, os, re, sys
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 # Se importa para reutilizar exactamente la misma clasificación de rutas "de sistema"
 # de WordPress que usa el contrato de URLs (build_contract.py), sin duplicar los patrones.
@@ -393,14 +393,24 @@ def escribir_apache(inv, modelo, domain, con_www, barra_final, sin_rss, out_fn):
 
     # 4) Rutas "de sistema" basadas en la ruta (no en query string): /page/N/, feed/, category/tag/author
     L.append("# 4) Rutas de sistema de WordPress (ver references/seo-estandar.md, sección E-bis)")
+    # Las rutas con decisión explícita (contrato/url-map: secciones 5 y 6) no llevan regla genérica aquí: esta sección
+    # va antes y la pisaría (p. ej. /en/category/x/ -> /blog/ en vez de /en/blog/). La paginación se resuelve sin cadenas.
+    n = lambda x: unquote(x).rstrip("/")
+    destino_de = {n(a): b for a, b in modelo["r301"]}
+    eliminadas = {n(a) for a in modelo["gone"]}
     for it in inv["items"]:
         if it.get("tipo") != "sistema":
             continue
         path = path_of(it["url"])
+        if n(path) in destino_de or n(path) in eliminadas:
+            continue
         if bc.SISTEMA_PAGE.search(path):
             raiz = re.sub(r"/page/\d+/?$", "/", path) or "/"
             ruta_re = re.escape(path.lstrip("/"))
-            L.append(f"RewriteRule ^{ruta_re}$ {raiz} [R=301,L]")
+            if n(raiz) in eliminadas:
+                L.append(f"RewriteRule ^{ruta_re}$ - [G,L]")
+            else:
+                L.append(f"RewriteRule ^{ruta_re}$ {destino_de.get(n(raiz), raiz)} [R=301,L]")
         elif bc.SISTEMA_FEED.search(path):
             ruta_re = re.escape(path.lstrip("/"))
             if sin_rss:
