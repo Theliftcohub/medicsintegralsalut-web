@@ -20,3 +20,7 @@ migracion/inventory.json
 
 # Paquetes listos para subir a Plesk (se generan, no se versionan)
 entregas/
+
+# Traducciones: los diccionarios <lang>.json se versionan; los pendientes y el orden de lotes se regeneran
+scripts/traducciones_contenido/*.pendientes.json
+scripts/traducciones_contenido/_orden.json

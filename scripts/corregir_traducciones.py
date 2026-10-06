@@ -54,7 +54,7 @@ MESES = {
     "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
     "ca": ["de gener", "de febrer", "de març", "d'abril", "de maig", "de juny", "de juliol", "d'agost", "de setembre", "d'octubre", "de novembre", "de desembre"],
     "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-    "fr": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+    "fr": [(r"\bSel, Figueres\b", "Salt, Figueres"), "janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
     "ru": ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
     "uk": ["січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"],
 }
@@ -92,9 +92,10 @@ ETIQ = {
 
 
 PALABRAS = {
-    "en": [(r"valuations", "consultations"), (r"Valuations", "Consultations"), (r"valuation", "consultation"),
-           (r"Valuation", "Consultation"), (r"hunch", "hump"), (r"Hunch", "Hump")],
-    "ru": [(r"[Кк]онтакто", "Контакты")],
+    "en": [(r"\bSal, Figueres\b", "Salt, Figueres"), (r"\bvaluations\b", "consultations"), (r"\bValuations\b", "Consultations"), (r"\bvaluation\b", "consultation"),
+           (r"\bValuation\b", "Consultation"), (r"\bhunch\b", "hump"), (r"\bHunch\b", "Hump")],
+    "fr": [(r"\bSel, Figueres\b", "Salt, Figueres")],
+    "ru": [(r"\b[Кк]онтакто\b", "Контакты")],
 }
 
 
@@ -110,25 +111,62 @@ def etiquetas(L, h):
 
 
 # ---- 6) textos en el idioma equivocado ----
+# Misma segmentación que extraer_pendientes.py: HTML interior de elementos de texto (con sus etiquetas en línea) y campos
+# de texto de los bloques JSON / frontmatter. Se sustituye el segmento ENTERO cuando coincide exactamente con una clave.
 TRAD = {}
 for L in LANGS:
     f = f"scripts/traducciones_contenido/{L}.json"
     TRAD[L] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
-TEXTO = re.compile(r">([^<>]+)<")
+INLINE = r"(?:a|b|strong|em|i|u|span|br|sup|sub|small|mark|abbr|time)"
+SEG = re.compile(rf"<(p|li|h[1-6]|td|th|summary|figcaption|dt|dd|div|span|blockquote|cite|label|button|option|a)(\s[^>]*)?>((?:[^<]|<{INLINE}(?:\s[^>]*)?/?>|</{INLINE}>)+?)</\1>", re.S)
+RUN = re.compile(rf"(<div(?:\s[^>]*)?>)((?:[^<]|<{INLINE}(?:\s[^>]*)?/?>|</{INLINE}>)+?)(?=<(?:p|div|ul|ol|h[1-6]|table)[\s>])", re.S)
+SVGRUN = re.compile(rf"(</svg>)((?:[^<]|<{INLINE}(?:\s[^>]*)?/?>|</{INLINE}>)+?)(?=</(?:span|div|p|li|a|button|h[1-6]|summary)>)", re.S)
+TEXTO_KEYS = {"html", "intro", "after", "text", "heading", "sub", "title", "alt", "imageAlt", "description", "lbl", "label",
+              "placeholder", "labelHtml", "submit", "options", "q", "a", "t", "d", "k", "v", "s", "note", "bullets", "author",
+              "summary", "bio", "role", "kicker", "eyebrow", "badge", "reviews", "micro", "vacio", "legal", "texto", "titulo", "h", "r"}
 
 
 def textos(L, h):
+    """HTML: cada segmento cuyo interior (sin espacios en los extremos) está en el diccionario se sustituye entero."""
     d = TRAD[L]
-    if not d:
+    if not d or not h:
         return h
     def f(m):
-        t = m.group(1)
-        k = t.strip()
+        inner = m.group(3)
+        k = inner.strip()
         if k in d:
             C["textos"] += 1
-            return ">" + t.replace(k, d[k]) + "<"
+            return f"<{m.group(1)}{m.group(2) or ''}>{inner.replace(k, d[k])}</{m.group(1)}>"
         return m.group(0)
-    return TEXTO.sub(f, h)
+    def f2(m):   # texto suelto al principio de un div con bloques detrás
+        run = m.group(2); k = run.strip()
+        if k and k in d:
+            C["textos"] += 1
+            return m.group(1) + run.replace(k, d[k])
+        return m.group(0)
+    return SVGRUN.sub(f2, RUN.sub(f2, SEG.sub(f, h)))
+
+
+def traducir_valor(L, v):
+    """Cadena de un campo JSON/frontmatter: entera si coincide; si lleva HTML, por segmentos."""
+    d = TRAD[L]
+    if not isinstance(v, str) or not d:
+        return v
+    k = v.strip()
+    if k in d:
+        C["textos"] += 1
+        return v.replace(k, d[k])
+    return textos(L, v) if "<" in v else v
+
+
+def traducir_json(L, o, key=None):
+    if isinstance(o, dict):
+        return {k2: (traducir_json(L, v, k2) if (k2 in TEXTO_KEYS or isinstance(v, (dict, list))) else v) for k2, v in o.items()}
+    if isinstance(o, list):
+        return [traducir_json(L, v, key) for v in o]
+    if isinstance(o, str) and key in TEXTO_KEYS:
+        return traducir_valor(L, o)
+    return o
 
 
 def arreglar(L, h):
@@ -137,7 +175,7 @@ def arreglar(L, h):
         h = h.replace("0620 892 236", "620 892 236")
     h2 = fecha(L, h)
     C["fechas"] += int(h2 != h)
-    return textos(L, etiquetas(L, h2))
+    return etiquetas(L, h2)
 
 
 for f in glob.glob("src/content/pages/*/*.json"):
@@ -156,6 +194,11 @@ for f in glob.glob("src/content/pages/*/*.json"):
                 b["html"] = arreglar(L, b["html"])
             if b.get("intro"):
                 b["intro"] = arreglar(L, b["intro"])
+    if L != "es" and TRAD[L]:
+        j["blocks"] = traducir_json(L, j["blocks"])
+        for k in ("title", "description"):
+            if j["seo"].get(k): j["seo"][k] = traducir_valor(L, j["seo"][k])
+        if j.get("title"): j["title"] = traducir_valor(L, j["title"])
     if json.dumps(j, ensure_ascii=False) != antes:
         json.dump(j, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 for f in glob.glob("src/content/posts/*/*.md"):
@@ -164,7 +207,13 @@ for f in glob.glob("src/content/posts/*/*.md"):
         continue
     raw = open(f, encoding="utf-8").read()
     _, fm, body = raw.split("---", 2)
-    nuevo = "---" + fm + "---" + arreglar(L, body)
+    body = textos(L, arreglar(L, body))
+    for k in ("title", "seoTitle", "description", "h1", "imageAlt", "category"):
+        m = re.search(rf"^{k}: (.*)$", fm, re.M)
+        if m:
+            v = json.loads(m.group(1)); nv = traducir_valor(L, v)
+            if nv != v: fm = fm.replace(m.group(0), f"{k}: " + json.dumps(nv, ensure_ascii=False))
+    nuevo = "---" + fm + "---" + body
     if nuevo != raw:
         open(f, "w", encoding="utf-8").write(nuevo)
 print(dict(C))

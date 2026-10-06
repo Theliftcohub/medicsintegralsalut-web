@@ -195,3 +195,6 @@
 @media(max-width:600px){.vc .vc-tgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:900px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:minmax(0,1fr)}}
+
+/* enlaces con una URL larga como texto (entradas antiguas): que partan en vez de desbordar el móvil */
+.vc main a{overflow-wrap:anywhere}
