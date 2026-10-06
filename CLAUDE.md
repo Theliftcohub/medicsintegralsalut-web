@@ -88,6 +88,7 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 ## Flujo de trabajo
 - Un commit por página migrada: `feat(page): migrar /ruta/`.
 - Antes de cada commit: `npm run build` sin errores y validación de enlaces.
+- Build para Plesk: `npm run build:produccion` (staging: `npm run build:staging`; usan `.env.produccion` / `.env.staging`, sin secretos). Después, SIEMPRE `python scripts/verificar_produccion.py` (verificación estática: páginas, canonical, hreflang, schema, enlaces, imágenes, sitemap y simulación del .htaccess contra el contrato); tiene que acabar en «OK, sin errores».
 - Antes de lanzar: `validate_migration.py` completo, cero FAIL, en staging de Plesk.
 - Credenciales solo en `.env` / `secrets/` (ignorados por git). Nunca leerlas en el chat.
 - El servidor WordPress corta conexiones (firewall): extraer siempre con `--delay` ≥0.6; `fetch` reintenta 5 veces.
@@ -98,6 +99,10 @@ Web estática de Médics Integral Salut (clínica de cirugía y medicina estéti
 - GitHub: github.com/Theliftcohub/medicsintegralsalut-web. Si la sesión no tiene el repo autorizado para git, se sube por la web de GitHub (upload por carpeta, ≤100 archivos y ≤25 MB por archivo).
 
 ## Errores ya cometidos y sus reglas
+- 05/10/2026 · En el .htaccess, las reglas genéricas de paginación/categorías (sección 4) iban antes que las del contrato: cadenas (…/page/2/ → categoría → blog) y categorías inglesas al blog en español · `build_redirects.py` no genera regla genérica para rutas con decisión en el contrato y resuelve la paginación sin cadenas. `verificar_produccion.py` lo comprueba.
+- 05/10/2026 · 36 páginas heredaban de TranslatePress un canonical a URLs inexistentes o 410, y el hreflang enlazaba páginas noindex o duplicadas · `pulir_contenido.py` (paso 17) corrige el canonical; `[...slug].astro` solo mete en el hreflang versiones canónicas e indexables.
+- 05/10/2026 · Las rejillas `1fr 1fr` desbordaban el móvil con palabras largas (ruso/ucraniano) · columnas `minmax(0,1fr)` y `hyphens:auto` en titulares.
+- 05/10/2026 · Las respuestas resumen llevaban la etiqueta «Respuesta directa:» y una entrada tenía de autora la cuenta de la agencia · fuera (pasos 15 y 16 de `pulir_contenido.py`). Nada en la web publicada puede delatar herramientas internas ni cuentas de la agencia.
 - 05/10/2026 · Con `npm run dev` abierto se añadió un `import` a `Base.astro` antes de crear el archivo (`portada-extra.css`): Vite guarda el fallo en caché y sigue dando «Could not import» aunque el archivo ya exista · crear SIEMPRE el archivo antes de importarlo; si ya pasó, tocar el archivo que importa (`touch src/layouts/Base.astro`) o reiniciar el servidor.
 - 05/10/2026 · 46 entradas en español tenían además un JSON de página con la misma URL: Astro renderiza una y descarta la otra sin fallar el build (solo un WARN) · `pulir_contenido.py` borra el JSON; revisar los WARN «conflicts with higher priority route» en cada build.
 - 05/10/2026 · `build_post` descartaba el JSON-LD propio y las migas de las entradas (612 entradas sin FAQPage/VideoObject/MedicalWebPage ni BreadcrumbList) · `schema_posts.py` los recupera al frontmatter y la plantilla los publica.

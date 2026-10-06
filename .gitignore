@@ -15,5 +15,5 @@ public/media/
 migracion/content/
 migracion/inventory.json
 
-# Estado local de la sesión de trabajo
-.claude/ESTADO_DEL_CHAT.md
+# Configuración local del editor
+.claude/

@@ -9,7 +9,9 @@ npm ci
 cat _datos/contenido-web.tgz.part* | tar -xz      # src/content/ + public/images/ + public/media/ (no van sueltos en git)
 cat migracion/content.tgz.part0* | tar -xz && gunzip -k migracion/inventory.json.gz   # datos de migración
 npm run dev          # http://localhost:4321
-npm run build        # dist/  (PUBLIC_ENTORNO=produccion para la build de Plesk)
+npm run build                 # dist/ para la preview (noindex, sin GTM, formularios desactivados)
+npm run build:produccion      # dist/ para Plesk (indexable, GTM, formularios activos)
+python scripts/verificar_produccion.py   # verificación estática de la build de producción: tiene que dar «OK, sin errores»
 ```
 
 ## Dónde está cada cosa

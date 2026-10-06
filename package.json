@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && cp dist/410/index.html dist/410.html",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "build:produccion": "astro build --mode produccion && cp dist/410/index.html dist/410.html",
+    "build:staging": "astro build --mode staging && cp dist/410/index.html dist/410.html"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
