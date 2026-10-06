@@ -16,7 +16,7 @@ SEG = re.compile(rf"<(p|li|h[1-6]|td|th|summary|figcaption|dt|dd|div|span|blockq
 RUN = re.compile(rf"(<div(?:\s[^>]*)?>)((?:[^<]|<{INLINE}(?:\s[^>]*)?/?>|</{INLINE}>)+?)(?=<(?:p|div|ul|ol|h[1-6]|table)[\s>])", re.S)
 # texto detrás de un icono: <span class="tl"><svg…></svg>Texto</span>
 SVGRUN = re.compile(rf"(</svg>)((?:[^<]|<{INLINE}(?:\s[^>]*)?/?>|</{INLINE}>)+?)(?=</(?:span|div|p|li|a|button|h[1-6]|summary)>)", re.S)
-MARCAS = re.compile(r"\b(Medics Integral Salut|Médics|SECPRE|SCCPRE|WhatsApp|Girona|Barcelona|Biologique Recherche|EBOPRAS|SEME|SECO|Vaser|Váser|MEGA|AMI|Elipse|Allurion|Motiva|Mentor|Teknon|Tres Torres|Diagonal|Instagram|Facebook|YouTube|Google|TikTok)\b", re.I)
+MARCAS = re.compile(r"\b(Medics ?Integral ?Salut|Medicstetics|Plaça Poeta Marquina|Costa Brava|Salt|Figueres|Blanes|Lloret de Mar|Olot|Banyoles|Palafrugell|Sant Feliu de Guíxols|Roses|Palamós|Cassà de la Selva|La Bisbal d.Empordà|Josep Trueta|Clínica Onyar|Médics|SECPRE|SCCPRE|WhatsApp|Girona|Barcelona|Biologique Recherche|EBOPRAS|SEME|SECO|Vaser|Váser|MEGA|AMI|Elipse|Allurion|Motiva|Mentor|Teknon|Tres Torres|Diagonal|Instagram|Facebook|YouTube|Google|TikTok)\b", re.I)
 
 
 def plano(seg):
@@ -43,10 +43,22 @@ ROMANCE = ("es", "ca", "pt", "gl", "it")
 CORTE = re.compile(r"<[^>]+>|[.;:!?¿¡|•·]+\s+|\s[–—]\s|\n")
 
 
-def partes(seg):
-    """Trozos de un segmento (texto entre etiquetas, frases) con 4+ palabras: cazan mezclas de idiomas
+def partes(seg, minimo=4):
+    """Trozos de un segmento (texto entre etiquetas, frases) con `minimo`+ palabras: cazan mezclas de idiomas
     (TranslatePress tradujo medio párrafo y dejó el resto en español)."""
-    return [MARCAS.sub(" ", x).strip() for x in CORTE.split(seg) if len(x.split()) >= 4]
+    return [MARCAS.sub(" ", x).strip() for x in CORTE.split(seg) if len(x.split()) >= minimo]
+
+
+# palabras que solo son españolas (no catalanas, francesas ni inglesas): para etiquetas cortas dentro de bloques mixtos
+ES_FUERTE = re.compile(r"(ción|ciones|miento|mientos)\b|[ñ¿¡]|(?<![’'])\by\b|\b(los|las|con|sin|para|por|más|muy|tus?|cómo|qué|cuándo|cuánto|según|pecho|piel|pieles|grasa|nariz|cirugía|técnica|aumento|orientativo|pérdida|realiza|utiliza|existen|todas?|propia|menor|coste)\b", re.I)
+PROPIAS = {"ca": re.compile(r"\b(amb|per|els|dels|més|teu|nostr[ae]|cirurgia|tècnica|pell|pit|greix|augment)\b", re.I),
+           "en": re.compile(r"\b(the|and|of|with|for|your|you|our|is|are)\b", re.I),
+           "fr": re.compile(r"\b(le|les|des|du|et|pour|avec|votre|vous|une|est|sont|il|pas|qui|au|aux|sur|dans|ou|plus)\b|[’']", re.I)}
+
+
+def latinas(x):
+    """palabras latinas de 3+ letras que no son marcas, topónimos ni siglas"""
+    return [w for w in re.findall(r"[A-Za-zÀ-ÿ]{3,}", MARCAS.sub(" ", x)) if not w.isupper()]
 
 
 def marcas_es_ca(x):
@@ -68,9 +80,15 @@ def mal(L, seg):
     if re.match(r"^(form-|/|https?:|#|\.|mailto:|tel:)", t2): return False
     if re.search(r"[А-Яа-яІіЇїЄєҐґ]", t2):
         if L not in ("ru", "uk") or idioma(t2) not in ("cyr", L): return True
-        quitar = lambda s: re.sub(r"\S*[А-Яа-яІіЇїЄєҐґ]\S*", " ", s)   # parte latina de un segmento mixto
+        quitar = lambda s: re.sub(r"[А-Яа-яІіЇїЄєҐґЁё]+", " ", s)   # parte latina de un segmento mixto (las etiquetas se quedan)
         lat = quitar(t2)
-        return (len(re.findall(r"\w+", lat)) >= 4 and es_romance(lat)) or any(es_romance(x) for x in partes(quitar(seg)))
+        if len(re.findall(r"\w+", lat)) >= 4 and es_romance(lat): return True
+        # trozos latinos (entre etiquetas) de 2+ palabras con marcas de español/catalán: chips, etiquetas, enlaces
+        return any(len(latinas(x)) >= 2 and marcas_es_ca(x) for x in partes(quitar(seg), 2))
+    if L in ("ru", "uk") and len(latinas(t2)) >= 2:
+        return True                       # texto latino en una página rusa/ucraniana: sin traducir (marcas ya fuera)
+    if L in PROPIAS and any(len(latinas(x)) >= 2 and ES_FUERTE.search(x) and not PROPIAS[L].search(x) for x in partes(seg, 2)):
+        return True                       # etiqueta corta en español dentro de un bloque (chips, fichas, títulos)
     palabras = len(re.findall(r"\w+", t2))
     if palabras < 4:                      # corto: solo con marcas inequívocas
         if L == "ca": return bool(ES.search(t2)) and not CA.search(t2)
