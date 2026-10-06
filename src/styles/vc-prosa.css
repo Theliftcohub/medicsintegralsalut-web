@@ -188,3 +188,10 @@
 .vc .vc-prosa--form .vc-col:first-child :is(h2,h3,h4) a{color:var(--tinta);text-decoration:none}
 .vc .vc-prosa--form .vc-col:first-child :is(h2,h3,h4) a:hover{color:var(--marca-txt)}
 @media(max-width:900px){.vc .vc-prosa--form .vc-cols{gap:28px}}
+
+/* palabras largas (ruso, ucraniano, términos médicos): se parten antes que desbordar la pantalla */
+.vc :is(h1,h2,h3,h4,.vc-tcard-t,.vc-bcard h3){overflow-wrap:break-word;hyphens:auto}
+.vc .vc-tgrid>li,.vc .vc-tcard,.vc .vc-bcard{min-width:0}
+@media(max-width:600px){.vc .vc-tgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.vc .vc-bloglist,.vc .vc-cols .vc-bloglist{grid-template-columns:minmax(0,1fr)}}

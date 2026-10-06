@@ -134,3 +134,12 @@ body.vc>header .hdr-acc .vc-lang-btn{padding:8px 6px;font-size:12px;color:#6E564
 body.vc>header .nav-units{text-transform:capitalize}
 /* migas sobre el mismo crema que la cabecera, a todo el ancho */
 .vc .vc-crumbs{background:#F7F1E8;box-shadow:0 0 0 100vmax #F7F1E8;clip-path:inset(0 -100vmax)}
+/* ==== WhatsApp: botón flotante (escritorio y tableta) y botón verde en la barra móvil ==== */
+.vc .wa-flot{position:fixed;right:24px;bottom:24px;z-index:390;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;
+  display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(37,211,102,.38);transition:transform .25s,box-shadow .25s}
+.vc .wa-flot svg{width:30px;height:30px}
+.vc .wa-flot:hover{transform:scale(1.07);box-shadow:0 14px 32px rgba(37,211,102,.48)}
+.vc .wa-flot:focus-visible{outline:3px solid #4A3428;outline-offset:3px}
+@media(max-width:760px){.vc .wa-flot{display:none}}
+.vc .barra-movil a.barra-wa{display:flex;align-items:center;justify-content:center;gap:8px;background:#25D366;color:#fff;border-left:0}
+.vc .barra-movil a.barra-wa svg{width:18px;height:18px}

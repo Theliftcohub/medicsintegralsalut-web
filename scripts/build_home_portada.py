@@ -14,7 +14,8 @@ T = json.load(open("scripts/portada_textos.json", encoding="utf-8"))
 CHROME = json.load(open("src/data/vc-chrome.json", encoding="utf-8"))
 WA = "https://api.whatsapp.com/send?phone=34620892236"
 HERO_IMG = {"src": "/images/wp/2019/11/Dr-Mike-Dewever_ok.webp", "w": 1600, "h": 708}
-COLLAGE = ["/images/wp/2025/11/recepcion-medic-salut.webp", "/images/wp/2026/07/Lifting-facial-en-Girona.webp",
+# fotos del collage de «La clínica»: la 2.ª es la consulta real (05/10/2026: dirección no quería la foto de banco de imágenes)
+COLLAGE = ["/images/wp/2025/11/recepcion-medic-salut.webp", "/images/wp/2022/10/slider_MedicsIntegralSalut3.webp",
            "/images/wp/2026/07/Abdominoplastia-en-Girona.webp", "/images/wp/2026/07/Balon-gastrico-en-Girona.webp"]
 # unidades: orden de la portada del WordPress (columnas + ancha) -> filtro, y orden de la maqueta
 CATS = ["facial", "corporal", "cosmetica", "obesidad", "masculina", "mamas", "facial", "corporal"]

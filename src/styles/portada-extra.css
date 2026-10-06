@@ -212,3 +212,6 @@
 .vc .pt .vc-prosa--form .vc-col:first-child :is(h2,h3,h4) a{color:var(--cacao)}
 .vc .pt .vc-bcard h3{margin-bottom:8px}
 .vc .pt .pt-pagehero h1.pt-h1-largo{font-size:clamp(30px,3.4vw,46px);line-height:1.14}
+/* rejillas de la portada: columnas que pueden encoger (palabras largas en ruso/ucraniano) */
+.vc .pt :is(.pt-serv,.pt-uni-grid,.pt-equipo,.pt-pasos,.pt-resenas,.pt-fichas,.pt-ventajas,.pt-conta)>*{min-width:0}
+.vc .pt :is(h1,h2,h3){overflow-wrap:break-word;hyphens:auto}
