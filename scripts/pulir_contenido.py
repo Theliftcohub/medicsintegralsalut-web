@@ -19,6 +19,13 @@ Se ejecuta después de vc_pages.py / schema_posts.py. Cada paso corrige un fallo
                  En las páginas lo hace src/lib/paginas.ts al pintar.
 13. tarjetas     Rejillas de enlaces a tratamientos (filas .vc-in con un enlace por celda) -> bloque `vc-tarjetas`
                  {heading, items[{text, href}]}: el componente añade foto y descripción de la página enlazada.
+15. autor        La cuenta de la agencia («Nicols») figuraba como autora de una entrada: pasa a «Clínica Medics Integral Salut»,
+                 como el resto de entradas (frontmatter y tarjeta del listado del blog).
+16. respuesta    Etiqueta «Respuesta directa:» (y sus traducciones) al inicio de los resúmenes .mpost: se quita la etiqueta y
+                 se conserva la frase, con mayúscula inicial.
+17. canonical    Canonical a una URL que redirige -> a su destino final; a una URL que no existe o es 410 -> canonical propio
+                 (rarezas de TranslatePress: p. ej. /en/team/... con canonical a /en/equip/..., que nunca existió).
+18. migas rotas  Miga a una URL que no existe: si es la última, pasa a la propia página; si no, se quita.
 14. sedes        Hospitales de /medics-integral-salut/ (título suelto + fila foto | mapa y datos, repetido) ->
                  una sección con una tarjeta por hospital (`variant: "tarjetas"`).
 Uso: python scripts/pulir_contenido.py [--paginas]   (--paginas: no toca las entradas .md)"""
@@ -29,6 +36,7 @@ from urllib.parse import unquote
 
 SITE = "https://www.medicsintegralsalut.com"
 M = {unquote(r[0]).rstrip("/"): unquote(r[1]) for r in csv.reader(open("migracion/url-map.csv", encoding="utf-8")) if len(r) >= 2}
+GONE = {unquote(l.strip()).rstrip("/") for l in open("migracion/gone.txt", encoding="utf-8") if l.strip()}
 C = Counter()
 
 
@@ -89,7 +97,16 @@ def iconos(h):
     return IMG.sub(f, h)
 
 
+ETIQUETA = re.compile(r"<(b|strong)>\s*(?:Respuesta directa|Resposta directa|Direct answer|Réponse directe|Прямой ответ|Пряма відповідь)\s*:?\s*</\1>\s*(\S)")
+AUTOR = ("Nicols", "Clínica Medics Integral Salut")
+
+
 def texto(h):
+    C["respuesta"] += len(ETIQUETA.findall(h))
+    h = ETIQUETA.sub(lambda m: m.group(2).upper(), h)
+    if f'"vc-bcard-meta">{AUTOR[0]}<' in h:
+        C["autor"] += 1
+        h = h.replace(f'"vc-bcard-meta">{AUTOR[0]}<', f'"vc-bcard-meta">{AUTOR[1]}<')
     n = len(OCULTO.findall(h))
     C["oculto"] += n
     h = OCULTO.sub("", h)
@@ -205,6 +222,39 @@ def desequilibrado(h):
     return len(re.findall(r"<div[\s>]", h or "")) != (h or "").count("</div>")
 
 
+# rutas existentes (páginas y entradas) para validar canonical y migas
+EXISTEN = set()
+for _f in glob.glob("src/content/pages/*/*.json"):
+    EXISTEN.add(json.load(open(_f, encoding="utf-8"))["path"])
+for _f in glob.glob("src/content/posts/*/*.md"):
+    EXISTEN.add(json.loads(re.search(r"^path: (.*)$", open(_f, encoding="utf-8").read().split("---")[1], re.M).group(1)))
+
+
+def canonical(path, can):
+    if not can:
+        return can
+    cp = unquote(re.sub(r"^https?://[^/]+", "", can))
+    if cp == path or cp in EXISTEN:
+        return can
+    fin = final(cp) if cp.rstrip("/") in M else None
+    nuevo = fin if fin and fin in EXISTEN and fin.rstrip("/") not in GONE else path
+    C["canonical"] += 1
+    return SITE + nuevo
+
+
+def migas_ok(path, bc):
+    out = []
+    for i, c in enumerate(bc or []):
+        if c["path"] in EXISTEN:
+            out.append(c)
+        elif i == len(bc) - 1:
+            out.append({**c, "path": path})
+            C["migas rotas"] += 1
+        else:
+            C["migas rotas"] += 1
+    return out
+
+
 # ---- entradas (.md) ----
 post_paths = set()
 for md in glob.glob("src/content/posts/*/*.md"):
@@ -216,6 +266,18 @@ for md in glob.glob("src/content/posts/*/*.md"):
     m = re.search(r"^schema: (.*)$", fm, re.M)
     if m:
         fm = fm.replace(m.group(0), "schema: " + json.dumps(entidad(json.loads(m.group(1))), ensure_ascii=False))
+    _p = json.loads(re.search(r"^path: (.*)$", fm, re.M).group(1))
+    _c = re.search(r"^canonical: (.*)$", fm, re.M)
+    if _c and canonical(_p, json.loads(_c.group(1))) != json.loads(_c.group(1)):
+        fm = fm.replace(_c.group(0), "canonical: " + json.dumps(canonical(_p, json.loads(_c.group(1))), ensure_ascii=False))
+    _b = re.search(r"^breadcrumbs: (.*)$", fm, re.M)
+    if _b:
+        _n = migas_ok(_p, json.loads(_b.group(1)))
+        if _n != json.loads(_b.group(1)):
+            fm = fm.replace(_b.group(0), "breadcrumbs: " + json.dumps(_n, ensure_ascii=False))
+    if f'author: "{AUTOR[0]}"' in fm:
+        fm = fm.replace(f'author: "{AUTOR[0]}"', f'author: "{AUTOR[1]}"')
+        C["autor"] += 1
     nuevo = "---" + logo(fm) + "---" + h1_a_h2(texto(iconos(body)))
     if nuevo != raw:
         open(md, "w", encoding="utf-8").write(nuevo)
@@ -229,7 +291,9 @@ for f in glob.glob("src/content/pages/*/*.json"):
         continue
     antes = json.dumps(j, ensure_ascii=False)
     if j.get("breadcrumbs"):
-        j["breadcrumbs"] = migas(j["breadcrumbs"])
+        j["breadcrumbs"] = migas_ok(j["path"], migas(j["breadcrumbs"]))
+    if j["seo"].get("canonical"):
+        j["seo"]["canonical"] = canonical(j["path"], j["seo"]["canonical"])
     sch = []
     for s in j.get("schema", []):
         if s.get("type") == "BreadcrumbList":

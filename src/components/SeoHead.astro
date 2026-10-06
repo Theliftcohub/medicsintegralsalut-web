@@ -17,6 +17,8 @@ if (entorno !== 'produccion') robots = 'noindex, nofollow';
 else if (!robots.includes('noindex')) robots += ', max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 const og = abs(seo.ogImage);
 const alts = Object.entries(alternates);
+// x-default: la versión en español; si la página no la tiene, la inglesa; si tampoco, la primera disponible
+const xdef = alternates[site.defaultLang] ?? alternates.en ?? alts[0]?.[1];
 // og:locale va en formato idioma_PAÍS
 const LOCALE: Record<string, string> = { es: 'es_ES', ca: 'ca_ES', en: 'en_GB', fr: 'fr_FR', ru: 'ru_RU', uk: 'uk_UA' };
 ---
@@ -36,5 +38,5 @@ const LOCALE: Record<string, string> = { es: 'es_ES', ca: 'ca_ES', en: 'en_GB', 
 {og && <meta property="og:image" content={og} />}
 <meta name="twitter:card" content="summary_large_image" />
 {alts.length > 1 && alts.map(([l, p]) => <link rel="alternate" hreflang={l} href={abs(p)} />)}
-{alts.length > 1 && alternates[site.defaultLang] && <link rel="alternate" hreflang="x-default" href={abs(alternates[site.defaultLang])} />}
+{alts.length > 1 && xdef && <link rel="alternate" hreflang="x-default" href={abs(xdef)} />}
 <JsonLd graph={graph} />

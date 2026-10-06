@@ -8,13 +8,20 @@ import { prepararBloques } from '../lib/paginas';
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
   const posts = await getCollection('posts');
-  // Mapa de traducciones: i18nGroup -> { lang: path }
+  // Mapa de traducciones: i18nGroup -> { lang: path }. Solo entran versiones canónicas e indexables (Google descarta
+  // un hreflang que apunta a una página noindex o con canonical a otra); esas páginas no publican hreflang.
+  const canonica = (e: any) => {
+    const can = e.data.seo?.canonical ?? e.data.canonical;
+    const rob = e.data.seo?.robots ?? e.data.robots ?? '';
+    return !rob.includes('noindex') && (!can || decodeURI(new URL(can).pathname) === e.data.path);
+  };
   const groups: Record<string, Record<string, string>> = {};
-  for (const e of [...pages, ...posts]) if (e.data.i18nGroup) (groups[e.data.i18nGroup] ??= {})[e.data.lang] = e.data.path;
+  for (const e of [...pages, ...posts]) if (e.data.i18nGroup && canonica(e)) (groups[e.data.i18nGroup] ??= {})[e.data.lang] = e.data.path;
+  const alt = (e: any) => (e.data.i18nGroup && canonica(e) ? groups[e.data.i18nGroup] : {});
   const toSlug = (p: string) => (p === '/' ? undefined : p.replace(/^\/|\/$/g, ''));
   return [
-    ...pages.map((e) => ({ params: { slug: toSlug(e.data.path) }, props: { kind: 'page', entry: e, alternates: e.data.i18nGroup ? groups[e.data.i18nGroup] : {} } })),
-    ...posts.map((e) => ({ params: { slug: toSlug(e.data.path) }, props: { kind: 'post', entry: e, alternates: e.data.i18nGroup ? groups[e.data.i18nGroup] : {} } })),
+    ...pages.map((e) => ({ params: { slug: toSlug(e.data.path) }, props: { kind: 'page', entry: e, alternates: alt(e) } })),
+    ...posts.map((e) => ({ params: { slug: toSlug(e.data.path) }, props: { kind: 'post', entry: e, alternates: alt(e) } })),
   ];
 }
 const { kind, entry, alternates } = Astro.props as any;
