@@ -344,23 +344,23 @@
     "href": "/ca/medics-integral-salut/"
    },
    {
-    "text": "equip",
+    "text": "Equip",
     "href": "/ca/cirurgia-plastica-girona-equip-medic/"
    },
    {
-    "text": "unitats",
+    "text": "Unitats",
     "href": "#unidades"
    },
    {
-    "text": "finançament",
+    "text": "Finançament",
     "href": "/ca/financament/"
    },
    {
-    "text": "bloc",
+    "text": "Blog",
     "href": "/ca/blog/"
    },
    {
-    "text": "contacte",
+    "text": "Contacte",
     "href": "/ca/contacte/"
    }
   ],
@@ -404,11 +404,11 @@
      "href": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/"
     },
     {
-     "text": "Balla gàstrica",
+     "text": "Baló gàstric",
      "href": "/ca/unitats/sobrepes-i-obesitat/bandol-gastric-girona/"
     },
     {
-     "text": "Augmentació de pit",
+     "text": "Augment de pit",
      "href": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/"
     },
     {
@@ -681,15 +681,15 @@
     "href": "/en/medical-supplies/"
    },
    {
-    "text": "team",
+    "text": "Team",
     "href": "/en/plastic-surgery-girona-medical-team/"
    },
    {
-    "text": "units",
+    "text": "Specialities",
     "href": "#unidades"
    },
    {
-    "text": "funding",
+    "text": "Financing",
     "href": "/en/financing/"
    },
    {
@@ -702,7 +702,7 @@
    }
   ],
   "cta": {
-   "text": "Request valuation",
+   "text": "Free consultation",
    "href": "#info"
   },
   "anchors": {
@@ -734,7 +734,7 @@
    "phone": "+34 972 20 90 86",
    "wa": "+34 620 892 236",
    "email": "info@medicsintegralsalut.com",
-   "tratTitle": "Featured Treatments",
+   "tratTitle": "Featured treatments",
    "trat": [
     {
      "text": "Rhinoplasty",
@@ -1018,28 +1018,28 @@
     "href": "/fr/medecins-integres-salut/"
    },
    {
-    "text": "équipe",
+    "text": "Équipe",
     "href": "/fr/chirurgie-plastique-gerone-equipe-medicale/"
    },
    {
-    "text": "unités",
+    "text": "Spécialités",
     "href": "#unidades"
    },
    {
-    "text": "financement",
+    "text": "Financement",
     "href": "/fr/financement/"
    },
    {
-    "text": "blog",
+    "text": "Blog",
     "href": "/fr/blog-2/"
    },
    {
-    "text": "contact",
+    "text": "Contact",
     "href": "/fr/contact/"
    }
   ],
   "cta": {
-   "text": "Demande d'évaluation",
+   "text": "Consultation gratuite",
    "href": "#info"
   },
   "anchors": {
@@ -1071,7 +1071,7 @@
    "phone": "+34 972 20 90 86",
    "wa": "+34 620 892 236",
    "email": "info@medicsintegralsalut.com",
-   "tratTitle": "Traitements en vedette",
+   "tratTitle": "Traitements phares",
    "trat": [
     {
      "text": "Rhinoplastie",
@@ -1355,28 +1355,28 @@
     "href": "/ru/медицинский-интеграл-привет/"
    },
    {
-    "text": "команда",
+    "text": "Команда",
     "href": "/ru/пластическая-хирургия-жирона-медици/"
    },
    {
-    "text": "единицы",
+    "text": "Направления",
     "href": "#unidades"
    },
    {
-    "text": "финансирование",
+    "text": "Финансирование",
     "href": "/ru/финансирование/"
    },
    {
-    "text": "блог",
+    "text": "Блог",
     "href": "/ru/блог-2/"
    },
    {
-    "text": "контакто",
+    "text": "Контакты",
     "href": "/ru/контакто/"
    }
   ],
   "cta": {
-   "text": "Запросить оценку",
+   "text": "Бесплатная консультация",
    "href": "#info"
   },
   "anchors": {
@@ -1404,18 +1404,18 @@
      "href": "/ru/политика-конфиденциальности-в-социа-2/"
     }
    ],
-   "contactTitle": "Контакт",
+   "contactTitle": "Контакты",
    "phone": "+34 972 20 90 86",
    "wa": "+34 620 892 236",
    "email": "info@medicsintegralsalut.com",
-   "tratTitle": "Выделенные процедуры",
+   "tratTitle": "Популярные процедуры",
    "trat": [
     {
      "text": "Ринопластика",
      "href": "/ru/единицы/пластическая-хирургия-лица/ринопластика-жирона/"
     },
     {
-     "text": "Гастробалон",
+     "text": "Желудочный баллон",
      "href": "/ru/единицы/избыточный-вес-и-ожирение-2/гастробаллон-жирона/"
     },
     {
@@ -1692,28 +1692,28 @@
     "href": "/uk/medics-integral-salut/"
    },
    {
-    "text": "команда",
+    "text": "Команда",
     "href": "/uk/пластична-хірургія-в-жироні-медичний/"
    },
    {
-    "text": "одиниці",
+    "text": "Напрямки",
     "href": "#unidades"
    },
    {
-    "text": "фінансування",
+    "text": "Фінансування",
     "href": "/uk/фінансування/"
    },
    {
-    "text": "блог",
+    "text": "Блог",
     "href": "/uk/блог-2/"
    },
    {
-    "text": "контакт",
+    "text": "Контакти",
     "href": "/uk/контакт/"
    }
   ],
   "cta": {
-   "text": "Замовити оцінку",
+   "text": "Безкоштовна консультація",
    "href": "#info"
   },
   "anchors": {
@@ -1745,7 +1745,7 @@
    "phone": "+34 972 20 90 86",
    "wa": "+34 620 892 236",
    "email": "info@medicsintegralsalut.com",
-   "tratTitle": "Найпопулярніші процедури",
+   "tratTitle": "Популярні процедури",
    "trat": [
     {
      "text": "Ринопластика",

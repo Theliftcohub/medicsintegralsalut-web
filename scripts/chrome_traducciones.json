@@ -1,0 +1,28 @@
+{
+ "_nota": "Correcciones a las etiquetas literales del menú/pie del WordPress (TranslatePress las tradujo mal). menu: 6 posiciones (Clínica, equipo, unidades, financiación, blog, contacto); null = se deja. Las aplica scripts/corregir_traducciones.py.",
+ "ca": {
+  "menu": [null, "Equip", "Unitats", "Finançament", "Blog", "Contacte"],
+  "trat": {"Balla gàstrica": "Baló gàstric", "Augmentació de pit": "Augment de pit"}
+ },
+ "en": {
+  "menu": [null, "Team", "Specialities", "Financing", "Blog", "Contact"],
+  "cta": "Free consultation",
+  "footer": {"tratTitle": "Featured treatments", "finTitle": "Financing"}
+ },
+ "fr": {
+  "menu": [null, "Équipe", "Spécialités", "Financement", "Blog", "Contact"],
+  "cta": "Consultation gratuite",
+  "footer": {"tratTitle": "Traitements phares"}
+ },
+ "ru": {
+  "menu": [null, "Команда", "Направления", "Финансирование", "Блог", "Контакты"],
+  "cta": "Бесплатная консультация",
+  "footer": {"contactTitle": "Контакты", "tratTitle": "Популярные процедуры", "socialTitle": "Социальные сети"},
+  "trat": {"Гастробалон": "Желудочный баллон"}
+ },
+ "uk": {
+  "menu": [null, "Команда", "Напрямки", "Фінансування", "Блог", "Контакти"],
+  "cta": "Безкоштовна консультація",
+  "footer": {"tratTitle": "Популярні процедури"}
+ }
+}

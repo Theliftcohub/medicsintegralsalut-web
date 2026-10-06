@@ -38,6 +38,7 @@ def meta(h, nombre, attr="name"):
     return m.group(1) if m else None
 
 
+CATALAN_RAIZ = set(json.load(open("migracion/catalan_raiz_resultado.json", encoding="utf-8"))["declaradas_catalan"]) if os.path.exists("migracion/catalan_raiz_resultado.json") else set()
 sitemap = {unquote(urlparse(u).path) for u in re.findall(r"<loc>([^<]+)</loc>", open(f"{D}/sitemap-0.xml", encoding="utf-8").read())}
 hl = {}
 for p, h in paginas.items():
@@ -54,6 +55,7 @@ for p, h in paginas.items():
     if not can or not can.startswith(SITE + "/"): E["canonical ausente o sin https://www"].append((p, can)); continue
     cp = unquote(urlparse(can).path)
     lang = p.split("/")[1] if len(p.split("/")[1]) == 2 and p.split("/")[1] in ("ca", "en", "fr", "ru", "uk") else "es"
+    if p in CATALAN_RAIZ: lang = "ca"   # páginas en catalán que viven en la raíz (decisión 05/10/2026)
     if f'<html lang="{lang}"' not in h: E["lang del <html> no coincide con la URL"].append(p)
     og = meta(head, "og:image", "property")
     if og and og.startswith(SITE) and not existe(urlparse(og).path): E["og:image inexistente"].append((p, og))
