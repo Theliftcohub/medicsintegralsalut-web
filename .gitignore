@@ -17,3 +17,6 @@ migracion/inventory.json
 
 # Configuración local del editor
 .claude/
+
+# Paquetes listos para subir a Plesk (se generan, no se versionan)
+entregas/
