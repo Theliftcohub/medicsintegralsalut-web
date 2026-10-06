@@ -1,6 +1,7 @@
-# Solo para la PREVIEW de aprobación. Producción = Plesk.
+# Solo para la PREVIEW de aprobación (siempre noindex). Producción = Plesk con `npm run build:produccion`.
+# El contenido (src/content, public/images, public/media) va empaquetado en _datos/: se descomprime antes del build.
 [build]
-  command = "npm run build"
+  command = "cat _datos/contenido-web.tgz.part* | tar -xz && npm run build"
   publish = "dist"
 [build.environment]
   PUBLIC_ENTORNO = "preview"
