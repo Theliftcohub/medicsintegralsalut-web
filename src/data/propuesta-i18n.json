@@ -1,0 +1,1220 @@
+{
+ "es": {
+  "htmlTitle": "Propuesta de portada · Médics Integral Salut",
+  "topbar": "Clínica de cirugía y medicina estética en Girona · Primera valoración gratuita",
+  "langLabel": "Idioma",
+  "navLabel": "Principal",
+  "nav": {
+   "tratamientos": "Tratamientos",
+   "equipo": "Equipo médico",
+   "videos": "Vídeos",
+   "contacto": "Contacto"
+  },
+  "callUs": "Llámanos",
+  "askCta": "Pide tu valoración",
+  "badge": "Girona · Desde {since}",
+  "heroH1": "Clínica Estética<br />en Girona",
+  "heroLead": "Cirugía plástica y medicina estética con resultados naturales y la máxima seguridad médica. Tu primera valoración es gratuita.",
+  "heroCta": "Pide tu valoración gratuita",
+  "trust": [
+   "{nota} · {count} reseñas en Google",
+   "Más de {anios} años en Girona",
+   "Operamos en Teknon y Tres Torres"
+  ],
+  "cifras": [
+   "Desde entonces en Girona",
+   "Especialistas en el equipo",
+   "Valoración en Google",
+   "Reseñas verificadas"
+  ],
+  "reels": {
+   "kick": "Nuestro Instagram",
+   "h2": "Lo que la gente nos pregunta, <em>en vídeo</em>",
+   "p": "Nuestros reels más vistos. Pacientes reales, médicos reales.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "¿Quieres mejorar el pecho sin prótesis?"
+    },
+    {
+     "tag": "35k",
+     "t": "No creamos una clínica más"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Aumento sin postoperatorio eterno"
+    },
+    {
+     "tag": "Lipedema",
+     "t": "¿Sabes diferenciar la celulitis del lipedema?"
+    },
+    {
+     "tag": "Capilar",
+     "t": "Trasplante capilar sin raparte"
+    },
+    {
+     "tag": "Equipo",
+     "t": "Aquí no hay descanso que dure mucho"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Especialidades",
+   "h2": "Selecciona tu tratamiento"
+  },
+  "trat": [
+   "Aumento de pecho",
+   "Liposucción",
+   "Abdominoplastia",
+   "Rinoplastia",
+   "Pérdida de peso",
+   "Cirugía facial"
+  ],
+  "why": {
+   "kick": "Por qué elegirnos",
+   "h2": "¿Por qué elegir<br />Médics Integral Salut?",
+   "p": "Somos tu clínica de confianza en Girona: especialistas en cirugía y medicina estética, con resultados naturales y garantía médica.",
+   "cta": "Solicitar valoración gratuita",
+   "imgAlt": "Recepción de Médics Integral Salut en Girona"
+  },
+  "mas": {
+   "kick": "Cirugía estética Girona",
+   "h2": "Las intervenciones<br />más solicitadas",
+   "p": "Cirujanos especialistas, un enfoque natural y resultados que hablan por sí mismos.",
+   "ver": "Ver tratamiento →",
+   "all": "Ver todos los tratamientos"
+  },
+  "video": {
+   "kick": "Nuestro trabajo en vídeo",
+   "h2": "La precisión<br />que nos define",
+   "p": "Cada intervención es única. Nuestro equipo combina técnica quirúrgica de primer nivel con un trato humano y cercano.",
+   "list": [
+    "Cirujanos especialistas con años de experiencia",
+    "Técnicas mínimamente invasivas y resultados naturales",
+    "Seguimiento postoperatorio completo y personalizado"
+   ],
+   "cta": "Solicitar consulta",
+   "cap": "Equipo quirúrgico"
+  },
+  "visita": {
+   "kick": "Valoración personalizada",
+   "h2": "Tu primera visita en Girona incluye",
+   "items": [
+    {
+     "t": "Entrevista personalizada",
+     "d": "Escuchamos tus objetivos y resolvemos todas tus dudas desde el principio."
+    },
+    {
+     "t": "Diagnóstico médico",
+     "d": "El especialista valora tu caso y te explica el tratamiento más adecuado."
+    },
+    {
+     "t": "Plan y presupuesto cerrado",
+     "d": "Propuesta por escrito, con presupuesto cerrado y opciones de financiación."
+    }
+   ],
+   "cta": "Reserva tu valoración"
+  },
+  "faqP": "Las dudas reales que nos hacéis en consulta y en redes, respondidas sin rodeos.",
+  "ops": {
+   "kick": "Opiniones verificadas",
+   "reviews": "{count} reseñas en Google",
+   "google": "Google",
+   "aria": "Opinión {n}",
+   "open": "«",
+   "close": "»"
+  },
+  "team": {
+   "kick": "Especialistas",
+   "h2": "Equipo médico de excelencia",
+   "p": "Cirujanos y médicos especialistas, con un trato cercano en cada paso.",
+   "cta": "Solicitar consulta →",
+   "all": "Conoce a todo el equipo",
+   "dr": "Dr.",
+   "dra": "Dra.",
+   "roles": [
+    "Cirujano plástico",
+    "Cirujana plástica",
+    "Cirugía general y del aparato digestivo",
+    "Cirugía general y aparato digestivo",
+    "Rinoplastia funcional y estética",
+    "Otorrino, especialista en rinoplastia",
+    "Endocrinología y nutrición",
+    "Medicina estética"
+   ]
+  },
+  "seg": {
+   "kick": "Seguridad hospitalaria",
+   "h2": "Seguridad hospitalaria de primer nivel. Operamos en Clínica Tres Torres y Centro Médico Teknon.",
+   "pills": [
+    "Centros hospitalarios certificados",
+    "Equipos de primer nivel",
+    "Acompañamiento humano"
+   ]
+  },
+  "form": {
+   "kick": "Primera visita gratuita",
+   "h2": "Solicita tu valoración gratuita hoy",
+   "p": "Te atiende el médico especialista, sin compromiso. Diagnóstico y presupuesto cerrado incluidos.",
+   "list": [
+    "Diagnóstico personalizado sin coste",
+    "Presupuesto detallado y cerrado",
+    "Sin compromiso, 100 % confidencial"
+   ],
+   "callDirect": "Llámanos directamente"
+  },
+  "map": {
+   "title": "Mapa: Médics Integral Salut en Girona",
+   "kick": "Encuéntranos",
+   "h2": "¿Hablamos? Tu cambio empieza hoy.",
+   "address": "Dirección",
+   "phone": "Teléfono",
+   "hours": "Horario",
+   "hoursText": "Lunes a viernes: 10:00 a 20:00<br />Sábado y domingo: cerrado",
+   "cta": "Pedir valoración gratuita",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Tratamientos disponibles",
+   "h2": "Todos nuestros tratamientos"
+  },
+  "foot": {
+   "p": "Clínica de cirugía y medicina estética en Girona desde {since}. Resultados naturales y máxima seguridad médica.",
+   "contact": "Contacto",
+   "hours": "Horario",
+   "cta": "Pedir cita →",
+   "privacy": "Privacidad",
+   "legal": "Aviso legal",
+   "cookies": "Cookies"
+  },
+  "urls": {
+   "home": "/",
+   "unidades": "/unidades/",
+   "equipo": "/cirugia-plastica-girona-equipo-medico/",
+   "privacidad": "/politica-de-privacidad/",
+   "aviso": "/aviso-legal/",
+   "cookies": "/politica-de-cookies/",
+   "aumento": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/",
+   "liposuccion": "/unidades/cirugia-estetica-corporal/liposuccion/",
+   "abdomino": "/unidades/cirugia-estetica-corporal/abdominoplastia/",
+   "rino": "/unidades/cirugia-estetica-facial/rinoplastia-girona/",
+   "obesidad": "/unidades/sobrepeso-y-obesidad/",
+   "facial": "/unidades/cirugia-estetica-facial/"
+  }
+ },
+ "ca": {
+  "htmlTitle": "Proposta de portada · Médics Integral Salut",
+  "topbar": "Clínica de cirurgia i medicina estètica a Girona · Primera valoració gratuïta",
+  "langLabel": "Idioma",
+  "navLabel": "Principal",
+  "nav": {
+   "tratamientos": "Tractaments",
+   "equipo": "Equip mèdic",
+   "videos": "Vídeos",
+   "contacto": "Contacte"
+  },
+  "callUs": "Truca'ns",
+  "askCta": "Demana la teva valoració",
+  "badge": "Girona · Des del {since}",
+  "heroH1": "Clínica Estètica<br />a Girona",
+  "heroLead": "Cirurgia plàstica i medicina estètica amb resultats naturals i la màxima seguretat mèdica. La teva primera valoració és gratuïta.",
+  "heroCta": "Demana la teva valoració gratuïta",
+  "trust": [
+   "{nota} · {count} ressenyes a Google",
+   "Més de {anios} anys a Girona",
+   "Operem a Teknon i Tres Torres"
+  ],
+  "cifras": [
+   "Des d'aleshores a Girona",
+   "Especialistes a l'equip",
+   "Valoració a Google",
+   "Ressenyes verificades"
+  ],
+  "reels": {
+   "kick": "El nostre Instagram",
+   "h2": "El que la gent ens pregunta, <em>en vídeo</em>",
+   "p": "Els nostres reels més vistos. Pacients reals, metges reals.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "Vols millorar el pit sense pròtesis?"
+    },
+    {
+     "tag": "35k",
+     "t": "No creem una clínica més"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Augment sense un postoperatori etern"
+    },
+    {
+     "tag": "Lipedema",
+     "t": "Saps diferenciar la cel·lulitis del lipedema?"
+    },
+    {
+     "tag": "Capil·lar",
+     "t": "Trasplantament capil·lar sense rapar-te"
+    },
+    {
+     "tag": "Equip",
+     "t": "Aquí no hi ha descans que duri gaire"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Especialitats",
+   "h2": "Selecciona el teu tractament"
+  },
+  "trat": [
+   "Augment de pit",
+   "Liposucció",
+   "Abdominoplàstia",
+   "Rinoplàstia",
+   "Pèrdua de pes",
+   "Cirurgia facial"
+  ],
+  "why": {
+   "kick": "Per què triar-nos",
+   "h2": "Per què triar<br />Médics Integral Salut?",
+   "p": "Som la teva clínica de confiança a Girona: especialistes en cirurgia i medicina estètica, amb resultats naturals i garantia mèdica.",
+   "cta": "Sol·licitar valoració gratuïta",
+   "imgAlt": "Recepció de Médics Integral Salut a Girona"
+  },
+  "mas": {
+   "kick": "Cirurgia estètica Girona",
+   "h2": "Les intervencions<br />més sol·licitades",
+   "p": "Cirurgians especialistes, un enfocament natural i resultats que parlen per si mateixos.",
+   "ver": "Veure tractament →",
+   "all": "Veure tots els tractaments"
+  },
+  "video": {
+   "kick": "El nostre treball en vídeo",
+   "h2": "La precisió<br />que ens defineix",
+   "p": "Cada intervenció és única. El nostre equip combina tècnica quirúrgica de primer nivell amb un tracte humà i proper.",
+   "list": [
+    "Cirurgians especialistes amb anys d'experiència",
+    "Tècniques mínimament invasives i resultats naturals",
+    "Seguiment postoperatori complet i personalitzat"
+   ],
+   "cta": "Sol·licitar consulta",
+   "cap": "Equip quirúrgic"
+  },
+  "visita": {
+   "kick": "Valoració personalitzada",
+   "h2": "La teva primera visita a Girona inclou",
+   "items": [
+    {
+     "t": "Entrevista personalitzada",
+     "d": "Escoltem els teus objectius i resolem tots els teus dubtes des del principi."
+    },
+    {
+     "t": "Diagnòstic mèdic",
+     "d": "L'especialista valora el teu cas i t'explica el tractament més adequat."
+    },
+    {
+     "t": "Pla i pressupost tancat",
+     "d": "Proposta per escrit, amb pressupost tancat i opcions de finançament."
+    }
+   ],
+   "cta": "Reserva la teva valoració"
+  },
+  "faqP": "Els dubtes reals que ens feu a consulta i a les xarxes, respostos sense embuts.",
+  "ops": {
+   "kick": "Opinions verificades",
+   "reviews": "{count} ressenyes a Google",
+   "google": "Google",
+   "aria": "Opinió {n}",
+   "open": "«",
+   "close": "»"
+  },
+  "team": {
+   "kick": "Especialistes",
+   "h2": "Equip mèdic d'excel·lència",
+   "p": "Cirurgians i metges especialistes, amb un tracte proper a cada pas.",
+   "cta": "Sol·licitar consulta →",
+   "all": "Coneix tot l'equip",
+   "dr": "Dr.",
+   "dra": "Dra.",
+   "roles": [
+    "Cirurgià plàstic",
+    "Cirurgiana plàstica",
+    "Cirurgia general i de l'aparell digestiu",
+    "Cirurgia general i aparell digestiu",
+    "Rinoplàstia funcional i estètica",
+    "Otorrinolaringòleg, especialista en rinoplàstia",
+    "Endocrinologia i nutrició",
+    "Medicina estètica"
+   ]
+  },
+  "seg": {
+   "kick": "Seguretat hospitalària",
+   "h2": "Seguretat hospitalària de primer nivell. Operem a la Clínica Tres Torres i al Centre Mèdic Teknon.",
+   "pills": [
+    "Centres hospitalaris certificats",
+    "Equips de primer nivell",
+    "Acompanyament humà"
+   ]
+  },
+  "form": {
+   "kick": "Primera visita gratuïta",
+   "h2": "Sol·licita avui la teva valoració gratuïta",
+   "p": "T'atén el metge especialista, sense compromís. Diagnòstic i pressupost tancat inclosos.",
+   "list": [
+    "Diagnòstic personalitzat sense cost",
+    "Pressupost detallat i tancat",
+    "Sense compromís, 100 % confidencial"
+   ],
+   "callDirect": "Truca'ns directament"
+  },
+  "map": {
+   "title": "Mapa: Médics Integral Salut a Girona",
+   "kick": "Troba'ns",
+   "h2": "Parlem? El teu canvi comença avui.",
+   "address": "Adreça",
+   "phone": "Telèfon",
+   "hours": "Horari",
+   "hoursText": "De dilluns a divendres: de 10:00 a 20:00<br />Dissabte i diumenge: tancat",
+   "cta": "Demanar valoració gratuïta",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Tractaments disponibles",
+   "h2": "Tots els nostres tractaments"
+  },
+  "foot": {
+   "p": "Clínica de cirurgia i medicina estètica a Girona des del {since}. Resultats naturals i màxima seguretat mèdica.",
+   "contact": "Contacte",
+   "hours": "Horari",
+   "cta": "Demanar cita →",
+   "privacy": "Privacitat",
+   "legal": "Avís legal",
+   "cookies": "Galetes"
+  },
+  "urls": {
+   "home": "/ca/",
+   "unidades": "/ca/unitats/",
+   "equipo": "/ca/cirurgia-plastica-girona-equip-medic/",
+   "privacidad": "/ca/politica-de-privadesa/",
+   "aviso": "/ca/avis-legal/",
+   "cookies": "/ca/politica-de-cookies/",
+   "aumento": "/ca/unitats/cirurgia-estetica-de-mames/augment-de-pit-girona/",
+   "liposuccion": "/ca/unitats/cirurgia-estetica-corporal/liposuccio/",
+   "abdomino": "/ca/unitats/cirurgia-estetica-corporal/abdominoplastia/",
+   "rino": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/",
+   "obesidad": "/ca/unitats/sobrepes-i-obesitat/",
+   "facial": "/ca/unitats/cirurgia-estetica-facial/"
+  }
+ },
+ "en": {
+  "htmlTitle": "Homepage proposal · Médics Integral Salut",
+  "topbar": "Plastic surgery and aesthetic medicine clinic in Girona · Your first consultation is free",
+  "langLabel": "Language",
+  "navLabel": "Main",
+  "nav": {
+   "tratamientos": "Treatments",
+   "equipo": "Medical team",
+   "videos": "Videos",
+   "contacto": "Contact"
+  },
+  "callUs": "Call us",
+  "askCta": "Book your consultation",
+  "badge": "Girona · Since {since}",
+  "heroH1": "Aesthetic Clinic<br />in Girona",
+  "heroLead": "Plastic surgery and aesthetic medicine with natural results and the highest medical safety. Your first consultation is free.",
+  "heroCta": "Book your free consultation",
+  "trust": [
+   "{nota} · {count} Google reviews",
+   "Over {anios} years in Girona",
+   "We operate at Teknon and Tres Torres"
+  ],
+  "cifras": [
+   "Serving Girona ever since",
+   "Specialists on the team",
+   "Google rating",
+   "Verified reviews"
+  ],
+  "reels": {
+   "kick": "Our Instagram",
+   "h2": "What people ask us, <em>on video</em>",
+   "p": "Our most-watched reels. Real patients, real doctors.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "Want to improve your breasts without implants?"
+    },
+    {
+     "tag": "35k",
+     "t": "We're not just another clinic"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Augmentation without an endless recovery"
+    },
+    {
+     "tag": "Lipedema",
+     "t": "Can you tell cellulite from lipedema?"
+    },
+    {
+     "tag": "Hair",
+     "t": "Hair transplant without shaving your head"
+    },
+    {
+     "tag": "Team",
+     "t": "Rest never lasts long around here"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Specialities",
+   "h2": "Select your treatment"
+  },
+  "trat": [
+   "Breast augmentation",
+   "Liposuction",
+   "Abdominoplasty",
+   "Rhinoplasty",
+   "Weight loss",
+   "Facial surgery"
+  ],
+  "why": {
+   "kick": "Why choose us",
+   "h2": "Why choose<br />Médics Integral Salut?",
+   "p": "We are your trusted clinic in Girona: specialists in surgery and aesthetic medicine, with natural results and medical guarantee.",
+   "cta": "Request a free consultation",
+   "imgAlt": "Reception at Médics Integral Salut in Girona"
+  },
+  "mas": {
+   "kick": "Cosmetic surgery Girona",
+   "h2": "Our most<br />requested procedures",
+   "p": "Specialist surgeons, a natural approach and results that speak for themselves.",
+   "ver": "View treatment →",
+   "all": "View all treatments"
+  },
+  "video": {
+   "kick": "Our work on video",
+   "h2": "The precision<br />that defines us",
+   "p": "Every procedure is unique. Our team combines top-level surgical technique with a warm, personal approach.",
+   "list": [
+    "Specialist surgeons with years of experience",
+    "Minimally invasive techniques and natural results",
+    "Complete, personalised post-operative follow-up"
+   ],
+   "cta": "Request a consultation",
+   "cap": "Surgical team"
+  },
+  "visita": {
+   "kick": "Personalised consultation",
+   "h2": "Your first visit in Girona includes",
+   "items": [
+    {
+     "t": "Personal interview",
+     "d": "We listen to your goals and answer all your questions from the very start."
+    },
+    {
+     "t": "Medical diagnosis",
+     "d": "The specialist assesses your case and explains the most suitable treatment."
+    },
+    {
+     "t": "Plan and fixed quote",
+     "d": "A written proposal with a fixed quote and financing options."
+    }
+   ],
+   "cta": "Book your consultation"
+  },
+  "faqP": "The real questions you ask us in the clinic and on social media, answered straight.",
+  "ops": {
+   "kick": "Verified reviews",
+   "reviews": "{count} Google reviews",
+   "google": "Google",
+   "aria": "Review {n}",
+   "open": "“",
+   "close": "”"
+  },
+  "team": {
+   "kick": "Specialists",
+   "h2": "An outstanding medical team",
+   "p": "Specialist surgeons and doctors, with a personal touch at every step.",
+   "cta": "Request a consultation →",
+   "all": "Meet the whole team",
+   "dr": "Dr.",
+   "dra": "Dr.",
+   "roles": [
+    "Plastic surgeon",
+    "Plastic surgeon",
+    "General and digestive system surgery",
+    "General and digestive system surgery",
+    "Functional and aesthetic rhinoplasty",
+    "ENT specialist in rhinoplasty",
+    "Endocrinology and nutrition",
+    "Aesthetic medicine"
+   ]
+  },
+  "seg": {
+   "kick": "Hospital-level safety",
+   "h2": "First-class hospital safety. We operate at Clínica Tres Torres and the Teknon Medical Centre.",
+   "pills": [
+    "Certified hospital centres",
+    "First-class equipment",
+    "Personal support"
+   ]
+  },
+  "form": {
+   "kick": "Free first visit",
+   "h2": "Request your free consultation today",
+   "p": "You are seen by the specialist doctor, with no obligation. Diagnosis and fixed quote included.",
+   "list": [
+    "Personalised diagnosis at no cost",
+    "Detailed, fixed quote",
+    "No obligation, 100% confidential"
+   ],
+   "callDirect": "Call us directly"
+  },
+  "map": {
+   "title": "Map: Médics Integral Salut in Girona",
+   "kick": "Find us",
+   "h2": "Shall we talk? Your change starts today.",
+   "address": "Address",
+   "phone": "Phone",
+   "hours": "Opening hours",
+   "hoursText": "Monday to Friday: 10:00 to 20:00<br />Saturday and Sunday: closed",
+   "cta": "Request a free consultation",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Available treatments",
+   "h2": "All our treatments"
+  },
+  "foot": {
+   "p": "Plastic surgery and aesthetic medicine clinic in Girona since {since}. Natural results and maximum medical safety.",
+   "contact": "Contact",
+   "hours": "Opening hours",
+   "cta": "Book an appointment →",
+   "privacy": "Privacy",
+   "legal": "Legal notice",
+   "cookies": "Cookies"
+  },
+  "urls": {
+   "home": "/en/",
+   "unidades": "/en/units/",
+   "equipo": "/en/plastic-surgery-girona-medical-team/",
+   "privacidad": "/en/privacy-policy/",
+   "aviso": "/en/legal-notice/",
+   "cookies": "/en/cookie-policy/",
+   "aumento": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/",
+   "liposuccion": "/en/units/cosmetic-surgery-3/liposuction-2/",
+   "abdomino": "/en/units/cosmetic-surgery-3/abdominoplasty/",
+   "rino": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/",
+   "obesidad": "/en/units/overweight-and-obesity-2/",
+   "facial": "/en/units/cosmetic-facial-surgery-2/"
+  }
+ },
+ "fr": {
+  "htmlTitle": "Proposition de page d'accueil · Médics Integral Salut",
+  "topbar": "Clinique de chirurgie et de médecine esthétique à Gérone · Première consultation gratuite",
+  "langLabel": "Langue",
+  "navLabel": "Principal",
+  "nav": {
+   "tratamientos": "Traitements",
+   "equipo": "Équipe médicale",
+   "videos": "Vidéos",
+   "contacto": "Contact"
+  },
+  "callUs": "Appelez-nous",
+  "askCta": "Demandez votre consultation",
+  "badge": "Gérone · Depuis {since}",
+  "heroH1": "Clinique Esthétique<br />à Gérone",
+  "heroLead": "Chirurgie plastique et médecine esthétique avec des résultats naturels et la plus grande sécurité médicale. Votre première consultation est gratuite.",
+  "heroCta": "Demandez votre consultation gratuite",
+  "trust": [
+   "{nota} · {count} avis Google",
+   "Plus de {anios} ans à Gérone",
+   "Nous opérons à Teknon et à Tres Torres"
+  ],
+  "cifras": [
+   "Depuis, à Gérone",
+   "Spécialistes dans l'équipe",
+   "Note sur Google",
+   "Avis vérifiés"
+  ],
+  "reels": {
+   "kick": "Notre Instagram",
+   "h2": "Ce que les gens nous demandent, <em>en vidéo</em>",
+   "p": "Nos reels les plus vus. De vrais patients, de vrais médecins.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "Vous voulez améliorer votre poitrine sans prothèses ?"
+    },
+    {
+     "tag": "35k",
+     "t": "Nous ne créons pas une clinique de plus"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Augmentation sans convalescence interminable"
+    },
+    {
+     "tag": "Lipœdème",
+     "t": "Savez-vous distinguer la cellulite du lipœdème ?"
+    },
+    {
+     "tag": "Capillaire",
+     "t": "Greffe de cheveux sans vous raser"
+    },
+    {
+     "tag": "Équipe",
+     "t": "Ici, le repos ne dure jamais longtemps"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Spécialités",
+   "h2": "Sélectionnez votre traitement"
+  },
+  "trat": [
+   "Augmentation mammaire",
+   "Liposuccion",
+   "Abdominoplastie",
+   "Rhinoplastie",
+   "Perte de poids",
+   "Chirurgie du visage"
+  ],
+  "why": {
+   "kick": "Pourquoi nous choisir",
+   "h2": "Pourquoi choisir<br />Médics Integral Salut ?",
+   "p": "Nous sommes votre clinique de confiance à Gérone : spécialistes de la chirurgie et de la médecine esthétique, avec des résultats naturels et une garantie médicale.",
+   "cta": "Demander une consultation gratuite",
+   "imgAlt": "Accueil de Médics Integral Salut à Gérone"
+  },
+  "mas": {
+   "kick": "Chirurgie esthétique Gérone",
+   "h2": "Les interventions<br />les plus demandées",
+   "p": "Des chirurgiens spécialistes, une approche naturelle et des résultats qui parlent d'eux-mêmes.",
+   "ver": "Voir le traitement →",
+   "all": "Voir tous les traitements"
+  },
+  "video": {
+   "kick": "Notre travail en vidéo",
+   "h2": "La précision<br />qui nous définit",
+   "p": "Chaque intervention est unique. Notre équipe allie une technique chirurgicale de premier ordre à un accompagnement humain et attentionné.",
+   "list": [
+    "Chirurgiens spécialistes forts de nombreuses années d'expérience",
+    "Techniques peu invasives et résultats naturels",
+    "Suivi postopératoire complet et personnalisé"
+   ],
+   "cta": "Demander une consultation",
+   "cap": "Équipe chirurgicale"
+  },
+  "visita": {
+   "kick": "Consultation personnalisée",
+   "h2": "Votre première visite à Gérone comprend",
+   "items": [
+    {
+     "t": "Entretien personnalisé",
+     "d": "Nous écoutons vos objectifs et répondons à toutes vos questions dès le départ."
+    },
+    {
+     "t": "Diagnostic médical",
+     "d": "Le spécialiste évalue votre cas et vous explique le traitement le plus adapté."
+    },
+    {
+     "t": "Plan et devis ferme",
+     "d": "Une proposition écrite, avec un devis ferme et des options de financement."
+    }
+   ],
+   "cta": "Réservez votre consultation"
+  },
+  "faqP": "Les vraies questions que vous nous posez en consultation et sur les réseaux, avec des réponses franches.",
+  "ops": {
+   "kick": "Avis vérifiés",
+   "reviews": "{count} avis Google",
+   "google": "Google",
+   "aria": "Avis {n}",
+   "open": "«",
+   "close": "»"
+  },
+  "team": {
+   "kick": "Spécialistes",
+   "h2": "Une équipe médicale d'excellence",
+   "p": "Des chirurgiens et des médecins spécialistes, avec une attention personnalisée à chaque étape.",
+   "cta": "Demander une consultation →",
+   "all": "Découvrez toute l'équipe",
+   "dr": "Dr",
+   "dra": "Dre",
+   "roles": [
+    "Chirurgien plasticien",
+    "Chirurgienne plasticienne",
+    "Chirurgie générale et digestive",
+    "Chirurgie générale et digestive",
+    "Rhinoplastie fonctionnelle et esthétique",
+    "ORL, spécialiste en rhinoplastie",
+    "Endocrinologie et nutrition",
+    "Médecine esthétique"
+   ]
+  },
+  "seg": {
+   "kick": "Sécurité hospitalière",
+   "h2": "Une sécurité hospitalière de premier ordre. Nous opérons à la Clínica Tres Torres et au Centre Médical Teknon.",
+   "pills": [
+    "Établissements hospitaliers certifiés",
+    "Équipements de premier ordre",
+    "Accompagnement humain"
+   ]
+  },
+  "form": {
+   "kick": "Première visite gratuite",
+   "h2": "Demandez dès aujourd'hui votre consultation gratuite",
+   "p": "Vous êtes reçu par le médecin spécialiste, sans engagement. Diagnostic et devis ferme inclus.",
+   "list": [
+    "Diagnostic personnalisé sans frais",
+    "Devis détaillé et ferme",
+    "Sans engagement, 100 % confidentiel"
+   ],
+   "callDirect": "Appelez-nous directement"
+  },
+  "map": {
+   "title": "Carte : Médics Integral Salut à Gérone",
+   "kick": "Retrouvez-nous",
+   "h2": "On en parle ? Votre changement commence aujourd'hui.",
+   "address": "Adresse",
+   "phone": "Téléphone",
+   "hours": "Horaires",
+   "hoursText": "Du lundi au vendredi : de 10 h 00 à 20 h 00<br />Samedi et dimanche : fermé",
+   "cta": "Demander une consultation gratuite",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Traitements disponibles",
+   "h2": "Tous nos traitements"
+  },
+  "foot": {
+   "p": "Clinique de chirurgie et de médecine esthétique à Gérone depuis {since}. Résultats naturels et sécurité médicale maximale.",
+   "contact": "Contact",
+   "hours": "Horaires",
+   "cta": "Prendre rendez-vous →",
+   "privacy": "Confidentialité",
+   "legal": "Mentions légales",
+   "cookies": "Cookies"
+  },
+  "urls": {
+   "home": "/fr/",
+   "unidades": "/fr/unites/",
+   "equipo": "/fr/chirurgie-plastique-gerone-equipe-medicale/",
+   "privacidad": "/fr/politique-de-confidentialite/",
+   "aviso": "/fr/mentions-legales/",
+   "cookies": "/fr/politique-de-cookies/",
+   "aumento": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/",
+   "liposuccion": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/",
+   "abdomino": "/fr/unites/chirurgie-esthetique-corporelle-2/abdominoplastie/",
+   "rino": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
+   "obesidad": "/fr/unites/surpoids-et-obesite-2/",
+   "facial": "/fr/unites/chirurgie-esthetique-faciale/"
+  }
+ },
+ "ru": {
+  "htmlTitle": "Проект главной страницы · Médics Integral Salut",
+  "topbar": "Клиника пластической хирургии и эстетической медицины в Жироне · Первая консультация бесплатно",
+  "langLabel": "Язык",
+  "navLabel": "Главное меню",
+  "nav": {
+   "tratamientos": "Процедуры",
+   "equipo": "Врачи",
+   "videos": "Видео",
+   "contacto": "Контакты"
+  },
+  "callUs": "Позвоните нам",
+  "askCta": "Запишитесь на консультацию",
+  "badge": "Жирона · С {since} года",
+  "heroH1": "Эстетическая клиника<br />в Жироне",
+  "heroLead": "Пластическая хирургия и эстетическая медицина с естественными результатами и максимальной медицинской безопасностью. Первая консультация бесплатная.",
+  "heroCta": "Записаться на бесплатную консультацию",
+  "trust": [
+   "{nota} · {count} отзывов в Google",
+   "Более {anios} лет в Жироне",
+   "Мы оперируем в Teknon и Tres Torres"
+  ],
+  "cifras": [
+   "С тех пор — в Жироне",
+   "Специалистов в команде",
+   "Оценка в Google",
+   "Проверенных отзывов"
+  ],
+  "reels": {
+   "kick": "Наш Instagram",
+   "h2": "О чём нас спрашивают, <em>в видео</em>",
+   "p": "Наши самые популярные ролики. Настоящие пациенты, настоящие врачи.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "Хотите улучшить грудь без имплантов?"
+    },
+    {
+     "tag": "35k",
+     "t": "Мы создаём не просто ещё одну клинику"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Увеличение без бесконечного восстановления"
+    },
+    {
+     "tag": "Липедема",
+     "t": "Умеете отличать целлюлит от липедемы?"
+    },
+    {
+     "tag": "Волосы",
+     "t": "Пересадка волос без бритья головы"
+    },
+    {
+     "tag": "Команда",
+     "t": "Здесь отдых долго не длится"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Направления",
+   "h2": "Выберите процедуру"
+  },
+  "trat": [
+   "Увеличение груди",
+   "Липосакция",
+   "Абдоминопластика",
+   "Ринопластика",
+   "Снижение веса",
+   "Хирургия лица"
+  ],
+  "why": {
+   "kick": "Почему мы",
+   "h2": "Почему стоит выбрать<br />Médics Integral Salut?",
+   "p": "Мы — ваша клиника, которой можно доверять, в Жироне: специалисты по хирургии и эстетической медицине, естественные результаты и медицинская гарантия.",
+   "cta": "Запросить бесплатную консультацию",
+   "imgAlt": "Ресепшен Médics Integral Salut в Жироне"
+  },
+  "mas": {
+   "kick": "Эстетическая хирургия в Жироне",
+   "h2": "Самые востребованные<br />операции",
+   "p": "Хирурги-специалисты, естественный подход и результаты, которые говорят сами за себя.",
+   "ver": "Смотреть процедуру →",
+   "all": "Все процедуры"
+  },
+  "video": {
+   "kick": "Наша работа в видео",
+   "h2": "Точность,<br />которая нас определяет",
+   "p": "Каждая операция уникальна. Наша команда сочетает хирургическую технику высшего уровня с человечным и внимательным отношением.",
+   "list": [
+    "Хирурги-специалисты с многолетним опытом",
+    "Малоинвазивные методики и естественные результаты",
+    "Полное индивидуальное наблюдение в послеоперационный период"
+   ],
+   "cta": "Запросить консультацию",
+   "cap": "Хирургическая команда"
+  },
+  "visita": {
+   "kick": "Индивидуальная консультация",
+   "h2": "Что входит в первый визит в Жироне",
+   "items": [
+    {
+     "t": "Личная беседа",
+     "d": "Мы выслушаем ваши цели и с самого начала ответим на все вопросы."
+    },
+    {
+     "t": "Медицинская диагностика",
+     "d": "Специалист оценит ваш случай и объяснит наиболее подходящую процедуру."
+    },
+    {
+     "t": "План и фиксированная смета",
+     "d": "Письменное предложение с фиксированной сметой и вариантами рассрочки."
+    }
+   ],
+   "cta": "Записаться на консультацию"
+  },
+  "faqP": "Настоящие вопросы, которые вы задаёте нам на приёме и в соцсетях, — с прямыми ответами.",
+  "ops": {
+   "kick": "Проверенные отзывы",
+   "reviews": "{count} отзывов в Google",
+   "google": "Google",
+   "aria": "Отзыв {n}",
+   "open": "«",
+   "close": "»"
+  },
+  "team": {
+   "kick": "Специалисты",
+   "h2": "Врачи высочайшего уровня",
+   "p": "Хирурги и врачи-специалисты, внимательное отношение на каждом шаге.",
+   "cta": "Запросить консультацию →",
+   "all": "Познакомьтесь со всей командой",
+   "dr": "Dr.",
+   "dra": "Dr.",
+   "roles": [
+    "Пластический хирург",
+    "Пластический хирург",
+    "Общая хирургия и хирургия пищеварительной системы",
+    "Общая хирургия и хирургия пищеварительной системы",
+    "Функциональная и эстетическая ринопластика",
+    "ЛОР, специалист по ринопластике",
+    "Эндокринология и питание",
+    "Эстетическая медицина"
+   ]
+  },
+  "seg": {
+   "kick": "Больничная безопасность",
+   "h2": "Безопасность госпитального уровня. Мы оперируем в клинике Tres Torres и медицинском центре Teknon.",
+   "pills": [
+    "Сертифицированные больницы",
+    "Оборудование высшего уровня",
+    "Человеческое сопровождение"
+   ]
+  },
+  "form": {
+   "kick": "Первый визит бесплатно",
+   "h2": "Запишитесь на бесплатную консультацию сегодня",
+   "p": "Вас принимает врач-специалист, без обязательств. Диагностика и фиксированная смета включены.",
+   "list": [
+    "Индивидуальная диагностика бесплатно",
+    "Подробная фиксированная смета",
+    "Без обязательств, 100 % конфиденциально"
+   ],
+   "callDirect": "Позвоните нам напрямую"
+  },
+  "map": {
+   "title": "Карта: Médics Integral Salut в Жироне",
+   "kick": "Как нас найти",
+   "h2": "Поговорим? Ваши перемены начинаются сегодня.",
+   "address": "Адрес",
+   "phone": "Телефон",
+   "hours": "Режим работы",
+   "hoursText": "С понедельника по пятницу: с 10:00 до 20:00<br />Суббота и воскресенье: выходной",
+   "cta": "Записаться на бесплатную консультацию",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Доступные процедуры",
+   "h2": "Все наши процедуры"
+  },
+  "foot": {
+   "p": "Клиника хирургии и эстетической медицины в Жироне с {since} года. Естественные результаты и максимальная медицинская безопасность.",
+   "contact": "Контакты",
+   "hours": "Режим работы",
+   "cta": "Записаться на приём →",
+   "privacy": "Конфиденциальность",
+   "legal": "Правовая информация",
+   "cookies": "Файлы cookie"
+  },
+  "urls": {
+   "home": "/ru/",
+   "unidades": "/ru/единицы/",
+   "equipo": "/ru/пластическая-хирургия-жирона-медици/",
+   "privacidad": "/ru/политика-конфиденциальности/",
+   "aviso": "/ru/правовая-оговорка/",
+   "cookies": "/ru/политика-использования-файлов-cookie/",
+   "aumento": "/ru/единицы/пластическая-хирургия-груди/увеличение-груди-жирона-2/",
+   "liposuccion": "/ru/единицы/эстетическая-операция-тела/липосакция-2/",
+   "abdomino": "/ru/единицы/эстетическая-операция-тела/абдоминопластика/",
+   "rino": "/ru/единицы/пластическая-хирургия-лица/ринопластика-жирона/",
+   "obesidad": "/ru/единицы/избыточный-вес-и-ожирение-2/",
+   "facial": "/ru/единицы/пластическая-хирургия-лица/"
+  }
+ },
+ "uk": {
+  "htmlTitle": "Проєкт головної сторінки · Médics Integral Salut",
+  "topbar": "Клініка пластичної хірургії та естетичної медицини в Жироні · Перша консультація безкоштовно",
+  "langLabel": "Мова",
+  "navLabel": "Головне меню",
+  "nav": {
+   "tratamientos": "Процедури",
+   "equipo": "Лікарі",
+   "videos": "Відео",
+   "contacto": "Контакти"
+  },
+  "callUs": "Зателефонуйте нам",
+  "askCta": "Запишіться на консультацію",
+  "badge": "Жирона · З {since} року",
+  "heroH1": "Естетична клініка<br />в Жироні",
+  "heroLead": "Пластична хірургія та естетична медицина з природними результатами та максимальною медичною безпекою. Перша консультація безкоштовна.",
+  "heroCta": "Записатися на безкоштовну консультацію",
+  "trust": [
+   "{nota} · {count} відгуків у Google",
+   "Понад {anios} років у Жироні",
+   "Ми оперуємо в Teknon та Tres Torres"
+  ],
+  "cifras": [
+   "Відтоді — у Жироні",
+   "Спеціалістів у команді",
+   "Оцінка в Google",
+   "Перевірених відгуків"
+  ],
+  "reels": {
+   "kick": "Наш Instagram",
+   "h2": "Про що нас питають, <em>у відео</em>",
+   "p": "Наші найпопулярніші ролики. Справжні пацієнти, справжні лікарі.",
+   "items": [
+    {
+     "tag": "60k",
+     "t": "Хочете покращити груди без імплантів?"
+    },
+    {
+     "tag": "35k",
+     "t": "Ми створюємо не просто ще одну клініку"
+    },
+    {
+     "tag": "Preserve",
+     "t": "Збільшення без нескінченного відновлення"
+    },
+    {
+     "tag": "Ліпедема",
+     "t": "Чи вмієте відрізнити целюліт від ліпедеми?"
+    },
+    {
+     "tag": "Волосся",
+     "t": "Пересадка волосся без гоління голови"
+    },
+    {
+     "tag": "Команда",
+     "t": "Тут відпочинок довго не триває"
+    }
+   ]
+  },
+  "sel": {
+   "kick": "Напрямки",
+   "h2": "Оберіть процедуру"
+  },
+  "trat": [
+   "Збільшення грудей",
+   "Ліпосакція",
+   "Абдомінопластика",
+   "Ринопластика",
+   "Зниження ваги",
+   "Хірургія обличчя"
+  ],
+  "why": {
+   "kick": "Чому ми",
+   "h2": "Чому варто обрати<br />Médics Integral Salut?",
+   "p": "Ми — ваша клініка, якій можна довіряти, в Жироні: спеціалісти з хірургії та естетичної медицини, природні результати та медична гарантія.",
+   "cta": "Замовити безкоштовну консультацію",
+   "imgAlt": "Рецепція Médics Integral Salut у Жироні"
+  },
+  "mas": {
+   "kick": "Естетична хірургія в Жироні",
+   "h2": "Найпопулярніші<br />операції",
+   "p": "Хірурги-спеціалісти, природний підхід і результати, які говорять самі за себе.",
+   "ver": "Переглянути процедуру →",
+   "all": "Усі процедури"
+  },
+  "video": {
+   "kick": "Наша робота у відео",
+   "h2": "Точність,<br />яка нас визначає",
+   "p": "Кожна операція унікальна. Наша команда поєднує хірургічну техніку найвищого рівня з людяним і уважним ставленням.",
+   "list": [
+    "Хірурги-спеціалісти з багаторічним досвідом",
+    "Малоінвазивні методики та природні результати",
+    "Повне індивідуальне спостереження в післяопераційний період"
+   ],
+   "cta": "Замовити консультацію",
+   "cap": "Хірургічна команда"
+  },
+  "visita": {
+   "kick": "Індивідуальна консультація",
+   "h2": "Що входить у перший візит до Жирони",
+   "items": [
+    {
+     "t": "Особиста розмова",
+     "d": "Ми вислухаємо ваші цілі та з самого початку відповімо на всі запитання."
+    },
+    {
+     "t": "Медична діагностика",
+     "d": "Спеціаліст оцінить ваш випадок і пояснить найбільш доречну процедуру."
+    },
+    {
+     "t": "План і фіксований кошторис",
+     "d": "Письмова пропозиція з фіксованим кошторисом та варіантами розстрочки."
+    }
+   ],
+   "cta": "Записатися на консультацію"
+  },
+  "faqP": "Справжні запитання, які ви ставите нам на прийомі та в соцмережах, — з прямими відповідями.",
+  "ops": {
+   "kick": "Перевірені відгуки",
+   "reviews": "{count} відгуків у Google",
+   "google": "Google",
+   "aria": "Відгук {n}",
+   "open": "«",
+   "close": "»"
+  },
+  "team": {
+   "kick": "Спеціалісти",
+   "h2": "Лікарі найвищого рівня",
+   "p": "Хірурги та лікарі-спеціалісти, уважне ставлення на кожному кроці.",
+   "cta": "Замовити консультацію →",
+   "all": "Познайомтеся з усією командою",
+   "dr": "Dr.",
+   "dra": "Dr.",
+   "roles": [
+    "Хірург-пластик",
+    "Хірург-пластик",
+    "Загальна хірургія та хірургія органів травлення",
+    "Загальна хірургія та хірургія органів травлення",
+    "Функціональна та естетична ринопластика",
+    "ЛОР, спеціаліст з ринопластики",
+    "Ендокринологія та харчування",
+    "Естетична медицина"
+   ]
+  },
+  "seg": {
+   "kick": "Лікарняна безпека",
+   "h2": "Безпека госпітального рівня. Ми оперуємо в клініці Tres Torres та медичному центрі Teknon.",
+   "pills": [
+    "Сертифіковані лікарні",
+    "Обладнання найвищого рівня",
+    "Людяний супровід"
+   ]
+  },
+  "form": {
+   "kick": "Перший візит безкоштовно",
+   "h2": "Запишіться на безкоштовну консультацію сьогодні",
+   "p": "Вас приймає лікар-спеціаліст, без зобов'язань. Діагностика та фіксований кошторис включені.",
+   "list": [
+    "Індивідуальна діагностика безкоштовно",
+    "Детальний фіксований кошторис",
+    "Без зобов'язань, 100 % конфіденційно"
+   ],
+   "callDirect": "Зателефонуйте нам напряму"
+  },
+  "map": {
+   "title": "Карта: Médics Integral Salut у Жироні",
+   "kick": "Як нас знайти",
+   "h2": "Поговоримо? Ваші зміни починаються сьогодні.",
+   "address": "Адреса",
+   "phone": "Телефон",
+   "hours": "Графік роботи",
+   "hoursText": "З понеділка по п'ятницю: з 10:00 до 20:00<br />Субота та неділя: вихідний",
+   "cta": "Записатися на безкоштовну консультацію",
+   "wa": "WhatsApp · 620 892 236"
+  },
+  "todos": {
+   "kick": "Доступні процедури",
+   "h2": "Усі наші процедури"
+  },
+  "foot": {
+   "p": "Клініка хірургії та естетичної медицини в Жироні з {since} року. Природні результати та максимальна медична безпека.",
+   "contact": "Контакти",
+   "hours": "Графік роботи",
+   "cta": "Записатися на прийом →",
+   "privacy": "Конфіденційність",
+   "legal": "Юридичне повідомлення",
+   "cookies": "Файли cookie"
+  },
+  "urls": {
+   "home": "/uk/",
+   "unidades": "/uk/одиниці/",
+   "equipo": "/uk/пластична-хірургія-в-жироні-медичний/",
+   "privacidad": "/uk/політика-конфіденційності/",
+   "aviso": "/uk/юридичне-повідомлення/",
+   "cookies": "/uk/політика-щодо-файлів-cookie/",
+   "aumento": "/uk/одиниці/естетична-хірургія-грудей-2/збільшення-грудей-у-жироні-2/",
+   "liposuccion": "/uk/одиниці/естетична-хірургія-тіла-2/ліпосакція-2/",
+   "abdomino": "/uk/одиниці/естетична-хірургія-тіла-2/абдомінопластика/",
+   "rino": "/uk/одиниці/естетична-хірургія-обличчя-2/ринопластика-в-жироні/",
+   "obesidad": "/uk/одиниці/надмірна-вага-та-ожиріння-2/",
+   "facial": "/uk/одиниці/естетична-хірургія-обличчя-2/"
+  }
+ }
+}
