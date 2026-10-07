@@ -13,6 +13,7 @@ import Bandera from '../vc/Bandera.astro';
 import ConsentMode from '../ConsentMode.astro';
 import Consent from '../Consent.astro';
 import dict from '../../data/propuesta-i18n.json';
+import testi from '../../data/propuesta-testimonios.json';
 import homeEs from '../../content/pages/es/home.json';
 import homeCa from '../../content/pages/ca/home.json';
 import homeEn from '../../content/pages/en/home.json';
@@ -25,6 +26,14 @@ const homes: Record<string, any> = { es: homeEs, ca: homeCa, en: homeEn, fr: hom
 const home = homes[lang];
 const d = (dict as any)[lang];
 const U = d.urls;
+// Historias reales de pacientes (Instagram). Datos compactos en src/data/propuesta-testimonios.json; textos en d.hist.
+// mostrarObesidad (en ese JSON) = botón «Obesidad» pendiente de confirmar por el cliente: ponlo a false para ocultarlo y sus tarjetas.
+const H = d.hist;
+const MOSTRAR_OBESIDAD: boolean = testi.mostrarObesidad;
+const hItems = (testi.items as any[]).filter((x) => MOSTRAR_OBESIDAD || x.c !== 'obesidad');
+const hCount = (k: string) => hItems.filter((x) => (k === 'todas' ? x.c !== 'obesidad' : x.c === k)).length;
+const hKeys = ['todas', ...(testi.orden as string[]), ...(MOSTRAR_OBESIDAD ? ['obesidad'] : [])].filter((k) => hCount(k) > 0);
+const hFirst = new Set(hItems.filter((x) => x.c !== 'obesidad').slice(0, 6).map((x) => x.s));
 
 const B = (t: string) => home.blocks.find((b: any) => b.type === t) as any;
 const clinica = B('pt-clinica');
@@ -408,6 +417,51 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
   </div>
 </section>
 
+<!-- 12b · HISTORIAS REALES DE PACIENTES (testimonios de Instagram filtrables por cirugía) -->
+<section class="pl-hist" id="historias" data-more={H.more} data-view={H.view} data-vtitle={H.vtitle} data-ig={`https://www.instagram.com/reel/`}>
+  <div class="pl-wrap">
+    <div class="pl-hist-head pl-center">
+      <span class="pl-line"></span>
+      <span class="pl-kick pl-kick-o">{H.kick}</span>
+      <h2 set:html={H.h2} />
+      <p>{H.p}</p>
+    </div>
+    <div class="pl-hfil" role="group" aria-label={H.group}>
+      {hKeys.map((k) => (
+        <button type="button" class:list={['pl-hf', k === 'todas' && 'on']} data-f={k} aria-pressed={k === 'todas' ? 'true' : 'false'}>
+          {H.f[k]} <i>({hCount(k)})</i>{k === 'obesidad' && <em>{H.pend}</em>}
+        </button>
+      ))}
+    </div>
+    <div class="pl-hgrid" id="plhgrid" aria-live="polite">
+      {hItems.map((x) => {
+        const nombre = x.n ?? H.anon;
+        const lab = H.l[x.c];
+        return (
+          <button type="button" class="pl-hc" data-c={x.c} data-id={x.s} data-n={nombre} data-l={lab} hidden={!hFirst.has(x.s)} aria-label={H.view.replace('{n}', nombre).replace('{l}', lab)}>
+            <img src={`${IMG}/testimonios/${x.s}.webp`} alt="" loading="lazy" decoding="async" width="360" height="640" />
+            <span class="pl-hc-dur">{x.d}</span>
+            {x.c === 'obesidad' && <span class="pl-hc-o">{H.pendShort}</span>}
+            <span class="pl-hc-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z" /></svg></span>
+            <span class="pl-hc-t"><small>{lab}</small><b>{nombre}</b></span>
+          </button>
+        );
+      })}
+    </div>
+    <p class="pl-hempty" id="plhempty" hidden>{H.empty}</p>
+    <div class="pl-hmore" id="plhmore"><button type="button" class="pl-btn-ghost" id="plhmorebtn">{H.more}</button></div>
+    <p class="pl-hsrc">{H.src} <a href="https://www.instagram.com/medicsintegralsalut" target="_blank" rel="noopener">@medicsintegralsalut</a></p>
+  </div>
+  <dialog class="pl-hd" id="plhd" aria-label={H.dlg}>
+    <div class="pl-hd-box">
+      <div class="pl-hd-bar"><div><small id="plhdc"></small><b id="plhdn"></b></div><button type="button" class="pl-hx" id="plhx" aria-label={H.close}>&times;</button></div>
+      <div id="plhdf"></div>
+      <div class="pl-hd-gate" id="plhdg" hidden><p>{H.consent}</p><button type="button" class="pl-btn" id="plhdgb">{H.consentBtn}</button></div>
+      <p class="pl-hd-foot"><a id="plhdl" href="https://www.instagram.com/medicsintegralsalut" target="_blank" rel="noopener">{H.ig}</a></p>
+    </div>
+  </dialog>
+</section>
+
 <!-- 13 · FORMULARIO -->
 <section class="pl-form" id="formulario">
   <div class="pl-form-txt">
@@ -566,6 +620,89 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
   // Aparición suave
   const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
   document.querySelectorAll('main > section:not(.pl-hero)').forEach((s) => { s.classList.add('rv'); io.observe(s); });
+</script>
+
+<script>
+  // Historias reales: filtros por cirugía, «Ver más» y diálogo con el embed de Instagram.
+  // El iframe se crea SOLO al abrir el diálogo (nunca precargado) y se destruye al cerrarlo.
+  // Consentimiento: se lee (solo lectura) la misma clave que escribe Consent.astro ('mis-consent').
+  // TODO producción: si se sustituye el banner por una CMP externa, cambiar hayConsentimiento() para leer su estado.
+  (() => {
+    const sec = document.getElementById('historias');
+    const grid = document.getElementById('plhgrid');
+    if (!sec || !grid) return;
+    const more = document.getElementById('plhmore')!;
+    const moreBtn = document.getElementById('plhmorebtn')!;
+    const empty = document.getElementById('plhempty')!;
+    const dlg = document.getElementById('plhd') as HTMLDialogElement;
+    const holder = document.getElementById('plhdf')!;
+    const gate = document.getElementById('plhdg')!;
+    const fil = [...sec.querySelectorAll<HTMLButtonElement>('.pl-hf')];
+    const cards = [...grid.querySelectorAll<HTMLButtonElement>('.pl-hc')];
+    const rm = matchMedia('(prefers-reduced-motion:reduce)').matches;
+    let cur = 'todas', shown = 0, lastBtn: HTMLElement | null = null, current: HTMLElement | null = null;
+    const cols = () => getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+    const pageSize = () => { const c = cols(); return c * Math.ceil(6 / c); }; // al menos 6 y filas completas
+    const list = () => cards.filter((c) => (cur === 'todas' ? c.dataset.c !== 'obesidad' : c.dataset.c === cur));
+    const label = (L: HTMLElement[]) => { moreBtn.textContent = sec.dataset.more + (L.length > shown ? ` (${L.length - shown})` : ''); };
+    const render = (reset: boolean) => {
+      const L = list();
+      if (reset) shown = Math.min(pageSize(), L.length);
+      cards.forEach((c) => { c.hidden = true; c.classList.remove('out'); });
+      L.forEach((c, i) => { if (i < shown) { c.hidden = false; c.style.setProperty('--i', String(rm ? 0 : Math.min(i % pageSize(), 12))); } });
+      empty.hidden = L.length > 0;
+      more.hidden = shown >= L.length;
+      label(L);
+    };
+    const setFilter = (f: string) => {
+      if (f === cur) return;
+      cur = f;
+      fil.forEach((b) => { const on = b.dataset.f === f; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+      if (rm) { render(true); return; }
+      cards.forEach((c) => { if (!c.hidden) c.classList.add('out'); });
+      setTimeout(() => render(true), 190);
+    };
+    fil.forEach((b) => b.addEventListener('click', () => setFilter(b.dataset.f!)));
+    moreBtn.addEventListener('click', () => {
+      const prev = shown, L = list();
+      shown = Math.min(shown + pageSize(), L.length);
+      L.forEach((c, i) => { if (i < shown && c.hidden) { c.hidden = false; c.style.setProperty('--i', String(rm ? 0 : Math.min(i - prev, 12))); } });
+      more.hidden = shown >= L.length;
+      label(L);
+    });
+    let tmr: number;
+    addEventListener('resize', () => { clearTimeout(tmr); tmr = window.setTimeout(() => render(true), 150); });
+
+    const hayConsentimiento = () => { try { return localStorage.getItem('mis-consent') === 'granted'; } catch { return false; } };
+    const insertarEmbed = () => {
+      if (!current) return;
+      const id = current.dataset.id!, n = current.dataset.n!;
+      const f = document.createElement('iframe');
+      f.src = `https://www.instagram.com/reel/${id}/embed/`;
+      f.title = sec.dataset.vtitle!.replace('{n}', n);
+      f.allow = 'autoplay; encrypted-media; fullscreen';
+      f.allowFullscreen = true;
+      f.referrerPolicy = 'strict-origin-when-cross-origin';
+      holder.replaceChildren(f);
+      gate.hidden = true;
+    };
+    const abrir = (btn: HTMLElement) => {
+      lastBtn = current = btn;
+      document.getElementById('plhdn')!.textContent = btn.dataset.n!;
+      document.getElementById('plhdc')!.textContent = btn.dataset.l!;
+      (document.getElementById('plhdl') as HTMLAnchorElement).href = `https://www.instagram.com/reel/${btn.dataset.id}/`;
+      holder.replaceChildren();
+      gate.hidden = true;
+      dlg.showModal();
+      if (hayConsentimiento()) insertarEmbed(); else gate.hidden = false;
+    };
+    cards.forEach((c) => c.addEventListener('click', () => abrir(c)));
+    document.getElementById('plhdgb')!.addEventListener('click', insertarEmbed);
+    document.getElementById('plhx')!.addEventListener('click', () => dlg.close());
+    dlg.addEventListener('close', () => { holder.replaceChildren(); gate.hidden = true; current = null; lastBtn?.focus(); });
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+    render(true);
+  })();
 </script>
 </body>
 </html>
