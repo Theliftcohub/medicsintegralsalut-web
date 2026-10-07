@@ -158,6 +158,8 @@
   .vc .pt .ps-ped-g{grid-template-columns:minmax(0,1fr)}
   .vc .pt .ps-res-c{padding:16px}
   .vc .pt .ps-res-t{padding:10px 6px 0}
+  /* botones con textos largos (ru/uk) en móviles estrechos: pueden partirse en dos líneas */
+  .vc .pt .ps-btn{white-space:normal;max-width:100%;justify-content:center;text-align:center}
 }
 @media(prefers-reduced-motion:reduce){
   .vc .pt .ps-reel img,.vc .pt .ps-card,.vc .pt .ps-card-img img,.vc .pt .ps-btn{transition:none}
@@ -445,4 +447,7 @@ body.vc:has(.pt-n) .barra-movil .barra-wa svg{fill:currentColor}
   .vc .pt.pt-n .vc-tcard-t{font-size:15px}
   .vc .pt.pt-n .pt-pagehero--simple{padding:32px 0 0}
 }
+/* tarjetas de texto (hospitales de la clínica): foto 4:3 y, en tablet, dos columnas en vez de una */
+.vc .pt.pt-n .vc-prosa--tarjetas .vc-col>img:first-child{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+@media(min-width:641px) and (max-width:900px){.vc .pt.pt-n .vc-prosa--tarjetas .vc-cols{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px}}
 @media(prefers-reduced-motion:reduce){.vc .pt.pt-n :is(.vc-tcard,.vc-bcard){transition:none}}
