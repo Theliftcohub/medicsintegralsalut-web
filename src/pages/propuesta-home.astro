@@ -1,0 +1,414 @@
+---
+// PROPUESTA de portada (07/10/2026) con el estilo de la landing /clinica/ (petición del cliente)
+// + la sección de reels de Instagram que le gustó de la propuesta anterior.
+// Página aislada: no usa Base.astro ni toca las 6 home.json. Siempre noindex. Solo español.
+// Si se aprueba: se convierte en bloques `pl-*` y se aplica a las 6 portadas.
+import '../styles/propuesta-home.css';
+import NativeForm from '../components/NativeForm.astro';
+import site from '../data/site.json';
+import home from '../content/pages/es/home.json';
+
+const B = (t: string) => home.blocks.find((b: any) => b.type === t) as any;
+const clinica = B('pt-clinica');
+const unidades = B('pt-unidades');
+const doctora = B('ps-doctora');
+const historias = B('ps-historias');
+const contacto = B('pt-contacto');
+const r = site.rating;
+const nota = String(r.value).replace('.', ',');
+const anios = new Date().getFullYear() - r.since;
+const IMG = '/propuesta';
+const WA = 'https://api.whatsapp.com/send?phone=34620892236';
+
+const slides = [
+  { src: `${IMG}/hero-playa.webp`, pos: '60% 30%' },
+  { src: `${IMG}/hero-cuerpo.webp`, pos: '70% 30%' },
+  { src: `${IMG}/hero-perfil.webp`, pos: '70% 20%' },
+  { src: `${IMG}/hero-facial.webp`, pos: '70% 25%' },
+];
+
+const reels = [
+  { img: 'reel-pecho-sin-protesis', tag: '60k', t: '¿Quieres mejorar el pecho sin prótesis?', href: 'https://www.instagram.com/p/DZu3tjeFKb_/' },
+  { img: 'reel-no-creamos-una-clinica', tag: '35k', t: 'No creamos una clínica más', href: 'https://www.instagram.com/p/DYwpKEKChIH/' },
+  { img: 'reel-preserve', tag: 'Preserve', t: 'Aumento sin postoperatorio eterno', href: 'https://www.instagram.com/p/Davz27-uXQo/' },
+  { img: 'reel-lipedema', tag: 'Lipedema', t: '¿Sabes diferenciar la celulitis del lipedema?', href: 'https://www.instagram.com/p/DcRocCzmAcS/' },
+  { img: 'reel-capilar', tag: 'Capilar', t: 'Trasplante capilar sin raparte', href: 'https://www.instagram.com/p/DbIg1hom6M5/' },
+  { img: 'reel-equipo', tag: 'Equipo', t: 'Aquí no hay descanso que dure mucho', href: 'https://www.instagram.com/p/DYMb5EvEnoK/' },
+];
+
+const U = '/unidades';
+const trat = [
+  { t: 'Aumento de pecho', img: 't-aumento-pecho', href: `${U}/cirugia-estetica-mamas/aumento-de-pecho-girona/`, ic: 'heart' },
+  { t: 'Liposucción', img: 't-liposuccion', href: `${U}/cirugia-estetica-corporal/liposuccion/`, ic: 'spark' },
+  { t: 'Abdominoplastia', img: 't-abdominoplastia', href: `${U}/cirugia-estetica-corporal/abdominoplastia/`, ic: 'pulse' },
+  { t: 'Rinoplastia', img: 't-rinoplastia', href: `${U}/cirugia-estetica-facial/rinoplastia-girona/`, ic: 'frame' },
+  { t: 'Pérdida de peso', img: 't-obesidad', href: `${U}/sobrepeso-y-obesidad/`, ic: 'scale' },
+  { t: 'Cirugía facial', img: 't-facial', href: `${U}/cirugia-estetica-facial/`, ic: 'face' },
+];
+
+const equipo = [
+  { n: 'Dr. Mike Dewever', r: 'Cirujano plástico', img: 'dr-mike-dewever' },
+  { n: 'Dra. Marel Gómez', r: 'Cirujana plástica', img: 'dr-marel-gomez' },
+  { n: 'Dra. Ainitze Ibarzabal', r: 'Cirugía general y del aparato digestivo', img: 'dra-ainitze-ibarzabal' },
+  { n: 'Dr. Valentí Puig Diví', r: 'Cirugía general y aparato digestivo', img: 'dr-valenti-puig' },
+  { n: 'Dr. Cristóbal Langdon Montero', r: 'Rinoplastia funcional y estética', img: 'dr-cristobal-langdon' },
+  { n: 'Dr. Sergio Ángeles Montañez', r: 'Otorrino, especialista en rinoplastia', img: 'dr-sergio-angeles' },
+  { n: 'Dr. David Pérez Asensio', r: 'Endocrinología y nutrición', img: 'dr-david-perez' },
+  { n: 'Dra. Claudia Vera Ching', r: 'Medicina estética', img: 'dra-claudia-vera' },
+];
+
+const todos = unidades.unidades.flatMap((u: any) => u.links).filter((l: any, i: number, a: any[]) => a.findIndex((x: any) => x.href === l.href) === i);
+
+const icons: Record<string, string> = {
+  heart: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  spark: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+  pulse: '<path d="M3 12h4l2-5 4 10 2-5h6"/>',
+  frame: '<path d="M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4"/>',
+  scale: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9a4 4 0 0 1 6 0l-2 3"/>',
+  face: '<circle cx="12" cy="9" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/>',
+  star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z"/>',
+  check: '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+  shield: '<path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6z"/>',
+  phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
+  pin: '<path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  arrow: '<path d="m9 6 6 6-6 6"/>',
+  chat: '<path d="M4 5h16v11H9l-5 4z"/>',
+  doc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/>',
+  play: '<path d="M8 5v14l11-7z" fill="currentColor"/>',
+};
+const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[k]}</svg>`;
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Propuesta de portada · Médics Integral Salut</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Lato:wght@300;400;700;900&display=swap" />
+  <link rel="preload" as="image" href={slides[0].src} />
+</head>
+<body class="pl">
+
+<header class="pl-head" id="top">
+  <div class="pl-topbar">
+    <p>Clínica de cirugía y medicina estética en Girona · Primera valoración gratuita</p>
+    <span class="pl-lang"><b>ES</b> | <a href="/ca/">CA</a></span>
+  </div>
+  <div class="pl-nav">
+    <a class="pl-logo" href="/"><img src={site.logo} alt="Médics Integral Salut" width="200" height="79" /></a>
+    <nav aria-label="Principal">
+      <a href="#tratamientos">Tratamientos</a>
+      <a href="#equipo">Equipo médico</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="pl-tel" href="tel:+34972209086"><span set:html={svg('phone', 16)} /><span><small>Llámanos</small>972 20 90 86</span></a>
+    <a class="pl-btn" href="#formulario">Pide tu valoración</a>
+  </div>
+</header>
+
+<main>
+<!-- 1 · HERO -->
+<section class="pl-hero" aria-label="Portada">
+  <div class="pl-hero-bg" aria-hidden="true">
+    {slides.map((s, i) => <img class:list={['pl-slide', i === 0 && 'on']} src={s.src} alt="" style={`object-position:${s.pos}`} loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} />)}
+  </div>
+  <div class="pl-wrap pl-hero-in">
+    <span class="pl-badge" set:html={`${svg('pin', 12)} Girona · Desde ${r.since}`} />
+    <h1>Clínica Estética<br />en Girona</h1>
+    <p class="pl-lead">Cirugía plástica y medicina estética con resultados naturales y la máxima seguridad médica. Tu primera valoración es gratuita.</p>
+    <div class="pl-ctas">
+      <a class="pl-btn pl-btn-lg" href="#formulario">Pide tu valoración gratuita <span set:html={svg('arrow', 16)} /></a>
+      <a class="pl-btn-line" href="tel:+34972209086"><span set:html={svg('phone', 16)} /> 972 20 90 86</a>
+    </div>
+    <ul class="pl-trust">
+      <li><span class="pl-stars">★★★★★</span> {nota} · {r.count} reseñas en Google</li>
+      <li set:html={`${svg('check', 15)} Más de ${anios} años en Girona`} />
+      <li set:html={`${svg('shield', 15)} Operamos en Teknon y Tres Torres`} />
+    </ul>
+  </div>
+</section>
+
+<!-- 2 · CIFRAS -->
+<section class="pl-cifras">
+  <div class="pl-wrap pl-cifras-in">
+    <div><span class="pl-ic" set:html={svg('clock')} /><b>{r.since}</b><span>Desde entonces en Girona</span></div>
+    <div><span class="pl-ic" set:html={svg('face')} /><b>{equipo.length}</b><span>Especialistas en el equipo</span></div>
+    <div><span class="pl-ic" set:html={svg('star')} /><b>{nota}<i>★</i></b><span>Valoración en Google</span></div>
+    <div><span class="pl-ic" set:html={svg('check')} /><b>{r.count}+</b><span>Reseñas verificadas</span></div>
+  </div>
+</section>
+
+<!-- 3 · REELS (la sección que gustó de la propuesta anterior) -->
+<section class="pl-reels" id="videos">
+  <div class="pl-wrap">
+    <div class="pl-reels-head">
+      <div>
+        <span class="pl-kick">Nuestro Instagram</span>
+        <h2>Lo que la gente nos pregunta, <em>en vídeo</em></h2>
+        <p>Nuestros reels más vistos. Pacientes reales, médicos reales.</p>
+      </div>
+      <a class="pl-btn-dark" href="https://www.instagram.com/medicsintegralsalut/" target="_blank" rel="noopener">@medicsintegralsalut</a>
+    </div>
+    <div class="pl-reels-row">
+      {reels.map((x) => (
+        <a class="pl-reel" href={x.href} target="_blank" rel="noopener">
+          <img src={`${IMG}/${x.img}.webp`} alt="" width="360" height="640" loading="lazy" />
+          <i>{x.tag}</i>
+          <span class="pl-play" set:html={svg('play', 18)} />
+          <span class="pl-reel-t">{x.t}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- 4 · ELIGE TU TRATAMIENTO -->
+<section class="pl-sel" id="tratamientos">
+  <div class="pl-wrap">
+    <div class="pl-title pl-center"><span class="pl-line" /><span class="pl-kick">Especialidades</span><h2 class="pl-h2s">Selecciona tu tratamiento</h2></div>
+    <div class="pl-sel-row">
+      {trat.map((x) => <a href={x.href}><span set:html={svg(x.ic, 20)} />{x.t}</a>)}
+    </div>
+  </div>
+</section>
+
+<!-- 5 · POR QUÉ ELEGIRNOS -->
+<section class="pl-why">
+  <div class="pl-why-txt">
+    <span class="pl-kick pl-kick-o">Por qué elegirnos</span>
+    <h2>¿Por qué elegir<br />Médics Integral Salut?</h2>
+    <p>Somos tu clínica de confianza en Girona: especialistas en cirugía y medicina estética, con resultados naturales y garantía médica.</p>
+    <ol class="pl-why-list">
+      {clinica.ventajas.map((v: any, i: number) => (
+        <li class:list={[i === 0 && 'on']}><span>{String(i + 1).padStart(2, '0')}</span><div><b>{v.t}</b><small set:html={v.d} /></div></li>
+      ))}
+    </ol>
+    <a class="pl-btn" href="#formulario">Solicitar valoración gratuita <span set:html={svg('arrow', 16)} /></a>
+  </div>
+  <div class="pl-why-img"><img src={`${IMG}/por-que.webp`} alt="Recepción de Médics Integral Salut en Girona" loading="lazy" /></div>
+</section>
+
+<!-- 6 · LAS MÁS SOLICITADAS -->
+<section class="pl-mas">
+  <div class="pl-wrap">
+    <div class="pl-title"><span class="pl-kick">Cirugía estética Girona</span><h2>Las intervenciones<br />más solicitadas</h2>
+      <p>Cirujanos especialistas, un enfoque natural y resultados que hablan por sí mismos.</p></div>
+    <div class="pl-mas-grid">
+      {trat.map((x, i) => (
+        <a class="pl-card" href={x.href}>
+          <img src={`${IMG}/${x.img}.webp`} alt={x.t} loading="lazy" width="600" height="898" />
+          <span class="pl-card-n">{String(i + 1).padStart(2, '0')}</span>
+          <span class="pl-card-t"><b>{x.t}</b><small>Ver tratamiento →</small></span>
+        </a>
+      ))}
+    </div>
+    <p class="pl-center"><a class="pl-btn-ghost" href="/unidades/">Ver todos los tratamientos</a></p>
+  </div>
+</section>
+
+<!-- 7 · VÍDEO DEL EQUIPO -->
+<section class="pl-video">
+  <div class="pl-video-txt">
+    <span class="pl-kick pl-kick-o">Nuestro trabajo en vídeo</span>
+    <h2>La precisión<br />que nos define</h2>
+    <p>Cada intervención es única. Nuestro equipo combina técnica quirúrgica de primer nivel con un trato humano y cercano.</p>
+    <ol class="pl-mini">
+      <li><span>01</span>Cirujanos especialistas con años de experiencia</li>
+      <li><span>02</span>Técnicas mínimamente invasivas y resultados naturales</li>
+      <li><span>03</span>Seguimiento postoperatorio completo y personalizado</li>
+    </ol>
+    <a class="pl-btn" href="#formulario">Solicitar consulta <span set:html={svg('arrow', 16)} /></a>
+  </div>
+  <div class="pl-video-media">
+    <video src={`${IMG}/quirofano.mp4`} poster={`${IMG}/poster-quirofano.webp`} muted loop playsinline preload="none" data-auto></video>
+    <span class="pl-video-cap">Equipo quirúrgico<br /><b>Médics Integral Salut</b></span>
+  </div>
+</section>
+
+<!-- 8 · PRIMERA VISITA -->
+<section class="pl-visita">
+  <div class="pl-wrap">
+    <div class="pl-title pl-center pl-light"><span class="pl-line" /><span class="pl-kick">Valoración personalizada</span><h2>Tu primera visita en Girona incluye</h2></div>
+    <div class="pl-visita-grid">
+      <div><span class="pl-num">01</span><span class="pl-ic-sq" set:html={svg('chat', 16)} /><h3>Entrevista personalizada</h3><p>Escuchamos tus objetivos y resolvemos todas tus dudas desde el principio.</p></div>
+      <div><span class="pl-num">02</span><span class="pl-ic-sq" set:html={svg('doc', 16)} /><h3>Diagnóstico médico</h3><p>El especialista valora tu caso y te explica el tratamiento más adecuado.</p></div>
+      <div><span class="pl-num">03</span><span class="pl-ic-sq" set:html={svg('heart', 16)} /><h3>Plan y presupuesto cerrado</h3><p>Propuesta por escrito, con presupuesto cerrado y opciones de financiación.</p></div>
+    </div>
+    <p class="pl-center"><a class="pl-btn" href="#formulario">Reserva tu valoración <span set:html={svg('arrow', 16)} /></a></p>
+  </div>
+</section>
+
+<!-- 9 · LA DOCTORA RESPONDE -->
+<section class="pl-faq">
+  <div class="pl-wrap pl-faq-in">
+    <div class="pl-title"><span class="pl-kick">{doctora.kicker}</span><h2>{doctora.heading}</h2>
+      <p>Las dudas reales que nos hacéis en consulta y en redes, respondidas sin rodeos.</p></div>
+    <div class="pl-acc">
+      {doctora.items.map((q: any, i: number) => (
+        <details open={i === 0}><summary><span>{String(i + 1).padStart(2, '0')}</span>{q.q}</summary><p>{q.a}</p></details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- 10 · OPINIONES -->
+<section class="pl-ops">
+  <div class="pl-wrap">
+    <div class="pl-ops-head">
+      <span class="pl-kick">Opiniones verificadas</span>
+      <div class="pl-ops-score"><b>{nota}</b><span><span class="pl-stars">★★★★★</span><small>{r.count} reseñas en Google</small></span></div>
+    </div>
+    <div class="pl-ops-card">
+      <span class="pl-quote">“</span>
+      {historias.items.map((h: any, i: number) => (
+        <figure class:list={['pl-op', i === 0 && 'on']}>
+          <span class="pl-stars">★★★★★</span>
+          <blockquote>«{h.quote}»</blockquote>
+          <figcaption><span class="pl-ava">{h.name[0]}</span><span><b>{h.name}</b><small>{h.label} · {h.source}</small></span><em>Google</em></figcaption>
+        </figure>
+      ))}
+      <div class="pl-dots">{historias.items.map((_: any, i: number) => <button type="button" aria-label={`Opinión ${i + 1}`} class:list={[i === 0 && 'on']} />)}</div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 · EQUIPO -->
+<section class="pl-team" id="equipo">
+  <div class="pl-wrap">
+    <div class="pl-title pl-center"><span class="pl-line" /><span class="pl-kick">Especialistas</span><h2>Equipo médico de excelencia</h2>
+      <p>Cirujanos y médicos especialistas, con un trato cercano en cada paso.</p></div>
+    <div class="pl-team-box">
+      <ol class="pl-team-list">
+        {equipo.map((d, i) => (
+          <li><button type="button" data-i={i} class:list={[i === 0 && 'on']}><span class="pl-tn">{String(i + 1).padStart(2, '0')}</span><img src={`${IMG}/${d.img}.webp`} alt="" width="44" height="44" loading="lazy" /><span><b>{d.n}</b><small>{d.r}</small></span></button></li>
+        ))}
+      </ol>
+      <div class="pl-team-photo">
+        {equipo.map((d, i) => (
+          <figure class:list={[i === 0 && 'on']} data-i={i}>
+            <img src={`${IMG}/${d.img}.webp`} alt={d.n} loading="lazy" />
+            <figcaption><span class="pl-kick pl-kick-o">{d.r}</span><b>{d.n}</b><a href="#formulario">Solicitar consulta →</a></figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+    <p class="pl-center"><a class="pl-btn-ghost" href="/cirugia-plastica-girona-equipo-medico/">Conoce a todo el equipo</a></p>
+  </div>
+</section>
+
+<!-- 12 · SEGURIDAD -->
+<section class="pl-seg">
+  <img class="pl-seg-bg" src={`${IMG}/seguridad.webp`} alt="" loading="lazy" />
+  <div class="pl-wrap pl-seg-in">
+    <span class="pl-kick pl-kick-o">Seguridad hospitalaria</span>
+    <h2>Seguridad hospitalaria de primer nivel. Operamos en Clínica Tres Torres y Centro Médico Teknon.</h2>
+    <div class="pl-seg-pills">
+      <span set:html={`${svg('shield', 15)} Centros hospitalarios certificados`} />
+      <span set:html={`${svg('check', 15)} Equipos de primer nivel`} />
+      <span set:html={`${svg('heart', 15)} Acompañamiento humano`} />
+    </div>
+    <div class="pl-logos">{site.distintivos.map((l: any) => <img src={l.src} alt={l.alt} width={l.w} height={l.h} loading="lazy" />)}</div>
+  </div>
+</section>
+
+<!-- 13 · FORMULARIO -->
+<section class="pl-form" id="formulario">
+  <div class="pl-form-txt">
+    <span class="pl-kick pl-kick-o">Primera visita gratuita</span>
+    <h2>Solicita tu valoración gratuita hoy</h2>
+    <p>Te atiende el médico especialista, sin compromiso. Diagnóstico y presupuesto cerrado incluidos.</p>
+    <ul>
+      <li set:html={`${svg('check', 16)} Diagnóstico personalizado sin coste`} />
+      <li set:html={`${svg('doc', 16)} Presupuesto detallado y cerrado`} />
+      <li set:html={`${svg('shield', 16)} Sin compromiso, 100 % confidencial`} />
+    </ul>
+    <a class="pl-tel-big" href="tel:+34972209086"><span set:html={svg('phone', 18)} /><span><small>Llámanos directamente</small>972 20 90 86</span></a>
+  </div>
+  <div class="pl-form-card">
+    <h3>{contacto.titulo}</h3>
+    <p class="pl-sub">{contacto.texto}</p>
+    <NativeForm form={contacto.form} lang="es" cls="pl-nform" btnClass="pl-btn pl-btn-full" campos={true} />
+    <p class="pl-legal" set:html={contacto.legal} />
+  </div>
+</section>
+
+<!-- 14 · CONTACTO / MAPA -->
+<section class="pl-map" id="contacto">
+  <iframe title="Mapa: Médics Integral Salut en Girona" src="https://maps.google.com/maps?q=Pla%C3%A7a+Poeta+Marquina+3%2C+17002+Girona&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="pl-map-in">
+    <span class="pl-line" /><span class="pl-kick">Encuéntranos</span>
+    <h2>¿Hablamos? Tu cambio empieza hoy.</h2>
+    <div class="pl-map-grid">
+      <div><span class="pl-ic-sq" set:html={svg('pin', 16)} /><small>Dirección</small><p>Plaça Poeta Marquina, 3<br />17002 Girona</p></div>
+      <div><span class="pl-ic-sq" set:html={svg('phone', 16)} /><small>Teléfono</small><p><a href="tel:+34972209086"><b>972 20 90 86</b></a></p></div>
+      <div><span class="pl-ic-sq" set:html={svg('clock', 16)} /><small>Horario</small><p>Lunes a viernes: 10:00 a 20:00<br />Sábado y domingo: cerrado</p></div>
+    </div>
+    <div class="pl-ctas pl-center">
+      <a class="pl-btn" href="#formulario">Pedir valoración gratuita <span set:html={svg('arrow', 16)} /></a>
+      <a class="pl-btn-line" href={WA} target="_blank" rel="noopener">WhatsApp · 620 892 236</a>
+    </div>
+  </div>
+</section>
+
+<!-- 15 · TODOS LOS TRATAMIENTOS -->
+<section class="pl-todos">
+  <div class="pl-wrap">
+    <div class="pl-title pl-center"><span class="pl-line" /><span class="pl-kick">Tratamientos disponibles</span><h2 class="pl-h2s">Todos nuestros tratamientos</h2></div>
+    <div class="pl-chips">{todos.map((l: any) => <a href={l.href}>{l.text}</a>)}</div>
+  </div>
+</section>
+</main>
+
+<footer class="pl-foot">
+  <div class="pl-wrap pl-foot-in">
+    <div><span class="pl-foot-logo">Médics<small>Integral Salut</small></span><span class="pl-line" /><p>Clínica de cirugía y medicina estética en Girona desde {r.since}. Resultados naturales y máxima seguridad médica.</p></div>
+    <div><span class="pl-kick pl-kick-o">Contacto</span><p set:html={`${svg('pin', 14)} Plaça Poeta Marquina, 3 · 17002 Girona`} /><p><a href="tel:+34972209086" set:html={`${svg('phone', 14)} 972 20 90 86`} /></p><p><a href="mailto:info@medicsintegralsalut.com">info@medicsintegralsalut.com</a></p></div>
+    <div><span class="pl-kick pl-kick-o">Horario</span><p>Lunes a viernes: 10:00 a 20:00<br />Sábado y domingo: cerrado</p><a class="pl-btn-line" href="#formulario">Pedir cita →</a></div>
+  </div>
+  <div class="pl-wrap pl-foot-legal"><span>© {new Date().getFullYear()} Médics Integral Salut</span><span><a href="/politica-de-privacidad/">Privacidad</a><a href="/aviso-legal/">Aviso legal</a><a href="/politica-de-cookies/">Cookies</a></span></div>
+</footer>
+
+<a class="pl-wa" href={WA} target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.9-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
+
+<script>
+  // Hero: fundido entre fotos
+  const sl = [...document.querySelectorAll<HTMLElement>('.pl-slide')];
+  let k = 0;
+  if (sl.length > 1 && !matchMedia('(prefers-reduced-motion: reduce)').matches)
+    setInterval(() => { sl[k].classList.remove('on'); k = (k + 1) % sl.length; sl[k].classList.add('on'); }, 5500);
+  // Cabecera sólida al bajar
+  const hd = document.querySelector('.pl-head');
+  const onS = () => hd?.classList.toggle('solid', scrollY > 60);
+  addEventListener('scroll', onS, { passive: true }); onS();
+  // «Por qué elegirnos»: punto activo
+  document.querySelectorAll('.pl-why-list li').forEach((li) => li.addEventListener('mouseenter', () => {
+    document.querySelectorAll('.pl-why-list li').forEach((x) => x.classList.toggle('on', x === li));
+  }));
+  // Equipo: lista ↔ foto
+  const tb = [...document.querySelectorAll<HTMLButtonElement>('.pl-team-list button')];
+  const tf = [...document.querySelectorAll<HTMLElement>('.pl-team-photo figure')];
+  tb.forEach((b) => b.addEventListener('click', () => {
+    tb.forEach((x) => x.classList.toggle('on', x === b));
+    tf.forEach((f) => f.classList.toggle('on', f.dataset.i === b.dataset.i));
+  }));
+  // Opiniones: carrusel
+  const ops = [...document.querySelectorAll('.pl-op')];
+  const dots = [...document.querySelectorAll('.pl-dots button')];
+  let o = 0;
+  const show = (n: number) => { o = n; ops.forEach((x, i) => x.classList.toggle('on', i === n)); dots.forEach((x, i) => x.classList.toggle('on', i === n)); };
+  dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+  setInterval(() => show((o + 1) % ops.length), 7000);
+  // Vídeo: solo se carga y reproduce cuando entra en pantalla
+  const v = document.querySelector<HTMLVideoElement>('video[data-auto]');
+  if (v) new IntersectionObserver(([e]) => { if (e.isIntersecting) v.play().catch(() => {}); else v.pause(); }, { threshold: .3 }).observe(v);
+  // Aparición suave
+  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('main > section:not(.pl-hero)').forEach((s) => { s.classList.add('rv'); io.observe(s); });
+</script>
+</body>
+</html>
