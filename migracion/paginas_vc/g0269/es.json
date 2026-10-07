@@ -1,0 +1,261 @@
+[
+ {
+  "type": "vc-unidades",
+  "id": null,
+  "num": null,
+  "kicker": "Especialidades",
+  "heading": "Unidades Medics Integral Salut",
+  "text": [
+   "Especialistas en cada una de las diferentes técnicas de <strong>cirugía estética en Girona</strong>."
+  ],
+  "columns": [
+   [
+    {
+     "title": "Medicina estética facial",
+     "links": [
+      {
+       "text": "Ojeras",
+       "href": "/unidades/medicina-estetica-facial/ojeras/"
+      },
+      {
+       "text": "Aumento de labios",
+       "href": "/unidades/medicina-estetica-facial/aumento-labios/"
+      },
+      {
+       "text": "Arrugas de expresión",
+       "href": "/unidades/medicina-estetica-facial/arrugas-de-expresion/"
+      },
+      {
+       "text": "Flacidez: hilos tensores",
+       "href": "/unidades/medicina-estetica-facial/flacidez-hilos-tensores/"
+      },
+      {
+       "text": "Hidratación y nutrición",
+       "href": "/unidades/medicina-estetica-facial/hidratacion-y-nutricion/"
+      },
+      {
+       "text": "Peeling",
+       "href": "/unidades/medicina-estetica-facial/peeling/"
+      },
+      {
+       "text": "Relleno arrugas",
+       "href": "/unidades/cirugia-estetica-facial/relleno-de-arrugas/"
+      },
+      {
+       "text": "Rinomodelación",
+       "href": "/unidades/medicina-estetica-facial/rinomodelacion/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Medicina estética corporal",
+     "links": [
+      {
+       "text": "Liposucción sin cirugía",
+       "href": "/unidades/medicina-estetica-corporal/liposuccion-sin-cirugia/"
+      },
+      {
+       "text": "Celulitis",
+       "href": "/unidades/medicina-estetica-corporal/celulitis/"
+      }
+     ]
+    },
+    {
+     "title": "Medicina cosmética",
+     "links": [
+      {
+       "text": "Reducción de Volumen",
+       "href": "/unidades/gabinete-de-estetica/reduccion-de-volumen-girona/"
+      },
+      {
+       "text": "Eliminar Celulitis",
+       "href": "/unidades/gabinete-de-estetica/eliminar-celulitis/"
+      },
+      {
+       "text": "P50 Visage",
+       "href": "/unidades/gabinete-de-estetica/p50-visage/"
+      },
+      {
+       "text": "Ácido de frutas",
+       "href": "/unidades/gabinete-de-estetica/acido-de-frutas/"
+      },
+      {
+       "text": "Antiedad MC110",
+       "href": "/unidades/gabinete-de-estetica/antiedad-mc-110/"
+      },
+      {
+       "text": "Recuperador",
+       "href": "/unidades/gabinete-de-estetica/recuperador/"
+      },
+      {
+       "text": "Desintoxicante",
+       "href": "/unidades/gabinete-de-estetica/desintoxicante/"
+      },
+      {
+       "text": "Hidreclat",
+       "href": "/unidades/gabinete-de-estetica/hidreclat/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Sobrepeso y obesidad",
+     "links": [
+      {
+       "text": "Balón ingerible elipse",
+       "href": "/unidades/sobrepeso-y-obesidad/balon-ingerible-elipse/"
+      },
+      {
+       "text": "Balón 6 meses",
+       "href": "/unidades/sobrepeso-y-obesidad/balon-6-meses/"
+      },
+      {
+       "text": "Balón Gástrico 12 meses reajustable",
+       "href": "/unidades/sobrepeso-y-obesidad/balon-gastrico-girona/"
+      },
+      {
+       "text": "Endomanga MEGA",
+       "href": "/unidades/sobrepeso-y-obesidad/endomanga/"
+      },
+      {
+       "text": "Dietética y nutrición",
+       "href": "/unidades/sobrepeso-y-obesidad/dietetica-y-nutricion/"
+      },
+      {
+       "text": "Cirugía bariátrica",
+       "href": "/unidades/sobrepeso-y-obesidad/cirugia-bariatrica/"
+      },
+      {
+       "text": "Cirugía Postbariátrica",
+       "href": "/unidades/sobrepeso-y-obesidad/cirugia-postbariatrica/"
+      }
+     ]
+    },
+    {
+     "title": "Cirugía estética masculina",
+     "links": [
+      {
+       "text": "Ginecomastia",
+       "href": "/unidades/cirugia-estetica-masculina/ginecomastia/"
+      },
+      {
+       "text": "Blefaroplastia",
+       "href": "/unidades/cirugia-estetica-masculina/blefaroplastia/"
+      },
+      {
+       "text": "Aumento de pectoral",
+       "href": "/unidades/cirugia-estetica-masculina/aumento-de-pectoral/"
+      },
+      {
+       "text": "Lifting de cuello y papada",
+       "href": "/unidades/cirugia-estetica-masculina/liftting-de-cuello-y-papada/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Cirugía estética mamas",
+     "links": [
+      {
+       "text": "Aumento de pecho",
+       "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-girona/"
+      },
+      {
+       "text": "Aumento de pecho con la técnica AMI",
+       "href": "/unidades/cirugia-estetica-mamas/aumento-de-pecho-tecnica-ami/"
+      },
+      {
+       "text": "Elevación de pecho: pexia",
+       "href": "/unidades/cirugia-estetica-mamas/elevacion-de-pecho-pexia/"
+      },
+      {
+       "text": "Reducción de pecho",
+       "href": "/unidades/cirugia-estetica-mamas/reduccion-de-pecho/"
+      },
+      {
+       "text": "Recambio de prótesis",
+       "href": "/unidades/cirugia-estetica-mamas/recambiodeprotesis/"
+      }
+     ]
+    },
+    {
+     "title": "Cirugía estética facial",
+     "links": [
+      {
+       "text": "Rinoplastia",
+       "href": "/unidades/cirugia-estetica-facial/rinoplastia-girona/"
+      },
+      {
+       "text": "Perforación tabique nasal",
+       "href": "/unidades/cirugia-estetica-facial/perforacion-tabique-nasal/"
+      },
+      {
+       "text": "Blefaroplastia",
+       "href": "/unidades/cirugia-estetica-facial/blefaroplastia-girona/"
+      },
+      {
+       "text": "Minilifting de cuello y papada",
+       "href": "/unidades/cirugia-estetica-facial/minilifting-de-cuello-y-papada/"
+      },
+      {
+       "text": "Lifting facial",
+       "href": "/unidades/cirugia-estetica-facial/lifting-facial/"
+      },
+      {
+       "text": "Otoplastia",
+       "href": "/unidades/cirugia-estetica-facial/otoplastia-girona/"
+      },
+      {
+       "text": "Cirugía de mentón y pómulos",
+       "href": "/unidades/cirugia-estetica-facial/cirugia-menton-y-pomulos/"
+      }
+     ]
+    }
+   ]
+  ],
+  "wide": [
+   {
+    "title": "Cirugía estética corporal",
+    "links": [
+     {
+      "text": "Liposucción Váser",
+      "href": "/unidades/cirugia-estetica-corporal/liposuccion-vaser/"
+     },
+     {
+      "text": "Liposucción",
+      "href": "/unidades/cirugia-estetica-corporal/liposuccion/"
+     },
+     {
+      "text": "Aumento de glúteos",
+      "href": "/unidades/cirugia-estetica-corporal/aumento-de-gluteos/"
+     },
+     {
+      "text": "Cirugía genital femenina",
+      "href": "/unidades/cirugia-estetica-corporal/cirugia-genital-femenina/"
+     },
+     {
+      "text": "Lifting de brazos y piernas",
+      "href": "/unidades/cirugia-estetica-corporal/lifting-brazos-y-piernas/"
+     },
+     {
+      "text": "Lipofiling corporal",
+      "href": "/unidades/cirugia-estetica-corporal/lipofiling-corporal/"
+     },
+     {
+      "text": "Abdominoplastia",
+      "href": "/unidades/cirugia-estetica-corporal/abdominoplastia/"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "text": "Solicitar valoración",
+   "href": "#info"
+  },
+  "headingTag": "h1"
+ }
+]

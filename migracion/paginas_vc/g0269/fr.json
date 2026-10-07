@@ -1,0 +1,261 @@
+[
+ {
+  "type": "vc-unidades",
+  "id": null,
+  "num": null,
+  "kicker": "Spécialités",
+  "heading": "Unités Médicales Intégrales Salut",
+  "text": [
+   "Spécialistes dans chacune des différentes techniques de <strong>chirurgie esthétique à Gérone</strong>."
+  ],
+  "columns": [
+   [
+    {
+     "title": "Médecine esthétique du visage",
+     "links": [
+      {
+       "text": "Cernes",
+       "href": "/fr/unites/medecine-esthetique-faciale/cernes/"
+      },
+      {
+       "text": "Augmentation des lèvres",
+       "href": "/fr/unites/medecine-esthetique-faciale/augmentation-des-levres/"
+      },
+      {
+       "text": "Rides d'expression",
+       "href": "/fr/unites/medecine-esthetique-faciale/rides-dexpression/"
+      },
+      {
+       "text": "Flaccidité : fils tenseurs",
+       "href": "/fr/unites/medecine-esthetique-faciale/flaccidite-fils-tenseurs/"
+      },
+      {
+       "text": "Hydratation et nutrition",
+       "href": "/fr/unites/medecine-esthetique-faciale/hydratation-et-nutrition-2/"
+      },
+      {
+       "text": "Peel",
+       "href": "/fr/unites/medecine-esthetique-faciale/epluchage/"
+      },
+      {
+       "text": "Rides comblées",
+       "href": "/fr/unites/medecine-esthetique-faciale/"
+      },
+      {
+       "text": "Rinomodelation",
+       "href": "/fr/unites/medecine-esthetique-faciale/rinomodelisation/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Médecine esthétique corporelle",
+     "links": [
+      {
+       "text": "Liposuccion sans chirurgie",
+       "href": "/fr/unites/medecine-esthetique-corporelle/liposuccion-sans-chirurgie/"
+      },
+      {
+       "text": "Cellulite",
+       "href": "/fr/unites/medecine-esthetique-corporelle/cellulite/"
+      }
+     ]
+    },
+    {
+     "title": "Médecine esthétique",
+     "links": [
+      {
+       "text": "Réduction de volume",
+       "href": "/fr/unites/institut-de-beaute/reduccion-de-volumen-girona/"
+      },
+      {
+       "text": "Éliminer la cellulite",
+       "href": "/fr/unites/institut-de-beaute/eliminer-la-cellulite/"
+      },
+      {
+       "text": "P50 Visage",
+       "href": "/fr/unites/institut-de-beaute/visage-plie/"
+      },
+      {
+       "text": "Acide de fruits",
+       "href": "/fr/unites/institut-de-beaute/acide-de-fruits/"
+      },
+      {
+       "text": "Anti-âge MC110",
+       "href": "/fr/unites/institut-de-beaute/anti-age-mc-110/"
+      },
+      {
+       "text": "Récupérateur",
+       "href": "/fr/unites/institut-de-beaute/recuperateur/"
+      },
+      {
+       "text": "Détoxifiante",
+       "href": "/fr/unites/institut-de-beaute/detoxifiante/"
+      },
+      {
+       "text": "Hidreclat",
+       "href": "/fr/unites/institut-de-beaute/hidreclat/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Surpoids et obésité",
+     "links": [
+      {
+       "text": "Balle ingérable élliptique",
+       "href": "/fr/unites/surpoids-et-obesite-2/balle-comestible-ellipse/"
+      },
+      {
+       "text": "Ballon 6 mois",
+       "href": "/fr/unites/surpoids-et-obesite-2/ballon-6-mois/"
+      },
+      {
+       "text": "Ballon Gastrique 12 mois ajustable",
+       "href": "/fr/unites/surpoids-et-obesite-2/ballon-gastrique-gerone/"
+      },
+      {
+       "text": "Endomanga MEGA",
+       "href": "/fr/unites/surpoids-et-obesite-2/endomanga/"
+      },
+      {
+       "text": "Diététique et nutrition",
+       "href": "/fr/unites/surpoids-et-obesite-2/dietetique-et-nutrition/"
+      },
+      {
+       "text": "Chirurgie bariatrique",
+       "href": "/fr/unites/surpoids-et-obesite-2/chirurgie-bariatrique-2/"
+      },
+      {
+       "text": "Chirurgie post-bariatrique",
+       "href": "/fr/unites/surpoids-et-obesite-2/cirugia-postbariatrica/"
+      }
+     ]
+    },
+    {
+     "title": "Chirurgie esthétique masculine",
+     "links": [
+      {
+       "text": "Gynécomastie",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/gynecomastie/"
+      },
+      {
+       "text": "Blépharoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/blepharoplastie/"
+      },
+      {
+       "text": "Augmentation des pectoraux",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/aumento-de-pectoral/"
+      },
+      {
+       "text": "Lifting du cou et du menton",
+       "href": "/fr/unites/chirurgie-esthetique-masculine/lifting-du-cou-et-du-menton/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Chirurgie esthétique des seins",
+     "links": [
+      {
+       "text": "Augmentation mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-gerone/"
+      },
+      {
+       "text": "Augmentation mammaire avec la technique AMI",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/augmentation-mammaire-technique-ami/"
+      },
+      {
+       "text": "Pexie mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/lifting-des-seins-pexie-mammaire/"
+      },
+      {
+       "text": "Réduction mammaire",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/reduction-mammaire/"
+      },
+      {
+       "text": "Remplacement de prothèse",
+       "href": "/fr/unites/chirurgie-esthetique-des-seins-2/remplacement-de-prothese/"
+      }
+     ]
+    },
+    {
+     "title": "Chirurgie esthétique du visage",
+     "links": [
+      {
+       "text": "Rhinoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/"
+      },
+      {
+       "text": "Perforation de la cloison nasale",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/perforation-de-la-cloison-nasale/"
+      },
+      {
+       "text": "Blépharoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/blepharoplastie-gerone/"
+      },
+      {
+       "text": "Minilift du cou et du double menton",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/mini-lifting-du-cou-et-du-double-menton/"
+      },
+      {
+       "text": "Lifting du visage",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/lifting-du-visage/"
+      },
+      {
+       "text": "Otoplastie",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/otoplastie-gerone/"
+      },
+      {
+       "text": "Chirurgie du menton et des pommettes",
+       "href": "/fr/unites/chirurgie-esthetique-faciale/chirurgie-du-menton-et-des-pommettes-2/"
+      }
+     ]
+    }
+   ]
+  ],
+  "wide": [
+   {
+    "title": "Chirurgie esthétique corporelle",
+    "links": [
+     {
+      "text": "Liposuccion Vaser",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion-vaser/"
+     },
+     {
+      "text": "Liposuccion",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/liposuccion/"
+     },
+     {
+      "text": "Augmentation des fesses",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/augmentation-des-fessiers/"
+     },
+     {
+      "text": "Chirurgie génitale féminine",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/chirurgie-genitale-feminine-2/"
+     },
+     {
+      "text": "Lifting des bras et des jambes",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/soulever-les-bras-et-les-jambes/"
+     },
+     {
+      "text": "Lipofilling corporel",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/lipofilling-corporel/"
+     },
+     {
+      "text": "Abdominoplastie",
+      "href": "/fr/unites/chirurgie-esthetique-corporelle-2/abdominoplastie/"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "text": "Demande d'évaluation",
+   "href": "#info"
+  },
+  "headingTag": "h1"
+ }
+]

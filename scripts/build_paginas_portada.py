@@ -8,13 +8,19 @@ migracion/paginas_vc/<grupo>/<lang>.json) y:
 - financiación: el bloque final «¡Pero lo mejor para conocernos…!» pasa a la banda pt-cierre;
 - columnas con un único enlace (p. ej. los tratamientos de Medicina estética corporal) pasan a tarjetas (vc-tarjetas);
 - el resto de bloques se quedan (texto literal) y toman la piel de la portada (portada-extra.css) al ir dentro de .pt.
-Uso: python scripts/build_paginas_portada.py"""
-import glob, json, os, re
+Además (06/10/2026, «todas las páginas del menú con el estilo de la portada»):
+- la clínica (g0126): cabecera con el H1 y el primer párrafo; el resto del texto, la galería y los distintivos pasan a
+  ps-galeria (mosaico + tarjetas, como «La clínica» de la portada); los hospitales se quedan; el cierre pasa a pt-cierre
+  con su mismo nivel de encabezado;
+- el índice de unidades (g0269): vc-unidades pasa a las pestañas de la portada (pt-unidades) con el mismo H1.
+Uso: python scripts/build_paginas_portada.py [grupo ...]   (sin grupos: todos; después, corregir_traducciones.py)"""
+import glob, json, os, re, sys
 from urllib.parse import unquote
 from bs4 import BeautifulSoup
 
 GRUPOS = {"g0099": "financiacion", "g0031": "blog", "g0078": "contacto", "g0318": "unidad", "g0314": "unidad", "g0270": "unidad",
-          "g0315": "unidad", "g0326": "unidad", "g0278": "unidad", "g0297": "unidad"}
+          "g0315": "unidad", "g0326": "unidad", "g0278": "unidad", "g0297": "unidad", "g0126": "clinica", "g0269": "unidades"}
+SOLO = set(sys.argv[1:])  # regenerar solo estos grupos i18n
 T = json.load(open("scripts/portada_textos.json", encoding="utf-8"))
 CHROME = json.load(open("src/data/vc-chrome.json", encoding="utf-8"))
 WA = "https://api.whatsapp.com/send?phone=34620892236"
@@ -65,7 +71,7 @@ def portada_contacto(L):
 
 for f, page in list(PAGINAS.values()):
     tipo = GRUPOS.get(page.get("i18nGroup"))
-    if not tipo:
+    if not tipo or (SOLO and page["i18nGroup"] not in SOLO):
         continue
     L, C, t = page["lang"], CHROME[page["lang"]], T[page["lang"]]
     copia = f"migracion/paginas_vc/{page['i18nGroup']}/{L}.json"
@@ -73,6 +79,43 @@ for f, page in list(PAGINAS.values()):
         os.makedirs(os.path.dirname(copia), exist_ok=True)
         json.dump(page["blocks"], open(copia, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     bloques = json.load(open(copia, encoding="utf-8"))
+    ctas = [{"text": t["hero"]["cta"], "href": C["anchors"]["#info"]}, {"text": t["hero"]["wa"], "href": WA, "style": "wa"}]
+
+    if tipo == "unidades":  # cabecera con el mismo H1, etiqueta, texto y botón; debajo, las mismas unidades en pestañas
+        b = bloques[0]
+        assert b["type"] == "vc-unidades", page["path"]
+        cabecera = {"type": "pt-pagehero", "kicker": b.get("kicker"), "headingTag": "h1", "heading": b["heading"],
+                    "text": "".join(f"<p>{p}</p>" for p in b.get("text", [])),
+                    "ctas": [{**b["cta"], "href": C["anchors"].get(b["cta"]["href"], b["cta"]["href"])}] if b.get("cta") else []}
+        tabs = {"type": "pt-unidades", "id": b.get("id"), "label": b["heading"], "unidades": [g for col in b["columns"] for g in col] + b.get("wide", [])}
+        page["theme"], page["blocks"] = "portada", [cabecera, tabs] + bloques[1:]
+        json.dump(page, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(L, tipo, page["path"], "·", len(tabs["unidades"]), "unidades")
+        continue
+
+    if tipo == "clinica":
+        m = ENCABEZADO.match(bloques[0]["cols"][0]["html"])
+        titulo = texto_plano(m.group(2))
+        s = BeautifulSoup(bloques[1]["cols"][0]["html"], "html.parser")
+        fotos = [{"src": i["src"], "alt": i.get("alt", ""), "w": int(i.get("width", 600)), "h": int(i.get("height", 900))} for i in s.select(".vc-in ul img")]
+        paras = [p.decode_contents().strip() for p in s.select(".vc-in .vc-in-c p")]
+        items = [{"ic": i["src"], "t": h.get_text(" ", strip=True)}
+                 for i, h in zip(s.find_all("img", class_="vc-ico", recursive=False), s.find_all("h5", recursive=False))]
+        assert len(fotos) >= 5 and len(paras) >= 2 and items, (page["path"], len(fotos), len(paras), len(items))
+        c = BeautifulSoup(bloques[-1]["cols"][0]["html"], "html.parser")
+        h, btn, tel = c.find(["h2", "h3"]), c.find("a", class_="btn"), c.find("a", href=re.compile("^tel:"))
+        page["theme"] = "portada"
+        page["blocks"] = [
+            {"type": "pt-pagehero", "kicker": C["menu"][0]["text"], "headingTag": "h1", "heading": titulo, "text": f"<p>{paras[0]}</p>",
+             "ctas": ctas, "image": {**fotos[0], "alt": titulo}},
+            {"type": "ps-galeria", "paras": paras[1:], "fotos": fotos[1:5], "items": items},
+            *bloques[2:-1],
+            {"type": "pt-cierre", "headingTag": h.name, "heading": h.get_text(" ", strip=True), "html": "",
+             "ctas": [{"text": btn.get_text(" ", strip=True), "href": btn["href"]}, {"text": tel.get_text(" ", strip=True), "href": tel["href"], "style": "linea"}]},
+        ]
+        json.dump(page, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(L, tipo, page["path"], "·", titulo[:40], "·", len(fotos), "fotos", len(items), "distintivos")
+        continue
 
     # cabecera: primer bloque con solo un encabezado (y quizá un subtítulo); si no hay, el título de la página
     m = ENCABEZADO.match(bloques[0]["cols"][0].get("html") or "") if bloques[0]["type"] == "vc-prosa" and len(bloques[0].get("cols", [])) == 1 else None

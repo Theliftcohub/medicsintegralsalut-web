@@ -230,8 +230,10 @@ for f in glob.glob("src/content/pages/*/*.json"):
                         c[k] = arreglar(L, c[k])
             if b.get("html"):
                 b["html"] = arreglar(L, b["html"])
-            if b.get("intro"):
+            if isinstance(b.get("intro"), str) and b["intro"]:
                 b["intro"] = arreglar(L, b["intro"])
+            elif isinstance(b.get("intro"), list):  # ps-pedidos: lista de párrafos
+                b["intro"] = [arreglar(L, x) if isinstance(x, str) else x for x in b["intro"]]
     if L != "es" and TRAD[L]:
         j["blocks"] = traducir_json(L, j["blocks"])
         for k in ("title", "description"):

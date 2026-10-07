@@ -1,0 +1,20 @@
+---
+// La clínica (página /medics-integral-salut/ y sus traducciones) con el diseño de la portada: texto a la izquierda y
+// mosaico de fotos a la derecha; debajo, los distintivos en tarjetas. Textos, fotos e iconos literales del WordPress
+// (los distintivos eran <h5> y siguen siéndolo). Usa las clases de «La clínica» de la portada (pc-*).
+const { paras = [], fotos = [], items = [], itemTag = 'h5' } = Astro.props;
+const T = itemTag;
+---
+<section class="pc pc-pag">
+  <div class="pt-wrap">
+    <div class="pc-top">
+      <div class="pc-txt">{paras.map((p: string, n: number) => <p class:list={['rv', n ? 'd2' : 'd1']} set:html={p} />)}</div>
+      <div class="pc-bento rv d1">{fotos.map((i: any, n: number) => <figure class={`b${n + 1}`}>{i.alt
+        ? <img src={i.src} alt={i.alt} loading="lazy" decoding="async" width={i.w} height={i.h} />
+        : <img src={i.src} alt="" loading="lazy" decoding="async" width={i.w} height={i.h} />}</figure>)}</div>
+    </div>
+    {items.length > 0 && <ul class="pc-grid pc-grid-ico rv">
+      {items.map((v: any) => <li><span class="pc-ic" aria-hidden="true"><img src={v.ic} alt="" width="22" height="22" loading="lazy" decoding="async" /></span><T>{v.t}</T></li>)}
+    </ul>}
+  </div>
+</section>

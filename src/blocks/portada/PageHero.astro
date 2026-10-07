@@ -1,23 +1,37 @@
 ---
-// Cabecera de página interior con el estilo de la portada: texto a la izquierda y foto en arco con una cita.
+// Cabecera de página interior (referencia de dirección 06/10/2026: clinicatintore.com, páginas de tratamiento):
+// banda de foto a todo el ancho, en gris, con el H1 grande en mayúsculas y centrado. Debajo, el texto, la cita y los
+// botones que acompañan al H1 (mismo texto literal). Sin foto: cabecera sencilla a la izquierda.
+// Rendimiento: la foto es la imagen principal (LCP): sin carga diferida, con prioridad alta y srcset 800/1600.
 import { ext } from '../../lib/vc';
 const { kicker, headingTag = 'h1', heading, text, ctas = [], image, quote } = Astro.props;
 const H = headingTag;
+const largo = heading.length > 45;
+const intro = text || quote || ctas.length > 0;
 ---
-<section class:list={['pt-pagehero', !image && 'pt-pagehero--simple']}>
-  <div class="pt-wrap pt-pagehero-g">
-    <div>
-      {kicker && <div class="pt-eyebrow rv">{kicker}</div>}
-      <H class:list={['rv d1', heading.length > 45 && 'pt-h1-largo']}>{heading}</H>
-      {text && <div class="pt-pagehero-sub rv d2" set:html={text} />}
-      <div class="pt-pagehero-cta rv d3">
-        {ctas.map((c: any) => <a class:list={['pt-btn', (c.style === 'wa' || c.style === 'linea') && 'pt-linea']} href={c.href} {...ext(c.href)}>{c.text}</a>)}
+<section class:list={['pt-pagehero', image ? 'pt-ph' : 'pt-pagehero--simple']}>
+  {image ? (
+    <div class="ph-b">
+      <img class="ph-img" src={image.src} srcset={image.srcset} sizes="100vw" alt={image.alt} width={image.w} height={image.h}
+        fetchpriority="high" decoding="async" style={image.pos ? `object-position:${image.pos}` : undefined} />
+      <div class="pt-wrap ph-t">
+        {kicker && <div class="ph-k">{kicker}</div>}
+        <H class:list={['ph-h', largo && 'ph-h-largo']}>{heading}</H>
       </div>
     </div>
-    {image && <div class="pt-pf rv d2">
-      <div class="pt-pf-fondo"></div>
-      <div class="pt-pf-marco"><img src={image.src} alt={image.alt} width={image.w} height={image.h} fetchpriority="high" decoding="async" /></div>
-      {quote && <blockquote class="pt-pf-cita"><p set:html={quote.html} /><cite>{quote.author}</cite></blockquote>}
-    </div>}
-  </div>
+  ) : (
+    <div class="pt-wrap">
+      {kicker && <div class="pt-eyebrow">{kicker}</div>}
+      <H class:list={[largo && 'pt-h1-largo']}>{heading}</H>
+    </div>
+  )}
+  {intro && (
+    <div class="pt-wrap ph-intro">
+      {text && <div class="pt-pagehero-sub rv" set:html={text} />}
+      {quote && <blockquote class="ph-cita rv"><p set:html={quote.html} /><cite>{quote.author}</cite></blockquote>}
+      {ctas.length > 0 && <div class="pt-pagehero-cta rv d1">
+        {ctas.map((c: any) => <a class:list={['pt-btn', (c.style === 'wa' || c.style === 'linea') && 'pt-linea']} href={c.href} {...ext(c.href)}>{c.text}</a>)}
+      </div>}
+    </div>
+  )}
 </section>

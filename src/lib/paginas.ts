@@ -26,10 +26,18 @@ export function prepararBloques(blocks: any[], title?: string) {
     const a = attrs.includes('class="') ? attrs.replace('class="', 'class="h-as-h1 ') : `${attrs} class="h-as-h1"`;
     return `<h2${a}>${inner}</h2>`;
   });
+  const prep = (h: string) => decorativos(uno(h));
   return out.map((b) => {
     if (b.headingTag === 'h1') { if (visto) return { ...b, headingTag: 'h2' }; visto = true; return b; }
-    if (b.html) return { ...b, html: uno(b.html) };
-    if (b.cols) return { ...b, intro: b.intro && uno(b.intro), cols: b.cols.map((c: any) => ({ ...c, html: c.html && uno(c.html), after: c.after && uno(c.after) })) };
+    if (b.html) return { ...b, html: prep(b.html) };
+    if (b.cols) return { ...b, intro: b.intro && prep(b.intro), cols: b.cols.map((c: any) => ({ ...c, html: c.html && prep(c.html), after: c.after && prep(c.after) })) };
     return b;
   });
 }
+
+// 3) Enlaces cuyo único contenido es una foto decorativa (alt="", p. ej. la foto de cada tarjeta del blog, que repite el
+//    enlace del título): fuera del lector de pantalla y del tabulador (accesibilidad: «enlace sin nombre»). El enlace
+//    sigue en el HTML (Google lo rastrea igual) y no cambia ningún texto.
+const SOLO_FOTO = /<a(\s[^>]*)?>(\s*<img\b[^>]*\balt=""[^>]*>\s*)<\/a>/g;
+const decorativos = (h: string) => h.replace(SOLO_FOTO, (m, attrs = '', img) =>
+  /aria-hidden|aria-label/.test(attrs) ? m : `<a${attrs} tabindex="-1" aria-hidden="true">${img}</a>`);

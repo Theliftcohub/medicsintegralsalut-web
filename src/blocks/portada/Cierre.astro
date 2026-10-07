@@ -1,13 +1,14 @@
 ---
 // Cierre: provincia de Girona y Costa Brava, con dos botones.
 import { ext } from '../../lib/vc';
-const { kicker, heading, html, ctas = [] } = Astro.props;
+const { kicker, heading, headingTag = 'h2', html, ctas = [] } = Astro.props;
+const H = headingTag;
 ---
 <section class="pt-cierre">
   <div class="pt-wrap">
     {kicker && <div class="pt-eyebrow pt-c rv">{kicker}</div>}
-    <h2 class="rv d1">{heading}</h2>
-    <p class="rv d2" set:html={html} />
+    <H class="rv d1">{heading}</H>
+    {html && <p class="rv d2" set:html={html} />}
     <div class="pt-cta rv d3">{ctas.map((c: any) => <a class:list={['pt-btn', c.style === 'linea' && 'pt-linea']} href={c.href} {...ext(c.href)}>{c.text}</a>)}</div>
   </div>
 </section>

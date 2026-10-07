@@ -1,0 +1,44 @@
+[
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h1>Choisissez d'être entre les meilleures mains</h1>"
+   }
+  ],
+  "bg": "crema"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<div class=\"vc-in\" style=\"--g:4fr 8fr\"><div class=\"vc-in-c\"><ul><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut5.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut5.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut4.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut4.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut3.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut3.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut2.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut2.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut1.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut1.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut0.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut0.webp\" width=\"600\"/></a></li><li><a href=\"/images/wp/2022/10/slider_MedicsIntegralSalut6.webp\"><img alt=\"\" decoding=\"async\" height=\"900\" loading=\"lazy\" src=\"/images/wp/2022/10/slider_MedicsIntegralSalut6.webp\" width=\"600\"/></a></li></ul></div><div class=\"vc-in-c\"><p>Medics Integral Salut n'est pas une clinique de plus, notre priorité est que nos patients trouvent ce qu'ils viennent chercher: DES RÉSULTATS. Depuis 2014, nous sommes à Girona, notre clinique de<a href=\"/fr/\"> médecine esthétique à Gérone</a> est fortement liée à la clinique Rinos de Barcelone, une clinique avec plus de 25 ans d'expérience et une vaste équipe médicale, la même que nous avons à Gérone.</p><p>Medics Integral Salut compte différentes unités. Dans chacune d'elles, nous avons recherché l'excellence de l'équipe médico-chirurgicale : les meilleurs, les plus préparés, les plus et les mieux formés pour pouvoir offrir à nos patients la solution qu'ils attendent.</p><p>Nos patients sont opérés dans différents centres hospitaliers à Gérone ou à Barcelone. En fonction du type d'intervention, nous sélectionnons le centre hospitalier qui peut vous offrir la meilleure couverture. Toutes les interventions ne sont pas identiques, tous les centres hospitaliers ne sont pas spécialisés dans les différentes interventions que nous réalisons.</p></div></div>\n<img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/>\n<h5>Avec une équipe médicale forte de plus de 25 ans d'expérience en chirurgie</h5>\n<img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/>\n<h5>Chirurgiens Plasticiens membres de la SECPRE</h5>\n<img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/>\n<h5>Autorisé par le Departament de Salut de la Generalitat</h5>\n<img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/>\n<h5>Toutes les interventions dans des centres chirurgicaux agréés</h5>\n<img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"40\" loading=\"lazy\" src=\"/images/wp/2019/10/ntick.webp\" width=\"40\"/>\n<h5>Clinique au centre de Gérone</h5>"
+   }
+  ]
+ },
+ {
+  "type": "vc-prosa",
+  "bg": "crema",
+  "variant": "tarjetas",
+  "cols": [
+   {
+    "html": "<img alt=\"\" decoding=\"async\" height=\"225\" loading=\"lazy\" src=\"/images/wp/2019/10/clinica-diagonal-e1636115997284-300x225.webp\" width=\"300\"/><h3>Clinique Diagonal</h3><div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.77585165679!2d2.0952650156703694!3d41.3789544044806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4990640341897%3A0xc78f37389f029eed!2sCl%C3%ADnica%20Diagonal!5e0!3m2!1ses!2ses!4v1636374732652!5m2!1ses!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_phone_1055012.webp\" width=\"64\"/><p>902 88 33 55</p></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_crossroads_1055077.webp\" width=\"64\"/><p>C/ Saint Mateu 26<br/>\n08950 Esplugues de Llobregat</p></div></div>"
+   },
+   {
+    "html": "<img alt=\"\" decoding=\"async\" height=\"225\" loading=\"lazy\" src=\"/images/wp/2021/11/Clinica-Tres-Torres-e1636374185486-300x225.webp\" width=\"300\"/><h3>Clinique Tres Torres</h3><div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.836462468871!2d2.1267067154261614!3d41.39935777926301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4986b0a3637d3%3A0xf547683ba3cf1e20!2sCl%C3%ADnica%20Tres%20Torres%20Barcelona!5e0!3m2!1ses!2ses!4v1636373977798!5m2!1ses!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_phone_1055012.webp\" width=\"64\"/><p>932 36 05 00</p></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_crossroads_1055077.webp\" width=\"64\"/><p>Carrer de Balmes 271<br/>\n08006 Barcelone</p></div></div>"
+   },
+   {
+    "html": "<img alt=\"centre médical TEKNON\" decoding=\"async\" height=\"224\" loading=\"lazy\" src=\"/images/wp/2023/10/centro-medico-teknon-300x224.webp\" width=\"300\"/><h3>Centre Médical Teknon</h3><div class=\"vc-embed vc-embed--mapa\" data-embed=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.503348864897!2d2.1252992260606063!3d41.406590971297405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4981447f96d79%3A0xb814667ed34600a!2sCentro%20M%C3%A9dico%20Teknon!5e0!3m2!1ses!2ses!4v1698663989926!5m2!1ses!2ses\" data-title=\"Google Maps\"><button class=\"btn linea\" type=\"button\"><span>{{map_load}}</span></button></div>\n<div class=\"vc-in\" style=\"--g:6fr 6fr\"><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_phone_1055012.webp\" width=\"64\"/><p>932 90 62 00</p></div><div class=\"vc-in-c\"><img class=\"vc-ico\" alt=\"\" decoding=\"async\" height=\"64\" loading=\"lazy\" src=\"/images/wp/2019/11/iconfinder_crossroads_1055077.webp\" width=\"64\"/><p>Carrer de Vilana, 12, 08022 Barcelone</p></div></div>"
+   }
+  ],
+  "intro": "<h2>Hôpitaux</h2>\n<p>Les interventions sont toujours réalisées dans des cliniques de premier ordre, offrant à nos patients la sécurité et la confiance nécessaires pour réaliser l'intervention avec les garanties maximales.</p>"
+ },
+ {
+  "type": "vc-prosa",
+  "cols": [
+   {
+    "html": "<h3>Et le meilleur pour nous connaître, c'est que vous veniez nous voir !</h3>\n<div class=\"vc-in\" style=\"--g:4fr 4fr\"><div class=\"vc-in-c\"><p><a class=\"btn\" href=\"/fr/contact/\">Demander un rendez-vous gratuit</a></p></div><div class=\"vc-in-c\"><a href=\"tel:972209086\"><i></i><p>Appelez-nous dès maintenant, sans engagement</p></a></div></div>"
+   }
+  ]
+ }
+]

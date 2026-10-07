@@ -1,0 +1,261 @@
+[
+ {
+  "type": "vc-unidades",
+  "id": null,
+  "num": null,
+  "kicker": "Specialties",
+  "heading": "Integral Health Medical Units",
+  "text": [
+   "Specialists in each of the different techniques of <strong>Cosmetic surgery in Girona</strong>."
+  ],
+  "columns": [
+   [
+    {
+     "title": "Cosmetic facial medicine",
+     "links": [
+      {
+       "text": "Dark circles",
+       "href": "/en/units/facial-aesthetic-medicine/dark-circles/"
+      },
+      {
+       "text": "Lip augmentation",
+       "href": "/en/units/facial-aesthetic-medicine/lip-filler/"
+      },
+      {
+       "text": "Expression lines",
+       "href": "/en/units/facial-aesthetic-medicine/expression-lines/"
+      },
+      {
+       "text": "Sagging: lifting threads",
+       "href": "/en/units/facial-aesthetic-medicine/sagging-and-thread-lifts/"
+      },
+      {
+       "text": "Hydration and nutrition",
+       "href": "/en/units/facial-aesthetic-medicine/hydration-and-nutrition-2/"
+      },
+      {
+       "text": "Peeling",
+       "href": "/en/units/facial-aesthetic-medicine/shedding/"
+      },
+      {
+       "text": "Wrinkle fillers",
+       "href": "/en/units/facial-aesthetic-medicine/"
+      },
+      {
+       "text": "Rhinomodelling",
+       "href": "/en/units/facial-aesthetic-medicine/rhinomodelling/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Cosmetic medicine for the body",
+     "links": [
+      {
+       "text": "Non-surgical liposuction",
+       "href": "/en/units/cosmetic-body-medicine/non-surgical-liposuction/"
+      },
+      {
+       "text": "Cellulitis",
+       "href": "/en/units/cosmetic-body-medicine/cellulite/"
+      }
+     ]
+    },
+    {
+     "title": "Cosmetic medicine",
+     "links": [
+      {
+       "text": "Volume Reduction",
+       "href": "/en/units/beauty-salon/volume-reduction-girona-2/"
+      },
+      {
+       "text": "Eliminate Cellulite",
+       "href": "/en/units/beauty-salon/get-rid-of-cellulite/"
+      },
+      {
+       "text": "P50 Visage",
+       "href": "/en/units/beauty-salon/p50-face/"
+      },
+      {
+       "text": "Fruit acid",
+       "href": "/en/units/beauty-salon/fruit-acid-2/"
+      },
+      {
+       "text": "Anti-ageing MC110",
+       "href": "/en/units/beauty-salon/anti-ageing-mc-110/"
+      },
+      {
+       "text": "Salvage",
+       "href": "/en/units/beauty-salon/recoverer/"
+      },
+      {
+       "text": "Detoxifier",
+       "href": "/en/units/beauty-salon/detoxifying/"
+      },
+      {
+       "text": "Hidden",
+       "href": "/en/units/beauty-salon/clearance/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Overweight and Obesity",
+     "links": [
+      {
+       "text": "Ingestible ellipse ball",
+       "href": "/en/units/overweight-and-obesity-2/ingestible-balloon-elipse/"
+      },
+      {
+       "text": "Ball 6 months",
+       "href": "/en/units/overweight-and-obesity-2/balloon-6-months/"
+      },
+      {
+       "text": "12-month adjustable gastric balloon",
+       "href": "/en/units/overweight-and-obesity-2/gastric-balloon-girona/"
+      },
+      {
+       "text": "Endomanga MEGA",
+       "href": "/en/units/overweight-and-obesity-2/endomanga/"
+      },
+      {
+       "text": "Dietetics and nutrition",
+       "href": "/en/units/overweight-and-obesity-2/dietetics-and-nutrition-2/"
+      },
+      {
+       "text": "Bariatric surgery",
+       "href": "/en/units/overweight-and-obesity-2/bariatric-surgery-2/"
+      },
+      {
+       "text": "Post-bariatric surgery",
+       "href": "/en/units/overweight-and-obesity-2/cirugia-postbariatrica/"
+      }
+     ]
+    },
+    {
+     "title": "Male cosmetic surgery",
+     "links": [
+      {
+       "text": "Gynaecomastia",
+       "href": "/en/units/male-cosmetic-surgery/gynaecomastia/"
+      },
+      {
+       "text": "Eyelid surgery",
+       "href": "/en/units/male-cosmetic-surgery/eyelid-surgery/"
+      },
+      {
+       "text": "Chest augmentation",
+       "href": "/en/units/male-cosmetic-surgery/chest-augmentation/"
+      },
+      {
+       "text": "Neck and double chin lift",
+       "href": "/en/units/male-cosmetic-surgery/neck-and-double-chin-lift/"
+      }
+     ]
+    }
+   ],
+   [
+    {
+     "title": "Cosmetic breast surgery",
+     "links": [
+      {
+       "text": "Breast augmentation",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-girona-3/"
+      },
+      {
+       "text": "Breast augmentation with the AMI technique",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-augmentation-ami-technique/"
+      },
+      {
+       "text": "Breast lift: mastopexy",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-lift/"
+      },
+      {
+       "text": "Breast reduction",
+       "href": "/en/units/cosmetic-breast-surgery-2/breast-reduction/"
+      },
+      {
+       "text": "Prosthesis replacement",
+       "href": "/en/units/cosmetic-breast-surgery-2/prosthetic-replacement-2/"
+      }
+     ]
+    },
+    {
+     "title": "Cosmetic facial surgery",
+     "links": [
+      {
+       "text": "Rhinoplasty",
+       "href": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/"
+      },
+      {
+       "text": "Nasal septum piercing",
+       "href": "/en/units/cosmetic-facial-surgery-2/nasal-septum-piercing/"
+      },
+      {
+       "text": "Eyelid surgery",
+       "href": "/en/units/cosmetic-facial-surgery-2/eyelid-surgery-girona/"
+      },
+      {
+       "text": "Neck and double chin mini-lift",
+       "href": "/en/units/cosmetic-facial-surgery-2/neck-and-double-chin-mini-lift/"
+      },
+      {
+       "text": "Facelift",
+       "href": "/en/units/cosmetic-facial-surgery-2/facial-lift/"
+      },
+      {
+       "text": "Otoplasty",
+       "href": "/en/units/cosmetic-facial-surgery-2/ear-surgery-girona/"
+      },
+      {
+       "text": "Chin and cheekbone surgery",
+       "href": "/en/units/cosmetic-facial-surgery-2/chin-and-cheek-surgery/"
+      }
+     ]
+    }
+   ]
+  ],
+  "wide": [
+   {
+    "title": "Cosmetic body surgery",
+    "links": [
+     {
+      "text": "Vaser liposuction",
+      "href": "/en/units/cosmetic-surgery-3/vaser-liposuction-2/"
+     },
+     {
+      "text": "Liposuction",
+      "href": "/en/units/cosmetic-surgery-3/liposuction-2/"
+     },
+     {
+      "text": "Buttock augmentation",
+      "href": "/en/units/cosmetic-surgery-3/buttock-augmentation/"
+     },
+     {
+      "text": "Female genital surgery",
+      "href": "/en/units/cosmetic-surgery-3/female-genital-surgery-2/"
+     },
+     {
+      "text": "Arm and leg lift",
+      "href": "/en/units/cosmetic-surgery-3/lifting-arms-and-legs-2/"
+     },
+     {
+      "text": "Body lipofilling",
+      "href": "/en/units/cosmetic-surgery-3/body-fat-transfer/"
+     },
+     {
+      "text": "Abdominoplasty",
+      "href": "/en/units/cosmetic-surgery-3/abdominoplasty/"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "text": "Request valuation",
+   "href": "#info"
+  },
+  "headingTag": "h1"
+ }
+]
