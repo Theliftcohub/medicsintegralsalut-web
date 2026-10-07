@@ -15,7 +15,8 @@ const canonical = seo.canonical ?? abs(Astro.url.pathname);
 let robots = seo.robots ?? 'index, follow';
 if (entorno !== 'produccion') robots = 'noindex, nofollow';
 else if (!robots.includes('noindex')) robots += ', max-image-preview:large, max-snippet:-1, max-video-preview:-1';
-const og = abs(seo.ogImage);
+// sin imagen propia: la foto de la recepción de la clínica (al compartir en redes o mensajería siempre sale una imagen)
+const og = abs(seo.ogImage ?? (site as any).ogDefault);
 const alts = Object.entries(alternates);
 // x-default: la versión en español; si la página no la tiene, la inglesa; si tampoco, la primera disponible
 const xdef = alternates[site.defaultLang] ?? alternates.en ?? alts[0]?.[1];

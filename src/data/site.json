@@ -4,6 +4,7 @@
  "alternateName": "Medics Integral Salut",
  "type": "MedicalClinic",
  "logo": "/images/wp/2021/12/Logo-web-03_200.webp",
+ "ogDefault": "/images/wp/2025/11/recepcion-medic-salut.webp",
  "telephone": "+34 972 20 90 86",
  "address": {
   "streetAddress": "Plaça Poeta Marquina 3",

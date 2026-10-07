@@ -46,8 +46,16 @@ const crumbs = breadcrumbs.length > 1 ? [{
   <SeoHead seo={seo} lang={lang} alternates={alternates} graph={[...graph, ...crumbs]} />
   <ConsentMode />
   {entorno !== 'preview' && site.gtm && (
+    // GTM diferido (rendimiento, 07/10/2026): el contenedor y lo que carga (Ads, Analytics, Meta: ~460 KB de JS) se piden
+    // cuando la página ya está pintada: tras el evento load (en reposo, máx. 2,5 s) o al primer gesto del usuario, lo
+    // que ocurra antes. El dataLayer existe desde el principio: gtm.start y los eventos (form_submit…) quedan en cola.
+    // Consent Mode (ConsentMode.astro) sigue definiéndose antes, en el <head>.
     <script is:inline define:vars={{ id: site.gtm }}>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',id);
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var hecho=false;function cargar(){if(hecho)return;hecho=true;var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}
+        ['pointerdown','keydown','touchstart','scroll'].forEach(function(e){w.addEventListener(e,cargar,{once:true,passive:true});});
+        w.addEventListener('load',function(){if(w.requestIdleCallback){w.requestIdleCallback(cargar,{timeout:2500});}else{setTimeout(cargar,1500);}});
+      })(window,document,'script','dataLayer',id);
     </script>
   )}
 </head>

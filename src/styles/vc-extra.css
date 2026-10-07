@@ -143,3 +143,29 @@ body.vc>header .nav-units{text-transform:capitalize}
 @media(max-width:760px){.vc .wa-flot{display:none}}
 .vc .barra-movil a.barra-wa{display:flex;align-items:center;justify-content:center;gap:8px;background:#25D366;color:#fff;border-left:0}
 .vc .barra-movil a.barra-wa svg{width:18px;height:18px}
+
+/* contraste AA (07/10/2026, Lighthouse «color-contrast»): migas de pan (gris claro sobre crema, 2,4:1) y etiqueta de las
+   entradas (naranja sobre blanco a 10-11 px, 3,6:1) */
+.vc .vc-crumbs :is(a,span){color:#6B655E}
+.vc .kicker{color:#94631A}
+/* textos pequeños en naranja y gris claro de la maqueta y de la piel de los tratamientos: tonos algo más oscuros para
+   llegar a 4,5:1 (antes 3,6:1 y 2,7:1); y la etiqueta de las entradas .mpost (#D97E28, 3:1) */
+body.vc{--marca-txt:#94631A;--gris-cl:#6B655E}
+body.vc .mpost{--accent-d:#94631A;--accent-deep:#94631A;--muted:#6B655E}
+/* entradas .mpost (CSS literal de cada entrada, mpost-posts.css): botones naranjas con texto blanco (2,2:1), enlaces
+   naranjas y textos grises (3-4,2:1) -> tonos con 4,5:1 o más; botón de WhatsApp verde algo más oscuro */
+.vc .vc-post-mpost [class*="mpv-"] .mpp{--accent:#B35F0F;--accent-d:#A65A0E;--brand:#B35F0F;--muted:#666666;--wa:#666666}
+.vc .vc-post-mpost [class*="mpv-"] .mpp-btn.b-wa{color:#0B7438}
+/* barra inferior del móvil en toda la web: texto oscuro sobre el verde de WhatsApp (blanco daba 2:1) */
+.vc .barra-movil a.barra-wa{color:#0B2A1C}
+.vc .barra-movil a.barra-wa svg{fill:currentColor}
+.vc .vc-post-mpost [class*="mpv-"] .mpp-kicker{color:#9A520B}
+/* el logo no se deforma si la cabecera lo estrecha (menús largos en ru/uk) */
+.vc img.logo{object-fit:contain}
+/* entradas .mpost con el naranja #F3983F fijado en el CSS literal (enlaces, y con !important etiqueta, botones y filtros):
+   mismo naranja oscuro que el resto (AA); los iconos se quedan como están */
+.vc .vc-post-mpost [class*="mpv-"] .mpp a:not(.mpp-btn){color:#A65A0E}
+.vc .vc-post-mpost [class*="mpv-"] .mpp-kicker{color:#9A520B!important}
+.vc .vc-post-mpost [class*="mpv-"] .mpp :is(.b-primary,.mpp-filters button.is-active){background:#B35F0F!important;border-color:#B35F0F!important}
+.vc .vc-post-mpost [class*="mpv-"] .mpp-filters button.is-active{background:#B35F0F!important;border-color:#B35F0F!important}
+.vc .vc-post-mpost [class*="mpv-"] .mpp :is(.b-wa,.b-ghost):hover{color:#A65A0E!important;border-color:#A65A0E!important}

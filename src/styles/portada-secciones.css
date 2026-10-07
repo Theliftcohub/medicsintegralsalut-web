@@ -361,7 +361,7 @@ body.vc:has(.pt-n,.pl-home) .barra-movil .barra-wa svg{fill:currentColor}
 .vc .pt.pt-n .ph-intro .pt-pagehero-cta{margin-top:26px;gap:10px;justify-content:center}
 .vc .pt .ph-cita{margin:24px auto 0;max-width:640px;padding:0;border:0}
 .vc .pt .ph-cita p{margin:0;font-family:var(--grot);font-weight:700;font-size:20px;line-height:1.35;letter-spacing:-.01em;color:var(--tinta)}
-.vc .pt .ph-cita cite{display:block;margin-top:10px;font-style:normal;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--naranja-t)}
+.vc .pt .ph-cita cite{display:block;margin-top:10px;font-style:normal;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9A510C}
 /* sin foto: a la izquierda y compacta */
 .vc .pt.pt-n .pt-pagehero--simple{padding:48px 0 0;text-align:left}
 .vc .pt.pt-n .pt-pagehero--simple .pt-eyebrow{justify-content:flex-start}

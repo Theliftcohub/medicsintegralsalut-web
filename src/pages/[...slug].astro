@@ -3,6 +3,11 @@ import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Block from '../blocks/Block.astro';
 import PropuestaHome from '../components/propuesta/PropuestaHome.astro';
+import sharp from 'sharp';
+// Raleway (texto y titulares de las páginas «Versión C»: tratamientos, entradas, legales): se precargan los dos grosores
+// que se ven al cargar, para que el texto no cambie de tamaño al llegar la fuente (CLS en móvil).
+import raleway300 from '@fontsource/raleway/files/raleway-latin-300-normal.woff2?url';
+import raleway200 from '@fontsource/raleway/files/raleway-latin-200-normal.woff2?url';
 import ui from '../i18n/ui.json';
 import { prepararBloques } from '../lib/paginas';
 
@@ -45,12 +50,19 @@ if (kind === 'post') {
 // Portada (6 idiomas): diseño estilo /clinica/ (PropuestaHome). El SEO (title, description, canonical, hreflang, JSON-LD)
 // sigue saliendo de home.json, igual que antes.
 const esPortada = kind === 'page' && d.i18nGroup === 'home';
+const conRaleway = !esPortada && !(kind === 'page' && d.theme === 'portada');
+// foto principal de las entradas con su ancho y alto reales (sin ellos la página salta al cargarla: CLS)
+let fotoPost: { w?: number; h?: number } = {};
+if (kind === 'post' && d.image?.startsWith('/')) {
+  try { const m = await sharp('public' + decodeURI(d.image)).metadata(); fotoPost = { w: m.width, h: m.height }; } catch { /* sin copia local */ }
+}
 const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
 <Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}
   precargar={esPortada ? (['ru', 'uk'].includes(d.lang) ? [] : ['/fonts/figtree-latin.woff2'])
-    : kind === 'page' && d.theme === 'portada' && !['ru', 'uk'].includes(d.lang) ? ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'] : []}>
+    : kind === 'page' && d.theme === 'portada' ? (['ru', 'uk'].includes(d.lang) ? [] : ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'])
+    : conRaleway ? [raleway300, raleway200] : []}>
   {esPortada
     ? <PropuestaHome lang={d.lang} />
     : kind === 'page' && d.theme === 'portada'
@@ -65,7 +77,7 @@ const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.des
         <p class="vc-post-meta">{t.published} <time datetime={d.date.toISOString().slice(0, 10)}>{fmt(d.date)}</time>
           {d.modified && d.modified.getTime() !== d.date.getTime() && <> · {t.updated} <time datetime={d.modified.toISOString().slice(0, 10)}>{fmt(d.modified)}</time></>}
           · {t.by} {d.authorUrl ? <a href={d.authorUrl} rel="author">{d.author}</a> : d.author}</p>
-        {d.image && <img class="vc-post-img" src={d.image} alt={d.imageAlt} />}
+        {d.image && <img class="vc-post-img" src={d.image} alt={d.imageAlt} width={fotoPost.w} height={fotoPost.h} fetchpriority="high" decoding="async" />}
       </header>
     </div></section>
     {d.mpost ? (
