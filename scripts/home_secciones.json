@@ -108,6 +108,9 @@
      "Balón gástrico, endomanga y cirugía bariátrica, con equipo médico y nutricional."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "Ver trayectoria"
   }
  },
  "ca": {
@@ -218,6 +221,9 @@
      "Baló gàstric, endomànega i cirurgia bariàtrica, amb equip mèdic i nutricional."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "Veure la trajectòria"
   }
  },
  "en": {
@@ -328,6 +334,9 @@
      "Gastric balloon, endoscopic sleeve and bariatric surgery, with a medical and nutrition team."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "View background"
   }
  },
  "fr": {
@@ -438,6 +447,9 @@
      "Ballon gastrique, endosleeve et chirurgie bariatrique, avec une équipe médicale et nutritionnelle."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "Voir le parcours"
   }
  },
  "ru": {
@@ -548,6 +560,9 @@
      "Желудочный баллон, эндорукав и бариатрическая хирургия — с медицинской командой и нутрициологами."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "Подробнее о враче"
   }
  },
  "uk": {
@@ -658,6 +673,9 @@
      "Шлунковий балон, ендорукав і баріатрична хірургія — з медичною командою та нутриціологами."
     ]
    ]
+  },
+  "equipo": {
+   "ver": "Детальніше про лікаря"
   }
  }
 }

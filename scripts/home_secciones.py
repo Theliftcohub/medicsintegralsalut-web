@@ -128,6 +128,8 @@ for L in LANGS:
     }
     actuales = {b["type"]: b for b in page["blocks"] if b["type"] not in QUITAR and b["type"] not in NUEVOS}
     todos = {**actuales, **nuevos}
+    if "pt-equipo" in todos:   # textos de interfaz del equipo rediseñado (botón de la trayectoria y flechas)
+        todos["pt-equipo"].update(ver=t["equipo"]["ver"], prev=h["prev"], next=h["next"])
     sobran = [k for k in todos if k not in ORDEN]
     page["blocks"] = [todos[k] for k in ORDEN if k in todos] + [todos[k] for k in sobran]
     json.dump(page, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

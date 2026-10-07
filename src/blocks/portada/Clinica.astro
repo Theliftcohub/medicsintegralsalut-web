@@ -1,27 +1,28 @@
 ---
-// La clínica: collage de fotos, H1 y texto literal del WordPress, ventajas y contadores (site.json -> rating).
+// La clínica (portada, rediseño 06/10/2026): cabecera editorial (H1 + texto literal del WordPress), franja de fotos,
+// banda de cifras (site.json -> rating) y ventajas numeradas. Mismos datos y textos que antes: solo cambia la maquetación.
 import { fill, ratingText } from '../../lib/vc';
 const { kicker, headingTag = 'h1', heading, paras = [], sub, ventajas = [], extra = [], contadores, equipo, collage = [], lang = 'es' } = Astro.props;
 const H = headingTag;
+const cifras = [
+  { n: fill('{since}', lang), s: '', l: contadores.since },
+  { n: equipo, s: '+', l: contadores.team },
+  { n: ratingText(lang), s: '★', l: contadores.rating },
+  { n: fill('{count}', lang), s: '+', l: contadores.reviews },
+];
 ---
-<section class="pt-blanca pt-clinica">
-  <div class="pt-wrap pt-dos">
-    <div class="pt-collage rv">{collage.map((i: any) => <div class="pt-a"><img src={i.src} alt={i.alt} loading="lazy" decoding="async" width="600" height="600" /></div>)}</div>
-    <div>
-      <div class="pt-eyebrow rv">{kicker}</div>
-      <H class="rv d1">{heading}</H>
-      {paras.map((p: string, i: number) => <p class:list={[i === 0 && 'pt-lead', 'rv d2']} set:html={p} />)}
-      <h2 class="pt-sub-h rv d3">{sub}</h2>
-      <div class="pt-ventajas rv d3">
-        {ventajas.map((v: any) => <div class="pt-vt"><span class="pt-ic" aria-hidden="true">{v.ic}</span><div><h3>{v.t}</h3><p set:html={v.d} /></div></div>)}
-      </div>
-      {extra.map((p: string) => <p class="pt-extra" set:html={p} />)}
-      <div class="pt-conta rv d4">
-        <div class="pt-ct"><div class="pt-n"><span>{fill('{since}', lang)}</span><i>·</i></div><div class="pt-l">{contadores.since}</div></div>
-        <div class="pt-ct"><div class="pt-n"><span>{equipo}</span><i>+</i></div><div class="pt-l">{contadores.team}</div></div>
-        <div class="pt-ct"><div class="pt-n"><span>{ratingText(lang)}</span><i>★</i></div><div class="pt-l">{contadores.rating}</div></div>
-        <div class="pt-ct"><div class="pt-n"><span>{fill('{count}', lang)}</span><i>+</i></div><div class="pt-l">{contadores.reviews}</div></div>
-      </div>
+<section class="pc">
+  <div class="pt-wrap">
+    <div class="pc-cab">
+      <div>{kicker && <div class="ps-k rv">{kicker}</div>}<H class="rv d1">{heading}</H></div>
+      <div class="pc-txt rv d2">{paras.map((p: string) => <p set:html={p} />)}</div>
     </div>
+    <div class="pc-fotos rv">{collage.map((i: any) => <figure><img src={i.src} alt={i.alt} loading="lazy" decoding="async" width="600" height="600" /></figure>)}</div>
+    <dl class="pc-cifras rv">{cifras.map((c) => <div><dt>{c.l}</dt><dd>{c.n}{c.s && <i>{c.s}</i>}</dd></div>)}</dl>
+    <div class="pc-ven">
+      <h2 class="pc-sub rv">{sub}</h2>
+      <ol class="pc-lista rv d1">{ventajas.map((v: any) => <li><h3>{v.t}</h3><p set:html={v.d} /></li>)}</ol>
+    </div>
+    {extra.map((p: string) => <p class="pc-extra rv" set:html={p} />)}
   </div>
 </section>

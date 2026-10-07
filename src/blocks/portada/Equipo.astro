@@ -1,24 +1,43 @@
 ---
-// El equipo: fotos en arco, especialidad y biografía literales; tarjeta de contacto y enlace a la página del equipo.
-const { id, kicker, heading, text = [], members = [], card, mas } = Astro.props;
+// El equipo (portada, rediseño 06/10/2026): fila deslizable de fichas. Foto en blanco y negro que pasa a color al pasar
+// el ratón (como el hero), nombre, especialidad y trayectoria desplegable (biografía literal completa en el HTML).
+// Flechas con scroll nativo; en móvil se desliza con el dedo. Al final, la tarjeta de contacto.
+const { id, kicker, heading, text = [], members = [], card, mas, ver = 'Ver trayectoria', prev = 'Anterior', next = 'Siguiente' } = Astro.props;
 ---
-<section id={id} class="pt-crema2">
+<section id={id} class="pe">
   <div class="pt-wrap">
-    <div class="pt-head"><div class="pt-eyebrow pt-c rv">{kicker}</div><h2 class="rv d1">{heading}</h2>{text.map((p: string) => <p class="rv d2" set:html={p} />)}</div>
-    <div class="pt-equipo">
+    <div class="pe-cab">
+      <div>
+        {kicker && <div class="ps-k rv">{kicker}</div>}
+        <h2 class="rv d1">{heading}</h2>
+        {text.map((p: string) => <p class="pe-intro rv d2" set:html={p} />)}
+      </div>
+      <div class="pe-nav rv d2">
+        {mas && <a class="pe-mas" href={mas.href}>{mas.text}</a>}
+        <button type="button" class="pe-a" data-d="-1" aria-label={prev}></button>
+        <button type="button" class="pe-a pe-a2" data-d="1" aria-label={next}></button>
+      </div>
+    </div>
+    <ul class="pe-fila rv d1">
       {members.map((m: any) => (
-        <div class="pt-med rv">
-          <div class="pt-foto"><img src={m.image.src} alt={m.image.alt ?? m.name} loading="lazy" decoding="async" width="500" height="580" /></div>
-          <h3>{m.name}</h3><div class="pt-esp">{m.role}</div><p set:html={m.bio} />
-        </div>
+        <li class="pe-ficha">
+          <figure><img src={m.image.src} alt={m.image.alt ?? m.name} loading="lazy" decoding="async" width="500" height="580" /></figure>
+          <h3>{m.name}</h3>
+          <p class="pe-esp">{m.role}</p>
+          <details><summary>{ver}</summary><p set:html={m.bio} /></details>
+        </li>
       ))}
       {card && (
-        <div class="pt-med-card rv">
+        <li class="pe-card">
           <h3>{card.title}</h3><p>{card.text}</p>
-          {card.cta && <a class="pt-btn" href={card.cta.href}>{card.cta.text}</a>}
-        </div>
+          {card.cta && <a class="pe-card-btn" href={card.cta.href}>{card.cta.text}</a>}
+        </li>
       )}
-    </div>
-    {mas && <p class="pt-centro"><a class="pt-btn pt-linea" href={mas.href}>{mas.text}</a></p>}
+    </ul>
   </div>
+  <script is:inline>
+    document.querySelectorAll('.pe').forEach(function(s){var f=s.querySelector('.pe-fila');
+      s.querySelectorAll('.pe-a').forEach(function(b){b.addEventListener('click',function(){var c=f.querySelector('.pe-ficha');
+        f.scrollBy({left:(c?c.offsetWidth+16:300)*+b.dataset.d,behavior:'smooth'});});});});
+  </script>
 </section>
