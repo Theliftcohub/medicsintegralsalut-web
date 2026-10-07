@@ -1,6 +1,7 @@
 ---
-// La clínica (portada, rediseño 06/10/2026): cabecera editorial (H1 + texto literal del WordPress), franja de fotos,
-// banda de cifras (site.json -> rating) y ventajas numeradas. Mismos datos y textos que antes: solo cambia la maquetación.
+// La clínica (portada, rediseño 06/10/2026 v2): texto con el H1 a la izquierda y mosaico de fotos a la derecha;
+// debajo, tarjeta de cifras (site.json -> rating) y las ventajas en tarjetas de tres en tres.
+// Mismos datos y textos que antes (H1, párrafos, ventajas, alt): solo cambia la maquetación.
 import { fill, ratingText } from '../../lib/vc';
 const { kicker, headingTag = 'h1', heading, paras = [], sub, ventajas = [], extra = [], contadores, equipo, collage = [], lang = 'es' } = Astro.props;
 const H = headingTag;
@@ -13,16 +14,21 @@ const cifras = [
 ---
 <section class="pc">
   <div class="pt-wrap">
-    <div class="pc-cab">
-      <div>{kicker && <div class="ps-k rv">{kicker}</div>}<H class="rv d1">{heading}</H></div>
-      <div class="pc-txt rv d2">{paras.map((p: string) => <p set:html={p} />)}</div>
+    <div class="pc-top">
+      <div class="pc-txt">
+        {kicker && <div class="ps-k rv">{kicker}</div>}
+        <H class="rv d1">{heading}</H>
+        {paras.map((p: string) => <p class="rv d2" set:html={p} />)}
+      </div>
+      <div class="pc-bento rv d1">{collage.map((i: any, n: number) => <figure class={`b${n + 1}`}><img src={i.src} alt={i.alt} loading="lazy" decoding="async" width="600" height="600" /></figure>)}</div>
     </div>
-    <div class="pc-fotos rv">{collage.map((i: any) => <figure><img src={i.src} alt={i.alt} loading="lazy" decoding="async" width="600" height="600" /></figure>)}</div>
     <dl class="pc-cifras rv">{cifras.map((c) => <div><dt>{c.l}</dt><dd>{c.n}{c.s && <i>{c.s}</i>}</dd></div>)}</dl>
     <div class="pc-ven">
       <h2 class="pc-sub rv">{sub}</h2>
-      <ol class="pc-lista rv d1">{ventajas.map((v: any) => <li><h3>{v.t}</h3><p set:html={v.d} /></li>)}</ol>
+      <ul class="pc-grid rv d1">
+        {ventajas.map((v: any) => <li><span class="pc-ic" aria-hidden="true">{v.ic}</span><h3>{v.t}</h3><p set:html={v.d} /></li>)}
+      </ul>
+      {extra.map((p: string) => <p class="pc-extra" set:html={p} />)}
     </div>
-    {extra.map((p: string) => <p class="pc-extra rv" set:html={p} />)}
   </div>
 </section>

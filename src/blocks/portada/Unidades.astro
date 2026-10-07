@@ -1,9 +1,8 @@
 ---
-// Unidades (portada, rediseño 06/10/2026): índice de especialidades en filas (número, unidad y sus tratamientos como
-// etiquetas), con filtro por zona. Los filtros solo ocultan (hidden): todos los enlaces siguen en el HTML. Mismos textos
-// y enlaces que antes (la flecha de cada unidad es CSS, no forma parte del texto del enlace).
-const { id, kicker, heading, text = [], filtros, unidades = [], cta } = Astro.props;
-const zonas = ['todas', 'facial', 'corporal', 'mamas', 'masculina', 'obesidad', 'cosmetica'];
+// Unidades (portada, rediseño 06/10/2026 v2): un bloque con pestañas. A la izquierda las unidades; a la derecha, los
+// tratamientos de la elegida. Las demás pestañas solo se ocultan (hidden): todos los enlaces siguen en el HTML.
+// Mismos títulos, textos y enlaces que antes. Teclado: flechas arriba/abajo (izquierda/derecha en móvil), Inicio y Fin.
+const { id, kicker, heading, text = [], unidades = [], cta } = Astro.props;
 ---
 <section id={id} class="pu">
   <div class="pt-wrap">
@@ -13,23 +12,31 @@ const zonas = ['todas', 'facial', 'corporal', 'mamas', 'masculina', 'obesidad', 
         <h2 class="rv d1">{heading}</h2>
         {text.map((p: string) => <p class="pu-intro rv d2" set:html={p} />)}
       </div>
-      <div class="pu-chips rv d2" role="tablist" aria-label={filtros.label}>
-        {zonas.map((z, i) => <button type="button" class="pu-chip" role="tab" data-f={z} aria-selected={i === 0 ? 'true' : 'false'}>{filtros[z]}</button>)}
+      {cta && <a class="ps-btn rv d2" href={cta.href}>{cta.text}</a>}
+    </div>
+    <div class="pu-box rv">
+      <div class="pu-nav" role="tablist" aria-label={heading} aria-orientation="vertical">
+        {unidades.map((u: any, i: number) => (
+          <button type="button" class="pu-tab" role="tab" id={`pu-t${i}`} aria-controls={`pu-p${i}`} aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1}>
+            <span>{u.title}</span><small aria-hidden="true">{u.links.length}</small>
+          </button>
+        ))}
+      </div>
+      <div class="pu-paneles">
+        {unidades.map((u: any, i: number) => (
+          <div class="pu-panel" role="tabpanel" id={`pu-p${i}`} aria-labelledby={`pu-t${i}`} hidden={i !== 0}>
+            <h3>{u.href ? <a href={u.href}>{u.title}</a> : u.title}</h3>
+            <ul>{u.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+          </div>
+        ))}
       </div>
     </div>
-    <ol class="pu-lista rv">
-      {unidades.map((u: any) => (
-        <li class="pu-fila" data-c={u.c}>
-          <h3>{u.href ? <a href={u.href}>{u.title}</a> : u.title}</h3>
-          <ul>{u.links.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
-        </li>
-      ))}
-    </ol>
-    {cta && <p class="pu-cta"><a class="ps-btn" href={cta.href}>{cta.text}</a></p>}
   </div>
   <script is:inline>
-    document.querySelectorAll('.pu-chips').forEach(function(ch){var bs=ch.querySelectorAll('.pu-chip'),us=ch.closest('.pu').querySelectorAll('.pu-fila');
-      bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false')});
-        var f=b.dataset.f;us.forEach(function(u){u.hidden=!(f==='todas'||u.dataset.c===f)});});});});
+    document.querySelectorAll('.pu-box').forEach(function(box){var ts=[].slice.call(box.querySelectorAll('.pu-tab')),ps=box.querySelectorAll('.pu-panel');
+      function ir(n,foco){ts.forEach(function(t,k){var on=k===n;t.setAttribute('aria-selected',on?'true':'false');t.tabIndex=on?0:-1;ps[k].hidden=!on;});if(foco)ts[n].focus();}
+      ts.forEach(function(t,k){t.addEventListener('click',function(){ir(k);});
+        t.addEventListener('keydown',function(e){var n={ArrowDown:k+1,ArrowRight:k+1,ArrowUp:k-1,ArrowLeft:k-1,Home:0,End:ts.length-1}[e.key];
+          if(n===undefined)return;e.preventDefault();ir((n+ts.length)%ts.length,true);});});});
   </script>
 </section>
