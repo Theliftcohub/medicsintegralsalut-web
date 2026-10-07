@@ -162,3 +162,61 @@
 @media(prefers-reduced-motion:reduce){
   .vc .pt .ps-reel img,.vc .pt .ps-card,.vc .pt .ps-card-img img,.vc .pt .ps-btn{transition:none}
 }
+
+/* ===== Portada: las secciones anteriores (la clínica, unidades, equipo, logos, medicina estética y contacto) con la
+   misma paleta, tipografía, botones, radios y fondos que el diseño nuevo (06/10/2026). SOLO CSS: textos, títulos
+   (H1/H2), enlaces y textos alternativos no cambian, así que el SEO queda intacto. ===== */
+.vc .pt.pt-home{--cacao:#1B1F1D;--cacao-cl:#6B655E;--gris:#7A736B;--terra:#B4600E;--terra-cl:#fff;--marca:#1B1F1D;--marca-osc:#000;
+  --crema:#F8F5EF;--crema-2:#F8F5EF;--blanco:#F8F5EF;--linea:#E7E0D6;--borde:#E7E0D6;--arco:18px;--naranja-t:#B4600E;background:var(--crema)}
+.vc .pt.pt-home .pt-blanca,.vc .pt.pt-home .pt-crema2{background:transparent}
+/* ritmo vertical igual en todas las secciones */
+.vc .pt.pt-home>section:not(.hs):not(.ps-banda){padding:72px 0}
+.vc .pt.pt-home>section.ps-avi{padding-top:0}
+.vc .pt.pt-home>section.pt-distin{padding:24px 0}
+/* títulos: a la izquierda, tinta, mismo tamaño que las secciones nuevas; etiqueta naranja sin rayas */
+.vc .pt.pt-home :is(h1,h2){color:var(--cacao)}
+.vc .pt.pt-home>section:not(.hs) :is(h1,h2):not(.pt-sub-h){font-size:clamp(30px,4.2vw,46px)}
+.vc .pt.pt-home .pt-sub-h{font-size:clamp(20px,2.1vw,25px);letter-spacing:-.02em}
+.vc .pt.pt-home .pt-head{text-align:left;margin:0 0 40px;max-width:820px}
+.vc .pt.pt-home .pt-head p{margin-left:0;margin-right:0}
+.vc .pt.pt-home .pt-eyebrow,.vc .pt .ps-k{justify-content:flex-start;color:var(--naranja-t,#B4600E);font-size:11.5px;letter-spacing:.16em}
+.vc .pt.pt-home .pt-eyebrow::before,.vc .pt.pt-home .pt-eyebrow::after{display:none}
+.vc .pt.pt-home .pt-lead{font-size:16px;line-height:1.7}
+.vc .pt.pt-home h3{color:var(--cacao)}
+/* botones: los del diseño nuevo (oscuro y con borde fino) */
+.vc .pt.pt-home .pt-btn{background:var(--cacao);border-color:var(--cacao);color:#fff;border-radius:10px;padding:14px 22px;font-size:14px;font-weight:700;letter-spacing:0;text-transform:none}
+.vc .pt.pt-home .pt-btn:hover{background:#000;border-color:#000;color:#fff}
+.vc .pt.pt-home .pt-btn.pt-linea{background:transparent;color:var(--cacao);border-color:var(--linea)}
+.vc .pt.pt-home .pt-btn.pt-linea:hover{background:var(--cacao);border-color:var(--cacao);color:#fff}
+.vc .pt.pt-home .pt-centro{text-align:left}
+/* filtros de unidades */
+.vc .pt.pt-home .pt-chips{justify-content:flex-start}
+.vc .pt.pt-home .pt-chip{border-radius:10px;border:1px solid var(--linea);background:#fff;color:var(--cacao);padding:10px 18px}
+.vc .pt.pt-home .pt-chip:hover{border-color:var(--cacao);color:var(--cacao)}
+.vc .pt.pt-home .pt-chip[aria-selected="true"]{background:var(--cacao);border-color:var(--cacao);color:#fff}
+/* tarjetas: blancas, borde fino, esquinas de 14 px */
+.vc .pt.pt-home :is(.pt-uni,.pt-med-card){border-radius:14px}
+.vc .pt.pt-home .pt-uni{padding:24px 22px}
+.vc .pt.pt-home .pt-uni:hover{border-color:var(--cacao)}
+.vc .pt.pt-home :is(.pt-uni h3,.pt-vt h3,.pt-med h3,.pt-med-card h3){font-family:var(--grot);font-weight:700;letter-spacing:-.01em}
+.vc .pt.pt-home .pt-collage .pt-a{border-radius:16px}
+/* iconos: blancos con borde y trazo naranja */
+.vc .pt.pt-home :is(.pt-vt .pt-ic,.pt-datos .pt-f .pt-ic){background:#fff;border:1px solid var(--linea);color:var(--terra);border-radius:10px}
+.vc .pt.pt-home .pt-ct .pt-n{font-family:var(--grot);font-weight:800;letter-spacing:-.03em}
+/* contacto */
+.vc .pt.pt-home :is(.pt-form-zona,.pt-cont){border-radius:16px}
+.vc .pt.pt-home .pt-form-caja>.pt-tit{font-family:var(--grot);font-weight:800;letter-spacing:-.02em}
+.vc .pt.pt-home .pt-campo :is(input,select,textarea),.vc .pt.pt-home .pt-consent{background:#fff}
+.vc .pt.pt-home .pt-campo :is(input,select,textarea):focus{border-color:var(--cacao);box-shadow:0 0 0 3px rgba(27,31,29,.1)}
+.vc .pt.pt-home .pt-form-lat{background:#F3EEE6}
+@media(max-width:980px){.vc .pt.pt-home>section:not(.hs):not(.ps-banda){padding:60px 0}}
+@media(max-width:640px){.vc .pt.pt-home>section:not(.hs):not(.ps-banda){padding:48px 0}.vc .pt.pt-home>section.ps-avi{padding-top:0}}
+/* cabecera y barra inferior del móvil, solo en la portada: los mismos botones oscuros que el diseño nuevo */
+body.vc:has(.pt-home)>header nav>a[aria-current="page"],body.vc:has(.pt-home)>header .nav-units.activo{background:#1B1F1D;color:#fff}
+body.vc:has(.pt-home)>header .hdr-acc{border-radius:14px;border-color:#E7E0D6}
+body.vc:has(.pt-home)>header .hdr-acc .btn{background:#1B1F1D;border-color:#1B1F1D;color:#fff;border-radius:10px}
+body.vc:has(.pt-home)>header .hdr-acc .btn:hover{background:#000;border-color:#000;color:#fff}
+body.vc:has(.pt-home) .barra-movil a:not(.barra-wa){background:#1B1F1D;color:#fff}
+/* botones y campos no heredan la fuente por defecto (las etiquetas de los vídeos salían en Arial) */
+.vc .pt.pt-home :is(button,input,select,textarea){font-family:inherit}
+.vc .pt.pt-home .ps-cap{font-family:var(--grot);font-weight:700;letter-spacing:-.01em}
