@@ -335,3 +335,8 @@ body.pl{margin:0;font:300 16px/1.7 Lato,system-ui,-apple-system,"Segoe UI",sans-
   .pl-reels,.pl-sel,.pl-mas,.pl-faq,.pl-ops,.pl-team,.pl-visita,.pl-todos,.pl-map,.pl-seg{padding:80px 0}
   .pl-cifras{padding:50px 0}
 }
+
+/* ru/uk: Lato no tiene cirílico; Open Sans (se carga solo en esas páginas) y títulos algo más contenidos */
+html:lang(ru) body.pl,html:lang(uk) body.pl{font-family:"Open Sans",Lato,system-ui,-apple-system,"Segoe UI",sans-serif}
+.pl-card-t b{overflow-wrap:anywhere;hyphens:auto}
+@media(max-width:640px){html:lang(ru) .pl-card-t b,html:lang(uk) .pl-card-t b,html:lang(fr) .pl-card-t b{font-size:15px}}
