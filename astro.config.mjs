@@ -41,7 +41,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const p = new URL(page).pathname;
-        return !NOINDEX.has(decodeURI(p)) && p !== '/404/' && p !== '/410/';
+        return !NOINDEX.has(decodeURI(p)) && p !== '/404/' && p !== '/410/' && !p.startsWith('/propuesta-');
       },
     }),
   ],
