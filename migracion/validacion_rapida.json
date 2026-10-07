@@ -1,14 +1,2654 @@
 {
  "fails": [
   [
-   "destino",
-   "/ru/юнитац/эстетическая-хирургия-груди/",
-   "va a /ru/единицы/ (contrato: /ru/единицы/пластическая-хирургия-груди/увеличение-груди-жирона-2)"
+   "title",
+   "/ca/algunas-razones-por-las-que-no-perdemos-peso/",
+   "Motius pels quals no perdem pes - MedicsIntegralSalut ≠ Razones por las que no perdemos peso - MedicsIntegralSalut"
   ],
   [
-   "destino",
-   "/uk/одиниці-2/естетична-хірургія-грудей/",
-   "va a /uk/одиниці/ (contrato: /uk/одиниці/естетична-хірургія-грудей-2/збільшення-грудей-у-жироні-2)"
+   "title",
+   "/ca/alimentos-que-benefician-tu-piel/",
+   "Quins aliments beneficien la pell? - MedicsIntegralSalut ≠ ¿Qué Alimentos benefician la piel? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/aumento-mamario-con-protesis-motiva/",
+   "Pròtesis Motiva: Augment mamari - MedicsIntegralSalut ≠ Prótesis Motiva: Aumento Mamario - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/beneficios-de-la-cirugia-bariatrica/",
+   "Beneficis de la cirurgia bariàtrica - MedicsIntegralSalut ≠ Beneficios de la cirugía bariátrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/bichectomia-que-es/",
+   "Bichectomia: què és? - MedicsIntegralSalut ≠ Bichectomia que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/bienvenido-dr-langdon/",
+   "Benvingut Dr. Langdon - MedicsIntegralSalut ≠ Bienvenido Dr. Langdon - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/cambio-de-imagen-y-estilo-de-vida-con-la-cirugia-bariatrica/",
+   "Canvi d'imatge i d'estil de vida amb la Cirurgia Bariàtrica  ≠ Cambio de imagen y estilo de vida con la Cirugía Bariátrica "
+  ],
+  [
+   "title",
+   "/ca/cirugia-de-elevacion-de-pecho/",
+   "Cirurgia d'elevació de pit: tot el que has de saber - Medics ≠ Cirugía de elevación de pecho: todo lo que tenes que saber -"
+  ],
+  [
+   "title",
+   "/ca/como-cuidar-la-piel-a-los-50/",
+   "Com cuidar la pell de la cara als 50 - MedicsIntegralSalut ≠ Cómo cuidar la piel de la cara a los 50 - MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/ca/como-elegir-los-implantes-mamarios-adecuados/",
+   "Com triar els implants mamaris adequats? - MedicsIntegralSal ≠ ¿Cómo elegir los implantes mamarios adecuados? - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ca/como-eliminar-ojeras/",
+   "Com eliminar les ulleres? - MedicsIntegralSalut ≠ ¿Cómo eliminar las ojeras? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/consejo-en-la-cirugia-de-amento-de-mamas/",
+   "Consell en la cirurgia d'Augment de Mames - MedicsIntegralSa ≠ Consejo en la cirugía de Aumento de Mamas - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/ca/cuales-son-las-mejores-protesis-de-mama/",
+   "Quines són les millors pròtesis de pit? - MedicsIntegralSalu ≠ ¿Cuáles son las mejores prótesis de pecho? - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ca/cuando-debemos-poner-protesis-anatomicas/",
+   "En quin moment posar-se pròtesis anatòmiques? - MedicsIntegr ≠ ¿En que momento ponerse prótesis anatómicas? - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/ca/cuanto-cuesta-balon-gastrico/",
+   "Quant costa un baló gàstric: què inclou i de què depèn ⭐ ≠ Cuánto cuesta un balón gástrico: qué incluye y de que depend"
+  ],
+  [
+   "title",
+   "/ca/cuanto-cuesta-lifting-facial/",
+   "Quant costa un lífting facial: preu i factors ≠ Cuánto cuesta un lifting facial: precio y factores"
+  ],
+  [
+   "title",
+   "/ca/descubre-la-diferencia-entre-lipo-vaser-y-liposuccion/",
+   "Diferència entre Lipo Vaser i Liposucció: - MedicsIntegralSa ≠ Diferencia entre Lipo Vaser y Liposucción: - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ca/descubre-todo-lo-que-necesitas-saber-sobre-los-diferentes-tipos-de-cirugia-bariatrica/",
+   "El que cal que sàpigues sobre els diferents tipus de Cirurgi ≠ Lo que necesitas saber sobre diferentes tipos de Cirugía Bar"
+  ],
+  [
+   "title",
+   "/ca/elevacion-de-gluteos-sin-cirugia-es-posible/",
+   "Elevació de glutis sense cirurgia: és possible? - MedicsInte ≠ Elevación de glúteos sin cirugía: es posible? - MedicsIntegr"
+  ],
+  [
+   "title",
+   "/ca/eres-candidata-o-a-una-cirugia-bariatrica/",
+   "Ets candidat/a a una cirurgia bariàtrica? - MedicsIntegralSa ≠ ¿Eres candidata/o a una cirugía bariátrica? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ca/factors-de-creixement-obtinguts-de-les-plaquetes-prp/",
+   "Factors de creixement obtinguts de les plaquetes PRP - Medic ≠ Factors de creixement obtinguts de les plaquetes PRP - Medic"
+  ],
+  [
+   "title",
+   "/ca/la-belleza-del-rostro-el-triangulo-invertido/",
+   "Triangle invertit: La bellesa del rostre - MedicsIntegralSal ≠ Triangulo invertido: La belleza del rostro - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ca/la-ginecomastia-te-solucio-definitiva/",
+   "La Ginecomàstia té solució definitiva - MedicsIntegralSalut ≠ La Ginecomàstia te solució definitiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/la-importancia-de-seleccionar-el-tratamiento-adecuado-para-la-perdida-de-peso/",
+   "Tractament adequat per a la pèrdua de pes - MedicsIntegralSa ≠ Tratamiento Adecuado para la Pérdida de Peso- MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ca/la-importante-ayuda-de-los-farmacos-en-la-perdida-de-peso-ozempic-y-mounjaro-en-nuestra-clinica/",
+   "Ajuda de Fàrmacs en la Pèrdua de Pes: Ozempic i Mounjaro ≠ Ayuda de Fármacos en la Pérdida de Peso: Ozempic y Mounjaro"
+  ],
+  [
+   "title",
+   "/ca/la-nostra-experiencia-amb-la-rinoplastia-ultrasonica/",
+   "Diferències i avantatges de la rinoplàstia ultrasònica enfro ≠ La nostra experiència amb la rinoplàstia ultrasònica - Medic"
+  ],
+  [
+   "title",
+   "/ca/la-radiofrecuencia-la-mejor-solucion-a-la-flacidez/",
+   "La radiofreqüència, la millor solució a la flaccidesa - Medi ≠ La Radiofrecuencia, la mejor solución a la flacidez - Medics"
+  ],
+  [
+   "title",
+   "/ca/la-rinoplastia-ultrasonica-es-una-tecnica-de-cirugia-estetica-de-nariz/",
+   "La rinoplàstia ultrasònica és una tècnica de cirurgia estèti ≠ La rinoplastia ultrasónica es una técnica de cirugía estétic"
+  ],
+  [
+   "title",
+   "/ca/lexit-del-procediment-es-lexit-dels-resultats/",
+   "\"L'èxit del procediment és l'èxit dels resultats\" - MedicsIn ≠ \"El èxito del procedimiento, es el èxito de los resultados\" "
+  ],
+  [
+   "title",
+   "/ca/lipofilling-resultats-permanents-nomes-amb-greix/",
+   "Llipofilling: resultats permanents només amb greix - Medics ≠ Lipofilling, resultats permanents només amb greix - MedicsIn"
+  ],
+  [
+   "title",
+   "/ca/lunica-pilota-que-pot-estar-implantada-un-any/",
+   "L'única pilota que pot estar implantada un any - Pilota 12 m ≠ L'única pilota que pot estar implantada un any - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ca/novetat-fils-360o-efecte-lifting/",
+   "Fils facials efecte lifting 360º - MedicsIntegralSalut ≠ Novetat, fils 360º efecte lifting - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/otoplastia-que-es/",
+   "Otoplàstia: què és, operació d'orelles i recuperació ≠ Otoplastia: qué es, operación de orejas y recuperación"
+  ],
+  [
+   "title",
+   "/ca/para-que-tu-piel-no-cumpla-anos-coctel-de-vitaminas-y-acido-hialuronico/",
+   "Perquè la pell no faci anys: vitamines i àcid hialurònic ≠ Para que la piel no cumpla años: vitaminas y ácido hialuróni"
+  ],
+  [
+   "title",
+   "/ca/portfolio-category/videos-ca/",
+   "Arxius de vídeos - MedicsIntegralSalut ≠ Vídeos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/portfoli_pagina/aumento-pechos/",
+   "Augment de pits - MedicsIntegralSalut ≠ Aumento pechos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/portfoli_pagina/lipogilling/",
+   "Liposucció - MedicsIntegralSalut ≠ Liposucción - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/portfoli_pagina/video-prueba-1/",
+   "Bypass gàstric-Amador-Emili - MedicsIntegralSalut ≠ Bypass gastrico-Amador-Emili - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/primera-visita-para-aumento-de-pecho/",
+   "Primera visita al metge per a augment de pit - MedicsIntegra ≠ Primera visita al medico para aumento de pecho - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ca/protesis-redondas-vs-protesis-ergonomicas/",
+   "Pròtesis rodones vs. pròtesis ergonòmiques - MedicsIntegralS ≠ Prótesis Redondas vs. Prótesis Ergonómicas - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ca/que-es-la-bichectomia/",
+   "La bichectomia què és? - MedicsIntegralSalut ≠ ¿La bichectomía que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/que-es-la-tecnica-minimal-scar-en-aumento-de-pecho/",
+   "Què és la tècnica minimal scar en augment de pit? - MedicsIn ≠ ¿Qué es la técnica mínimal scar en aumento de pecho? - Medic"
+  ],
+  [
+   "title",
+   "/ca/que-es-mejor-liposuccion-tradicional-o-liposuccion-vaser/",
+   "Què és millor: liposucció tradicional o liposucció Vaser? -  ≠ Qué es mejor: ¿Liposucción tradicional o liposucción Váser? "
+  ],
+  [
+   "title",
+   "/ca/que-es-una-rinoplastia/",
+   "Què és una rinoplàstia: tipus, recuperació i resultats | Med ≠ Qué es una rinoplastia: tipos, recuperación y resultados | M"
+  ],
+  [
+   "title",
+   "/ca/rinoplastia-recuperacion-fotos/",
+   "Fotos de recuperació de rinoplàstia: abans i després ≠ Fotos de recuperación de rinoplastia: antes y después"
+  ],
+  [
+   "title",
+   "/ca/rinoplastia-sin-cirugia-rinoplastia-ultrasonica/",
+   "Diferències entre Rinoplàstia ultrasònica i Rinomodelació ✅ ≠ Diferencias entre Rinoplastia ultrasónica y Rinomodelación ✅"
+  ],
+  [
+   "title",
+   "/ca/siente-el-poder-del-bienestar-con-una-cirugia-estetica-para-los-pechos-separados/",
+   "Cirurgia Estètica per als Pits Separats: el Poder del Benest ≠ Cirugía Estética para los Pechos Separados: el Poder del Bie"
+  ],
+  [
+   "title",
+   "/ca/sk-10-el-tratamiento-con-una-inyeccion-que-adelgaza/",
+   "SK-10 Saxenda: el tractament amb una injecció que aprima - M ≠ SK-10 Saxenda: el tratamiento con una inyección que adelgaza"
+  ],
+  [
+   "title",
+   "/ca/solucion-mamas-tuberosas/",
+   "Solució per a mames tuberoses - MedicsIntegralSalut ≠ Solución para mamas tuberosas - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/tecnicas-de-medicina-estetica-que-nos-rejuvenecen/",
+   "Tècniques de medicina estètica que ens rejoveneixen - Medics ≠ Técnicas de Medicina Estética que nos rejuvenecen - MedicsIn"
+  ],
+  [
+   "title",
+   "/ca/transforma-tu-figura-con-la-elevacion-de-pecho-todo-lo-que-necesitas-saber/",
+   "Millora la teva figura amb l'elevació de pit: el que necessi ≠ Mejora tu figura con la elevación de pecho: lo que necesitas"
+  ],
+  [
+   "title",
+   "/ca/unitats/",
+   "Centre Mèdic Estètic a Girona | Medics Integral Salut ≠ Unitats - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/",
+   "Cirurgia Estètica Corporal a Girona | Medics Integral Salut ≠ Cirurgia estètica corporal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/abdominoplastia/",
+   "Abdominoplàstia Girona - Elimina l'excés de greix i pell ≠ Abdominoplàstia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/aixecament-de-bracos-i-cames/",
+   "Estirament de cuixes o braços - MedicsIntegralSalut ≠ Braços i cames enlaire - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/augment-de-glutis/",
+   "Augment de glutis - MedicsIntegralSalut ⭐ ≠ Augment de glutis - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/cirurgia-genital-femenina/",
+   "Labioplàstia Girona | Cirurgia Íntima | MedicsIntegralSalut  ≠ Cirurgia genital femenina - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/lipofilling-corporal/",
+   "Lipofilling corporal - Girona - MedicsIntegralSalut ≠ Lipofilling corporal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-corporal/liposuccio-vaser/",
+   "Liposucció Vaser Girona - MedicsIntegralSalut ⭐ ≠ Liposucció Làser - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/",
+   "Cirurgia Estètica Facial a Girona | Medics Integral Salut ≠ Cirurgia estètica facial - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/blefaroplastia/",
+   "Blefaroplàstia Girona - MedicsIntegralSalut ≠ Blefaroplàstia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/lifting-facial/",
+   "Lifting Facial Girona - MedicsIntegralSalut ≠ Lifting facial - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/minilifting-de-coll-i-papada/",
+   "Minilifting de coll i papada - MedicsIntegralSalut ≠ Minilift de coll i papada - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/otoplastia/",
+   "Otoplastia Girona | MedicsIntegralSalut ≠ Otoplàstia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-facial/rinoplastia/",
+   "【 Rinoplastia Girona | MedicsIntegralSalut 】® ≠ Rinoplàstia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-masculina/",
+   "Cirurgia Estètica Masculina a Girona | Medics Integral Salut ≠ Cirurgia estètica masculina - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-masculina/augment-de-pectoral/",
+   "Implants pectorals en homes | MedicsIntegralSalut ≠ Augment de pit - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/cirurgia-estetica-masculina/ginecomastia/",
+   "Eliminar Ginecomàstia Girona - MedicsIntegralSalut ≠ Ginecomàstia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/gabinet-destetica/",
+   "Gabinet d'estètica - MedicsIntegralSalut ≠ Clínica de Cirurgia Estètica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/gabinet-destetica/desintoxicant/",
+   "Desintoxicant - MedicsIntegralSalut ≠ Detox - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/gabinet-destetica/eliminar-cel·lulitis/",
+   "Eliminar cel·lulitis - MedicsIntegralSalut ≠ Elimina la cel·lulitis - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/gabinet-destetica/reduccio-de-volum-girona/",
+   "Reducció de volum a Girona - MedicsIntegralSalut ≠ Reducció de volum - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/gabinet-destetica/revitalitzacio-facial/",
+   "Revitalització facial - MedicsIntegralSalut ≠ Rejoveniment facial - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-corporal/",
+   "Medicina Estètica Corporal a Girona | Medics Integral Salut ≠ Medicina estètica corporal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-corporal/cel·lulitis/",
+   "Eliminar Cel·lulitis - MedicsIntegralSalut ≠ Cel·lulitis - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-facial/",
+   "Medicina Estètica Facial a Girona | Medics Integral Salut ≠ Medicina estètica facial - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-facial/arrugues-dexpressio/",
+   "Eliminació d'arrugues Girona - MedicsIntegralSalut ≠ Arrugues causades per l'expressió - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-facial/hidratacio-i-nutricio/",
+   "Mesoteràpia Girona - MedicsIntegralSalut ≠ Hidratació i nutrició - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/medicina-estetica-facial/pela/",
+   "Peeling a Girona - MedicsIntegralSalut ≠ Peeling - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/sobrepes-i-obesitat/",
+   "Sobrepès i Obesitat a Girona | Medics Integral Salut ≠ Sobrepes i obesitat - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/",
+   "Cirurgia bariàtrica a Girona - MedicsIntegralSalut ≠ Cirurgia bariàtrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/sobrepes-i-obesitat/cirurgia-bariatrica/gastrectomia-vertical/",
+   "Mànega Gàstrica - Gastrectomia Vertical - MedicsIntegralSalu ≠ Gastrectomia vertical - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/sobrepes-i-obesitat/dietetica-i-nutricio/",
+   "Nutricionista Girona | Dietistes | MedicsIntegralSalut ≠ Dietètica i nutrició - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ca/unitats/sobrepes-i-obesitat/endomanga/",
+   "Mètode Mega - Reducció gàstrica sense cirurgia - MedicsInteg ≠ Endomanga - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/algunas-razones-por-las-que-no-perdemos-peso/",
+   "Reasons why we don't lose weight - MedicsIntegralSalut ≠ Razones por las que no perdemos peso - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/algunes-raons-per-les-quals-no-perdem-pes/",
+   "Some reasons why we don't lose weight - MedicsIntegralSalut ≠ Algunes raons per les quals no perdem pes - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/en/alimentos-que-benefician-tu-piel/",
+   "Which Foods Benefit the Skin? - MedicsIntegralSalut ≠ ¿Qué Alimentos benefician la piel? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/augment-mamari-amb-protesi-motiva/",
+   "Breast Augmentation with Motiva Implants - MedicsIntegralSal ≠ Augment Mamari amb Pròtesi Motiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/beneficis-de-la-cirurgia-bariatrica/",
+   "Benefits of bariatric surgery - MedicsIntegralSalut ≠ Beneficis de la cirurgia bariàtrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/bichectomia-que-es/",
+   "What is a buccal fat removal? - MedicsIntegralSalut ≠ Bichectomia que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/canvi-dimatge-i-estil-de-vida-amb-la-cirurgia-bariatrica/",
+   "Change of image and lifestyle with Bariatric Surgery - Medic ≠ Canvi d'imatge i estil de vida amb la Cirurgia Bariàtrica - "
+  ],
+  [
+   "title",
+   "/en/carousels-category/personal/",
+   "Personal archives - MedicsIntegralSalut ≠ Personal archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/cirugia-de-elevacion-de-pecho/",
+   "Breast lift surgery: everything you need to know - MedicsInt ≠ Cirugía de elevación de pecho: todo lo que tenes que saber -"
+  ],
+  [
+   "title",
+   "/en/como-cuidar-la-piel-a-los-50/",
+   "How to care for facial skin at 50 - MedicsIntegralSalut ≠ Cómo cuidar la piel de la cara a los 50 - MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/en/como-cuidarse-despues-de-una-rinoplastia-los-mejores-consejos-para-un-rapido-postoperatorio/",
+   "How to take care of yourself after a rhinoplasty - MedicsInt ≠ Cómo cuidarse después de una rinoplastia - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/en/como-elegir-los-implantes-mamarios-adecuados/",
+   "How to choose the right breast implants? - MedicsIntegralSal ≠ ¿Cómo elegir los implantes mamarios adecuados? - MedicsInteg"
+  ],
+  [
+   "title",
+   "/en/como-eliminar-ojeras/",
+   "How to get rid of dark circles? - MedicsIntegralSalut ≠ ¿Cómo eliminar las ojeras? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/como-mejorar-la-estetica-de-las-cicatrices/",
+   "How to improve the appearance of scars - MedicsIntegralSalut ≠ Cómo mejorar la estética de las cicatrices - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/en/congela-el-temps/",
+   "Freeze time - MedicsIntegralSalut ≠ Congela el temps - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/congela-el-tiempo/",
+   "Freeze time - MedicsIntegralSalut ≠ Congela el tiempo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/cuales-son-las-mejores-protesis-de-mama/",
+   "What Are the Best Breast Implants? - MedicsIntegralSalut ≠ ¿Cuáles son las mejores prótesis de pecho? - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/en/cuando-debemos-poner-protesis-anatomicas/",
+   "When is the right time to get anatomical implants? - MedicsI ≠ ¿En que momento ponerse prótesis anatómicas? - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/en/cuanto-cuesta-balon-gastrico/",
+   "How much does a gastric balloon cost: what it includes and w ≠ Cuánto cuesta un balón gástrico: qué incluye y de que depend"
+  ],
+  [
+   "title",
+   "/en/cuanto-cuesta-lifting-facial/",
+   "How much does a facelift cost: price and factors ≠ Cuánto cuesta un lifting facial: precio y factores"
+  ],
+  [
+   "title",
+   "/en/cuanto-cuesta-rinoplastia-espana/",
+   "How Much Does a Rhinoplasty Cost in Spain | MedicsIntegralSa ≠ Cuánto cuesta una Rinoplastia en España | MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/en/deberia-reducirme-el-pecho/",
+   "Should I Have a Breast Reduction? - MedicsIntegralSalut ≠ ¿Debería reducirme el pecho? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/descubre-la-diferencia-entre-lipo-vaser-y-liposuccion/",
+   "Difference between Vaser Lipo and Liposuction: - MedicsInteg ≠ Diferencia entre Lipo Vaser y Liposucción: - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/en/descubre-todo-lo-que-necesitas-saber-sobre-los-diferentes-tipos-de-cirugia-bariatrica/",
+   "What you need to know about the different types of Bariatric ≠ Lo que necesitas saber sobre diferentes tipos de Cirugía Bar"
+  ],
+  [
+   "title",
+   "/en/elevacio-de-glutis-sense-cirurgia-es-possible/",
+   "Buttock lift without surgery: is it possible? - MedicsIntegr ≠ Elevació de glutis sense cirurgia, és possible - MedicsInteg"
+  ],
+  [
+   "title",
+   "/en/elevacion-de-gluteos-sin-cirugia-es-posible/",
+   "Buttock lift without surgery: is it possible? - MedicsIntegr ≠ Elevación de glúteos sin cirugía: es posible? - MedicsIntegr"
+  ],
+  [
+   "title",
+   "/en/els-meus-tractaments-preferits-resultats-immediats/",
+   "My favourite treatments, immediate results - MedicsIntegralS ≠ Els meus tractaments preferits, resultats immediats - Medics"
+  ],
+  [
+   "title",
+   "/en/eres-candidata-o-a-una-cirugia-bariatrica/",
+   "Are You a Candidate for Bariatric Surgery? - MedicsIntegralS ≠ ¿Eres candidata/o a una cirugía bariátrica? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/en/factores-de-crecimiento-obtenidos-de-las-plaquetas-prp/",
+   "Platelet-derived growth factors PRP - Medics ≠ Factores de crecimiento obtenidos de las plaquetas PRP - Med"
+  ],
+  [
+   "title",
+   "/en/factors-de-creixement-obtinguts-de-les-plaquetes-prp/",
+   "Growth factors obtained from PRP platelets - MedicsIntegralS ≠ Factors de creixement obtinguts de les plaquetes PRP - Medic"
+  ],
+  [
+   "title",
+   "/en/hauria-de-reduir-el-meu-pit/",
+   "Should I have a breast reduction? - MedicsIntegralSalut ≠ Hauria de reduir el meu pit? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/hi-ha-solucio-per-a-lantiestetica-marca-del-cansament-sota-els-ulls/",
+   "There is a solution for the unsightly mark of tiredness unde ≠ Hi ha solució per a l'antiestètica marca del cansament sota "
+  ],
+  [
+   "title",
+   "/en/la-bellesa-del-rostre-el-triangle-invertit/",
+   "The beauty of the face, the inverted triangle - MedicsIntegr ≠ La bellesa del rostre, el triangle invertit - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/en/la-ginecomastia-te-solucio-definitiva/",
+   "Gynecomastia has a definitive solution - MedicsIntegralSalut ≠ La Ginecomàstia te solució definitiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/la-ginecomastia-tiene-solucion-definitiva/",
+   "Gynecomastia has a definitive solution - MedicsIntegralSalut ≠ La Ginecomastia tiene solución definitiva - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/en/la-importancia-de-seleccionar-el-tratamiento-adecuado-para-la-perdida-de-peso/",
+   "Suitable Treatment for Weight Loss - MedicsIntegralSalut ≠ Tratamiento Adecuado para la Pérdida de Peso- MedicsIntegral"
+  ],
+  [
+   "title",
+   "/en/la-nostra-experiencia-amb-la-rinoplastia-ultrasonica/",
+   "Our experience with ultrasonic rhinoplasty - MedicsIntegralS ≠ La nostra experiència amb la rinoplàstia ultrasònica - Medic"
+  ],
+  [
+   "title",
+   "/en/la-radiofrecuencia-la-mejor-solucion-a-la-flacidez/",
+   "Radiofrequency, the best solution for sagging skin - MedicsI ≠ La Radiofrecuencia, la mejor solución a la flacidez - Medics"
+  ],
+  [
+   "title",
+   "/en/la-reduccion-de-mamas-mas-que-un-cambio-de-volumen-un-cambio-de-vida/",
+   "Breast Reduction: More Than a Change in Volume ≠ Reducción de Mamas: Más Que un Cambio de Volumen"
+  ],
+  [
+   "title",
+   "/en/la-rinoplastia-ultrasonica-es-una-tecnica-de-cirugia-estetica-de-nariz/",
+   "Ultrasonic rhinoplasty is an aesthetic nose surgery techniqu ≠ La rinoplastia ultrasónica es una técnica de cirugía estétic"
+  ],
+  [
+   "title",
+   "/en/lexit-del-procediment-es-lexit-dels-resultats/",
+   "\"The success of the procedure is the success of the results\" ≠ \"El èxito del procedimiento, es el èxito de los resultados\" "
+  ],
+  [
+   "title",
+   "/en/lipofilling-resultados-permanentes-solo-con-grasa/",
+   "Lipofilling: permanent results using only fat - Medics ≠ Lipofilling: resultados permanentes sólo con grasa - Medics"
+  ],
+  [
+   "title",
+   "/en/lipofilling-resultats-permanents-nomes-amb-greix/",
+   "Lipofilling, permanent results using only fat - MedicsIntegr ≠ Lipofilling, resultats permanents només amb greix - MedicsIn"
+  ],
+  [
+   "title",
+   "/en/lunica-pilota-que-pot-estar-implantada-un-any/",
+   "The only balloon that can stay implanted for a year - Medics ≠ L'única pilota que pot estar implantada un any - MedicsInteg"
+  ],
+  [
+   "title",
+   "/en/mis-tratamientos-preferidos-resultados-inmediatos/",
+   "My favourite treatments, immediate results - MedicsIntegralS ≠ Mis tratamientos preferidos, resultados inmediatos - MedicsI"
+  ],
+  [
+   "title",
+   "/en/novedad-hilos-360o-efecto-lifting/",
+   "360º lifting effect facial threads - MedicsIntegralSalut ≠ Hilos faciales efecto lifting 360º - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/nuestra-experiencia-con-la-rinoplastia-ultrasonica/",
+   "Differences and advantages of ultrasonic rhinoplasty compare ≠ Diferencias y ventajas de la rinoplastia ultrasónica frente "
+  ],
+  [
+   "title",
+   "/en/otoplastia-que-es/",
+   "Otoplasty: what it is, ear surgery and recovery ≠ Otoplastia: qué es, operación de orejas y recuperación"
+  ],
+  [
+   "title",
+   "/en/para-que-tu-piel-no-cumpla-anos-coctel-de-vitaminas-y-acido-hialuronico/",
+   "So that your skin doesn't age: vitamins and hyaluronic acid ≠ Para que la piel no cumpla años: vitaminas y ácido hialuróni"
+  ],
+  [
+   "title",
+   "/en/perque-envellim/",
+   "Why do we age? - MedicsIntegralSalut ≠ Perquè envellim? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/perque-la-teva-pell-no-faci-anys-coctel-de-vitamines-i-acid-hialuronic/",
+   "So your skin doesn't show its age: vitamin cocktail and hyal ≠ Perquè la teva pell no faci anys: còctel de vitamines i àcid"
+  ],
+  [
+   "title",
+   "/en/portfolio-category/videos-ca/",
+   "Videos archives - MedicsIntegralSalut ≠ Vídeos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/",
+   "Portfolio archive - MedicsIntegralSalut ≠ Portfolio archivo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/augmentation-pit/",
+   "Breast augmentation - MedicsIntegralSalut ≠ Augment pit - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/aumento-pechos/",
+   "Breast augmentation - MedicsIntegralSalut ≠ Aumento pechos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/lipogilling/",
+   "Liposuction - MedicsIntegralSalut ≠ Liposucción - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/obesity/",
+   "Obesity - MedicsIntegralSalut ≠ Obesidad - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/video-prueba-1/",
+   "Gastric bypass-Amador-Emili - MedicsIntegralSalut ≠ Bypass gastrico-Amador-Emili - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/portfolio_page/video-prueba-2/",
+   "Breast augmentation- mike-eli - MedicsIntegralSalut ≠ Aumento pecho- mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/primera-visita-para-aumento-de-pecho/",
+   "First visit to the doctor for breast augmentation - MedicsIn ≠ Primera visita al medico para aumento de pecho - MedicsInteg"
+  ],
+  [
+   "title",
+   "/en/que-es-faci-la-llum-al-rostre/",
+   "What is Faci la llum al rostre - MedicsIntegralSalut ≠ Que es faci la llum al rostre - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/que-es-la-bichectomia/",
+   "What is buccal fat removal? - MedicsIntegralSalut ≠ ¿La bichectomía que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/que-es-la-tecnica-minimal-scar-en-aumento-de-pecho/",
+   "What is the minimal scar technique in breast augmentation? - ≠ ¿Qué es la técnica mínimal scar en aumento de pecho? - Medic"
+  ],
+  [
+   "title",
+   "/en/que-es-mejor-liposuccion-tradicional-o-liposuccion-vaser/",
+   "Which is better: traditional liposuction or Vaser liposuctio ≠ Qué es mejor: ¿Liposucción tradicional o liposucción Váser? "
+  ],
+  [
+   "title",
+   "/en/que-son-las-protesis-de-mamas-ergonomicas/",
+   "What are ergonomic breast implants? - MedicsIntegralSalut ≠ ¿Qué son las prótesis de mamas ergonómicas? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/en/quines-son-les-millors-protesis-de-mama/",
+   "What are the best breast implants? - MedicsIntegralSalut ≠ Quines són les millors pròtesis de mama? - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/en/reconstruccio-despres-dun-cancer-de-mama/",
+   "Breast reconstruction after breast cancer - MedicsIntegralSa ≠ Reconstrucció després d'un càncer de mama - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/en/reconstruccion-tras-cancer-de-mama/",
+   "Reconstruction after breast cancer - MedicsIntegralSalut ≠ Reconstrucción tras cáncer de mama - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/rhinoseptoplasty/",
+   "Rhinoseptoplasty: what it is and when it is recommended | Me ≠ Rinoseptoplastia: qué es y cuándo se recomienda | Medics"
+  ],
+  [
+   "title",
+   "/en/rinoplastia-recuperacion-fotos/",
+   "Rhinoplasty recovery photos: before and after ≠ Fotos de recuperación de rinoplastia: antes y después"
+  ],
+  [
+   "title",
+   "/en/rinoplastia-sin-cirugia-rinoplastia-ultrasonica/",
+   "Differences between ultrasonic rhinoplasty and rhinomodellin ≠ Diferencias entre Rinoplastia ultrasónica y Rinomodelación ✅"
+  ],
+  [
+   "title",
+   "/en/rinoplastia-ultrasonica-o-rinomodelacio-quines-son-les-diferencies/",
+   "Ultrasonic rhinoplasty or non-surgical nose reshaping: what  ≠ Rinoplàstia ultrasònica o Rinomodelació Quines són les difer"
+  ],
+  [
+   "title",
+   "/en/sk-10-el-tratamiento-con-una-inyeccion-que-adelgaza/",
+   "SK-10 Saxenda: the one-injection treatment that helps you sl ≠ SK-10 Saxenda: el tratamiento con una inyección que adelgaza"
+  ],
+  [
+   "title",
+   "/en/solucio-per-mames-tuberoses/",
+   "Solution for tuberous breasts - MedicsIntegralSalut ≠ Solució per mames tuberoses - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dr-amador-garcia-ruiz-de-gordejuela/",
+   "Dr Amador García Ruiz de Gordejuela - MedicsIntegralSalut ≠ Dr. Amador García Ruiz de Gordejuela - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dr-cristobal-langdon-montero/",
+   "Dr Cristóbal Langdon Montero - MedicsIntegralSalut ≠ Dr. Cristóbal Langdon Montero - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dr-david-perez-asensio/",
+   "Dr David Pérez Asensio - MedicsIntegralSalut ≠ Dr. David Pérez Asensio - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dr-mike-dewever-3/",
+   "Dr Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dr-sergio-angeles-montanez/",
+   "Dr Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dra-claudia-vera/",
+   "Dr Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/team/dra-cristina-vera/",
+   "Dr Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/en/tecnicas-de-medicina-estetica-que-ens-fan-rejovenir/",
+   "Aesthetic Medicine techniques that make us look younger - Me ≠ Tècnicas de Medicina Estètica que ens fan rejovenir - Medics"
+  ],
+  [
+   "title",
+   "/en/tecnicas-de-medicina-estetica-que-nos-rejuvenecen/",
+   "Aesthetic medicine techniques that rejuvenate us - MedicsInt ≠ Técnicas de Medicina Estética que nos rejuvenecen - MedicsIn"
+  ],
+  [
+   "title",
+   "/en/transforma-tu-figura-con-la-elevacion-de-pecho-todo-lo-que-necesitas-saber/",
+   "Improve your figure with a breast lift: what you need to kno ≠ Mejora tu figura con la elevación de pecho: lo que necesitas"
+  ],
+  [
+   "title",
+   "/en/units/",
+   "Aesthetic Medical Centre in Girona | Medics Integral Salut ≠ Centro Médico Estético en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/en/units/overweight-and-obesity-2/balon-12-meses-reajustable/",
+   "Gastric Balloon in Girona, 12 months readjustable | MedicsSa ≠ Balón Gastrico en Girona 12 meses reajustable | MedicsSalut"
+  ],
+  [
+   "title",
+   "/en/units/overweight-and-obesity-2/cirugia-postbariatrica/",
+   "Post-Bariatric Surgery - MedicsIntegralSalut ≠ Cirugía Postbariatrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/algunes-raons-per-les-quals-no-perdem-pes/",
+   "Quelques raisons pour lesquelles nous ne perdons pas de poid ≠ Algunes raons per les quals no perdem pes - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/fr/alimentos-que-benefician-tu-piel/",
+   "Quels aliments bénéficient à la peau ? - MedicsIntegralSalut ≠ ¿Qué Alimentos benefician la piel? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/aliments-que-beneficien-la-teva-pell/",
+   "Aliments qui bénéficient à votre peau - MedicsIntegralSalut ≠ Aliments que beneficien la teva pell - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/au-revoir-le-ventre/",
+   "Au revoir... Ventre - MedicsIntegralSalut ≠ Au revoir... Barriga - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/aumento-mamario-con-protesis-motiva/",
+   "Prothèses Motiva : augmentation mammaire - MedicsIntegralSal ≠ Prótesis Motiva: Aumento Mamario - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/beneficios-de-la-cirugia-bariatrica/",
+   "Bienfaits de la chirurgie bariatrique - MedicsIntegralSalut ≠ Beneficios de la cirugía bariátrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/beneficis-de-la-cirurgia-bariatrica/",
+   "Bénéfices de la chirurgie bariatrique - MedicsIntegralSalut ≠ Beneficis de la cirurgia bariàtrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/bichectomia-que-es/",
+   "Bichectomie, qu'est-ce que c'est ? - MedicsIntegralSalut ≠ Bichectomia que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/bienvenido-dr-langdon/",
+   "Bienvenue Dr Langdon - MedicsIntegralSalut ≠ Bienvenido Dr. Langdon - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/cambio-de-imagen-y-estilo-de-vida-con-la-cirugia-bariatrica/",
+   "Changement d'image et de style de vie avec la chirurgie bari ≠ Cambio de imagen y estilo de vida con la Cirugía Bariátrica "
+  ],
+  [
+   "title",
+   "/fr/canvi-dimatge-i-estil-de-vida-amb-la-cirurgia-bariatrica/",
+   "Changement d'image et de style de vie avec la chirurgie bari ≠ Canvi d'imatge i estil de vida amb la Cirurgia Bariàtrica - "
+  ],
+  [
+   "title",
+   "/fr/carousels-category/personal/",
+   "Archives Personnel - MedicsIntegralSalut ≠ Personal archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/cirugia-de-elevacion-de-pecho/",
+   "Chirurgie de lifting des seins : tout ce que vous devez savo ≠ Cirugía de elevación de pecho: todo lo que tenes que saber -"
+  ],
+  [
+   "title",
+   "/fr/com-cuidar-la-pell-als-50/",
+   "Comment prendre soin de la peau à 50 ans - MedicsIntegralSal ≠ Com cuidar la pell als 50 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/como-cuidar-la-piel-a-los-50/",
+   "Comment prendre soin de la peau du visage à 50 ans - MedicsI ≠ Cómo cuidar la piel de la cara a los 50 - MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/fr/como-cuidarse-despues-de-una-rinoplastia-los-mejores-consejos-para-un-rapido-postoperatorio/",
+   "Comment prendre soin de vous après une rhinoplastie - Medics ≠ Cómo cuidarse después de una rinoplastia - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/fr/como-elegir-los-implantes-mamarios-adecuados/",
+   "Comment choisir les bons implants mammaires ? - MedicsIntegr ≠ ¿Cómo elegir los implantes mamarios adecuados? - MedicsInteg"
+  ],
+  [
+   "title",
+   "/fr/como-eliminar-la-celulitis/",
+   "Comment éliminer la cellulite ? - MedicsIntegralSalut ≠ ¿Cómo eliminar la celulitis? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/como-eliminar-ojeras/",
+   "Comment éliminer les cernes ? - MedicsIntegralSalut ≠ ¿Cómo eliminar las ojeras? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/como-mejorar-la-estetica-de-las-cicatrices/",
+   "Comment améliorer l'aspect esthétique des cicatrices - Medic ≠ Cómo mejorar la estética de las cicatrices - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/fr/congela-el-temps/",
+   "Figez le temps - MedicsIntegralSalut ≠ Congela el temps - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/congela-el-tiempo/",
+   "Figez le temps - MedicsIntegralSalut ≠ Congela el tiempo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/consejo-en-la-cirugia-de-amento-de-mamas/",
+   "Conseils pour la chirurgie d'augmentation mammaire - MedicsI ≠ Consejo en la cirugía de Aumento de Mamas - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/fr/consell-a-la-cirurgia-daugment-de-mames/",
+   "Conseils sur la chirurgie d'augmentation mammaire - MedicsIn ≠ Consell a la cirurgia d'Augment de Mames - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/fr/cuando-debemos-poner-protesis-anatomicas/",
+   "À quel moment se faire poser des prothèses anatomiques ? - M ≠ ¿En que momento ponerse prótesis anatómicas? - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/fr/cuanto-cuesta-balon-gastrico/",
+   "Combien coûte un ballon gastrique : ce qui est inclus et de  ≠ Cuánto cuesta un balón gástrico: qué incluye y de que depend"
+  ],
+  [
+   "title",
+   "/fr/cuanto-cuesta-lifting-facial/",
+   "Combien coûte un lifting du visage : prix et facteurs ≠ Cuánto cuesta un lifting facial: precio y factores"
+  ],
+  [
+   "title",
+   "/fr/cuanto-cuesta-rinoplastia-espana/",
+   "Combien coûte une rhinoplastie en Espagne | MedicsIntegralSa ≠ Cuánto cuesta una Rinoplastia en España | MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/fr/deberia-reducirme-el-pecho/",
+   "Dois-je me faire réduire la poitrine ? - MedicsIntegralSalut ≠ ¿Debería reducirme el pecho? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/descubre-la-diferencia-entre-lipo-vaser-y-liposuccion/",
+   "Différence entre la lipo Vaser et la liposuccion : - MedicsI ≠ Diferencia entre Lipo Vaser y Liposucción: - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/fr/descubre-todo-lo-que-necesitas-saber-sobre-los-diferentes-tipos-de-cirugia-bariatrica/",
+   "Ce que vous devez savoir sur les différents types de chirurg ≠ Lo que necesitas saber sobre diferentes tipos de Cirugía Bar"
+  ],
+  [
+   "title",
+   "/fr/dr-mike-dewever/",
+   "Bienvenue, nous sommes au Centre Médical Teknon - MedicsInte ≠ Bienvenidos estamos en el Centro Médico Teknon - MedicsInteg"
+  ],
+  [
+   "title",
+   "/fr/elevacio-de-glutis-sense-cirurgia-es-possible/",
+   "Lifting des fesses sans chirurgie : est-ce possible ? - Medi ≠ Elevació de glutis sense cirurgia, és possible - MedicsInteg"
+  ],
+  [
+   "title",
+   "/fr/elevacion-de-gluteos-sin-cirugia-es-posible/",
+   "Lifting des fesses sans chirurgie : est-ce possible ? - Medi ≠ Elevación de glúteos sin cirugía: es posible? - MedicsIntegr"
+  ],
+  [
+   "title",
+   "/fr/els-meus-tractaments-preferits-resultats-immediats/",
+   "Mes traitements préférés, résultats immédiats - MedicsIntegr ≠ Els meus tractaments preferits, resultats immediats - Medics"
+  ],
+  [
+   "title",
+   "/fr/equipe/dr-amador-garcia-ruiz-de-gordejuela/",
+   "Dr Amador García Ruiz de Gordejuela - MedicsIntegralSalut ≠ Dr. Amador García Ruiz de Gordejuela - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/equipe/dr-cristobal-langdon-montero/",
+   "Dr Cristóbal Langdon Montero - MedicsIntegralSalut ≠ Dr. Cristóbal Langdon Montero - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/equipe/dr-david-perez-asensio/",
+   "Dr David Pérez Asensio - MedicsIntegralSalut ≠ Dr. David Pérez Asensio - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/equipe/dr-mike-dewever-3/",
+   "Dr Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralBonjour"
+  ],
+  [
+   "title",
+   "/fr/equipe/dr-sergio-angeles-montanez/",
+   "Dr Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralBonjour"
+  ],
+  [
+   "title",
+   "/fr/equipe/dra-ainitze-ibarzabal/",
+   "Dre Ainitze Ibarzabal - MedicsIntegralSalut ≠ Dra Ainitze Ibarzabal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/equipe/dra-claudia-vera/",
+   "Dr Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/equipe/dra-cristina-vera/",
+   "Dr Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/factors-de-creixement-obtinguts-de-les-plaquetes-prp/",
+   "Facteurs de croissance obtenus à partir des plaquettes PRP - ≠ Factors de creixement obtinguts de les plaquetes PRP - Medic"
+  ],
+  [
+   "title",
+   "/fr/hauria-de-reduir-el-meu-pit/",
+   "Devrais-je réduire ma poitrine ? - MedicsIntegralSalut ≠ Hauria de reduir el meu pit? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/hi-ha-solucio-per-a-lantiestetica-marca-del-cansament-sota-els-ulls/",
+   "Il existe une solution à la marque inesthétique de la fatigu ≠ Hi ha solució per a l'antiestètica marca del cansament sota "
+  ],
+  [
+   "title",
+   "/fr/la-bellesa-del-rostre-el-triangle-invertit/",
+   "La beauté du visage, le triangle inversé - MedicsIntegralSal ≠ La bellesa del rostre, el triangle invertit - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/fr/la-belleza-del-rostro-el-triangulo-invertido/",
+   "Triangle inversé : la beauté du visage - MedicsIntegralSalut ≠ Triangulo invertido: La belleza del rostro - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/fr/la-ginecomastia-te-solucio-definitiva/",
+   "La gynécomastie a une solution définitive - MedicsIntegralSa ≠ La Ginecomàstia te solució definitiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/la-importante-ayuda-de-los-farmacos-en-la-perdida-de-peso-ozempic-y-mounjaro-en-nuestra-clinica/",
+   "L'aide des médicaments dans la perte de poids : Ozempic et M ≠ Ayuda de Fármacos en la Pérdida de Peso: Ozempic y Mounjaro"
+  ],
+  [
+   "title",
+   "/fr/la-nostra-experiencia-amb-la-rinoplastia-ultrasonica/",
+   "Notre expérience de la rhinoplastie ultrasonique - MedicsInt ≠ La nostra experiència amb la rinoplàstia ultrasònica - Medic"
+  ],
+  [
+   "title",
+   "/fr/la-radiofrecuencia-la-mejor-solucion-a-la-flacidez/",
+   "La radiofréquence, la meilleure solution contre le relâcheme ≠ La Radiofrecuencia, la mejor solución a la flacidez - Medics"
+  ],
+  [
+   "title",
+   "/fr/la-reduccion-de-mamas-mas-que-un-cambio-de-volumen-un-cambio-de-vida/",
+   "Réduction mammaire : bien plus qu'un changement de volume ≠ Reducción de Mamas: Más Que un Cambio de Volumen"
+  ],
+  [
+   "title",
+   "/fr/la-rhinoseptoplastie-quest-ce-que-cest/",
+   "Rhinoseptoplastie : en quoi consiste-t-elle et quand est-ell ≠ Rinoseptoplastia: qué es y cuándo se recomienda | Medics"
+  ],
+  [
+   "title",
+   "/fr/la-rinoplastia-ultrasonica-es-una-tecnica-de-cirugia-estetica-de-nariz/",
+   "La rhinoplastie ultrasonique est une technique de chirurgie  ≠ La rinoplastia ultrasónica es una técnica de cirugía estétic"
+  ],
+  [
+   "title",
+   "/fr/lexit-del-procediment-es-lexit-dels-resultats/",
+   "« Le succès de l'intervention, c'est le succès des résultats ≠ \"El èxito del procedimiento, es el èxito de los resultados\" "
+  ],
+  [
+   "title",
+   "/fr/lipofilling-resultats-permanents-nomes-amb-greix/",
+   "Lipofilling, résultats permanents uniquement avec de la grai ≠ Lipofilling, resultats permanents només amb greix - MedicsIn"
+  ],
+  [
+   "title",
+   "/fr/mis-tratamientos-preferidos-resultados-inmediatos/",
+   "Mes traitements préférés, résultats immédiats - MedicsIntegr ≠ Mis tratamientos preferidos, resultados inmediatos - MedicsI"
+  ],
+  [
+   "title",
+   "/fr/novedad-hilos-360o-efecto-lifting/",
+   "Fils tenseurs liftants 360° - MedicsIntegralSalut ≠ Hilos faciales efecto lifting 360º - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/nuestra-experiencia-con-la-rinoplastia-ultrasonica/",
+   "Différences et avantages de la rhinoplastie ultrasonique par ≠ Diferencias y ventajas de la rinoplastia ultrasónica frente "
+  ],
+  [
+   "title",
+   "/fr/otoplastia-orejas-de-soplillo-girona/",
+   "Je n'ai plus les oreilles décollées. - MedicsIntegralSalut ≠ Ya no tengo orejas de soplillo. - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/otoplastia-que-es/",
+   "Otoplastie : qu'est-ce que c'est, chirurgie des oreilles et  ≠ Otoplastia: qué es, operación de orejas y recuperación"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/",
+   "Archives Portfolio - MedicsIntegralSalut ≠ Portfolio archivo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/augment-pit/",
+   "Augmentation mammaire - MedicsIntegralSalut ≠ Augment pit - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/aumento-pechos/",
+   "Augmentation mammaire - MedicsIntegralSalut ≠ Aumento pechos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/bypass-gastric-amador-emili/",
+   "Bypass gastrique-Amador-Emili - MedicsIntegralSalut ≠ Bypass gàstric-Amador-Emili - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/gynecomastie/",
+   "Augmentation des lèvres - MedicsIntegralSalut ≠ Aumento de labios - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/lipogilling/",
+   "Liposuccion - MedicsIntegralSalut ≠ Liposucción - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/obesite-2/",
+   "Obésité - MedicsIntegralSalut ≠ Obesidad - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/page_de_portfolio/video-test-2/",
+   "Augmentation mammaire-mike-eli - MedicsIntegralSalut ≠ Aumento de pecho-mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/para-que-tu-piel-no-cumpla-anos-coctel-de-vitaminas-y-acido-hialuronico/",
+   "Pour que la peau ne prenne pas d'âge : vitamines et acide hy ≠ Para que la piel no cumpla años: vitaminas y ácido hialuróni"
+  ],
+  [
+   "title",
+   "/fr/perque-envellim/",
+   "Pourquoi vieillissons-nous ? - MedicsIntegralSalut ≠ Perquè envellim? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/perque-la-teva-pell-no-faci-anys-coctel-de-vitamines-i-acid-hialuronic/",
+   "Pour que votre peau ne vieillisse pas : cocktail de vitamine ≠ Perquè la teva pell no faci anys: còctel de vitamines i àcid"
+  ],
+  [
+   "title",
+   "/fr/portfolio-category/videos-ca/",
+   "Archives des vidéos - MedicsIntegralSalut ≠ Vídeos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/primera-visita-para-aumento-de-pecho/",
+   "Première visite chez le médecin pour une augmentation mammai ≠ Primera visita al medico para aumento de pecho - MedicsInteg"
+  ],
+  [
+   "title",
+   "/fr/protesis-redondas-vs-protesis-ergonomicas/",
+   "Prothèses rondes vs prothèses ergonomiques - MedicsIntegralS ≠ Prótesis Redondas vs. Prótesis Ergonómicas - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/fr/que-es-faci-la-llum-al-rostre/",
+   "Qu'est-ce que Faci la llum al rostre - MedicsIntegralSalut ≠ Que es faci la llum al rostre - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/que-es-la-bichectomia/",
+   "Qu'est-ce que la bichectomie ? - MedicsIntegralSalut ≠ ¿La bichectomía que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/que-es-la-tecnica-minimal-scar-en-aumento-de-pecho/",
+   "Qu'est-ce que la technique minimal scar en augmentation mamm ≠ ¿Qué es la técnica mínimal scar en aumento de pecho? - Medic"
+  ],
+  [
+   "title",
+   "/fr/que-es-mejor-liposuccion-tradicional-o-liposuccion-vaser/",
+   "Quelle est la meilleure option : liposuccion traditionnelle  ≠ Qué es mejor: ¿Liposucción tradicional o liposucción Váser? "
+  ],
+  [
+   "title",
+   "/fr/quines-son-les-millors-protesis-de-mama/",
+   "Quelles sont les meilleures prothèses mammaires ? - MedicsIn ≠ Quines són les millors pròtesis de mama? - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/fr/reconstruccion-tras-cancer-de-mama/",
+   "Reconstruction après un cancer du sein - MedicsIntegralSalut ≠ Reconstrucción tras cáncer de mama - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/rinoplastia-o-septoplastia/",
+   "Rhinoplastie ou septoplastie : différences et laquelle vous  ≠ Rinoplastia o septoplastia: diferencias y cuál necesitas"
+  ],
+  [
+   "title",
+   "/fr/rinoplastia-recuperacion-fotos/",
+   "Photos de récupération après rhinoplastie : avant et après ≠ Fotos de recuperación de rinoplastia: antes y después"
+  ],
+  [
+   "title",
+   "/fr/rinoplastia-sin-cirugia-rinoplastia-ultrasonica/",
+   "Différences entre rhinoplastie ultrasonique et rhinomodelage ≠ Diferencias entre Rinoplastia ultrasónica y Rinomodelación ✅"
+  ],
+  [
+   "title",
+   "/fr/rinoplastia-ultrasonica-o-rinomodelacio-quines-son-les-diferencies/",
+   "Rhinoplastie ultrasonique ou rhinomodelage : quelles sont le ≠ Rinoplàstia ultrasònica o Rinomodelació Quines són les difer"
+  ],
+  [
+   "title",
+   "/fr/siente-el-poder-del-bienestar-con-una-cirugia-estetica-para-los-pechos-separados/",
+   "Chirurgie esthétique pour les seins écartés : le pouvoir du  ≠ Cirugía Estética para los Pechos Separados: el Poder del Bie"
+  ],
+  [
+   "title",
+   "/fr/sk-10-el-tratamiento-con-una-inyeccion-que-adelgaza/",
+   "SK-10 Saxenda : le traitement par injection qui fait maigrir ≠ SK-10 Saxenda: el tratamiento con una inyección que adelgaza"
+  ],
+  [
+   "title",
+   "/fr/tecnicas-de-medicina-estetica-que-nos-rejuvenecen/",
+   "Techniques de médecine esthétique qui nous rajeunissent - Me ≠ Técnicas de Medicina Estética que nos rejuvenecen - MedicsIn"
+  ],
+  [
+   "title",
+   "/fr/unites/",
+   "Centre médical esthétique à Gérone | Medics Integral Salut ≠ Centro Médico Estético en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/fr/unites/chirurgie-esthetique-masculine/",
+   "Chirurgie esthétique masculine à Gérone | Medics Integral Sa ≠ Cirugía Estética Masculina en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/fr/unites/chirurgie-esthetique-masculine/aumento-de-pectoral/",
+   "Implants pectoraux chez l'homme | MedicsIntegralSalut ≠ Implantes Pectorales en Hombres | MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/unites/institut-de-beaute/anti-age-mc-110/",
+   "Antiâge MC110 - MedicsIntegralSalut ≠ Antiedad MC110 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/unites/institut-de-beaute/reduccion-de-volumen-girona/",
+   "Réduction de volume à Gérone - MedicsIntegralSalut ≠ Reducción de volumen en Girona - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/unites/surpoids-et-obesite-2/cirugia-postbariatrica/",
+   "Chirurgie post-bariatrique - MedicsIntegralSalut ≠ Cirugía Postbariatrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/fr/unites-2/surpoids-et-obesite/chirurgie-bariatrique/encreuament-duodenal/",
+   "Croisement duodénal - MedicsIntegralSalut ≠ Encreuament Duodenal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/algunas-razones-por-las-que-no-perdemos-peso/",
+   "Причины, по которым мы не худеем - MedicsIntegralSalut ≠ Razones por las que no perdemos peso - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/algunes-raons-per-les-quals-no-perdem-pes/",
+   "Некоторые причины, по которым мы не худеем - MedicsIntegralS ≠ Algunes raons per les quals no perdem pes - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/ru/alimentos-que-benefician-tu-piel/",
+   "Какие продукты полезны для кожи? - MedicsIntegralSalut ≠ ¿Qué Alimentos benefician la piel? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/augment-mamari-amb-protesi-motiva/",
+   "Увеличение груди с имплантатами Motiva - MedicsIntegralSalut ≠ Augment Mamari amb Pròtesi Motiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/aumento-mamario-con-protesis-motiva/",
+   "Импланты Motiva: увеличение груди - MedicsIntegralSalut ≠ Prótesis Motiva: Aumento Mamario - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/beneficios-de-la-cirugia-bariatrica/",
+   "Преимущества бариатрической хирургии - MedicsIntegralSalut ≠ Beneficios de la cirugía bariátrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/beneficis-de-la-cirurgia-bariatrica/",
+   "Преимущества бариатрической хирургии - MedicsIntegralSalut ≠ Beneficis de la cirurgia bariàtrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/bichectomia-que-es/",
+   "Что такое бишектомия? - MedicsIntegralSalut ≠ Bichectomia que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/bye-bye-barriga/",
+   "Прощай... животик - MedicsIntegralSalut ≠ Bye bye... Barriga - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/bye-bye-panxa/",
+   "Прощай... животик - MedicsIntegralSalut ≠ Bye bye... Panxa - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/cambio-de-imagen-y-estilo-de-vida-con-la-cirugia-bariatrica/",
+   "Смена образа и образа жизни с бариатрической хирургией - Med ≠ Cambio de imagen y estilo de vida con la Cirugía Bariátrica "
+  ],
+  [
+   "title",
+   "/ru/carousels-category/personal/",
+   "Архив «Персонал» - MedicsIntegralSalut ≠ Personal archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/cirugia-de-elevacion-de-pecho/",
+   "Операция по подтяжке груди: всё, что нужно знать - MedicsInt ≠ Cirugía de elevación de pecho: todo lo que tenes que saber -"
+  ],
+  [
+   "title",
+   "/ru/com-cuidar-la-pell-als-50/",
+   "Как ухаживать за кожей в 50 лет - MedicsIntegralSalut ≠ Com cuidar la pell als 50 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/como-cuidar-la-piel-a-los-50/",
+   "Как ухаживать за кожей лица в 50 лет - MedicsIntegralSalut ≠ Cómo cuidar la piel de la cara a los 50 - MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/ru/como-elegir-los-implantes-mamarios-adecuados/",
+   "Как выбрать подходящие грудные имплантаты? - MedicsIntegralS ≠ ¿Cómo elegir los implantes mamarios adecuados? - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ru/como-eliminar-ojeras/",
+   "Как убрать темные круги под глазами? - MedicsIntegralSalut ≠ ¿Cómo eliminar las ojeras? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/como-mejorar-la-estetica-de-las-cicatrices/",
+   "Как улучшить внешний вид шрамов - MedicsIntegralSalut ≠ Cómo mejorar la estética de las cicatrices - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ru/congela-el-tiempo/",
+   "Остановите время - MedicsIntegralSalut ≠ Congela el tiempo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/consejo-en-la-cirugia-de-amento-de-mamas/",
+   "Советы по операции увеличения груди - MedicsIntegralSalut ≠ Consejo en la cirugía de Aumento de Mamas - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/ru/consell-a-la-cirurgia-daugment-de-mames/",
+   "Советы по операции увеличения груди - MedicsIntegralSalut ≠ Consell a la cirurgia d'Augment de Mames - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/ru/cuales-son-las-mejores-protesis-de-mama/",
+   "Какие импланты для груди лучшие? - MedicsIntegralSalut ≠ ¿Cuáles son las mejores prótesis de pecho? - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ru/cuando-debemos-poner-protesis-anatomicas/",
+   "В какой момент стоит ставить анатомические имплантаты? - Med ≠ ¿En que momento ponerse prótesis anatómicas? - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/ru/cuanto-cuesta-balon-gastrico/",
+   "Сколько стоит желудочный баллон: что входит и от чего зависи ≠ Cuánto cuesta un balón gástrico: qué incluye y de que depend"
+  ],
+  [
+   "title",
+   "/ru/cuanto-cuesta-lifting-facial/",
+   "Сколько стоит подтяжка лица: цена и факторы ≠ Cuánto cuesta un lifting facial: precio y factores"
+  ],
+  [
+   "title",
+   "/ru/cuanto-cuesta-rinoplastia-espana/",
+   "Сколько стоит ринопластика в Испании | MedicsIntegralSalut ≠ Cuánto cuesta una Rinoplastia en España | MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/ru/deberia-reducirme-el-pecho/",
+   "Стоит ли мне уменьшать грудь? - MedicsIntegralSalut ≠ ¿Debería reducirme el pecho? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/descubre-la-diferencia-entre-lipo-vaser-y-liposuccion/",
+   "Разница между липо Vaser и липосакцией: - MedicsIntegralSalu ≠ Diferencia entre Lipo Vaser y Liposucción: - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ru/descubre-todo-lo-que-necesitas-saber-sobre-los-diferentes-tipos-de-cirugia-bariatrica/",
+   "Что нужно знать о разных видах бариатрической хирургии ≠ Lo que necesitas saber sobre diferentes tipos de Cirugía Bar"
+  ],
+  [
+   "title",
+   "/ru/dr-mike-dewever/",
+   "Добро пожаловать, мы находимся в Медицинском центре Teknon - ≠ Bienvenidos estamos en el Centro Médico Teknon - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ru/elevacio-de-glutis-sense-cirurgia-es-possible/",
+   "Подтяжка ягодиц без операции: это возможно? - MedicsIntegral ≠ Elevació de glutis sense cirurgia, és possible - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ru/elevacion-de-gluteos-sin-cirugia-es-posible/",
+   "Подтяжка ягодиц без операции: это возможно? - MedicsIntegral ≠ Elevación de glúteos sin cirugía: es posible? - MedicsIntegr"
+  ],
+  [
+   "title",
+   "/ru/els-meus-tractaments-preferits-resultats-immediats/",
+   "Мои любимые процедуры, мгновенные результаты - MedicsIntegra ≠ Els meus tractaments preferits, resultats immediats - Medics"
+  ],
+  [
+   "title",
+   "/ru/eres-candidata-o-a-una-cirugia-bariatrica/",
+   "Подходите ли вы для бариатрической хирургии? - MedicsIntegra ≠ ¿Eres candidata/o a una cirugía bariátrica? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ru/factors-de-creixement-obtinguts-de-les-plaquetes-prp/",
+   "Факторы роста, полученные из тромбоцитов PRP - MedicsIntegra ≠ Factors de creixement obtinguts de les plaquetes PRP - Medic"
+  ],
+  [
+   "title",
+   "/ru/hauria-de-reduir-el-meu-pit/",
+   "Стоит ли мне уменьшить грудь? - MedicsIntegralSalut ≠ Hauria de reduir el meu pit? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/hi-ha-solucio-per-a-lantiestetica-marca-del-cansament-sota-els-ulls/",
+   "Есть решение для неэстетичных следов усталости под глазами - ≠ Hi ha solució per a l'antiestètica marca del cansament sota "
+  ],
+  [
+   "title",
+   "/ru/la-bellesa-del-rostre-el-triangle-invertit/",
+   "Красота лица, перевёрнутый треугольник - MedicsIntegralSalut ≠ La bellesa del rostre, el triangle invertit - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ru/la-belleza-del-rostro-el-triangulo-invertido/",
+   "Перевёрнутый треугольник: красота лица - MedicsIntegralSalut ≠ Triangulo invertido: La belleza del rostro - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ru/la-ginecomastia-te-solucio-definitiva/",
+   "У гинекомастии есть окончательное решение - MedicsIntegralSa ≠ La Ginecomàstia te solució definitiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/la-importancia-de-seleccionar-el-tratamiento-adecuado-para-la-perdida-de-peso/",
+   "Подходящее лечение для снижения веса - MedicsIntegralSalut ≠ Tratamiento Adecuado para la Pérdida de Peso- MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ru/la-importante-ayuda-de-los-farmacos-en-la-perdida-de-peso-ozempic-y-mounjaro-en-nuestra-clinica/",
+   "Помощь препаратов в снижении веса: Ozempic и Mounjaro ≠ Ayuda de Fármacos en la Pérdida de Peso: Ozempic y Mounjaro"
+  ],
+  [
+   "title",
+   "/ru/la-naturalidad-del-resultado-en-un-aumento-de-pecho/",
+   "Естественность результата при увеличении груди - MedicsInteg ≠ La naturalidad del resultado en un aumento de pecho - Medics"
+  ],
+  [
+   "title",
+   "/ru/la-nostra-experiencia-amb-la-rinoplastia-ultrasonica/",
+   "Наш опыт ультразвуковой ринопластики - MedicsIntegralSalut ≠ La nostra experiència amb la rinoplàstia ultrasònica - Medic"
+  ],
+  [
+   "title",
+   "/ru/la-radiofrecuencia-la-mejor-solucion-a-la-flacidez/",
+   "Радиочастотная терапия — лучшее решение при дряблости кожи - ≠ La Radiofrecuencia, la mejor solución a la flacidez - Medics"
+  ],
+  [
+   "title",
+   "/ru/la-rinoplastia-ultrasonica-es-una-tecnica-de-cirugia-estetica-de-nariz/",
+   "Ультразвуковая ринопластика — это техника эстетической хирур ≠ La rinoplastia ultrasónica es una técnica de cirugía estétic"
+  ],
+  [
+   "title",
+   "/ru/lexit-del-procediment-es-lexit-dels-resultats/",
+   "«Успех процедуры — это успех результатов» - MedicsIntegralSa ≠ \"El èxito del procedimiento, es el èxito de los resultados\" "
+  ],
+  [
+   "title",
+   "/ru/lipofilling-resultados-permanentes-solo-con-grasa/",
+   "Липофилинг: стойкие результаты только с жиром - Medics ≠ Lipofilling: resultados permanentes sólo con grasa - Medics"
+  ],
+  [
+   "title",
+   "/ru/lipofilling-resultats-permanents-nomes-amb-greix/",
+   "Липофилинг, постоянные результаты только с жиром - MedicsInt ≠ Lipofilling, resultats permanents només amb greix - MedicsIn"
+  ],
+  [
+   "title",
+   "/ru/lunica-pilota-que-pot-estar-implantada-un-any/",
+   "Единственный баллон, который может оставаться установленным  ≠ L'única pilota que pot estar implantada un any - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ru/mis-tratamientos-preferidos-resultados-inmediatos/",
+   "Мои любимые процедуры, мгновенные результаты - MedicsIntegra ≠ Mis tratamientos preferidos, resultados inmediatos - MedicsI"
+  ],
+  [
+   "title",
+   "/ru/nuestra-experiencia-con-la-rinoplastia-ultrasonica/",
+   "Различия и преимущества ультразвуковой ринопластики по сравн ≠ Diferencias y ventajas de la rinoplastia ultrasónica frente "
+  ],
+  [
+   "title",
+   "/ru/otoplastia-que-es/",
+   "Отопластика: что это такое, операция на ушах и восстановлени ≠ Otoplastia: qué es, operación de orejas y recuperación"
+  ],
+  [
+   "title",
+   "/ru/para-que-tu-piel-no-cumpla-anos-coctel-de-vitaminas-y-acido-hialuronico/",
+   "Чтобы кожа не старела: витамины и гиалуроновая кислота ≠ Para que la piel no cumpla años: vitaminas y ácido hialuróni"
+  ],
+  [
+   "title",
+   "/ru/perque-envellim/",
+   "Почему мы стареем? - MedicsIntegralSalut ≠ Perquè envellim? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/perque-la-teva-pell-no-faci-anys-coctel-de-vitamines-i-acid-hialuronic/",
+   "Чтобы кожа не старела: коктейль из витаминов и гиалуроновой  ≠ Perquè la teva pell no faci anys: còctel de vitamines i àcid"
+  ],
+  [
+   "title",
+   "/ru/por-que-envejecemos/",
+   "Почему мы стареем? MedicsIntegralSalut ≠ ¿Porqué envejecemos? MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/portfolio-category/serveis/",
+   "Архивы услуг - MedicsIntegralSalut ≠ Serveis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/portfolio-category/videos-ca/",
+   "Архив видео - MedicsIntegralSalut ≠ Vídeos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/primera-visita-para-aumento-de-pecho/",
+   "Первый визит к врачу для увеличения груди - MedicsIntegralSa ≠ Primera visita al medico para aumento de pecho - MedicsInteg"
+  ],
+  [
+   "title",
+   "/ru/que-es-la-bichectomia/",
+   "Что такое бишектомия? - MedicsIntegralSalut ≠ ¿La bichectomía que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/que-es-la-tecnica-minimal-scar-en-aumento-de-pecho/",
+   "Что такое техника minimal scar при увеличении груди? - Medic ≠ ¿Qué es la técnica mínimal scar en aumento de pecho? - Medic"
+  ],
+  [
+   "title",
+   "/ru/que-es-mejor-liposuccion-tradicional-o-liposuccion-vaser/",
+   "Что лучше: традиционная липосакция или липосакция Vaser? - M ≠ Qué es mejor: ¿Liposucción tradicional o liposucción Váser? "
+  ],
+  [
+   "title",
+   "/ru/que-es-una-rinoplastia/",
+   "Что такое ринопластика: виды, восстановление и результаты |  ≠ Qué es una rinoplastia: tipos, recuperación y resultados | M"
+  ],
+  [
+   "title",
+   "/ru/que-son-las-protesis-de-mamas-ergonomicas/",
+   "Что такое эргономичные грудные имплантаты? - MedicsIntegralS ≠ ¿Qué son las prótesis de mamas ergonómicas? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/ru/quines-son-les-millors-protesis-de-mama/",
+   "Какие грудные имплантаты лучшие? - MedicsIntegralSalut ≠ Quines són les millors pròtesis de mama? - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/ru/reconstruccion-tras-cancer-de-mama/",
+   "Реконструкция после рака молочной железы - MedicsIntegralSal ≠ Reconstrucción tras cáncer de mama - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/rinoplastia-o-septoplastia/",
+   "Ринопластика или септопластика: различия и что нужно вам ≠ Rinoplastia o septoplastia: diferencias y cuál necesitas"
+  ],
+  [
+   "title",
+   "/ru/rinoplastia-ultrasonica-o-rinomodelacio-quines-son-les-diferencies/",
+   "Ультразвуковая ринопластика или риномоделирование: в чём раз ≠ Rinoplàstia ultrasònica o Rinomodelació Quines són les difer"
+  ],
+  [
+   "title",
+   "/ru/sk-10-el-tratamiento-con-una-inyeccion-que-adelgaza/",
+   "SK-10 Saxenda: лечение с помощью одной инъекции, которое пом ≠ SK-10 Saxenda: el tratamiento con una inyección que adelgaza"
+  ],
+  [
+   "title",
+   "/ru/solucio-per-mames-tuberoses/",
+   "Решение для туберозной груди - MedicsIntegralSalut ≠ Solució per mames tuberoses - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-amador-garcia-ruiz-de-gordejuela/",
+   "Д-р Amador García Ruiz de Gordejuela - MedicsIntegralSalut ≠ Dr. Amador García Ruiz de Gordejuela - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-cristobal-langdon-montero/",
+   "Д-р Cristóbal Langdon Montero - MedicsIntegralSalut ≠ Dr. Cristóbal Langdon Montero - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-david-perez-asensio/",
+   "Д-р David Pérez Asensio - MedicsIntegralSalut ≠ Dr. David Pérez Asensio - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-mike-dewever/",
+   "Д-р Mike Dewever - MedicsIntegralSalut ≠ Dr. Mike Dewever - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-mike-dewever-3/",
+   "Д-р Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-sergio-angeles-montanez/",
+   "Д-р Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dr-valenti-puig-divi/",
+   "Д-р Valenti Puig Divi - MedicsIntegralSalut ≠ Dr. Valenti Puig Divi - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dra-ainitze-ibarzabal/",
+   "Д-р Ainitze Ibarzabal - MedicsIntegralSalut ≠ Dra Ainitze Ibarzabal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dra-claudia-vera/",
+   "Д-р Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/team/dra-cristina-vera/",
+   "Д-р Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/tecnicas-de-medicina-estetica-que-nos-rejuvenecen/",
+   "Методики эстетической медицины, которые нас омолаживают - Me ≠ Técnicas de Medicina Estética que nos rejuvenecen - MedicsIn"
+  ],
+  [
+   "title",
+   "/ru/единицы/",
+   "Центр эстетической медицины в Жироне | Medics Integral Salut ≠ Centro Médico Estético en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/ru/единицы/medicina-cosmetica-girona/",
+   "Косметическая медицина в Жироне | Medics Integral Salut ≠ Medicina Cosmética en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/ru/единицы/избыточный-вес-и-ожирение-2/cirugia-postbariatrica/",
+   "Постбариатрическая хирургия - MedicsIntegralSalut ≠ Cirugía Postbariatrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/избыточный-вес-и-ожирение-2/бариатрическая-хирургия-2/bypass-gastrico/",
+   "Желудочное шунтирование - MedicsIntegralSalut ≠ Bypass Gástrico - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/избыточный-вес-и-ожирение-2/эндоманга/",
+   "Метод Mega - редукция желудка без операции - MedicsIntegralS ≠ Método Mega - Reducción gástrica sin cirugía - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/ru/единицы/кабинет-эстетики/acido-de-frutas/",
+   "Фруктовые кислоты - MedicsIntegralSalut ≠ Acido de frutas - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/кабинет-эстетики/antiedad-mc-110/",
+   "Антивозрастной MC110 - MedicsIntegralSalut ≠ Antiedad MC110 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/кабинет-эстетики/reduccion-de-volumen-girona/",
+   "Уменьшение объёма в Жироне - MedicsIntegralSalut ≠ Reducción de volumen en Girona - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/мужская-косметическая-хирургия/",
+   "Мужская эстетическая хирургия в Жироне | Medics Integral Sal ≠ Cirugía Estética Masculina en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/ru/единицы/мужская-косметическая-хирургия/aumento-de-pectoral/",
+   "Грудные имплантаты у мужчин | MedicsIntegralSalut ≠ Implantes Pectorales en Hombres | MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/единицы/пластическая-хирургия-лица/ринопластика-жирона/",
+   "【 Ринопластика Жирона | Ультразвуковая | MedicsIntegralSalut ≠ 【 Rinoplastia Girona | Ultrasónica | MedicsIntegralSalut 】®"
+  ],
+  [
+   "title",
+   "/ru/единицы/эстетическая-медицина-лица/",
+   "Эстетическая медицина лица в Жироне | Medics Integral Salut ≠ Medicina Estética Facial en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/ru/круглые-протезы-против-эргономичных/",
+   "Круглые импланты и анатомические импланты - MedicsIntegralSa ≠ Prótesis Redondas vs. Prótesis Ergonómicas - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/ru/портфолио/",
+   "Архив «Портфолио» - MedicsIntegralSalut ≠ Portfolio archivo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/augment-pit-mike-eli/",
+   "Увеличение груди- mike-eli - MedicsIntegralSalut ≠ Augment pit- mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/aumento-pechos/",
+   "Увеличение груди - MedicsIntegralSalut ≠ Aumento pechos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/lipogilling/",
+   "Липосакция - MedicsIntegralSalut ≠ Liposucción - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/rinoplastia-sergio-judith/",
+   "Ринопластика-sergio-judith - MedicsIntegralSalut ≠ Rinoplàstia-sergio-judith - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/video-prueba-1/",
+   "Гастрошунтирование-Amador-Emili - MedicsIntegralSalut ≠ Bypass gastrico-Amador-Emili - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/video-prueba-2/",
+   "Увеличение груди - mike-eli - MedicsIntegralSalut ≠ Aumento pecho- mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/video-prueba-3/",
+   "Ринопластика-sergio-judith - MedicsIntegralSalut ≠ Rinoplastia-sergio-judith - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/ожирение/",
+   "Ожирение - MedicsIntegralSalut ≠ Obesitat - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/портфолио/ринопластика/",
+   "Ринопластика - MedicsIntegralSalut ≠ Rinoplastia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/alimentacio/",
+   "alimentació архивы - MedicsIntegralSalut ≠ alimentació archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/cuidados-para-la-piel/",
+   "Архивы: уход за кожей - MedicsIntegralSalut ≠ cuidados para la piel archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/el-que-has-saber-sobre-laugment-de-pit/",
+   "Что нужно знать об увеличении груди — архив - MedicsIntegral ≠ El que has saber sobre l'augment de pit archivos - MedicsInt"
+  ],
+  [
+   "title",
+   "/ru/тег/estetica-ca/",
+   "архивы «эстетика» - MedicsIntegralSalut ≠ estètica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/evaluacion/",
+   "архивы «консультация» - MedicsIntegralSalut ≠ evaluación archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/lo-que-debes-saber-sobre-el-aumento-de-pecho/",
+   "Что нужно знать об увеличении груди архивы - MedicsIntegralS ≠ Lo que debes saber sobre el aumento de pecho archivos - Medi"
+  ],
+  [
+   "title",
+   "/ru/тег/mida-de-protesi/",
+   "размер протеза: архивы - MedicsIntegralSalut ≠ mida de pròtesi archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/resultados/",
+   "Архивы: результаты - MedicsIntegralSalut ≠ resultados archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/rinoplastia-ca/",
+   "Архивы: ринопластика - MedicsIntegralSalut ≠ rinoplàstia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/rinoplastia-sense-cirurgia/",
+   "ринопластика без операции архивы - MedicsIntegralSalut ≠ rinoplàstia sense cirurgia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/rinoplastia-ultrasonica-ca/",
+   "Архивы ультразвуковой ринопластики - MedicsIntegralSalut ≠ rinoplàstia ultrasónica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/rostro/",
+   "архивы «лицо» - MedicsIntegralSalut ≠ rostro archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/tecnicas/",
+   "архивы «методики» - MedicsIntegralSalut ≠ técnicas archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/tecniques/",
+   "архивы «методики» - MedicsIntegralSalut ≠ tècniques archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/tipo-de-protesis/",
+   "Архивы: тип протеза - MedicsIntegralSalut ≠ Tipo de prótesis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/tipus-de-protesi/",
+   "Архивы: тип протеза - MedicsIntegralSalut ≠ Tipus de pròtesi archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/tratamientos/",
+   "Архивы: процедуры - MedicsIntegralSalut ≠ tratamientos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/бариатрическая-хирургия/",
+   "Архивы: бариатрическая хирургия - MedicsIntegralSalut ≠ cirurgia bariàtrica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/бариатрическая-хирургия-2/",
+   "Архивы: бариатрическая хирургия - MedicsIntegralSalut ≠ cirugía bariatrica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/глаза/",
+   "Глаза — архивы - MedicsIntegralSalut ≠ Ojos Archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/глютис/",
+   "Архивы ягодиц - MedicsIntegralSalut ≠ glutis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/жир/",
+   "Архивы: жир - MedicsIntegralSalut ≠ grasa archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/имплантаты-молочной-железы/",
+   "архивы «грудные имплантаты» - MedicsIntegralSalut ≠ implantes mamarios archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/кожа/",
+   "архивы «кожа» - MedicsIntegralSalut ≠ piel archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/красота/",
+   "Красота Архивы - MedicsIntegralSalut ≠ Belleza Archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/красота-2/",
+   "красота: архивы - MedicsIntegralSalut ≠ bellesa archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/ожирение-2/",
+   "архивы «ожирение» - MedicsIntegralSalut ≠ obesidad archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/оземпик/",
+   "оземпик: архивы - MedicsIntegralSalut ≠ ozempic archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/оростре/",
+   "архивы «лицо» - MedicsIntegralSalut ≠ rostros archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/редукция-груди/",
+   "Архивы: уменьшение груди - MedicsIntegralSalut ≠ Reducción de pecho archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/ринопластика/",
+   "Архивы: ринопластика - MedicsIntegralSalut ≠ rinoplastia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/склонные-к-туберозности-молочные-жел/",
+   "мамины туберозные архивы - MedicsIntegralSalut ≠ мамині туберозні архіви - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/трактаменты/",
+   "процедуры архивы - MedicsIntegralSalut ≠ tractaments archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/увеличение-груди/",
+   "архивы «увеличение груди» - MedicsIntegralSalut ≠ aumento de pecho archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/увеличить-яму/",
+   "архивы «увеличение груди» - MedicsIntegralSalut ≠ augment de pit archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/уллс/",
+   "архивы «глаза» - MedicsIntegralSalut ≠ ulls archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/тег/ультразвуковая-ринопластика/",
+   "Архивы: ультразвуковая ринопластика - MedicsIntegralSalut ≠ rinoplastia ultrasónica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/ru/юнитац/избыточный-вес-и-ожирение/бариатрическая-хирургия/encreuament-duodenal/",
+   "Дуоденальное переключение - MedicsIntegralSalut ≠ Encreuament Duodenal - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/algunas-razones-por-las-que-no-perdemos-peso/",
+   "Причини, чому ми не худнемо - MedicsIntegralSalut ≠ Razones por las que no perdemos peso - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/algunes-raons-per-les-quals-no-perdem-pes/",
+   "Деякі причини, через які ми не худнемо - MedicsIntegralSalut ≠ Algunes raons per les quals no perdem pes - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/uk/aliments-que-beneficien-la-teva-pell/",
+   "Продукти, корисні для вашої шкіри - MedicsIntegralSalut ≠ Aliments que beneficien la teva pell - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/augment-mamari-amb-protesi-motiva/",
+   "Збільшення грудей з імплантами Motiva - MedicsIntegralSalut ≠ Augment Mamari amb Pròtesi Motiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/aumento-mamario-con-protesis-motiva/",
+   "Імпланти Motiva: збільшення грудей - MedicsIntegralSalut ≠ Prótesis Motiva: Aumento Mamario - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/beneficios-de-la-cirugia-bariatrica/",
+   "Переваги баріатричної хірургії - MedicsIntegralSalut ≠ Beneficios de la cirugía bariátrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/beneficis-de-la-cirurgia-bariatrica/",
+   "Переваги баріатричної хірургії - MedicsIntegralSalut ≠ Beneficis de la cirurgia bariàtrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/bichectomia-que-es/",
+   "Що таке бішектомія? - MedicsIntegralSalut ≠ Bichectomia que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/bienvenido-dr-langdon/",
+   "Ласкаво просимо, Д-р Langdon - MedicsIntegralSalut ≠ Bienvenido Dr. Langdon - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/bye-bye-barriga/",
+   "Прощавай... живіт - MedicsIntegralSalut ≠ Bye bye... Barriga - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/bye-bye-panxa/",
+   "Прощавай... живіт - MedicsIntegralSalut ≠ Bye bye... Panxa - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/cambio-de-imagen-y-estilo-de-vida-con-la-cirugia-bariatrica/",
+   "Зміна іміджу та способу життя з баріатричною хірургією - Med ≠ Cambio de imagen y estilo de vida con la Cirugía Bariátrica "
+  ],
+  [
+   "title",
+   "/uk/canvi-dimatge-i-estil-de-vida-amb-la-cirurgia-bariatrica/",
+   "Зміна іміджу та способу життя з баріатричною хірургією - Med ≠ Canvi d'imatge i estil de vida amb la Cirurgia Bariàtrica - "
+  ],
+  [
+   "title",
+   "/uk/carousels-category/personal/",
+   "Архів «Персонал» - MedicsIntegralSalut ≠ Personal archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/com-cuidar-la-pell-als-50/",
+   "Як доглядати за шкірою у 50 років - MedicsIntegralSalut ≠ Com cuidar la pell als 50 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/como-cuidar-la-piel-a-los-50/",
+   "Як доглядати за шкірою обличчя у 50 років - MedicsIntegralSa ≠ Cómo cuidar la piel de la cara a los 50 - MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/uk/como-elegir-los-implantes-mamarios-adecuados/",
+   "Як вибрати відповідні грудні імплантати? - MedicsIntegralSal ≠ ¿Cómo elegir los implantes mamarios adecuados? - MedicsInteg"
+  ],
+  [
+   "title",
+   "/uk/como-eliminar-ojeras/",
+   "Як прибрати темні кола під очима? - MedicsIntegralSalut ≠ ¿Cómo eliminar las ojeras? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/como-mejorar-la-estetica-de-las-cicatrices/",
+   "Як покращити зовнішній вигляд шрамів - MedicsIntegralSalut ≠ Cómo mejorar la estética de las cicatrices - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/uk/congela-el-temps/",
+   "Заморозьте час - MedicsIntegralSalut ≠ Congela el temps - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/consejo-en-la-cirugia-de-amento-de-mamas/",
+   "Поради щодо операції збільшення грудей - MedicsIntegralSalut ≠ Consejo en la cirugía de Aumento de Mamas - MedicsIntegralSa"
+  ],
+  [
+   "title",
+   "/uk/cuanto-cuesta-lifting-facial/",
+   "Скільки коштує підтяжка обличчя: ціна та фактори ≠ Cuánto cuesta un lifting facial: precio y factores"
+  ],
+  [
+   "title",
+   "/uk/cuanto-cuesta-rinoplastia-espana/",
+   "Скільки коштує ринопластика в Іспанії | MedicsIntegralSalut ≠ Cuánto cuesta una Rinoplastia en España | MedicsIntegralSalu"
+  ],
+  [
+   "title",
+   "/uk/descubre-la-diferencia-entre-lipo-vaser-y-liposuccion/",
+   "Різниця між ліпо Vaser і ліпосакцією: - MedicsIntegralSalut ≠ Diferencia entre Lipo Vaser y Liposucción: - MedicsIntegralS"
+  ],
+  [
+   "title",
+   "/uk/descubre-todo-lo-que-necesitas-saber-sobre-los-diferentes-tipos-de-cirugia-bariatrica/",
+   "Що потрібно знати про різні види баріатричної хірургії ≠ Lo que necesitas saber sobre diferentes tipos de Cirugía Bar"
+  ],
+  [
+   "title",
+   "/uk/elevacio-de-glutis-sense-cirurgia-es-possible/",
+   "Підтяжка сідниць без операції: це можливо? - MedicsIntegralS ≠ Elevació de glutis sense cirurgia, és possible - MedicsInteg"
+  ],
+  [
+   "title",
+   "/uk/elevacion-de-gluteos-sin-cirugia-es-posible/",
+   "Підтяжка сідниць без операції: це можливо? - MedicsIntegralS ≠ Elevación de glúteos sin cirugía: es posible? - MedicsIntegr"
+  ],
+  [
+   "title",
+   "/uk/factores-de-crecimiento-obtenidos-de-las-plaquetas-prp/",
+   "Фактори росту, одержані з тромбоцитів, PRP - Medics ≠ Factores de crecimiento obtenidos de las plaquetas PRP - Med"
+  ],
+  [
+   "title",
+   "/uk/hauria-de-reduir-el-meu-pit/",
+   "Чи варто мені зменшити груди? - MedicsIntegralSalut ≠ Hauria de reduir el meu pit? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/hi-ha-solucio-per-a-lantiestetica-marca-del-cansament-sota-els-ulls/",
+   "Є рішення для неестетичних слідів втоми під очима - MedicsIn ≠ Hi ha solució per a l'antiestètica marca del cansament sota "
+  ],
+  [
+   "title",
+   "/uk/la-bellesa-del-rostre-el-triangle-invertit/",
+   "Краса обличчя, перевернутий трикутник - MedicsIntegralSalut ≠ La bellesa del rostre, el triangle invertit - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/uk/la-ginecomastia-te-solucio-definitiva/",
+   "У гінекомастії є остаточне рішення - MedicsIntegralSalut ≠ La Ginecomàstia te solució definitiva - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/la-importancia-de-seleccionar-el-tratamiento-adecuado-para-la-perdida-de-peso/",
+   "Відповідне лікування для зниження ваги - MedicsIntegralSalut ≠ Tratamiento Adecuado para la Pérdida de Peso- MedicsIntegral"
+  ],
+  [
+   "title",
+   "/uk/la-importante-ayuda-de-los-farmacos-en-la-perdida-de-peso-ozempic-y-mounjaro-en-nuestra-clinica/",
+   "Допомога препаратів у зниженні ваги: Ozempic і Mounjaro ≠ Ayuda de Fármacos en la Pérdida de Peso: Ozempic y Mounjaro"
+  ],
+  [
+   "title",
+   "/uk/la-naturalidad-del-resultado-en-un-aumento-de-pecho/",
+   "Природність результату при збільшенні грудей - MedicsIntegra ≠ La naturalidad del resultado en un aumento de pecho - Medics"
+  ],
+  [
+   "title",
+   "/uk/la-reduccion-de-mamas-mas-que-un-cambio-de-volumen-un-cambio-de-vida/",
+   "Зменшення грудей: більше, ніж зміна об'єму ≠ Reducción de Mamas: Más Que un Cambio de Volumen"
+  ],
+  [
+   "title",
+   "/uk/la-rinoplastia-ultrasonica-es-una-tecnica-de-cirugia-estetica-de-nariz/",
+   "Ультразвукова ринопластика — це техніка естетичної хірургії  ≠ La rinoplastia ultrasónica es una técnica de cirugía estétic"
+  ],
+  [
+   "title",
+   "/uk/lexit-del-procediment-es-lexit-dels-resultats/",
+   "«Успіх процедури — це успіх результатів» - MedicsIntegralSal ≠ \"El èxito del procedimiento, es el èxito de los resultados\" "
+  ],
+  [
+   "title",
+   "/uk/lipofilling-resultados-permanentes-solo-con-grasa/",
+   "Ліпофілінг: стійкі результати лише з жиром - Medics ≠ Lipofilling: resultados permanentes sólo con grasa - Medics"
+  ],
+  [
+   "title",
+   "/uk/lipofilling-resultats-permanents-nomes-amb-greix/",
+   "Ліпофілінг, постійні результати лише з жиром - MedicsIntegra ≠ Lipofilling, resultats permanents només amb greix - MedicsIn"
+  ],
+  [
+   "title",
+   "/uk/lunica-pilota-que-pot-estar-implantada-un-any/",
+   "Єдиний балон, який може бути встановлений протягом року - Me ≠ L'única pilota que pot estar implantada un any - MedicsInteg"
+  ],
+  [
+   "title",
+   "/uk/mis-tratamientos-preferidos-resultados-inmediatos/",
+   "Мої улюблені процедури, миттєві результати - MedicsIntegralS ≠ Mis tratamientos preferidos, resultados inmediatos - MedicsI"
+  ],
+  [
+   "title",
+   "/uk/novetat-fils-360o-efecte-lifting/",
+   "Новинка, нитки 360º з ефектом ліфтингу - MedicsIntegralSalut ≠ Novetat, fils 360º efecte lifting - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/otoplastia-orejas-de-soplillo-girona/",
+   "У мене більше немає відстовбурчених вух. - MedicsIntegralSal ≠ Ya no tengo orejas de soplillo. - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/otoplastia-que-es/",
+   "Отопластика: що це таке, операція на вухах і відновлення ≠ Otoplastia: qué es, operación de orejas y recuperación"
+  ],
+  [
+   "title",
+   "/uk/para-que-tu-piel-no-cumpla-anos-coctel-de-vitaminas-y-acido-hialuronico/",
+   "Щоб шкіра не старіла: вітаміни та гіалуронова кислота ≠ Para que la piel no cumpla años: vitaminas y ácido hialuróni"
+  ],
+  [
+   "title",
+   "/uk/perque-envellim/",
+   "Чому ми старіємо? - MedicsIntegralSalut ≠ Perquè envellim? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/perque-la-teva-pell-no-faci-anys-coctel-de-vitamines-i-acid-hialuronic/",
+   "Щоб шкіра не старіла: коктейль із вітамінів і гіалуронової к ≠ Perquè la teva pell no faci anys: còctel de vitamines i àcid"
+  ],
+  [
+   "title",
+   "/uk/portfolio-category/serveis/",
+   "Архіви послуг - MedicsIntegralSalut ≠ Serveis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio-category/videos-ca/",
+   "Архів відео - MedicsIntegralSalut ≠ Vídeos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/",
+   "Архів «Портфоліо» - MedicsIntegralSalut ≠ Portfolio archivo - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/augment-pit-mike-eli/",
+   "Збільшення грудей- mike-eli - MedicsIntegralSalut ≠ Augment pit- mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/aumento-pechos/",
+   "Збільшення грудей - MedicsIntegralSalut ≠ Aumento pechos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/lipogilling/",
+   "Ліпосакція - MedicsIntegralSalut ≠ Liposucción - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/rinoplastia-sergio-judith/",
+   "Ринопластика-sergio-judith - MedicsIntegralSalut ≠ Rinoplàstia-sergio-judith - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/video-prueba-2/",
+   "Збільшення грудей - mike-eli - MedicsIntegralSalut ≠ Aumento pecho- mike-eli - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/video-prueba-3/",
+   "Ринопластика-sergio-judith - MedicsIntegralSalut ≠ Rinoplastia-sergio-judith - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/гінекомастія/",
+   "Збільшення губ - MedicsIntegralSalut ≠ Aumento de labios - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/ожиріння/",
+   "Ожиріння - MedicsIntegralSalut ≠ Obesidad - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/ожиріння-2/",
+   "Ожиріння - MedicsIntegralSalut ≠ Obesitat - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/portfolio_page/ринопластика-2/",
+   "Ринопластика - MedicsIntegralSalut ≠ Rinoplastia - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/primera-visita-para-aumento-de-pecho/",
+   "Перший візит до лікаря для збільшення грудей - MedicsIntegra ≠ Primera visita al medico para aumento de pecho - MedicsInteg"
+  ],
+  [
+   "title",
+   "/uk/que-es-faci-la-llum-al-rostre/",
+   "Що таке Faci la llum al rostre - MedicsIntegralSalut ≠ Que es faci la llum al rostre - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/que-es-la-bichectomia/",
+   "Що таке бішектомія? - MedicsIntegralSalut ≠ ¿La bichectomía que es? - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/que-es-la-tecnica-minimal-scar-en-aumento-de-pecho/",
+   "Що таке техніка minimal scar при збільшенні грудей? - Medics ≠ ¿Qué es la técnica mínimal scar en aumento de pecho? - Medic"
+  ],
+  [
+   "title",
+   "/uk/que-es-mejor-liposuccion-tradicional-o-liposuccion-vaser/",
+   "Що краще: традиційна ліпосакція чи ліпосакція Vaser? - Medic ≠ Qué es mejor: ¿Liposucción tradicional o liposucción Váser? "
+  ],
+  [
+   "title",
+   "/uk/que-son-las-protesis-de-mamas-ergonomicas/",
+   "Що таке ергономічні грудні імплантати? - MedicsIntegralSalut ≠ ¿Qué son las prótesis de mamas ergonómicas? - MedicsIntegral"
+  ],
+  [
+   "title",
+   "/uk/quines-son-les-millors-protesis-de-mama/",
+   "Які грудні імплантати найкращі? - MedicsIntegralSalut ≠ Quines són les millors pròtesis de mama? - MedicsIntegralSal"
+  ],
+  [
+   "title",
+   "/uk/rinoplastia-recuperacion-fotos/",
+   "Фото відновлення після ринопластики: до і після ≠ Fotos de recuperación de rinoplastia: antes y después"
+  ],
+  [
+   "title",
+   "/uk/rinoplastia-sin-cirugia-rinoplastia-ultrasonica/",
+   "Відмінності між ультразвуковою ринопластикою та риномоделюва ≠ Diferencias entre Rinoplastia ultrasónica y Rinomodelación ✅"
+  ],
+  [
+   "title",
+   "/uk/rinoplastia-ultrasonica-o-rinomodelacio-quines-son-les-diferencies/",
+   "Ультразвукова ринопластика або риномоделювання: у чому різни ≠ Rinoplàstia ultrasònica o Rinomodelació Quines són les difer"
+  ],
+  [
+   "title",
+   "/uk/sk-10-el-tratamiento-con-una-inyeccion-que-adelgaza/",
+   "SK-10 Saxenda: лікування за допомогою однієї ін'єкції, яке д ≠ SK-10 Saxenda: el tratamiento con una inyección que adelgaza"
+  ],
+  [
+   "title",
+   "/uk/solucion-mamas-tuberosas/",
+   "Рішення для туберозних грудей - MedicsIntegralSalut ≠ Solución para mamas tuberosas - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/tecnicas-de-medicina-estetica-que-ens-fan-rejovenir/",
+   "Техніки естетичної медицини, що омолоджують нас - MedicsInte ≠ Tècnicas de Medicina Estètica que ens fan rejovenir - Medics"
+  ],
+  [
+   "title",
+   "/uk/transforma-tu-figura-con-la-elevacion-de-pecho-todo-lo-que-necesitas-saber/",
+   "Покращте свою фігуру за допомогою підтяжки грудей: що вам по ≠ Mejora tu figura con la elevación de pecho: lo que necesitas"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-amador-garcia-ruiz-de-gordejuela/",
+   "Д-р Amador García Ruiz de Gordejuela - MedicsIntegralSalut ≠ Dr. Amador García Ruiz de Gordejuela - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-cristobal-langdon-montero/",
+   "Д-р Cristóbal Langdon Montero - MedicsIntegralSalut ≠ Dr. Cristóbal Langdon Montero - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-david-perez-asensio/",
+   "Д-р David Pérez Asensio - MedicsIntegralSalut ≠ Dr. David Pérez Asensio - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-mike-dewever-3/",
+   "Д-р Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-sergio-angeles-montanez/",
+   "Д-р Sergio Ángeles Montañez - MedicsIntegralSalut ≠ Dr. Sergio Ángeles Montañez - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dr-valenti-puig-divi/",
+   "Д-р Valenti Puig Divi - MedicsIntegralSalut ≠ Dr. Valenti Puig Divi - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dra-claudia-vera/",
+   "Д-р Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/dra-cristina-vera/",
+   "Д-р Claudia Vera - MedicsIntegralSalut ≠ Dra. Claudia Vera - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/команда/доктор-майк-девевер/",
+   "Д-р Mike Dewever - MedicsIntegralSalut ≠ Dr. Mike Dewever - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/medicina-cosmetica-girona/",
+   "Косметична медицина в Жироні | Medics Integral Salut ≠ Medicina Cosmética en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/естетична-медицина-для-обличчя/",
+   "Естетична медицина обличчя в Жироні | Medics Integral Salut ≠ Medicina Estética Facial en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/естетична-медицина-для-тіла/",
+   "Естетична медицина тіла в Жироні | Medics Integral Salut ≠ Medicina Estética Corporal en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/естетична-хірургія-грудей-2/збільшення-грудей/",
+   "【 Збільшення грудей Жирона | MedicsIntegralSalut 】 ≠ 【 Aumento de Pecho Girona | MedicsIntegralSalut 】"
+  ],
+  [
+   "title",
+   "/uk/одиниці/надмірна-вага-та-ожиріння-2/",
+   "Надмірна вага та ожиріння в Жироні | Medics Integral Salut ≠ Sobrepeso y Obesidad en Gerona | Medics Integral Salut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/надмірна-вага-та-ожиріння-2/balon-12-meses-reajustable/",
+   "Шлунковий балон у Жироні на 12 місяців із можливістю регулюв ≠ Balón Gastrico en Girona 12 meses reajustable | MedicsSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/надмірна-вага-та-ожиріння-2/balon-ingerible-elipse/",
+   "Ковтальний балон Elipse - MedicsIntegralSalut ≠ Balon Ingerible elipse - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/надмірна-вага-та-ожиріння-2/cirugia-postbariatrica/",
+   "Післябаріатрична хірургія - MedicsIntegralSalut ≠ Cirugía Postbariatrica - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/надмірна-вага-та-ожиріння-2/внутрішня-частина-рукава/",
+   "Метод Mega - редукція шлунка без операції - MedicsIntegralSa ≠ Método Mega - Reducción gástrica sin cirugía - MedicsIntegra"
+  ],
+  [
+   "title",
+   "/uk/одиниці/салон-краси/antiedad-mc-110/",
+   "Антивіковий MC110 - MedicsIntegralSalut ≠ Antiedad MC110 - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/салон-краси/desintoxicante/",
+   "Детоксикація - MedicsIntegralSalut ≠ Desintoxicante - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/салон-краси/позбутися-целюліту/",
+   "Усунення целюліту - MedicsIntegralSalut ≠ Eliminar celulitis - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/чоловіча-естетична-хірургія/aumento-de-pectoral/",
+   "Грудні імплантати у чоловіків | MedicsIntegralSalut ≠ Implantes Pectorales en Hombres | MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/одиниці/чоловіча-естетична-хірургія/liftting-de-cuello-y-papada/",
+   "Підтяжка шиї та підборіддя - MedicsIntegralSalut ≠ Lifting de cuello y papada - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/antes-y-despues-otoplastia/",
+   "До і після отопластики Архіви - MedicsIntegralSalut ≠ Antes y después otoplastia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/el-que-has-saber-sobre-laugment-de-pit/",
+   "Що потрібно знати про збільшення грудей — архів - MedicsInte ≠ El que has saber sobre l'augment de pit archivos - MedicsInt"
+  ],
+  [
+   "title",
+   "/uk/тег/ojos/",
+   "архіви «очі» - MedicsIntegralSalut ≠ ojos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/resultados/",
+   "Архіви: результати - MedicsIntegralSalut ≠ resultados archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/rinoplastia-ca/",
+   "Архіви: ринопластика - MedicsIntegralSalut ≠ rinoplàstia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/rinoplastia-sense-cirurgia/",
+   "ринопластика без операції архіви - MedicsIntegralSalut ≠ rinoplàstia sense cirurgia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/rinoplastia-sin-cirugia/",
+   "архіви «ринопластика без операції» - MedicsIntegralSalut ≠ rinoplastia sin cirugía archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/rinoplastia-ultrasonica-ca/",
+   "Архіви ультразвукової ринопластики - MedicsIntegralSalut ≠ rinoplàstia ultrasónica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/tipo-de-protesis/",
+   "Архіви: тип протеза - MedicsIntegralSalut ≠ Tipo de prótesis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/tipus-de-protesi/",
+   "Архіви: тип протеза - MedicsIntegralSalut ≠ Tipus de pròtesi archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/tratamientos/",
+   "Архіви: процедури - MedicsIntegralSalut ≠ tratamientos archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/баріатрична-хірургія/",
+   "Архіви: баріатрична хірургія - MedicsIntegralSalut ≠ cirurgia bariàtrica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/баріатрична-хірургія-2/",
+   "Архіви: баріатрична хірургія - MedicsIntegralSalut ≠ cirugía bariatrica archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/догляд-за-шкірою/",
+   "Архіви: догляд за шкірою - MedicsIntegralSalut ≠ cuidados para la piel archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/жир/",
+   "Архіви: жир - MedicsIntegralSalut ≠ grasa archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/краса-2/",
+   "архіви «краса» - MedicsIntegralSalut ≠ belleza archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/ожиріння-2/",
+   "архіви «ожиріння» - MedicsIntegralSalut ≠ obesitat archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/післяопераційний-період-після-риноп/",
+   "післяопераційний період після ринопластики: архіви - MedicsI ≠ postoperatorio rinoplastia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/радіочастота/",
+   "архіви «радіочастота» - MedicsIntegralSalut ≠ radiofrecuencia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/ринопластика-2/",
+   "Архіви: ринопластика - MedicsIntegralSalut ≠ rinoplastia archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/сідничні-мязи/",
+   "Архіви сідниць - MedicsIntegralSalut ≠ glutis archivos - MedicsIntegralSalut"
+  ],
+  [
+   "title",
+   "/uk/тег/ультразвукова-ринопластика/",
+   "Архіви: ультразвукова ринопластика - MedicsIntegralSalut ≠ rinoplastia ultrasónica archivos - MedicsIntegralSalut"
   ]
  ],
  "warns": []
