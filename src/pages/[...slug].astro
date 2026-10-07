@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Block from '../blocks/Block.astro';
+import PropuestaHome from '../components/propuesta/PropuestaHome.astro';
 import ui from '../i18n/ui.json';
 import { prepararBloques } from '../lib/paginas';
 
@@ -41,13 +42,19 @@ if (kind === 'post') {
 } else {
   graph = d.schema.map((s: any) => ({ '@type': s.type, ...s, type: undefined }));
 }
+// Portada (6 idiomas): diseño estilo /clinica/ (PropuestaHome). El SEO (title, description, canonical, hreflang, JSON-LD)
+// sigue saliendo de home.json, igual que antes.
+const esPortada = kind === 'page' && d.i18nGroup === 'home';
 const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
 <Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}
-  precargar={kind === 'page' && d.theme === 'portada' && !['ru', 'uk'].includes(d.lang) ? ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'] : []}>
-  {kind === 'page' && d.theme === 'portada'
-    ? <div class:list={['pt', 'pt-n', d.i18nGroup === 'home' && 'pt-home']}>{blocks.map((b: any) => <Block block={b} lang={d.lang} />)}</div>
+  precargar={esPortada ? (['ru', 'uk'].includes(d.lang) ? [] : ['/fonts/figtree-latin.woff2'])
+    : kind === 'page' && d.theme === 'portada' && !['ru', 'uk'].includes(d.lang) ? ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'] : []}>
+  {esPortada
+    ? <PropuestaHome lang={d.lang} />
+    : kind === 'page' && d.theme === 'portada'
+    ? <div class:list={['pt', 'pt-n']}>{blocks.map((b: any) => <Block block={b} lang={d.lang} />)}</div>
     : blocks.map((b: any) => <Block block={b} lang={d.lang} />)}
   {kind === 'post' && (
     <>

@@ -214,19 +214,19 @@
 @media(max-width:980px){.vc .pt.pt-n>section:not(.hs):not(.ps-banda):not(.pt-pagehero){padding:60px 0}}
 @media(max-width:640px){.vc .pt.pt-n>section:not(.hs):not(.ps-banda):not(.pt-pagehero){padding:48px 0}.vc .pt.pt-n>section.ps-avi{padding-top:0}}
 /* cabecera y barra inferior del móvil, solo en la portada: los mismos botones oscuros que el diseño nuevo */
-body.vc:has(.pt-n)>header nav>a[aria-current="page"],body.vc:has(.pt-n)>header .nav-units.activo{background:#1B1F1D;color:#fff}
-body.vc:has(.pt-n)>header .hdr-acc{border-radius:14px;border-color:#E7E0D6}
-body.vc:has(.pt-n)>header .hdr-acc .btn{background:#1B1F1D;border-color:#1B1F1D;color:#fff;border-radius:10px}
-body.vc:has(.pt-n)>header .hdr-acc .btn:hover{background:#000;border-color:#000;color:#fff}
-body.vc:has(.pt-n) .barra-movil a:not(.barra-wa){background:#1B1F1D;color:#fff}
+body.vc:has(.pt-n,.pl-home)>header nav>a[aria-current="page"],body.vc:has(.pt-n,.pl-home)>header .nav-units.activo{background:#1B1F1D;color:#fff}
+body.vc:has(.pt-n,.pl-home)>header .hdr-acc{border-radius:14px;border-color:#E7E0D6}
+body.vc:has(.pt-n,.pl-home)>header .hdr-acc .btn{background:#1B1F1D;border-color:#1B1F1D;color:#fff;border-radius:10px}
+body.vc:has(.pt-n,.pl-home)>header .hdr-acc .btn:hover{background:#000;border-color:#000;color:#fff}
+body.vc:has(.pt-n,.pl-home) .barra-movil a:not(.barra-wa){background:#1B1F1D;color:#fff}
 /* cabecera, migas, pie, cookies y barra del móvil de estas páginas con el texto del diseño nuevo (Figtree): así no se
    descarga Raleway (6 grosores, ~135 KB, retrasaban el LCP en móvil) */
-body.vc:has(.pt-n){--display:"Figtree","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;--sans:var(--display)}
+body.vc:has(.pt-n,.pl-home){--display:"Figtree","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;--sans:var(--display)}
 /* contraste AA de las migas y del pie legal (eran gris claro sobre crema) */
-body.vc:has(.pt-n) .vc-crumbs :is(a,span){color:#6B655E}
-body.vc:has(.pt-n) .foot-legal{color:#6B655E}
-body.vc:has(.pt-n) .barra-movil .barra-wa{color:#0B2A1C}
-body.vc:has(.pt-n) .barra-movil .barra-wa svg{fill:currentColor}
+body.vc:has(.pt-n,.pl-home) .vc-crumbs :is(a,span){color:#6B655E}
+body.vc:has(.pt-n,.pl-home) .foot-legal{color:#6B655E}
+body.vc:has(.pt-n,.pl-home) .barra-movil .barra-wa{color:#0B2A1C}
+body.vc:has(.pt-n,.pl-home) .barra-movil .barra-wa svg{fill:currentColor}
 /* botones y campos no heredan la fuente por defecto (las etiquetas de los vídeos salían en Arial) */
 .vc .pt.pt-n :is(button,input,select,textarea){font-family:inherit}
 .vc .pt.pt-n .ps-cap{font-family:var(--grot);font-weight:700;letter-spacing:-.01em}

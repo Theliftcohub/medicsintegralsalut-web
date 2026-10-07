@@ -1,17 +1,25 @@
 ---
-// PROPUESTA de portada (07/10/2026) con el estilo de la landing /clinica/ (petición del cliente)
+// Portada (07/10/2026) con el estilo de la landing /clinica/ (petición del cliente; diseño de Oscar)
 // + la sección de reels de Instagram que le gustó de la propuesta anterior.
 // Componente único para los 6 idiomas (prop `lang`): textos propios en src/data/propuesta-i18n.json;
 // los bloques que ya existen en la home.json de cada idioma (pt-clinica, pt-unidades, ps-doctora,
-// ps-historias, pt-contacto) se leen de ahí. Datos de negocio de site.json. Siempre noindex.
+// ps-historias, pt-contacto, pt-texto, ps-pedidos) se leen de ahí. Datos de negocio de site.json.
+// Solo el CONTENIDO: lo pinta [...slug].astro dentro de Base.astro, que pone el <head> SEO de home.json (title,
+// description, canonical, robots, hreflang, JSON-LD), la cabecera y el pie de toda la web, GTM y el banner de cookies.
+// Fuentes alojadas en la web (@fontsource, sin Google Fonts); el mapa de fondo solo se carga con consentimiento.
+import '@fontsource/lato/300.css';
+import '@fontsource/lato/400.css';
+import '@fontsource/lato/700.css';
+import '@fontsource/lato/900.css';
+import '@fontsource/cormorant-garamond/300.css';
+import '@fontsource/cormorant-garamond/300-italic.css';
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/open-sans/300.css';
+import '@fontsource/open-sans/400.css';
+import '@fontsource/open-sans/700.css';
 import '../../styles/propuesta-home.css';
 import NativeForm from '../NativeForm.astro';
 import site from '../../data/site.json';
-import chrome from '../../data/vc-chrome.json';
-import ui from '../../i18n/ui.json';
-import Bandera from '../vc/Bandera.astro';
-import ConsentMode from '../ConsentMode.astro';
-import Consent from '../Consent.astro';
 import dict from '../../data/propuesta-i18n.json';
 import testi from '../../data/propuesta-testimonios.json';
 import homeEs from '../../content/pages/es/home.json';
@@ -41,6 +49,9 @@ const unidades = B('pt-unidades');
 const doctora = B('ps-doctora');
 const historias = B('ps-historias');
 const contacto = B('pt-contacto');
+// textos SEO literales de la portada anterior (se conservan en la sección «pl-seo»)
+const texto = B('pt-texto');
+const seoParas: string[] = [...(clinica.paras ?? []), ...(B('ps-pedidos')?.intro ?? []), ...(clinica.extra ?? [])];
 const r = site.rating;
 const nota = String(r.value).replace('.', lang === 'en' ? '.' : ',');
 const anios = new Date().getFullYear() - r.since;
@@ -50,28 +61,15 @@ const TEL = 'tel:+34972209086';
 const fmt = (s: string, v: Record<string, string | number> = {}) =>
   Object.entries({ since: r.since, nota, count: r.count, anios, ...v }).reduce((a, [k, x]) => a.split(`{${k}}`).join(String(x)), s);
 
-// Menú y pie del sitio: se leen de vc-chrome.json (la misma fuente que VcHeader/VcFooter), sin copiar datos.
-const C: any = (chrome as any)[lang] ?? (chrome as any).es;
-const t: any = (ui as any)[lang] ?? (ui as any).es;
-const F = C.footer;
-const units: any[] = C.units ?? [];
-const unitsPage: string = C.anchors['#unidades'];
-const LANGS = ['es', 'ca', 'en', 'fr', 'ru', 'uk'];
-const NAME: Record<string, string> = { es: 'Español', ca: 'Català', en: 'English', fr: 'Français', ru: 'Русский', uk: 'Українська' };
-// en la portada la valoración se pide en su propio formulario (#formulario); fuera de ella, #info → /contacto/#form
-const ctaHref = '#formulario';
-const entorno = import.meta.env.PUBLIC_ENTORNO ?? 'preview';
-const chevron = '<svg class="pl-chev" viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
-const [a1, a2] = F.addr.split(/,\s*(?=\d{5})/);
-const cyr = lang === 'ru' || lang === 'uk';
-const fonts = `https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Lato:wght@300;400;700;900${cyr ? '&family=Open+Sans:wght@300;400;700' : ''}&display=swap`;
-
 const slides = [
-  { src: `${IMG}/hero-playa.webp`, pos: '60% 30%' },
-  { src: `${IMG}/hero-cuerpo.webp`, pos: '70% 30%' },
-  { src: `${IMG}/hero-perfil.webp`, pos: '70% 20%' },
-  { src: `${IMG}/hero-facial.webp`, pos: '70% 25%' },
+  { src: `${IMG}/hero-playa.webp`, w: 1045, pos: '60% 30%' },
+  { src: `${IMG}/hero-cuerpo.webp`, w: 1195, pos: '70% 30%' },
+  { src: `${IMG}/hero-perfil.webp`, w: 1195, pos: '70% 20%' },
+  { src: `${IMG}/hero-facial.webp`, w: 1195, pos: '70% 25%' },
 ];
+// versión de 720 px para móvil (-720.webp): la foto del hero es la imagen principal (LCP). En sizes se declara el 60 % del
+// ancho en móvil para que también los móviles de densidad 2,6-3 bajen la de 720 px (≈1,75×, suficiente bajo el degradado)
+const srcset = (s: { src: string; w: number }) => `${s.src.replace('.webp', '-720.webp')} 720w, ${s.src} ${s.w}w`;
 
 const reelsBase = [
   { img: 'reel-pecho-sin-protesis', href: 'https://www.instagram.com/p/DZu3tjeFKb_/' },
@@ -127,98 +125,13 @@ const icons: Record<string, string> = {
 };
 const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[k]}</svg>`;
 ---
-<!doctype html>
-<html lang={lang}>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{d.htmlTitle}</title>
-  <meta name="robots" content="noindex,nofollow" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href={fonts} />
-  <link rel="preload" as="image" href={slides[0].src} />
-  <ConsentMode />
-  {entorno !== 'preview' && site.gtm && (
-    <script is:inline define:vars={{ id: site.gtm }}>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',id);
-    </script>
-  )}
-</head>
-<body class="pl">
-
-<header class="pl-head" id="top">
-  <div class="pl-topbar">
-    <p>{d.topbar}</p>
-    <a class="pl-topbar-tel" href={TEL}>972 20 90 86</a>
-  </div>
-  <div class="pl-nav">
-    <a class="pl-logo" href={C.home}><img src={site.logo} alt="Médics Integral Salut" width="200" height="79" /></a>
-    <nav class="pl-menu" aria-label={t.menu}>
-      <a href={C.home} aria-current="page">{t.home}</a>
-      {C.menu.map((i: any, n: number) => n === 2 && units.length
-        ? <button type="button" class="pl-units-btn" aria-expanded="false" aria-controls="pl-mega">{i.text}<Fragment set:html={chevron} /></button>
-        : <a href={i.href.startsWith('#') ? C.anchors[i.href] : i.href}>{i.text}</a>)}
-    </nav>
-    <div class="pl-hacc">
-      <div class="pl-langsel">
-        <button type="button" class="pl-lang-btn" aria-expanded="false" aria-controls="pl-langs" aria-label={`${t.lang}: ${NAME[lang]}`}>
-          <Bandera l={lang} /><span>{lang.toUpperCase()}</span><Fragment set:html={chevron} />
-        </button>
-        <ul class="pl-lang-list" id="pl-langs" hidden>
-          {LANGS.map((l) => <li><a href={(chrome as any)[l].home} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><Bandera l={l} />{NAME[l]}</a></li>)}
-        </ul>
-      </div>
-      <a class="pl-btn pl-nav-cta" href={ctaHref}>{C.cta.text}</a>
-    </div>
-    <button class="pl-burger" id="pl-burger" type="button" aria-label={t.menu_open} aria-controls="pl-panel" aria-expanded="false"><i></i><i></i><i></i></button>
-  </div>
-  {units.length > 0 && (
-    <div class="pl-mega" id="pl-mega" hidden>
-      <div class="pl-wrap">
-        <a class="pl-mega-all" href={unitsPage}>{C.menu[2].text} →</a>
-        <div class="pl-mega-grid">
-          {units.map((u: any) => (
-            <div class="pl-mega-col">
-              {u.href ? <a class="pl-mega-cat" href={u.href}>{u.text}</a> : <span class="pl-mega-cat">{u.text}</span>}
-              {u.sub && <ul>{u.sub.map((x: any) => (
-                <li><a href={x.href}>{x.text}</a>{x.sub && <ul class="pl-mega-sub">{x.sub.map((y: any) => <li><a href={y.href}>{y.text}</a></li>)}</ul>}</li>
-              ))}</ul>}
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  )}
-</header>
-<div class="pl-velo" id="pl-velo"></div>
-<nav class="pl-panel" id="pl-panel" aria-label={t.menu}>
-  <a href={C.home}>{t.home}</a>
-  {C.menu.map((i: any, n: number) => n === 2 && units.length ? (
-    <details class="pl-p-units">
-      <summary>{i.text}</summary>
-      <a class="pl-p-cat" href={unitsPage}>{i.text}</a>
-      {units.map((u: any) => <>
-        <a class="pl-p-cat" href={u.href}>{u.text}</a>
-        {u.sub?.map((x: any) => <>
-          <a class="pl-p-sub" href={x.href}>{x.text}</a>
-          {x.sub?.map((y: any) => <a class="pl-p-sub pl-p-sub2" href={y.href}>{y.text}</a>)}
-        </>)}
-      </>)}
-    </details>
-  ) : <a href={i.href.startsWith('#') ? C.anchors[i.href] : i.href}>{i.text}</a>)}
-  <a class="pl-btn" href={ctaHref}>{C.cta.text}</a>
-  <a class="pl-btn-line" href={WA} target="_blank" rel="noopener">WhatsApp 620 892 236</a>
-  <ul class="pl-p-langs" aria-label={t.lang}>
-    {LANGS.map((l) => <li><a href={(chrome as any)[l].home} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><Bandera l={l} />{NAME[l]}</a></li>)}
-  </ul>
-</nav>
-
-<main>
+<div class="pl pl-home">
 <!-- 1 · HERO -->
 <section class="pl-hero" aria-label="Medics Integral Salut">
   <div class="pl-hero-bg" aria-hidden="true">
-    {slides.map((s, i) => <img class:list={['pl-slide', i === 0 && 'on']} src={s.src} alt="" style={`object-position:${s.pos}`} loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} />)}
+    {slides.map((s, i) => i === 0
+      ? <img class="pl-slide on" src={s.src} srcset={srcset(s)} sizes="(max-width: 600px) 60vw, 100vw" alt="" style={`object-position:${s.pos}`} fetchpriority="high" decoding="async" />
+      : <img class="pl-slide" data-src={s.src} data-srcset={srcset(s)} sizes="(max-width: 600px) 60vw, 100vw" alt="" style={`object-position:${s.pos}`} decoding="async" />)}
   </div>
   <div class="pl-wrap pl-hero-in">
     <span class="pl-badge" set:html={`${svg('pin', 12)} ${fmt(d.badge)}`} />
@@ -326,7 +239,7 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
     <a class="pl-btn" href="#formulario">{d.video.cta} <span set:html={svg('arrow', 16)} /></a>
   </div>
   <div class="pl-video-media">
-    <video src={`${IMG}/quirofano.mp4`} poster={`${IMG}/poster-quirofano.webp`} muted loop playsinline preload="none" data-auto></video>
+    <video data-src={`${IMG}/quirofano.mp4`} data-poster={`${IMG}/poster-quirofano.webp`} muted loop playsinline preload="none" data-auto></video>
     <span class="pl-video-cap">{d.video.cap}<br /><b>Médics Integral Salut</b></span>
   </div>
 </section>
@@ -475,7 +388,7 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
     </ul>
     <a class="pl-tel-big" href={TEL}><span set:html={svg('phone', 18)} /><span><small>{d.form.callDirect}</small>972 20 90 86</span></a>
   </div>
-  <div class="pl-form-card">
+  <div class="pl-form-card" id="info">
     <h3>{contacto.titulo}</h3>
     <p class="pl-sub">{contacto.texto}</p>
     <NativeForm form={contacto.form} lang={lang} cls="pl-nform" btnClass="pl-btn pl-btn-full" campos={true} />
@@ -485,7 +398,7 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
 
 <!-- 14 · CONTACTO / MAPA -->
 <section class="pl-map" id="contacto">
-  <iframe title={d.map.title} src={`https://maps.google.com/maps?q=Pla%C3%A7a+Poeta+Marquina+3%2C+17002+Girona&z=16&hl=${lang}&output=embed`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="pl-map-bg" aria-hidden="true" data-title={d.map.title} data-src={`https://maps.google.com/maps?q=Pla%C3%A7a+Poeta+Marquina+3%2C+17002+Girona&z=16&hl=${lang}&output=embed`}></div>
   <div class="pl-map-in">
     <span class="pl-line" /><span class="pl-kick">{d.map.kick}</span>
     <h2>{d.map.h2}</h2>
@@ -501,6 +414,21 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
   </div>
 </section>
 
+<!-- 14b · TEXTO DE LA CLÍNICA (literal de la portada anterior: se conserva por SEO) -->
+<section class="pl-seo">
+  <div class="pl-wrap pl-seo-in">
+    <div>
+      <span class="pl-kick">{clinica.kicker}</span>
+      {seoParas.map((p) => <p set:html={p} />)}
+    </div>
+    {texto && <div>
+      <span class="pl-kick pl-kick-o">{texto.kicker}</span>
+      <h2 class="pl-h2s">{texto.heading}</h2>
+      {texto.paras.map((p: string) => <p set:html={p} />)}
+    </div>}
+  </div>
+</section>
+
 <!-- 15 · TODOS LOS TRATAMIENTOS -->
 <section class="pl-todos">
   <div class="pl-wrap">
@@ -508,94 +436,37 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
     <div class="pl-chips">{todos.map((l: any) => <a href={l.href}>{l.text}</a>)}</div>
   </div>
 </section>
-</main>
-
-<footer class="pl-foot">
-  <div class="pl-wrap pl-foot-in">
-    <div>
-      <span class="pl-foot-logo">Médics<small>Integral Salut</small></span><span class="pl-line" />
-      <p class="pl-foot-addr">{a1}<br />{a2}</p>
-      <p class="pl-foot-hours" set:html={d.map.hoursText} />
-      <div class="pl-foot-legal-links">{F.legal.map((l: any) => <a href={l.href}>{l.text}</a>)}</div>
-    </div>
-    <div>
-      <span class="pl-kick pl-kick-o">{F.contactTitle}</span>
-      <p><a href={TEL} set:html={`${svg('phone', 14)} ${F.phone}`} /></p>
-      <p><a href={WA} target="_blank" rel="noopener">{F.wa} · WhatsApp</a></p>
-      <p><a href={`mailto:${F.email}`}>{F.email}</a></p>
-      <a class="pl-btn-line" href={ctaHref}>{C.cta.text}</a>
-    </div>
-    <div>
-      <span class="pl-kick pl-kick-o">{F.tratTitle}</span>
-      <ul class="pl-foot-list">{F.trat.map((l: any) => <li><a href={l.href}>{l.text}</a></li>)}</ul>
-    </div>
-    <div>
-      <span class="pl-kick pl-kick-o">{F.socialTitle}</span>
-      <ul class="pl-foot-list">
-        <li><a href="https://www.facebook.com/MedicsIntegralSalut" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="https://www.instagram.com/medicsintegralsalut/" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://www.youtube.com/channel/UChnKZOQRgevEvqw-NTaDHpw/videos" target="_blank" rel="noopener">YouTube</a></li>
-      </ul>
-      <span class="pl-kick pl-kick-o pl-foot-fin">{F.finTitle}</span>
-      <a class="pl-foot-finlogo" href={F.fin}><img src="/images/wp/2019/10/financiera.webp" alt="tu medicina financiada" width="179" height="47" loading="lazy" /></a>
-    </div>
-  </div>
-  <div class="pl-wrap pl-foot-legal"><span>© {new Date().getFullYear()} {F.brand}</span><span><a href={unitsPage}>{C.menu[2].text}</a><a href={F.fin}>{F.finTitle}</a></span></div>
-</footer>
-
-<a class="pl-wa" href={WA} target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.9-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
-
-<Consent lang={lang} />
+</div>
 
 <script>
-  // Hero: fundido entre fotos
-  const sl = [...document.querySelectorAll<HTMLElement>('.pl-slide')];
+  // Hero: fundido entre fotos. Solo la 1.ª se descarga al entrar (es la imagen principal); las demás, cuando la
+  // página ha terminado de cargar, y el carrusel arranca después.
+  const sl = [...document.querySelectorAll<HTMLImageElement>('.pl-slide')];
   let k = 0;
-  if (sl.length > 1 && !matchMedia('(prefers-reduced-motion: reduce)').matches)
-    setInterval(() => { sl[k].classList.remove('on'); k = (k + 1) % sl.length; sl[k].classList.add('on'); }, 5500);
-  // Cabecera sólida al bajar (y mientras hay un desplegable o el menú móvil abiertos)
-  const hd = document.querySelector<HTMLElement>('.pl-head')!;
-  const burger = document.getElementById('pl-burger')!;
-  const velo = document.getElementById('pl-velo')!;
-  const panel = document.getElementById('pl-panel')!;
-  const onS = () => hd.classList.toggle('solid', scrollY > 60);
-  addEventListener('scroll', onS, { passive: true }); onS();
-  const cerrarMenu = () => { document.body.classList.remove('pl-menu-open'); burger.setAttribute('aria-expanded', 'false'); };
-  burger.addEventListener('click', () => {
-    const a = document.body.classList.toggle('pl-menu-open');
-    burger.setAttribute('aria-expanded', a ? 'true' : 'false');
-  });
-  velo.addEventListener('click', cerrarMenu);
-  panel.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('a')) cerrarMenu(); });
-  // Desplegables (Unidades e idioma): clic, teclado y, con ratón, al pasar por encima
-  type Drop = { btn: HTMLElement; box: HTMLElement; set: (o: boolean) => void };
-  const drops: Drop[] = [];
-  const drop = (btn: HTMLElement | null, box: HTMLElement | null, hover: boolean) => {
-    if (!btn || !box) return;
-    let timer: number;
-    const set = (open: boolean) => {
-      clearTimeout(timer); box.hidden = !open; btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      hd.classList.toggle('drop-open', drops.some((x) => !x.box.hidden));
-    };
-    const me: Drop = { btn, box, set }; drops.push(me);
-    btn.addEventListener('click', (e) => { e.stopPropagation(); const open = box.hidden; drops.forEach((o) => o.set(false)); set(open); });
-    if (hover && matchMedia('(hover:hover) and (pointer:fine)').matches)
-      [btn, box].forEach((el) => {
-        el.addEventListener('mouseenter', () => { drops.forEach((o) => { if (o !== me) o.set(false); }); set(true); });
-        el.addEventListener('mouseleave', () => { clearTimeout(timer); timer = window.setTimeout(() => set(false), 220); });
-      });
+  const carrusel = () => {
+    sl.forEach((im) => { if (im.dataset.src) { im.srcset = im.dataset.srcset!; im.src = im.dataset.src; im.removeAttribute('data-src'); } });
+    if (sl.length > 1 && !matchMedia('(prefers-reduced-motion: reduce)').matches)
+      setInterval(() => { sl[k].classList.remove('on'); k = (k + 1) % sl.length; sl[k].classList.add('on'); }, 5500);
   };
-  drop(hd.querySelector('.pl-units-btn'), document.getElementById('pl-mega'), true);
-  drop(hd.querySelector('.pl-lang-btn'), document.getElementById('pl-langs'), false);
-  document.addEventListener('click', (e) => { if (!(e.target as HTMLElement).closest('.pl-mega,.pl-langsel')) drops.forEach((o) => o.set(false)); });
-  document.addEventListener('keydown', (e) => {
-    if (e.key !== 'Escape') return;
-    cerrarMenu();
-    const abierto = drops.find((o) => !o.box.hidden);
-    drops.forEach((o) => o.set(false));
-    abierto?.btn.focus();
-  });
-  addEventListener('resize', () => { if (innerWidth > 1180) cerrarMenu(); });
+  if (document.readyState === 'complete') setTimeout(carrusel, 1200); else addEventListener('load', () => setTimeout(carrusel, 1200));
+  // Mapa decorativo de fondo: el iframe de Google solo se crea si el visitante ha aceptado las cookies
+  const mapa = document.querySelector<HTMLElement>('.pl-map-bg');
+  const conCookies = () => { try { return localStorage.getItem('mis-consent') === 'granted'; } catch { return false; } };
+  const ponerMapa = () => {
+    if (!mapa || mapa.firstChild || !conCookies()) return;
+    const f = document.createElement('iframe');
+    f.src = mapa.dataset.src!; f.title = mapa.dataset.title!; f.loading = 'lazy'; f.tabIndex = -1;
+    f.referrerPolicy = 'no-referrer-when-downgrade';
+    mapa.appendChild(f);
+  };
+  ponerMapa();
+  document.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('[data-consent]')) setTimeout(ponerMapa, 50); });
+  // content-visibility (rendimiento) se apaga antes de saltar a un ancla de la página (botones a #formulario, «Solicitar
+  // valoración» de la cabecera a #info) o si se entra con #… en la dirección: así el navegador calcula la posición con las
+  // alturas reales (con alturas provisionales el desplazamiento suave se pasaba de largo).
+  const sinCV = () => document.documentElement.classList.add('pl-cv-off');
+  document.addEventListener('click', (e) => { const a = (e.target as HTMLElement).closest('a[href^="#"]'); if (a && a.getAttribute('href')!.length > 1) sinCV(); }, true);
+  if (location.hash.length > 1) { sinCV(); requestAnimationFrame(() => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView()); }
   // «Por qué elegirnos»: punto activo
   document.querySelectorAll('.pl-why-list li').forEach((li) => li.addEventListener('mouseenter', () => {
     document.querySelectorAll('.pl-why-list li').forEach((x) => x.classList.toggle('on', x === li));
@@ -614,12 +485,15 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
   const show = (n: number) => { o = n; ops.forEach((x, i) => x.classList.toggle('on', i === n)); dots.forEach((x, i) => x.classList.toggle('on', i === n)); };
   dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
   setInterval(() => show((o + 1) % ops.length), 7000);
-  // Vídeo: solo se carga y reproduce cuando entra en pantalla
+  // Vídeo: el póster y el vídeo (4 MB) solo se piden cuando la sección se acerca; se reproduce mientras está en pantalla
   const v = document.querySelector<HTMLVideoElement>('video[data-auto]');
-  if (v) new IntersectionObserver(([e]) => { if (e.isIntersecting) v.play().catch(() => {}); else v.pause(); }, { threshold: .3 }).observe(v);
-  // Aparición suave
-  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
-  document.querySelectorAll('main > section:not(.pl-hero)').forEach((s) => { s.classList.add('rv'); io.observe(s); });
+  if (v) {
+    new IntersectionObserver(([e], o) => { if (e.isIntersecting) { v.poster = v.dataset.poster!; v.src = v.dataset.src!; o.disconnect(); } }, { rootMargin: '600px 0px' }).observe(v);
+    new IntersectionObserver(([e]) => { if (e.isIntersecting && v.src) v.play().catch(() => {}); else v.pause(); }, { threshold: .3 }).observe(v);
+  }
+  // Aparición suave (clases propias pl-rv/pl-in: .rv/.on son las de la animación del resto de la web)
+  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('pl-in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.pl-home > section:not(.pl-hero)').forEach((s) => { s.classList.add('pl-rv'); io.observe(s); });
 </script>
 
 <script>
