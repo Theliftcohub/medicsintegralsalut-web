@@ -200,6 +200,44 @@
    "rino": "/unidades/cirugia-estetica-facial/rinoplastia-girona/",
    "obesidad": "/unidades/sobrepeso-y-obesidad/",
    "facial": "/unidades/cirugia-estetica-facial/"
+  },
+  "hist": {
+   "kick": "Testimonios en vídeo",
+   "h2": "Historias reales de <em>pacientes</em>",
+   "p": "Ellas y ellos cuentan, con sus palabras, cómo han vivido el proceso en Médics. Elige la cirugía que te interesa.",
+   "group": "Filtrar por tipo de cirugía",
+   "more": "Ver más historias",
+   "ig": "Ver en Instagram",
+   "anon": "Paciente de Medics",
+   "empty": "No hay historias en esta categoría.",
+   "src": "Más vídeos en",
+   "pend": "pendiente de confirmar",
+   "pendShort": "pendiente",
+   "close": "Cerrar",
+   "dlg": "Historia de paciente",
+   "view": "Ver la historia de {n} · {l}",
+   "vtitle": "Historia de {n}",
+   "consent": "Para reproducir este vídeo se carga contenido de Instagram, que puede usar cookies.",
+   "consentBtn": "Cargar el vídeo",
+   "f": {
+    "todas": "Todas",
+    "pecho": "Pecho",
+    "abdominoplastia": "Abdominoplastia",
+    "rinoplastia": "Rinoplastia",
+    "facial": "Facial",
+    "capilar": "Capilar",
+    "otros": "Otros",
+    "obesidad": "Obesidad"
+   },
+   "l": {
+    "pecho": "Cirugía de pecho",
+    "abdominoplastia": "Abdominoplastia",
+    "rinoplastia": "Rinoplastia",
+    "facial": "Cirugía facial",
+    "capilar": "Capilar",
+    "otros": "Otros",
+    "obesidad": "Obesidad"
+   }
   }
  },
  "ca": {
@@ -403,6 +441,44 @@
    "rino": "/ca/unitats/cirurgia-estetica-facial/rinoplastia-girona/",
    "obesidad": "/ca/unitats/sobrepes-i-obesitat/",
    "facial": "/ca/unitats/cirurgia-estetica-facial/"
+  },
+  "hist": {
+   "kick": "Testimonis en vídeo",
+   "h2": "Històries reals de <em>pacients</em>",
+   "p": "Elles i ells expliquen, amb les seves paraules, com han viscut el procés a Médics. Tria la cirurgia que t'interessa.",
+   "group": "Filtra per tipus de cirurgia",
+   "more": "Veure més històries",
+   "ig": "Veure a Instagram",
+   "anon": "Pacient de Medics",
+   "empty": "No hi ha històries en aquesta categoria.",
+   "src": "Més vídeos a",
+   "pend": "pendent de confirmar",
+   "pendShort": "pendent",
+   "close": "Tancar",
+   "dlg": "Història de pacient",
+   "view": "Veure la història de {n} · {l}",
+   "vtitle": "Història de {n}",
+   "consent": "Per reproduir aquest vídeo es carrega contingut d'Instagram, que pot utilitzar cookies.",
+   "consentBtn": "Carregar el vídeo",
+   "f": {
+    "todas": "Totes",
+    "pecho": "Pit",
+    "abdominoplastia": "Abdominoplàstia",
+    "rinoplastia": "Rinoplàstia",
+    "facial": "Facial",
+    "capilar": "Capil·lar",
+    "otros": "Altres",
+    "obesidad": "Obesitat"
+   },
+   "l": {
+    "pecho": "Cirurgia de pit",
+    "abdominoplastia": "Abdominoplàstia",
+    "rinoplastia": "Rinoplàstia",
+    "facial": "Cirurgia facial",
+    "capilar": "Capil·lar",
+    "otros": "Altres",
+    "obesidad": "Obesitat"
+   }
   }
  },
  "en": {
@@ -606,6 +682,44 @@
    "rino": "/en/units/cosmetic-facial-surgery-2/rhinoplasty-girona/",
    "obesidad": "/en/units/overweight-and-obesity-2/",
    "facial": "/en/units/cosmetic-facial-surgery-2/"
+  },
+  "hist": {
+   "kick": "Video testimonials",
+   "h2": "Real stories from <em>patients</em>",
+   "p": "They tell us, in their own words, what their journey at Médics was like. Pick the surgery you are interested in.",
+   "group": "Filter by type of surgery",
+   "more": "See more stories",
+   "ig": "View on Instagram",
+   "anon": "Medics patient",
+   "empty": "There are no stories in this category.",
+   "src": "More videos on",
+   "pend": "pending confirmation",
+   "pendShort": "pending",
+   "close": "Close",
+   "dlg": "Patient story",
+   "view": "Watch {n}'s story · {l}",
+   "vtitle": "{n}'s story",
+   "consent": "Playing this video loads content from Instagram, which may use cookies.",
+   "consentBtn": "Load the video",
+   "f": {
+    "todas": "All",
+    "pecho": "Breast",
+    "abdominoplastia": "Abdominoplasty",
+    "rinoplastia": "Rhinoplasty",
+    "facial": "Facial",
+    "capilar": "Hair",
+    "otros": "Other",
+    "obesidad": "Obesity"
+   },
+   "l": {
+    "pecho": "Breast surgery",
+    "abdominoplastia": "Abdominoplasty",
+    "rinoplastia": "Rhinoplasty",
+    "facial": "Facial surgery",
+    "capilar": "Hair surgery",
+    "otros": "Other",
+    "obesidad": "Obesity surgery"
+   }
   }
  },
  "fr": {
@@ -809,6 +923,44 @@
    "rino": "/fr/unites/chirurgie-esthetique-faciale/rhinoplastie-gerone/",
    "obesidad": "/fr/unites/surpoids-et-obesite-2/",
    "facial": "/fr/unites/chirurgie-esthetique-faciale/"
+  },
+  "hist": {
+   "kick": "Témoignages en vidéo",
+   "h2": "Histoires vraies de <em>patients</em>",
+   "p": "Elles et ils racontent, avec leurs mots, leur parcours chez Médics. Choisissez la chirurgie qui vous intéresse.",
+   "group": "Filtrer par type de chirurgie",
+   "more": "Voir plus d'histoires",
+   "ig": "Voir sur Instagram",
+   "anon": "Patient de Medics",
+   "empty": "Aucune histoire dans cette catégorie.",
+   "src": "Plus de vidéos sur",
+   "pend": "à confirmer",
+   "pendShort": "à confirmer",
+   "close": "Fermer",
+   "dlg": "Histoire de patient",
+   "view": "Voir l'histoire de {n} · {l}",
+   "vtitle": "Histoire de {n}",
+   "consent": "Pour lire cette vidéo, du contenu d'Instagram est chargé ; il peut utiliser des cookies.",
+   "consentBtn": "Charger la vidéo",
+   "f": {
+    "todas": "Toutes",
+    "pecho": "Poitrine",
+    "abdominoplastia": "Abdominoplastie",
+    "rinoplastia": "Rhinoplastie",
+    "facial": "Visage",
+    "capilar": "Capillaire",
+    "otros": "Autres",
+    "obesidad": "Obésité"
+   },
+   "l": {
+    "pecho": "Chirurgie mammaire",
+    "abdominoplastia": "Abdominoplastie",
+    "rinoplastia": "Rhinoplastie",
+    "facial": "Chirurgie du visage",
+    "capilar": "Chirurgie capillaire",
+    "otros": "Autres",
+    "obesidad": "Chirurgie de l'obésité"
+   }
   }
  },
  "ru": {
@@ -1012,6 +1164,44 @@
    "rino": "/ru/единицы/пластическая-хирургия-лица/ринопластика-жирона/",
    "obesidad": "/ru/единицы/избыточный-вес-и-ожирение-2/",
    "facial": "/ru/единицы/пластическая-хирургия-лица/"
+  },
+  "hist": {
+   "kick": "Видеоотзывы",
+   "h2": "Реальные истории <em>пациентов</em>",
+   "p": "Они рассказывают своими словами, как прошли свой путь в Médics. Выберите интересующую вас операцию.",
+   "group": "Фильтр по виду операции",
+   "more": "Показать ещё истории",
+   "ig": "Смотреть в Instagram",
+   "anon": "Пациент Medics",
+   "empty": "В этой категории пока нет историй.",
+   "src": "Больше видео в",
+   "pend": "ожидает подтверждения",
+   "pendShort": "ожидает",
+   "close": "Закрыть",
+   "dlg": "История пациента",
+   "view": "Смотреть историю: {n} · {l}",
+   "vtitle": "История: {n}",
+   "consent": "Для просмотра видео загружается контент Instagram, который может использовать файлы cookie.",
+   "consentBtn": "Загрузить видео",
+   "f": {
+    "todas": "Все",
+    "pecho": "Грудь",
+    "abdominoplastia": "Абдоминопластика",
+    "rinoplastia": "Ринопластика",
+    "facial": "Лицо",
+    "capilar": "Волосы",
+    "otros": "Другое",
+    "obesidad": "Ожирение"
+   },
+   "l": {
+    "pecho": "Операции на груди",
+    "abdominoplastia": "Абдоминопластика",
+    "rinoplastia": "Ринопластика",
+    "facial": "Операции на лице",
+    "capilar": "Хирургия волос",
+    "otros": "Другое",
+    "obesidad": "Лечение ожирения"
+   }
   }
  },
  "uk": {
@@ -1215,6 +1405,44 @@
    "rino": "/uk/одиниці/естетична-хірургія-обличчя-2/ринопластика-в-жироні/",
    "obesidad": "/uk/одиниці/надмірна-вага-та-ожиріння-2/",
    "facial": "/uk/одиниці/естетична-хірургія-обличчя-2/"
+  },
+  "hist": {
+   "kick": "Відеовідгуки",
+   "h2": "Реальні історії <em>пацієнтів</em>",
+   "p": "Вони розповідають своїми словами, як пройшли свій шлях у Médics. Оберіть операцію, яка вас цікавить.",
+   "group": "Фільтр за видом операції",
+   "more": "Показати ще історії",
+   "ig": "Дивитися в Instagram",
+   "anon": "Пацієнт Medics",
+   "empty": "У цій категорії поки немає історій.",
+   "src": "Більше відео в",
+   "pend": "очікує підтвердження",
+   "pendShort": "очікує",
+   "close": "Закрити",
+   "dlg": "Історія пацієнта",
+   "view": "Дивитися історію: {n} · {l}",
+   "vtitle": "Історія: {n}",
+   "consent": "Для перегляду відео завантажується вміст Instagram, який може використовувати файли cookie.",
+   "consentBtn": "Завантажити відео",
+   "f": {
+    "todas": "Усі",
+    "pecho": "Груди",
+    "abdominoplastia": "Абдомінопластика",
+    "rinoplastia": "Ринопластика",
+    "facial": "Обличчя",
+    "capilar": "Волосся",
+    "otros": "Інше",
+    "obesidad": "Ожиріння"
+   },
+   "l": {
+    "pecho": "Операції на грудях",
+    "abdominoplastia": "Абдомінопластика",
+    "rinoplastia": "Ринопластика",
+    "facial": "Операції на обличчі",
+    "capilar": "Хірургія волосся",
+    "otros": "Інше",
+    "obesidad": "Лікування ожиріння"
+   }
   }
  }
 }
