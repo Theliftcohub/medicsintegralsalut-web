@@ -61,14 +61,15 @@ const TEL = 'tel:+34972209086';
 const fmt = (s: string, v: Record<string, string | number> = {}) =>
   Object.entries({ since: r.since, nota, count: r.count, anios, ...v }).reduce((a, [k, x]) => a.split(`{${k}}`).join(String(x)), s);
 
-// Hero: carrusel de 3 fotos de Girona y la Costa Brava (petición del cliente 07/10/2026), cada una con su titular, línea en
+// Hero: carrusel de 3 fotos de Girona y la Costa Brava (petición del cliente 07/10/2026; orden de las fotos 07/10: playa de
+// Sant Feliu, chica sobre el Onyar, casas del Onyar; los textos no cambian de posición), cada una con su titular, línea en
 // cursiva y frase (src/data/propuesta-i18n.json → hero.slides). El titular de la 1.ª es el H1 de la portada (d.heroH1).
 // Cada foto tiene encuadre horizontal (1280/1920) y vertical recortado alrededor del motivo (-movil-640/1080) para móvil y
 // tablet en vertical (≤820 px). En móvil, sizes declara el 60 % del ancho: los de densidad 2,6-3 bajan la de 640 px (LCP).
 const slides = [
-  { n: 'hero-onyar', h: 853, mv: [640, 1080], pos: '45% 55%', posM: '50% 50%' },
   { n: 'hero-sant-feliu', h: 720, mv: [640, 771], pos: '70% 45%', posM: '50% 50%' },
-  { n: 'hero-onyar-persona', h: 720, mv: [640, 771], pos: '72% 40%', posM: '50% 40%' },
+  { n: 'hero-onyar-persona', h: 720, mv: [640, 640], pos: '72% 40%', posM: '50% 0%' },
+  { n: 'hero-onyar', h: 853, mv: [640, 1080], pos: '45% 55%', posM: '50% 50%' },
 ].map((x) => ({
   ...x,
   src: `${IMG}/${x.n}-1280.webp`,
