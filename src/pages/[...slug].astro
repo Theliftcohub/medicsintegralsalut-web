@@ -8,6 +8,8 @@ import sharp from 'sharp';
 // que se ven al cargar, para que el texto no cambie de tamaño al llegar la fuente (CLS en móvil).
 import raleway300 from '@fontsource/raleway/files/raleway-latin-300-normal.woff2?url';
 import raleway200 from '@fontsource/raleway/files/raleway-latin-200-normal.woff2?url';
+// portada en ru/uk: el texto del hero va en Open Sans (cirílico); precargada, no cambia de tamaño al llegar (CLS)
+import openSansCyr300 from '@fontsource/open-sans/files/open-sans-cyrillic-300-normal.woff2?url';
 import ui from '../i18n/ui.json';
 import { prepararBloques } from '../lib/paginas';
 
@@ -60,7 +62,7 @@ const blocks = kind === 'page' ? prepararBloques(d.blocks, d.title) : [];
 const seo = kind === 'post' ? { title: d.seoTitle ?? d.title, description: d.description, canonical: d.canonical, robots: d.robots, ogImage: d.image } : d.seo;
 ---
 <Base seo={seo} lang={d.lang} alternates={alternates} graph={graph} breadcrumbs={d.breadcrumbs ?? []}
-  precargar={esPortada ? (['ru', 'uk'].includes(d.lang) ? [] : ['/fonts/figtree-latin.woff2'])
+  precargar={esPortada ? (['ru', 'uk'].includes(d.lang) ? [openSansCyr300] : ['/fonts/figtree-latin.woff2'])
     : kind === 'page' && d.theme === 'portada' ? (['ru', 'uk'].includes(d.lang) ? [] : ['/fonts/bricolage-800-latin.woff2', '/fonts/figtree-latin.woff2'])
     : conRaleway ? [raleway300, raleway200] : []}>
   {esPortada

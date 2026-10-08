@@ -61,15 +61,20 @@ const TEL = 'tel:+34972209086';
 const fmt = (s: string, v: Record<string, string | number> = {}) =>
   Object.entries({ since: r.since, nota, count: r.count, anios, ...v }).reduce((a, [k, x]) => a.split(`{${k}}`).join(String(x)), s);
 
+// Hero: carrusel de 3 fotos de Girona y la Costa Brava (petición del cliente 07/10/2026), cada una con su titular, línea en
+// cursiva y frase (src/data/propuesta-i18n.json → hero.slides). El titular de la 1.ª es el H1 de la portada (d.heroH1).
+// Cada foto tiene encuadre horizontal (1280/1920) y vertical recortado alrededor del motivo (-movil-640/1080) para móvil y
+// tablet en vertical (≤820 px). En móvil, sizes declara el 60 % del ancho: los de densidad 2,6-3 bajan la de 640 px (LCP).
 const slides = [
-  { src: `${IMG}/hero-playa.webp`, w: 1045, pos: '60% 30%' },
-  { src: `${IMG}/hero-cuerpo.webp`, w: 1195, pos: '70% 30%' },
-  { src: `${IMG}/hero-perfil.webp`, w: 1195, pos: '70% 20%' },
-  { src: `${IMG}/hero-facial.webp`, w: 1195, pos: '70% 25%' },
-];
-// versión de 720 px para móvil (-720.webp): la foto del hero es la imagen principal (LCP). En sizes se declara el 60 % del
-// ancho en móvil para que también los móviles de densidad 2,6-3 bajen la de 720 px (≈1,75×, suficiente bajo el degradado)
-const srcset = (s: { src: string; w: number }) => `${s.src.replace('.webp', '-720.webp')} 720w, ${s.src} ${s.w}w`;
+  { n: 'hero-onyar', h: 853, mv: [640, 1080], pos: '45% 55%', posM: '50% 50%' },
+  { n: 'hero-sant-feliu', h: 720, mv: [640, 771], pos: '70% 45%', posM: '50% 50%' },
+  { n: 'hero-onyar-persona', h: 720, mv: [640, 771], pos: '72% 40%', posM: '50% 40%' },
+].map((x) => ({
+  ...x,
+  src: `${IMG}/${x.n}-1280.webp`,
+  srcset: `${IMG}/${x.n}-1280.webp 1280w, ${IMG}/${x.n}-1920.webp 1920w`,
+  srcsetM: `${IMG}/${x.n}-movil-640.webp ${x.mv[0]}w, ${IMG}/${x.n}-movil-1080.webp ${x.mv[1]}w`,
+}));
 
 const reelsBase = [
   { img: 'reel-pecho-sin-protesis', href: 'https://www.instagram.com/p/DZu3tjeFKb_/' },
@@ -102,6 +107,8 @@ const equipoBase = [
   { f: true, n: 'Claudia Vera Ching', img: 'dra-claudia-vera' },
 ];
 const equipo = equipoBase.map((x, i) => ({ n: `${x.f ? d.team.dra : d.team.dr} ${x.n}`, r: d.team.roles[i], img: x.img }));
+// textos del hero (cifras reales: site.json y número de médicos del equipo)
+const hs = (d.hero.slides as any[]).map((x, i) => ({ ...x, t: i === 0 ? d.heroH1 : fmt(x.t, { equipo: equipo.length }), t2: fmt(x.t2), p: fmt(x.p, { equipo: equipo.length }).replace('★', '<span class="pl-stars">★</span>') }));
 
 const todos = unidades.unidades.flatMap((u: any) => u.links).filter((l: any, i: number, a: any[]) => a.findIndex((x: any) => x.href === l.href) === i);
 
@@ -126,26 +133,42 @@ const icons: Record<string, string> = {
 const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[k]}</svg>`;
 ---
 <div class="pl pl-home">
-<!-- 1 · HERO -->
-<section class="pl-hero" aria-label="Medics Integral Salut">
+<!-- 1 · HERO: carrusel interactivo (pestañas con progreso, flechas del teclado, deslizar en móvil, pausa) -->
+<section class="pl-hero" aria-roledescription="carrusel" aria-label={d.hero.aria}>
   <div class="pl-hero-bg" aria-hidden="true">
-    {slides.map((s, i) => i === 0
-      ? <img class="pl-slide on" src={s.src} srcset={srcset(s)} sizes="(max-width: 600px) 60vw, 100vw" alt="" style={`object-position:${s.pos}`} fetchpriority="high" decoding="async" />
-      : <img class="pl-slide" data-src={s.src} data-srcset={srcset(s)} sizes="(max-width: 600px) 60vw, 100vw" alt="" style={`object-position:${s.pos}`} decoding="async" />)}
+    {slides.map((s, i) => (
+      <picture class:list={['pl-slide', i === 0 && 'on']}>
+        {i === 0
+          ? <source media="(max-width: 820px)" srcset={s.srcsetM} sizes="60vw" />
+          : <source media="(max-width: 820px)" data-srcset={s.srcsetM} sizes="60vw" />}
+        {i === 0
+          ? <img src={s.src} srcset={s.srcset} sizes="100vw" width="1280" height={s.h} alt="" fetchpriority="high" decoding="async" style={`--pos:${s.pos};--pos-m:${s.posM}`} />
+          : <img data-src={s.src} data-srcset={s.srcset} sizes="100vw" width="1280" height={s.h} alt="" decoding="async" style={`--pos:${s.pos};--pos-m:${s.posM}`} />}
+      </picture>
+    ))}
   </div>
   <div class="pl-wrap pl-hero-in">
-    <span class="pl-badge" set:html={`${svg('pin', 12)} ${fmt(d.badge)}`} />
-    <h1 set:html={d.heroH1} />
-    <p class="pl-lead">{d.heroLead}</p>
+    <div class="pl-hs-textos">
+      {hs.map((x, i) => (
+        <div class:list={['pl-hs-t', i === 0 && 'on']} role="group" aria-roledescription="diapositiva" aria-label={`${i + 1} / ${hs.length}`} aria-hidden={i === 0 ? undefined : 'true'}>
+          {i === 0 ? <h1 class="pl-ht" set:html={x.t} /> : <p class="pl-ht" set:html={x.t} />}
+          <p class="pl-ht2">{x.t2}</p>
+          <p class="pl-lead" set:html={x.p} />
+        </div>
+      ))}
+    </div>
     <div class="pl-ctas">
       <a class="pl-btn pl-btn-lg" href="#formulario">{d.heroCta} <span set:html={svg('arrow', 16)} /></a>
       <a class="pl-btn-line" href={TEL}><span set:html={svg('phone', 16)} /> 972 20 90 86</a>
     </div>
-    <ul class="pl-trust">
-      <li><span class="pl-stars">★★★★★</span> {fmt(d.trust[0])}</li>
-      <li set:html={`${svg('check', 15)} ${fmt(d.trust[1])}`} />
-      <li set:html={`${svg('shield', 15)} ${fmt(d.trust[2])}`} />
-    </ul>
+    <div class="pl-hs-nav">
+      {hs.map((x, i) => (
+        <button type="button" class:list={['pl-hs-tab', i === 0 && 'on']} aria-label={d.hero.ir.replace('{n}', String(i + 1)) + ': ' + x.tab} aria-current={i === 0 ? 'true' : undefined}>
+          <span class="pl-hs-bar"><i></i></span><b>{String(i + 1).padStart(2, '0')}</b><span class="pl-hs-lab">{x.tab}</span>
+        </button>
+      ))}
+      <button type="button" class="pl-hs-pausa" aria-label={d.hero.pausa} data-pausa={d.hero.pausa} data-seguir={d.hero.seguir}><span aria-hidden="true"></span></button>
+    </div>
   </div>
 </section>
 
@@ -439,16 +462,47 @@ const svg = (k: string, s = 18) => `<svg width="${s}" height="${s}" viewBox="0 0
 </div>
 
 <script>
-  // Hero: fundido entre fotos. Solo la 1.ª se descarga al entrar (es la imagen principal); las demás, cuando la
-  // página ha terminado de cargar, y el carrusel arranca después.
-  const sl = [...document.querySelectorAll<HTMLImageElement>('.pl-slide')];
+  // Hero: carrusel. Solo la 1.ª foto se descarga al entrar (imagen principal); las demás cuando la página ha cargado.
+  // Avanza al terminar la barra de progreso de la pestaña activa (animación CSS); se pausa con el botón, al apuntar o
+  // enfocar las pestañas y fuera de pantalla; sin avance automático con «reducir movimiento». Flechas del teclado y deslizar.
+  const hero = document.querySelector<HTMLElement>('.pl-hero')!;
+  const sl = [...hero.querySelectorAll<HTMLElement>('.pl-slide')];
+  const tx = [...hero.querySelectorAll<HTMLElement>('.pl-hs-t')];
+  const tabs = [...hero.querySelectorAll<HTMLButtonElement>('.pl-hs-tab')];
+  const pausa = hero.querySelector<HTMLButtonElement>('.pl-hs-pausa')!;
   let k = 0;
-  const carrusel = () => {
-    sl.forEach((im) => { if (im.dataset.src) { im.srcset = im.dataset.srcset!; im.src = im.dataset.src; im.removeAttribute('data-src'); } });
-    if (sl.length > 1 && !matchMedia('(prefers-reduced-motion: reduce)').matches)
-      setInterval(() => { sl[k].classList.remove('on'); k = (k + 1) % sl.length; sl[k].classList.add('on'); }, 5500);
+  const cargarFotos = () => hero.querySelectorAll<HTMLElement>('[data-srcset]').forEach((el) => {
+    (el as HTMLImageElement).srcset = el.dataset.srcset!; el.removeAttribute('data-srcset');
+    if (el.dataset.src) { (el as HTMLImageElement).src = el.dataset.src; el.removeAttribute('data-src'); }
+  });
+  const ir = (n: number) => {
+    cargarFotos();
+    k = (n + sl.length) % sl.length;
+    sl.forEach((x, i) => x.classList.toggle('on', i === k));
+    tx.forEach((x, i) => { x.classList.toggle('on', i === k); if (i === k) x.removeAttribute('aria-hidden'); else x.setAttribute('aria-hidden', 'true'); });
+    tabs.forEach((b, i) => { b.classList.toggle('on', i === k); if (i === k) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
   };
-  if (document.readyState === 'complete') setTimeout(carrusel, 1200); else addEventListener('load', () => setTimeout(carrusel, 1200));
+  tabs.forEach((b, i) => {
+    b.addEventListener('click', () => ir(i));
+    b.querySelector('i')!.addEventListener('animationend', () => { if (b.classList.contains('on')) ir(k + 1); });
+  });
+  hero.querySelector('.pl-hs-nav')!.addEventListener('keydown', (e) => {
+    const t = (e as KeyboardEvent).key;
+    if (t === 'ArrowRight' || t === 'ArrowLeft') { e.preventDefault(); ir(k + (t === 'ArrowRight' ? 1 : -1)); tabs[k].focus(); }
+  });
+  pausa.addEventListener('click', () => {
+    const parado = hero.classList.toggle('pl-hs-parado');
+    pausa.setAttribute('aria-label', parado ? pausa.dataset.seguir! : pausa.dataset.pausa!);
+  });
+  let x0 = 0, y0 = 0;
+  hero.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+  hero.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) ir(k + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+  new IntersectionObserver(([e]) => hero.classList.toggle('pl-hs-fuera', !e.isIntersecting)).observe(hero);
+  const arrancar = () => setTimeout(() => { cargarFotos(); hero.classList.add('pl-hs-run'); }, 1200);
+  if (document.readyState === 'complete') arrancar(); else addEventListener('load', arrancar);
   // Mapa decorativo de fondo: el iframe de Google solo se crea si el visitante ha aceptado las cookies
   const mapa = document.querySelector<HTMLElement>('.pl-map-bg');
   const conCookies = () => { try { return localStorage.getItem('mis-consent') === 'granted'; } catch { return false; } };

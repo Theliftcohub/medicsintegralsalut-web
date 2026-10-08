@@ -238,6 +238,31 @@
     "otros": "Otros",
     "obesidad": "Obesidad"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut en Girona",
+   "pausa": "Pausar el carrusel",
+   "seguir": "Reanudar el carrusel",
+   "ir": "Ver la diapositiva {n}",
+   "slides": [
+    {
+     "tab": "Girona",
+     "t2": "desde {since}",
+     "p": "Cirugía plástica y medicina estética con resultados naturales. ★ {nota} · más de {count} reseñas en Google."
+    },
+    {
+     "tab": "Costa Brava",
+     "t": "Más de {anios} años cuidando",
+     "t2": "a pacientes de Girona y la Costa Brava",
+     "p": "{equipo} especialistas en un mismo equipo. Operamos en Teknon y Tres Torres."
+    },
+    {
+     "tab": "Resultados",
+     "t": "Resultados naturales",
+     "t2": "que se notan, no se ven",
+     "p": "Más de {count} pacientes nos recomiendan en Google. Tu primera valoración es gratuita."
+    }
+   ]
   }
  },
  "ca": {
@@ -479,6 +504,31 @@
     "otros": "Altres",
     "obesidad": "Obesitat"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut a Girona",
+   "pausa": "Pausar el carrusel",
+   "seguir": "Reprendre el carrusel",
+   "ir": "Veure la diapositiva {n}",
+   "slides": [
+    {
+     "tab": "Girona",
+     "t2": "des del {since}",
+     "p": "Cirurgia plàstica i medicina estètica amb resultats naturals. ★ {nota} · més de {count} ressenyes a Google."
+    },
+    {
+     "tab": "Costa Brava",
+     "t": "Més de {anios} anys cuidant",
+     "t2": "pacients de Girona i la Costa Brava",
+     "p": "{equipo} especialistes en un mateix equip. Operem a Teknon i Tres Torres."
+    },
+    {
+     "tab": "Resultats",
+     "t": "Resultats naturals",
+     "t2": "que es noten, no es veuen",
+     "p": "Més de {count} pacients ens recomanen a Google. La primera valoració és gratuïta."
+    }
+   ]
   }
  },
  "en": {
@@ -720,6 +770,31 @@
     "otros": "Other",
     "obesidad": "Obesity surgery"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut in Girona",
+   "pausa": "Pause the carousel",
+   "seguir": "Resume the carousel",
+   "ir": "Show slide {n}",
+   "slides": [
+    {
+     "tab": "Girona",
+     "t2": "since {since}",
+     "p": "Plastic surgery and aesthetic medicine with natural results. ★ {nota} · over {count} Google reviews."
+    },
+    {
+     "tab": "Costa Brava",
+     "t": "Over {anios} years caring",
+     "t2": "for patients from Girona and the Costa Brava",
+     "p": "{equipo} specialists in one team. We operate at Teknon and Tres Torres."
+    },
+    {
+     "tab": "Results",
+     "t": "Natural results",
+     "t2": "noticeable, never obvious",
+     "p": "Over {count} patients recommend us on Google. Your first consultation is free."
+    }
+   ]
   }
  },
  "fr": {
@@ -961,6 +1036,31 @@
     "otros": "Autres",
     "obesidad": "Chirurgie de l'obésité"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut à Gérone",
+   "pausa": "Mettre le carrousel en pause",
+   "seguir": "Reprendre le carrousel",
+   "ir": "Voir la diapositive {n}",
+   "slides": [
+    {
+     "tab": "Gérone",
+     "t2": "depuis {since}",
+     "p": "Chirurgie plastique et médecine esthétique aux résultats naturels. ★ {nota} · plus de {count} avis Google."
+    },
+    {
+     "tab": "Costa Brava",
+     "t": "Plus de {anios} ans à prendre soin",
+     "t2": "des patients de Gérone et de la Costa Brava",
+     "p": "{equipo} spécialistes dans une même équipe. Nous opérons à Teknon et à Tres Torres."
+    },
+    {
+     "tab": "Résultats",
+     "t": "Des résultats naturels",
+     "t2": "qui se remarquent sans se voir",
+     "p": "Plus de {count} patients nous recommandent sur Google. Votre première consultation est gratuite."
+    }
+   ]
   }
  },
  "ru": {
@@ -1202,6 +1302,31 @@
     "otros": "Другое",
     "obesidad": "Лечение ожирения"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut в Жироне",
+   "pausa": "Остановить карусель",
+   "seguir": "Продолжить карусель",
+   "ir": "Показать слайд {n}",
+   "slides": [
+    {
+     "tab": "Жирона",
+     "t2": "с {since} года",
+     "p": "Пластическая хирургия и эстетическая медицина с естественным результатом. ★ {nota} · более {count} отзывов в Google."
+    },
+    {
+     "tab": "Коста-Брава",
+     "t": "Более {anios} лет заботимся",
+     "t2": "о пациентах из Жироны и Коста-Бравы",
+     "p": "{equipo} специалистов в одной команде. Оперируем в клиниках Teknon и Tres Torres."
+    },
+    {
+     "tab": "Результаты",
+     "t": "Естественный результат",
+     "t2": "заметен результат, а не вмешательство",
+     "p": "Более {count} пациентов рекомендуют нас в Google. Первая консультация бесплатна."
+    }
+   ]
   }
  },
  "uk": {
@@ -1443,6 +1568,31 @@
     "otros": "Інше",
     "obesidad": "Лікування ожиріння"
    }
+  },
+  "hero": {
+   "aria": "Médics Integral Salut у Жироні",
+   "pausa": "Зупинити карусель",
+   "seguir": "Продовжити карусель",
+   "ir": "Показати слайд {n}",
+   "slides": [
+    {
+     "tab": "Жирона",
+     "t2": "з {since} року",
+     "p": "Пластична хірургія та естетична медицина з природним результатом. ★ {nota} · понад {count} відгуків у Google."
+    },
+    {
+     "tab": "Коста-Брава",
+     "t": "Понад {anios} років піклуємося",
+     "t2": "про пацієнтів з Жирони та Коста-Брави",
+     "p": "{equipo} фахівців в одній команді. Оперуємо в клініках Teknon і Tres Torres."
+    },
+    {
+     "tab": "Результати",
+     "t": "Природний результат",
+     "t2": "помітний результат, а не втручання",
+     "p": "Понад {count} пацієнтів рекомендують нас у Google. Перша консультація безкоштовна."
+    }
+   ]
   }
  }
 }
